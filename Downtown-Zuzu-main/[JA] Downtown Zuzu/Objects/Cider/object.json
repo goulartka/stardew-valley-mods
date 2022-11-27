@@ -1,0 +1,17 @@
+{
+    "Name": "Cider",
+    "Price": 200,
+    "Description": "A bottle of crisp, apple cider. It looks lovely.",
+    "Category": "Cooking",
+    "Edibility": 100,
+    "EdibleIsDrink": "true",
+    "IsColored": "false",
+   "NameLocalization" : 
+		{ 
+		"pt" : "Cidra",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Uma garrafa de cidra de maçã. Parece otima",
+		}
+}

@@ -1,0 +1,24 @@
+{
+    "Name": "Qi Blade",
+    "Description": "A mysterious dagger given to you by Mr Qi. It feels... as if it were from another dimension.",
+    "Type": "dagger",
+    "MinimumDamage": 0,
+    "MaximumDamage": 150,
+    "Knockback": 1,
+    "Speed": 1,
+    "Accuracy": 70,
+    "Defense": -5,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.1,
+    "CritMultiplier": 1.5,
+	"NameLocalization" : 
+		{ 
+		"pt" : "Adaga Qi",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Uma adaga misteriosa dada a você pelo Sr. Qi. Parece... como se fosse de outra dimensão",
+		}	
+}

@@ -1,0 +1,17 @@
+{
+    "Name": "Strawberry Popsicle",
+    "Price": 125,
+    "Description": "A block of strawberry flavoured ice on a wooden stick. It's sweet.",
+    "Category": "Cooking",
+    "Edibility": 43,
+    "EdibleIsDrink": "false",
+    "IsColored": "false",
+   "NameLocalization" : 
+		{ 
+		"pt" : "Picolé de morango",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Um Picolé com sabor de morango. É muito doce.",
+		}
+}

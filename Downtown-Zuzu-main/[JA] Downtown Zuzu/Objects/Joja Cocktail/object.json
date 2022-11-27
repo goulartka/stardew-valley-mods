@@ -1,0 +1,17 @@
+{
+    "Name": "Joja Cocktail",
+    "Price": 200,
+    "Description": "A bright blue cocktail. It looks bad for you, but who cares?",
+    "Category": "Cooking",
+    "Edibility": 30,
+    "EdibleIsDrink": "true",
+    "IsColored": "false",
+   "NameLocalization" : 
+		{ 
+		"pt" : "Coquetel Joja",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Um coquetel azul brilhante. Parece ruim para você, mas quem se importa?",
+		}
+}

@@ -1,0 +1,163 @@
+{
+"Changes": [	
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gabriel",
+	    "Entries": {
+	
+	"{{Random: Mon, Tue, Wed, Thu, Fri, Sat, Sun}}_inlaw_Zinnia": "{{Random: Olá. Como vai Zinnia? Fico feliz que ela esteja tão feliz com você.#$b#Vocês dois são o casal perfeito. 88 Olá, @. Diga à Zinnia que sinto falta dela!#$b#Está bem quieto por aqui agora que ela se foi.#$b#Ainda estou feliz por ela ter encontrado você! |inputSeparator=88}}",
+
+	
+	"Introduction": "Oh, olá. Eu sou Gabriel.#$b#Eu dirijo a Ala de Pesquisa de Monstros na Guilda dos Aventureiros.",
+
+	
+	"spring_1": "Olá. Espero que você tenha um bom ano. Estou planejando fazer ainda mais trabalho do que no ano passado!",
+	"spring_12": "O Festival do Ovo é amanhã? Hmm... eu não gosto muito de festivais, mas gosto de comer ovos, então provavelmente vou.",
+	"spring_23": "*Gulp* D-desculpe se eu pareço um pouco fora disso hoje.$u#$b#Estou um pouco nervoso para o baile amanhã...$u#$b#Todo mundo assistindo e julgando você... é assustador!$s",
+	"spring_28": "A primavera já acabou? Uau. Trabalhei tanto que o tempo voou.",
+	"spring_1_2": "Olá. Espero que você tenha um bom ano. Estou planejando fazer ainda mais trabalho do que no ano passado!",
+	"spring_12_2": "O Festival do Ovo é amanhã? Hmm... eu não gosto muito de festivais, mas gosto de comer ovos, então provavelmente vou.",
+	"spring_23_2": "*Gulp* D-desculpe se eu pareço um pouco fora disso hoje.$u#$b#Estou um pouco nervoso para o baile amanhã...$u#$b#Todo mundo assistindo e julgando você... é assustador!$s",
+	"spring_28_2": "A primavera já acabou? Nossa. Eu tenho trabalhado tanto que o tempo voou.",
+	
+	
+	"summer_1": "Feliz verão, @.#$b#O verão era minha estação favorita quando criança porque significava menos tempo necessário para a escola e mais tempo que eu poderia gastar em minha pesquisa de monstros.",
+	"summer_7": "Hoje é aniversário da minha irmã.#$b#Ainda me lembro do dia em que ela nasceu. Eu tinha uns 8 anos, acho...#$b#Foi um dos dias mais felizes para nossa família.$h",
+	"summer_10": "Provavelmente vou colocar um pouco de manga na sopa amanhã. É o meu favorito desde criança.",
+	"summer_27": "O festival de amanhã é um dos que eu estou realmente ansioso.#$b#Você sabia que os Águas-viva do luar costumavam ser hostis?$h#$b#Conseguimos formar uma conexão pacífica com eles depois de anos de conflito.",
+	"summer_28": "Metade do ano já está feito. Eu sinto que não cheguei muito longe com minha pesquisa até agora...$s",
+	"summer_1_2": "Feliz verão, @.#$b#O verão era minha estação favorita quando criança porque significava menos tempo necessário para a escola e mais tempo que eu poderia gastar em minha pesquisa de monstros.",
+	"summer_7_2": "Hoje é aniversário da minha irmã.#$b#Ainda me lembro do dia em que ela nasceu. Eu tinha uns 8 anos, acho...#$b#Foi um dos dias mais felizes para nossa família.$h",
+	"summer_10_2": "Provavelmente vou colocar um pouco de manga na sopa amanhã. É o meu favorito desde criança.",
+	"summer_27_2": "O festival de amanhã é um dos que eu estou realmente ansioso.#$b#Você sabia que as Geléias do luar costumavam ser hostis?$h#$b#Conseguimos formar uma conexão pacífica com eles depois de anos de conflito.",
+	"summer_28_2": "Metade do ano já passou. Eu sinto que não cheguei muito longe com minha pesquisa até agora...$s",
+
+	
+	"fall_1": "O chão alaranjado do outono sempre me deixavam triste quando eu era criança. eu não gostava muito da escola.",
+	"fall_15": "Você vai montar uma vitrine para a feira amanhã?#$b#Eu posso ajudar com a vitrine do meu tio.",
+	"fall_26": "Vou ajudar a montar as vitrines de monstros para o festival de amanhã. Não se preocupe, eu e Marlon vamos ter certeza de que eles estão seguros!",
+	"fall_28": "A estação já acabou. Estou ansioso para ficar dentro de casa durante o inverno frio.",
+	"fall_1_2": "Os pisos alaranjados do outono sempre me deixavam triste quando eu era criança. eu não gostava muito da escola.",
+	"fall_15_2": "Você vai montar uma vitrine para a feira amanhã?#$b#Eu posso ajudar com a vitrine do meu tio.",
+	"fall_26_2": "Vou ajudar a montar as vitrines de monstros para o festival de amanhã. Não se preocupe, eu e Marlon vamos ter certeza de que eles estão seguros!",
+	"fall_28_2": "A estação já acabou. Estou ansioso para ficar dentro de casa durante o inverno frio.",
+
+	
+	"winter_1": "Feliz Inverno, @. Provavelmente não vou sair muito da Guilda, porque gosto de me aquecer.",
+	"winter_7": "Você é bom em pescar? Vou torcer por você no festival amanhã! Você pode representar a Guilda.",
+	"winter_15": "O Mercado Noturno parece uma ideia legal. Talvez se ficar maior, outros ramos da Guilda possam vir e abrir barracas!",
+	"winter_22": "Oi, @. Hoje é um dos poucos dias do ano em que não estou pesquisando.#$b#Por quê? É meu aniversário!$h#$b#Zinnia já me deu meu pedido de café favorito do Saloon.",
+	"winter_24": "Espero que meu amigo secreto goste do presente que escolhi..$s#$b#Eu não sou o melhor presenteador...$s",
+	"winter_28": "Feliz ano novo, @.#$b#Não acredito que o ano já acabou. Eu sinto que não fiz nada...$s",
+	"winter_1_2": "Feliz inverno, @. Provavelmente não vou sair muito do Clã, porque gosto de me aquecer.",
+	"winter_7_2": "Você é bom em pescar? Vou torcer por você no festival amanhã! Você pode representar a Guilda.",
+	"winter_15_2": "O Mercado Noturno parece uma ideia legal. Talvez se ficar maior, outras filiais da Guilda possam vir e abrir barracas!",
+	"winter_22_2": "Oi, @. Hoje é um dos poucos dias do ano em que não estou pesquisando.#$b#Por quê? É meu aniversário!$h#$b#Zinnia já me deu meu pedido de café favorito do Saloon.",
+	"winter_24_2": "Espero que meu amigo secreto goste do presente que ganhei...$s#$b#Eu não sou o melhor presenteador...$s",
+	"winter_28_2": "Feliz ano novo, @.#$b#Não acredito que o ano já acabou. Eu sinto que não fiz nada...$s",
+	"BeachNightMarket": "{{Random: Aquele café parece tão saboroso.#$b#Pena que só permitem um por cliente.$s 88 Este é um dos meus festivais favoritos durante todo o ano.#$b#Quando eu era pequeno, adorava ficar acordado até meia-noite aqui enquanto minha mãe e tio se perderam na mania. |inputSeparator=88}}",
+	
+	
+	"Mon": "Opa, oi.#$b#...$s#$b#Humm, você precisa de alguma coisa?$s",
+	"Tue": "Me desculpe se pareço um pouco estranho.$s#$b#Eu não sou, eh, muito bom em conversar com as pessoas.$s",
+	"Wed": "Você é uma das pessoas com quem me sinto mais à vontade para conversar, já que você faz parte do Clã e tudo mais.",
+	"Thu": "Oh, hum, estou meio ocupado agora. Você pode falar com Marlon se precisar de algo.",
+	"Fri": "Você é amigo da minha irmã? Ela é muito sociável.#$B#*murmúrio* Ela provavelmente é amiga de toda a cidade agora...$a",
+	"Sat": "Gosto mais daqui do que da cidade. Os sons altos podem dificultar o trabalho.",
+	"Sun": "...$7#$b#Oh!$u#$b#Um, o-oi. D-desculpe por isso...$s",
+
+	
+	"Mon2": "Oi, @. Hum, como foi seu dia?#$b#Meu tio me disse que você trabalha duro o dia todo, todos os dias...#$b#...você tem a mesma ética de trabalho que eu!$h",
+	"Tue2": "{{Random: Tio Marlon me diz que você é um dos melhores membros da Guilda que tivemos em anos.#$b#Isso é muito bom!$h 88 Ei, @, você tem algum recurso de monstros?#$b#Se quiser, pode me dar um pouco. Eu sei que a maioria das pessoas odiariam isso, mas eu realmente gostaria de estudá-los de perto. |inputSeparator=88}}",
+	"Wed2": "Meu sonho de vida é encontrar uma maneira de eliminar a ameaça de monstros nas minas para tornar a Vila Pelicanos um lugar mais seguro.",
+	"Thu2": "{{Random: Oi, oi. Você é muito legal, não é?#$b#A maioria das pessoas simplesmente desiste de tentar falar comigo. 88 Geralmente não tenho muito tempo para cozinhar, então acabo comendo alimentos pré-cozidos na maioria dos dias.#$b#Às vezes, se eu tiver sorte, minha irmã vai cozinhar uma boa refeição para todos nós!$h |inputSeparator=88}}",
+	"Fri2": "Eu não dormi até às 4 da manhã ontem...#$b#*boceja*$7",
+	"Sat2": "Oi. Tirando uma pausa no fim de semana?#$b#Já eu... tenho que trabalhar todos os dias se eu quiser alcançar meus objetivos a tempo.",
+	"Sun2": "Oi @. Desculpe-me se pareço não estar prestando atenção.#$b#Acho que posso estar à beira de uma grande descoberta.",
+
+	
+	"Mon4": "Eu sinto falta da minha mãe todos os dias. Eu gostaria que ela ainda estivesse aqui...$s",
+	"Tue4": "Eu e meu pai somos muito próximos. Nós nos unimos depois que minha mãe faleceu.#$b#Ela sempre nos chamava de 'seus meninos'!$h",
+	"Wed4": "{{Random: Eu tenho esses óculos desde os 6 anos de idade.#$b#Levou apenas alguns anos esbarrando em tudo para meus pais perceberem!$h 88 Eu realmente conheço algumas pessoas no vale.#$b#Conheci o Mago inteligente quando o visitei alguns anos atrás. Você conhece ele? |inputSeparator=88}}",
+	"Thu4": "{{Random: Oi, @. Eu só queria te agradecer por falar comigo.#$b#Você é uma das poucas pessoas que ainda não desistiram de mim...$s 88 A garota que mora naquela casa de ciências veio nos visitar há alguns dias. Maru, eu acho.#$b#Ela continuou me olhando estranho...$s |inputSeparator=88}}",
+	"Fri4": "Acho que as escolas deveriam aulas sobre monstros e biologia de monstros.#$b#Infelizmente, a maioria das tragédias que acontecem são com criancinhas pensando que monstros são amigáveis...",
+	"Sat4": "Meu pai sempre ficava irritado quando Zinnia dormia, mas acho que ele nunca se importou com isso...#$b#Talvez ele realmente quisesse que eu fizesse novas descobertas.",
+	"Sun4": "{{Random: Você sabia que eu fui para a universidade de maior prestígio na cidade de Zuzu?#$b#Eu não gosto de falar sobre isso muitas vezes.#$b#Realmente não era tudo o que eu esperava que fosse. Às vezes eu gostaria de não ter ido para a faculdade como Zinnia. 88 Zinnia me disse que havia um cara que a lembrava de mim.#$b#Acho que ele mora na casa da montanha.#$b#Aparentemente, ele tem uma ética de trabalho duro como eu. |inputSeparator=88}}",
+
+	
+	"Mon6": "Eu uso um colar feito com a joia favorita da minha mãe de suas expedições às minas.#$b#Está escondido debaixo da minha camisa, mas acredite em mim, está lá!$h#$b#Eu nunca vou tirá-lo.",
+	"Tue6": "Você deve realmente ver algo em mim, huh?#$b#Eu me sinto bem chamando você de um dos meus amigos mais próximos.#$b#Na verdade, você é meu amigo mais próximo!$h",
+	"Wed6": "O café do Saloon é ótimo, mas nada se compara ao que era na cidade!$h#$b#Ei, se algum dia formos visitar, você deveria provar alguns!",
+	"Thu6": "Meu pai é policial na cidade de Zuzu. Ele não se mudou para cá porque não há delegacia na Vila Pelicanos.#$b#Eu acho que é um bom sinal, certo?",
+	"Fri6": "Oh, Olá, @. Não sei se você percebeu, mas você é a pessoa com quem mais me abri que não é minha irmã ou meu pai.#$b#Acho que essa coisa de amizade que Zinnia fala tanto pode realmente seja algo grande!$h",
+	"Sat6": "Eu queria estudar monstros desde que minha mãe faleceu.#$b#...$s#$b#Hum, desculpe, eu fico um pouco triste pensando no que aconteceu com ela...$s",
+	"Sun6": "Eu tenho pensado em fazer mais pausas no meu trabalho recentemente...#$b#Você acha que é uma boa ideia, @?",
+
+	
+	"Mon8": "Eu nunca estive em um relacionamento antes. Eu tive algumas paixões, mas eu estava muito focado no meu trabalho para agir sobre elas.",
+	"Tue8": "Minha mãe e meu pai se apaixonaram quando ambos estavam atrás de um caso de monstro perdido.#$b#Espero que minha história de amor seja tão incrível quanto a deles.",
+	"Wed8": "Eu costumava pensar que ter amigos próximos não era um bom uso do tempo, mas agora que te conheci...#$b#descobri que eu estava completamente errado! Ser seu amigo é muito divertido.$h#$b#Eu provavelmente deveria me desculpar com Zinnia agora...$s",
+	"Thu8": "Ei, @. Você sabia que eu estava nervoso para falar com você quando nos conhecemos?#$b#Olhando para trás agora, não posso acreditar que pensei isso! Você é exatamente o oposto!$h",
+	"Fri8": "Você me inspirou a parar de trabalhar tanto e aproveitar as pequenas coisas. Obrigado por isso.",
+	"Sat8": "Ei, @, adivinha?#$b#Adicionei você à página de dedicação da minha pesquisa!$h#$b#É uma verdadeira honra, sabe. Você é a única pessoa lá que não está relacionada a mim.",
+	"Sun8": "Ei, @, estive pensando.#$b#Eu quero conhecer mais novos amigos!$h#$b#Ser seu amigo é muito divertido, então acho que deveria expandir meus círculos.#$b#Tem alguma pessoa com quem você acha que eu me daria bem?",
+
+
+	"breakUp": "O-oh! E-eu entendo...$s#$b#Bem, adeus, eu acho. Eu não posso acreditar que eu pensei que isso iria dar certo...$s",
+	"danceRejection": "V-você quer dançar comigo? Hum, eu não deveria...$s#$b#Vou, uh, envergonhar você com meus movimentos ruins.$s",
+	"divorced": "Vá embora, @. Eu não quero falar. Não acredito que deixei você me distrair dos meus objetivos.$a#$b#Não acredito que pensei que alguém iria me amar...$s",
+	"MovieInvitation": "Ah, um filme? Claro, acho que posso fazer uma pausa rápida.",
+	"Resort_Entering": "Minha irmã me disse que eu preciso tirar um tempo e relaxar um pouco mais. Espero que a praia me deixe limpar minha mente.",
+        "Resort_Leaving": "Honestamente, isso foi muito legal. Eu tenho minha mente fora do meu trabalho por uma vez. Talvez eu venha aqui mais vezes.",
+        "Resort_Shore": "Você acredita que existem monstros na água? espero que não...$s",
+        "Resort_Chair": "Não estou acostumado a sentar em uma cadeira assim... as de casa são acolchoadas e resistentes.",
+        "Resort_Bar": "Você acha que eles vendem vinho de manga aqui?#$b#Eu amo essa bebida!$h",
+	"Resort_Umbrella": "Esqueci de colocar meu protetor solar, então acho que vou ficar na sombra por enquanto.",
+	"Resort_Wander": "Eu me pergunto que tipo de monstros existem nesta ilha. Você explorou mais, @?",
+        "Resort": "Um dia deveríamos abrir uma filial da Guilda na ilha.",
+	"sillyRevealed": "Eu estava cético em relação aos métodos de Zinnia, mas estou tão feliz que você me convenceu a deixar Silly livre, @.#$b#Talvez devêssemos conversar com Marlon sobre acabar com essas metas de erradicação...",
+	"gabeFinished": "@! V-você conseguiu!#$b#Isso é incrível! Estamos dando trancos e barrancos em nossa busca pela erradicação de monstros!"
+		}
+	},
+
+	
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gabriel",
+	    "Entries": {
+
+	
+	"Mon8": "O-oi @...$l#$b#S-desculpe, eu fico nervoso quando falo com você...$l",
+	"Tue8": "Me desculpe se eu não sou o melhor namorado, @. Não tenho muita experiência...$s#$b#Mas ainda vou me esforçar ao máximo para te fazer feliz!$h",
+	"Wed8": "[595] Oi, @. Eu, uh, te dei isso de presente...$l#$b#Zinnia me disse que qualquer bom namorado presenteia seu parceiro com lindas flores. espero que você goste.$l",
+	"Thu8": "Oi, @...$l#$b#Ainda estou chocado que você sinta por mim o mesmo que eu sentia por você...$l",
+	"Fri8": "Eu não vim para Stardew Valley para encontrar o amor, mas agora...$l#$b#...posso concluir com confiança que me mudar foi a melhor escolha que já fiz!$h",
+	"Sat8": "Eu gostaria que as flores não apodrecessem. Caso contrário, eu ficaria com o lindo buquê que você me deu para sempre!$h",
+	"Sun8": "Oi, @. Espero que você tenha uma semana incrível.$l#$b#Cuidado aí, não quero que você se machuque!$h",
+
+	
+	"Mon10": "@... você é incrível, você sabe.$l#$b#Poucas pessoas podem mudar a vida de alguém tão estranho quanto eu...$l",
+	"Tue10": "Você já ouviu falar, @?$l#$b#Somos o casal mais popular da Guilda!$h#$b#Todo mundo está falando sobre como somos perfeitos um para o outro...$l#$b#Eu gostaria Já tive vergonha no passado, mas com você não tenho nada além de orgulho de ser seu namorado.$l",
+	"Wed10": "{{Random: Quero ver meu lindo namorado inteiro antes de dormir. Eu me preocupo com você.$l^Eu quero ver minha linda namorada inteira antes de dormir. Me preocupo com você.$l 88 Oi, @.$l#$b#Obrigado por tudo que você me deu. Isso é tudo...$l#$b#Aproveite seu dia, @.$l |inputSeparator=88}}",
+	"Thu10": "Eu gostaria que minha mãe pudesse conhecê-lo. Ela sempre quis conhecer meu futuro parceiro. Tenho certeza que ela te amaria ainda mais do que eu!$h",
+	"Fri10": "Oi, @! Você está livre esta noite?#$b#Podemos sair juntos, só eu e você...$l",
+	"Sat10": "Cuidado lá fora, @.$l#$b#quero ver meu lindo namorado inteiro antes de dormir. Eu me preocupo com você.$l^Eu quero ver minha linda namorada inteira antes de dormir. Me preocupo com você.",
+	"Sun10": "Algum dia deveríamos ir juntos em uma expedição às minas. Vou estudar os monstros e você pode me proteger.#$b#Você é tão forte, afinal...$l"
+		},
+		"When": {
+			"Relationship:Gabriel": "Dating"
+		}
+	},
+
+	
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+	    "Entries": {
+
+	"Gabriel": "A chuva não me incomoda. Eu prefiro estar dentro de casa na maioria dos dias de qualquer maneira."
+		}
+	}
+
+	]
+}

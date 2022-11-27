@@ -1,0 +1,5 @@
+{
+	"Entries": {
+        "18050007/e 18050006/f Aurelia 3500/O Aurelia/w sunny": "continue/-100 -100/farmer 11 14 0 Aurelia 11 9 2/skippable/showFrame Aurelia 21/viewport 11 9 true/move farmer 0 -4 0/pause 1000/emote farmer 8/speak Aurelia \"@! You found me! I was... reading a book. As always.$h\"/pause 2000/emote Aurelia 40/pause 1000/speak Aurelia \"Okay... I was... just scribbling something... maybe a poem...#$b#As I was reading, I wanted to try writing something too.\"/pause 1000/speak Aurelia \"$q 18053 null#Do you want to hear it? It's a poem about you!#$r 18054 -50 event_poem1#No. Get that worthless paper out of my face.#$r 18054 -25 event_poem2#What? You wrote a poem? You?#$r 18054 25 event_poem3#Sure! I am waiting.#$r 18054 -25 event_poem4#Nah, I'm good.\"/pause 2000/speak Aurelia \"Well, that's embarassing...#$b#Anyway, Elliot offered to publish my poem among his. Isn't that exciting? My dream has finally come true!$h#$b#I hope you appreciate what I worked on. Elliot said that a mail will come soon for payment!$h#$b#Well, see you later, @.$h\"/pause 3000/globalFade/viewport -1000 -1000/end"
+      }
+}

@@ -1,0 +1,62 @@
+﻿{
+
+//Scarlett is usually working in the valley during these days, but players can catch her walking back home or in her house.
+"Mon": "Estou com muita vontade de comer cerejas agora.$0#$e#Elas são como uma das minhas frutas favoritas!$1#$b#Um dos meus vizinhos tem uma cerejeira gigante no quintal. Quando ela está na temporada, nossos vizinhos dão uma cesta delas .$0",
+"Mon4": "Não vou mentir, estou com inveja do quarto de cosplay da Sophia.$0#$e#Meu pai foi gentil para deixar eu usar sua bancada de trabalho na garagem para meus projetos.$1#$e#A máquina de costura foi útil para um amigo próximo da família.$0#$b#Ele trabalha com isso também!$1",
+"Mon8": "Manter um quarto limpo e arrumado é meio difícil, mas é bom saber onde está tudo agora, eu acho.$0",
+"Tue": "Meu pai aprecia sua caminhonete. É como seu bem mais precioso.$0#$e#Mesmo que eu tenha minha carteira de motorista, ele não me deixa usá-la.$2#$e#*suspira* Talvez algum dia. Eu gostaria de fazer uma viagem para algum lugar.$0",
+"Tue8": "Estou ansiosa para fazer uma longa viagem pelo país. Eu quero ver algo novo!$0#$e#Se eu conseguir, talvez meu pai me empreste a caminhonete dele.",
+"Wed": "A maioria das pessoas que moram na Lagoa, trabalha no centro de Grampleton.$0#$e#Meu papai é uma dessas pessoas! Ele é dono de sua própria loja!$1",
+"Wed4": "%Scarlett está mastigando comida e percebe você.#$e#*mastiga* Ei! Desculpe, eu estava comendo queijo de cabra.$0#$e#Aqui, quer um pouco? Essa comida é a minha comida favorita![426]$1",
+"Wed8": "Oi, como você está? Qual é a última fofoca?$1#$e#Isso parece super importante. Você faz uma diferença enorme para um monte de gente, você sabia?$0",
+"Thu": "Parece que você está em uma missão hoje! O que você tem de tão importante?$0#$e#Você é uma pessoa bem ocupada!$1",
+"summer_Thu": "Ugh. Eu acabei de... Ugh!$3#$e#Meu pai e eu tivemos um desentendimento. Nem sempre estamos de acordo...$2#$e#Não estou com vontade de conversar.$3#$e#%Scarlett não quer conversar.",
+"Thu6": "Estou aprendendo muito trabalhando como lavradora para Susan e Andy.$1#$e#Sinto que posso realmente usar essas habilidades no futuro.$0",
+
+//Scarlett is always home during these days (except Sat during winter when she's sleeping over at Sophia's)
+"Fri": "Estava com vontade de ter uma Sexta da preguiça.$0#$e#Mas infelizmente, vou ter que tirar o lixo em breve.$0",
+"Fri2": "Desculpe, meu quarto está meio bagunçado.$2#$e#Então, você está aqui No Lago! Tem alguma coisa que você queira fazer?$0#$e#Oh! Posso mostrar minha coleção de mangás!$1#$e#Coleciono mangás desde os sete anos de idade.$0#$b#Tudo começou quando dei uma volta errada em uma biblioteca pública e encontrei o que pensava eram livros ilustrados!$1",
+"winter_Fri4": "Estou ficando tentada a fazer um anjo de neve.$0",
+"Fri8": "Da próxima vez que na Lagoa da Madeira tiver um 'encontro', eu lhe dou um grito. Nós gostaríamos de conversar com você!$1",
+"spring_Fri8": "Sabe, eu nunca estive realmente interessada em ir para a faculdade.$0#$b#É algo que meu pai quer que eu faça. Para obter uma 'educação'...$2#$e#Eu sou mais do tipo 'abordagem prática' de garota.$1",
+"fall_Fri8": "Há um carnaval legal em Grampleton durante esta época da temporada.$0",
+"winter_Fri8": "Os Jogos vão acontecer em breve! VAI TUNNELERS!$1#$e#Você assiste gridball, @?$0",
+"Sat": "Ei, é incrível ver você! O que você está fazendo?$1#$e#Eu não sei como você faz isso, @. Você sempre sabe como se manter ocupado.",
+"summer_Sat": "O rio perto da nossa casa mantém o quintal agradável e fresco durante os dias quentes de verão.$0",
+"fall_Sat": "*suspira* As folhas continuam caindo na garagem.$2#$e#Meu pai deveria fechar a porta da garagem, mas ele gosta de exibir sua caminhonete.$3",
+"winter_Sat": "Ei, é incrível ver você! O que você está fazendo?$1#$e#Eu não sei como você faz isso, @. Você sempre sabe como se manter ocupado.$0",
+"winter_Sat2": "Eu sempre tento arranjar tempo na minha agenda para visitar Sophia.$0#$e#Gostaria que morássemos juntas. Talvez quando eu economizar dinheiro suficiente eu possa me mudar para o Vale do Orvalho.$0",
+"winter_Sat8": "Um dia, Sophia nos visitou e comemos frango com laranja grampleton para o jantar. Ela nunca comeu antes.$0#$b#Ela comeu o prato inteiro em dois minutos!$1#$e#Eu ofereci a ela um pouco do meu e ela comeu metade do prato.#$b#É uma das minhas lembranças favoritas dela!$1",
+"Sun": "Ei! É ótimo ver você. Como foi a viagem de trem?$1#$e#Nem todo mundo tem carro. A maioria de nossos vizinhos depende da estação de trem local para ir ao trabalho.",
+"Sun4": "O cachorro do nosso vizinho é selvagem.$0#$e#Ela sempre pega os zoomies!$1",
+"Sun8": "Ei! É legal ver você.$1#$e#Você pode se servir de qualquer coisa na geladeira se estiver com fome.$0#$e#E por favor, só não coma o pão de ló. Meu pai fez isso para um de seus amigos da vizinhaça, beleza?$1",
+"summer_Sun8": "%Scarlett está mastigando comida e percebe você.#$e#*mastiga* Ei! Desculpe, você acabou de me ver comendo queijo de cabra.$0#$e#Aqui, quer um pouco? Essa é a minha comida favorita![426]$1",
+"fall_Sun8": "Devíamos fazer uma festa do pijama algum dia!$1#$b#Conheço esta receita de tempero de pipoca muito boa.$0#$e#Aprendi com o Hank. É uma mistura de curry de coco, pão de gengibre e açúcar de canela.$0",
+"summer_Sun8": "Meu pai e Hank gostariam de ter você para jantar algum dia.$0",
+
+//schedule dialogue
+"Custom_BlueMoonVineyard_27_33": "Pronta para o trabalho, Sophia!?$1",
+"Custom_SophiaHouse_3_25": "Estou ajudando Sophia hoje!$1",
+"Custom_SophiaHouse_10_25": "Vamos ao salão esta noite. Quer ir com a gente?$0",
+"Custom_SophiaHouse_15_24": "Esse foi um dia difícil, né Sophia?$1",
+"Custom_SophiaHouse_5_22": "O quarto da Sophia é tão legal, não acha?$0",
+"Custom_SophiaHouse_17_21": "Esta madeira veio de Grampleton, minha cidade natal!$1",
+"Custom_SophiaHouse_20_7": "Uau! Ela não me disse que tinha esse volume!$1",
+"Custom_SophiaHouse_23_6": "Não é legal, @! estou dormindo.$2",
+"Custom_SophiaHouse_20_37": "Isso! Vamos para o salão!$1",
+"Saloon_24_18": "Estou amando o ambiente deste lugar.$0",
+"Custom_GrampletonSuburbs_21_15": "Estou tirando o lixo agora. Vamos conversar novamente em um segundo, beleza?$0",
+
+//event dialogue
+"scarlett_event1": "Sou meio que quase você! Aposto que você recebe bons pagamentoss!$1",
+"scarlett_event2": "Uau, isso é informação pública na Vila Pelicanos? Que ideia legal!$1#$b#Talvez seja algo que Pondwood possa fazer também.$0",
+"scarlett_event3": "As postagens do festival são minhas favoritas! Há sempre novos designs de folhetos a cada ano.$1",
+"scarlett_event4": "Acho que não é algo para todos. Tudo bem embora!$0",
+"scarlett_event5": "...$2#$b#Eu não te culpo. Eu provavelmente teria feito o mesmo se ouvisse algo assim.$2",
+"scarlett_event6": "Uh hm... Claro.$3#$b#...$3#$b#...$2#$b#Eu não te culpo. Eu provavelmente teria feito o mesmo se ouvisse algo assim.$2#$b#Mas pelo menos eu teria sido adiantado.$3",
+"scarlett_event7": "Eu aposto! Que você tem bastante espaço na sua fazenda para fazer o que quiser, estou certa @?$0",
+"scarlett_event8": "Se eu sei plantar? Meu pai me deixa usar o canteiro de flores fora de casa para cultivar coisas, então eu entendo totalmente o que você quer dizer.$0",
+"scarlett_event9": "Eu sempre quis ter minhas próprias cabras. Eu comeria todo o queijo de cabra que eu quisesse!$1#$b#Gostaria que Marnie precisasse de ajuda em seu rancho, mas ela sabe se cuidar.$0",
+"scarlett_event10": "Sim, eu sou meio do mesmo jeito. Eu não sei o que faria comigo mesmo se não tivesse nada para fazer.$0"
+
+}

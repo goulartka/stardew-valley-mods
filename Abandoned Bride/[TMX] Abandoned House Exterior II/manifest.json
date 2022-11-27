@@ -1,0 +1,11 @@
+{
+  "Name": "Renewed House Exterior",
+  "Author": "SYS",
+  "Version": "1.0.0",
+  "Description": "Renewed House Exterior",
+  "UniqueID": "SYS.exterior.RenewedHouse",
+  "UpdateKeys": [""],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}

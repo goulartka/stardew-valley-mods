@@ -1,0 +1,17 @@
+{
+    "Name": "Big Burger",
+    "Price": 280,
+    "Description": "A big burger from Zuzu City. The meat is tender and juicy.",
+    "Category": "Cooking",
+    "Edibility": 68,
+    "EdibleIsDrink": "false",
+    "IsColored": "false",
+	"NameLocalization" : 
+		{ 
+		"pt" : "Big Burger",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Um grande hambúrguer da cidade de Zuzu. A carne é macia e suculenta",
+		}
+}

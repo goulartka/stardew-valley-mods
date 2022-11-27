@@ -1,0 +1,31 @@
+{
+    "Name": "Qi Crystal",
+    "Price": 9000,
+    "Description": "An extremely rare crystal created by combining 3 Prismatic Shards and 1 Diamond.",
+    "Category": "Crafting",
+    "Edibility": -300,
+    "EdibleIsDrink": "false",
+    "IsColored": "false",
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": 74,
+                "Count": 3
+            },
+            {
+                "Object": 72,
+                "Count": 1
+            }
+        ],
+        "IsDefault": "true"
+    },
+    "NameLocalization" : 
+		{ 
+		"pt" : "Cristal Qi",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Um cristal extremamente raro criado pela combinação de 3 fragmentos prismáticos e 1 diamante",
+		}
+}

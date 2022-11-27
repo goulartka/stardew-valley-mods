@@ -1,0 +1,17 @@
+{
+    "Name": "Downtown Dog",
+    "Price": 260,
+    "Description": "A yummy hot dog from Zuzu City, it looks delicious!",
+    "Category": "Cooking",
+    "Edibility": 46,
+    "EdibleIsDrink": "false",
+    "IsColored": "false",
+	"NameLocalization" : 
+		{ 
+		"pt" : "Cachorro-Quente da Cidade",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Um cachorro-quente gostoso da cidade de Zuzu, parece delicioso",
+		}
+}

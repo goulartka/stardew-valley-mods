@@ -1,0 +1,11 @@
+{
+   "Name": "Abandoned Bride",
+   "Author": "SYS",
+   "Version": "2.6.0",
+   "Description": "A custom NPC Abandoned Bride is added to the game.",
+   "UniqueID": "SYS.AB",
+   "UpdateKeys": ["Nexus:6471"],
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

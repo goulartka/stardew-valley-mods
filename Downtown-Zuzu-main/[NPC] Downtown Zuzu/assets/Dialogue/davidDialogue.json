@@ -1,0 +1,55 @@
+{
+//INTRODUCTION//
+"Introduction": "Oh Olá! E você é... @? Prazer em conhecê-lo(a).$h#$e#Você é um fazendeiro(a)? Legal! Sou proprietário do Café Santuário no Deserto de Zuzu.",
+
+//INITIAL DIALOGUE (0 HEARTS)//
+"Mon": "Oi, @. Como tá indo as coisas?",
+"Tue": "Eu tenho tanta sorte, eu consigo apenas viver meu sonho de ter um café.$h",
+"Wed": "Você conheceu Emerald? Ela é minha colega de quarto.#$b#Espero que vocês dois se dêem bem!$h",
+"Thu": "Meu aniversário é inverno 9.#$b#...O que? Não estou pedindo um presente nem nada, mas se você quiser...$h",
+"Fri": "Você conheceu o caixa do meu café, Leonard? Ele não fala muito.#$b#...Eu gosto dele. Ele é um bom trabalhador.$h",
+"Sat": "Ainda tenho que cuidar do café nos fins de semana, embora Leonard me ajude. Ele é um bom rapaz.",
+"Sun": "Meus olhos? Oh, eu tenho heterocromia. Sim, isso significa que meus olhos são de cores diferentes.#$b#É muito legal.$h",
+
+//2 HEART DIALOGUE//
+"Mon2": "Ei, @... Você conhece alguém com pele azul? Apenas curiosidade.",
+"Tue2": "Você se aventurar em cavernas ou algo assim, @?#$b#Você faz? Fantástico.$h",
+"Wed2": "Às vezes, trabalhar no Santuário é estressante...$h#$b#Mas tudo vale a pena!$h",
+"Thu2": "Quais são seus hobbies, @?#$b#Eu? Eu ... uh, realmente não tenho nenhum.$s#$b#Assistir à TV conta?$h",
+"Fri2": "Você conhece Cal?#$b#Sim, ele é um cliente regular do Santuário. Cara muito legal!$h",
+"Sat2": "Você sabe como usar uma espada, @?#$b#Isto é tão legal. Eu queria poder saber!$h",
+"Sun2": "O fim de semana está bom, não é? Eu tenho finalmente tenho tempo para planejar refeições do Santuário, e você, uh...#$b#O que você faz nos finais de semana, @?",
+
+//4 HEART DIALOGUE//
+"Mon4": "Tenho saudades da minha juventude. Eu tive essa experiência maluca uma vez.#$b#Huh? Oh, eu realmente não quero falar sobre isso.$s",
+"Tue4": "Você já esteve na caverna perto do meu café?#$b#Eu gostaria de ter a coragem de explorá-lo. Aparentemente, há riquezas incalculáveis ​​lá.$h",
+"Wed4": "Estou muito chateado hoje, @. Alguns idiotas da cidade zombavam dos meus olhos.$s",
+"Thu4": "Leonard chegou atrasado hoje. Mas isso não me incomoda muito.#$b#Ele é um bom garoto.$h",
+"Fri4": "Eu tenho alguns clientes regulares muito amigáveis ​​no Santuário.#$b#Você consegue clientes regulares comprando suas colheitas ou algo assim?",
+"Sat4": "Ugh, Estou tão cansado.#$b#Eu disse que estou cansado. Você pode me deixar sozinho?$a",
+"Sun4": "@, você morava aqui em Zuzu antes de se mudar para o Vale, certo?#$b#O que te fez sair?",
+
+//6 HEART DIALOGUE//
+"Mon6": "@... Você conhece alguém com as iniciais 'QI' ou algo parecido?#$b#Não? Oh...$s",
+"Tue6": "Tenho praticado meu trabalho com a espada. Estou ficando muito bom, você sabe.$h",
+"Wed6": "É divertido viver perto de tanto deserto, tanto perigo?#$b#Wow, isso é incrível.$h",
+"Thu6": "Você conhece algum lugar que seja bom para explorar? Porque? Oh, sem motivo. Apenas curioso.#$b#Pare de me importunar com isso, eu só perguntei.$a",
+"Fri6": "Aqueles idiotas da cidade de novo, @. Eles estão tirando o mick dos meus olhos. Eu odeio muito isso.$s",
+"Sat6": "Então, @. Você é amigo de um 'Sr. Qi'? Não? Oh.#$b#Oh, sem motivo. Eu só estava curioso. Vi o nome dele em um livro.$u",
+"Sun6": "Ei. Estive olhando alguns mapas antigos que Gil me deu. Estou pensando em ir para a 'Caverna da Caveira'.$h#$b#O que quer dizer com 'é muito perigoso'? Eu me viro sozinho!$a",
+
+//8 HEART DIALOGUE//
+"Mon8": "@, Estou feliz que você veio à cidade para me visitar. Você é uma criança legal.$h",
+"Tue8": "Ver você faz meu dia, @.$h",
+"Wed8": "...$s#$b#Hm? Oh, só estou pensando.$u",
+"Thu8": "Você assiste muito TV, @?#$b#Eu sou um viciado em TV. Nunca perdi um episódio de 'The Queen of Sauce'$h#$b#Na verdade, ela inspirou algumas das minhas receitas!$h",
+"Fri8": "@, você gostaria de sair para a caverna no deserto comigo alguma hora?#$b#Eu acho que seria muito menos assustador com você por perto.$l",
+"Sat8": "Ser chef é divertido, mas gostaria de fazer uma pausa às vezes.#$b#Eu acho que quando eu aceitei eu meio que revoguei esse direito, hein?$u",
+"Sun8": "Você sabe o que, @? Com você por perto, estou realmente começando a ver as coisas positivas que a vida tem a oferecer.$l",
+
+//10 HEART DIALOGUE//
+"Mon10": "@! Estou tão feliz em te ver!$l#$b#Você quer conversar? Como está seu dia até agora?$h",
+"Tue10": "@, Eu queria saber se você gostaria de parar nas cavernas e matar algumas serpentes comigo mais tarde?$h",
+"Wed10": "Huh?! são %time já?! Já é muito tarde para ir às cavernas?",
+"Thu10": "Você sabe o que, @? Eu acho que te amo. Eu sei eu sei. Queijoso, mas eu quero..$l"
+}

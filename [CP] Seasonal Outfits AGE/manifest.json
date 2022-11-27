@@ -1,0 +1,17 @@
+{
+   "Name": "Seasonal Outfits - Adventurer's Guild Expanded",
+   "Author": "lillifer",
+   "Version": "2.0.0",
+   "Description": "Seasonal Outfits for Adventurer's Guild Expanded.",
+   "UniqueID": "lillifer.SeasonalOutfitsAGE",
+   "UpdateKeys": [ "Nexus: 12254" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+   {
+	  "UniqueID": "supert.adventureguildexpanded",
+	  "IsRequired": true
+   }
+]
+}

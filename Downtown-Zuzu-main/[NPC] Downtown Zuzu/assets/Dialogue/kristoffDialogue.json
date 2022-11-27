@@ -1,0 +1,77 @@
+﻿{
+//INTRODUCTION//
+"Introduction": "Olá... o que você está fazendo longe da sua mesa?#$e#O que você quer dizer...? Você não trabalha para mim?#$b#Oh! Você é um(a) fazendeiro(a)? Qual o seu nome? @? Você ainda não pertence a essa franquia...",
+
+
+//INITIAL DIALOGUE (0 HEARTS)//
+"Mon": "Ah, segundas-feiras... Eu adoro o som de trabalhadores ocupados.$h",
+"Tue": "Você novamente? Você está tentando recuperar o seu antigo emprego?",
+"Wed": "Você não está procurando apostilas, está? Nada de bom vem de graça.",
+"Thu": "Se você quer que sua fazenda seja um sucesso, você realmente deve gastar menos tempo vagando por aí.",
+"Fri": "Como você continua passando pela segurança? Alguém está pedindo para ser demitido.$u",
+"Sat": "Eu nunca tive filhos, mas penso muito na Corporação Joja como minha filha.",
+"Sun": "Meu aniversário, caso você se importe, é 25 de verão.",
+
+
+//2 HEART DIALOGUE//
+"Mon2": "Meus pais sempre foram pessoas muito ocupadas e empreendedoras. Eu acho que parte disso deve ter passado para mim.$h",
+"Tue2": "Você sabe, se você ficar entediado com a fazenda, sempre há um lugar para você na família Joja.$h",
+"Wed2": "Tenho pensado em fazer algumas mudanças na minha força de trabalho. Embora eu não sei quem despedir...$s#$e#É uma decisão tão difícil.",
+"Thu2": "Você poderia fazer muito pela sua imagem se parasse de correr coberto de terra o tempo todo.$u",
+"Fri2": "Acho que vou fazer uma viagem às Ilhas Ferngill neste fim de semana. Viajar é uma das grandes experiências da vida.$h",
+"Sat2": "Você sabe, é muito fácil a vida para meus trabalhadores. Eu não tirava folga aos sábados quando comecei aqui no Joja.#$b#E eles têm a audácia de me chamar de péssimo chefe!$a",
+"Sun2": "Você já foi naquele pequeno 'Santuário Cafe'?#$b#É um pouco sujo, mas não me importo de ir lá.",
+
+
+//4 HEART DIALOGUE//
+"Mon4": "Tenho muito em que pensar hoje. Por favor não me incomode.#$e#Eu disse não me incomodes.$a",
+"Tue4": "Na verdade, você é muito bom em networking, não é? Como você conhece muitas das pessoas por aqui.s",
+"Wed4": "Você sabe que eu costumava me preocupar com popularidade. Mas tudo parece vazio quando as pessoas só se importam com o que você pode dar a elas.",
+"Thu4": "Já pensou em abrir uma conta no banco Joja?#$e#Você teria muito mais lucro se pudesse fazer um empréstimo para comprar sementes no início da temporada.",
+"Fri4": "Eu sei que alguns dos meus funcionários estão com baixo desempenho... mas é tão difícil demitir pessoas!",
+"Sat4": "*bocejo* Oh, olá, @. Como você está hoje?",
+"Sun4": "Se há algo que aprendi na minha vida, @, é que nem todo mundo pode te dizer o que fazer.#$b#Siga seus sonhos. Foi o que fiz, e olha onde estou!",
+
+
+//6 HEART DIALOGUE//
+"Tue6": "Estou pensando em fazer uma pesquisa em todo o site.#$b#Você acha que poderia me ajudar com as perguntas?$h",
+"Fri6": "Tenho lido alguns livros sobre psicologia organizacional recentemente. Acho que posso reformar o escritório.",
+"Sat6": "@,Sinto que estamos nos tornando grandes amigos.#$b#Isso não é algo comum para mim, então... Parabéns, suponho.$h",
+"Sun6": "Todos pensam que sou um cara tão mau, mas não sou. Só quero o melhor para Joja e para minha equipe, Eu suponho.$s",
+
+
+//8 HEART DIALOGUE//
+"Mon8": "É estranho mudar a maneira como eu conduzo as coisas depois de tanto tempo, mas você me dá a confiança para sempre fazer melhor.$l",
+"Tue8": "'Boa noite a todos, meu nome é Kristoff Joja, CEO da Joja Corp, e estou aqui hoje para apresentar-'#$b#-Eu, oh, @! Eu não sabia que você estava ai!#$e#Você estava gostando do meu discurso?$h",
+"Wed8": "Quando você trabalhava aqui, @, eu era um bom chefe?#$b#Eu sinto que todo meu pessoal me menospreza pelas minhas costas.$s",
+"Sat8": "Você acha que gostaria de fazer uma viagem comigo um dia desses?$l#$b#Ouvi dizer que é bom perto do deserto de Calico.$h",
+"Sun8": "Hmm? Oh, olá, @! Estou escrevendo os prêmios 'Funcionário da Semana' desta semana!$h#$b#Como você está?",
+
+
+//10 HEART DIALOGUE//
+"Mon10": "Você tirou um tempo do seu dia agitado para vir me encontrar? Estou tão feliz.$l",
+"Tue10": "@, Sinto que desenvolvemos um vínculo muito forte.$l#$b#Essa é uma ocorrência rara. Obrigado trazendo de volta o bem para mim, @.$l",
+"Wed10": "Olá, @! Estou tentando trabalhar com uma 'mentalidade positiva' hoje!#$b#Isso me deixou de ótimo humor!$h",
+"Thu10": "Como você viaja até a cidade? De ônibus? De trem?#$b#Você viajaria todo esse caminho só para vir me ver?$l",
+"Fri10": "Olá, @. Eu queria saber se você gostaria de ir ao cinema alguma hora?$h#Eu encontrei um ótimo chamado 'Mysterium'!$h",
+"Sat10": "Você já foi ao clube 'Zuzu Underground, @?#$e#Gostaria de ir comigo uma hora dessas?$l",
+"Sun10": "Urgh, estou de mau humor. Muita papelada!$a#$b#Embora ver você sempre ilumina meu dia, @.",
+
+
+//SEASONAL AND MISC DIALOGUE//
+"spring": "Você sabe que há muito planejamento em cada temporada de varejo. Todos na família Joja se esforçam muito para saber o que você precisa antes de precisar.",
+"spring_Mon": "Nunca há nenhum erro que você não consiga com uma boa equipe do seu lado. Meus advogados são definitivamente bem pagos, mas são definitivamente os melhores.",
+"spring_Thu": "Você sabe que cada parte do que faz pode ser mais bem-sucedida se tiver a mentalidade certa. Eu sei disso, eu escrevi um livro.",
+"summer_Sat": "Você já verificou os produtos sazonais?#$b#Acho que a equipe criativa se superou nesta temporada.$h",
+"summer_Mon": "Eu terceirizo muitos trabalhos que eu fazia sozinho. Às vezes eu quero fazer mais, mas simplesmente não há tempo suficiente.",
+"summer_Tue": "A informação é uma das melhores ferramentas que uma empresa pode ter.#$b#Ou uma das melhores ferramentas suponho, ponto final.",
+"summer_Wed": "Você sabe, eu nunca peço aos meus trabalhadores para fazerem nada que eu mesmo não faria.",
+"summer_Fri": "Sempre gostei de um bom desafio e meus instintos sempre valeram a pena.$h",
+"fall_Sat": "Eu odeio jargões. Se você deseja uma comunicação clara, não deve se esconder atrás de palavras longas!$a",
+"fall_Mon": "Não visito sua cidade com frequência, mas a Feira Stardew Valley é uma das poucas coisas que me faz querer reservar um tempo.",
+"fall_Thu": "Minha ideia de diversão pode não funcionar para todos inicialmente, mas é uma vida cheia de propósito.",
+"fall_Fri": "Na verdade, admiro sua ética de trabalho. O que motiva você?#$b#Talvez eu pudesse fazer isso com meus funcionários.",
+"winter_Mon": "Na maioria das cidades, o inverno é a melhor estação para as vendas, mas Stardew Valley vai contra a tendência. Devemos realmente expandir o leque de lojas lá.",
+"winter_Wed": "Você não precisa ouvir o que todos dizem nesta vida. Mais da metade das vezes é tudo bobagem de qualquer maneira.",
+"rainy": "Sempre tem algo de nostálgico na chuva, não tem?$l#$b#Bem, de volta ao trabalho."
+}

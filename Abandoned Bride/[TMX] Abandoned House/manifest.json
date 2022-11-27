@@ -1,0 +1,11 @@
+{
+  "Name": "Abandoned House",
+  "Author": "SYS",
+  "Version": "1.0.0",
+  "Description": "Abandoned House",
+  "UniqueID": "SYS.interior.AbandonedHouse",
+  "UpdateKeys": [""],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}

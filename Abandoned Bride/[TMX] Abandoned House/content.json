@@ -1,0 +1,10 @@
+{
+    "addMaps":
+    [
+        {
+            "name": "AbandonedHouse",
+            "file": "assets/AbandonedHouse.tmx",
+            "Conditions": "k 18050005"
+        }
+    ]
+}

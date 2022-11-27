@@ -1,0 +1,11 @@
+{
+  "Name": "Abandoned House Exterior",
+  "Author": "SYS",
+  "Version": "1.0.0",
+  "Description": "Abandoned House Exterior",
+  "UniqueID": "SYS.exterior.AbandonedHouse",
+  "UpdateKeys": [""],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}

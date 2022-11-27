@@ -1,0 +1,5 @@
+{
+	"Entries": {
+		"18050001": "communityCenter/-100 -100/farmer -100 -100 0 Aurelia 6 8 0/skippable/changeLocation AbandonedHouse/viewport 6 8 true/glow 200 0 0 true/message \"You walk into the forest and hear an unusual sound... *a scream of a woman.*\"/pause 2000/faceDirection Aurelia 2/speak Aurelia \"He told me he loved me. A monster, was he. The clock struck... eight forty, eight forty, and he ran away.\"/move Aurelia -1 0 1/move Aurelia 2 0 3/move Aurelia -1 0 2/speak Aurelia \"I need to get ready for the wedding, my wedding. My love is waiting, he is waiting for me.$h#$b#Oh, what a miserable day. What a wonderful day.$h#$b#I need to be the perfect wife so that eight forty will pass. Hehehe.$h \"/move Aurelia 2 0 0/pause 2000/shake Aurelia 2000/speak Aurelia \"Why? Why is it still eight forty! Why?$a#$b#No, no, no, no, this can't be true!$u#$b#NO-!$u\"pause 2000/message \"Abandoned Bride screamed in a screeching sound. It almost looked like she was in physical pain.\"/addConversationTopic AbandonedBride 2/globalfade/viewport -1000 -1000/changeLocation Forest/end position 94 75"
+		}
+}

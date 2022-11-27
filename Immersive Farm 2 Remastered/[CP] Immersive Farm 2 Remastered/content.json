@@ -1,0 +1,590 @@
+{
+  "Format": "1.22",
+
+   "ConfigSchema": {
+
+  "Mist_Effects": {
+  "AllowValues": "true, false",
+  "Default": "true"
+   },
+
+  "Farm_Sandbox_Layout": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+
+  "Farm_Light_Debris": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+	
+  "Dirt_Crop_Field_1": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+   
+  "Dirt_Crop_Field_2": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+   
+  "Dirt_Crop_Field_3": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+   
+  "Dirt_Crop_Field_4": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+   
+  "Dirt_Crop_Field_5": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+   
+  "Dirt_Crop_Field_6": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+  
+  "Remove_Fences_In_Front_Of_Grandpas_Shed": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+   
+  "Remove_Farm_Animal_Area_Fences": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+
+  "Remove_Fences_Left_Of_Crop_Field_1": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+   
+  "Remove_Central_Cherry_Blossom_Tree_And_Water_Trough": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+   
+  "Remove_Cherry_Blossom_Tree_From_Southeast_Hill": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+   
+  "Remove_Fences_From_Backyard": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+   
+  "Remove_Pet_House_From_Backyard": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+   
+  "Remove_Flowerbed_From_Backyard": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+   
+  "Remove_Minecart_System": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+   
+  "Remove_Objects_From_Greenhouse": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   },
+
+  "Disable_IF2R_Greenhouse": {
+  "AllowValues": "true, false",
+  "Default": "false"
+   }
+   
+},
+
+  
+  "DynamicTokens": [
+  {
+    "Name": "GrandpaShedComplete",
+    "Value": "{{HasSeenEvent: currentPlayer, hostPlayer |contains=2554906}}"
+  },	
+],
+
+
+  "CustomLocations": [
+  {
+    "Name": "Custom_DeepCave",
+    "FromMapFile": "Assets/NewLocations/DeepCave.tbin",
+    "MigrateLegacyNames": [ "DeepCave" ]
+  },
+  {
+    "Name": "Custom_MinecartCave",
+    "FromMapFile": "Assets/NewLocations/MinecartCave.tbin",
+    "MigrateLegacyNames": [ "MinecartCave" ]
+  },
+],
+
+
+  "Changes": [ 
+
+      //Load tilesheets  
+    {
+      "Action": "Load",
+      "Target": "Maps/z_MineCartCaveShadows, Maps/CavernObjects, Maps/Mine_Inverted, Maps/Farm_Shadow, Maps/z_petbowl",
+      "FromFile": "assets/Tilesheets/{{TargetWithoutPath}}.png",
+    },
+	
+    { //mist tilesheets
+      "Action": "Load",
+      "Target": "Maps/z_IF2R_Mist",
+      "FromFile": "assets/Tilesheets/{{TargetWithoutPath}}.png",
+	  "When": { "Mist_Effects": true, "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	  //Patch IF2R world map
+	{
+      "Action": "EditImage",
+      "Target": "LooseSprites/map",
+      "FromFile": "Assets/Maps/WorldMaps/{{Season}}_IF2R_map.png",
+      "PatchMode": "Overlay",
+      "ToArea": { "X": 0, "Y": 50, "Width": 149, "Height": 69 },
+      "When": { "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	  //Removes bus stop shed path patch
+	{
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "FromFile": "Assets/MapPatches/BusStopShedPathFalse.tbin",
+	  "When": { "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false },
+      "ToArea": { "X": 0, "Y": 24, "Width": 10, "Height": 6 }
+    },
+	
+	
+    //Load Greenhouse and FarmCave interior maps
+    {
+      "Action": "Load",
+      "Target": "Maps/Greenhouse",
+      "FromFile": "assets/Maps/Greenhouse.tbin",
+      "When": { "Disable_IF2R_Greenhouse": false, "FarmType":"Standard", "HasMod |contains=flashshifter.GrandpasFarm": false, "HasMod |contains=DaisyNiko.OasisGreenhouse": false, "HasMod |contains=Forkmaster.CustomGreenhouse": false, "HasMod |contains=Acerbicon.AEG": false, "HasMod |contains=tlitookilakin.xgreenhouse": false, "HasMod |contains=Lantern.SunsetGreenhouse": false, "HasMod |contains=Greenhouse.Who_M": false }
+    }, 
+	{
+      "Action": "EditMap",
+      "Target": "Maps/FarmCave",
+      "FromFile": "assets/Maps/FarmCave.tbin",
+      "When": { "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false, "HasMod |contains=Hesper.HotSpringFarmcave": false, "HasMod |contains=Andrewiste.SlightlyRedesignedFarmCave": false, "HasMod |contains=grapefruitcult.slightymoreinterestingfarmcave": false, "HasMod |contains=Froststar11.FairyFarmCave": false },
+	  "ToArea": { "X": 0, "Y": 0, "Width": 37, "Height": 25 },
+    },
+	
+	{ //default farm cave warp coordinates
+      "Action": "EditMap",
+      "Target": "Maps/FarmCave",
+      "MapProperties": { "Warp": "8 12 Farm 136 95" },
+	  "When": { "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/FarmCave",
+      "When": { "HasMod": "Hesper.HotSpringFarmcave", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false },
+      "MapProperties": { "Warp": "8 12 Farm 136 95" }
+    },
+	{
+      "Action": "EditMap",
+      "Target": "Maps/FarmCave",
+      "When": { "HasMod": "Andrewiste.SlightlyRedesignedFarmCave", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false },
+      "MapProperties": { "Warp": "8 12 Farm 136 95" }
+    },
+	{
+      "Action": "EditMap",
+      "Target": "Maps/FarmCave",
+      "When": { "HasMod": "grapefruitcult.slightymoreinterestingfarmcave", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false },
+      "MapProperties": { "Warp": "8 12 Farm 136 95" }
+    },
+	{
+      "Action": "EditMap",
+      "Target": "Maps/FarmCave",
+      "When": { "HasMod": "Froststar11.FairyFarmCave", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false },
+      "MapProperties": { "Warp": "8 12 Farm 136 95" }
+    },
+	
+
+     //Void the dirt under the petbowl on IF2R
+    {
+      "Action": "EditImage",
+      "Target": "Maps/{{season}}_outdoorsTileSheet",
+      "FromFile": "assets/Tilesheets/z_petbowl.png",
+      "ToArea": { "X": 208, "Y": 1232,"Width": 32, "Height": 16 },
+      "When": { "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+    //Changes standard farm icon
+    {
+      "Action": "EditImage",
+      "Target": "Loosesprites/Cursors",
+      "FromFile": "assets/Tilesheets/Icon.png",
+	  "When": { "HasMod |contains=flashshifter.GrandpasFarm": false },
+      "ToArea": { "X": 2, "Y": 324,"Width": 18, "Height": 20 },
+    },
+	
+	//Changes standard farm strings
+	{
+	  "Action": "EditData",
+	  "Target": "Strings/UI",
+	  "When": { "HasMod |contains=flashshifter.GrandpasFarm": false },
+	  "Entries": {
+	  "Character_FarmStandard": "Immersive Farm 2 Remastered_A huge plot of land with gated progression. Features tillable grass and secrets to discover.",
+	  }
+	},
+	
+	//Greenhouse tiles
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm_Greenhouse_Dirt",
+      "FromFile": "assets/MapPatches/Farm_Greenhouse_Grass_IF2R.tmx",
+      "When": { "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false, "Farm_Sandbox_Layout": "false" },
+	  "ToArea": { "X": 0, "Y": 0, "Width": 9, "Height": 6 },
+    }, 
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farm_Greenhouse_Dirt",
+      "FromFile": "assets/MapPatches/Farm_Greenhouse_Dirt_IF2R.tmx",
+      "When": { "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false, "Farm_Sandbox_Layout": "true" },
+	  "ToArea": { "X": 0, "Y": 0, "Width": 9, "Height": 6 },
+    }, 
+
+	//MAP LOADS AND CONFIGURATIONS
+	{
+      "Action": "Load",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/Maps/Farm.tbin",
+	  "When": { "Farm_Sandbox_Layout": "false", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/FarmLightDebris.tbin",
+	  "ToArea": { "X": 0, "Y": 0, "Width": 163, "Height": 156 },
+	  "When": { "Farm_Light_Debris": "true", "Farm_Sandbox_Layout": "false", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "Load",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/Maps/FarmSandboxLayout.tbin",
+	  "When": { "Farm_Sandbox_Layout": "true", "Farm_Light_Debris": "false", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/DirtCropField1.tbin",
+	  "ToArea": { "X": 43, "Y": 19, "Width": 21, "Height": 22 },
+	  "When": { "Dirt_Crop_Field_1": "true", "Farm_Sandbox_Layout": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/DirtCropField2.tbin",
+	  "ToArea": { "X": 65, "Y": 19, "Width": 22, "Height": 22 },
+	  "When": { "Dirt_Crop_Field_2": "true", "Farm_Sandbox_Layout": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/DirtCropField3.tbin",
+	  "ToArea": { "X": 51, "Y": 41, "Width": 13, "Height": 13 },
+	  "When": { "Dirt_Crop_Field_3": "true", "Farm_Sandbox_Layout": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/DirtCropField4.tbin",
+	  "ToArea": { "X": 65, "Y": 41, "Width": 22, "Height": 13 },
+	  "When": { "Dirt_Crop_Field_4": "true", "Farm_Sandbox_Layout": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/DirtCropField5.tbin",
+	  "ToArea": { "X": 104, "Y": 48, "Width": 22, "Height": 22 },
+	  "When": { "Dirt_Crop_Field_5": "true", "Farm_Sandbox_Layout": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/DirtCropField6.tbin",
+	  "ToArea": { "X": 127, "Y": 48, "Width": 33, "Height": 22 },
+	  "When": { "Dirt_Crop_Field_6": "true", "Farm_Sandbox_Layout": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemoveFencesInFrontOfShed.tbin",
+	  "ToArea": { "X": 129, "Y": 36, "Width": 28, "Height": 9 },
+	  "When": { "Remove_Fences_In_Front_Of_Grandpas_Shed": "true", "Farm_Sandbox_Layout": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemoveFarmAnimalAreaFences.tbin",
+	  "ToArea": { "X": 88, "Y": 20, "Width": 39, "Height": 26 },
+	  "When": { "Remove_Farm_Animal_Area_Fences": "true", "Farm_Sandbox_Layout": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemoveFencesLeftOfCropField1.tbin",
+	  "ToArea": { "X": 34, "Y": 20, "Width": 9, "Height": 20 },
+	  "When": { "Remove_Fences_Left_Of_Crop_Field_1": "true", "Farm_Sandbox_Layout": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemoveFencesFromBackyard1.tbin",
+	  "ToArea": { "X": 44, "Y": 5, "Width": 1, "Height": 10 },
+	  "When": { "Remove_Fences_From_Backyard": "true", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemoveFencesFromBackyard2.tbin",
+	  "ToArea": { "X": 44, "Y": 15, "Width": 15, "Height": 2 },
+	  "When": { "Remove_Fences_From_Backyard": "true", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemoveFencesFromBackyard3.tbin",
+	  "ToArea": { "X": 72, "Y": 7, "Width": 2, "Height": 5 },
+	  "When": { "Remove_Fences_From_Backyard": "true", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemovePetHouseFromBackyard.tbin",
+	  "ToArea": { "X": 52, "Y": 4, "Width": 3, "Height": 3 },
+	  "When": { "Remove_Pet_House_From_Backyard": "true", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemoveFlowerbedFromBackyard.tbin",
+	  "ToArea": { "X": 57, "Y": 5, "Width": 4, "Height": 3 },
+	  "When": { "Remove_Flowerbed_From_Backyard": "true", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemoveCentralCherryBlossomTreeAndWaterTrough1.tbin",
+	  "ToArea": { "X": 88, "Y": 36, "Width": 7, "Height": 7 },
+	  "When": { "Remove_Central_Cherry_Blossom_Tree_And_Water_Trough": "true", "Remove_Farm_Animal_Area_Fences": "false", "Farm_Sandbox_Layout": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemoveCentralCherryBlossomTreeAndWaterTrough2.tbin",
+	  "ToArea": { "X": 88, "Y": 36, "Width": 7, "Height": 7 },
+	  "When": { "Remove_Central_Cherry_Blossom_Tree_And_Water_Trough": "true", "Remove_Farm_Animal_Area_Fences": "true", "Farm_Sandbox_Layout": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemoveCherryBlossomTreeFromSoutheastHill.tbin",
+	  "ToArea": { "X": 128, "Y": 72, "Width": 14, "Height": 14 },
+	  "When": { "Remove_Cherry_Blossom_Tree_From_Southeast_Hill": "true", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Greenhouse,Maps",
+      "FromFile": "assets/MapPatches/Greenhouse_Cleared.tbin",
+	  "ToArea": { "X": 6, "Y": 8, "Width": 29, "Height": 33 },
+	  "When": { "Remove_Objects_From_Greenhouse": "true", "Disable_IF2R_Greenhouse": "false", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	//Grandpa's Shed config patch
+	
+	{    
+	  //Refurbished Shed (IF2R)
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "FromFile": "Assets/MapPatches/FarmShedFixed.tbin",
+	  "When": { "GrandpaShedComplete": true, "Farm_Sandbox_Layout": "false", "HasMod |contains=flashshifter.GrandpasFarm": false, "FarmType":"Standard", "HasSeenEvent |Contains=2554908": false },
+      "ToArea": { "X": 138, "Y": 23, "Width": 12, "Height": 12 },
+	  "Update": "OnLocationChange"
+    },
+	{    
+	  //Refurbished Shed (IF2R) - sandbox layout
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "FromFile": "Assets/MapPatches/FarmShedFixed_SandboxLayout.tbin",
+	  "When": { "GrandpaShedComplete": true, "Farm_Sandbox_Layout": "true", "HasMod |contains=flashshifter.GrandpasFarm": false, "FarmType":"Standard", "HasSeenEvent |Contains=2554908": false },
+      "ToArea": { "X": 138, "Y": 23, "Width": 12, "Height": 12 },
+	  "Update": "OnLocationChange"
+    },
+		
+	
+	//MINECART SYSTEM
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemoveMinecart_1.tbin",
+	  "ToArea": { "X": 74, "Y": 6, "Width": 6, "Height": 10 },
+	  "When": { "Remove_Minecart_System": "true", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemoveMinecart_2.tbin",
+	  "ToArea": { "X": 0, "Y": 22, "Width": 9, "Height": 11 },
+	  "When": { "Remove_Minecart_System": "true", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemoveMinecart_3.tbin",
+	  "ToArea": { "X": 122, "Y": 89, "Width": 7, "Height": 7 },
+	  "When": { "Remove_Minecart_System": "true", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{   //Adds light to minecart lanterns
+       "Action": "EditMap",
+       "Target": "Maps/Farm,Maps",
+       "When": { "Remove_Minecart_System": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false },
+	   "Update": "OnLocationChange",
+       "TextOperations": [
+      {
+       "Operation": "Append",
+       "Target": [ "MapProperties", "Light" ],
+       "Value": "8 6 4 64 14 4 77 7 4 5 24 4 127 91 4",
+       "Delimiter": " "
+      }
+     ]
+    },
+	
+    {  //Adds day time tiles
+       "Action": "EditMap",
+       "Target": "Maps/Farm,Maps",
+       "MapProperties": { "DayTiles": "Buildings 77 7 510 Buildings 5 24 510 Buildings 127 91 510" },
+       "When": { "Remove_Minecart_System": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+    {  //Adds night time tiles
+       "Action": "EditMap",
+       "Target": "Maps/Farm,Maps",
+       "MapProperties": { "NightTiles": "Buildings 77 7 507 Buildings 5 24 507 Buildings 127 91 507" },
+       "When": { "Remove_Minecart_System": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{ //Adds mist effects to the farm
+     "Action": "EditMap",
+	 "Target": "Maps/Farm",
+	 "FromFile": "Assets/MistEffects/Farm_Mist.tbin",
+	 "When": { "Mist_Effects": true, "Weather": "Rain, Storm", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false },
+	 "ToArea": { "X": 0, "Y": 0, "Width": 163, "Height": 156 }
+    },
+	
+	{ //Patches secret woods path
+      "Action": "EditMap",
+      "Target": "Maps/Woods",
+      "FromFile": "assets/MapPatches/Farm_WoodsWarps.tmx",
+      "ToArea": { "X": 64, "Y": 0, "Width": 8, "Height": 7 },
+      "When": { "FarmType": "Standard" }
+    },
+	
+    //bus stop path
+    {
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "FromFile": "assets/MapPatches/busstoppath.tbin",
+      "ToArea": { "X": 0, "Y": 24,"Width": 35, "Height": 6 },
+      "When": { "FarmType":"Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	//New opening event
+    {
+      "Action": "EditData",
+      "Target": "data/events/busstop",
+	  "When": { "FarmType":"Standard", "HasMod |contains=flashshifter.GrandpasFarm": false },
+      "Entries": {
+      "60367/u 0": "none/-1000 -1000/farmer 12 10 2 Robin 13 16 0 Lewis -150 -150 2 Junimo -300 -300 2/pause 500/playSound busDoorOpen/pause 5000/skippable/viewport 15 14 clamp true/playMusic SettlingIn/move farmer 0 1 1/textAboveHead Robin \"Finalmente! Você chegou!\"/move farmer 1 0 2/move farmer 0 2 2/pause 600/speak Robin \"@! Estou feliz em te ver de novo! Já se passaram alguns meses.$4#$b#Não acredito que é dia de mudança para você! Todos na cidade estão animados por você ser oficialmente um residente do Vale do Orvalho.$0\"/pause 200/jump farmer/pause 300/speak Robin \"Eu terminei de consertar a ponte, restaurei a eletricidade da casa, restaurei a maioria das cercas e as outras várias tarefas que você me designou para fazer!$0#$b#Vamos para a Fazenda %farm para que eu possa mostrar a você. Eu também tenho uma surpresa!$1\"/pause 400/emote farmer 20/pause 500/faceDirection Robin 1 true/pause 200/faceDirection Robin 2 true/pause 300/move Robin 0 7 3 true/pause 400/move farmer 0 6 3 true/globalFade/viewport -600 -600/changeLocation Farm/pause 600/halt/stopMusic/pause 700/playMusic spring_day_ambient/warp Robin 71 18/warp farmer 74 18/move Robin 0 0 3/faceDirection farmer 3/viewport 64 18 true/move Robin -10 0 3 true/move farmer -10 0 0 true/move Robin -6 0 1/pause 500/Speak Robin \"Venha olhar o quintal!$1\"/pause 350/faceDirection farmer 0 0 3/pause 400/viewport move -1 -1 8000 true/move farmer -8 0 3/pause 150/emote Robin 32/pause 100/move farmer 0 -6 0 true/pause 500/move Robin 0 0 0/pause 700/move Robin 0 -6 1 true/pause 200/emote farmer 16/pause 900/move farmer 0 0 3/pause 500/speak Robin \"Lewis e eu limpamos o quintal e construímos uma casinha para você!$0#$b#Esta é a nossa forma de dizer Bem-vindo ao vale, @!$1\"/pause 400/emote Robin 40/pause 200/speak Robin \"Lewis está dentro, preparando algumas coisas para você ainda.$0#$b#Já que ele está ocupado, esta é uma boa oportunidade para eu mostrar a ponte consertada!$1\"/pause 500/move Robin 0 6 2 true/pause 500/move farmer 0 5 2 true/globalFade/viewport -600 -600/halt/pause 1000/pause 400/warp Robin 63 56/warp farmer 65 56/viewport 64 57 true/pause 1200/jump farmer/pause 700/jump farmer/pause 1000/move Robin 0 0 1/pause 500/speak Robin \"Desculpe pelos ramos. Tivemos uma tempestade de vento na semana passada.$5#$b#A última vez que você viu a ponte há alguns meses, ela estava parcialmente desmoronada. Eu fiz o meu melhor para repará-la.$0#$b#Não foi tão fácil. Eu já consertei pontes de madeira antes, mas não as de pedra.$2\"/pause 400/faceDirection farmer 3/pause 350/speak Robin \"Então, com os reparos da ponte, cerca e caixa de transporte, restaurando eletricidade e água para a casa da fazenda...$0#$b#Revisão do interior da casa, reforma da lareira e levantamento do terreno...$5\"/pause 500/emote Robin 40/pause 600/speak Robin \"O total do custo será 103,500g.$5\"/pause 250/emote farmer 16/speak Robin \"$q -1 null#(só me restam 500g)#$r -1 0 robin_event3#Só posso pagar isso. Não tenho o dinheiro suficiente para os reparos da estufa agora.\"/pause 500/move Robin 0 0 0/pause 500/move Robin 0 0 1/pause 1000/speak Robin \"Lewis deve estar terminando agora. Devemos voltar para a casa da fazenda.$0\"/pause 1000/globalFade/viewport -1000 -1000/pause 2000/warp farmer 63 18/warp Robin 65 18/move farmer 0 0 1/move Robin 0 0 3/viewport 64 17 true/pause 1300/speak Robin \"Vou buscar Lewis. Ele está lá dentro.$1\"/pause 500/move Robin -1 0 0/move farmer 0 0 0/move Robin 0 -3 0/pause 1000/warp Robin -100 -100/playSound doorClose/pause 1500/pause 700/move farmer 0 -3 3/move farmer -2 0 2/pause 2000/emote farmer 40/pause 1300/warp Lewis 64 15/playSound doorClose/pause 300/move farmer 0 0 1/pause 200/playMusic SettlingIn/move Lewis 0 0 3/textAboveHead Lewis \"Ah! Ai está você!\"/pause 200/jump farmer/pause 1000/move Lewis -1 0 3/pause 750/speak Lewis \"Já faz algum tempo desde a última vez que nos vimos, @.$1#$b#Espero que as melhorias que fizemos na %farm e na casa do seu avô facilitem a instalação.$0#$b#Seus móveis e pertences chegaram há alguns dias! Tudo está dentro.$1\"/pause 500/faceDirection Robin 2/warp Robin 64 15/playSound doorClose/pause 400/move Lewis 0 0 1/pause 250/move Robin 0 0 3/pause 700/speak Lewis \"Robin, você mostrou a @ as melhorias que fez?$0\"/pause 350/speak Robin \"Sim! @ está feliz com o trabalho que foi feito!$1\"/pause 400/jump farmer/pause 700/move Lewis 0 0 3/pause 800/move Lewis 0 0 1/pause 500/speak Lewis \"É bom ouvir isso!$1\"/pause 1000/move farmer 0 0 2/pause 1150/move Robin 0 0 2/pause 1050/move Lewis 0 0 2/pause 400/playSound SpringBirds/pause 800/playSound SpringBirds/pause 100/move Lewis 0 2 2/pause 600/speak Lewis \"Se passaram tantos anos desde que seu avô partiu, que a fazenda ficou neste estado. Você precisará de várias ferramentas para começar.$0\"/pause 600/move Robin 0 0 3/pause 400/move Robin -1 0 3/pause 250/move farmer 0 0 1/pause 150/speak Robin \"Clint, o ferreiro local, fez ferramentas para ajudá-lo a começar a limpar detritos e árvores.$0#$b#Há um machado, picareta, enxada, foice e regador em sua casa!$1\"/pause 500/move Lewis -2 0 0/pause 400/move farmer 0 0 2/pause 500/speak Lewis \"Vai dar muito trabalho transformar a fazenda %farm no que já foi, @. Seu avô ficaria orgulhoso de você.#$b#Amanhã, você deve se apresentar aos moradores da vila. Todos no vale sabem que você acabou de se mudar.$1\"/pause 500/move farmer 0 0 1/pause 250/speak Robin \"Demetrius, meu marido, está ansioso para conhecê-lo, @! Passe pela nossa casa nas montanhas quando tiver uma chance!$1\"/pause 400/move farmer 0 0 2/pause 300/speak Lewis \"Os outros fazendeiros estão entusiasmados por ter outro cultivador no vale.$1#$b#Você pode fazer uma visita a eles, quando você tiver tempo.$0\"/pause 800/move Robin 0 2 3/pause 500/move Lewis 0 0 1/pause 1250/move Lewis 0 0 0/pause 450/speak Lewis \"Nós vamos sair para que você possa se instalar.$0#$b#Se você tiver alguma dúvida ou preocupação, você sabe onde nos encontrar.$1\"/pause 500/move Robin -1 0 0/pause 300/speak Robin \"Se sentir frio, pode usar a lareira. Ela funciona muito bem agora!$1\"/pause 400/speak Lewis \"Nos vemos amanhã. Acomode-se!$1\"/pause 700/move Robin 9 0 3 true/pause 500/move Lewis 9 0 1 true/pause 500/move farmer 0 0 1 true/pause 1300/globalFade/viewport -1000 -1000/stopMusic/pause 2000/playSound rooster/pause 1000/end beginGame"
+      }
+    },
+
+    //Demetrius farm cave event. Changes cave location dialogue to south east.
+    {
+      "Action": "EditData",
+      "Target": "data/events/farm",
+	  "When": { "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false },
+      "Entries": {
+      "65/m 25000/t 600 1200/H": "continue/64 15/farmer 64 16 2 Demetrius 64 18 0/pause 1200/speak Demetrius \"Oi @! Tenho boas notícias para você. Alguns dias atrás, fiz um grande avanço em minha pesquisa sobre o meio ambiente local.$h#$b#Vou poupá-lo dos detalhes técnicos e ir direto ao ponto... Você conhece aquela caverna vazia ali, um pouco mais ao sudeste? Bem, eu tenho uma maneira de transformá-lo em algo útil... para nós dois.#$b#Eu gostaria de montar a caverna para atrair algumas espécies locais. Assim posso observá-los em um ambiente mais controlado. E você pode colher quaisquer produtos que eles produzam.#$b#Eu posso montar a caverna para fazer cogumelos ou atrair morcegos frugívoros. Os morcegos às vezes deixam frutas para você coletar.\"/cave/speak Demetrius \"Tudo bem! Vou providenciar para você agora mesmo! Não deve demorar muito.$h#$b#Obrigado por me deixar fazer isso.\"/end dialogue Demetrius \"Estou animado para ver o que acontece com essa caverna. Não é?#$e#Espero que esteja satisfeito com o trabalho que fiz.\""
+      }
+    },
+	
+	//Marnie mentions farm animals can't leave fenced in area (player has white egg in their inventory)
+    {
+      "Action": "EditData",
+      "Target": "data/events/farm",
+	  "When": { "FarmType": "Standard", "Farm_Sandbox_Layout": "false", "Remove_Farm_Animal_Area_Fences": "false" },
+      "Entries": {
+      "896152/i 180/t 600 1800/y 1/z winter": "none/-1000 -1000/farmer 64 16 2 Marnie 64 18 0/skippable/pause 1000/speak Marnie \"Oi @! Agora que você possui animais de fazenda, pensei em lhe contar um pequeno segredo.$0\"/pause 400/emote farmer 8/pause 100/speak Marnie \"Eles não vão sair das áreas cercadas da sua fazenda, então você pode deixá-las abertas!$1\"/pause 250/emote farmer 32/pause 100/end"
+	  }
+    },
+	
+	//Marnie mentions farm animals can't leave fenced in area (player has white egg in their inventory)
+    {
+      "Action": "EditData",
+      "Target": "data/events/farm",
+	  "When": { "FarmType": "Standard", "Farm_Sandbox_Layout": "false", "Remove_Farm_Animal_Area_Fences": "false" },
+      "Entries": {
+      "896152/i 180/t 600 1800/y 1/z winter": "none/-1000 -1000/farmer 64 16 2 Marnie 64 18 0/skippable/pause 1000/speak Marnie \"Hi @! Now that you own farm animals, I thought I'd let you in on a little secret.$0\"/pause 400/emote farmer 8/pause 100/speak Marnie \"They won't wander out of the fenced areas on your farm, so you're free to leave them open!$1\"/pause 250/emote farmer 32/pause 100/end"
+	  }
+    },
+	
+	//Marnie mentions farm animals can't leave fenced in area (player has milk in their inventory)
+    {
+      "Action": "EditData",
+      "Target": "data/events/farm",
+	  "When": { "FarmType": "Standard", "Farm_Sandbox_Layout": "false", "Remove_Farm_Animal_Area_Fences": "false" },
+      "Entries": {
+      "896152/i 184/t 600 1800/y 1/z winter": "none/-1000 -1000/farmer 64 16 2 Marnie 64 18 0/skippable/pause 1000/speak Marnie \"Oi @! Agora que você possui animais de fazenda, pensei em lhe contar um pequeno segredo.$0\"/pause 400/emote farmer 8/pause 100/speak Marnie \"Eles não vão sair das áreas cercadas da sua fazenda, então você pode deixá-las abertas!$1\"/pause 250/emote farmer 32/pause 100/end"
+	  }
+    },
+
+    //Robin if2r event dialogue additions
+    {
+      "Action": "EditData",
+      "Target": "characters/dialogue/Robin",
+	  "When": { "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false },
+      "Entries": {  
+        "robin_event1": "De nada, @!$1",
+        "robin_event2": "Obrigada, @!$1",
+        "robin_event3": "Desculpa, se foi tão caro, @...$2#$b#Somente os reparos da ponte chegaram a 45.000g. As lajes de pedra que comprei e os equipamentos que aluguei não eram baratos.$5",
+	    "robin_event4": "De nada, @!$1",
+	    "robin_event6": "Umm... sim, sem problema.$2",
+      }
+    },
+  ]
+}

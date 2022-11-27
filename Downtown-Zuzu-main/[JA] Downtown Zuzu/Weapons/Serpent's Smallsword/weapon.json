@@ -1,0 +1,24 @@
+{
+    "Name": "Serpent's Smallsword",
+    "Description": "An odd weapon Qi made for you by combining fragments dropped by a deadly beast. The blade seems to glow.",
+    "Type": "sword",
+    "MinimumDamage": 50,
+    "MaximumDamage": 110,
+    "Knockback": 4,
+    "Speed": 1,
+    "Accuracy": 95,
+    "Defense": 1,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 3,
+    "CritChance": 0.4,
+    "CritMultiplier": 1.2,
+    "NameLocalization" : 
+		{ 
+		"pt" : "Espada Pequena da Serpente",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Uma estranha arma Qi feita para você combinando fragmentos deixados por uma fera mortal. A lâmina parece brilhar",
+		}
+}

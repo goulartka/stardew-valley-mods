@@ -1,0 +1,17 @@
+{
+    "Name": "Zuzu Signature Cocktail",
+    "Price": 200,
+    "Description": "A neon pink cocktail. You don't know what's in it, but damn it looks tasty.",
+    "Category": "Cooking",
+    "Edibility": 70,
+    "EdibleIsDrink": "true",
+    "IsColored": "false",
+   "NameLocalization" : 
+		{ 
+		"pt" : "Coquetel de Assinatura Zuzu",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Um coquetel rosa neon. Você não sabe o que tem nele, mas caramba, parece gostoso",
+		}
+}

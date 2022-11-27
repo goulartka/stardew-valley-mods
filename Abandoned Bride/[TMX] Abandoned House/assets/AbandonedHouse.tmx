@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="14" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="48">
+ <properties>
+  <property name="Warp" value="8 19 Forest 97 72"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+  <tile id="1378">
+   <animation>
+    <frame tileid="1378" duration="120"/>
+    <frame tileid="1381" duration="120"/>
+    <frame tileid="1384" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1379">
+   <animation>
+    <frame tileid="1379" duration="120"/>
+    <frame tileid="1382" duration="120"/>
+    <frame tileid="1385" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1380">
+   <animation>
+    <frame tileid="1380" duration="120"/>
+    <frame tileid="1383" duration="120"/>
+    <frame tileid="1386" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1410">
+   <animation>
+    <frame tileid="1410" duration="250"/>
+    <frame tileid="1474" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1411">
+   <animation>
+    <frame tileid="1411" duration="500"/>
+    <frame tileid="1475" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="32" columns="4">
+  <image source="paths" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="2209" name="Paths" tilewidth="16" tileheight="16" tilecount="32" columns="4">
+  <image source="paths.png" width="64" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="PathType" value="NE"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="PathType" value="SE"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="PathType" value="WS"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="PathType" value="WN"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="PathType" value="Crossroad"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="PathType" value="End"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2241" name="AbandonedHouse" tilewidth="16" tileheight="16" tilecount="128" columns="32">
+  <image source="AbandonedHouse.png" width="512" height="64"/>
+ </tileset>
+ <layer id="1" name="Back" width="14" height="20" opacity="0.97">
+  <data encoding="base64" compression="zlib">
+   eJydkVEKwjAMhuukwR1hvs2dYr7oOfbi8BoK8xwqzHOooEczofml61oZBsKXrFn+JjXmf+usMWdyPKl3dpyDsJ7jOzne1Hs7zkHYy44Jf0di2CYzZptNJ2zHccs+zx2RH/juR3K5nOH7dy8cn9hXuaPka65/sD/J5XKGOtiS4no+y4l6fv+Qv+bz5wELiuvJXfaLtF5N7jycT/rOuD5jr5S+Tmo+YaU60EUfId4lnC8k7lGq7oXzq/cf+qT21+me8J6wRvuEewt1w/lEv6Hh3mK6BQ3fD/qpOUvdTZ14v6mcYm2i7gOvY1sC
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="14" height="20">
+  <data encoding="base64" compression="zlib">
+   eJytkssOwVAQhuccSsMTIISVncsbVAgrt53E0kuIZ7HEK2Dlbs2KeBOE+KU96UnbI23iT76cpjP/nOl0YkQUDwgDFbKVjZJScszpM374DIXvFjHPlWaeL070Bn3Nzt/oRAPJV+fme3FuQ0RpkAEn+M6gYcV6mrtPv5J9op5QgTuzifLc7RPaI9YELdDmdu9fHfF9a4Vvqwfrc8m8c+a4bwE6mEdXU/fp1AWeq+Nbhe+Ohwd4etw5lPqeIj5jti+BekmQ8pihl4RvhJo7sP8xkxxqVmGosf/8dz+aYIfHYbfvgD6L2PsSKEv7L++SoQe/T8yAWb0GFfOBKu8D7M8lMQ==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="32" name="TileData" x="128" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say The clock is stopped at 8:40."/>
+   </properties>
+  </object>
+  <object id="33" name="TileData" x="176" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say The clock is stopped at 8:40."/>
+   </properties>
+  </object>
+  <object id="34" name="TileData" x="32" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say The clock is stopped at 8:40."/>
+   </properties>
+  </object>
+  <object id="35" name="TileData" x="16" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say The clock is stopped at 8:40."/>
+   </properties>
+  </object>
+  <object id="36" name="TileData" x="48" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say The clock is stopped at 8:40."/>
+   </properties>
+  </object>
+  <object id="37" name="TileData" x="160" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say The clock is stopped at 8:40."/>
+   </properties>
+  </object>
+  <object id="38" name="TileData" x="176" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say It's a calander. It's says 'Spring, 1805.'"/>
+   </properties>
+  </object>
+  <object id="39" name="TileData" x="32" y="208" width="32" height="16">
+   <properties>
+    <property name="Action" value="Say There is a puddle of blood."/>
+   </properties>
+  </object>
+  <object id="40" name="TileData" x="144" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say The clock is stopped at 8:40."/>
+   </properties>
+  </object>
+  <object id="41" name="TileData" x="128" y="160" width="32" height="16">
+   <properties>
+    <property name="Action" value="Say The mirror is half broken."/>
+   </properties>
+  </object>
+  <object id="42" name="TileData" x="64" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say Broken glass particles are on the floor."/>
+   </properties>
+  </object>
+  <object id="43" name="TileData" x="160" y="144" width="32" height="16">
+   <properties>
+    <property name="Action" value="Say There are few valuable gems at the bottom."/>
+   </properties>
+  </object>
+  <object id="44" name="TileData" x="192" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say There are old, dusty cloths at the bottom."/>
+   </properties>
+  </object>
+  <object id="45" name="TileData" x="192" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say A picture of a family. The father is torn out."/>
+   </properties>
+  </object>
+  <object id="46" name="TileData" x="160" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say A cute little teddy bear is sitting on the floor."/>
+   </properties>
+  </object>
+  <object id="47" name="TileData" x="128" y="64" width="32" height="16">
+   <properties>
+    <property name="Action" value="Say It's a wheel."/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="14" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAd8EBpYzYI/QtI/wbiP0C8l4mBYR8QP2JGiMPkXNHMkWJnYJAGYhkgvgvUcw+IrVkR4jA5mD41JlR6ETPCrA1AfRtZEXIWrJj2EQuQ9cHMwwdganDZpwuV12fCbh413DmTEbe6GUA7DYDhYchKHftuAu26BcS38dgJAq1A+TZGVPs2A/lsLPj1LQSqWcRIujsPAvUcIkMfDGDT9x6Ybj8A8Uc2TLkWNtz6+IHpVgCIBdkRYuhxT013EqsvEYiX4cCLoeqWoIk3EzDXEY+7AC85KfU=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="14" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALaAAAEYAAB
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+</map>

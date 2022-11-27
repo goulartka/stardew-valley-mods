@@ -1,0 +1,15 @@
+﻿
+{ 
+  //SPECIAL DIALOGUE
+  "Introduction": "You must be Mr. @. Pleasure to meet you.^You must be Ms. @. Pleasure to meet you.",
+
+  "Mon": "Olá.#$e#Encontrou algo interessante?",
+  "Tue": "Err, olá.$0",
+  "Wed": "Olá Sr. @.^Olá Sra. @.",
+  "Thu": "Bem-vindo ao Escritório de Arqueologia.^Bem-vinda ao Escritório de Arqueologia",
+  "Fri": "Oi.$0",
+  "Sat": "Você tem planos para o fim de semana?",
+  "Sun": "Bom dia, Sr. @.^Bom dia, Sra. @.",
+
+}
+

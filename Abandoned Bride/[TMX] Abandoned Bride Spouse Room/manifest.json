@@ -1,0 +1,11 @@
+{
+  "Name": "Abandoned Bride Spouse Room",
+  "Author": "SYS",
+  "Version": "1.0.0",
+  "Description": "Spouse Room for Abandoned Bride",
+  "UniqueID": "SYS.SpouseRooms.AB",
+  "UpdateKeys": [""],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "Name": "Bubblegum Ice Cream",
+    "Price": 130,
+    "Description": "A brightly-coloured cone of Bubblegum Ice Cream Cone - a popular flavour, due to its sweetness!",
+    "Category": "Cooking",
+    "Edibility": 46,
+    "EdibleIsDrink": "false",
+    "IsColored": "false",
+	"NameLocalization" : 
+		{ 
+		"pt" : "Sorvete de chiclete",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Um cone de sorvete sabor chiclete cheio de cores vivas - um sabor popular devido à sua doçura",
+		}
+}

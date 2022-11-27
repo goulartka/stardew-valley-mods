@@ -1,0 +1,13 @@
+﻿{
+  "mergeMaps":
+  [
+    {
+      "name": "Forest",
+      "file": "assets/AbandonedHouseExterior.tmx",
+      "sourceArea": [0,0,6,6],
+      "position": [93,70],
+      "Conditions": "j 3/k 18050005"
+    }
+  ]
+  
+}

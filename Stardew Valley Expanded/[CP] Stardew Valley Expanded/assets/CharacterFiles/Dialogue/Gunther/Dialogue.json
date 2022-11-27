@@ -1,0 +1,76 @@
+﻿
+{ 
+  //SPECIAL DIALOGUE
+  //"Introduction": "You must be Mr. @. Pleasure to meet you.$5^You must be Ms. @. Pleasure to meet you.$5",
+  "pamHouseUpgrade": "Não posso dizer que fiquei nem um pouco surpreso quando Robin me disse que você foi o responsável pelo financiamento da nova casa de Pam.$1",
+  "pamHouseUpgradeAnonymous": "Robin se superou com aquele lindo design de casa para Pam.$0#$e#Agora eu me pergunto... quem é esse patrocinador misterioso? Talvez eu já os tenha conhecido antes!$1#$e#%Gunther sorri para mim e tira o chapéu.",
+  "Resort_Entering": "Willy parece ter muito orgulho daquele barco, você não acha?$0",
+  "Resort_Leaving": "Talvez eu devêsse chamar alguns amigos para cá futuramente...$0",
+  "Resort_Shore": "Você já conheceu meu colega de classe, acho que ele está por aqui em algum lugar.",
+  "Resort_Chair": "Essa ilha deve ter tantos mistérios...$0",
+  "Resort_Bar": "Obrigado pelo atendimento, Gus.$1",
+  "Resort": "%Gunther está ocupado vasculhando artefatos.",
+  
+  //SPRING AND GENERAL DIALOGUE
+  "spring_1": "*sniff* Polén...$2",
+  "spring_12": "Penny e as crianças estavam pintando ovos de páscoa esses dias.$1",
+  "spring_23": "Eu me pergunto o que Pierre estará vendendo amanhã...$5",
+  
+  "Mon": "Ah, olá, Sr. @!$5^Ah, olá, Sra. @!$5#$b#Como estão as coisas na fazenda?$1",
+  "Mon2": "*bocêjo* Olá, Sr. @!$5^*bocêjo* Olá, Sra. @!$5#$b#Desculpe minha falta de paciência... estive estudando os artefatos a noite toda.$5#$e#Quando você está explorando o desconhecido, é normal perder o senso do tempo!$1",
+  "Mon10": "Nós recebemos uma doação graças à coleção de artefatos...$5#$b#Aqui está uma parte, Sr. @ [336]^Aqui está uma parte, Sra. @ [336]",
+  "Tue": "Artefatos antigos  estão enterrados onde costumamos pisar...$5#$e#O prefeito me contou que você estava cavando pela vila esses dias.$5",
+  "Tue6": "Estou pensando na credibilidade de um artigo de pesquisa...$5#$b#A forma que foi escrita é questionável.$5#$e#Até mais, Sr. @.$5^Até mais, Sra. @.$5",
+  "Wed": "Você sabia que eu sou fluente em vários idiomas? Incluindo a lingua anã.$5#$b#É preciso saber certos idiomas para lidar com as descobertas do passado.$1",
+  "Wed8": "Você ouviu as novas? Um explorador descobriu artefatos raros no Deserto Cálico!$1#$e#Os achados foram importantes para o campo.$5",
+  "Thu": "*sigh* Algumas pessoas nunca colocam os livros no lugar onde estavam...$2#$e#Ah, não se importe com meus comentários, Sr. @.$5^Ah, não se importe com meus comentários, Sra. @.$5",
+  "Thu8": "Talvez uma boa comida e bebida me faça bem neste fim de semana!$1#$e#Você já bebeu aquela bebida 'Cometa...', como era o resto?$5",
+  "Fri": "Algum dia farei uma descoberta que vai parar o planeta, aguarde.$1",
+  "Fri6": "Encontrou algum fóssil recentemente?$5#$e#Há muitos secretos escondidos no solo do Vale do Orvalho.$1",
+  "Sat": "Penny dá aula para Jas e Vincent por vários dias da semana.$5",
+  "Sat4": "Os artefatos que você encontra está ajudando muito o museu, Sr. @.$5^Os artefatos que você encontra está ajudando muito o museu, Sra. @.$5#$e#Obrigado.$5",
+  "Sun": "Você já terminou o trabalho por hoje?$5#$e#Eu ainda tenho pesquisas para concluir esta noite... Estou perto de descobrir um achado!$1",
+  
+  //SUMMER DIALOGUE
+  "summer_1": "O dia está quente e úmido...$2",
+  "summer_10": "O governador fará uma visita no festival de amanhã, você sabia?$1#$e#O governador é uma figura pública incrível, ele sempre vence as eleições com votos acima de 80 por cento.$5",
+  "summer_28": "Há um livro na livraria que diz muito sobre os mistérios das Medusas-Da-Lua.$5#$b#Criaturas fantásticas.$1",
+
+  "summer_Mon": "Talvez você encontre objetos escondidos na sua fazenda.$5#$e#Objetos históricos da fazenda %farm.$5",
+  "summer_Mon6": "Slimes existem há mais de 400mil anos. Você pode encontrar algumas petrificadas em sua aventura.$5#$e#Haha! Monstros existiam milênios antes dos humanos.$1",
+  "summer_Sat": "Você pode encontrar objetos enterrados na floresta.$5#$e#Ocorreu uma batalha lá, há muito tempo atrás...$5#$e#Adeus, Sr. @.$5^Adeus, Sra. @.$5",
+  "summer_Sat6": "Os pássaros estão felizes hoje.$5#$e#Ah, isso me lembrou de uma coisa... preciso construir um bebedouro para eles.$1",
+  
+  //FALL DIALOGUE
+  "fall_1": "Ah... você ouviu isso?$5#$b#O som das folhas caindo lá fora.$1",
+  "fall_5": "Willy me contou uma história de pescador ontem.$1#$e#Ele estava pescando de noite perto da vila...$5#$b#De repente ele viu uma luz saindo de sua vara!$1#$b#Ele me contou que foi um feito do peixe lendário chamado 'Tamboril'.$5",
+  "fall_15": "O prefeito disse que terá muita gente participando do festival de amanhã.$5",
+  
+  "fall_Tue": "Fiz descobertas incríveis enquanto fazia minha pesquisa na universidade quando era um jovem.$5#$e#Bom dia, Sr. @.$0^Bom dia, Sra. @.$5",
+  "fall_Tue8": "Obrigado pelas doações, Sr. @.$5^Obrigado pelas doações, Sra. @.$5#$e#Você está fazendo muito para uma pessoa só!$1",
+  "fall_Fri": "Tecnologia anã impactou muito as civilizações ao redor do mundo.$5#$e#Sua tecnologia molda a maneira que vivemos até hoje.$1#$e#Óleo e carvão é sujo... mas é essêncial para manter a energia que precisamos.$5",
+  "fall_Fri8": "Às vezes eu vou lá fora dar uma olhada no Jardim Comunitário. O pessoal anda trabalhando bem.$5#$b#Se eu ver um corvo por lá, faço questão de assustá-lo!$1",
+  
+  //WINTER DIALOGUE
+  "winter_1": "Se estiver sentindo frio, não se importe em ficar  na biblioteca o quanto quiser.$5#$b#O fogo mantém todo mundo aquecido.$1",
+  "winter_24": "Todo mundo parece animado para o festival que teremos em breve.$1#$e#Estou ajudando Gus com as preparações.$5",
+  "winter_28": "A neve sumirá em breve.$5#$e#Boa sorte com o novo ano, Sr. @.$5^Boa sorte com o novo ano, Sra. @.$5",
+  
+  "winter_Tue": "Hmmm...$2#$e#...$2#$e#Ah, olá... estou tentando me concentrar em um dilema que encontrei enquanto pesquisava um artefato.$5#$e#Bom dia, Sr. @$5^Bom dia, Sra. @.$5",
+  "winter_Tue8": "Clint me disse que às vezes se sente como um arqueólogo.$5#$e#Bem, isso é graças aos geodos que você leva para ele abrir.$1",
+  "winter_Thu8": "Eu nunca vou esquecer seus atos heróicos naquelas cavernas.$5",
+  "winter_Sun": "Olá, Sr. @. Espero que seu dia esteja produtivo!$1^Olá, Sra. @. Espero que seu dia esteja produtivo!$1",
+  "winter_Sun6": "Ah, você usa uma enxada para cavar artefatos?$5#$e#Eu poderia te emprestar uma pá qualquer dia.$1",
+  
+  //EVENT DIALOGUE
+  "gunther_event1": "Sim, muitas civilizações viveram neste vale há centenas de anos atrás... Elfos, Anões, Sombrios...$5#$b#Estou determinado a desvendar os mistérios que cercam essas sociedades antigas.$5",
+  "gunther_event2": "Eu concordo, Sr. @.$5^Eu concordo, Sra. @.$5",
+  "gunther_event3": "Hmm... sim. Muitas armas estão sob o próprio solo em que estamos.$5#$b#Talvez um dia, descobriremos a origem dessas guerras antigas entre outras raças...$5",
+  "gunther_event4": "Hmm...#$b#Permita-me tirar a minha própria conclusão sobre esse caso, Sr. @.^Permita-me tirar a minha própria conclusão sobre esse caso, Sra. @.$5",
+  "gunther_event5": "Bem... sim, estou nervoso.$2#$b#Esta é minha primeira vez explorando as minas.$5#$b#Estou honrado que alguém como você esteja me acompanhando.$1",
+  "gunther_event6": "Isso é reconfortante.$5#$b#Estou honrado que alguém como você esteja me acompanhando.$1",
+  "gunther_event7": "Estarei logo atrás de você.$5",
+  "gunther_event8": "Estarei logo atrás de você.$5"
+  
+}
+

@@ -1,0 +1,17 @@
+{
+    "Name": "Mozzarella Slice",
+    "Price": 200,
+    "Description": "A slice of mozzarella pizza with various toppings. The cheese is nice and stringy.",
+    "Category": "Cooking",
+    "Edibility": 35,
+    "EdibleIsDrink": "false",
+    "IsColored": "false",
+	"NameLocalization" : 
+		{ 
+		"pt" : "Fatia de Mozzarella",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Uma fatia de pizza de mussarela com vários recheios. O queijo é uma delicia e pegajoso.",
+		}
+}

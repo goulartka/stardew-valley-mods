@@ -1,0 +1,18 @@
+{
+    "Name": "Chocolate Ice Cream",
+    "Price": 130,
+    "Description": "A delicious cone of chocolate flavoured ice cream cone. It's so refreshing!",
+    "Category": "Cooking",
+    "Edibility": 45,
+    "EdibleIsDrink": "false",
+    "IsColored": "false",
+    "DisableWithMod": "ppja.artisanvalleymachinegoods",
+   "NameLocalization" : 
+		{ 
+		"pt" : "Sorvete de chocolate",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Um deliciosa casquinha de sorvete com sabor de chocolate. É tão refrescante",
+		}
+}

@@ -1,0 +1,113 @@
+{
+//SPECIAL DIALOGUE
+"Introduction": "Ah, então você é @. Como vai? Me chamo Morris, gerente da Joja aqui na Vila Pelicanos.$0#$b#Se você precisar de sementes baratas e de alta qualidade, dê uma volta pelo nosso mercado!$1#$e#Eu não me importo com a lojinha do Pierre, pois tenho a absoluta certeza de que meus produtos são superiores.$3",
+"Resort_Entering": "Ah, yes, nós chegamos!$1",
+"Resort_Leaving": "Eu acho que há certas coisas que poderiam ser aprimoradas por aqui.$0",
+"Resort_Shore": "Essa ilha tem muito potencial...$4#$e#Err... aquele vulcão pode ser um problema, no entanto...$2",
+"Resort_Chair": "Eu trabalhei tanto, eu mereço um descanso!$1",
+"Resort_Bar": "Barman! Me manda a melhor, por favor!$1",
+"Resort": "Há muitas oportunidades de negócio nessa fazenda!$5",
+
+//SPECIFIC TILE DIALOGUE
+"Town_43_59": "Cupons de 50 por cento! Venha e pegue-os antes que acabe!$1",
+"Town_44_59": "Compre um cupom Joja hoje e esteja livre de problemas financeiros no futuro!$1",
+"Town_42_59": "Estocando sementes para a próxima temporada? Encontre as sementes mais baratas da cidade na Joja!$1",
+"Town_43_60": "Na Joja, cada um é considerado como um membro da família.$1",
+
+//SPRING AND GENERAL DIALOGUE
+
+"spring_1": "Este ano será o melhor para a corporação Joja.$1#$b#Nossos lucros estão cada vez mais crescendo ao longo dos anos.$4",
+"spring_12": "O prefeito Lewis sempre fica do lado da Joja durante os festivais.$3#$e#Não, eu não vou participar do festival amanhã.$3",
+"spring_23": "Não, eu não vou a esse festival de dança.$3#$e#...$2",
+"spring_28": "Quase na hora de trocar o estoque na loja. Estou ansioso para a temporada de verão.$0",
+
+"Mon": "E outra semana de trabalho duro começa. Espero que Shane tenha um desempenho melhor nesta semana do que na última.$0#$e#Aquele garoto fica mais preguiçoso a cada dia, acho que vou cortar parte de seu salário.$3",
+"Mon2": "Você comprou alguma de nossas sementes nesta temporada, @?$1#$b#Elas são de extrema qualidade! Pergunte ao Andy!$4",
+"Mon6": "Trabalhe duro, @.$1", 
+"Tue": "Se você precisar de sementes baratas, então deve confiar na Joja.$5",
+"Tue2": "Eu tenho uma pilha gigante de contabilidade para lidar hoje.$0#$b#Muitas pessoas acham que toda essa papelada é entediante. Eu não diria que é animador, mas eu me acostumei com o esforço quando comecei sentir o resultado.$4",
+"Tue8": "Você é um exemplo ótimo do que os fazendeiros locais deveriam ser.$1#$e#Continue firme e não se esqueça de comprar na Joja!$1",
+"Wed": "A loja do Pierre está fechada hoje, que vergonha!$5#$e#Mais um ponto para a Joja.$3",
+"Wed2": "Pierre sempre tira folga nas quartas. Infelizmente para ele, eu nunca paro!$5#$e#Agora é uma boa hora para comprar sementes!$1",
+"Wed8": "Ah, @. Que bom ver você, vai comprar alguma coisa?$4#$e#Mesmo Pierre estando fechado hoje você sabe que pode contar conosco!$1",
+"Thu": "Estive lendo diferentes estratégias para otimizar o arranjo de lojas de departamento.$4#$e#Joja é bastante firme sobre as coisas serem consistentes entre os locais, mas me pergunto se tenho algum espaço para manobrar e experimentar algumas coisas novas...$5",
+"Thu2": "*yawn* Cinco horas de sono ainda não é suficiente para manter um ritmo constante.$2#$e#Bem, de volta ao trabalho!$1",
+"Thu8": "Oi, @, obrigado por falar comigo, como está o seu dia?$0#$e#Ninguém aqui conversa tanto quanto você!$1",
+"Fri": "Olá, trabalhando duro, não estamos?$0#$e#Com certeza.$1",
+"Fri2": "Estive tendo um dia duro de trabalho, acho que vou dar uma passada no salão mais tarde.$1",
+"Fri6": "*suspira* Certamente poderia tomar uma bebida hoje à noite, especialmente com as horas extras que fiz esta semana.$2#$e#Às vezes, sinto como se... não sou bem-vindo no salão do Gus. Eu sempre fico sujo quando vou lá.$2#$e#Felizmente, mantenho um estoque especial de vinho embaixo da minha mesa.$1",
+"Fri10": "Ah! @! Tive uma semana gloriosa.$1#$b#Confio que seu dia está bem?$0#$e#Haha! Devemos beber no salão em algum momento e comemorar nosso sucesso!$1",
+"Sat": "Joja é a melhor escolha dos comércios locais!$5",
+"Sat2": "Lembro-me de quando eu tinha sábados de folga, quando eu era apenas um grunhido baixo dos postos na  Joja.$4#$e#Muita coisa mudou desde lá.$1",
+"Sat8": "@, sou grato pelo tempo que você gasta para conversar comigo. Isso faz diferença no meu dia.$1#$e#Continue com o ótimo trabalhando, contribuindo para a comunidade!$4",
+"Sun": "Err... Olá.$4#$e#Precisa de algo?$3#$e#Ah, sementes!? Joja disponiliza várias! E com as melhores qualidades do mercado!$5",
+"Sun2": "Eu recomendo comprar ações da Joja. Eles continuam subindo!$4#$e#Ah, você não investe? Que pena.$0",
+"Sun8": "Você anda tendo lucro, @?$0#$b#Eu não quero ser um intrometido, apenas estou curioso sobre como o ciclo de receita funciona para você.$4",
+
+//SUMMER DIALOGUE
+"summer_1": "Ah, o verão chegou, minha estação favorita.$1#$b#Por quê? Pessoas amam fazer compras durante o verão, principalmente quando você tem uma máquina de bebidas para combater o calor em sua loja.$4",
+"summer_10": "Ainda precisa de algo para colocar naquela sopa, @?$0#$b#Joja tem as melhores opções para você.$4",
+"summer_28": "...Eu não gosto de olhar essas Medusas.$2#$e#Não sei porque, me sinto estranho.$3",
+
+"summer_Mon": "A Vila Pelicanos não é desenvolvida, é por isso que estou aqui.$0#$e#%Os olhos de Morris brilham com deter... espera, dinheiro?", 
+"summer_Mon6": "...Há algo bom nessa vila também, entende? Não me leve a mal, estou dedicado a expandir a Joja nessa comunidade, mas...$0#$e#Você entende, não? Estou começando a ver algo especial nessa vila.",
+"summer_Tue":  "Oi, @, o dia perfeito para fazer dinheiro.$1",
+"summer_Tue2": "*yawn* Eu quase não dormi ontem à noite... muito trabalho a ser feito.$0#$e#%Morris boceja novamente.",
+"summer_Tue6":  "Puxei a noite passada inteira me certificando de que a loja estava em perfeitas condições, estou cansado...$2#$e#%Morris fecha seus olhos.",  
+"summer_Wed": "Há várias possíveis lojas que pretendo plantar nessa comunidade futuramente.$4#$e#Talvez uma que venda peixes ou... móveis?$1",
+"summer_Wed6":  "Gosto de elaborar planos de desenvolvimento. Encontrar o uso mais eficaz dos fundos é gratificante.$0#$e#Você faz o mesmo na sua fazenda, não?$1",
+"summer_Thu": "Eu me pergunto quantos clientes farei este ano.$4#$e#Nossa família cresce a cada estação.$1",
+"summer_Thu8": "...Estive pensando, @. Nós chamamos a Joja de 'família'... mas eu não acredito nessa falácia mais.$2#$e#%Morris parece triste.",
+"summer_Fri": "Nossas sementes de melão certamente vão te fazer lucrar, @. Eu recomendo que compre muitas!$1",
+"summer_Sat": "Eu comprei um sorvete daquele garoto, Alex, ontem. Estava maravilhoso.$1#$b#Talvez Joja também devesse vender sorvetes, o que você acha?$5",
+"summer_Sat6": "O sorvete do Alex é maravilhoso!$1#$e#Eu gosto de ver a comunidade prosperar com seus pequenos negócios.$1",
+"summer_Sun": "Compre na Joja ou aproveite o nosso ar-condicionado!$1",
+"summer_Sun6": "Calor demais? Passe na Joja e se delicie com nosso sistema de ar-condicionado.$4",
+
+//FALL DIALOGUE
+
+"fall_1": "O outono está aqui e é hora das vendas de liquidação de verão.$0#$e#Na Joja? Certamente não. Mas eu gosto de caçar pechinchas em outros lugares.$4",
+"fall_15": "Você estará participando desse festival amanhã, @?$0#$e#...Talvez eu vá. Gostaria de ver o que você está cultivando em sua fazenda e seria útil saber que tipo de coisas o prefeito gosta.$0",
+"fall_23": "Não é tarde demais para comprar sementes!$0#$b#Você terá tempo suficiente para colher a colheita antes do inverno começar!$1",
+"fall_27": "Esse era o meu festival favorito quando eu era jovem.$0#$b#Eu sempre me vestia da mesma maneira: um contador.$1",
+"fall_28": "Mais um ano quase no fim...$1#$e#Precisarei obter minhas finanças para solicitar impostos em breve. Espero que não exija muito tempo para lidar com isso.$0",
+
+
+"fall_Mon": "Já comprou suas sementes, @?$0#$e#Nossas sementes garantirão a sua renda!$1#$e#Ah, mas não retornamos seu dinheiro de volta.$0",
+"fall_Mon4": "Ah, @, quem eu queria ver.$1#$b#Eu queria sugerir a compra do nosso lote atual de sementes de inhame.$4#$e#Andy me informou que está colhendo inhames de qualidade prata! Compre-os enquanto ainda estão em estoque!$1",
+"fall_Mon8": "Andy é um dos nossos melhores clientes, nós realmente o consideramos da família.$1#$e#...E eu realmente o vejo se esforçando para dar o seu melhor.$2", 
+"fall_Tue": "Hoje foi um dia ocupado para mim... limpando a bagunça da minha equipe.$3#$e#Eu gostaria de poder comer no bisque de lagosta neste exato momento.$2#$b#Talvez eu vá visitar meu restaurante cinco estrelas favorito na cidade esta semana.$1",
+"fall_Wed": "Minha mente está explodindo com novas ideias sobre negócios!$1",
+"fall_Wed8": "Eu sempre gasto boa parte da minha renda para melhorar minha loja.$0#$b#A corporação não vai me emprestar nada, então preciso me virar.$3", 
+"fall_Thu": "@! Se estiver procurando um emprego, fale comigo!$0#$e#...Ah, você já saiu da Joja uma vez, mas eu posso te dar uma segunda chance.$3",
+"fall_Thu8": "É difícil encontrar uma boa ajuda por aqui. A cidade é tão pequena...$2#$e#Eu sei que você nunca voltaria e trabalharia para nós novamente, mas foi uma grande perda para Joja perder alguém como você.$2",
+"Fall_Fri": "Alguns funcionários começaram a perguntar se podem sair mais cedo às sextas-feiras..$0#$e#Eu disse não, claro.$2",
+"fall_Fri6": "Minha equipe começou a exigir que saíssem cedo às sextas-feiras novamente.$0#$e#Eu não sei como explicar a eles que quanto mais cedo eles saem, mais tarde eu tenho que ficar...$2#$e#%Morris suspira.",
+"fall_Sat": "Precisamos desesperadamente reabastecer. Parece que vou ficar atrasado no sábado novamente...$0",
+"fall_Sat6": "Talvez devêssemos começar a estocar um pouco de álcool na Joja...$4#$e#Bem, seria mais fácil do que ir ao salão. Talvez pudéssemos abrir nosso próprio bar!$1",
+"fall_Sun": "@, considere ir ao Joja.net e fazer nossa pesquisa on-line.$1#$e#Você poderá ganhar prêmios de até 500G!$1",
+"fall_Sun8": "Você viu nosso site recentemente, @? Nós fizemos uma grande mudança no design!$0#$e#Já que você é tão legal, vou te dar uma desconto de vinte porcento. Basta digitar JOJAFAMILY na primeira sessão.$1#$e#Não é muito? É melhor do que costumamos receber...$2", 
+
+//WINTER DIALOGUE
+
+"winter_1":  "Fica terrivelmente frio aqui no inverno. Eu não posso me acostumar com isso.$0#$e#Talvez devêssemos ter uma venda especial em aquecedores. Isso traria as pessoas para dentro. E eu poderia recebê-las com chocolate quente...$4#$e#%Morris parece pensativo.",
+"winter_7": "Você vai pescar no gelo amanhã no festival?$0#$e#...Não passo muito tempo com as pessoas quanto deveria, talvez eu vá.$0",
+"winter_24": "Estou planejando colocar alguns cartões de presente Joja embaixo da árvore. Espero que as pessoas os notem.$1",
+"winter_28": "Se prepare para o próximo ano, @. Vamos lucrar bastante.$0",
+
+"winter_Mon": "Pego o ônibus para trabalhar todos os dias em minha casa.$0#$e#Viver aqui? Não, nunca considerei isso...$0",
+"winter_Mon6": "Cuidado com o gelo, @.$2#$b#Quase levei um tombo feio ontem à noite.$4",  
+"winter_Tue": "Aprecio ter tempo para pensar em novos planos de negócios durante o inverno.$0",
+"winter_Tue6": "Qualquer chance de você dar uma olhada em uma campanha de marketing em que estou trabalhando em algum momento?$0#$e#Você parece se dar bem com as pessoas da cidade aqui. Eu adoraria sua ajuda para descobrir como fazer isso.$4",
+"winter_Wed":  "Você precisa de um bom lugar para se aquecer, esse lugar é a Joja!$1",
+"winter_Wed4": "Olá, @, tá bem frio hoje.$0#$e#Não esqueça do casaco!$1",
+"winter_Thu": "Dediquei esta estação de inverno inteira ao planejamento da nova estratégia Joja! O próximo ano será o mais forte ainda para Joja!$1",
+"winter_Thu6": "Estou lançando minha nova estratégia na grande cúpula da Joja na próxima semana...$0#$e#Me deseje sorte, @. Minhas idéias nem sempre são bem recebidas.$2",
+"winter_Fri": "Você costuma rir quando alguém cai por causa do gelo?$0#$e#....Não, eu também não.$2",
+"winter_Fri8": "Você se sente bem com o seu trabalho na fazenda, @?$0#$b#Você sempre está só, mas todos gostam de você...$0#$e#Desejo que minha equipe entenda exatamente quanto trabalho eu dedico à administração da loja...$2",
+"winter_Sat": "Finais de semana? Eu nem sei o significado dessa palavra!$1#$e#%O sorriso de Morris se apaga rapidamente",
+"winter_Sat4": "Estou meio cansado recentemente, eu deveria tirar férias...$0#$e#Mas quando estou fora, tudo o que faço é me preocupar com a loja. Ou criar novas idéias!$0",
+"winter_Sun": "Outro domingo, outro dia de terminar o estoque semanal...$0",
+"winter_Sun6": "Ultimamente, recebemos algum dinheiro do registro desaparecido...$0#$e#Não quero acusar ninguém, não sou tão sem coração.$2",
+
+}

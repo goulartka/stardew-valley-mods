@@ -1,0 +1,17 @@
+{
+    "Name": "Chicken Drumstick",
+    "Price": 250,
+    "Description": "A large leg of chicken, it looks very nice.",
+    "Category": "Cooking",
+    "Edibility": 43,
+    "EdibleIsDrink": "false",
+    "IsColored": "false",
+	"NameLocalization" : 
+		{ 
+		"pt" : "Coxinha De Frango",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Uma grande perna de frango, parece muito boa.",
+		}
+}

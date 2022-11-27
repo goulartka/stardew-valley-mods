@@ -1,0 +1,16 @@
+{
+"Changes": [
+{
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+	    "Entries": {
+		"Life Essence": "072 1 268 1 422 1/Field/{{spacechase0.JsonAssets/ObjectId:Life Essence}}/false/Essência da Vida",
+		"Slime Soul": "{{spacechase0.JsonAssets/ObjectId:Slime Gem}} 10 {{spacechase0.JsonAssets/ObjectId:Life Essence}} 1/Field/{{spacechase0.JsonAssets/ObjectId:Slime Soul}}/false/Alma de Gosma",
+		"Frozen Slime Soul": "{{spacechase0.JsonAssets/ObjectId:Slime Soul}} 1 084 1 380 5/Field/{{spacechase0.JsonAssets/ObjectId:Frozen Slime Soul}}/false/Alma de Gosma Congelada",
+		"Fire Slime Soul": "{{spacechase0.JsonAssets/ObjectId:Slime Soul}} 1 082 1 384 5/Field/{{spacechase0.JsonAssets/ObjectId:Fire Slime Soul}}/false/Alma de Gosma de Lava",
+		"Slime Heart Seeds": "766 25 390 10/Field/{{spacechase0.JsonAssets/ObjectId:Slime Heart Seeds}}/false/Sementes de Coração de Gosma",
+		"True Slime Energy": "{{spacechase0.JsonAssets/ObjectId:Slime Soul}} 1 {{spacechase0.JsonAssets/ObjectId:Frozen Slime Soul}} 1 {{spacechase0.JsonAssets/ObjectId:Fire Slime Soul}} 1 386 5/Field/{{spacechase0.JsonAssets/ObjectId:True Slime Energy}}/false/Energia Pura de Gosma",
+	},
+        },
+],
+}

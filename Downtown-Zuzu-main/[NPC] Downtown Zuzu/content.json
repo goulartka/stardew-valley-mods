@@ -1,0 +1,506 @@
+{
+	"Format": "1.23.0",
+    "ConfigSchema": {
+        "GwenGoth": {
+           "AllowValues": "More, Less",
+           "Default": "More",
+           "Description": "Gwen Gótica(More) Ou menos Gótica(Less)."
+        }
+     },
+  "Changes": [
+    {
+      //Cal's Disposition
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Callum": "adult/polite/shy/neutral/male/datable/null/Other/fall 27/Emerald 'Friend' Gwen 'Friend' Sadie 'Friend'/Custom_DTZ_Apartment1a 20 5/Cal"
+      }
+    },
+    {
+      //David's Disposition
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "David": "adult/polite/outgoing/positive/male/datable/null/Other/winter 9/Callum 'friend' Sadie 'Friend'/Custom_DTZ_DavidRoom 1 14/David"
+      }
+    },
+    {
+      //Cal's Gift Tastes
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Callum": "Oh. Meu. Yoba. @, eu amo Você! ISSO É INCRÍVEL!/-26 -27 74/Oh, este é um grande presente, obrigado!/-81 -4/Oh, uh... Você queria me dar isso?/-2 -12/Ugh, por que você me deu isso, @? Pensei que fossemos amigos!/330 416/Oh, um presente. Obrigado, @.//"
+      }
+    },
+    {
+      //David's Gift Tastes
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "David": "@... Eu não sei o que dizer. Isso é incrível obrigado!/-2 -28/Isso me lembra a minha infância. Obrigado, @./-7/Hum, obrigado, eu acho?/-75/@, Eu não vou mentir para você. Este presente é horrível./190 25/Hmm? Um presente? Obrigado, @.//"
+      }
+    },
+    {
+      //Kristoff's Disposition
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Kristoff": "adult/rude/neutral/neutral/male/datable/null/Other/summer 25//Custom_DTZ_JojaCEO 4 4/Kristoff"
+      }
+    },
+    {
+      //Kristoff's Gift Tastes
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Kristoff": "@. Eu- Eu não sei o que dizer... Eu não esperaria nem muito do meu pessoal! Obrigado!/-2 148/Hmm? Oh, um presente? Obrigado, @. Eu sou muito grato por isso!/-5 -26 -80/Hum, @. Este presente não é muito bom. Espero melhor da próxima vez./-12 -81/Este presente é horrível! Tira isso daqui, @!/236 24 78/Um presente para mim? Obrigado @.//"
+      }
+    },
+    {
+      //Gwen's Disposition
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Gwen": "adult/neutral/shy/negative/female/datable/null/Other/fall 20/Callum 'Friend' Sadie 'Friend'/Custom_DTZ_Apartment1a 6 5/Gwen"
+      }
+    },
+    {
+      //Gwen's Gift Tastes
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Gwen": "Huh?! @? I-isso é para mim? Uau, muito obrigado!/575 215 410 708 308/Um presente? @, isso é ótimo. Obrigado!/422 769 395 -27 308/Oh, u-um presente? Obrigado... Eu acho.../717 66 60 269/@, Este p-presente... Por favor, eu não quero./239 18 88 90/@, V-você me trouxe um presente? Obrigada.//"
+      }
+    },
+    {
+      //Sadie's Disposition
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Sadie": "adult/neutral/outgoing/positive/female/datable/null/Other/fall 17/Callum 'Friend' Gwen 'Friend' David 'Friend'/Custom_DTZ_Apartment1c 19 18/Sadie"
+      }
+    },
+    {
+      //Sadie's Gift Tastes
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Sadie": "Oh, o que é isso? Um presente? Oh que gentil de sua parte, @./192 595 578 -27/Um presente? Para mim? Obrigado, @!/-80 -25/Uh... Obrigado./-4 -5 238 282/...Meus inscritos dão presentes melhores./-19 -20 -28 -18 -26/Olá @! Você me trouxe um presente? Que gentileza obrigado!//"
+      }
+    },
+    {
+      //Buddy's Disposition
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Buddy": "adult/rude/shy/neutral/male/not-datable/null/Other/spring 3/Callum 'Friend' David 'Friend' Emerald 'Friend' Selena 'Friend'/Custom_DTZ_Apartment1b 7 23/Buddy"
+      }
+    },
+    {
+      //Buddy's Gift Tastes
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Buddy": "Eu amo isso! Isto significa muito para mim, @./348 232 829/Muito legal, obrigado!/-79 -2 410 408 607 416/Hum... Certo./167 404 257 18 422 330/Isso é algum tipo de piada ou algo assim?/373 245 253 395 433 595/Um presente? Valeu./80 403 20 418 88 281 412 22 16 851/"
+      }
+    },
+    {
+      //Selena's Disposition
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Selena": "adult/neutral/neutral/positive/female/datable/null/Other/spring 4/Buddy 'Friend' David 'Friend'/Custom_DTZ_Apartment1b 19 23/Selena"
+      }
+    },
+    {
+      //Selena's Gift Tastes
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Selena": "Uau! Você nem imagina como eu queria isso! Muito obrigada!/348 232 829/Pra mim? Você é muito gentil, @!/-79 -2 410 408 607 416/Talvez haja algum potencial de pesquisa nisso.../167 404 257 18 422 330/Isso é um presente? Credo!/373 245 253 395 433 595/É muito gentil da sua parte. Obrigada./80 403 20 418 88 281 412 22 16 851/"
+      }
+    },
+    //exclusions
+    {
+      "Action": "EditData",
+      "Target": "Data/CustomNPCExclusions",
+      "Entries": {
+        "Callum": "TownEvent TownQuest IslandEvent"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CustomNPCExclusions",
+      "Entries": {
+        "Gwen": "TownEvent TownQuest IslandEvent"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CustomNPCExclusions",
+      "Entries": {
+        "Kristoff": "TownEvent TownQuest IslandEvent"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CustomNPCExclusions",
+      "Entries": {
+        "David": "TownEvent TownQuest IslandEvent"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CustomNPCExclusions",
+      "Entries": {
+        "Sadie": "TownEvent TownQuest IslandEvent"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CustomNPCExclusions",
+      "Entries": {
+        "Buddy": "TownEvent TownQuest IslandEvent"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CustomNPCExclusions",
+      "Entries": {
+        "Selena": "TownEvent TownQuest IslandEvent"
+      }
+    },
+    //deny movie
+    {
+      "Action": "EditData",
+      "Target": "Strings/Characters",
+      "Entries": {
+        "MovieInvite_CantInvite_Callum": "Huh? Um filme? Oh, @... Me desculpe... Eu não posso ir.",
+        "MovieInvite_CantInvite_David": "Um filme, hein? Sinto muito, @, mas não posso ir. Estou indo em uma expedição...",
+        "MovieInvite_CantInvite_Kristoff": "Hmm? Um filme? Peço desculpas, @, mas simplesmente não posso ir. Estou ocupada trabalhando. Eu sinto Muito.",
+        "MovieInvite_CantInvite_Gwen": "Um fi-filme? Quer ir ao cine-ma...? Me desculpe, @... Eu não acho que posso ir.",
+        "MovieInvite_CantInvite_Sadie": "Hm? Voce quer ir ao cinema?#$b#Eu adoraria, mas tenho um vôo reservado. Desculpa.$s",
+        "MovieInvite_CantInvite_Buddy": "Você quer ir ver um filme juntos? Hum... Não vai dar. Estou ocupado essa semana.$u",
+        "MovieInvite_CantInvite_Selena": "Um filme? Desculpa @, tenho outros compromissos. Talvez outro dia."
+      }
+    },
+    //cal's
+    {
+      "Action": "Load",
+      "Target": "Portraits/Callum",
+      "FromFile": "assets/Portraits/calPortraits.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Callum",
+      "FromFile": "assets/OverworldSprites/calSprites.png"
+    },
+
+    // (joja cal)
+    {
+      "Action": "Load",
+      "Target": "Characters/Callum_Custom_DTZ_JojaMini",
+      "FromFile": "assets/OverworldSprites/Callum_Custom_DTZ_JojaMini.png"
+    },
+    // (joja cal)
+    {
+      "Action": "Load",
+      "Target": "Portraits/Callum_Custom_DTZ_JojaMini",
+      "FromFile": "assets/Portraits/Callum_Custom_DTZ_JojaMini.png"
+    },
+    //before quit dialogue
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Callum",
+      "FromFile": "assets/Dialogue/calDialogue.json",
+      "When": {
+        "HasFlag |contains=DTZ.CalQuit": false
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueCallum",
+      "FromFile": "assets/Dialogue/calMarriageDialogue.json"
+    },
+    //before quit schedule
+    {
+      "Action": "Load",
+      "Target": "Characters/Schedules/Callum",
+      "FromFile": "assets/Schedules/calSchedule.json",
+      "When": {
+        "HasFlag |contains=DTZ.CalQuit": false
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Action": "Load",
+      "Target": "Strings/Schedules/Callum",
+      "FromFile": "assets/Schedules/calScheduleDialogue.json"
+    },
+    { //after quit schedule
+
+      "Action": "Load",
+      "Target": "Characters/Schedules/Callum",
+      "FromFile": "assets/Schedules/calScheduleQuit.json",
+      "When": {
+        "HasFlag": "DTZ.CalQuit"
+      },
+      "Update": "OnTimeChange"
+    },
+    { //after quit dialogue
+
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Callum",
+      "FromFile": "assets/Dialogue/calDialogueQuit.json",
+      "When": {
+        "HasFlag": "DTZ.CalQuit"
+      },
+      "Update": "OnTimeChange"
+    },
+    //David's
+    {
+      "Action": "Load",
+      "Target": "Portraits/David",
+      "FromFile": "assets/Portraits/davidPortraits.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/David",
+      "FromFile": "assets/OverworldSprites/davidSprites.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/David",
+      "FromFile": "assets/Dialogue/davidDialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueDavid",
+      "FromFile": "assets/Dialogue/davidMarriageDialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Schedules/David",
+      "FromFile": "assets/Schedules/davidSchedule.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Strings/Schedules/David",
+      "FromFile": "assets/Schedules/davidScheduleDialogue.json"
+    },
+    //Kristoff's
+    {
+      "Action": "Load",
+      "Target": "Portraits/Kristoff",
+      "FromFile": "assets/Portraits/kristoffPortraits.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Kristoff",
+      "FromFile": "assets/OverworldSprites/kristoffSprites.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Kristoff",
+      "FromFile": "assets/Dialogue/kristoffDialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueKristoff",
+      "FromFile": "assets/Dialogue/kristoffMarriageDialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Schedules/Kristoff",
+      "FromFile": "assets/Schedules/kristoffSchedule.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Strings/Schedules/Kristoff",
+      "FromFile": "assets/Schedules/kristoffScheduleDialogue.json"
+    },
+    //Gwen's
+    {
+      "Action": "Load",
+      "Target": "Portraits/Gwen",
+      "FromFile": "assets/Portraits/gwenPortraits.png",
+      "When": {
+        "GwenGoth": "Less" // less goth portraits
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Gwen",
+      "FromFile": "assets/OverworldSprites/gwenSprites.png",
+      "When": {
+        "GwenGoth": "Less" // less goth overworld
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/Gwen",
+      "FromFile": "assets/Portraits/gwenPortraitsGoth.png",
+      "When": {
+        "GwenGoth": "More" // more goth portraits
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Gwen",
+      "FromFile": "assets/OverworldSprites/gwenSpritesGoth.png",
+      "When": {
+        "GwenGoth": "More" // more goth overworld
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Gwen",
+      "FromFile": "assets/Dialogue/gwenDialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueGwen",
+      "FromFile": "assets/Dialogue/gwenMarriageDialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Schedules/Gwen",
+      "FromFile": "assets/Schedules/gwenSchedule.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Strings/Schedules/Gwen",
+      "FromFile": "assets/Schedules/gwenScheduleDialogue.json"
+    },
+    //Sadie's
+    {
+      "Action": "Load",
+      "Target": "Portraits/Sadie",
+      "FromFile": "assets/Portraits/sadiePortraits.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Sadie",
+      "FromFile": "assets/OverworldSprites/sadieSprites.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Sadie",
+      "FromFile": "assets/Dialogue/sadieDialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueSadie",
+      "FromFile": "assets/Dialogue/sadieMarriageDialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Schedules/Sadie",
+      "FromFile": "assets/Schedules/sadieSchedule.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Strings/Schedules/Sadie",
+      "FromFile": "assets/Schedules/sadieScheduleDialogue.json"
+    },
+    //Buddy's
+    {
+      "Action": "Load",
+      "Target": "Portraits/Buddy",
+      "FromFile": "assets/Portraits/buddyPortraits.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Buddy",
+      "FromFile": "assets/OverworldSprites/buddySprites.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Buddy",
+      "FromFile": "assets/Dialogue/buddyDialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Schedules/Buddy",
+      "FromFile": "assets/Schedules/buddySchedule.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Strings/Schedules/Buddy",
+      "FromFile": "assets/Schedules/buddyScheduleDialogue.json"
+    },
+    //Selena's
+    {
+      "Action": "Load",
+      "Target": "Portraits/Selena",
+      "FromFile": "assets/Portraits/selenaPortraits.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Selena",
+      "FromFile": "assets/OverworldSprites/selenaSprites.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Selena",
+      "FromFile": "assets/Dialogue/selenaDialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueSelena",
+      "FromFile": "assets/Dialogue/selenaMarriageDialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Schedules/Selena",
+      "FromFile": "assets/Schedules/selenaSchedule.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Strings/Schedules/Selena",
+      "FromFile": "assets/Schedules/selenaScheduleDialogue.json"
+    },
+    //Bill's **ANTI-SOCIAL**
+    {
+      "Action": "Load",
+      "Target": "Portraits/Bill",
+      "FromFile": "assets/Portraits/billPortraits.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AntiSocialNPCs",
+      "Entries": {
+        "Bill": true
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Bill",
+      "FromFile": "assets/OverworldSprites/billSprites.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Bill",
+      "FromFile": "assets/Dialogue/billDialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Schedules/Bill",
+      "FromFile": "assets/Schedules/billSchedule.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Strings/Schedules/Bill",
+      "FromFile": "assets/Schedules/billScheduleDialogue.json"
+    },
+    {
+      //Bill's Disposition
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Bill": "adult/neutral/neutral/positive/male/not-datable/null/Other/spring 28/David 'Friend'/Custom_DTZ_Builders 7 10/Bill"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+//INTRODUCTION//
+"Introduction": "Han? Ha! Oi... Eu sou Callum, mas a maioria das pessoas apenas me chama de Cal.#$b#Você é... @? Bem, prazer em conhecê-lo(a)!$h#$e#Você possui uma fazenda? Uau!$h",
+
+//INITIAL DIALOGUE (0 HEARTS)//
+"Mon": "Oh, ei.#$b#Eu tenho que ir trabalhar, então você se importa se conversarmos mais tarde?",
+"Tue": "Eu tenho o dia de folga. Como você está, @?",
+"Wed": "Você conheceu Emerald? Ela é minha colega de quarto.#$b#Espero que vocês dois se dêem bem!$h",
+"Thu": "Meu aniversário é 27 de outono.#$b#...No caso de você querer me comprar um presente ou algo assim. Haha.$h",
+"Fri": "Trabalhe de novo hoje...$s",
+"Sat": "Sim! Sem trabalho hoje!$h#$e#Eu acho que você trabalha todos os dias quando você é um fazendeiro, hein?",
+"Sun": "Não trabalho hoje, mas estou de volta amanhã. É uma merda.$s",
+
+//2 HEART DIALOGUE//
+"Mon2": "Ei, @!#$b#Desculpe, não posso falar muito. Estou trabalhando hoje. Mas é bom ver você!$h",
+"Tue2": "O que você gosta de fazer fora da fazenda, @?#$e#O que eu faço fora na Joja? Ummm ... Não muito, na verdade.$s",
+"Wed2": "Trabalho e mais trabalho. Isso faz minha cabeça girar.$s#$b#...Oh, ei! Não te vi aí!$h#$e#Desculpe, eu não tenho muito tempo para conversar...$s",
+"Thu2": "Acho que gostaria de ter um hobby. Mas, honestamente, não tenho certeza o que faria...#$b#Eu me acostumei a fazer da Joja minha vida, é difícil imaginar fazendo muito mais...$s",
+"Fri2": "Meu gerente ficou bravo comigo por algum erro estúpido que cometi hoje.$a#$b#Eu largaria esse trabalho se não precisasse tanto do dinheiro...$s",
+"Sat2": "Nossa, eu não vejo meus amigos além do Emerald há um tempo...$s#$b#Talvez eu visite %rival hoje.",
+"Sun2": "A pior parte do fim de semana é que não dura para sempre.#$e#Seria bom se eu nunca tivesse que voltar a trabalhar.",
+
+//4 HEART DIALOGUE//
+"Mon4": "Tenho pensado no que gostaria de fazer no futuro ... Assim que puder sair desta porcaria de trabalho.#$b#Alguma sugestão, @? Eu poderia ser um agricultor, como você!$h#$b#...Estou brincando! Eu nunca poderia lidar com esse trabalho. Haha.$h",
+"Tue4": "Emerald provavelmente vai querer que eu prepare o jantar esta noite...$s#$b#Eu odeio cozinhar quase tanto quanto odeio estocar prateleiras.",
+"Wed4": "Eu sinto falta de estar no colégio...#$b#Eu odiava naquela época, mas agora sinto que perdi muitas boas lembranças.$s#$b#...Caramba, eu pareço um velho.$s",
+"Thu4": "Você trabalhou na Joja antes de ser agricultor, certo? O que o levou a sair?#$b#Oh, sinto muito por ouvir sobre seu avô ... Mas estou feliz que você conseguiu levar sua vida em uma nova direção.",
+"Fri4": "Bem, amanhã é o início do fim de semana. Dois dias gloriosos de liberdade!$h#$b#Provavelmente vou apenas sentar e sentar. Sempre consigo perder meus dias de folga.$s",
+"Sat4": "Hmmm ... Como devo passar meu dia?#$b#... Eu acho que vou apenas assistir um pouco de TV.",
+"Sun4": "Ei @, Veja isso!$h#$b#Encontrei um velho caderno de desenhos de quando estava no colégio. Eu gostava muito de desenhar, sabe!$h#$b#Isso foi há anos. O tempo realmente voa.",
+
+//6 HEART DIALOGUE//
+"Mon6": "Eu estava trabalhando com dinheiro outro dia e meu gerente me pegou rabiscando. Então agora eu estou em apuros novamente.$s#$e#Eu juro que às vezes trabalhar na Joja é como pegar uma detenção no colégio.$a",
+"Tue6": "Decidi ligar para um velho amigo do colégio. Acontece que ele vai se casar!$h#$b#Estou feliz por ele, mas meio que me faz sentir que estou ficando para trás...$s",
+"Wed6": "Como vai a fazenda, @? Eu deveria visitá-la(o) no campo algum dia!$h#$b#Eu adoraria viver uma vida rural. Parece muito mais pacífico do que a cidade.",
+"Thu6": "Acho que gostaria de retomar aos desenho. Eu costumava fazer muito isso.#$b#Eu me pergunto se fiquei enferrujado ao longo dos anos...",
+"Fri6": "Talvez seja porque estou trabalhando demais, mas tenho sentido dores nas costas ultimamente.$s#$e#Sou muito jovem para isso! Trabalhar na Joja está me fazendo envelhecer mais rápido.$s",
+"Sat6": "Aah, finalmente é meu dia de folga!$h#$e#O que você vai fazer, @? Sinta-se à vontade para ficar por perto!$h",
+"Sun6": "De volta ao trabalho amanhã...$s#$b#Ei, se você pensar nisso, você deveria vir me visitar no trabalho!$h#$b#Se você fingir que é um cliente, tenho certeza de que meu gerente não ficará muito bravo. Haha.",
+
+//8 HEART DIALOGUE//
+"Mon8": "É muito legal da sua parte sempre vir à cidade para nos visitar.$h#$e#Você é um cara legal, @.^Você é uma garota legal, @.$l",
+"Tue8": "Ugh ... Fiquei acordado até tarde desenhando noite passada...$s#$b#Quando me perco em pensamentos, é difícil parar! Mas isso não é bom quando eu tenho trabalho no dia seguinte.",
+"Wed8": "Sabe, é bom ter alguém de quem sou próximo, além de Emerald.#$e#A vida é mais difícil quando você está dependente de apenas uma pessoa.$s#$e#...Eu não me importaria se você quisesse depender de mim às vezes.$l",
+"Thu8": "Ei @, você está planejando assistir aquele novo filme que chegará aos cinemas neste fim de semana?#$b#Eu não vou ao cinema há anos...#$b#Você gostaria de ir comigo algum dia?$l",
+"Fri8": "Você sabe, no colégio, meus amigos e eu costumávamos jogar um jogo chamado 'Crônicas Solarian'. Você ouviu falar?#$b#É muito divertido. Muito nerd, no entanto. Muitos feiticeiros e poções mágicas e outras coisas.#$b#Talvez Emerald queira jogar algum dia...",
+"Sat8": "Acho que vou jogar alguns videogames neste fim de semana.#$b#Você joga video games, @? Aposto que poderia chutar sua bunda no 'Jornada do Rei'!$h",
+"Sun8": "Pela primeira vez em algum tempo, não estou com medo de trabalhar amanhã.#$e#Joja não é tão ruim, eu acho. Afinal, é apenas um trabalho. Eu tenho mais na minha vida.",
+
+//10 HEART DIALOGUE//
+"Mon10": "@! Estou tão feliz em te ver!$h#$b#Você quer conversar? Como está seu dia até agora?$h",
+"Tue10": "Sabe, mesmo que a vida na fazenda pareça difícil, acho que seria divertido morar em uma fazenda!$h#$b#Huh? Só estou dizendo isso porque meu namorado é fazendeiro? Você me pegou.^Hã? Só estou dizendo isso porque minha namorada é fazendeira? Você me pegou.$l",
+"Wed10": "A semana já passou pela metade? O tempo está voando!$h#$e#Talvez eu faça uma surpresa para Emerald e cozinhe o jantar esta noite...",
+"Thu10": "Você é mais do que bem-vindo para passar no apartamento sempre que quiser! Apenas certifique-se de que um de nós está em casa!$h#$e#Talvez você possa ficar para jantar alguma noite! Eu poderia expulsar Emerald, e seríamos apenas nós!$l#$b#Podemos pedir comida! O que é mais romântico ... Pizza ou Comida Chinesa?",
+"Fri10": "Esta noite estou pensando que vou trabalhar em mais alguns esboços.#$b#Estou tentando construir um portfólio. Talvez eu possa realmente ir a algum lugar com minha arte algum dia.$h",
+"Sat10": "Oh, eu estava esperando ver você hoje!$h#$e#Eu fiz um almoço para mim hoje e achei que você gostaria de provar.[215]",
+"Sun10": "Ei como você está hoje?$h#$e#Huh? Eu pareço feliz hoje? Acho que estou me sentindo muito mais animado recentemente!$h#$b#...Talvez seja por sua causa, obrigado por isso, @.$l",
+
+//SEASONAL AND MISC DIALOGUE//
+"spring": "A primavera é legal, mas eu passo a maior parte do meu tempo trancado em Joja, então nunca consigo realmente experimentá-la.$s",
+"spring_Sat": "Você é amigo do Emerald? Seria incrível se vocês dois se conhecessem!$h",
+"spring_Mon": "Ola, @! Sua fazenda %farm está indo bem?",
+"spring_Tue": "É um bom dia não é?#$b#Você gosta da primavera, @?",
+"spring_Wed": "%time já?#$b#Os dias passam tão rápido nesta idade...$s",
+"spring_Thu": "Hmmm... Eu vou dar a %rival uma ligação daqui a pouco...#$b#É difícil manter o contato com os amigos quando trabalho com tanta frequência.$s",
+"spring_Fri": "eu aposto que %pet realmente gosta da primavera né?",
+"summer": "O verão é uma estação tão boa!$h#$e#Agora, se eu não estivesse tão ocupado com o trabalho, poderia realmente aproveitar o bom tempo!",
+"summer_Sat": "Oh, e aí?#$b#Espero que Emerald planeje cozinhar o jantar hoje à noite...",
+"summer_Mon": "Olá, @! Plantando alguma safra de verão?",
+"summer_Tue": "Como está o clima no campo?#$b#Sim, eu sei que você não mora tão longe. Estou apenas puxando assunto. Haha.$h",
+"summer_Wed": "Já é %time ?#$b#Estou atrasado para o trabalho de novo...$s",
+"summer_Thu": "Seria bom ir à praia com alguns amigos neste verão.",
+"summer_Fri": "Como está %pet passando no calor do verão?#$b#Deve ser difícil ser peludo durante os meses quentes...$s",
+"fall": "O tempo está ficando mais frio...#$b#Isso significa que o inverno estará aqui em breve... Bleugh.$s",
+"fall_Sat": "O outono é realmente uma merda.$s#$b#Pela primeira vez, estou feliz por estar preso aqui dentro.",
+"fall_Mon": "Olá, @!$h#$b#Que tipo de safra você planta no outono?",
+"fall_Tue": "Hoje é realmente %adj, você não acha?#$b#Parece um bom dia para uma soneca...",
+"fall_Wed": "Nossa, estou muito cansado hoje...$s#$b#Eu não sei nem como vou sobreviver ao meu turno...$s",
+"fall_Thu": "Quando eu era mais jovem, adorava passar a Véspera do Espírito com meus amigos.#$e#Nós realmente não fazemos mais esse tipo de coisa.$s",
+"fall_Fri": "Pular em uma pilha de folhas parece divertido agora.",
+"winter": "Eu odeio o inverno. Está tão frio!$s#$b#Eu gostaria de ter um pouco de chocolate quente agora...",
+"winter_Sat": "O inverno na cidade é uma merda. Os engarrafamentos são os piores.$a#$b#Deve ser bom não viver com muitas pessoas.",
+"winter_Mon": "Ei, você tem animais em sua fazenda?#$e#Eu imagino que esta temporada seja difícil para você, não poder contar com as colheitas para obter renda.",
+"winter_Tue": "Você celebra a Festa da Estrela do Inverno, @?#$b#Emerald e eu não damos muita importância, mas é divertido trocar presentes em uma ocasião especial.",
+"winter_Wed": "Meu gerente vai me matar se eu não conseguir trabalhar!$s#$e#Huh? Já é %time ? Estou frito!$s",
+"winter_Thu": "Eu vi algumas crianças construindo um boneco de neve outro dia.#$e#Me lembra de estar na escola primária de novo...#$e#...Huh? Apenas relembrando. Haha.",
+"winter_Fri": "Seu %pet de estimação devem estar com muito frio na fazenda, hein?#$b#Ao menos Joja mantém suas lojas aquecidas...",
+"rainy": "Por mais que eu odeie nos meus dias de folga, há algo reconfortante no som da chuva batendo no telhado da Joja.#$b#Eu poderia adormecer com isso... Se eu não estivesse trabalhando!$h"
+}

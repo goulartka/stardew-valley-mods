@@ -1,0 +1,29 @@
+{
+	// First day of a Season
+	"spring_1": "A primavera é incrível, certo? Espero que você esteja pronto, natureza, porque aqui vamos eu e meu lápis!$h",
+	"summer_1": "Droga, está quente. Me sinto mal por %pet!",
+	"fall_1": "Ah, outono. É muito mais frio nesta época do ano. Eu simplesmente amo as pilhas de folhas!$h",
+	"winter_1": "O inverno é uma merda. Ta frio e ta tudo feio.$s#$b#Menos você, @, obviamente.$l",
+	// Locations
+	"patio_Callum": "Clima adorável.#$b#O que você está fazendo, @?$h",
+	"Rainy_Night_1": "Em uma noite como esta eu sinto vontade de me aconchegar em você, @.$l",
+	"Rainy_Night_2": "Ouça isso... A chuva é linda, não é?",
+	"Rainy_Night_3": "Oh @, está um tempo horrível, mas você deixa tudo bem..$l",
+	"Rainy_Day_1": "Oh @, está um tempo horrível, mas você deixa tudo bem..$l",
+	"Rainy_Day_2": "Talvez possamos aproveitar toda essa chuva de alguma forma?#$b#Pelo menos você não precisa regar as plantações hoje!$h",
+	"Rainy_Day_3": "Estou feliz que a fazenda esteja indo tão bem, mesmo com um clima tão ruim quanto este.",
+	"indoor_Night_1": "Que noite absolutamente adorável. Estou tão feliz, @.$h",
+	"indoor_Night_2": "O céu noturno é simplesmente lindo. Eu gostaria de ter tinta suficiente para pintar a coisa toda.$l#$b#Isso seria incrível.$h",
+	"indoor_Night_3": "Yoba, estou cansado. Viver em uma fazenda é um trabalho árduo.$u#$b#Mas vale a pena.$l",
+	"indoor_Day_1": "Lindo dia nao é, @?$h",
+	"indoor_Day_2": "@, Eu não falo o suficiente, mas eu te amo.$l",
+	"indoor_Day_3": "Hey, @. Estava pensando em fazer um desenho seu hoje.$h#$b#Deve ser fácil. Suas características faciais são lindas e fáceis de lembrar!$l",
+	"spring_Callum": "Eu encontrei uma flor que ia te dar mais cedo, mas deixei cair.$s#$b#Tudo bem, vou te encontrar outra!$h",
+	"summer_Callum": "YOBA! ESTÁ TÃO QUENTE!$s",
+	"fall_Callum": "Mmmm, sentir o cheiro das folhas? Oh espere, não são as folhas, é a tinta na minha camisa!$h",
+	"winter_Callum": "Bem, nada de bom vem do inverno, mas se uma coisa boa saísse dele, seria a bela neve.$h",
+	"Outdoor_Callum": "Hey, @. Saí para tomar um pouco de ar fresco. Como você está?$h",
+	"OneKid_1": "Você acha que %kid1 será um artista como eu? Isso seria legal, certo?$h",
+	"TwoKids_1": "Talvez %kid2 crescerá para ser um fazendeiro como você. %kid1 e %kid2 pode viajar pelo mundo, cultivando plantas e desenhando-as!$h",
+	"spouseRoom_Callum": "Ei, @. Eu vou desenhar um pouco."
+}

@@ -1,0 +1,17 @@
+{
+    "Name": "Zuzu Ice Cream",
+    "Price": 140,
+    "Description": "A cone of Zuzu Ice Cream - a very popular cone, due to its name and flavor!",
+    "Category": "Cooking",
+    "Edibility": 54,
+    "EdibleIsDrink": "false",
+    "IsColored": "false",
+	"NameLocalization" : 
+		{ 
+		"pt" : "Sorvete Zuzu",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Um cone de Sorvete Zuzu - muito popular, devido ao seu nome e sabor",
+		}
+}

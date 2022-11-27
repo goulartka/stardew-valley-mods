@@ -1,0 +1,11 @@
+{
+  "Name": "AB Festival Locations",
+  "Author": "SYS",
+  "Version": "1.0.0",
+  "Description": "AB's Festival Locations",
+  "UniqueID": "SYS.Festivals.AB",
+  "UpdateKeys": [""],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}

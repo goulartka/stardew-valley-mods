@@ -1,0 +1,12 @@
+﻿{
+	"Name": "Slime Container (Blue)",
+	"Description": "A blue slime enclosed in a container. Can be placed as decoration.",
+	"ProvidesLight": "false",
+	"CanSell": false,
+	"NameLocalization": {
+		"pt": "Recipiente de Slime (Azul)",
+	},
+	"DescriptionLocalization": {
+		"pt": "Uma gosma azul em um recipiente. Pode ser usada como decoração.",
+	},
+}

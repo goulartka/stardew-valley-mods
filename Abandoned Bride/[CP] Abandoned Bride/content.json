@@ -1,0 +1,1368 @@
+{
+  "Format": "1.15.0",
+  "Changes": [
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Aurelia",
+      "FromFile": "assets/Image/BeforeMarriage.png"
+    },
+    {
+      "LogName": "Sprites", 
+      "Action": "EditImage",
+      "Target": "Characters/Aurelia",
+      "FromFile": "assets/Image/AfterMarriage.png",
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    {
+      "LogName": "Beach Sprites", 
+      "Action": "EditImage",
+      "Target": "Characters/Aurelia_Beach",
+      "FromFile": "assets/Image/BeachBeforeMarriage.png",
+      "When": {"HasSeenEvent |contains=18050005": false}
+    },
+    {
+      "LogName": "Beach Sprites", 
+      "Action": "EditImage",
+      "Target": "Characters/Aurelia_Beach",
+      "FromFile": "assets/Image/BeachAfterMarriage.png",
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    {
+      "LogName": "Beach Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Aurelia_Beach",
+      "FromFile": "assets/Image/BeachAureliaBefore.png",
+      "When": {"HasSeenEvent |contains=18050005": false}
+    },
+    {
+      "LogName": "Beach Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Aurelia_Beach",
+      "FromFile": "assets/Image/BeachAureliaAfter.png",
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Aurelia",
+      "FromFile": "assets/Image/AureliaBefore.png"
+    },
+    {
+      "LogName": "Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Aurelia",
+      "FromFile": "assets/Image/AureliaAfter.png",
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    {
+      "LogName": "Events",
+      "Action": "Load",
+      "Target": "Data/Events/AbandonedHouse",
+      "FromFile": "assets/Map/AbandonedHouse.xnb"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Aurelia",
+      "FromFile": "assets/Dialogue/Dialogue.json",
+      "When": {"HasSeenEvent |contains=18050005": false}
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueAurelia",
+      "FromFile": "assets/Dialogue/MarriageDialogue.json",
+      "When": {
+        "Relationship:Aurelia": "Married",
+        "HasSeenEvent |contains=18050005": true
+      }
+    },
+    {
+      "LogName": "Divorced Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Aurelia",
+      "FromFile": "assets/Dialogue/DivorcedDialogue.json",
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    {
+      "LogName": "ScheduleBefore",
+      "Action": "Load",
+      "Target": "Characters/schedules/Aurelia",
+      "FromFile": "assets/Schedule/Schedule.json",
+      "When": {
+        "HasSeenEvent |contains=18050005": false,
+        "HasSeenEvent |contains=18050004": false
+      }
+    },
+    {
+      "LogName": "ScheduleFriend",
+      "Action": "Load",
+      "Target": "Characters/schedules/Aurelia",
+      "FromFile": "assets/Schedule/FriendSchedule.json",
+      "When": {
+        "HasSeenEvent |contains=18050004": true,
+        "HasSeenEvent |contains=18050005": false
+      }
+    },
+    {
+      "LogName": "ScheduleAfter",
+      "Action": "Load",
+      "Target": "Characters/schedules/Aurelia",
+      "FromFile": "assets/Schedule/FreeSchedule.json",
+      "When": {
+        "HasSeenEvent |contains=18050005": true,
+        "HasSeenEvent |contains=18050004": true
+      }
+    },
+    {
+      "LogName": "NPC Dispositions",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Aurelia": "adult/polite/shy/negative/female/datable/null/Town/winter 28//AbandonedHouse 12 12/Bride"
+      },
+      "When": {"HasSeenEvent |contains=18050005": false}
+    },
+    {
+      "LogName": "NPC Dispositions",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Aurelia": "adult/polite/shy/negative/female/datable/null/Town/winter 28/Emily ''/RenewedHouse 12 12/Aurelia",
+        "Emily": "adult/polite/outgoing/positive/female/datable/null/Town/spring 27/Aurelia '' Haley 'sister'/HaleyHouse 16 5/Emily"
+      },
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+      {
+      "LogName": "Gift tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Aurelia": "...!#$b#A present...? For me...?#$b#Ooh, sparkly.../60 72 62 64 68 70 66/Hehe... You are so kind.../18 22 402 418 283/.../421 427 583 595 597 376 614 196 609 610/Yes... I deserve this.../84 156 167 305 308 769 795/Ooh... What is this...?//"
+      }
+    },
+    {
+      "LogName": "Gift tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Aurelia": "You got a present for me?#$b#Thank you so much! You are so kind./421 427 583 595 597 376 614 196 609 610/Thank you! I really like this./60 72 62 64 68 70 66 18 22 402 418 283/I don't exactly need this...//Please. I don't want this./84 156 167 305 308 769 795/Thank you, @.//"
+      },
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Aurelia0": "%Aurelia is crying out of happiness.#$b#I never knew this day will come to me... I am so happy, @.$h",
+        "Aurelia1": "%Aurelia is looking at you with teary eyes.#$b#Don't... don't look at me. I am embarrassed.$l"
+      }
+     },
+     {
+       "LogName": "Movie Invitation Spouse",
+       "Action": "EditData",
+       "Target": "Strings/Characters",
+      "Entries": {
+       "MovieInvite_Spouse_Aurelia": "A... movie? That sounds amazing! I always wanted to watch a movie with you. I will see you there.$l"
+      }
+     },
+     {
+       "LogName": "Schedule Dialogue",
+       "Action": "Load",
+       "Target": "Strings/schedules/Aurelia",
+       "FromFile": "assets/Schedule/ScheduleDialogue.json"
+      },
+     {
+       "LogName": "Animation Description Strings",
+       "Action": "EditData",
+       "Target": "Strings/animationDescriptions",
+       "Entries": {
+        "aurelia_sit": "Hello, @. I was just looking over the sky. I never knew it was so beautiful.",
+        "aurelia_read": "There are so many good stories that I have been missing on. I am a slow reader, but it is fascinating.$h",
+        "aurelia_wheel": "%Aurelia is too focused on spinning wheel to notice you."
+      },
+      "When": {"HasSeenEvent |contains=18050005": true}
+     },
+     {
+      "LogName": "Animation Description Strings",
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+       "aurelia_sit": "Wake up 8:40 in the morning. 8:40, 8:40, 8:40, 8:40, 8:40...$h#$b#..."
+    },
+    "When": {"HasSeenEvent |contains=18050005": false}
+  },
+     {
+       "LogName": "Animation Description Data",
+       "Action": "EditData",
+       "Target": "Data/animationDescriptions",
+      "Entries": {
+        "aurelia_sit": "20/20/20/Strings\\animationDescriptions:aurelia_sit",
+        "aurelia_sleep": "43/43/43",
+        "aurelia_read": "21/21/21/Strings\\animationDescriptions:aurelia_read",
+        "aurelia_wheel": "18/18 18 18 19 19 19 18 18 18/18/Strings\\animationDescriptions:aurelia_wheel"
+      }
+    },
+    { 
+      "LogName": "Marriage",
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Aurelia in the bonds of marriage.",
+        "Utility.cs.5371": "@... Aurelia... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h"
+      },
+      "When": {
+        "Relationship:Aurelia": "Engaged, Married"
+      }
+    },
+    { //Opening//
+      
+        "LogName": "Abigail",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Abigail",
+        "Entries": {
+            "AbandonedBride": "Did you hear a scream in the forest? Finally. Is it a monster that I can fight?$h"
+          }
+    },
+    
+    {
+        "LogName": "Alex",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Alex",
+        "Entries": {
+            "AbandonedBride": "I heard a screeching sound in the forest. Wonder what that was."
+               }
+            },
+    {
+        "LogName": "Caroline",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Caroline",
+        "Entries": {
+            "AbandonedBride": "I am nervous. Did you hear that scream around the forest? I go by there quite often..."
+                }
+            },
+    {
+        "LogName": "Clint",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Clint",
+        "Entries": {
+            "AbandonedBride": "...I am kind of scared. What was that screaming about? Was it from the forest?"
+                }
+            },
+    
+    {
+        "LogName": "Demetrius",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Demetrius",
+        "Entries": {
+            "AbandonedBride": "Hello, @. How are you?#$b#Hmm, what? No, I haven't heard anyone scream."
+                }
+            },
+    
+    {
+        "LogName": "Emily",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Emily",
+        "Entries": {
+            "AbandonedBride": "Did you hear the screaming too? What could it be...?"
+                }
+            },
+    
+    {
+        "LogName": "Elliot",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Elliot",
+        "Entries": {
+            "AbandonedBride": "I heard a desperate call echoing from the forest..."
+                }
+            },
+    {
+        "LogName": "Evelyn",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Evelyn",
+        "Entries": {
+          "AbandonedBride": "Always becareful, dear. I've heard someone scream in the forest..."
+                }
+            },
+    {
+        "LogName": "George",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/George",
+        "Entries": {
+            "AbandonedBride": "Hmm... I don't know why everyone is making a fuss about a noise in the forest. It is probably just wind."
+                }
+            },
+    
+    {
+        "LogName": "Harvey",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Harvey",
+        "Entries": {
+            "AbandonedBride": "Have you heard a scream in the forest too? This kind of thing never happened in this town before. Is someone hurt?"
+                }
+            },
+    {
+        "LogName": "Haley",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Haley",
+        "Entries": {
+            "AbandonedBride": "Did you hear that scream? Oh my word. Don't even talk about it."
+                }
+            },
+    {
+        "LogName": "Gus",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Gus",
+        "Entries": {
+            "AbandonedBride": "Hmm, yes. I heard a scream from the forest too. Can it be someone calling for help?"
+                }
+            },
+    {
+        "LogName": "Leah",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Leah",
+        "Entries": {
+            "AbandonedBride": "I heard the scream so clear that I am still kind of shaking. Who could it possibly be? I will have to lock my doors tight tonight."
+                }
+            },
+    {
+    "LogName": "Linus",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Linus",
+    "Entries": {
+        "AbandonedBride": "Hello...#$b#A scream? No, I heard none..."
+            }
+        },
+        {
+          "LogName": "Marnie",
+          "Action": "EditData",
+          "Target": "Characters/Dialogue/Marnie",
+          "Entries": {
+              "AbandonedBride": "Did you hear the scream in the forest? I wonder what is going on. I should go check on my animals."
+                  }
+              },
+    {
+        "LogName": "Jodi",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Jodi",
+        "Entries": {
+            "AbandonedBride": "I better tell the boys to come home early. That scream that echoed through the town was alarming."
+                }
+            },
+    {
+        "LogName": "Kent",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Kent",
+        "Entries": {
+            "AbandonedBride": "The scream is bringing back my nightmares...$s"
+                }
+            },
+    {
+        "LogName": "Maru",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Maru",
+        "Entries": {
+            "AbandonedBride": "Hey, @. How is it going?#$b#Screaming sound? I know it's a hot topic, but I didn't hear it."
+                }
+            },
+    {
+        "LogName": "Pam",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Pam",
+        "Entries": {
+            "AbandonedBride": "Something bad is happening. That scream was unusual. I know that for sure."
+                }
+            },
+    {
+        "LogName": "Pierre",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Pierre",
+        "Entries": {
+            "AbandonedBride": "Why is everyone talking about the screaming sound? Pfft, no way. Our town is safe."
+         
+                }
+            },
+    
+    {
+        "LogName": "Lewis",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Lewis",
+        "Entries": {
+            "AbandonedBride": "I will look around the town extra-careful tonight. No worries."
+                }
+            },
+    {
+        "LogName": "Penny",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Penny",
+        "Entries": {
+            "AbandonedBride": "I am pretty worried. It seems like most of us heard the scream... Who could it possibly be?$s"
+                }
+            },
+    {
+        "LogName": "Robin",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Robin",
+        "Entries": {
+            "AbandonedBride": "Hey @! Need help?#$b#Screaming? I heard nothing over here."
+                }
+            },
+    {
+        "LogName": "Sam",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Sam",
+        "Entries": {
+            "AbandonedBride": "Did you hear someone scream from the forest? I mean, something interesting happend for the first time living in this town.$h"
+                }
+            },
+    {
+        "LogName": "Sebastian",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Sebastian",
+        "Entries": {
+            "AbandonedBride": "...Hey.#$b#Heard nothing, if that's what you are talking about."
+                }
+            },
+    
+    {
+        "LogName": "Shane",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Shane",
+        "Entries": {
+            "AbandonedBride": "Who cares about the random noise?"
+                }
+            },
+    {
+        "LogName": "Jas",
+        "Action": "EditData",
+         "Target": "Characters/Dialogue/Jas",
+        "Entries": {
+          "AbandonedBride": "I am scared... I heard someone scream so loudly and clearly.$s"
+                 }
+             },
+    {
+        "LogName": "Vincent",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Vincent",
+        "Entries": {
+         "AbandonedBride": "What was that sound? Where is mom?$s"
+                }
+           },
+    {
+        "LogName": "Willy",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Willy",
+        "Entries": {
+            "AbandonedBride": "I barely heard the screaming from here, but could tell it was unusual."
+                }
+            },
+    
+    {
+        "LogName": "Wizard",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Wizard",
+        "Entries": {
+            "AbandonedBride": "*mumble* ...Did it finally open... Poor girl..."
+                }
+            },
+    
+    {
+        "LogName": "Marlon",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarlonFay",
+        "Entries": {
+            "AbandonedBride": "@, need anything?#$b#What sound? Screaming? From where? The mines? Heard nothing."
+                }
+            },
+    {
+      "LogName": "Mike",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Mike",
+        "Entries": {
+            "AbandonedBride": "Did you hear that screaming sound? Someone must be in danger."
+                }
+            },
+    {
+      "LogName": "Young",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Young",
+      "Entries": {
+      "AbandonedBride": "Yes. I heard the screaming sound too. I must tell Timothy to becareful when he goes to the forest."
+                }
+            },
+    {
+      "LogName": "Timothy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Timothy",
+      "Entries": {
+      "AbandonedBride": "Did you hear someone screaming too? How am I supposed to go foraging now!$s"
+                 }
+             },
+             { //Change//
+      
+              "LogName": "Abigail",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Abigail",
+              "Entries": {
+                  "Aurelia": "Never knew someone so cool lived around our town. Aurelia, was it? She said that she lives near town."
+                }
+          },
+          
+          {
+              "LogName": "Alex",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Alex",
+              "Entries": {
+                  "Aurelia": "Aurelia? I got to meet her today. Pretty nice girl."
+                     }
+                  },
+          {
+              "LogName": "Caroline",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Caroline",
+              "Entries": {
+                  "Aurelia": "I got to see Aurelia today. She looked very young and happy."
+                      }
+                  },
+          {
+              "LogName": "Clint",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Clint",
+              "Entries": {
+                  "Aurelia": "I saw Emily talking with this new girl... Aurelia was it?"
+                      }
+                  },
+          
+          {
+              "LogName": "Demetrius",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Demetrius",
+              "Entries": {
+                  "Aurelia": "Hmm, I didn't know someone new came to town until today. Aurelia was her name, I think."
+                      }
+                  },
+          
+          {
+              "LogName": "Emily",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Emily",
+              "Entries": {
+                  "Aurelia": "I think I made a new friend! Her name is Aurelia! She said that she lives near town and never thought to come visit here until now!$h"
+                      }
+                  },
+          
+          {
+              "LogName": "Elliot",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Elliot",
+              "Entries": {
+                  "Aurelia": "Aurelia, a beautiful girl with a beautiful name...$h"
+                      }
+                  },
+          {
+              "LogName": "Evelyn",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Evelyn",
+              "Entries": {
+                "Aurelia": "I met a sweetheart today. I think her name was... Aurelia?"
+                      }
+                  },
+          {
+              "LogName": "George",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/George",
+              "Entries": {
+                  "Aurelia": "Hmm... Apprently a new girl is in town."
+                      }
+                  },
+          
+          {
+              "LogName": "Harvey",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Harvey",
+              "Entries": {
+                  "Aurelia": "Aurelia came to check breifly. She seemed stressed and weak, but she should be fine if she rests well."
+                      }
+                  },
+          {
+              "LogName": "Haley",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Haley",
+              "Entries": {
+                  "Aurelia": "Did you see the new girl in town? I don't know. She seems odd."
+                      }
+                  },
+          {
+              "LogName": "Gus",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Gus",
+              "Entries": {
+                  "Aurelia": "A new friend came to town! Aurelia! She looked like a great girl.$h"
+                      }
+                  },
+                  {
+                    "LogName": "Marnie",
+                    "Action": "EditData",
+                    "Target": "Characters/Dialogue/Marnie",
+                    "Entries": {
+                        "Aurelia": "Aurelia seems like a sweetheart.$h"
+                            }
+                        },
+          {
+              "LogName": "Leah",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Leah",
+              "Entries": {
+                  "Aurelia": "I saw Aurelia. She said that she lived near town, around forest too. Why didn't I see her?"
+                      }
+                  },
+          {
+              "LogName": "Jodi",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Jodi",
+              "Entries": {
+                  "Aurelia": "I saw the new girl today. Aurelia. Looked pretty sweet."
+                      }
+                  },
+          {
+              "LogName": "Kent",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Kent",
+              "Entries": {
+                  "Aurelia": "The new girl, Aurelia... Seemed like she was used to pain. I just can tell."
+                      }
+                  },
+          {
+              "LogName": "Maru",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Maru",
+              "Entries": {
+                  "Aurelia": "I heard about this new girl but haven't met her yet. Where is she?"
+                      }
+                  },
+          {
+              "LogName": "Pam",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Pam",
+              "Entries": {
+                  "Aurelia": "A new girl in town? Well, none of my business."
+                      }
+                  },
+          {
+              "LogName": "Pierre",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Pierre",
+              "Entries": {
+                  "Aurelia": "A new girl? You mean a new customer?."
+               
+                      }
+                  },
+          
+          {
+              "LogName": "Lewis",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Lewis",
+              "Entries": {
+                  "Aurelia": "Our town has expanded! Aurelia came and introduced herself to me."
+                      }
+                  },
+          {
+              "LogName": "Penny",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Penny",
+              "Entries": {
+                  "Aurelia": "I haven't seen the new girl that everyone has been talking about... Do you think she is kind?"
+                      }
+                  },
+          {
+              "LogName": "Robin",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Robin",
+              "Entries": {
+                  "Aurelia": "New girl? Probably should go and say hi to her."
+                      }
+                  },
+          {
+              "LogName": "Sam",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Sam",
+              "Entries": {
+                  "Aurelia": "Yes! A new girl in town! Finally.$h"
+                      }
+                  },
+          {
+              "LogName": "Sebastian",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Sebastian",
+              "Entries": {
+                  "Aurelia": "...?#$b#Do you need something? A new girl came to town? That's cool."
+                      }
+                  },
+          
+          {
+              "LogName": "Shane",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Shane",
+              "Entries": {
+                  "Aurelia": "...Why does that new girl looks like... she know what pain is?"
+                      }
+                  },
+          {
+              "LogName": "Jas",
+              "Action": "EditData",
+               "Target": "Characters/Dialogue/Jas",
+              "Entries": {
+                "Aurelia": "I saw the new girl in town!$h"
+                       }
+                   },
+          {
+              "LogName": "Vincent",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Vincent",
+              "Entries": {
+               "Aurelia": "A new girl in town? Ms.Penny is the best anyway!"
+                      }
+                 },
+          {
+              "LogName": "Willy",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Willy",
+              "Entries": {
+                  "Aurelia": "I wonder if the new girl like fishing.$h"
+                      }
+                  },
+          
+          {
+              "LogName": "Wizard",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Wizard",
+              "Entries": {
+                  "Aurelia": "Aurelia... Yes, indeed. That is her name."
+                      }
+                  },
+          {
+            "LogName": "Mike",
+              "Action": "EditData",
+              "Target": "Characters/Dialogue/Mike",
+              "Entries": {
+                  "Aurelia": "I heard a new girl is in town? That is interesting.$h"
+                      }
+                  },
+          {
+            "LogName": "Young",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Young",
+            "Entries": {
+            "Aurelia": "Oh, I heard there was a new girl in town. Aurelia. Good for her."
+                      }
+                  },
+          {
+            "LogName": "Timothy",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Timothy",
+            "Entries": {
+            "Aurelia": "I saw Aurelia today! She was kind.$h"
+                       }
+                   },
+    {  //Dialogues about Aurelia//
+      "LogName": "Emily",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Emily",
+      "Entries": {
+        "Sat": "Aurelia asked me to borrow my sewing book. She said that she knew basic skills but wants to know more. She learned pretty quick.#$b#Never thought she was the one hidden in the forest.",
+        "winter_Mon": "Aurelia is such a sweetheart. But she seems to be a lot mature than she looks... I think she is around my age.$h"
+      },
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    { //Dialogue for Rainy Days//
+      "Logname": "Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Aurelia": "It is raining... Hehe...#$b#It rained that morning too...#$b#But blood... dripped in place of rain...$u"
+      },
+      "When": {"HasSeenEvent |contains=18050005": false}
+    },
+    {
+      "Logname": "Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Aurelia": "The rain still gets me sometimes, but it's alright...$h"
+      },
+      "When": {"HasSeenEvent |contains=18050005": true}
+      },
+    {//Events//
+      "LogName": "1805001EventIntroduction",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "FromFile": "assets/Events/0.json"
+    },
+    {
+      "LogName": "1805003EventTraumaticDay",
+      "Action": "EditData",
+      "Target": "Data/Events/AbandonedHouse",
+      "FromFile": "assets/Events/4.json"
+    },
+    {
+      "LogName": "18050004EventRecovery",
+      "Action": "EditData",
+      "Target": "Data/Events/AbandonedHouse",
+      "FromFile": "assets/Events/6.json"
+    },
+    {
+      "LogName": "18050005EventStory",
+      "Action": "EditData",
+      "Target": "Data/Events/Saloon",
+      "FromFile": "assets/Events/8.json"
+    },
+    {
+      "LogName": "1805006EventStars",
+      "Action": "EditData",
+      "Target": "Data/Events/Mountain",
+      "FromFile": "assets/Events/10.json"
+    },
+    {
+      "LogName": "1805007EventMarriage",
+      "Action": "EditData",
+      "Target": "Data/Events/ArchaeologyHouse",
+      "FromFile": "assets/Events/14.json"
+    },
+    { //Dialogue for Festivals//
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "Entries": {
+        "Aurelia": "@, are you ready for the egg hunt? It's going to be so much fun!$h"
+      },
+      "When": {
+        "Relationship:Aurelia": "Engaged, Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring13",
+      "Entries": {
+        "Aurelia": "What a wonderful day, isn't it?$h"
+      },
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+        "Aurelia": "You look marvelous, @. Today is one of the best days in my life.$h"
+      },
+      "When": {
+        "Relationship:Aurelia": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+        "Aurelia": "I love the flowers. Aren't they so beautiful?$h"
+      },
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Entries": {
+        "Aurelia_spouse": "It's amazing to see everyone gather around and share what they have.$h"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Entries": {
+        "Aurelia": "I enjoy the company of villagers. It's something I have missed for a while.$h"
+      },
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+        "Aurelia_spouse": "Are you excited, @? I am very excited for sure.$h"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+        "Aurelia": "This is one of my favorite nights. They light up the dark...$h"
+      },
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+        "Aurelia": "I have never seen anything as beautiful as this. You made the night even better.$l"
+      },
+      "When": {
+        "Relationship:Aurelia": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+        "Aurelia_spouse": "Wow! So many people are here! And so many things to do!$h"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+        "Aurelia": "I wonder if I can beat all the games here...$h"
+      },
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+        "Aurelia": "Today was so much fun!$h"
+      },
+      "When": {
+        "Relationship:Aurelia": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "Entries": {
+        "Aurelia_spouse": "Spooky...#$b#Don't worry, I'll be alright.$h"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "Entries": {
+        "Aurelia": "I think I am starting to learn how to enjoy this festival.$h"
+      },
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "Entries": {
+        "Aurelia": "@, you can even fish? What can you not do? I am proud of you.$l#$b#Good luck.$h"
+      },
+      "When": {
+        "Relationship:Aurelia": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "Entries": {
+        "Aurelia": "Willy is such a great fisher. You better watch out.$h#$b#Good luck, @."
+      },
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+        "Aurelia": "It's a Winter Star miracle that I am standing here right now.$h#$b#...with you.$l"
+      },
+      "When": {
+        "Relationship:Aurelia": "Married"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Entries": {
+        "Aurelia": "It's a Winter Star miracle that I am standing here right now.$h"
+      },
+      "When": {"HasSeenEvent |contains=18050005": true}
+    },
+    { //Mails//
+      "LogName": "Dinner",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "aureliainvite": "Dear, @.^^We have come a long way together. I cannot explain how grateful I am for you.^^I want to invite you to a talk at Saloon. Please come at 10:00PM. I have something important to tell you. I will explain it all to you now.^^From, Aurelia[#]Dinner Invitation" 
+      }
+    },
+    {
+      "LogName": "Poem",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "aureliapoem": "To Aurelia.^^The book that included your poem has been successfully published. Thank you for the beautifully written poem.^^Here is your payment for the poem.^Sincerely, Elliot%item money 10000 10001 %%[#]Aurelia's Poem" 
+      }
+    },
+    {
+      "LogName": "Invite",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "18050008/f Aurelia 2000/e 18050004/x aureliainvite": "null"
+      }
+    },
+    {
+      "LogName": "Poem",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "18050009/f Aurelia 3500/e 18050007/x aureliapoem": "null"
+      }},
+    { //Movies//
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+      "Aurelia": {"Name": "Aurelia",
+        "LovedTags": [
+        "Hummus Snack Pack", "Apple Slices", "Cappuccino Mousse Cake", "Stardrop Sorbet", "Jasmine Tea", "Kale Smoothie", "Panzanella Salad"
+        ],
+        "LikedTags": [
+         "Cotton Candy","Ice Cream Sandwich", "Popcorn", "Salmon Burger", "Star Cookie", "Chocolate Popcorn", "Personal Pizza"
+        ],
+        "DislikedTags": [
+        "Black Licorice", "Jawbreaker", "JojaCorn", "Nachos", "Rock Candy", "Salted Peanuts", "Sour Slimes", "Truffle Popcorn", "Joja Cola", "Fries"
+        ]
+      }
+      }
+    },
+    {"Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+      "Aurelia": {
+      "NPCName": "Aurelia",
+      "Reactions": [
+        {
+          "Tag": "family",
+          "Response": "love",
+          "Whitelist": [],
+          "SpecialResponses": null,
+          "ID": "reaction_0"
+        },
+        {
+          "Tag": "horror",
+          "Response": "dislike",
+          "Whitelist": [],
+          "SpecialResponses": null,
+          "ID": "reaction_1"
+        },
+        {
+          "Tag": "spring_movie_0",
+          "Response": "like",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "How exciting to come to a theater and watch a movie.$h"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Adorable, isn't it?$h"
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Thank you for inviting me...$h"
+            }
+          },
+          "ID": "reaction_2"
+        },
+        {
+          "Tag": "summer_movie_0",
+          "Response": "dislike",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "..."
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "I... I am kind of confused..."
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "..."
+            }
+          },
+          "ID": "reaction_3"
+        },
+        {
+          "Tag": "fall_movie_0",
+          "Response": "hate",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "The poster outside looked... frightening.",
+              "When": {"HasSeenEvent |contains=18050005": false}
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "N...no... It's too dark in here. Let me out.$u",
+              "When": {"HasSeenEvent |contains=18050005": false}
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "%Abandoned Bride is trembling.",
+              "When": {"HasSeenEvent |contains=18050005": false}
+            }
+          }
+          },
+          {
+            "Tag": "fall_movie_0",
+            "Response": "dislike",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Hmm... I don't know about this.",
+                "When": {"HasSeenEvent |contains=18050005": true}
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "It's okay... It's okay...#$b#%Aurelia holds your hand tightly.",
+                "When": {"HasSeenEvent |contains=18050005": true}
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Sorry, I am not too good with this genre.$h",
+                "When": {"HasSeenEvent |contains=18050005": true}
+              }
+            },
+          "ID": "reaction_4"
+        },
+        {
+          "Tag": "winter_movie_0",
+          "Response": "love",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Winter Star... I wonder..."
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Wonderful story..."
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "When you wish upon a star...$h#$b#%She is humming a song."
+            }
+          },
+          "ID": "reaction_5"
+        },
+        {
+          "Tag": "spring_movie_1",
+          "Response": "like",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Thank you for inviting me...$h"
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "So many parts of the world that I didn't know..."
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "%She is lost in her thought."
+            }
+          },
+          "ID": "reaction_6"
+        },
+        {
+          "Tag": "summer_movie_1",
+          "Response": "love",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Hmm... The character on the poster looks odd..."
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "*giggles* What is this weird thing?$h"
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "I haven't laughed so loudly before...#$b#Thank you..."
+            }
+          },
+          "ID": "reaction_7"
+        },
+        {
+          "Tag": "fall_movie_1",
+          "Response": "hate",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "I... have a bad feeling about this.$u",
+              "When": {"HasSeenEvent |contains=18050005": false}
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "%You are not sure if Abandoned Bride is sleeping or has fainted.",
+              "When": {"HasSeenEvent |contains=18050005": false}
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "%Abandoned Bride is trembling.#$b#Hush, little baby don't ever cry...$u",
+              "When": {"HasSeenEvent |contains=18050005": false}
+            }
+          }
+          },
+          {
+            "Tag": "fall_movie_0",
+            "Response": "dislike",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "@, is there a particular reason you are taking me to this movie?",
+                "When": {"HasSeenEvent |contains=18050005": true}
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "...#$b#%Aurelia holds your hand tightly.",
+                "When": {"HasSeenEvent |contains=18050005": true}
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "It's alright. I am getting better at facing my fears.$h",
+                "When": {"HasSeenEvent |contains=18050005": true}
+              }
+            },
+          "ID": "reaction_8"
+        },
+        {
+          "Tag": "winter_movie_1",
+          "Response": "love",
+          "Whitelist": [],
+          "SpecialResponses": {
+            "BeforeMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "Oh... The woman on the poster looks... beautiful."
+            },
+            "DuringMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "I am truly marveled."
+            },
+            "AfterMovie": {
+              "ResponsePoint": null,
+              "Script": "",
+              "Text": "That was a wonderful story... Thank you for inviting me.$h"
+            }
+          },
+          "ID": "reaction_9"
+        }
+      ]
+   }
+   }
+},
+{
+  "LogName": "Remove Abandoned Bride from Egg Festival",
+    "Action": "EditMap",
+    "Target": "Maps/Town-EggFestival",
+    "MapTiles": [
+    {"Position": { "X": 27, "Y": 62 },"Layer": "Set-Up","Remove": true },
+    {"Position": { "X": 27, "Y": 62 },"Layer": "MainEvent","Remove": true}],
+    "When": {"HasSeenEvent |contains=18050001": true,"HasSeenEvent |contains=18050005": false}
+},
+{
+  "LogName": "Remove Abandoned Bride from Spring Dance",
+    "Action": "EditMap",
+    "Target": "Maps/Forest-FlowerFestival",
+    "MapTiles": [
+    {"Position": { "X": 9, "Y": 21 },"Layer": "Set-Up","Remove": true },
+    {"Position": { "X": 9, "Y": 21 },"Layer": "MainEvent","Remove": true}],
+    "When": {"HasSeenEvent |contains=18050001": true,"HasSeenEvent |contains=18050005": false}
+},
+{
+  "LogName": "Remove Abandoned Bride from Luau",
+    "Action": "EditMap",
+    "Target": "Maps/Beach-Luau",
+    "MapTiles": [
+    {"Position": { "X": 35, "Y": 7 },"Layer": "Set-Up","Remove": true },
+    {"Position": { "X": 35, "Y": 7 },"Layer": "MainEvent","Remove": true}],
+    "When": {"HasSeenEvent |contains=18050005": false}
+},
+{
+  "LogName": "Remove Abandoned Bride from MoonlightJellies",
+    "Action": "EditMap",
+    "Target": "Maps/Beach-Jellies",
+    "MapTiles": [
+    {"Position": { "X": 14, "Y": 24 },"Layer": "Set-Up","Remove": true },
+    {"Position": { "X": 14, "Y": 24 },"Layer": "MainEvent","Remove": true}],
+    "When": {"HasSeenEvent |contains=18050005": false}
+},
+{
+  "LogName": "Remove Abandoned Bride from Fair",
+    "Action": "EditMap",
+    "Target": "Maps/Town-Fair",
+    "MapTiles": [
+    {"Position": { "X": 23, "Y": 54 },"Layer": "Set-Up","Remove": true }],
+    "When": {"HasSeenEvent |contains=18050005": false}
+},
+{
+  "LogName": "Remove Abandoned Bride from Halloween",
+    "Action": "EditMap",
+    "Target": "Maps/Town-Halloween",
+    "MapTiles": [
+    {"Position": { "X": 23, "Y": 67 },"Layer": "Set-Up","Remove": true }],
+    "When": {"HasSeenEvent |contains=18050005": false}
+},
+{
+  "LogName": "Remove Abandoned Bride from Christmas",
+    "Action": "EditMap",
+    "Target": "Maps/Town-Christmas",
+    "MapTiles": [
+    {"Position": { "X": 38, "Y": 60 },"Layer": "Set-Up","Remove": true },
+    {"Position": { "X": 38, "Y": 60 },"Layer": "MainEvent","Remove": true}],
+    "When": {"HasSeenEvent |contains=18050005": false}
+},
+{
+  "LogName": "Remove Abandoned Bride from IceFestival",
+    "Action": "EditMap",
+    "Target": "Maps/Forest-IceFestival",
+    "MapTiles": [
+    {"Position": { "X": 73, "Y": 47 },"Layer": "Set-Up","Remove": true },
+    {"Position": { "X": 73, "Y": 47 },"Layer": "MainEvent","Remove": true}],
+    "When": {"HasSeenEvent |contains=18050005": false}
+}
+  ]
+}

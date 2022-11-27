@@ -1,0 +1,29 @@
+{
+	// First day of season
+	"spring_1": "É estranho ser improdutivo.#$b#Eu gosto disso, no entanto. Especialmente neste lindo clima de primavera.$h",
+	"summer_1": "Nossa, esse calor de verão deve ser horrível para meus funcionários.$s",
+	"fall_1": "O outono é na verdade uma das épocas mais agradáveis ​​do ano.#$b#Nossa equipe de criação sempre tira isso da bolsa com os displays nesta época do ano.$h",
+	"winter_1": "Brrr está frio!$s#$b#Sempre poderemos nos aconchegar juntos, @.$l",
+	// Locations
+	"patio_Kristoff": "Oh, @! Estou apenas descansando um pouco.#$b#Como esta minha querida(o)?$h",
+	"Rainy_Night_1": "Você sabe, @,Eu amo a chuva. É tão... nostálgico, sabe?$l",
+	"Rainy_Night_2": "Em um clima como este, normalmente fico muito inspirado para trabalhar, mas tudo em que consigo pensar é me aconchegar a você, @.$l",
+	"Rainy_Night_3": "@, venha e relaxe por um minuto. Como foi o seu dia? Aposto que foi mais fácil, não foi preciso regar a plantação, pelo menos.$h",
+	"Rainy_Day_1": "Este é um clima perfeito para trabalhar, @.#$b#Espero que meus funcionários estejam trabalhando duro. Eu sei que eles vão.$h",
+	"Rainy_Day_2": "Estou pensando em doar parte dos lucros de Joja para uma instituição de caridade.#$b#Você deveria me ajudar a escolher qual!$l",
+	"Rainy_Day_3": "Esse clima me lembra a noite em que inventei a Joja. Estava chovendo, eu estava em meu pequeno apartamento decadente e criei meu primeiro site.$h#$b#É uma pena que meus pais não possam ver tudo o que realizei.",
+	"indoor_Night_1": "Boa noite, @.Como foi o seu dia? Produtivo? Divertido?$h",
+	"indoor_Night_2": "@, Estou um pouco cansado esta noite. Lidei com um pequeno negócio da Joja antes.#$b#Não estou mais acostumado!$h",
+	"indoor_Night_3": "...Minha vida tem propósito. Eu olho para você, @, e me sinto feliz. Esse é o objetivo da vida, certo?$l",
+	"indoor_Day_1": "Está um lindo dia lá fora, os pássaros estão cantando, as flores estão desabrochando. Um ótimo dia para... pra ficar por dentro e trabalhar!$h",
+	"indoor_Day_2": "Estou feliz que você deixou a Joja, @. Você claramente pertence aqui, a agricultura.#$e#É como se te chamasse!$l",
+	"indoor_Day_3": "Eu sempre estive tão estressado, trabalhando nas coisas da Joja, mas não preciso mais me preocupar tanto.$h#$b#Eu tenho você, @.$l",
+	"spring_Kristoff": "A primavera é legal, não é? @?$l#$b#Isso me lembra das enormes fazendas Joja que temos.#$e#Oh, não se preocupe, nós os pagamos de forma justa!$h",
+	"summer_Kristoff": "Nossa, está sufocante hoje!#$b#Estou feliz por não vivermos no deserto!$h",
+	"fall_Kristoff": "Outono. Hah, é simbólico, não é?#$b#De todas as coisas precisam morrer para que uma nova vida surja na primavera.$s",
+	"winter_Kristoff": "Se algo bom viesse do inverno, seria meu aniversário! Haha!$h",
+	"Outdoor_Kristoff": "Acabei de sair para tomar um pouco de ar fresco. É incrível aqui.#$b#Quando eu estava confinado em meu escritório, nunca percebi o quão majestosa é a natureza.$l",
+	"OneKid_1": "espero que %kid1 possa crescer para ser tão bem sucedido quanto nós. Isso seria maravilhoso.",
+	"TwoKids_1": "%kid1 e %kid2 poderia começar seu próprio negócio! Eles poderiam fazer uma startup do tipo Silicon Valley!#$b#Bem, o que quer que eles façam, eles teriam muita sorte de produzir algo como você, @.",
+	"spouseRoom_Kristoff": "Tive que dar uma passada aqui para trabalhar um pouco, querida(o). Espero que esteja tudo bem!#$e#Prometi quando me casei com você, disse que dedicaria todo o meu tempo ao nosso amor, mas ainda tenho que cuidar de algumas coisas.$h"
+}

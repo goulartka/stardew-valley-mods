@@ -1,0 +1,13 @@
+﻿{
+  "mergeMaps":
+  [
+    {
+      "name": "Forest",
+      "file": "assets/RenewedHouseExterior.tmx",
+      "sourceArea": [0,0,6,6],
+      "position": [93,70],
+      "Conditions": "e 18050005"
+    }
+  ]
+  
+}

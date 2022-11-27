@@ -1,0 +1,37 @@
+{
+  "13.000": "%Victor está observando o mar, ele parece pensativo.",
+  "Tue.001": "%Victor está jogando Junimo Kart.",
+  "Fri.000": "%Victor está jogando Junimo Kart.",
+  "Fri.001": "%Victor está jogando Esmagadores de Abóbora.",
+ 
+  "spring_21_2.003": "%Victor está observando o vale.",
+  "summmer_21.003": "%Victor está observando o vale.",
+  "fall_21.003": "%Victor está observando o vale.",
+  "winter_21.003": "%Victor está observando o vale.",
+  
+  "7.000": "%Victor está jogando Lazer Battleships.",
+  "Mon.000": "%Victor está jogando A Lenda de Lonk.",
+  "Wed.000": "%Victor está jogando Blue Alive Redemption 2.",
+  "winter_Thu.000": "%Victor está jogando Super Smash Sisters.",
+  "spring_4.000": "%Victor está jogando Agradável 5.",
+  "spring_21.000": "%Victor está jogando A Lenda de Lonk.",
+  "summer_9.000": "%Victor está jogando Blue Alive Redemption 2.",
+  "summer_21.000": "%Victor está jogando Super Smash Sisters.",
+  "fall_Thu.000": "%Victor está jogando A Lenda de Lonk.",
+  "winter_9.000": "%Victor está jogando A Lenda de Lonk.",
+  
+  "rain8.001": "%Victor está jogando Junimo Kart.",
+  
+  "marriage.000": "Oh Olá! Estou pegando alguns mantimentos para nós. Te vejo de volta em casa hoje à noite!$1",
+  "marriage.001": "Oi querida. Pensei em visitar minha mãe um pouco e pegar um dos meus livros$1",
+  "marriage.002": "Pensei em pegar uma taça de vinho aqui enquanto visitava minha mãe.$3#$b#Sirva-se de um pouco, se quiser.$1$1",
+  "marriage.003": "Estou feliz por morar ao lado da cidade de Pelican para que eu possa visitar minha mãe.$1",
+  "marriage.004": "Aww. Você veio me ver enquanto estou visitando minha mãe? Você é tão fofo!$4#$b#Devíamos tomar uma bebida hoje à noite no salão!$1",
+  "marriage.005": "Ajudei Robin a consertar esta ponte recentemente. Não é maravilhoso$3?#$e#Eu te amo!$4",
+  "marriage.006": "Vou para o salão daqui a pouco! Eu te vejo lá!$1",
+  "marriage.007": "Estou ansioso para as sextas-feiras, quando podemos tomar uma bebida e relaxar. Estou quase terminando este jogo!$1",
+  
+  "NightMarket.001": "Comprei esses totens misteriosos daquela figura envolta em mortalha.$1",
+  
+  "ShearwaterBridgeRenovation.001": "Oi! Como você passou pelas barricadas?$7#$b#Desculpa. Estou bastante ocupado trabalhando na reforma da Ponte de Cagarra. Estarei de volta em casa esta noite.$0",
+}

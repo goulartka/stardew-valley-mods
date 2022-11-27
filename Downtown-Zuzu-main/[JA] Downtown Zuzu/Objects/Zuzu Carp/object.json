@@ -1,0 +1,17 @@
+{
+    "Name": "Zuzu Carp",
+    "Price": 350,
+    "Description": "A strange purple-pink version of the carp. It seems to have 2 extra fins.",
+    "Category": "Fish",
+    "Edibility": 37,
+    "EdibleIsDrink": "false",
+    "IsColored": "false",
+   "NameLocalization" : 
+		{ 
+		"pt" : "Carpa de Zuzu",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Uma estranha versão rosa-púrpura da Carpa. Parece ter 2 barbatanas extras",
+		}
+}

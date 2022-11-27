@@ -1,0 +1,68 @@
+﻿{
+  //SPECIAL DIALOGUE
+  "Introduction": "E ai! Você deve ser a pessoa que vai cuidar daquela fazenda. Meu gerente fez uma reunião para falar sobre você!$0#$b#Eu trabalho no Mercado Joja durante alguns dias da semana.$1#$e#Err... esqueça sobre o que falei sobre a reunião... isso pode me encrencar.$4",
+  "pamHouseUpgrade": "Você acha que aquela senhora vai ser mais legal comigo no trabalho agora?$4",
+  "pamHouseUpgradeAnonymous": "Você acha que aquela senhora vai ser mais legal comigo no trabalho agora?$4",
+  "Town_92_44": "%'Entrada para Funcionários'",
+  "BusStop_12_8": "%Motorista: Suba no ônibus ou abra espaço senhor.^%Motorista: Suba no ônibus ou abra espaço senhorita.",
+  "Resort_Entering": "Essa ilha é tão legal!$1",
+  "Resort_Leaving": "Eu vou contar para meus pais sobre esse lugar!$1",
+  "Resort_Shore": "A água fica tão morninha no meu pé, eu acho que vou nadar!$0",
+  "Resort_Chair": "É legal ver todo mundo festejando assim.$0#$e#Onde moro é meio chato...$4",
+  "Resort": "Eu esqueci de colocar protetor solar.$4#$e#Acho que me queimei...$4",
+  
+  
+  //SPRING AND GENERAL DIALOGUE
+  "Tue": "Uhh, oi.$0",
+  "Tue2": "Minha mãe preparou alguns lanches para mim hoje.$0#$e#Ah, alguns hamburgueres.$1",
+  "Tue8": "Oi, @, com as mãos ocupadas pelo que vejo.$0#$e#Bem, te vejo por aí.$6",
+  "Sat": "*sigh*... Eu não queria trabalhar hoje.$2#$e#Ah, posso te ajudar?$4",
+  "Sat2": "Ei, o que você acha sobre minha colega de trabalho, Claire?$0#$e#Ela é legal, você precisa conhecê-la.$6",
+  "Sat6": "Ei, como vai!?$1#$e#Estou animado com o café que minha mãe preparou hoje de manhã!$1#$e#Aproveite o dia!$1",
+  "Sun": "Às vezes eu pego aquele ônibus só para ir na biblioteca daqui da vila.$0#$e#Aquele cara de chapéu não fala muito, não é?$0",
+  "Sun2": "Hmm...$4#$e#...$4#$e#Ah! Ei!$1#$b#Apenas pensando comigo mesmo, não ligue para mim.$0",
+  "Sun6": "Há uma prova vindo! Preciso me preparar muito.$1#$e#A biblioteca daqui tem livros muito bons.$0",
+  
+  
+  //SUMMER DIALOGUE
+  "summer_Tue": "Teremos liquidação em breve! 5 por cento de desconto em tudo!$1",
+  "summer_Tue2": "Claire mencionou que o ar-condicionado da loja é demais para ela...$2#$e#Meu gerente não quer diminuir... ele disse que isso atrai clientes.$3",
+  "summer_Tue8": "Eu penso em me mudar para este vale quando for mais velho.$0#$e#Você pretende viver naquela fazenda, @?$1",
+  "summer_Sat": "Há muitas vistas incríveis por aqui, principalmente no Mar de Jóias.$0#$e#No lugar onde moro só tem coisas estáticas e montanhas ao longe...$4",
+  "summer_Sat2": "Meu pai foi o responsável por terem me contratado para trabalhar aqui.$4#$e#Pelo menos eu consigo comprar coisas legais agora.$0",
+  "summer_Sat8": "Minha mãe empacotou alguns tacos desta vez. Eu não me importo de compartilhar![213]$0#$e#As receitas dela são as melhores.$1",
+  "summer_Sun6": "Para dizer a verdade eu não preciso estudar naquela biblioteca... eu tenho uma em casa.$0#$b#Eu só quero passear mais por aí.$4",
+  "summer_Sun8": "Tem muita gente interessante no vale. Você tem muitos amigos aqui?$0#$e#Eu vivo no campo, não tem muita gente por lá.$0",
+  
+  
+  //FALL DIALOGUE
+  "fall_Tue": "Olá, senhor.^Olá, senhorita.",
+  "fall_Tue2": "Minha mãe sempre diz que 'boas maneiras é a chave'. Então eu sempre tento ser educado com todo mundo.$0#$e#Talvez seja isso que esteja me mantendo nesse emprego$0",
+  "fall_Tue8": "Eu vou dar duro no trabalho enquanto for jovem! O Martin do futuro me aguarda!$1",
+  "fall_Sat": "*bocêjo* Eu fiquei a noite toda jogando videogame e agora mal consigo ficar em pé...$2#$e#Mas pelo menos eu upei de level.$1",
+  "fall_Sat8": "Eu costumava fazer vários erros bobos no trabalho, mas fui melhorando com o tempo.$0#$e#Ei! Fico grato com você vindo falar comigo!$1",
+  "fall_Sun": "*bocêjo*...$2#$e#Ah, olá! Como vai?$0",
+  "fall_Sun4": "Todos os meus melhores amigos são na internet. Eu falo com eles todos os dias.$6#$e#Eu quero conhecê-los na vida real algum dia, mas a passagem está tão cara...$0",
+  "fall_Sun8": "Ei @, sabe, eu poderia falar com meu gerente para te dar alguns descontos!$0",
+  
+  
+  //WINTER DIALOGUE
+  "winter_Tue": "Esse trablaho é um bom construtor de currículos.$0", 
+  "winter_Tue8": "Às vezes eu ouço a Claire cantando uma música bem baixinho nos turnos dela...$6#$e#Ah... err, posso te ajudar @?$0",
+  "winter_Sat4": "Minha mãe está costurando um cachecol para mim.$0#$e#Espero que não seja tão grande desta vez...$4",
+  "winter_Sat8": "Eu quase nunca vou ao salão da vila... talvez eu vá lá qualquer dia para comer alguma coisa.$0",
+  "winter_Sun4": "Como é ter uma fazenda durante o inverno? Você deve ter muito tempo livre para andar por aí.$0",
+  "winter_Sun8": "Ei @! Não se esforce além do limite!$0",
+  
+  
+  //EVENT DIALOGUE
+  "martin_event1": "Isso é.. Uh... estou fazendo algumas pesquisas...$4",
+  "martin_event2": "... Sim, não tem muita coisa pra fazer, e este lugar...$0",
+  "martin_event3": "...Sim, você provavelmente tem razão.$6",
+  "martin_event4": "Eu quero dizer... é um pouco estranho, mas tenho meus motivos...$0",
+  "martin_event5": "Obrigado, @, estou indo lá.$0",
+  "martin_event6": "...Certo, é sua escolha. Gunther provavelmente vai deixar ela descansar no museu, eu acho.$3",
+  "martin_event7": "Sim, pode ser verdade.$6",
+  "martin_event8": "...Não é justo, @.$3"
+
+}

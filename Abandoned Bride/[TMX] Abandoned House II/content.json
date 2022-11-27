@@ -1,0 +1,10 @@
+{
+    "addMaps":
+    [
+        {
+            "name": "RenewedHouse",
+            "file": "assets/RenewedHouse.tmx",
+            "Conditions": "e 18050005"
+        }
+    ]
+}

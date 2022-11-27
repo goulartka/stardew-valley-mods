@@ -1,0 +1,27 @@
+
+{
+ "Mon.001": "%Olivia está lavando a louça.",
+ "Mon.002": "%Olivia está verificando mensagens do telefone.",
+ "Mon.003": "%Olivia está ocupada sendo artística.",
+ "Tue.001": "%Olivia está concentrada em sua yoga.",
+ "Tue.002": "Ufa! Eu gostei daquela sessão de treino!$3",
+ "Thu.001": "%Olivia está lavando louças caras.",
+ "Fri.001": "Oi docinho. Estou fazendo um pré-jogo com um pouco com meu próprio vinho antes de ir para o salão.$4#$b#Eu vou te ver lá?$3",
+ "Sat.001": "%Olivia está pintando uma palmeira. Está lindo.",
+
+ "winter_17.001": "%Olivia está ocupada conversando com Caroline.",
+ "10.001": "Oi docinho! Estou fazendo um pedido para Sophia agora.$3",
+ "22.001": "Sophia faz o melhor vinho do vale! Sempre a visito nesta época do mês para comprar vinho para ela.$1",
+ 
+ "marriage.001": "Oie, amor! Pensei em comprar mantimentos durante minhas tarefas hoje.$3",
+ "marriage.002": "Caroline e Jodi estão ótimas, conversei bastante com elas hoje.$3#$b#Te vejo em casa, lindo!$1",
+ "marriage.003": "Estou feliz que você veio, amor!$3#$b#Você gostaria de segurar minha mão?$4",
+ "marriage.004": "*sigh* Victor precisa limpar melhor esses pratos enquanto eu estiver fora...$2",
+ "marriage.005": "Olá, amor! Estarei pedindo uma bebida cara hoje no salão.$4#$b#Quer uma taça?$3",
+ "marriage.006": "É maravilhoso que ambos possamos nos divertir em uma noite como esta.$4",
+ "marriage.007": "Olá querido. Você veio se juntar a nós para fazer ioga?$1",
+ "marriage.008": "*sussura* Estou um pouco ocupada, amor.$6",
+ 
+ "NightMarket.001": "Suki está leiloando relíquias elegantes do Império Gotoro.$3",
+ "NightMarket.002": "Mais uma planta para sua charmosa estufa, Caroline?$6",
+}

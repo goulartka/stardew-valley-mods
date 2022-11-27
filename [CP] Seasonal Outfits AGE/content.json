@@ -1,0 +1,109 @@
+{
+	"Format": "1.19.0",
+	"DynamicTokens": [
+		{
+            "Name": "IndoorVariant", // Indoors
+            "Value": "Indoor",
+            "When":
+            {
+                "IsOutdoors": "false"
+            }
+        },
+        {
+            "Name": "IndoorVariant", // Outdoors
+            "Value": "Outdoor",
+            "When":
+            {
+                "IsOutdoors": "true"
+            }
+        }
+	],
+	"Changes": [
+//Characters
+//Zinnia
+	{
+		"Action": "EditImage",
+        "Target": "Characters/Zinnia",
+		"FromFile": "assets/characters/Zinnia{{Season}}.png",
+		"Update": "OnLocationChange",     
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }	
+	},
+	{
+		"Action": "EditImage",
+        "Target": "Characters/Zinnia",
+		"FromFile": "assets/characters/Zinnia{{Season}}{{IndoorVariant}}.png",
+		"Update": "OnLocationChange",     
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }	
+	},	
+//Gabriel
+	{
+		"Action": "EditImage",
+        "Target": "Characters/Gabriel",
+		"FromFile": "assets/characters/Gabriel{{Season}}.png",
+		"Update": "OnLocationChange",     
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }	
+	},
+	{
+		"Action": "EditImage",
+        "Target": "Characters/Gabriel",
+		"FromFile": "assets/characters/Gabriel{{Season}}{{IndoorVariant}}.png",
+		"Update": "OnLocationChange",     
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }	
+	},
+//Portraits
+//Zinnia
+	{
+		"Action": "EditImage",
+        "Target": "Portraits/Zinnia",
+		"FromFile": "assets/portraits/Zinnia{{Season}}.png",
+		"Update": "OnLocationChange",     
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }	
+	},
+	{
+		"Action": "EditImage",
+        "Target": "Portraits/Zinnia",
+		"FromFile": "assets/portraits/Zinnia{{Season}}{{IndoorVariant}}.png",
+		"Update": "OnLocationChange",     
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+	},
+//Gabriel
+	{
+		"Action": "EditImage",
+        "Target": "Portraits/Gabriel",
+		"FromFile": "assets/portraits/Gabriel{{Season}}.png",
+		"Update": "OnLocationChange",     
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }	
+	},
+	{
+		"Action": "EditImage",
+        "Target": "Portraits/Gabriel",
+		"FromFile": "assets/portraits/Gabriel{{Season}}{{IndoorVariant}}.png",
+		"Update": "OnLocationChange",     
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+	}		
+	]
+	}

@@ -1,0 +1,77 @@
+﻿
+{
+//SPECIAL DIALOGUE
+"Resort_Entering": "Apples aqui!$1",
+"Resort_Leaving": "Todo mundo indo embora agora? Eu vou também!$1",
+"Resort_Shore": "Ninguém vê Apples! Só amigos!$1",
+"Resort": "Outros amigos aqui!$0#$e#%Apples parece animado.",
+
+//SPRING DIALOGUE
+"Mon": "Colega! Veio pra brincar?$0#$e#*meep*#$e#%Apples pula de alegria.",
+"Mon6": "Apples sente fome... quer carambola!$0#$e#Carambola! Carambola!$1",
+"Tue": "Apples achou sementes, tó![114]$1#$e#Semente vira planta mágica!$0",
+"Wed": "Apples não tá bem hoje...$2#$e#...$2#$e#%Você faz carinho nela.#$e#*meep*!!!$1",
+"Wed6": "Claus e Angelica diz oi!$0#$e#Colegas-Fada dão carambola para Apples!$1",
+"Thu": "Apples achou pedra estranha, tó![390]$1#$e#%Apples parece feliz por ter entregado a pedra.",
+"Th4": "Você conhecer Urso?$0#$b#Ele morar na caverna perto de Apples!$1#$e#Urso vende coisas!$0",
+"Thu10": "Apples achou semente boa, tó![347]$1#$e#Cresce fruta boa!$0",
+"Fri": "Colega conhecer gente que viveu no vinhedo sujo?$2#$e#%Você explica que não.#$e#...$2",
+"Fri6": "Drácula com chapéu visitou Apples dias atrás.$0#$e#Apples se escondeu bem!$2",
+"Sat": "Teve lutas pela floresta lá no passado.$2#$e#Eles usam paus afiados.$0",
+"Sat6": "@! Flor![427]$0#$e#Apples acha muita flor.$1",
+"Sun": "Apples ocupada achando semente!$0#$e#Apples vai dar uma depois!$1#$e#Pega essa![771]$1",
+"Sun2": "Yay! Colega aqui!$0#$b#Brincar! Brincar!?$1#$e#%Você brinca com Apples.#$e#*meep*!!!$1",
+"Sun8": "Colega favorito aqui!$1#$e#Colega favorito aqui!$0#$e#%Apples pula de alegria.",
+
+//SUMMER DIALOGUE
+"summer_Mon": "Colega! Plantar Fruta-Estrela agora!$1#$e#Apples ama carambolas!$0",
+"summer_Mon6": "Rocha Espacial na floresta, tó![578]$0#$e#Apples achar mais te dá!",
+"summer_Tue": "Presente pra colega![771]$1#$e#...Colega não gostar?$2",
+"summer_Tue4": "Apples corre na floresta, às vezes acha colegas!#$e#Apples te achou hoje!$1",
+"summer_Wed": "Colegas dão flores na primavera. Colega quer flor?$0#$e#Aqui! Flor![595 593 421]$1",
+"summer_Thu": "Apples gosta calor! Verão boa coisa!$1#$e#Brincar!?$0#$e#%Você brinca por um tempo.#$e#Yay! Legal!$1",
+"summer_Thu10": "Apples visita outra casa na floresta.$0#$e#Muitos colegas lá!$1",
+"summer_Fri": "Brincar! Apples esconde, você acha!$0",
+"summer_Fri6": "*meep* *meep*!$0#$b#*meep*!$1#$e#Apples animada! Achou carambola!$0#$b#Dividir com colega!$1[268]#$e#Desculpa, Apples mordeu.$2",
+"summer_Sat": "Apples não falar com bruxo da torre.$0#$e#Bruxo não deu presente!$2",
+"summer_Sat6": "Apples falar com bruxo depois?$0#$e#Bruxo deve ter fruta...!$1",
+"summer_Sat10": "Bruxo deu fruta pra Apples!$1#$e#Colega-Junimo não gosta bruxo.$2#$b#Apples falar que bruxo é colega!$1",
+"summer_Sun": "Apples achou tesouro.$0#$e#Aqui! Pedra![390]$1#$e#%Apples parece feliz.",
+"summer_Sun4": "Apples entediada.$2#$e#...$2#$e#Colega falar?!$1",
+
+//FALL DIALOGUE
+"fall_Mon": "Cores do outono fazem Apples feliz! Cores!$0#$e#Apples verde!$1",
+"fall_Mon6": "Apples achou fungo bom, tó![422 420]$0#$e#Apples vai achar mais!$1",
+"fall_Tue4": "Apples falar com sombra no esgoto! Bom colega!$0#$e#Sombra brincou com Apples!$1",
+"fall_Tue10": "Sombra brincou com Apples hoje!$1#$e#Sombra se chama Kro... Krotus?$0#$e#Krotus! Krotus!$2",
+"fall_Wed": "Humano chapéu azul jogou garrafas em Apples.$2#$e#Apples ficou com medo...$2",
+"fall_Wed8": "Homem grandão chorou em casa! Apples sente mal...$2#$e#Apples vai levar semente para ajudar!$0",
+"fall_Thu": "Colegas deram flores pra decorar casa! Tó uma![421]$0#$e#Visita faz Apples feliz!$1",
+"fall_Thu10": "Colega-Roxa ser colega de Apples também! Ela ter cabeça roxa!$1",
+"fall_Fri10": "Apples viaja pra vila logo! Saudade colegas!$0#$e#Apples sabe passagem secreta, segredo!$1",
+"fall_Sat": "Apples muito sono... sonéca...$2",
+"fall_Sat4": "Apples achou sementes com Krobus.$1#$e#Colega quer semente?$0#$e#Apples vai pensar.$0#$e#...$2#$b#...$1#$b#Tá bom! Tó![114]$1",
+"fall_Sat8": "Presente pra colega![631 632 631 630 629 628]$0#$e#Presente de árvore!$1",
+"fall_Sun": "...$2#$e#Apples pensar muito hoje.$2#$e#...$2#$e#%Apples não parece querer falar.",
+"fall_Sun10": "Colegas gostam trabalhar em fazenda! Colegas gostam de cultivar!$0#$e#Apples ajudar também!$1",
+
+//WINTER DIALOGUE
+"winter_Mon": "Apples não sentir frio, não preocupar!#$e#%Apples pula de felicidade.",
+"winter_Mon6": "Apples vê pegadas de criaturas na floresta.$0#$b#Apples não sabe o que é...$1#$e#Talvez mais colega!?$0",
+"winter_Tue": "*meep*!!!$0#$b#Apples conheceu colega-voador hoje! Colega deu semente!$1#$e#Apples já comeu... não ter pra colega!$2",
+"winter_Tue4": "*meep*!!!$0#$b#Apples comeu mais semente com colega-voador!$1#$e#Apples já comeu tudo...$2",
+"winter_Tue8": "Yay! Colega visita!$0#$e#Apples achou flor![418]#$e#Mais flor![418]#$e#Apples disse flor?![418]#$e#%Apples tenta te dar mais, mas acabou.#$e#Apples vai achar mais!$1",
+"winter_Wed": "Olha! Apples achou colega![412]$0#$e#Não é colega? É 'raiz'?$2#$b#Tão tá.$1",
+"winter_Wed6": "Colega quer brincar?$0#$e#Apples quer brincar!$1#$e#%Você brinca com Apples.#$e#Yay!!!$1",
+"winter_Thu": "Apples se esconde em neve, legal!$1#$e#Nevinha! Nevinha!$0",
+"winter_Thu4": "Apples quer fazer colega-de-neve!$0#$e#Apples vai fazer Apples-de-neve...$1",
+"winter_Fri": "Outro colega fez Apples triste... não quer brincar.$2#$e#Brincou com outra...$2#$e#%Você diz para ela que pode brincar.#$e#!!!$1#$b#É? Vivaaa!$0#$b#Apples gosta brincar!$1#$e#%Você brinca com Apples por um tempo.#$e#Yay! Divertido!$1",
+"winter_Fri10": "Outro colega brincou com Apples hoje!$1",
+"winter_Sat": "Apples viu homem cabelo branco sem olho!$2#e#Assustador.$2",
+"winter_Sat10": "*meep*!!!$1#$e#*meep*!!$0#$e#Apples cheia! Muita carambola!",
+
+//EVENT DIALOGUE
+"apples_event1": "...$2#$b#Outro colega não falar isso.$4#$b#Eles falar Apples errada.$2",
+"apples_event2": "...$2#$b#Apples fez coisa ruim...$3#$b#Apples só queria fazer novos colegas...$3#$b#Não fica triste com Apples...$3",
+"apples_event3": "...$2#$b#Apples fez mais colegas...$4"
+}

@@ -1,0 +1,17 @@
+{
+    "Name": "Joja Soda",
+    "Price": 200,
+    "Description": "A bottled version of Joja Cola. It also has a bit more sweetness to it.",
+    "Category": "Cooking",
+    "Edibility": 60,
+    "EdibleIsDrink": "true",
+    "IsColored": "false",
+   "NameLocalization" : 
+		{ 
+		"pt" : "Soda Joja",
+		},
+    "DescriptionLocalization" : 
+		{ 
+		"pt" : "Uma versão engarrafada de Joja Cola. Também tem um pouco mais de doçura.",
+		}
+}

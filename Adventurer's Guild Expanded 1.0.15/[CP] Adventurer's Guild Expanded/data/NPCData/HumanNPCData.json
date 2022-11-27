@@ -1,0 +1,224 @@
+{
+"Changes": [
+
+	
+		{
+			"LogName": "NPC Dispositions",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries": {
+				"Gabriel": "adult/neutral/shy/negative/male/datable/null/Town/winter 22/Zinnia 'sister' Marlon 'uncle'/Custom_GE_ZinniaRoom 16 6/Gabriel",
+				"Zinnia": "teen/polite/outgoing/positive/female/datable/null/Town/summer 7/Gabriel 'brother' Marlon 'uncle'/Custom_GE_ZinniaRoom 7 6/Zinnia"
+			},
+			 "When": {
+				"HasSeenEvent: hostPlayer |contains=9280002": "true"
+				}
+		},
+
+	
+		  {
+			"LogName": "Load Empty Json Dialogues",
+   			"Action": "Load",
+   			"Target": "Characters/Dialogue/Zinnia, Characters/Dialogue/Gabriel, Characters/Dialogue/MarriageDialogueZinnia, Characters/Dialogue/MarriageDialogueGabriel, Characters/schedules/Gabriel, Strings/schedules/Gabriel, Characters/schedules/Zinnia, Strings/schedules/Zinnia",
+   			"FromFile": "data/empty.json"
+  		},
+
+	
+	
+    {
+        "Action": "EditData",
+        "Target": "Data/SpouseRooms",
+        "Entries": {
+            "Zinnia": "GESpouseRooms/0",
+	    "Gabriel": "GESpouseRooms/1"
+        }
+    },
+
+    
+    {
+    	"Action": "EditData",
+    	"Target": "Data/SpousePatios",
+    	"Entries": {
+    		"Zinnia": "GESpousePatios/0/24 24 24/0 0",
+		"Gabriel": "GESpousePatios/1/23 23 23/-5 2"
+    	}
+    },
+
+
+
+		{
+			"LogName": "Gabriel Reg Sprites",
+			"Action": "Load",
+			"Target": "Characters/Gabriel",
+			"FromFile": "assets/Characters/Gabriel.png"
+		},
+
+		{
+			"LogName": "Gabriel Beach Sprites",
+			"Action": "Load",
+			"Target": "Characters/Gabriel_Beach",
+			"FromFile": "assets/Characters/Gabriel_Beach.png"
+		},
+
+		{
+			"LogName": "Gabriel Reg Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Gabriel",
+			"FromFile": "assets/Portraits/Gabriel.png"
+		},
+
+		{
+			"LogName": "Gabriel Beach Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Gabriel_Beach",
+			"FromFile": "assets/Portraits/Gabriel_Beach.png"
+		},
+
+		{
+			"LogName": "Gabriel Dialogue",
+			"Action": "Include",
+			"FromFile": "data/NPCData/Gabriel/dialogue.json"
+		},
+
+		{
+            		"Action": "Include",
+			"FromFile": "data/NPCData/Gabriel/marriagedialogue.json"
+        	},
+
+		{
+            		"Action": "EditData",
+            		"Target": "Data/NPCGiftTastes",
+            		"Entries": {
+                		"Gabriel": "Uau, é isso que eu acho que é?! Isso é incrível, muito obrigado!/834 253 395 905 565 243 244/Oh, você está me dando isso? Obrigado! Parece ser bem legal./437 439 413 680 857 -15 156 879 -5 921 614 351 349 772 773/Oh... hum, obrigado, eu acho?/091 -6 724 904/Isso deveria me fazer feliz? Que presente horrível./225 226 148 162/Ah, obrigado @./-28 557 874 814/"
+            			}
+        	},
+
+       		{
+            		"Action": "EditData",
+            		"Target": "Data/EngagementDialogue",
+            		"Entries": {
+                		"Gabriel0": "Mal posso esperar para te chamar de minha esposa, @.$l",
+                		"Gabriel1": "Mudar para cá foi a melhor decisão da minha vida, desde que conheci você."
+            			}
+        	},
+
+		{
+            		"Action": "Include",
+            		"FromFile": "data/NPCData/Gabriel/schedule.json"
+        	},
+
+
+
+
+		{
+			"LogName": "Zinnia Reg Sprites",
+			"Action": "Load",
+			"Target": "Characters/Zinnia",
+			"FromFile": "assets/Characters/Zinnia.png"
+		},
+
+		{
+			"LogName": "Zinnia Beach Sprites",
+			"Action": "Load",
+			"Target": "Characters/Zinnia_Beach",
+			"FromFile": "assets/Characters/Zinnia_Beach.png"
+		},
+
+		{
+			"LogName": "Zinnia Reg Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Zinnia",
+			"FromFile": "assets/Portraits/Zinnia.png"
+		},
+
+		{
+			"LogName": "Zinnia Beach Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Zinnia_Beach",
+			"FromFile": "assets/Portraits/Zinnia_Beach.png"
+		},
+
+		{
+			"LogName": "Zinnia Dialogue",
+			"Action": "Include",
+			"FromFile": "data/NPCData/Zinnia/dialogue.json"
+		},
+
+		{
+            		"Action": "Include",
+			"FromFile": "data/NPCData/Zinnia/marriagedialogue.json"
+        	},
+
+		{
+            		"Action": "EditData",
+            		"Target": "Data/NPCGiftTastes",
+            		"Entries": {
+                		"Zinnia": "Para mim? Uauu, obrigado! eu realmente amo isso!/614 421 221 233 564 268 540/Ah, obrigado! Isso parece ótimo!/577 578 548 872/Oh, uhm, valeu.../80 330 852 346/Ai, credo! Por que você me deu essa coisa? Eu odeio isso!/446 148 225 226 162 286 287 288/Um presente para mim? Uau! É muito legal./378 380 384 386 848 158/"
+            		}
+        	},
+
+        	{
+            		"Action": "EditData",
+            		"Target": "Data/EngagementDialogue",
+            		"Entries": {
+                		"Zinnia0": "Mal posso esperar para passar o resto da minha vida com você, @.$l",
+                		"Zinnia1": "Espero que fiquemos juntos para sempre, @. Eu mal posso esperar para me casar com você.$1"
+            			}
+        	},
+
+		{
+            		"Action": "Include",
+            		"FromFile": "data/NPCData/Zinnia/schedule.json"
+        	},
+
+
+
+		{
+			"LogName": "Daniel Sprites",
+			"Action": "Load",
+			"Target": "Characters/Daniel",
+			"FromFile": "assets/Characters/Daniel.png"
+		},
+
+
+		{
+			"LogName": "Daniel Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Daniel",
+			"FromFile": "assets/Portraits/Daniel.png"
+		},
+
+		{
+			"LogName": "Daniel Map Tiles",
+			"Action": "Load",
+			"Target": "Maps/Daniel",
+			"FromFile": "assets/Maps/Daniel.png"
+		},
+
+
+
+		{
+			"LogName": "Daisy Sprites",
+			"Action": "Load",
+			"Target": "Characters/Daisy",
+			"FromFile": "assets/Characters/Daisy.png"
+		},
+
+
+		{
+			"LogName": "Daisy Portraits",
+			"Action": "Load",
+			"Target": "Portraits/Daisy",
+			"FromFile": "assets/Portraits/Daisy.png"
+		},
+
+
+
+		{
+            		"Action": "Load",
+            		"Action": "Include",
+			"FromFile": "data/animations.json"
+        	}
+
+]
+}

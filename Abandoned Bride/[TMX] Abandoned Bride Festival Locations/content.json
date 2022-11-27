@@ -1,0 +1,57 @@
+{
+  "name": "AB Festival Locations",
+  "version": "1.0.0", 
+  "author": "SYS",
+  "Conditions": "e 18050005",
+  "festivalSpots": 
+	[  
+		{
+		"name": "Aurelia",
+	    "map": "Town-EggFestival", 
+		"position": [27, 62],
+		"direction": 2
+		},
+		{
+		"name": "Aurelia",
+		"map": "Forest-FlowerFestival",
+		"position": [9, 21],
+		"direction": 2
+		},
+		{
+		"name": "Aurelia",
+	    "map": "Beach-Luau", 
+		"position": [35, 7],
+		"direction": 2
+		},
+		{
+		"name": "Aurelia",
+	    "map": "Beach-Jellies", 
+		"position": [14, 24],
+		"direction": 2
+		},
+		{
+		"name": "Aurelia",
+	    "map": "Town-Fair", 
+		"position": [23, 54],
+		"direction": 3
+		},
+		{
+		"name": "Aurelia",
+	    "map": "Town-Halloween", 
+		"position": [23, 67],
+		"direction": 1
+		},
+		{
+		"name": "Aurelia",
+	    "map": "Forest-IceFestival", 
+		"position": [73, 47],
+		"direction": 3
+		},
+		{
+		"name": "Aurelia",
+	    "map": "Town-Christmas", 
+		"position": [38, 60],
+		"direction": 1
+		}
+	]
+}

@@ -1,0 +1,54 @@
+﻿{
+  //ASTERISK WIP 2.1
+  //INTRODUCTION//
+  "Introduction": "Olá fazendeiro(a), sou Sadie.#$b#@, Hã? Bem, @, pronto para seu primeiro voo?$h#$b#Haha, estou só brincando com você.",
+
+  //INITIAL DIALOGUE (0 HEARTS)//
+  "Mon": "Um pergaminho dourado em outro idioma? Eu acho que poderia tentar.",
+  "Tue": "Tenho sorte de poder viajar como parte do meu trabalho.#$b#Por aqui, você tende a precisar passar por muitos obstáculos se quiser ter a chance de deixar sua pequena cidade.",
+  "Wed": "Como vão as coisas, @? Alguma coisa interessante aconteceu hoje?$h",
+  "Thu": "Fez algo divertido hoje?$h",
+  "Fri": "Faço um blog nas horas vagas quando encontro coisas interessantes nas minhas viagens.$h",
+  "Sat": "Isso é um peixe fresco que vejo na sua bolsa?",
+  "Sun": "Sabia que eu também era de uma cidade pequena.#$b#Todos da minha idade partiram. Então eu percebi que era hora de descobrir o que estava acontecendo.$h",
+
+
+  //2 HEART DIALOGUE//
+  "Mon2": "Se eu tivesse a chance de ir para o espaço, faria isso sem pensar! Não é?$h",
+  "Tue2": "Os criminosos por aqui são uma piada, mas eu continuo com minhas aulas de autodefesa de qualquer maneira. Elas são divertidas.#$b#Eles se autodenominam Zuzu Bruisers, um bando de doidos varridos, se você me perguntar.$h",
+  "Wed2": "O problema dos empregos é que todo mundo sempre quer que você continue fazendo a mesma coisa o dia todo, todos os dias. Bem eu me recuso.$h",
+  "Thu2": "Você está parecendo bem.$h",
+  "Fri2": "Em que tipo de lugares você já esteve? Devíamos trocar histórias algum dia.$h",
+  "Sat2": "Você já viu uma galinha beber meio litro? Só mais um dia no pub em casa.$h",
+  "Sun2": "Viu algum monstro recentemente? É tão legal quando você não precisa correr quando vê um.#$b#Eu adoraria fazer um vídeo sobre eles algum dia.$h",
+
+
+  //4 HEART DIALOGUE//
+  "Mon4": "Acho que seria bom ficar com meus pais por algum tempo. Acho que preciso de uma folga.",
+  "Tue4": "É muito difícil encontrar um bom artesanato porque todos sempre querem que as coisas sejam baratas.#$b#Todo o dinheiro que vai para Joja financia pequenas empresas.$s#$b#Como você se GERENCIA?",
+  // "Wed4": "",
+  "Thu4": "Qual é o seu lugar favorito para estar? Eu gosto da cidade e ficar viajando.$h#$b#Há tanto para aprender, como você pode fazer isso se ficar em um lugar só, por toda a vida?$s",
+  "Fri4": "Eu amo um bom prato de peixe.#$b#Tacos de atum são ótimos. Os pratos de peixe também têm os melhores condimentos.$h#$b#No avião é sempre batata... E nem cozinham direito!$a",
+  // "Sat4": "",
+  "Sun4": "Eu não sei você, mas é realmente estranho os hábitos que você pode pegar no seu trabalho.",
+
+
+  //6 HEART DIALOGUE//
+  "Mon6": "Oooh, amei sua camisa. Está parecendo exuberante.$h",
+  "Tue6": "Desenterrou algum artefato interessante recentemente? Fiquei muito surpresa com algumas das coisas que você conseguiu encontrar.$h#$b#Acontece que nem sempre você precisa viajar para ver algo novo.",
+  "Wed6": "Como você se relaciona com as pessoas da sua vida?#$b# Ouvi dizer que é mais fácil não se importar com o que as outras pessoas fazem quando você percebe que elas não são responsáveis ​​pela sua felicidade.#$b#Acho que é diferente com base em onde você está, como se eu não desse a mínima se alguém está chateado no trabalho. No trabalho. É como uma dança - há uma série de coisas que você precisa fazer e é isso.$a#$b#Mas se você mora com outras pessoas, sempre existe uma responsabilidade social entre todos.",
+  "Thu6": "Você conhece Gwen? Eu me preocupo com ela às vezes.$s#$b#Não tenho certeza se seria capaz de conseguir o tipo de trabalho em que ela se sentiria confortável.$s",
+  "Fri6": "Voltar para casa pode ser um pouco deprimente às vezes. Todo mundo faz as mesmas coisas todos os dias.$s#$b#Eu achei que eles estavam felizes, mas às vezes todos parecem impotentes ou chateados.$s",
+  "Sat6": "Sua fazenda parece muito interessante. Você gostaria de estar em um dos meus vídeos algum dia?$h",
+  "Sun6": "Espero embarcar em uma companhia aérea diferente em breve, para poder mudar um pouco os meus destinos.$h#$b#A maioria das agências de viagens não vai a muitos lugares diferentes.$s",
+
+
+  //8 HEART DIALOGUE//
+  "Mon8": "Olá, boa cozinha, e otima aparência, tem alguma coisa para mim hoje?$h",
+  "Tue8": "Às vezes, em trabalhos de prestação de serviços, as pessoas não entendem que é um trabalho.#$b#Bem... Acho que às vezes sou legal por hábito devido ao meu trabalho e porque sempre quero ser positivo no meu blog e nos meus vídeos.$h",
+  // "Wed8": "",
+  // "Thu8": "",
+  // "Fri8": "",
+  "Sat8": "Hahaha, você deveria ter saído ontem à noite! Cal estava dançando!$h",
+// "Sun8": "",
+}
