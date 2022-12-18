@@ -1,0 +1,23 @@
+{
+	"Name": "Mountain Whitefish",
+	"Description": "Despite reflecting light easily, it's quite hard to catch because of its agile and irregular movement.",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 155,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Willy"]
+	},
+
+    "NameLocalization":
+    { 
+    	"pt": "Peixe Branco da Montanha"
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "Apesar de refletir a luz com facilidade, é bastante difícil de pegar devido ao seu movimento ágil e irregular."
+    }
+}

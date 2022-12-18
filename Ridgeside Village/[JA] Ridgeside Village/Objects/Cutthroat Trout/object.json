@@ -1,0 +1,27 @@
+{
+	"Name": "Cutthroat Trout",
+	"Description": "The red patterns in its mouth make it look aggressive despite being docile.",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 70,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Willy"]
+	},
+
+    "NameLocalization":
+    { 
+      "pt": "Truta Degoladora"
+    },
+    "DescriptionLocalization":
+    {
+      "pt": "Os padrões vermelhos em sua boca fazem ela parecer agressiva apesar de ser dócil."
+    },
+    "CategoryLocalization":
+    {
+      "pt": "Peixe"
+    }
+}

@@ -1,0 +1,15 @@
+{
+"Name": "Juninja Shirt",
+"Description": "The design was inspired from a local rumor about a rolling fruit.",
+"HasFemaleVariant": false,
+"Price": 30000,
+
+"NameLocalization":
+{ 
+    "pt": "Camisa Juninja"
+},
+"DescriptionLocalization":
+{
+    "pt": "O design foi inspirado em um boato local sobre uma fruta rolante."
+}
+}

@@ -1,0 +1,22 @@
+{
+  "Name": "Tropi Ugli Fruit Tree",
+  "Product": "Tropi Ugli Fruit",
+  "SaplingName": "Tropi Ugli Fruit Sapling",
+  "SaplingDescription": "Takes 28 days to produce a mature Tropi Ugli Fruit tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+  "Season": "summer",
+  "SaplingPurchasePrice": 5000,
+  "SaplingPurchaseFrom": "STF.RSVKimpoiShop",
+
+  "NameLocalization": 
+  {
+    "pt": "Árvore de Tropical Ugli"
+  },
+  "SaplingNameLocalization":
+  {
+    "pt": "Muda de Tropical Ugli"
+  },
+  "SaplingDescriptionLocalization":
+  {
+    "pt": "Leva 28 dias para produzir uma árvore madura de tropical ugli. Pronta para colher no verão. Só cresce se os 8 espaços ao redor estiverem vazios."
+  }
+}

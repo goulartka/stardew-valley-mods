@@ -1,0 +1,23 @@
+{
+	"Name": "Waterfall Snakehead",
+	"Description": "Its snake-like head has adapted to be hard as a boulder due to the extreme force of waterfalls around its habitat. It's one of the legendary fishes of the ridge!",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 2100,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Willy"],
+	},
+
+    "NameLocalization":
+    { 
+    	"pt": "Cabeça-de-Cobra da Cachoeira"
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "Sua cabeça, que parece uma cobra, se adaptou para ser dura como uma pedra devido à força extrema das cachoeiras ao redor de seu habitat. É um dos peixes lendários do cume!"
+    }
+}

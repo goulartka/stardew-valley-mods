@@ -1,0 +1,14 @@
+{
+	"Name": "Moose Statue",
+    "Price": 500,
+	"Description": "Rumor has it that if you listen closely, you can hear a strange sound calling out 'Oo-Ba-Muh'.",
+	
+    "NameLocalization":
+    { 
+    	"pt": "Estátua de Alce"
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "Há rumores de que, se você ouvir atentamente, poderá ouvir um som estranho chamando 'Oo-Ba-Muh'."
+    }
+}

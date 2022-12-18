@@ -1,0 +1,15 @@
+{
+	"Name": "Old Lucky Foxtail Charm",
+	"Description": "A bracelet that used to belong to your grandmother.",
+    "Price": 1,
+    "CanSell": false,
+	
+    "NameLocalization":
+    { 
+        "pt": "Velho Amuleto da Sorte de Cauda de Raposa"
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Um bracelete que pertenceu à sua avó."
+    }
+}

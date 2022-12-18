@@ -1,0 +1,30 @@
+{
+	"Name": "Dusked Kunai",
+	"Description": "A specialized kunai used by the members of the Dusked Force. It has a flexible red string attached to its base.",
+	"Type": "dagger",
+	"PurchasePrice": 50000,
+	"MinimumDamage": 20,
+	"MaximumDamage": 200,
+	"Knockback": 0,
+	"Speed": 4,
+	"Accuracy": 60,
+	"Defense": 5,
+	"MineDropVar": 0,
+	"MineDropMinimumLevel": -1,
+	"ExtraSwingArea": -1,
+	"CritChance": 0.30,
+	"CritMultiplier": 2,
+
+    "NameLocalization":
+    { 
+    	"pt": "Kunai Crepuscular",
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "Uma kunai usada pelos membros da Força Crepuscular. Possui um cordão vermelho flexível preso à sua base.",
+	},
+	"TypeLocalization":
+	{
+		"pt": "Adaga",
+	}
+}

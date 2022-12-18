@@ -1,0 +1,28 @@
+{
+	"Name": "Pebble Back Crab",
+	"Description": "The pebbles adorning its back are collected by the fish while young, serving as defense and camouflage. Some accidentally collect gemstones, and thus are overhunted by humans.",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 150,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Ian"],
+        "Dislike": ["Ariah"]
+	},
+
+    "NameLocalization":
+    { 
+        "pt": "Caranguejo de Seixo"
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "As pedrinhas que adornam seu dorso são coletadas pelos peixes ainda jovens, servindo de defesa e camuflagem. Alguns acidentalmente coletam pedras preciosas e, portanto, são caçados por humanos."
+    },
+	"CategoryLocalization":
+	{
+		"pt": "Peixe"
+	}
+}

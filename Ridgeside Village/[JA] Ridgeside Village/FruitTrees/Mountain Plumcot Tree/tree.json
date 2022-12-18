@@ -1,0 +1,22 @@
+{
+  "Name": "Mountain Plumcot Tree",
+  "Product": "Mountain Plumcot",
+  "SaplingName": "Mountain Plumcot Sapling",
+  "SaplingDescription": "Takes 28 days to produce a mature Mountain Plumcot tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+  "Season": "spring",
+  "SaplingPurchasePrice": 5000,
+  "SaplingPurchaseFrom": "STF.RSVKimpoiShop",
+
+  "NameLocalization": 
+  {
+    "pt": "Árvore de Híbrido da Montanha"
+  },
+  "SaplingNameLocalization":
+  {
+    "pt": "Muda de Híbrido da Montanha"
+  },
+  "SaplingDescriptionLocalization":
+  {
+    "pt": "Leva 28 dias para produzir uma árvore madura de híbrido da montanha. Pronta para colher no outono. Só cresce se os 8 espaços ao redor estiverem vazios."
+  }
+}

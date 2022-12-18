@@ -1,0 +1,30 @@
+{
+	"Name": "Pale Wings",
+	"Description": "A bizarre looking weapon consisting of a short handle and five light and flexible blades. Its guard is adorned with green and red gems",
+	"Type": "sword",
+	"PurchasePrice": 50000,
+	"MinimumDamage": 80,
+	"MaximumDamage": 120,
+	"Knockback": 5.3,
+	"Speed": 3,
+	"Accuracy": 80,
+	"Defense": 10,
+	"MineDropVar": 0,
+	"MineDropMinimumLevel": -1,
+	"ExtraSwingArea": -1,
+	"CritChance": 0.40,
+	"CritMultiplier": 2,
+
+    "NameLocalization":
+    { 
+    	"pt": "Asas Pálidas",
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "Uma arma de aparência bizarra que consiste em um cabo curto e cinco lâminas leves e flexíveis. Sua guarda é adornada com gemas verdes e vermelhas",
+	},
+	"TypeLocalization":
+	{
+		"pt": "Espada",
+	}
+}

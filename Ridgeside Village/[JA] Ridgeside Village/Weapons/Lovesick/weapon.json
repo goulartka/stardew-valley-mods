@@ -1,0 +1,30 @@
+{
+	"Name": "Lovesick",
+	"Description": "A battle axe with a pink crystal in the shape of a heart embedded in distal handle.",
+	"Type": "club",
+	"PurchasePrice": 50000,
+	"MinimumDamage": 120,
+	"MaximumDamage": 180,
+	"Knockback": 3.3,
+	"Speed": 2,
+	"Accuracy": 50,
+	"Defense": 20,
+	"MineDropVar": 0,
+	"MineDropMinimumLevel": -1,
+	"ExtraSwingArea": -1,
+	"CritChance": 0.60,
+	"CritMultiplier": 2,
+
+    "NameLocalization":
+    { 
+        "pt": "Doente de amor",
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Um machado de batalha com um cristal rosa em forma de coração embutido na extremidade distal do cabo.",
+    },
+    "TypeLocalization":
+    {
+        "pt": "Clava",
+    }
+}

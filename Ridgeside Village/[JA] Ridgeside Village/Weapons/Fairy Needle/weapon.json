@@ -1,0 +1,30 @@
+{
+	"Name": "Fairy Needle",
+	"Description": "A whimsical weapon that makes you feel giddy inside.",
+	"Type": "sword",
+	"PurchasePrice": 50000,
+	"MinimumDamage": 80,
+	"MaximumDamage": 120,
+	"Knockback": 2,
+	"Speed": 1,
+	"Accuracy": 70,
+	"Defense": 30,
+	"MineDropVar": 0,
+	"MineDropMinimumLevel": -1,
+	"ExtraSwingArea": -1,
+	"CritChance": 0.30,
+	"CritMultiplier": 2,
+
+    "NameLocalization":
+    { 
+    	"pt": "Agulha das Fadas",
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "Uma arma extravagante que faz você se sentir tonto.",
+	},
+	"TypeLocalization":
+	{
+		"pt": "Espada",
+	}
+	}

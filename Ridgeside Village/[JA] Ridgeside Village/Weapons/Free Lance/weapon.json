@@ -1,0 +1,30 @@
+{
+	"Name": "Free Lance",
+	"Description": "It's bit unreliable due to how the weight is distributed. But it packs quite a punch!",
+	"Type": "dagger",
+	"PurchasePrice": 50000,
+	"MinimumDamage": 120,
+	"MaximumDamage": 180,
+	"Knockback": 5.3,
+	"Speed": 2,
+	"Accuracy": 50,
+	"Defense": 20,
+	"MineDropVar": 0,
+	"MineDropMinimumLevel": -1,
+	"ExtraSwingArea": 5,
+	"CritChance": 0.50,
+	"CritMultiplier": 2,
+
+    "NameLocalization":
+    { 
+    	"pt": "Autônomo",
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "É pouco confiável devido à forma como o peso é distribuído. Mas tem um impacto e tanto!",
+	},
+	"TypeLocalization":
+	{
+		"pt": "Adaga",
+	}
+}

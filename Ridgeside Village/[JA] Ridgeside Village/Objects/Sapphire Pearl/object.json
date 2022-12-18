@@ -1,0 +1,14 @@
+{
+	"Name": "Sapphire Pearl",
+    "Price": 500,
+	"Description": "An ancient relic of the ridge. It's a unique amalgamation of a sapphire gem and a pearl.",
+	
+    "NameLocalization":
+    { 
+    	"pt": "Pérola Safira"
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "Uma relíquia antiga do cume. É uma amalgamação única de uma gema de safira e uma pérola."
+    }
+}

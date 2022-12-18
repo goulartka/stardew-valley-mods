@@ -1,0 +1,26 @@
+{
+  "Name": "Desert Tangelo",
+  "Description": "A seedless hybrid of tangerine and grapefruit that looks like it has been sun-kissed in the desert.",
+  "Category": "Fruit",
+  "Edibility": 22,
+  "Price": 165,
+  "IsColored": false,
+  "GiftTastes":
+  {
+  "Love": ["Zayne", "Paula", "Kiarra"],
+  "Like": ["Faye", "Bryle", "Sean"]
+  },
+
+  "NameLocalization":
+  { 
+    "pt": "Tangelo do Deserto"
+  },
+  "DescriptionLocalization":
+  {
+    "pt": "Um híbrido sem sementes de tangerina e toranja que parece ter sido beijado pelo sol no deserto."
+  },
+  "CategoryLocalization":
+  {
+    "pt": "Fruta"
+  }
+}

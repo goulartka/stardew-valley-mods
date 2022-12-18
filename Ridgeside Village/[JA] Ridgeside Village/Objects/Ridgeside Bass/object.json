@@ -1,0 +1,19 @@
+{
+	"Name": "Ridgeside Bass",
+	"Description": "A mountain fish native to Ridgeside Village.",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 70,
+	"IsColored": false,
+
+    "NameLocalization":
+    { 
+    	"pt": "Robalo de Ridgeside"
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "Um peixe da montanha nativo de Ridgeside Village."
+    }
+}

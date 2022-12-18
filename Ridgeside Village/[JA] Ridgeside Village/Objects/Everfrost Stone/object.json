@@ -1,0 +1,14 @@
+{
+	"Name": "Everfrost Stone",
+    "Price": 500,
+	"Description": "The stone is cold to the touch! One could get frostbitten fingers just by holding unto this for so long.",
+	
+    "NameLocalization":
+    { 
+      "pt": "Pedra do Gelo Eterno"
+    },
+    "DescriptionLocalization":
+    {
+      "pt": "A pedra é fria ao toque! Alguém poderia ficar com os dedos congelados apenas por segurar isso por algum tempo."
+    }
+}

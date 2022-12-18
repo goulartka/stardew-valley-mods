@@ -1,0 +1,13 @@
+{
+	"Name": "Yuuma's Ring",
+	"Description": "Yuuma's ring! He must have lost it.",
+	
+    "NameLocalization":
+    { 
+        "pt": "Anel do Yuuma"
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "O Anel do Yuuma! Ele deve ter perdido."
+    }
+}

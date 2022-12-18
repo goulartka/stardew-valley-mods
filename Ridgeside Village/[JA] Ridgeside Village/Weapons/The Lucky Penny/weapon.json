@@ -1,0 +1,30 @@
+{
+	"Name": "The Lucky Penny",
+	"Description": "Rumor has it the blade was smelted from several proclaimed 'lucky' pennies from different people. If that were the case, who was motivated to steal so many of these pennies to make a dagger?",
+	"Type": "dagger",
+	"PurchasePrice": 50000,
+	"MinimumDamage": 110,
+	"MaximumDamage": 140,
+	"Knockback": 0.9,
+	"Speed": 20,
+	"Accuracy": 100,
+	"Defense": 10,
+	"MineDropVar": 0,
+	"MineDropMinimumLevel": -1,
+	"ExtraSwingArea": -1,
+	"CritChance": 0.30,
+	"CritMultiplier": 4,
+
+    "NameLocalization":
+    { 
+        "pt": "A Moeda da Sorte",
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Rumores dizem que a lâmina foi fundida a partir de vários centavos da 'sorte' de pessoas diferentes. Mas se esse fosse o caso, quem foi motivado a roubar tantos centavos para fazer uma adaga?",
+    },
+	"TypeLocalization":
+	{
+		"pt": "Adaga",
+	}
+}

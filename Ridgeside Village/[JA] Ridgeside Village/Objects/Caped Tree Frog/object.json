@@ -1,0 +1,27 @@
+{
+	"Name": "Caped Tree Frog",
+	"Description": "The red pattern that covers its neck and back looks like a cape. When leaping, it tucks one arm in while extending the other. Its rarity caused it to become a valuable pet among collectors.",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 200,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Philip"]
+	},
+
+    "NameLocalization":
+    { 
+        "pt": "Rã Arborícola de Capa Vermelha"
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "O padrão vermelho que cobre suas costas e seu pescoço, parece uma capa. Quando pula, dobra um dos braços enquanto estende o outro. Sua raridade fez com que se tornasse um valioso animal de estimação entre os colecionadores."
+    },
+	"CategoryLocalization":
+	{
+		"pt": "Peixe"
+	}
+}

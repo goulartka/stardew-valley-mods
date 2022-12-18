@@ -1,0 +1,14 @@
+{
+	"Name": "Village Hero Sculpture",
+    "Price": 500,
+	"Description": "A vaguely familiar figure. This relic is covered in moss yet the material that makes up the object doesn't show signs of breaking.",
+	
+    "NameLocalization":
+    { 
+    	"pt": "Escultura do Herói da Vila"
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "Uma figura vagamente familiar. Esta relíquia está coberta de musgo, mas o material que compõe o objeto não mostra sinais de quebra."
+    }
+}

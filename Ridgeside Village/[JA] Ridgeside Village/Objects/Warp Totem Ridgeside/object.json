@@ -1,0 +1,35 @@
+{
+	"Name": "Warp Totem: Ridgeside",
+  "Price": 20,
+	"Description": "Warp directly to Ridgeside Village. Consumed on use.",
+	"Category": "Crafting",
+	"CanPurchase": false,
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 709,
+            "Count": 2,
+        },
+        {
+            "Object": "Mountain Mistbloom",
+            "Count": 1,
+        },
+        {
+            "Object": "Spiritual Essence",
+            "Count": 10,
+        },
+        ],
+        "CanPurchase": false,
+    },
+
+    "NameLocalization":
+    { 
+        "pt": "Totem de Teletransporte: Ridgeside"
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Teletransporte direto para Ridgeside. Consumido ao usar."
+    }
+}

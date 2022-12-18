@@ -1,0 +1,23 @@
+{
+	"Name": "Sockeye Salmon",
+	"Description": "The sought after legendary fish of Ridgeside Village! It's docile and likes to eat cherries!",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 1800,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Willy"],
+	},
+
+    "NameLocalization":
+    { 
+    	"pt": "Salmão Vermelho"
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "O procurado peixe lendário de Ridgeside Village! É dócil e gosta de comer cerejas!"
+    }
+}

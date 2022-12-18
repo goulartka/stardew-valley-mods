@@ -1,0 +1,4 @@
+RSV 2.2.3 Hotfix 1
+------------------------------------------------------
+Bug fix for "Open the Portal" quest
+Need to have spoken to Yuuma at least once to get minecart quest

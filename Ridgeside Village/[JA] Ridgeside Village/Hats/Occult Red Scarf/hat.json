@@ -1,0 +1,16 @@
+{
+"Name":"Occult Red Scarf",
+"Description": "A crimson red scarf worn by servants of the Lady with the Red Tail.",
+"PurchasePrice":10000,
+"ShowHair":true,
+"IgnoreHairstyleOffset":false,
+
+    "NameLocalization":
+    { 
+        "pt": "Lenço Vermelho Oculto"
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Um Lenço vermelho carmesim usado pelos servos da Senhora com a cauda vermelha."
+    }
+}

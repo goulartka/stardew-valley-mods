@@ -1,0 +1,23 @@
+{
+	"Name": "Lullaby Carp",
+	"Description": "A scientific mystery. When left alone, this fish produces soothing tunes, yet it does not possess any internal system that would allow it to 'sing'.",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 270,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Alissa"]
+	},
+
+    "NameLocalization":
+    { 
+        "pt": "Carpa Canção de Ninar"
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Um mistério científico. Quando deixado sozinho, este peixe produz melodias suaves, mas não possui nenhum sistema interno que lhe permita 'cantar'."
+    }
+}

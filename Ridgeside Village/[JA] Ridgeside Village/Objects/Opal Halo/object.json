@@ -1,0 +1,14 @@
+{
+	"Name": "Opal Halo",
+    "Price": 500,
+	"Description": "An ancient headgear with embedded opal stones. There's a carving of an angel in the side.",
+	
+    "NameLocalization":
+    { 
+    	"pt": "Auréola Opala"
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "Um capacete antigo com pedras de opala embutidas. Tem uma gravura de um anjo na lateral."
+    }
+}

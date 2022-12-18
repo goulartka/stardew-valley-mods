@@ -1,0 +1,63 @@
+{
+/*Info:
+-------------RSV Recipes by NPCs-------------
+  Clementine Cake - Shanice
+  Crunchy Bagel - Paula
+  Fluffy Apple Crumble - Blair
+  Forage Souffle - Lorenzo
+  Forest Halva - Louie
+  Highland Blueberry Pie - Malaya
+  Highland Revani - Sonny
+  Holiday Ice - Sean
+  Jumpy Coffee Cake - Kiarra
+  Pumpkin Darling Slice - Kimpoi
+  Ridge Apple Cake - Carmen
+  Ridge Mosaic Cake - Naomi
+  Strawberry Lover Pie - Irene
+  Sweet Cranberry Cheesecake - Faye
+  Tropic Mango Cake - Maive
+*/
+
+    //Titles
+        "shanice.recipe.title": "Receita de Bolo de Clementina",
+        "paula.recipe.title": "Deleite Crocante da Paula",
+        "blair.recipe.title": "Divertido e Macio Crumble de Maçã!",
+        "lorenzo.recipe.title": "Especialidade do Lorenzo",
+        "louie.recipe.title": "Um Gosto Barato",
+        "malaya.recipe.title": "A Melhor Torta do Padeiro",
+        "sonny.recipe.title": "Deleite Leal",
+        "sean.recipe.title": "Deleite Legal e Colorido",
+        "kiarra.recipe.title": "Bolo Energético!",
+        "kimpoi.recipe.title": "O Favorito dos Estóicos",
+        "carmen.recipe.title": "A Receita Herdada de Carmen!",
+        "naomi.recipe.title": "Bolo Mosaico de Naomi",
+        "irene.recipe.title": "Deleite de um Romântico Perdido!",
+        "maive.recipe.title": "Um Deleite Exótiico",
+
+        "lola.so.title": "A Gratidão de um Assassino",
+        "ezekiel.so.title": "Um Presente de Veterano",
+        "olga.so.title": "Acordo de Debate de Café ou Chá",
+        "aguar.so.title": "O Totem do Cume",
+
+    //Texts
+        "shanice.recipe.text": "Caro @,^Encontrei uma receita antiga de um dos meus bolos favoritos! Se você fizer um, não se esqueça de mim. Ok? Espero que goste. ^^- Shanice Legame",
+        "paula.recipe.text": "Caro @,^Notei que sua energia está bem baixa. Em anexo está uma cópia da minha receita de bagel crocante, que lhe dê a energia necessária para a sua viagem à vila.^^- Paula Faheem",
+        "blair.recipe.text": "Olá, @!^Estou compartilhando com você minha receita premiada para uma torta de maçã incrivelmente deliciosa! É muito deliciosa! Divirta-se comendo depois, e talvez até me dê um pouco? Haha, brincando!^^- Blair Rivera",
+        "lorenzo.recipe.text": "Caro @,^Ciao! Achei que poderia enviar uma cópia de um dos meus pratos favoritos para você. Divirta-se cozinhando! ^^- Lorenzo Legame",
+        "louie.recipe.text": "A quem possa interessar, encontrei uma cópia extra da receita de um prato requintado que gosto. Ouvi dizer que você sabe cozinhar, então desafio você a trazer um desses para mim. Isso é tudo.^^- Louie Amethyne",
+        "malaya.recipe.text": "Caro @,^Bom dia para você, meu bem! Gostaria de enviar uma das minhas receitas favoritas. Você tem sido uma companhia tão adorável que eu realmente quero mostrar meu apreço. Divirta-se assando!^^- Malaya Liden",
+        "sonny.recipe.text": "Caro @,^Encontrei recentemente a receita de um dos meus doces de infância. Eu pensei que poderia enviá-lo para você esperando que você pudesse apreciá-lo.^^Divirta-se, Sonny Ong.",
+        "sean.recipe.text": "Heya, @!^Aqui está uma receita divertida para um deleite frio! espero que você goste!^^- Sean",
+        "kiarra.recipe.text": "Aoba @!^Ciao! Anexei a receita do meu prato de pastelaria favorito a esta carta. É um prato muito divertido de fazer e muito fácil também! Você definitivamente deve experimentá-lo em breve.^^- Kiarra Legame",
+        "kimpoi.recipe.text": "@,^Obrigado por ser um dos meus bons amigos. Aqui está uma das minhas receitas favoritas de panificação. Espero que você goste.^^- Kimpoi Liden",
+        "carmen.recipe.text": "Buenos Dias, @!^Tenho aqui uma receita que foi passada para a minha família por gerações. Que você crie memórias maravilhosas com sua família como eu.^^- Carmen Rivera",
+        "naomi.recipe.text": "Caro @,^Saudações! Espero que você esteja indo bem. Anexei a receita de um prato de massa fina nesta carta esperando que você ache interessante.^^ Felicidades, Naomi.",
+        "irene.recipe.text": "Saudações, @!^Tenho aqui uma receita que aprendi na romântica cidade de Princessville. Você pode usar isso para prender seu amor. Como se costuma dizer, o melhor caminho para o coração de um ente querido é através do estômago.^^Boa sorte em sua busca pelo amor,^Irene de Pilar",
+        "faye.recipe.text": "Caro @,^Olá! Enviei uma receita adorável para um dos meus pratos de pastelaria favoritos. Traga-me alguns se você já teve a chance, ok?^^A adorável Faye Yojeong",
+        "maive.recipe.text": "Endereçado a: @^De: Mansão Amethyne.^^Uma receita para um prato exótico de pastelaria está anexada a esta carta. O prato é uma das iguarias das Ilhas Brasa, uma região distante popular por suas comodidades tropicais, atrações e pratos. Suponho que você possa fazer uso disso e potencialmente usá-lo para seu próprio ganho.^^Felicidades,^Maive Amethyne",
+
+        "LolaSOLetter.text": "@,^Muito obrigada por sua ajuda com os anéis, meu bem. Que tal uma pequena troca? Isso aqui esteve guardado na minha caixa de joias desde sempre, de qualquer maneira. Espero que possa ser de alguma utilidade para você.^^- Lola",
+        "EzekielSOLetter.text": "@,^Bem, obrigado novamente por esse artefato. Achei que você me traria alguma porcaria velha empoeirada, mas na verdade está em condições quase perfeitas... Então, pegue uma porcaria velha empoeirada minha! Agora que estou aposentado, você provavelmente precisa mais deles de qualquer maneira.^^- Ezequiel^^P.S. Se você jogá-los fora, eu saberei...",
+        "OlgaSOLetter.text": "Caro @,^Usando os ingredientes que você me deu, resolvi o debate do chá e do café de uma vez por todas, e o vencedor é... ambos! Enviando a receita para você experimentar.^^-Olga^P.S. Minha cunhada disse que vai roubar essa receita pra loja dela também!",
+        "AguarSOLetter.text": "@,^Excelente trabalho sobre os geodos. Estes são claramente espécimes de alta qualidade. Caso eu precise de sua ajuda novamente, acho melhor que você tenha uma maneira mais rápida de chegar à vila. Talvez isso sirva.^^- Aguar^P.S. Você não aprendeu isso comigo...",
+}

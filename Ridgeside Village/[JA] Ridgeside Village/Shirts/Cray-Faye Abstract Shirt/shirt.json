@@ -1,0 +1,15 @@
+{
+"Name": "Cray-Faye Abstract Shirt",
+"Description": "Faye's loose and fun secret project.",
+"HasFemaleVariant": true,
+"Price": 30000,
+
+    "NameLocalization":
+    { 
+        "pt": "Camisa Abstrata Cray-Faye"
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "O projeto secreto solto e divertido de Faye."
+    }
+}

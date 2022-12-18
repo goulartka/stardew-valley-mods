@@ -1,0 +1,28 @@
+{
+	"Name": "Crimson Spiked Clam",
+	"Description": "An endangered species of clam, covered with sharp red spikes. Fetches a mighty high price due to the ruby-like pearls it creates.",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 320,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Flor"],
+        "Hate": ["Ariah"]
+	},
+
+    "NameLocalization":
+    { 
+        "pt": "Molusco Espinhudo Carmesim"
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Uma espécie de molusco que está ameaçada, coberto com espinhos vermelhos afiados. Obtém um preço muito alto devido às pérolas criadas que são semelhantes a Rubi."
+    },
+	"CategoryLocalization":
+	{
+		"pt": "Peixe"
+	}
+}

@@ -1,0 +1,20 @@
+﻿{
+    "Name": "The Beautiful Serpent's Ring",
+    "Description": "Summons a soul from the Spirit Realm to your side.",
+    "Category": "Ring",
+    "Edibility": -300,
+    "Price": 15000,
+    "CanPurchase": false,
+    "Recipe": null,
+    "Companions": {
+      "RingSpirit": {"NumberToSummon": 1}
+    },
+    "NameLocalization":
+    { 
+        "pt": "O Lindo Anel da Serpente"
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Invoca um espírito do Reino dos Espíritos para o seu lado."
+    }
+}

@@ -1,0 +1,28 @@
+{
+	"Name": "Harvester Trout",
+	"Description": "It got its name for 'harvesting' crops and plants that grow near water. This destructive behavior has led to this fish being regarded as a pest. Despite this, it remains popular due to its tender, oily meat.",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 180,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Jeric"],
+        "Dislike": ["Ariah"]
+	},
+
+    "NameLocalization":
+    { 
+        "pt": "Truta Colhedora"
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Ela tem esse nome por 'colher' as safras e plantas que crescem perto da água. Este comportamento destrutivo fez com que este peixe fosse considerado uma praga. Apesar disso, permanece popular por causa de sua carne macia e oleosa."
+    },
+	"CategoryLocalization":
+	{
+		"pt": "Peixe"
+    }
+}

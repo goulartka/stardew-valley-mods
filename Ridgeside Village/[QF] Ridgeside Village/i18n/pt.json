@@ -1,0 +1,217 @@
+{
+	//Trigger quests
+
+	"bert_honey.title": "Marido em Pânico",
+	"bert_honey.description": "Olga está brava comigo, mas eu sei como fazê-la feliz! Eu preciso de um pouco de mel para meu coelhinho.",
+	"bert_honey.objective": "Traga mel para Bert",
+	"bert_honey.reactiontext": "Você trouxe! Muito obrigado! Espero que ela me perdoe!$h",
+
+	"trinnie_sunflower.title": "Princesa Girassol",
+	"trinnie_sunflower.description": "Trinnie precisa de girassóis para o vestido floral que ela está tentando fazer para se tornar a Princesa girassol!",
+	"trinnie_sunflower.objective": "Traga 10 girassóis para Trinnie.",
+	"trinnie_sunflower.rewardDesc": "2000 ouros do meu Papai",
+	"trinnie_sunflower.reactiontext": "As flores estão aqui! Estou tão feliz!! Muito obrigada, @!!$h",
+
+	"keahi_slime.title": "O Rei das Gosmas",
+	"keahi_slime.description": "Keahi quer coletar Gosma como um novo hobby. Não diga a seu pai.",
+	"keahi_slime.objective": "Traga 10 Gosmas para Keahi",
+	"keahi_slime.reactiontext": "Estes são incrivelmente pegajosos. É nojento! Mas também INCRÍVEL!? Obrigado! Agora sou o Rei das Gosmas!$4",
+
+	"yuuma_ring.title": "Anel Perdido de Yuuma",
+	"yuuma_ring.description": "Yuuma perdeu seu anel. Ele se lembra de ainda ter o anel quando estava comprando coisas da fazenda de Jeric.",
+	"yuuma_ring.objective": "Encontre o Anel de Yuuma e traga-o de volta para ele",
+	"yuuma_ring.reactiontext": "Você achou!? Muito obrigado, @! Estou muito grato!$h",
+
+	"olga_tuna.title": "Desejo de Atum",
+	"olga_tuna.description": "Os Lidens estão desejando Atum. Eles pediram para você entregar um para eles. Leve o atum para Olga.",
+    "Objective": "Entregue um Atum para Olga",
+	"olga_tuna.objective": "Entregue um Atum para Olga",
+	"olga_tuna.reactiontext": "Hey, você entregou! É fresco também! Ótimo trabalho @!$h",
+
+	"aguar_essence.title": "Experimento Vazio",
+	"aguar_essence.description": "O Sr. Aguar requer algumas essências nulas para seu experimento.",
+	"aguar_essence.objective": "Entregue 10 Essências Nulas ao Sr. Aguar",
+	"aguar_essence.reactiontext": "Trabalho maravilhoso, @. Aqui está o meu pagamento. Agora, se me der licença...",
+
+	"freddie_sword.title": "Um Velho Amigo",
+	"freddie_sword.description": "Freddie perdeu uma velha espada dele enquanto passeava pela aldeia. Ele se lembra de estar ao lado de uma cachoeira.",
+	"freddie_sword.objective": "Encontre a Espada de Freddie e traga-a de volta para ele",
+	"freddie_sword.reactiontext": "Aí está você, velho amigo. Obrigado, @!$h",
+
+	"pika_mayonnaise.title": "Surpresa de Maionese",
+	"pika_mayonnaise.description": "Pika precisa de maionese para sua nova receita e ele pediu que você entregasse uma para ele.",
+	"pika_mayonnaise.objective": "Entregue uma Maionese para Pika",
+	"pika_mayonnaise.reactiontext": "Mahalo, @! Obrigado! Isso é maionese de qualidade! Aqui está seu pagamento, como prometido!$h",
+
+	"richard_glasses.title": "Óculos Extraviados",
+	"richard_glasses.description": "Richard perdeu os óculos! A única coisa que ele se lembra é que ele não saiu do hotel o dia todo.",
+	"richard_glasses.objective": "Encontre os Óculos de Richard e devolva-os a ele",
+	"richard_glasses.reactiontext": "Você os encontrou? Ah! Sou eternamente grato, @!$h",
+
+	//Board Quests
+	"aguar_gem.title": "Missão Água-marinha",
+	"aguar_gem.description": "Estou precisando de uma Água-marinha. Garanto que pagarei bastante se você me fornecer o que desejo.\n        -Sr. Aguar.\n\n- 400 ouros na entrega.\n- O Sr. Aguar ficará agradecido.",
+	"aguar_gem.objective": "Entregue uma Água-marinha para o Sr. Aguar",
+	"aguar_gem.reactiontext": "Isso é adequado. Aqui está seu pagamento. Agora, se me der licença...",
+
+	"aguar_fairystone.title": "Missão da Pedra de Fada",
+	"aguar_fairystone.description": "Estou precisando de uma Pedra de Fada. Garantirei que pagarei bastante se você me fornecer o que desejo.\n        -Sr. Aguar.\n\n- 500 ouros na entrega.\n- O Sr. Aguar ficará agradecido.",
+	"aguar_fairystone.objective": "Entregue uma Pedra de Fada para o Sr. Aguar",
+	"aguar_fairystone.reactiontext": "Isso é adequado. Aqui está seu pagamento. Agora, se me der licença...",
+
+	"bert_orange.title": "Bert o Homem Laranja",
+	"bert_orange.description": "Eu quero começar um negócio de suco de laranja! Preciso de alguém para me fornecer algumas laranjas... Pelo menos 3 delas!\n        -Bert.\n\n- 900 ouros na entrega.\n- Bert ficará agradecido.",
+	"bert_orange.objective": "Entregue 3 Laranjas para Bert",
+	"bert_orange.reactiontext": "Está feliz por eu não ter pedido bananas? Muitíssimo obrigado, @!",
+
+	"ezekiel_cavecarrot.title": "Um Sabor Nostálgico",
+	"ezekiel_cavecarrot.description": "Já faz muito tempo desde que provei uma Cenoura Subterrânea. Se alguém me trouxer alguma, darei algumas moedas.\n        -Ezekiel.\n\n- 200 ouros na entrega.\n- Ezekiel ficará agradecido.",
+	"ezekiel_cavecarrot.objective": "Entregue uma Cenoura Subterrânea para Ezequiel",
+	"ezekiel_cavecarrot.reactiontext": "Urgh, isso tem um gosto nojento! Acho que não quero mais isso.$a",
+
+	"freddie_shadowbrute.title": "Sombras Brutais",
+	"freddie_shadowbrute.description": "Os brutos das sombras são animais selvagens perigosos. Mate alguns Brutos das Sombras para trazer paz ao vale. Vá em frente, jovem aventureiro(a)\n        -Freddie.\n\n- 3000 ouros na conclusão.",
+	"freddie_shadowbrute.objective": "Mate 10 Brutos das Sombras",
+
+	"freddie_pepperrex.title": "Um Hobby Maravilhoso",
+	"freddie_pepperrex.description": "Alguém já ouviu falar da Pimenta Rex? Eles são muito divertidos de caçar! Desafio qualquer um a matar 10 deles e vou recompensá-lo generosamente. Boa sorte!.\n        -Freddie.\n\n- 4000 ouros na conclusão.",
+	"freddie_pepperrex.objective": "Mate 10 Pimenta Rex",
+
+	"keahi_tomato.title": "Toe May Toe",
+	"keahi_tomato.description": "Alguém pode me trazer um tomate grande e suculento? É para um projeto secreto.\n        -Keahi.\n\n- 200 ouros na entrega.\n- Keahi ficará agradecido.\n- Keahi vai poupá-lo.",
+	"keahi_tomato.objective": "Entregue um Tomate para Keahi",
+	"keahi_tomato.reactiontext": "É perfeito, @! Isso vai ser épico!$h",
+
+	"keahi_bomb.title": "Uma Brincadeira Inofensiva",
+	"keahi_bomb.description": "Então... meu pai não vai me comprar uma bomba. Então eu postei isso! Se alguém tiver um, traga um para mim e eu pagarei com minhas economias! Rápido! Antes de removerem isso de novo!\n        -Keahi.\n\n- 1000 ouros na entrega.\n- Keahi ficará agradecido.\n- Os cidadãos ficarão preocupados.",
+	"keahi_bomb.objective": "Entregue uma Bomba para Keahi",
+	"keahi_bomb.reactiontext": "Ninguém viu você, certo? Incrível! Obrigado de novo! Até logo, @!$h",
+
+	"lenny_eggplant.title": "Salada Saudável",
+	"lenny_eggplant.description": "Eu vi esta receita intrigante para uma salada de berinjela e requer uma berinjela. Traga-me uma berinjela. Eu vou pagar!\n        -Lenny.\n\n- 200 ouros na entrega.\n- Lenny ficará agradecida.",
+	"lenny_eggplant.objective": "Entregue uma Berinjela para Lenny",
+	"lenny_eggplant.reactiontext": "Finalmente chegou! Muito obrigado, @! Eu vou ter um jantar saudável hoje à noite!$h",
+
+	"lenny_wine.title": "Aliviador de Estresse",
+	"lenny_wine.description": "Alguém pode me trazer um pouco de vinho? Eu preciso desestressar. Não posso prometer que não vou terminar a garrafa inteira em uma noite.\n        -Lenny.\n\n- 1000 ouros na entrega.\n- Lenny ficará agradecida.",
+	"lenny_wine.objective": "Entregue um Vinho para Lenny",
+	"lenny_wine.reactiontext": "Ah! Eu tenho saudades disso! Obrigada, @.",
+
+	"lola_hauntedskull.title": "O Melhor dos Melhores",
+	"lola_hauntedskull.description": "Alguém está pronto para um desafio? Pagarei generosamente se você conseguir matar 20 Caveiras Assombradas. Seja um querido e mate alguns por mim.\n        -Lola.\n\n- 10000 ouros na conclusão.",
+	"lola_hauntedskull.objective": "Mate 20 Caveiras Assombradas",
+
+	"lola_slime.title": "Caçador(a) de Gosma",
+	"lola_slime.description": "Estou farta de todas essas gosmas pegajosas. Mate algumas Gosmas Verdes para mim, querido(a). Eu vou pagar.\n        -Lola.\n\n- 750 ouros na conclusão.",
+	"lola_slime.objective": "Mate 10 Gosmas Verdes",
+
+	"olga_coffee.title": "Xícara de Café",
+	"olga_coffee.description": "Acho que vou tentar um pouco de café. Estou ficando um pouco enjoada de tomar chá o dia todo. Eu vou pagar.\n        -Olga.\n\n- 250 ouros na entrega.\n- Olga ficará agradecida.",
+	"olga_coffee.objective": "Entregue Café para Olga",
+	"olga_coffee.reactiontext": "Obrigada, @! Isso é muito melhor do que chá!",
+
+	"pika_cheese.title": "Memória Fedorenta",
+	"pika_cheese.description": "Preciso de um pouco de queijo para fazer um prato de infância. Quero que meu filho experimente o prato que me fez se apaixonar pela culinária.\n        -Pika.\n\n- 800 ouros na entrega.\n- Pika ficará agradecido.",
+	"pika_cheese.objective": "Entregue um Queijo para Pika",
+	"pika_cheese.reactiontext": "Mahalo! Obrigado! Mal posso esperar para começar a cozinhar!$h",
+
+	"pika_starfruit.title": "Prato da Ilha das Brasas",
+	"pika_starfruit.description": "Já faz algum tempo que sinto falta de um certo prato da Ilha das Brasas. Eu preciso de um pouco de Carambola, no entanto. Se alguém puder me trazer um, ficarei muito grato.\n        -Pika.\n\n- 2000 ouros na entrega.\n- Pika ficará agradecido.",
+	"pika_starfruit.objective": "Entregue uma Carambola para Pika",
+	"pika_starfruit.reactiontext": "Mahalo! Obrigado! Estive procurando por isso em todos os lugares! Agradeço novamente, @!$h",
+
+	"richard_caviar.title": "Culinária Cara",
+	"richard_caviar.description": "Estou planejando adicionar mais alguns pratos ao menu do serviço de quarto do hotel. Um dos convidados sugeriu Caviar. Traga-me um pouco. Vou pagar generosamente.\n        -Richard.\n\n- 3000 ouros na entrega.\n- Richard ficará agradecido.",
+	"richard_caviar.objective": "Entregue um Caviar para Richard",
+	"richard_caviar.reactiontext": "Este é um caviar de boa qualidade, @! Estou extremamente grato.$h",
+
+	"richard_bat.title": "Drats, bats!",
+	"richard_bat.description": "Os morcegos estão rondando o hotel à noite ultimamente! Eles são assustadores! Preciso de alguém para matar vários deles nas minas para que parem de voar.\n        -Richard.\n\n- 1000 ouros na conclusão.\n- Richard ficará agradecido.",
+	"richard_bat.objective": "Mate 20 Morcegos",
+
+	"trinnie_pinkcake.title": "Sonho Rosa",
+	"trinnie_pinkcake.description": "Então eu tive esse sonho noite passada onde eu estava morando em um castelo ENORME, era feito de bolo ... E era ROSA! Aí acordei e agora quero comer Bolo Rosa! Papai me deu dinheiro para pagar a entrega!\n        -Trinnie.\n\n- 600 ouros na entrega.\n- Trinnie ficará agradecida.",
+	"trinnie_pinkcake.objective": "Entregue um Bolo Rosa para Trinnie",
+	"trinnie_pinkcake.reactiontext": "Uhul! Está aqui! Muito obrigada, @! Aqui está o dinheiro!$h",
+
+	"trinnie_poppy.title": "Desenho de Papoula",
+	"trinnie_poppy.description": "Eu preciso de uma flor de papoula! Estou tendo dificuldade em desenhar um! Alguém POR FAVOR me traga um! Obrigada!\n        -Trinnie.\n\n- 400 ouros na entrega.\n- Trinnie ficará agradecida.",
+	"trinnie_poppy.objective": "Entregue uma Papoula para Trinnie",
+	"trinnie_poppy.reactiontext": "Oh! Parece lindo! Obrigada, @! Vou começar a desenhar o mais rápido possível!$h",
+
+	"yuuma_burger.title": "Um Desejo de Criança",
+	"yuuma_burger.description": "Tudo bem se ninguém aceitar isso. Mas se alguém puder, eu só quero provar um Hambúrguer de Sobrevivência de novo, já faz muito tempo que eu não comi um. Mas sim ... Não é grande coisa. Obrigada.\n        -Yuuma.\n\n- 300 ouros na entrega.\n- Yuuma ficará agradecido.",
+	"yuuma_burger.objective": "Entregue um Hambúrguer de Sobrevivência para Yuuma",
+	"yuuma_burger.reactiontext": "Eu queria isso há tanto tempo! Muito obrigado, @!$h",
+
+	"yuuma_iron.title": "O Balanço Quebrado",
+	"yuuma_iron.description": "Shiro quer consertar o balanço na frente da casa, mas eu não vou deixar. Então, eu vou fazer isso, mas eu preciso de uma Barra de Ferro. Alguém pode me trazer um pouco? Eu pago... eu prometo. Obrigado.\n        -Yuuma.\n\n- 300 ouros na entrega.\n- Yuuma ficará agradecido.",
+	"yuuma_iron.objective": "Entregue uma Barra de Ferro para Yuuma",
+	"yuuma_iron.reactiontext": "Obrigado por isso, @, estou feliz que você me ajudou. Eu estava com um pouco de medo de entrar nas minas para pegá-lo sozinho.",
+
+	"mysticfalls_1.title": "As Cachoeiras da Companhia",
+	"mysticfalls_1.description": "Sugestões de uma Cachoeira Subterrânea que pode ser encontrada na Floresta da Colina. Há rumores de que abençoa aqueles que valorizam a amizade.",
+	"mysticfalls_1.objective": "Encontre a Cachoeira escondida com folhagem verde exuberante na Floresta da Colina",
+	"mysticfalls_1.rewardDesc": "Uma Pedra Rara e Colorida",
+
+	"mysticfalls_2.title": "As Cachoeiras do Amor",
+	"mysticfalls_2.description": "Sugestões de uma Cachoeira Subterrânea que pode ser encontrada na Floresta da Colina. Há rumores de que abençoa aqueles que valorizam o amor.",
+	"mysticfalls_2.objective": "Encontre a Cachoeira escondida cercada por árvores rosas e areia na Floresta da Colina",
+	"mysticfalls_2.rewardDesc": "Afeto dos Solteiros e Solteiras do Vale",
+
+	"mysticfalls_3.title": "As Cachoeiras do Sacrifício",
+	"mysticfalls_3.description": "Sugestões de uma Cachoeira Subterrânea que pode ser encontrada na Floresta da Colina. Há rumores de que abençoa aqueles que estão curiosos sobre o invisível.",
+	"mysticfalls_3.objective": "Encontre a Cachoeira escondida cercada pela escuridão na Floresta da Colina",
+	"mysticfalls_3.rewardDesc": "Espada de Obsidiana",
+	
+	// Story guideline quests
+	"preparations_complete.title": "Preparações Completas!",
+	"preparations_complete.description": "Agora que você coletou todos os objetos estranhos que Daia pediu, volte para a casa ninja amanhã para mais instruções.",
+	"preparations_complete.objective": "Volte para a casa ninja amanhã.",
+
+	"follow_ninja_note.title": "Uma Nota dos Ninjas",
+	"follow_ninja_note.description": "Você leu uma nota na porta da base que dizia para voltar hoje à noite para encontrar o Vidente.",
+	"follow_ninja_note.objective": "Venha para o Cume depois das 20hrs em uma noite clara.",
+
+	"rae_pre_unseal.title": "Mais Preparações",
+	"rae_pre_unseal.description": "Belinda lhe disse para vir para a Floresta do Cume amanhã para ajudá-la a \"desselar sua amada\".",
+	"rae_pre_unseal.objective": "Vá para a Floresta do Cume em um dia ensolarado antes das 19hrs.",
+
+	"rae_unseal.title": "O Desselamento",
+	"rae_unseal.description": "Bliss instruiu você a vir para o Cume hoje à noite para o Desselamento.",
+	"rae_unseal.objective": "Venha para o Cume em uma noite clara após as 20hrs.",
+
+	"open_spirit_portal.title": "Abertura do Portal",
+	"open_spirit_portal.description": "Belinda e Raeriyala pediram para você reunir os nove artefatos abençoados e encontrar o pedestal que faz os olhos das raposas brilharem. Você pode ler sobre os artefatos no livro vermelho na casa ninja.",
+	"open_spirit_portal.objective": "Reúna as nove relíquias e coloque-as na ordem correta nos pedestais.",
+
+	"phantom_greenhouse_1.title": "Ignorância e Bliss",
+	"phantom_greenhouse_1.description": "Bliss disse algo vago sobre vir para a estufa abandonada depois da meia-noite... Talvez valha a pena conferir?",
+	"phantom_greenhouse_1.objective": "Vá para a estufa abandonada depois da meia-noite.",
+
+	"phantom_greenhouse_2.title": "A Estufa Amaldiçoada",
+	"phantom_greenhouse_2.description": "Quando você voltou para a trilha da montanha, Bliss disse algo sobre uma \"maldição\" e sugeriu que você voltasse quando a estufa estiver aberta à noite.",
+	"phantom_greenhouse_2.objective": "Retorne à estufa abandonada depois da meia-noite.",
+
+	//Offers
+	"trinnie_sunflower.offer.topic": "Princesa Girassol",
+	"trinnie_sunflower.offer.text": "Caro @, ^ Aqui é Trinnie. Queria perguntar se você poderia me trazer alguns girassóis. É porque eu quero me tornar a Princesa Girassol ... Eu ouvi Keahi dizer que girassóis são bonitos e uma Princesa Girassol será ainda mais bonita. Então talvez eu faça um vestido floral com girassóis de verdade.^Papai disse que vai te pagar! Obrigada, @!^     - Trinnie",
+
+	"keahi_slime.offer.text": "Ei @! Você vai para as minas, certo? Você luta contra gosmas e outras coisas?#$b#Se por acaso você encontrar alguma gosma, você pode dar um pouco para mim?$h#$b#Eu acho que vou começar um novo hobby e me tornar O Rei da Gosma!$h#$b#Eu vou impressionar Ysabelle!$h#$b#Você pode me trazer um pouco? Obrigado!$h",
+
+	"yuuma_ring.offer.text": "Uhhmm... Ei @? Posso pedir ajuda?$s#$b#Perdi meu anel... Um anel que minha mãe me deu há muito tempo.$s#$b não consigo encontrá-lo. Eu estava esperando que você me ajudasse.$s#$b#Eu vou te pagar! Eu prometo! Eu simplesmente não posso deixar Shiro sozinho enquanto eu vou procurá-lo...$s#$b#Por favor, encontre, @!$s",
+
+	"olga_tuna.offer.topic": "Olga pede Atum",
+	"olga_tuna.offer.text": "Querido(a) @,^Eu gostaria de pedir um atum. Minha família tem desejado um prato de atum há algum tempo e gostaríamos de comprar um de você. Estamos preparados para pagar a entrega. Esperamos ter notícia de você em breve!!^^    - Olga Liden",
+
+	"aguar_essence.offer.topic": "Aguar pede Essência",
+	"aguar_essence.offer.text": "@, ^Eu preciso da sua ajuda para coletar algumas Essências Nulas para meu próximo projeto de pesquisa. Não quero estragar meu disfarce, então preciso contar com você. Aguardo sua entrega. Claro que haverá um benefício monetário.^^ - Sr. Aguar, Instalação de Pesquisa de Água da Vila",
+
+	"freddie_sword.offer.text": "Agora... onde coloquei aquela coisa velha?$s#$b#Oh, olá, jovem.$h#$b#Sinto muito. Eu estava pensando na minha espada.$s#$b#Eu estava passeando pela aldeia outro dia e parece que a perdi.$s#$b#A última coisa de que me lembro é que estava perto das cachoeiras, mas não me lembro qual.$s#$b#Oh, espero que ninguém se machuque quando o encontrar, é bastante afiado.$s#$b#Se você conseguir encontrar, @, eu pago você por trazê-lo de volta para mim.$s",
+
+	"pika_mayonnaise.offer.topic": "Pika quer Maionese",
+	"pika_mayonnaise.offer.text": "Aloha, @!, ^Estou pensando em uma receita para um novo prato e tenho me esforçado para encontrar uma maionese decente para combiná-lo. Veja, a maionese será o ingrediente secreto! Espero que possa me entregar um. Vou pagar pela maionese junto com uma pequena taxa de entrega.^^- Pika",
+
+	"richard_glasses.offer.text": "Saudações, @. Preciso de um favor, se estiver tudo bem para você.#$b#Parece que perdi meus óculos e é um pouco difícil para mim encontrá-los porque... Não consigo ver muito bem sem eles.#$b#Só sei que não saí do hotel o dia inteiro. Eu vou pagar pelo trabalho."
+
+}

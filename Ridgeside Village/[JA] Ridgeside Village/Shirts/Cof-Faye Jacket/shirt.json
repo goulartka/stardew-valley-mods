@@ -1,0 +1,15 @@
+{
+"Name": "Cof-Faye Jacket",
+"Description": "Faye's jacket-inspired secret project.",
+"HasFemaleVariant": true,
+"Price": 30000,
+
+    "NameLocalization":
+    { 
+        "pt": "Jaqueta Cof-Faye"
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Projeto secreto inspirado na jaqueta de Faye."
+    }
+}

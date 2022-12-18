@@ -1,0 +1,14 @@
+{
+	"Name": "Yellow Wood Sculpture",
+    "Price": 100,
+	"Description": "The ancient figure's face looks vaguely familiar. But you can't put a put a finger on who it is.",
+	
+    "NameLocalization":
+    { 
+    	"pt": "Escultura de Madeira Amarela"
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "O rosto da figura antiga parece vagamente familiar. Mas você não consegue adivinhar sobre quem é."
+    }
+}

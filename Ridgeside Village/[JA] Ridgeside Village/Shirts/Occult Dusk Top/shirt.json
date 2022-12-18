@@ -1,0 +1,16 @@
+{
+"Name":"Occult Dusk Top",
+"Description": "Stealth is essential in fulfilling the Lady's desires...",
+"HasFemaleVariant":true,
+"Price":30000,
+"Dyable":true,
+
+"NameLocalization":
+{ 
+    "pt": "Blusa Oculta do Crepúsculo"
+},
+"DescriptionLocalization":
+{
+    "pt": "Discrição é essencial para satisfazer os desejos da senhora."
+}
+}

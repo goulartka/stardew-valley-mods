@@ -1,0 +1,14 @@
+{
+	"Name": "Silver Fish Bones",
+    "Price": 200,
+	"Description": "A mysterious relic of silver bones resembling the shape of a fish embedded in ancient stone.",
+	
+    "NameLocalization":
+    { 
+    	"pt": "Ossos de Peixe Prateados"
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "Uma misteriosa relíquia de ossos prateados que lembra a forma de um peixe embutido em pedra antiga."
+    }
+}

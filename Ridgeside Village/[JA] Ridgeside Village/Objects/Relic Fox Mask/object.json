@@ -1,0 +1,14 @@
+{
+	"Name": "Relic Fox Mask",
+    "Price": 500,
+	"Description": "An ancient mask that resembles a fox. There's a text written around the rim of the eye hole; 'Rough Seas'",
+	
+    "NameLocalization":
+    { 
+    	"pt": "Relíquia Máscara de Raposa"
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "Uma máscara antiga que se assemelha a uma raposa. Há um texto escrito ao redor da borda do buraco do olho: 'Mar agitado'"
+    }
+}

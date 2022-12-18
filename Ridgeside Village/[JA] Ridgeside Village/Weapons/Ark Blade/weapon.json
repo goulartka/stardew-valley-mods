@@ -1,0 +1,30 @@
+{
+	"Name": "Ark Blade",
+	"Description": "A sword lost in time. Illustrations of various figures are carved in its handle.",
+	"Type": "sword",
+	"PurchasePrice": 50000,
+	"MinimumDamage": 80,
+	"MaximumDamage": 140,
+	"Knockback": 1,
+	"Speed": 3,
+	"Accuracy": 70,
+	"Defense": 20,
+	"MineDropVar": 0,
+	"MineDropMinimumLevel": -1,
+	"ExtraSwingArea": -1,
+	"CritChance": 0.50,
+	"CritMultiplier": 2,
+
+    "NameLocalization":
+    { 
+    	"pt": "Lâmina Ark",
+    },
+    "DescriptionLocalization":
+    {
+    	"pt": "Uma espada perdida no tempo. Várias ilustrações e figuras estão gravadas em seu cabo",
+    },
+	"TypeLocalization":
+	{
+		"pt": "Espada",
+	}
+}

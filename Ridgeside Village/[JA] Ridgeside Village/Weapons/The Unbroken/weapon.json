@@ -1,0 +1,30 @@
+{
+	"Name": "The Unbroken",
+	"Description": "An ancient blade named after the legends that surround it. The blade is said to have been wielded by thousands of different users, never failing to serve them. Made of a strange, unbreakable material rumored to be related to the ancient dwarves.",
+	"Type": "sword",
+	"PurchasePrice": 50000,
+	"MinimumDamage": 100,
+	"MaximumDamage": 120,
+	"Knockback": 0.3,
+	"Speed": 20,
+	"Accuracy": 90,
+	"Defense": 10,
+	"MineDropVar": 0,
+	"MineDropMinimumLevel": -1,
+	"ExtraSwingArea": -1,
+	"CritChance": 0.50,
+	"CritMultiplier": 2,
+
+    "NameLocalization":
+    { 
+        "pt": "O Inquebrável",
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Uma lâmina antiga com o nome das lendas que a cercam. Diz-se que a lâmina foi empunhada por milhares de usuários diferentes, nunca deixando de servi-los. Feito de um material estranho e inquebrável que, segundo rumores, está relacionado aos anões antigos.",
+    },
+	"TypeLocalization":
+	{
+		"pt": "Espada",
+	}
+}

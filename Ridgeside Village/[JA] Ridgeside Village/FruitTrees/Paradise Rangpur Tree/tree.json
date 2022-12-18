@@ -1,0 +1,22 @@
+{
+  "Name": "Paradise Rangpur Tree",
+  "Product": "Paradise Rangpur",
+  "SaplingName": "Paradise Rangpur Sapling",
+  "SaplingDescription": "Takes 28 days to produce a mature Paradise Rangpur tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+  "Season": "summer",
+  "SaplingPurchasePrice": 5000,
+  "SaplingPurchaseFrom": "STF.RSVKimpoiShop",
+
+  "NameLocalization": 
+  {
+    "pt": "Árvore de Cravo do Paraíso"
+  },
+  "SaplingNameLocalization":
+  {
+    "pt": "Muda de Cravo do Paraíso"
+  },
+  "SaplingDescriptionLocalization":
+  {
+    "pt": "Leva 28 dias para produzir uma árvore madura de cravo do paraíso. Pronta para colher no verão. Só cresce se os 8 espaços ao redor estiverem vazios."
+  }
+}

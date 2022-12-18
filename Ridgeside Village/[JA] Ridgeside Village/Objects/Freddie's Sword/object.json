@@ -1,0 +1,13 @@
+{
+	"Name": "Freddie's Sword",
+	"Description": "Freddie's sword! He must have lost it.",
+
+    "NameLocalization":
+    { 
+        "pt": "Espada do Freddie"
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "A Espada do Freddie! Ele deve ter perdido."
+    }
+}

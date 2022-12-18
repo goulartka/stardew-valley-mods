@@ -1,0 +1,27 @@
+{
+	"Name": "Cardia Septal Jellyfish",
+	"Description": "Truly a biological wonder. It bears a striking resemblance to the septum of a heart and the ventricles that connect it. Though poisonous, it is endangered because of its lack of mobility.",
+	"Category": "Fish",
+	"Edibility": 10,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 330,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Shiro"]
+	},
+
+    "NameLocalization":
+    { 
+        "pt": "Medusa Cardio-Septal"
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Realmente uma maravilha biológica. Tem uma semelhança impressionante com o septo de um coração e os ventrículos que o conectam. Embora venenosa, está em perigo devido à sua falta de mobilidade."
+    },
+	"CategoryLocalization":
+	{
+		"pt": "Peixe"
+	}
+}
