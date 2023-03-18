@@ -4529,8 +4529,8 @@
         },
         "UniqueAreaID": "Highlands Cavern Copper Ore Spawns",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 7,
-        "MaximumSpawnsPerDay": 7,
+        "MinimumSpawnsPerDay": 14,
+        "MaximumSpawnsPerDay": 14,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -4576,8 +4576,8 @@
         },
         "UniqueAreaID": "Highlands Cavern Iron Ore Spawns",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 7,
-        "MaximumSpawnsPerDay": 7,
+        "MinimumSpawnsPerDay": 14,
+        "MaximumSpawnsPerDay": 14,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -4623,8 +4623,8 @@
         },
         "UniqueAreaID": "Highlands Cavern Gold Ore Spawns",
         "MapName": "Custom_HighlandsCavern",
-        "MinimumSpawnsPerDay": 7,
-        "MaximumSpawnsPerDay": 7,
+        "MinimumSpawnsPerDay": 14,
+        "MaximumSpawnsPerDay": 14,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -8111,6 +8111,60 @@
           "WeatherTomorrow": [],
           "CPConditions": {},
           "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Stone Golem",
+            "Settings": {
+              "HP": 550,
+              "Damage": 55,
+              "SpawnWeight": 1,
+              "DodgeChance": 0,
+              "Sprite": "Characters/Monsters/StoneGolemDangerous",
+              "Loot": [
+                769
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Highlands Cavern More Dangerous Golems Spawn After Krobus 10 heart",
+        "MapName": "Custom_HighlandsCavern",
+        "MinimumSpawnsPerDay": 100,
+        "MaximumSpawnsPerDay": 100,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "156,156;0,0"
+        ],
+        "ExcludeCoordinates": [
+          "128,152;112,131",
+          "34,46;16,30",
+          "138,18;94,0"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 115,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [
+            "e 1090508"
+          ],
           "LimitedNumberOfSpawns": null
         },
         "DaysUntilSpawnsExpire": 1

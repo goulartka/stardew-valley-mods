@@ -57,6 +57,14 @@
 "scarlett_event7": "Eu aposto! Que você tem bastante espaço na sua fazenda para fazer o que quiser, estou certa @?$0",
 "scarlett_event8": "Se eu sei plantar? Meu pai me deixa usar o canteiro de flores fora de casa para cultivar coisas, então eu entendo totalmente o que você quer dizer.$0",
 "scarlett_event9": "Eu sempre quis ter minhas próprias cabras. Eu comeria todo o queijo de cabra que eu quisesse!$1#$b#Gostaria que Marnie precisasse de ajuda em seu rancho, mas ela sabe se cuidar.$0",
-"scarlett_event10": "Sim, eu sou meio do mesmo jeito. Eu não sei o que faria comigo mesmo se não tivesse nada para fazer.$0"
+"scarlett_event10": "Sim, eu sou meio do mesmo jeito. Eu não sei o que faria comigo mesmo se não tivesse nada para fazer.$0",
+
+//Resort Dialogue
+"Resort_Entering": "Mal posso esperar para colocar meus pezinhos na areia quentinha.$0",
+"Resort_Leaving": "Vai ser bem longo, Voltar para casa. Mas hoje eu me diverti demais.$1",
+"Resort_Shore": "Me pergunto o que pode ter acontecido para o navio pirata naufragar?$0",
+"Resort_Chair": "Normalmente não tem clima assim em Grampleton! Maravilhoso!$1",
+"Resort_Bar": "Todas as bebidas vêm com esses pequenos guarda-chuvas nos copos?$0",
+"Resort": "O recife de corais é bem bonito.$0",
 
 }

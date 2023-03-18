@@ -179,9 +179,9 @@
        "Action": "EditData",
        "Target": "Strings/animationDescriptions",
        "Entries": {
-        "aurelia_sit": "Hello, @. I was just looking over the sky. I never knew it was so beautiful.",
-        "aurelia_read": "There are so many good stories that I have been missing on. I am a slow reader, but it is fascinating.$h",
-        "aurelia_wheel": "%Aurelia is too focused on spinning wheel to notice you."
+        "aurelia_sit": "Hello, @. I was just looking at the sky. I never knew it was so beautiful.",
+        "aurelia_read": "There are so many good books that I have been missing on. I am a slow reader, but it is fascinating.$h",
+        "aurelia_wheel": "%Aurelia is too focused to notice you."
       },
       "When": {"HasSeenEvent |contains=18050005": true}
      },
@@ -223,7 +223,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Abigail",
         "Entries": {
-            "AbandonedBride": "Did you hear a scream in the forest? Finally. Is it a monster that I can fight?$h"
+            "AbandonedBride": "Did you hear someone scream in the forest? Finally. Is it a monster that I can fight?$h"
           }
     },
     
@@ -240,7 +240,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Caroline",
         "Entries": {
-            "AbandonedBride": "I am nervous. Did you hear that scream around the forest? I go by there quite often..."
+            "AbandonedBride": "I am nervous. Did you hear that scream from the forest? I go by there quite often..."
                 }
             },
     {
@@ -248,7 +248,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Clint",
         "Entries": {
-            "AbandonedBride": "...I am kind of scared. What was that screaming about? Was it from the forest?"
+            "AbandonedBride": "...I am kind of scared. What was that scream? Was it from the forest?"
                 }
             },
     
@@ -266,7 +266,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Emily",
         "Entries": {
-            "AbandonedBride": "Did you hear the screaming too? What could it be...?"
+            "AbandonedBride": "Did you hear the scream too? Who could it be...?"
                 }
             },
     
@@ -283,7 +283,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Evelyn",
         "Entries": {
-          "AbandonedBride": "Always becareful, dear. I've heard someone scream in the forest..."
+          "AbandonedBride": "Always becareful, dear. I heard someone screaming in the forest..."
                 }
             },
     {
@@ -300,7 +300,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Harvey",
         "Entries": {
-            "AbandonedBride": "Have you heard a scream in the forest too? This kind of thing never happened in this town before. Is someone hurt?"
+            "AbandonedBride": "Did you hear the scream too? This kind of thing never happened in this town before. Is someone hurt?"
                 }
             },
     {
@@ -316,7 +316,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Gus",
         "Entries": {
-            "AbandonedBride": "Hmm, yes. I heard a scream from the forest too. Can it be someone calling for help?"
+            "AbandonedBride": "Hmm, yes. I heard someone scream from the forest too. Can it be someone calling for help?"
                 }
             },
     {
@@ -324,7 +324,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Leah",
         "Entries": {
-            "AbandonedBride": "I heard the scream so clear that I am still kind of shaking. Who could it possibly be? I will have to lock my doors tight tonight."
+            "AbandonedBride": "I heard the scream so clear that I am still kind of shaking. Who could it possibly be? I will have to lock my doors tonight."
                 }
             },
     {
@@ -332,7 +332,7 @@
     "Action": "EditData",
     "Target": "Characters/Dialogue/Linus",
     "Entries": {
-        "AbandonedBride": "Hello...#$b#A scream? No, I heard none..."
+        "AbandonedBride": "Hello...#$b#A scream? No, I heard nothing like that..."
             }
         },
         {
@@ -348,7 +348,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Jodi",
         "Entries": {
-            "AbandonedBride": "I better tell the boys to come home early. That scream that echoed through the town was alarming."
+            "AbandonedBride": "I better tell the boys to come home early. That scream was alarming."
                 }
             },
     {
@@ -364,7 +364,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Maru",
         "Entries": {
-            "AbandonedBride": "Hey, @. How is it going?#$b#Screaming sound? I know it's a hot topic, but I didn't hear it."
+            "AbandonedBride": "Hey, @. How is it going?#$b#Hmm? A scream? I know it's a hot topic, but I didn't hear it."
                 }
             },
     {
@@ -380,7 +380,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Pierre",
         "Entries": {
-            "AbandonedBride": "Why is everyone talking about the screaming sound? Pfft, no way. Our town is safe."
+            "AbandonedBride": "Why is everyone talking about the scream? Pfft, no way. Our town is safe."
          
                 }
             },
@@ -406,7 +406,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Robin",
         "Entries": {
-            "AbandonedBride": "Hey @! Need help?#$b#Screaming? I heard nothing over here."
+            "AbandonedBride": "Hey @! Need help?#$b#A scream? No, I heard nothing from my house."
                 }
             },
     {
@@ -431,7 +431,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Shane",
         "Entries": {
-            "AbandonedBride": "Who cares about the random noise?"
+            "AbandonedBride": "Who cares about some random noise?"
                 }
             },
     {
@@ -439,7 +439,7 @@
         "Action": "EditData",
          "Target": "Characters/Dialogue/Jas",
         "Entries": {
-          "AbandonedBride": "I am scared... I heard someone scream so loudly and clearly.$s"
+          "AbandonedBride": "I am scared... I heard someone scream very loudly.$s"
                  }
              },
     {
@@ -447,7 +447,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Vincent",
         "Entries": {
-         "AbandonedBride": "What was that sound? Where is mom?$s"
+         "AbandonedBride": "What was that sound? I am scared.$s"
                 }
            },
     {
@@ -455,7 +455,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Willy",
         "Entries": {
-            "AbandonedBride": "I barely heard the screaming from here, but could tell it was unusual."
+            "AbandonedBride": "I barely heard the scream from here, but I could tell it was unusual."
                 }
             },
     
@@ -481,7 +481,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/Mike",
         "Entries": {
-            "AbandonedBride": "Did you hear that screaming sound? Someone must be in danger."
+            "AbandonedBride": "Did you hear that scream? Someone must be in danger."
                 }
             },
     {
@@ -489,7 +489,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Young",
       "Entries": {
-      "AbandonedBride": "Yes. I heard the screaming sound too. I must tell Timothy to becareful when he goes to the forest."
+      "AbandonedBride": "Yes. I heard the scream too. I must tell Timothy to becareful when he goes out to the forest."
                 }
             },
     {
@@ -506,7 +506,7 @@
               "Action": "EditData",
               "Target": "Characters/Dialogue/Abigail",
               "Entries": {
-                  "Aurelia": "Never knew someone so cool lived around our town. Aurelia, was it? She said that she lives near town."
+                  "Aurelia": "Never knew someone so cool lived around our town. Aurelia, was it? She said that she lives somewhere in the forest."
                 }
           },
           
@@ -523,7 +523,7 @@
               "Action": "EditData",
               "Target": "Characters/Dialogue/Caroline",
               "Entries": {
-                  "Aurelia": "I got to see Aurelia today. She looked very young and happy."
+                  "Aurelia": "I got to see Aurelia today. She looked very happy."
                       }
                   },
           {
@@ -531,7 +531,7 @@
               "Action": "EditData",
               "Target": "Characters/Dialogue/Clint",
               "Entries": {
-                  "Aurelia": "I saw Emily talking with this new girl... Aurelia was it?"
+                  "Aurelia": "I saw Emily talking with this new girl... Aurelia, was it?"
                       }
                   },
           
@@ -549,7 +549,7 @@
               "Action": "EditData",
               "Target": "Characters/Dialogue/Emily",
               "Entries": {
-                  "Aurelia": "I think I made a new friend! Her name is Aurelia! She said that she lives near town and never thought to come visit here until now!$h"
+                  "Aurelia": "I think I made a new friend! Her name is Aurelia! She said that she lives in the forest and never thought to come visit here until now!$h"
                       }
                   },
           
@@ -566,7 +566,7 @@
               "Action": "EditData",
               "Target": "Characters/Dialogue/Evelyn",
               "Entries": {
-                "Aurelia": "I met a sweetheart today. I think her name was... Aurelia?"
+                "Aurelia": "I met a sweet girl today. I think her name was... Aurelia?"
                       }
                   },
           {
@@ -583,7 +583,7 @@
               "Action": "EditData",
               "Target": "Characters/Dialogue/Harvey",
               "Entries": {
-                  "Aurelia": "Aurelia came to check breifly. She seemed stressed and weak, but she should be fine if she rests well."
+                  "Aurelia": "Aurelia came to get a check up. She seemed stressed and weak, but other than that she was healthy."
                       }
                   },
           {
@@ -607,7 +607,7 @@
                     "Action": "EditData",
                     "Target": "Characters/Dialogue/Marnie",
                     "Entries": {
-                        "Aurelia": "Aurelia seems like a sweetheart.$h"
+                        "Aurelia": "I heard a new girl was in town. Wonder if she is a farmer? Didn't look like one, though.$h"
                             }
                         },
           {
@@ -615,7 +615,7 @@
               "Action": "EditData",
               "Target": "Characters/Dialogue/Leah",
               "Entries": {
-                  "Aurelia": "I saw Aurelia. She said that she lived near town, around forest too. Why didn't I see her?"
+                  "Aurelia": "I saw Aurelia. She said that she lives in the forest. Why haven't I seen her until now?"
                       }
                   },
           {
@@ -631,7 +631,7 @@
               "Action": "EditData",
               "Target": "Characters/Dialogue/Kent",
               "Entries": {
-                  "Aurelia": "The new girl, Aurelia... Seemed like she was used to pain. I just can tell."
+                  "Aurelia": "The new girl, Aurelia... Seemed like she was used to pain. I can tell."
                       }
                   },
           {
@@ -673,7 +673,7 @@
               "Action": "EditData",
               "Target": "Characters/Dialogue/Penny",
               "Entries": {
-                  "Aurelia": "I haven't seen the new girl that everyone has been talking about... Do you think she is kind?"
+                  "Aurelia": "I haven't seen the new girl that everyone is talking about yet..."
                       }
                   },
           {
@@ -681,7 +681,7 @@
               "Action": "EditData",
               "Target": "Characters/Dialogue/Robin",
               "Entries": {
-                  "Aurelia": "New girl? Probably should go and say hi to her."
+                  "Aurelia": "A new girl? Probably should go and say hi to her."
                       }
                   },
           {
@@ -706,7 +706,7 @@
               "Action": "EditData",
               "Target": "Characters/Dialogue/Shane",
               "Entries": {
-                  "Aurelia": "...Why does that new girl looks like... she know what pain is?"
+                  "Aurelia": "...Why does that new girl looks like... she would understand me?"
                       }
                   },
           {
@@ -714,7 +714,7 @@
               "Action": "EditData",
                "Target": "Characters/Dialogue/Jas",
               "Entries": {
-                "Aurelia": "I saw the new girl in town!$h"
+                "Aurelia": "I saw a new girl in town!$h"
                        }
                    },
           {
@@ -755,7 +755,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Young",
             "Entries": {
-            "Aurelia": "Oh, I heard there was a new girl in town. Aurelia. Good for her."
+            "Aurelia": "Oh, I heard there was a new girl in town. Good for her."
                       }
                   },
           {
@@ -771,8 +771,8 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Emily",
       "Entries": {
-        "Sat": "Aurelia asked me to borrow my sewing book. She said that she knew basic skills but wants to know more. She learned pretty quick.#$b#Never thought she was the one hidden in the forest.",
-        "winter_Mon": "Aurelia is such a sweetheart. But she seems to be a lot mature than she looks... I think she is around my age.$h"
+        "Sat": "Aurelia asked me to borrow my sewing book. She said that she knows basic skills but wants to learn more. She is a quick learner.",
+        "winter_Mon": "Aurelia is such a sweet girl. But she seems to be a lot more mature than she looks... I think she is around my age.$h"
       },
       "When": {"HasSeenEvent |contains=18050005": true}
     },
@@ -781,7 +781,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
-        "Aurelia": "It is raining... Hehe...#$b#It rained that morning too...#$b#But blood... dripped in place of rain...$u"
+        "Aurelia": "It is raining... Heheh...#$b#It rained that morning too...#$b#Blood was dripping...$u"
       },
       "When": {"HasSeenEvent |contains=18050005": false}
     },
@@ -862,7 +862,7 @@
       "Action": "EditData",
       "Target": "Data/Festivals/spring24",
       "Entries": {
-        "Aurelia": "I love the flowers. Aren't they so beautiful?$h"
+        "Aurelia": "Look how the flowers bloomed!$h"
       },
       "When": {"HasSeenEvent |contains=18050005": true}
     },
@@ -870,14 +870,14 @@
       "Action": "EditData",
       "Target": "Data/Festivals/summer11",
       "Entries": {
-        "Aurelia_spouse": "It's amazing to see everyone gather around and share what they have.$h"
+        "Aurelia_spouse": "It's so fun to see everyone!$h"
       }
     },
     {
       "Action": "EditData",
       "Target": "Data/Festivals/summer11",
       "Entries": {
-        "Aurelia": "I enjoy the company of villagers. It's something I have missed for a while.$h"
+        "Aurelia": "I enjoy having people around. It's something I have missed for a while.$h"
       },
       "When": {"HasSeenEvent |contains=18050005": true}
     },
@@ -892,7 +892,7 @@
       "Action": "EditData",
       "Target": "Data/Festivals/summer28",
       "Entries": {
-        "Aurelia": "This is one of my favorite nights. They light up the dark...$h"
+        "Aurelia": "This is one of my favorite festivals. They light up the dark...$h"
       },
       "When": {"HasSeenEvent |contains=18050005": true}
     },
@@ -935,7 +935,7 @@
       "Action": "EditData",
       "Target": "Data/Festivals/fall27",
       "Entries": {
-        "Aurelia_spouse": "Spooky...#$b#Don't worry, I'll be alright.$h"
+        "Aurelia_spouse": "Ooh, spooky...#$b#Don't worry, I'll be alright.$h"
       }
     },
     {
@@ -950,7 +950,7 @@
       "Action": "EditData",
       "Target": "Data/Festivals/winter8",
       "Entries": {
-        "Aurelia": "@, you can even fish? What can you not do? I am proud of you.$l#$b#Good luck.$h"
+        "Aurelia": "@, you can fish? What can you not do? I am proud of you.$l#$b#Good luck.$h"
       },
       "When": {
         "Relationship:Aurelia": "Married"
@@ -960,7 +960,7 @@
       "Action": "EditData",
       "Target": "Data/Festivals/winter8",
       "Entries": {
-        "Aurelia": "Willy is such a great fisher. You better watch out.$h#$b#Good luck, @."
+        "Aurelia": "Willy is a great fisher. You better watch out.$h#$b#Good luck, @."
       },
       "When": {"HasSeenEvent |contains=18050005": true}
     },
@@ -968,7 +968,7 @@
       "Action": "EditData",
       "Target": "Data/Festivals/winter25",
       "Entries": {
-        "Aurelia": "It's a Winter Star miracle that I am standing here right now.$h#$b#...with you.$l"
+        "Aurelia": "It's a Winter Star miracle that I am here right now.$h#$b#...with you.$l"
       },
       "When": {
         "Relationship:Aurelia": "Married"
@@ -978,7 +978,7 @@
       "Action": "EditData",
       "Target": "Data/Festivals/winter25",
       "Entries": {
-        "Aurelia": "It's a Winter Star miracle that I am standing here right now.$h"
+        "Aurelia": "It's a Winter Star miracle that I am here right now.$h"
       },
       "When": {"HasSeenEvent |contains=18050005": true}
     },
@@ -987,7 +987,7 @@
       "Action": "EditData",
       "Target": "Data/mail",
       "Entries": {
-        "aureliainvite": "Dear, @.^^We have come a long way together. I cannot explain how grateful I am for you.^^I want to invite you to a talk at Saloon. Please come at 10:00PM. I have something important to tell you. I will explain it all to you now.^^From, Aurelia[#]Dinner Invitation" 
+        "aureliainvite": "Dear, @.^^We have come a long way together. I cannot explain how grateful I am for you.^^Meet me at the Saloon, 10:00PM today. I have something important to tell you. Let me explain everything about me.^^From, Aurelia[#]Dinner Invitation" 
       }
     },
     {
@@ -995,7 +995,7 @@
       "Action": "EditData",
       "Target": "Data/mail",
       "Entries": {
-        "aureliapoem": "To Aurelia.^^The book that included your poem has been successfully published. Thank you for the beautifully written poem.^^Here is your payment for the poem.^Sincerely, Elliot%item money 10000 10001 %%[#]Aurelia's Poem" 
+        "aureliapoem": "To Aurelia.^^Your poem has been successfully published. Thank you for your work.^^Here is your payment.^Sincerely, Elliot%item money 10000 10001 %%[#]Aurelia's Poem" 
       }
     },
     {
@@ -1058,7 +1058,7 @@
             "BeforeMovie": {
               "ResponsePoint": null,
               "Script": "",
-              "Text": "How exciting to come to a theater and watch a movie.$h"
+              "Text": "How exciting! I can't wait!$h"
             },
             "DuringMovie": {
               "ResponsePoint": null,
@@ -1104,7 +1104,7 @@
             "BeforeMovie": {
               "ResponsePoint": null,
               "Script": "",
-              "Text": "The poster outside looked... frightening.",
+              "Text": "The poster outside looked... a bit disturbing..",
               "When": {"HasSeenEvent |contains=18050005": false}
             },
             "DuringMovie": {
@@ -1135,7 +1135,7 @@
               "DuringMovie": {
                 "ResponsePoint": null,
                 "Script": "",
-                "Text": "It's okay... It's okay...#$b#%Aurelia holds your hand tightly.",
+                "Text": "I can do this... It's going to be alright...#$b#%Aurelia holds your hand tightly.",
                 "When": {"HasSeenEvent |contains=18050005": true}
               },
               "AfterMovie": {
@@ -1160,7 +1160,7 @@
             "DuringMovie": {
               "ResponsePoint": null,
               "Script": "",
-              "Text": "Wonderful story..."
+              "Text": "Beautiful story..."
             },
             "AfterMovie": {
               "ResponsePoint": null,
@@ -1201,7 +1201,7 @@
             "BeforeMovie": {
               "ResponsePoint": null,
               "Script": "",
-              "Text": "Hmm... The character on the poster looks odd..."
+              "Text": "Hmm... The character on the poster looks a bit odd..."
             },
             "DuringMovie": {
               "ResponsePoint": null,
@@ -1230,7 +1230,7 @@
             "DuringMovie": {
               "ResponsePoint": null,
               "Script": "",
-              "Text": "%You are not sure if Abandoned Bride is sleeping or has fainted.",
+              "Text": "%You think she might've fainted.",
               "When": {"HasSeenEvent |contains=18050005": false}
             },
             "AfterMovie": {
@@ -1280,12 +1280,12 @@
             "DuringMovie": {
               "ResponsePoint": null,
               "Script": "",
-              "Text": "I am truly marveled."
+              "Text": "This is amazing."
             },
             "AfterMovie": {
               "ResponsePoint": null,
               "Script": "",
-              "Text": "That was a wonderful story... Thank you for inviting me.$h"
+              "Text": "That was a great movie... Thank you for inviting me.$h"
             }
           },
           "ID": "reaction_9"

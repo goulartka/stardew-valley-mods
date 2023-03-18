@@ -285,7 +285,7 @@
 	
 	//Objects
 	"object.aegis-elixir.name": "Égide Elixir",
-	"object.aegis-elixir.description": "Por um breve período, você se torna imune a danos. Acumula com poções de velocidade!",
+	"object.aegis-elixir.description": "Por um breve período você se torna imune a danos. Acumula com poções de velocidade!",
 	"object.aged-blue-moon-wine.name": "Vinho de lua azul envelhecido",
 	"object.aged-blue-moon-wine.description": "Vinho artesanal envelhecido de Sophia do Vinhedo Lua Azul. Ele vem em uma cesta de prestígio ornamentada com folhas, com um laço brilhante para embrulhar tudo junto. Faz um presente maravilhoso!",
 	"object.armor-elixir.name": "Elixir de Armadura",
@@ -331,7 +331,7 @@
 	"object.grampleton-orange-chicken.name": "Frango com Laranja Grampleton",
 	"object.grampleton-orange-chicken.description": "Frango dourado e crocante. Servido com arroz fresco.",
 	"object.gravity-elixir.name": "Elixir de Gravidade",
-	"object.gravity-elixir.description": "O raio no qual você desenha objetos é bastante aumentado. Os efeitos duram até o nascer do sol seguinte e se acumulam com poções de ataque e defesa.",
+	"object.gravity-elixir.description": "O raio no qual você atrai objetos é aumentado. Os efeitos duram até o fim do dia e se acumulam com poções de ataque e defesa.",
 	"object.green-mushroom.name": "Cogumelo Verde",
 	"object.green-mushroom.description": "Faz a gente se sentir como se tivesse ganhado outra vida.",
 	"object.haste-elixir.name": "Elixir da Aceleração",
