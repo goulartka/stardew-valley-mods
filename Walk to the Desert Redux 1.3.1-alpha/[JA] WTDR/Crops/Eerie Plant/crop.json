@@ -2,7 +2,7 @@
     "Name": "Eerie Plant",
     "Product": "Ghost Berry",
     "SeedName": "Eerie Seeds",
-    "SeedDescription": "Are you sure these will grow? It probably doesn't matter when you plant them.",
+    "SeedDescription": "Tem certeza que eles vão crescer? Provavelmente não importa o quanto você os cuide.",
     "Type": "Fruit",
 	"CropType": "Paddy",
     "Seasons": ["spring", "summer", "fall", "winter"],
@@ -23,8 +23,10 @@
     "SeedPurchaseRequirements": [],
     "SeedNameLocalization":
     {
-		},
+        "pt": "Sementes da Planta Fantasma",
+    },
 			"SeedDescriptionLocalization":
-		{
-    }
+    {
+        "pt": "Tem certeza que eles vão crescer? Provavelmente não importa o quanto você os cuide.",
+    },
 }

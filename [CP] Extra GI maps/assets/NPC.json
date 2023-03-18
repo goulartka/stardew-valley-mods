@@ -1,0 +1,307 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "Jackie": "adult/rude/outgoing/neutral/undefined/not-datable/null/Other/winter 21//Custom_GiHut 4 5/???"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "Jackie": "adult/rude/outgoing/neutral/undefined/not-datable/null/Other/winter 21//Custom_GiHut 4 5/Jackie"
+            },
+            "When": {
+                "HasSeenEvent": "121954" //1 meeting, 2 more character, 3 half-truth, 4 truth, 5 conclusion
+            }
+        },
+        {
+            "LogName": "gifttaste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Jackie": "{{i18n: Jackie_lovedgift}}/{{drinks}} -14/{{i18n: Jackie_likedgift}}/{{fancies}}/{{i18n: Jackie_dislikedgift}}/{{formalities}} -2 -21/{{i18n: Jackie_hatedgift}}/420/{{i18n: Jackie_neutralgift}}/281 257 422 205 -4/"
+            }
+        },
+        {
+            "LogName": "gifttaste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Jackie": "{{i18n: Jackie_lovedgift_clearer}}/{{drinks}} -14/{{i18n: Jackie_likedgift_clearer}}/{{fancies}}/{{i18n: Jackie_dislikedgift_clearer}}/{{formalities}} -2 -21/{{i18n: Jackie_hatedgift_clearer}}/420/{{i18n: Jackie_neutralgift_clearer}}/281 257 422 205 -4/" //-21 bait, -19 fertilizer, -14 meat, -6 milk, -4 fish, -2 gem 
+            },
+            "When":{
+                "JackieSpeech":"Clearer"
+            }
+        },
+        {
+            "LogName": "gifttaste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Jackie": "{{i18n: Jackie_lovedgift_clearer}}/{{drinks}} -14/{{i18n: Jackie_likedgift_clearer}}/{{fancies}}/{{i18n: Jackie_dislikedgift_clearer}}/{{formalities}} -2 -21/{{i18n: Jackie_hatedgift_clearer}}/420/{{i18n: Jackie_neutralgift_clearer}}/281 257 422 205 -4/" //-21 bait, -19 fertilizer, -14 meat, -6 milk, -4 fish, -2 gem 
+            },
+            "When": {
+                "Native": "true"
+            }
+        },
+        //sprites
+        {
+            "LogName": "Walk tiles",
+            "Action": "Load",
+            "Target": "Characters/Jackie",
+            "FromFile": "assets/NPC/Character_{{Native}}.png"
+        },
+        {
+            "LogName": "Walk tiles",
+            "Action": "Load",
+            "Target": "Characters/Jackie_Normal",
+            "FromFile": "assets/NPC/Character_{{Native}}.png"
+        },
+        {
+            "LogName": "Walk tiles",
+            "Action": "Load",
+            "Target": "Characters/Jackie_Pirate2",
+            "FromFile": "assets/NPC/Character_pirate_{{Native}}.png"
+        },
+        {
+            "LogName": "Portrait",
+            "Action": "Load",
+            "Target": "Portraits/Jackie",
+            "FromFile": "assets/NPC/Portrait_{{Native}}.png"
+        },
+        {
+            "LogName": "Portrait",
+            "Action": "Load",
+            "Target": "Portraits/Jackie_Normal",
+            "FromFile": "assets/NPC/Portrait_{{Native}}.png"
+        },
+        {
+            "LogName": "Portrait",
+            "Action": "Load",
+            "Target": "Portraits/Jackie_Pirate",
+            "FromFile": "assets/NPC/Portrait_{{Native}}_Younger.png"
+        },
+        {
+            "LogName": "Portrait",
+            "Action": "Load",
+            "Target": "Portraits/Jackie_Pirate2",
+            "FromFile": "assets/NPC/Portrait_{{Native}}_Younger2.png"
+        },
+        {
+            "LogName": "Schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/Jackie",
+            "FromFile": "assets/NPC/schedule.json"
+        },
+        //dialogue
+        {
+            "LogName": "Load dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Jackie",
+            "FromFile": "assets/NPC/Dialogue.json",
+            "When": {
+                "Language| contains=es": false
+            }
+        },
+        //dialogue
+        {
+            "LogName": "Load dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Jackie",
+            "FromFile": "assets/NPC/Dialogue_es.json",
+            "When": {
+                "Language": "es"
+            }
+        },
+        {
+            "LogName": "Add dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jackie",
+            "Entries": {
+                "Altar": "{{i18n: Altar}}"
+            },
+            "When": {
+                "Native": "true"
+            }
+        },
+        //random dialogue
+        {
+            "LogName": "Add dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jackie",
+            "Entries": {
+                "Random-00": "{{i18n: Alone}}",
+                "Random-01": "{{i18n: Volcano}}",
+                "Random-02": "{{i18n: Volcano2}}",
+                "Random-04": "{{i18n: Caldera}}",
+                "Random-05": "{{i18n: Leo}}"
+                
+            },
+            "When": {
+                "HasMod": "mistyspring.dynamicdialogues",
+                "Relationship:Jackie": "Friendly"
+            }
+        },
+        {
+            "LogName": "Add dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jackie",
+            "Entries": {
+                "":"{{i18n:Stealing_piratevers}}",
+                "Random-03": "{{i18n: OldLife}}",
+                "Random-07": "{{i18n: Past}}",
+                "Random-08": "{{i18n: Past2}}",
+                "Random-09": "{{i18n: Past3}}",
+                "Random-10": "{{i18n: Ship}}",
+                "Random-11": "{{i18n: Crewmen}}",
+                "Random-12": "{{i18n: Crewmen2}}",
+                "Random-13": "{{i18n: TheDrake}}",
+                "Random-14": "{{i18n: TheDrake2}}",
+                "Random-15": "{{i18n: TheDrake3}}",
+                "Random-16": "{{i18n: Rivalry}}"
+            },
+            "When": {
+                "HasMod": "mistyspring.dynamicdialogues",
+                "Relationship:Jackie": "Friendly",
+                "Query: ('{{HasSeenEvent| contains=121953}}' = 'true') OR ('{{Native}}' = 'false')": true
+            }
+        },
+        {
+            "LogName": "Add dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jackie",
+            "Entries": {
+                "Random-06": "{{i18n: Snaily}}",
+                "Random-18": "{{i18n: Birdie}}",
+                "Random-19": "{{i18n: Birdie2}}",
+                "Random-20": "{{i18n: Parrots}}",
+                "Random-21": "{{i18n: Parrots2}}",
+                "Random-22": "{{i18n: Parrots3}}",
+                "Random-23": "{{i18n: Statues}}",
+                "Random-24": "{{i18n: Statues2}}",
+                "Random-25": "{{i18n: Statues3}}",
+                "Random-26": "{{i18n: Leaving}}",
+                "Random-27": "{{i18n: LeoBrother}}",
+                "Random-28": "{{i18n: LeoBrother2}}"
+                
+            },
+            "When": {
+                "HasMod": "mistyspring.dynamicdialogues",
+                "Relationship:Jackie": "Friendly",
+                "Native":"true"
+            }
+        },
+        {
+            "LogName":"Add dialogue",
+            "Action":"EditData",
+            "Target":"Characters/Dialogue/Jackie",
+            "Entries":{
+                "Random-17": "{{i18n: Accent}}"
+            },
+            "When":{
+                "HasSeenEvent":"121954"
+            }
+        },
+        //lore
+        {
+            "Action":"EditData",
+            "Target":"mistyspring.dynamicdialogues/Dialogues/Jackie",
+            "Entries":{
+                "RiverMouth_forage": {
+                    "From": "600",
+                    "To": "1400",
+                    "Location": "Custom_GiRiver",
+                    "Dialogue": "{{i18n:RiverMouth_forage}}",
+                    "Override": false,
+                    "Force": false,
+                    "ClearOnMove": true,
+                    "IsBubble": false
+                },
+                "RiverMouth_lore": {
+                    "From": "900",
+                    "To": "1800",
+                    "Location": "Custom_GiRiver",
+                    "Dialogue": "{{i18n:RiverMouth_lore}}",
+                    "Override": false,
+                    "Force": false,
+                    "ClearOnMove": true,
+                    "IsBubble": false
+                }
+            }
+        },
+        {
+            "Action":"EditData",
+            "Target":"mistyspring.dynamicdialogues/Questions/Jackie",
+            "Entries":{
+                "aboutplace": {
+                    "Question": "{{i18n:aboutplace_q}}",
+                    "Answer": "{{i18n:aboutplace_a}}",
+                    "Location": "Custom_GiForest",
+                    "MaxTimesAsked": 2
+                },
+                "aboutplace2": {
+                    "Question": "{{i18n:aboutplace2_q}}",
+                    "Answer": "{{i18n:aboutplace2_a}}",
+                    "Location": "Custom_GiRiver",
+                    "MaxTimesAsked": 1
+                },
+                "abouthouse": {
+                    "Question": "{{i18n:abouthouse_q}}",
+                    "Answer": "{{i18n:abouthouse_a}}",
+                    "Location": "Custom_GiRiver",
+                    "MaxTimesAsked": 1
+                },
+                "abouthouse2": {
+                    "Question": "{{i18n:abouthouse2_q}}",
+                    "Answer": "{{i18n:abouthouse2_q}}",
+                    "Location": "Custom_GiRiver",
+                    "MaxTimesAsked": 1
+                },
+                "aboutTrader": {
+                    "Question": "{{i18n:aboutTrader_q}}",
+                    "Answer": "{{i18n:aboutTrader_a}}",
+                    "Location": "IslandNorth",
+                    "MaxTimesAsked": 1
+                }
+            }
+        },
+        //schedule patches
+        {
+            "Action":"EditData",
+            "Target":"Characters/schedules/Jackie",
+            "Entries":{
+                "Tue":"800 IslandEast 16 29 0/900 Custom_GiForest 50 12 1/1000 Custom_GiForest 50 15 2/1100 Custom_GiForest 41 10 3 jackie_woodwork/1400 Custom_GiForest 28 13 3 jackie_woodwork/1600 Custom_GiRBeach 23 9 2 \"Characters\\Dialogue\\Jackie:HiddenBeach\"/1800 Custom_GiRBeach 28 25 2/a2100 Custom_GiHut 1 8 1 jackie_sleep"
+            },
+            "When":{
+                "HasFlag|contains=Island_UpgradeTrader": false
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/schedules/Jackie",
+            "Entries": {
+                "Thu": "700 Custom_GiHut 3 4 3/800 IslandEast 18 29 2 jackie_harvest/1100 IslandEast 28 23 2 jackie_harvest/1400 Custom_GiRiver 7 11 0 \"Characters\\Dialogue\\Jackie:Altar\"/1600 Custom_GiRiver 27 19 2/1900 Custom_GiRiver 14 24 3/2100 Custom_GiHut 1 8 1 jackie_sleep"
+            },
+            "When": {
+                "HasFlag|contains=Island_UpgradeBridge": false
+            }
+        },
+        //animations
+        {
+            "Action":"EditData",
+            "Target":"Data/animationDescriptions",
+            "Entries":{
+                "jackie_fishing":"0/16 16 17 17 18 18 19 19/0",
+                "jackie_floor":"0 0 18 18 19 19/11/19 19 18 18 0 0", // start/loop/end 
+                "jackie_harvest":"0 0 18 18 19 19/20 20 20 20 21 21 21 21/19 19 18 18 0 0",
+                "jackie_rest":"17/17/17",
+                "jackie_savingbounty":"8/16/8",
+                "jackie_sleep":"17/17/17",
+                "jackie_woodwork":"0 0 18 18 19 19/22 22 23 23 24 24 25 25 24 24 23 23 22 22 22 22/19 19 18 18 0 0"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{ "Format": "1.23.0",	
+	
+ "CustomLocations": [
+{ "Name": "Custom_KidsTreeHouse",	
+    "FromMapFile": "assets/kidsTreeHouse.tmx",
+   "MigrateLegacyNames": [ "KidsTreeHouse" ]},
+ ],
+ 
+  "Changes": [ 	 
+{   "Action": "EditMap",
+     "Target": "Maps/Town",	  
+     "FromFile": "assets/Town.tmx",	 
+	"PatchMode": "Overlay",
+     "ToArea": { "X": 47, "Y": 30, "Width": 2, "Height": 2 }},
+
+{   "Action": "EditMap",
+     "Target": "Maps/Town",
+	 "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP"},	  
+     "FromFile": "assets/TownSVE.tmx",	 
+	"PatchMode": "Overlay",
+     "ToArea": { "X": 47, "Y": 30, "Width": 2, "Height": 2 }},
+
+{  "Action": "EditMap",
+    "Target": "Maps/Town", 
+    "TextOperations": [     {
+      "Operation": "Append",
+      "Target": [ "MapProperties", "Warp" ],
+      "Value": "47 32 Custom_KidsTreeHouse 6 8",
+      "Delimiter": " "     }   ]}, 
+
+{	 "Action": "EditData",
+     "Target": "Strings/StringsFromMaps",
+     "Entries": { 
+		 "treehousemessage.1": "{{i18n:treehousemessage.1}}",
+	  	 "treehousemessage.2":  "{{i18n:treehousemessage.2}}",
+	  	 "treehousemessage.3":  "{{i18n:treehousemessage.3}}",
+	  	 "treehousemessage.4":  "{{i18n:treehousemessage.4}}",
+	  	 "treehousemessage.5":  "{{i18n:treehousemessage.5}}",
+	  	 "treehousemessage.6":  "{{i18n:treehousemessage.6}}"	 }},
+
+  ]}

@@ -574,7 +574,7 @@
 	"Quote": "Welcome to Pika's!",
 	"ClosedMessage": "Sorry, we're closed!",
 	"ShopPrice": -1,
-	"MaxNumItemsSoldInStore": 5,
+	"MaxNumItemsSoldInStore": 8,
 	"DefaultSellPriceMultiplier": 0.7,
 	"PriceMultiplierWhen": {
 		"0.6": ["f Pika 2000"]
@@ -609,39 +609,8 @@
         //"zh": "PLACEHOLDER",
     	},
 	"ItemStocks": [
-		//Food
+    // Seasonal recipes
 		{
-			"ItemType": "Object",
-			"ItemNames": [
-				"Ridgeside Shaketini",
-				"Autumn Dew Drop Juice",
-				"Cherry Berry Shakey",
-				"Snowball Slurpee",
-				"Omelet",
-				"Arugula Roll",
-				"Fried Fish a la Ridge",
-				"Fried Mountain Greens",
-				"Highland Ice Cream",
-				"Honey Glazed Salad",
-				"Ridge Fruity Plate",
-				"Snow Bowl Surprise",
-				"Zesty Tuna",
-				"Spaghetti",
-				"Lucky Lunch",
-				"Pumpkin Soup",
-				"Blackberry Cobbler",
-				"Salad",
-				"Pepper Poppers",
-				"Bean Hotpot",
-				"Tom Kha Soup",
-				"Stir Fry",
-				"Coleslaw",
-				"Fish Taco",
-				"Farmer's Lunch",
-				],
-			"Stock": 1,
-		},
-    {
 			"ItemType": "Object",
 			"ItemNames": [
 				"Springtime Primetime",
@@ -672,6 +641,40 @@
 				],
 			"Stock": 1,
 			"When": [ "!z winter/n RSV.PikaWinter" ]
+		},
+		//Normal Food
+		{
+			"ItemType": "Object",
+			"ItemNames": [
+				"Arugula Roll",
+        "Autumn Dew Drop Juice",
+        "Bean Hotpot",
+        "Blackberry Cobbler",
+        "Cherry Berry Shakey",
+        "Coleslaw",
+        "Farmer's Lunch",
+        "Fish Taco",
+				"Fried Fish a la Ridge",
+				"Fried Mountain Greens",
+        "Ginger Arugula Fried Rice",
+				"Highland Ice Cream",
+        "Honey Ginger Whitefish",
+				"Honey Glazed Salad",
+        "Lucky Lunch",
+        "Omelet",
+        "Pepper Poppers",
+        "Pumpkin Soup",
+				"Ridge Fruity Plate",
+        "Ridgeside Shaketini",
+        "Salad",
+				"Snow Bowl Surprise",
+        "Snowball Slurpee",
+        "Spaghetti",
+        "Stir Fry",
+        "Tom Kha Soup",
+				"Zesty Tuna",
+				],
+			"Stock": 1,
 		},
 	],
 	},
@@ -719,29 +722,10 @@
         //"zh": "PLACEHOLDER",
     	},
 	"ItemStocks": [
-		//Food
+    // Seasonal recipes
 		{
 			"ItemType": "Object",
 			"IsRecipe": true,
-			"ItemNames": [
-				"Summit Iced Tea",
-				"Ridgeside Shaketini",
-				"Autumn Dew Drop Juice",
-				"Cherry Berry Shakey",
-				"Snowball Slurpee",
-				"Arugula Roll",
-				"Fried Fish a la Ridge",
-				"Fried Mountain Greens",
-				"Highland Ice Cream",
-				"Honey Glazed Salad",
-				"Ridge Fruity Plate",
-				"Snow Bowl Surprise",
-				"Zesty Tuna",
-				],
-		},
-    {
-			"ItemType": "Object",
-      "IsRecipe": true,
 			"ItemNames": [
 				"Springtime Primetime",
 				],
@@ -770,6 +754,28 @@
 				"Winter Night Feast",
 				],
 			"When": [ "!z winter/n RSV.PikaWinter" ]
+		},
+		//Normal food
+		{
+			"ItemType": "Object",
+			"IsRecipe": true,
+			"ItemNames": [
+        "Arugula Roll",
+        "Autumn Dew Drop Juice",
+        "Cherry Berry Shakey",
+        "Fried Fish a la Ridge",
+				"Fried Mountain Greens",
+        "Ginger Arugula Fried Rice",
+				"Highland Ice Cream",
+        "Honey Ginger Whitefish",
+				"Honey Glazed Salad",
+        "Ridge Fruity Plate",
+				"Ridgeside Shaketini",
+        "Snow Bowl Surprise",
+				"Snowball Slurpee",
+        "Summit Iced Tea",
+				"Zesty Tuna",
+				],
 		},
 	],
 	},
@@ -919,7 +925,7 @@
 			"ItemNames": [ "Ark Blade", ],
 			"StockItemCurrency": "Spiritual Essence",
 			"StockCurrencyStack": 100,
-			"When": [ "f Anton 2500" ],
+			"When": [ "f Anton 2500/!q 75163042" ],
 		},
 		{
 			"ItemType": "Weapon",
@@ -927,13 +933,6 @@
 			"StockItemCurrency": "Spiritual Essence",
 			"StockCurrencyStack": 100,
 			"When": [ "f Ariah 2500" ],
-		},
-		{
-			"ItemType": "Weapon",
-			"ItemNames": [ "Death's Daughter", ],
-			"StockItemCurrency": "Spiritual Essence",
-			"StockCurrencyStack": 100,
-			"When": [ "f Blair 2500" ],
 		},
 		{
 			"ItemType": "Weapon",
@@ -989,7 +988,7 @@
 			"ItemNames": [ "Military Saber", ],
 			"StockItemCurrency": "Spiritual Essence",
 			"StockCurrencyStack": 100,
-			"When": [ "f Paula 2500" ],
+			"When": [ "f Paula 2500/!q 75163521" ],
 		},
 		{
 			"ItemType": "Weapon",
@@ -1034,6 +1033,13 @@
 
 	"ItemStocks": [
 		//Weapons
+    { //Anton
+			"ItemType": "Weapon",
+			"ItemNames": [ "Ark Blade", ],
+			"StockItemCurrency": "Spiritual Essence",
+			"StockCurrencyStack": 100,
+			"When": [ "e 75160392" ],
+		},
     { //Kenneth
 			"ItemType": "Weapon",
 			"ItemNames": [ "Battery-Powered Battle Hammer", ],
@@ -1054,6 +1060,13 @@
 			"StockItemCurrency": "Spiritual Essence",
 			"StockCurrencyStack": 50,
 			"When": [ "e 75160368" ],
+		},
+    { //Blair
+			"ItemType": "Weapon",
+			"ItemNames": [ "Death's Daughter", ],
+			"StockItemCurrency": "Spiritual Essence",
+			"StockCurrencyStack": 100,
+			"When": [ "f Blair 2500" ],
 		},
     { //Kiarra
 			"ItemType": "Weapon",
@@ -1082,6 +1095,13 @@
 			"StockItemCurrency": "Spiritual Essence",
 			"StockCurrencyStack": 50,
 			"When": [ "e 75160150" ],
+		},
+    { //Paula
+			"ItemType": "Weapon",
+			"ItemNames": [ "Military Saber", ],
+			"StockItemCurrency": "Spiritual Essence",
+			"StockCurrencyStack": 100,
+			"When": [ "e 75160390" ],
 		},
 		{ //Flor
 			"ItemType": "Weapon",
@@ -1148,10 +1168,10 @@
 		//Weapons
 		{
 			"ItemType": "Weapon",
-			"ItemNames": [ "Cute but Deadly Knife", ],
+			"ItemNames": [ "Bladebane", ],
 			"StockItemCurrency": "Spiritual Essence",
 			"StockCurrencyStack": 50,
-			"When": [ "e 75160180/f Kiwi 2500" ],
+			"When": [ "e 75160077/f Freddie 2500" ],
 		},
     {
 			"ItemType": "Weapon",
@@ -1162,10 +1182,10 @@
 		},
 		{
 			"ItemType": "Weapon",
-			"ItemNames": [ "Bladebane", ],
+			"ItemNames": [ "Cute but Deadly Knife", ],
 			"StockItemCurrency": "Spiritual Essence",
 			"StockCurrencyStack": 50,
-			"When": [ "e 75160077/f Freddie 2500" ],
+			"When": [ "e 75160180/f Kiwi 2500" ],
 		},
 		{
 			"ItemType": "Weapon",
@@ -1197,18 +1217,17 @@
 		},
 		{
 			"ItemType": "Weapon",
+			"ItemNames": [ "Ridgeback Hardshell", ],
+			"StockItemCurrency": "Spiritual Essence",
+			"StockCurrencyStack": 100,
+			"When": [ "e 75160286/f Torts 2500" ],
+		},
+		{
+			"ItemType": "Weapon",
 			"ItemNames": [ "Tide Bringer", ],
 			"StockItemCurrency": "Spiritual Essence",
 			"StockCurrencyStack": 100,
 			"When": [ "f Malaya 2500" ],
-		},
-		{
-			"ItemType": "Object",
-			"ItemNames": [ "Old Lucky Foxtail Charm", ],
-			"StockItemCurrency": "Spiritual Essence",
-			"StockCurrencyStack": 1,
-      "Stock": 1,
-			"When": [ "e 75160333" ], //Lorenzo 1 heart event
 		},
 	],
 	},
@@ -1677,6 +1696,7 @@
 				"Fluffy Apple Crumble",
 				"Forage Souffle",
 				"Forest Halva",
+        "Ginger Rangpur Meringue",
 				"Highland Blueberry Pie",
 				"Highland Revani",
 				"Holiday Ice",
@@ -1710,22 +1730,66 @@
       "Stock": 3,
       "When": [ "n OlgaSOLetter" ],
 		},
+	],
+	},
+
+	//------------
+	//MalayaRecipes
+	//------------
+	{
+	"ShopName": "RSVMalayaRecipes",
+	"StoreCurrency": "Money",
+	"CategoriesToSellHere": [ -5,-6,-79 ],
+	"Quote": "Malaya's Weekend Recipes!",
+	"ClosedMessage": "Recipes available during weekends!",
+	"ShopPrice": -1,
+	"DefaultSellPriceMultiplier": 0.7,
+	"When": ["d Mon Tue Wed Thu Fri"],
+	"LocalizedQuote": {
+    	//remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    	},
+	"LocalizedClosedMessage": {
+    	//remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    	},
+	"ItemStocks": [
 		//Pastry Recipes
 		{
 			"ItemType": "Object",
 			"IsRecipe": true,
 			"ItemNames": [
+        "Apricot Juice",
+				"Clementine Juice",
+				"Wild Apple Juice",
+        "Ginger Rangpur Meringue",
+        "Hundred Flavor Doughnut",
 				"Kedi Delight",
 				"Kek's Style Shortcake",
 				"Kek's Small Dream",
 				"Pillowsoft Cheezy Sandwich",
 				"Pink Frosted Sprinkled Doughnut",
-				"Hundred Flavor Doughnut",
-				"Apricot Juice",
-				"Clementine Juice",
-				"Wild Apple Juice"
 				],
-			"When": [ "y 2" ],
 		},
 	],
 	},
@@ -1742,7 +1806,7 @@
 	"ShopPrice": -1,
 	"DefaultSellPriceMultiplier": 2.5,
 	"PriceMultiplierWhen": {
-		"1.25": ["f Kimpoi 2000"]
+		".5": ["f Kimpoi 2000"]
 		},
 	"When": ["NPCAt Kimpoi 10 5"],
 	"ClosedMessage": "Sorry, we're closed!",
@@ -1790,17 +1854,17 @@
 		//Year Two
     {
 			"ItemType": "Object",
-			"ItemNames": [ "Tree Fertilizer", ],
-			"StockPrice": 150,
-      "When": [ "y 2" ]
-		},
-		{
-			"ItemType": "Object",
 			"ItemNames": [
 				"Desert Tangelo Sapling",
 				"Ember Blood Lime Sapling",
 				],
 			"When": [ "y 2" ]
+		},
+    {
+			"ItemType": "Object",
+			"ItemNames": [ "Tree Fertilizer", ],
+			"StockPrice": 150,
+      "When": [ "y 2" ]
 		},
 	],
 	},
@@ -1812,34 +1876,31 @@
 	"ShopName": "RSVHeapsStore",
 	"StoreCurrency": "Money",
 	"CategoriesToSellHere": [
-    -81,
-    -75,
-		-4,
-		-5,
-		-6,
-		-7,
-    -8,
-    -9,
-    -79,
-    -74,
-    -80,
-    -16,
+		-4, //fish
+		-5, //eggs
+		-6, //milk
+		-7, //cooking
+    -8, //crafting
+    -9, //bigCraftables
+    -16, //building resources
     -17, //sellAtPierres
     -18, //sellAtPierresAndMarnies
-    -19,
-    -21,
-    -22,
+    -19, //fertilizer
+    -21, //bait
+    -22, //tackle
     -23, //sellAtFishShop
-    -24,
-    -25,
-    -26,
-    -27,
-    -29,
-    -94,
-    -95,
-    -96,
-    -99,
-    -100,
+    -24, //furniture
+    -25, //ingredients
+    -26, //artisan goods
+    -27, //syrup
+    -29, //equipment
+    -74, //seeds
+    -75, //vegetables
+    -79, //fruits
+    -80, //flowers
+    -81, //greens
+    -95, //hats
+    -96, //rings
 	],
 	"PortraitPath": "assets/HeapsShop.png",
 	"Quote": "Welcome! You can sell almost anything here too!",
@@ -1913,6 +1974,33 @@
 			"Stock": 1,
 			"StockPrice": 500,
 			"When": [ "r .1" ]
+		},
+		{
+			"ItemType": "Object",
+			"ItemNames": [
+				"Sprinkler",
+			],
+			"Stock": 3,
+			"StockPrice": 500,
+			"When": [ "q 75163581" ]
+		},
+		{
+			"ItemType": "Object",
+			"ItemNames": [
+				"Cherry Bomb",
+			],
+			"Stock": 12,
+			"StockPrice": 250,
+			"When": [ "q 75163582" ]
+		},
+		{
+			"ItemType": "Object",
+			"ItemNames": [
+				"Speed-Gro",
+			],
+			"Stock": 9,
+			"StockPrice": 50,
+			"When": [ "q 75163583" ]
 		},
 		{
 			"ItemType": "Object",
@@ -2010,8 +2098,8 @@
 			"ItemNames": [
 				"Quality Fertilizer"
 			],
-			"StockPrice": 80,
-			"When": [ "!f Lorenzo 2000" ]
+			"StockPrice": 250,
+			"When": [ "y 1" ]
 		},
     {
 			"ItemType": "Object",
@@ -2089,7 +2177,7 @@
 	{
 	"ShopName": "RSVFayeShop",
 	"StoreCurrency": "Money",
-	"CategoriesToSellHere": [ -94,-95,-96,-97,-100 ],
+	"CategoriesToSellHere": [],
 	"Quote": "Place your order! Designs change everyday!",
 	"MaxNumItemsSoldInStore": 2,
 	"LocalizedQuote": {
@@ -2144,6 +2232,48 @@
 			"StockPrice": 5000,
 			"Stock": 1,
       "When": [ "n RSV.FayePastel" ]
+		},
+	],
+	},
+
+	//------------
+	//EggFestKeahiTrinnie
+	//------------
+	{
+	"ShopName": "RSVEggFestKeahiTrinnie",
+	"StoreCurrency": "Money",
+	"Quote": "Keahi and Trinnie's Egg Kitchen!",
+	"LocalizedQuote": {
+    	//remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        "pt": "Cozinha de Ovos Keahi e Trinnie!",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+    	},
+	"ShopPrice": -1,
+	"DefaultSellPriceMultiplier": 1.0,
+
+	"ItemStocks": [
+		{
+			"ItemType": "Object",
+			"ItemNames": [
+				"Egg",
+			],
+			"StockPrice": 50,
+		},
+		{
+			"ItemType": "Object",
+			"ItemNames": [
+				"Fried Egg",
+				"Omelet"
+			],
 		},
 	],
 	},

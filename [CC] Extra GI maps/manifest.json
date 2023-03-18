@@ -1,0 +1,12 @@
+﻿{
+	"Name": "Extra GI Animals",
+	"Author": "mistyspring",
+	"Version": "1.0.0",
+	"Description": "Adds wandering animals to ginger island.",
+	"UniqueID": "mistyspring.GImapsCC",
+	"UpdateKeys": [ "Nexus:???" ],
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.CustomCompanions",
+		"MinimumVersion": "1.4.3"
+  }
+}

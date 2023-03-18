@@ -1,0 +1,97 @@
+    {
+        "Changes": [
+            {
+                "LogName": "Mainland Dialogue",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/Leo",
+                "Entries": {
+                    "LeoDeparture": "Eu preciso encontrar um lugar para morar...$s#$b#Mas eu tenho um plano... Vou contar com meus amigos.",
+                    "Thu8": "A princípio me senti mal... deixar a ilha e colocar os pés em uma terra estranha.$s#$e#Mas, eu me acostumei com isso depois de um tempo.#$b#Sou uma pessoa muito flexível!$h",
+                    "Thu10": "Eu me senti um estranho aqui, no começo. Mas eu fiz muitos amigos!$h#$b#Pela primeira vez, eu sinto que pertenço...",
+                    "Tue": "A Srta. Penny está fazendo o seu melhor para me atualizar na minha escola. Ela é muito legal...#$e#...Felizmente, Eu me lembro de algumas coisas da minha velha, velha vida... antes de lavar a louça na ilha... então não é tão difícil quanto poderia ser.#$e#Srta. Penny diz que está impressionada com o quanto eu sei!",
+                    "Tue10": "Tenho certeza que Jas e Vincent pensaram que eu era estranho, no começo. Eu acidentalmente gritei na mesa da escola algumas vezes... isso não ajudou.$s#$e#Foi uma grande mudança para todos. Mas somos bons amigos agora!$h",
+                    "18": "Quando cheguei pela primeira vez, Linus fez para mim um terno de folhas, como o seu...#$b#Mas eu parecia engraçado... como uma manga felpuda!$h#$e#Eu acho que vou ficar com minhas penas.",
+                    "Wed": "Com Linus e Srta. Penny, vou aprender tudo o que há para aprender!$h#$e#O prefeito Lewis diz que estou no caminho certo para me tornar um 'cidadão completo'... o que quer que isso signifique.",
+                    "Thu": "Você já notou todos os pássaros interessantes que vivem aqui?#$e#Se você ouvir com atenção, eles podem lhe dizer algo.",
+                    "winter_Thu": "Os pássaros deste vale não se importam tanto com o frio.#$e#Estou com um pouco de ciúme de seus casacos quentes...$s",
+                    "4": "Eu vi uma grande manga flutuando no céu. Linus me disse que era um balão de ar quente!$u#$b#Eu pensei que apenas pássaros poderiam voar...",
+                    "Fri": "Linus tem me ensinado sobre toda a comida selvagem do vale. Tem muita coisa boa aqui!$h#$e#Embora... eu meio que sinto falta de comer nozes douradas no café da manhã todas as manhãs...$s",
+                    "winter_Fri": "Linus me ensinou como fazer uma especiaria especial de peixe friccionado com baga...#$b#Ele diz que se eu comer o suficiente, me manterá aquecido neste inverno!$h",
+                    "Fri8": "Tio Linus diz que eu deveria 'cozinhar' meu peixe antes de comê-lo...$s#$b#Estou tendo dificuldade para me acostumar com isso... Tão seco...$s",
+                    "Mon": "Hey, @. É bom ver você de volta à ilha, como nos velhos tempos. Isto é divertido!#$e#Você sabe, eu estava com medo quando você chegou... Eu sabia que minha vida estava prestes a mudar.$u",
+                    "Sun": "Você sabe, Stardew Valley pode ser minha nova casa... mas a ilha sempre será minha casa também.#$e#É bom poder voltar e visitar.",
+                    "Sat": "Talvez algum dia eu visite a cidade de Zuzu...$u#$b#Mas não estou nem perto de estar pronto, ainda. Este mundo já é tão estranho para mim, e estou muito confortável aqui agora!$h",
+                    "Sun10": "Os papagaios querem que eu agradeça por todas as nozes douradas que você encontrou. Eles estão gostando muito deles.$h",
+                    "Sat10": "@? Hum... é um pouco embaraçoso perguntar...$u#$b#Mas... você acha que Jas gosta de mim?$u#$b#Ou eu sou muito estranho?$s#$e#Esqueça... quem se importa. Eu vou descobrir algum dia.$h",
+                     //New dialogue
+                    "Wed10": "Eloise não acha estranho quando eu grito. Não mesmo! Ela quer que eu a ensine a falar com os pássaros também.$1#$b#Mas não se trata apenas de falar, é também de ouvir... E às vezes ela não é tão boa nisso.",
+                    "fall_Fri10": "Eloise quer vir para a ilha comigo para conhecer minha família de pássaros.$1#$b#Mas eu não sei... E se ela achar que sou estranho? Você acha que ela se importaria?$2",
+                    "EloisePuppyTalk": "Eloises me convidou para um parque de cachorros, mas eu teria que viajar de carro.#$b#Parecia um pouco assustador, então eu disse 'Não'. Acho que isso a deixou triste...$2"
+                },
+                "When": {
+                    "HasSeenEvent |contains=6497428": true
+                }
+            },
+            {
+                "LogName": "Mainland Dialogue",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/LeoMainland",
+                "Entries": {
+                    "Wed10": "Eloise não acha estranho quando eu grito. Não mesmo! Ela quer que eu a ensine a falar com os pássaros também.$1#$b#Mas não se trata apenas de falar, é também de ouvir... e às vezes ela não é tão boa nisso.",
+                    "fall_Fri10": "Eloise quer vir para a ilha comigo para conhecer minha família de pássaros.$1#$b#Mas eu não sei... e se ela perceber que sou estranho? Você acha que ela se importaria?$2",
+                    "EloisePuppyTalk": "Eloises me convidou para um parque de cachorros, mas eu teria que viajar de carro.#$b#Parecia um pouco assustador, então eu disse 'Não'. Acho que isso a deixou triste...$2"
+                },
+            },
+            {
+                "LogName": "Mainland Schedule",
+                "Action": "EditData",
+                "Target": "Characters/schedules/Leo",
+                "Entries": {
+                    "9": "NOT friendship Sam 6 Penny 6/GOTO spring",
+                    "23": "NOT friendship Sam 6 Penny 6/GOTO spring",
+                    "rain": "0 LeoTreeHouse 2 2 0/700 LeoTreeHouse 2 2 0/1000 Tent 1 3 1 \"Strings\\schedules\\Leo:tent\"/1500 Mountain 18 7 1/1900 LeoTreeHouse 2 5 3/2200 LeoTreeHouse 5 4 1 leo_sleep",
+                    "winter_15": "0 LeoTreeHouse 2 2 0/1100 Mountain 30 9 3/1600 Beach 21 4 2 \"Strings\\schedules\\Leo:winter_15.000\"/2330 LeoTreeHouse 5 4 1 leo_sleep",
+                    "summer": "0 LeoTreeHouse 2 2 0/630 Mountain 35 15 2/940 Mountain 48 24 1/1300 Mountain 49 31 1 square_1_3/1600 Mountain 30 9 3/2000 LeoTreeHouse 2 5 3/2200 LeoTreeHouse 5 4 1 leo_sleep",
+                    "fall": "0 LeoTreeHouse 2 2 0/740 Mountain 30 9 3/900 Town 65 48 2/1400 Mountain 43 17 1/2000 LeoTreeHouse 4 2 1/2200 LeoTreeHouse 5 4 1 leo_sleep",
+                    "winter": "0 LeoTreeHouse 2 2 01100 Mountain 30 9 3/1400 ArchaeologyHouse 12 9 0 \"Strings\\schedules\\Leo:winter.000\"/2000 LeoTreeHouse 2 2 0/2200 LeoTreeHouse 5 4 1 leo_sleep",
+                    "Tue": "0 LeoTreeHouse 2 2 0/900 ArchaeologyHouse 18 12 0 leo_sit_up \"Strings\\schedules\\Leo:school\"/1400 Town 91 104 2/1620 Mountain 30 9 3 \"Strings\\schedules\\Leo:dinner\"/2000 LeoTreeHouse 2 5 3/2200 LeoTreeHouse 5 4 1 leo_sleep",
+                    "Wed": "GOTO Tue",
+                    "Sat": "0 LeoTreeHouse 2 2 0/940 Town 34 90 2/1200 Town 19 14 2 square_5_1/1700 Mountain 30 9 3/1900 LeoTreeHouse 2 5 3/2200 LeoTreeHouse 5 4 1 leo_sleep",
+                    "Sun": "610 IslandHut 7 7 0/1030 IslandSouth 38 31 2/1330 IslandEast 7 44 2/1700 IslandNorth 53 71 2/2000 IslandHut 11 10 1 leo_sleep",
+                    "Mon": "0 IslandHut 7 7 0/930 IslandSouth 7 9 2/1400 IslandEast 21 11 2/1700 IslandHut 6 6 0/2100 IslandHut 11 10 1 leo_sleep",
+                    "spring": "0 LeoTreeHouse 2 2 0/700 Mountain 30 9 3/930 Mountain 44 18 1/1400 Mountain 30 9 3/1900 LeoTreeHouse 2 5 3/2200 LeoTreeHouse 5 4 1 leo_sleep"
+                },
+                "When": {
+                    "HasSeenEvent |contains=6497428": true
+                }
+            },
+            {
+                "LogName": "Mainland Schedule",
+                "Action": "EditData",
+                "Target": "Characters/schedules/Leo",
+                "Entries": {
+                    "Sun": "0 LeoTreeHouse 2 2 0/940 Town 34 90 2/1200 Town 19 14 2 square_5_1/1700 Mountain 30 9 3/1900 LeoTreeHouse 2 5 3/2200 LeoTreeHouse 5 4 1 leo_sleep",
+                    "Mon": "0 LeoTreeHouse 2 2 0/940 Town 34 90 2/1200 Town 19 14 2 square_5_1/1700 Mountain 30 9 3/1900 LeoTreeHouse 2 5 3/2200 LeoTreeHouse 5 4 1 leo_sleep",
+                    "rain": "0 LeoTreeHouse 2 2 0/700 LeoTreeHouse 2 2 0/1000 Tent 1 3 1 \"Strings\\schedules\\Leo:tent\"/1500 Mountain 18 7 1/1900 LeoTreeHouse 2 5 3/2200 LeoTreeHouse 5 4 1 leo_sleep"
+                },
+                "When": {
+                    "Weather: Island": "rain",
+                    "DayOfWeek": "Sunday, Monday",
+                    "HasSeenEvent |contains=6497428": true
+                }
+            },
+            /*  {
+                "Action": "EditData",
+                "Target": "Characters/schedules/Leo",
+                "Entries": {
+                    "Tue": "0 LeoTreeHouse 2 2 0/930 CommunityCenter 18 22 0 leo_sit_up \"Strings\\schedules\\Leo:school\"/1400 Town 91 104 2/1620 Mountain 30 9 3 \"Strings\\schedules\\Leo:dinner\"/2000 LeoTreeHouse 2 5 3/2200 LeoTreeHouse 5 4 1 leo_sleep",
+                    "rain": "0 LeoTreeHouse 2 2 0/1000 Tent 1 3 1 \"Strings\\schedules\\Leo:tent\"/1040 CommunityCenter 40 10 0 square 5_1_0 \"Strings\\schedules\\Leo:CC_{{random:FT1,FT2,FT3}}\"/1300 CommunityCenter 5 10 0/1500 LeoTreeHouse 2 5 3/2200 LeoTreeHouse 5 4 1 leo_sleep"
+                },
+                "When": {
+                    "HasSeenEvent |contains=6497428": true,
+                    "HasSeenEvent |contains=191393": true,
+                    "HasMod": "LemurKat.CommunityCenter.CP"
+                }
+            }*/
+        ]
+    }

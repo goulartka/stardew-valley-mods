@@ -1,0 +1,68 @@
+{
+    "Josephine_Arrives":"Ei, você é o novo fazendeiro local, certo? O prefeito Lewis tinha muito a dizer sobre você^Ei, você é a nova fazendeira local, certo? O prefeito Lewis tinha muito a dizer sobre você.#$b#Oh, não se preocupe, a maior parte foi boa!$1",
+    //Resort ..............................................................
+    "Resort_Entering": "Este lugar é bem perverso!$1",
+    "Resort_Leaving": "Espero que haja algo bom para o jantar. Estou faminto!$1",
+    "Resort_Shore": "Heh, estou apenas curtindo a vista.#$b#O que? Estou procurando tubarões!$4",
+    "Resort_Wander": "Você já explorou o vulcão, @? Parece muito épico!$1",
+    "Resort": "Yoba, mamãe me faz passar tanto protetor solar... Estou todo gorduroso. É nojento.$a",
+    //Base Dialogue ...........................................................
+    "Mon": "O doutor disse que o ar do campo faria bem aos meus pulmões. Suponho que ela estava certa.",
+    "Tue": "Olá! Me desculpe esqueci seu nome...$s",
+    "Wed": "Ei, o que é divertido fazer por aqui? Quer dizer, a natureza é linda e tudo mais - mas também é meio chata.$4",
+    "Thu": "Às vezes sinto falta da cidade. Aqui é tudo tão tranquilo. Muito pacífico, não acha?#$b#Faz você se perguntar se há algo escondido apenas fora de vista.$2#$b#Hah, estou brincando.$1",
+    "Fri": "Ah, já terminei meu trabalho escolar da semana. Hora de se divertir, eu acho?#$b#O que é divertido fazer por aqui?",
+    "Sat": "Esta noite? Sim, estarei saindo com meus amigos.#$b#O chat online não é a mesma coisa... mas é melhor do que nada, não é?$2",
+    "Sun": "$q 5787300 Oliver_VidGames#Você gosta de video games, @?#$r 5787301 50 Oliver_VidGames_Love#Como esse? Adoro eles!#$r 5787301 25 Oliver_VidGames_Like#Sim, eles são divertidos!#$r 5787302 0 Oliver_VidGames_Neutral#Nah, na verdade não.#$r 5787302 -50 Oliver_VidGames_Dislike#Não, eles são uma completa perda de tempo.",
+    "Oliver_VidGames_Love": "Legal! Qual é o seu favorito?#$b#Talvez pudéssemos tentar aquele próximo!$1",
+    "Oliver_VidGames_Like": "Doce. Que bom que você entendeu.$1",
+    "Oliver_VidGames_Neutral": "Sim, eu percebi.",
+    "Oliver_VidGames_Dislike": "Qualquer que seja. Você não precisa ser rude sobre isso.$a",
+    "Oliver_VidGames": "$p 5787301#Hey @! Jogou algum jogo recentemente? Se você quiser se juntar ao nosso MMO, me avise!$1|Hello @. Sim, estou cansado. Fiz uma grande incursão na noite passada. Não que você entenda.",
+    //2 hearts ..................................................................
+    "Tue2": "Você acredita nisso? Na verdade, mamãe perguntou a Penny se ela seria minha tutora! Como se eu fosse uma maldita aluna do meio da série!$a#$b#Eu tenho livros e meu computador... mas mamãe acha que será melhor para mim socializar!#$b#Como se eu quisesse sair com algumas crianças...$a",
+    "Thu2": "Oh, não estou com vontade de falar hoje. OK?$2",
+    "Sat2": "Sim, sinto falta dos meus amigos na cidade. Quer dizer, eu os vejo no Zaap todas as semanas, mas não é a mesma coisa.$2",
+    "summer_Sun2": "Mamãe estava realmente preocupada comigo esta manhã. Só porque eu levantei até o amanhecer.$a#$b#Ela simplesmente não entende.$a",
+    //4 hearts ....................................................................
+    "Mon4": "Meu pai e eu íamos ao parque. Víamos outras crianças jogando bolas e brincando com seus cachorros.#$b#Foi bom, eu acho, mas meio que me deixou triste também.$2",
+    "Fri4": "Eu gostaria que houvesse aqui algum lugar da minha idade... Embora Sam pareça muito legal.#$b#Mas ele e seus amigos... eles são muito próximos. Não iria querer uma criança como eu por aí.$2",
+    "winter_Sat4": "Hoje à noite a gangue e eu vamos invadir o Pântano da Névoa Eterna.$1#$b#Às vezes me pergunto como seria usar uma espada de verdade e lutar contra monstros de verdade...#$b#Mas mamãe vai me deixar de castigo se eu estiver lá fora depois das dez.$s",
+    "fall_Sun4": "*Boceja* Ah, eu e a turma passamos metade da noite atacando. Mas nós derrubamos o Nightstalker!$1#$b#Não diga a mamãe, ok? Ela diz que precisamos de pelo menos oito horas de sono... e eu tive tipo quatro...$2",
+    //6 hearts ...............................................................
+    "Tue6": "$d joja#Você conheceu a garota que trabalha no mercado Joja?#$b#Ela é bem bonita, não acha?$3^Ela é bonita... Gostaria de saber como falar com ela.$2|Eu gostaria de saber como falar com garotas...$2#$b#Você tem alguma dica?",
+    "Wed6": "Você acha que a Srta. Aideen é bonita?$4#$b#Ela é um pouco arrogante embora...$2",
+    "Fri6": "Wanna play pool sometime? I've been practicing my game.$1#$b#Achei que seria divertido desafiar Sebastian um dia.",
+    //8 hearts ..............................................................
+    "Mon8": "Quando eu estava no hospital, papai costumava me visitar apenas algumas vezes por semana.$2#$b#Ele me trazia presentes, o que era legal... mas às vezes eu só queria ter visto mais dele, sabe?$4",
+    "Wed8": "Mamãe mal saiu do meu lado quando fiquei doente. Acho que ela não sabe mais o que fazer consigo mesma.$4",
+    "Sat8": "Ei, você acha que Rosa gosta de mim?$4#$b#O que? Não, eu não tenho uma queda por ela! Ela é muito legal, é tudo.$a",
+    "winter_Mon8":"Você é bom em cálculo, @? É uma perda de tempo.$a#$b#Quer dizer, eu consigo estatísticas e até álgebra, mas quando vou precisar de diferenciação?$2",
+    "winter_Fri8":"Hey @. A aula de biologia de hoje foi muito legal. Tenho que dissecar digitalmente um sapo. Legal, hein?$4#$b#E a melhor coisa? Nada morre, e você não precisa limpar todo o sangue e vísceras depois.$1",
+    "summer_Tue8":"Mamãe me pegou fazendo um experimento de química na cozinha. Yoba, ela estava chateado!$2#$b#É uma merda; onde mais eu devo fazer o trabalho de laboratório por aqui?$a",
+    "summer_Fri8":"Sim, há uma garota em nossa Guilda, certo? Ela é muito inteligente. Muito bonita, eu acho.#$b#Mas eu não acho que ela está a fim de mim. Não assim, de qualquer maneira. Está bem. Eu negocio.",
+    //festivals .............................................................
+    "summer_10_2": "Papai vem amanhã. É sempre divertido assistir o prefeito Lewis tentando impressioná-lo.$1",
+    "spring_23_2": "Você sabia que mamãe perguntou ao prefeito Lewis se eu poderia participar do baile. Fale sobre constrangedor!$2#$b#Graças a Yoba ele disse 'não'! Eu provavelmente tropeçaria nos meus próprios pés.$1#$b#Eu gostaria que ela apenas me perguntasse o que eu quero fazer em vez de decidir por mim.$a",
+    //change this one for following years, or after certain events seen.
+    "spring_12_2": "Claro, estarei junto para o Festival do Ovo, ouvi dizer que a comida está ótima.#$b#Não! Claro que não vou caçar ovos. Isso é tolice. Eu não sou criança.$a",
+    "winter_7_2": "Ouvi dizer que o Festival do Gelo é muito bonito. Então, suponho que vou deixar a mamãe me arrastar junto.",
+    //Questions ..............................................................
+    "Oliver_Wrong":"Você tem certeza sobre isso? Não parece muito certo...$2",
+    "Oliver_Right1":"Ei inteligente! Isso soa bem para mim.$1",
+    "Oliver_Right2":"Mesmo? Ah, claro!$1",
+    "Oliver_Right3":"Hmm, eu pensei que a esfinge estava falando sobre ela.",
+    "OliverLexi_A":"Você acha que eu não sei disso? Eu vim até você porque pensei que você iria ajudar, não esfregar!$5",
+    "OliverLexi_B":"Sim... E me fazer parecer um mentiroso em busca de atenção. Mas... Acho que você está certo. É a melhor maneira. E tenho certeza de que estão acostumados com boatos.$2#$b#Eu não suponho que você consideraria colocar um traje de borracha, não é??$3",
+    "OliverLexi_C":"Estou preocupado que eles fiquem com raiva de mim. Mas você está certo, eles merecem saber. E quem sabe? Talvez Lexi queira se tornar uma celebridade.$3",
+    //Conversation Topics ....................................................
+    "TalkOllyLexi": "Não, aqui não! Conversaremos na pousada. OK?$2",
+    "election":"Mamãe me disse que Morris é prefeito agora. Isso deve ser um choque para o Sr. Lewis. Pobre velho.$2#$b#Mudar é bom... Foi de um senhor da mansão por um figurão corporativo? Parece que estamos entrando de cabeça em um futuro distópico, certo?$1",
+    "reject_534":"Para que eu iria querer um anel? Parece mais com algo que Mamãe usaria.",
+    "KatarynaStillHere":"Vejo que a Srta Kataryna não saiu da Vila, afinal.$a#$b#É melhor ela ficar longe de Lexi.#$b#Você vai me ajudar, não vai, @?$1",
+    "AbyssRoosterGrow":"Espero que a Srta Kataryna cuide daquela Galinha. É uma ave muito esquisita.#$b#As outras Galinhas também não gostaram muito dela.$2",
+    //Gift Responses .........................................................
+    "GiftReaction_Rodney's_Autograph":"Isso é bem legal, mas o Sr. O'Brien já me deu um monte dessas.#$b#Eu estou até vendendo no 'uBuy'. Hum, não diga a ele tudo bem?$2"
+
+
+}

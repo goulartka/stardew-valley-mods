@@ -15,7 +15,7 @@
 	"Speed": 0,
 	"Defense": 0,
 	"Attack": 0,
-    "Duration": 300
+    "Duration": 300,
 	},
 	"Price": 80,
 	"IsColored": false,
@@ -30,14 +30,14 @@
         "Ingredients": [
         {
             "Object": 246,
-            "Count": 1
+            "Count": 1,
         },
         {
-            "Object": 176,
-            "Count": 1
+            "Object": -5,
+            "Count": 1,
         }
         ],
-        "CanPurchase": false
+        "CanPurchase": false,
     },
 
     "NameLocalization":

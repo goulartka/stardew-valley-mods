@@ -9,13 +9,13 @@
     "Fishing": 0,
     "Mining": 0,
     "Luck": 1,
-	"Foraging": 1,
-	"MaxStamina": 1,
+	"Foraging": 2,
+	"MaxStamina": 30,
     "MagnetRadius": 0,
 	"Speed": 0,
 	"Defense": 0,
 	"Attack": 0,
-    "Duration": 300
+    "Duration": 300,
 	},
 	"Price": 300,
 	"IsColored": false,
@@ -30,22 +30,22 @@
         "Ingredients": [
         {
             "Object": 246,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": 424,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": 426,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": "Mountain Arugula",
-            "Count": 1
-        }
+            "Count": 1,
+        },
         ],
-        "CanPurchase": false
+        "CanPurchase": false,
     },
 
     "NameLocalization":

@@ -1,0 +1,40 @@
+{
+    "Changes": [
+        {
+            "LogName": "Schedule",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Rosa",
+            "Entries": {
+                "fall_Mon6": "Você já leu o livro '{{random:Menina, Mulher, Homem, Senhora}} com o %adj %noun'?#$b#Foi divertido - Embora a reviravolta seje previsível!$1"
+            }
+        },
+        {
+            "LogName": "Schedule",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Rosa",
+            "When": {
+                "HasMod": "LemurKat.JulietHouse.NPC"
+            },
+            "Entries": {
+                "cc_Complete": "Eu vi que o JojaMart está fechado. O que aconteceu?#$b#Espero que isso não signifique que Juliet vá embora.$2",
+                "summer_Tue": "Você é amigo(a) da Juliet? Pensa numa mulher que conhece sua própria mente!$1",
+            }
+        },
+        {
+            "LogName": "Schedule",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Rosa",
+            "When": {
+                "HasMod": "LemurKat.JulietHouse.NPC",
+                "HasSeenEvent": "57874015"
+            },
+            "Entries": {
+                "Resort_Wander": "Shh, não diga a Juliet, mas vou levá-la para ver uma Sereia mais tarde.",
+                "winter_Fri10": "Juli apareceu ontem à noite. Ela está convencida de que este lugar é assombrado.#$b#Honestamente, não tenho certeza se ela está aqui para me ver ou tentar pegar um fantasma.#$b#Fico feliz pela companhia dela de qualquer maneira!$1",
+                "fall_Fri6": "Jule e eu conversamos sobre épocas assustadoras do ano e tudo mais.#$b#Você gostaria de participar?",
+                "Sun6": "Hah, você deveria vir se juntar a nós algum dia, durante as noite de sábado. Jule e eu temos jogado sinuca no Stardrop.#$b#Ela não é tão boa quanto pensa que é!$1#$e#Mas ela faz uma dancinha fofa quando ganha... Então às vezes eu erro de propósito.#$e#Esse é o nosso segredinho, 'Ok?$4",
+				"fall_Fri10": "Juliet apareceu ontem à noite. Assistimos a um filme, e ela adormeceu no meu ombro.#$b#Foi muito fofo, mesmo que ela babasse um pouco.$1",
+            }
+        }
+    ]
+}

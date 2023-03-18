@@ -1,0 +1,134 @@
+{
+  "Introduction": "Bom dia. Acredito que ainda não fomos apresentados.#$b#Você é o novo fazendeiro certo? Bem, você certamente se parece como um!^Você é a nova fazendeira certo? Bem, você certamente se parece como uma!#$b#Eu sou Aideen, é um prazer conhecê-lo^Eu sou Aideen, é um prazer conhecê-la.$1",
+  "Resort_Entering": "Que lugar absolutamente esplêndido!$1",
+  "Resort_Leaving": "%Aideen coloca cuidadosamente uma pequena embalagem embrulhada em seu bolso.#$b#Isso? São algumas amostras da flora local.",
+  "Resort_Shore": "Estas conchas... São divinas!#$b#Eu poderia incorporá-las ao meu trabalho, você não acha?",
+  "Resort_Umbrella": "É bom fazer uma pausa do sol. Eu não gostaria de me queimar.#$2",
+  "Resort_Wander": "Eu desejo explorar... Mas Willy nos advertiu para não nos afastarmos muito do Resort. #$b#Uma pena, pois tenho certeza de que este lugar deve ter muitas flores exóticas.",
+  "Resort_Bar": "Por favor, @, junte-se a mim em uma bebida.#$b#O que estou bebendo? É chamado de Pink Lady.$1",
+  "Resort": "É bom fazer uma pausa do vale de vez em quando",
+  "Mon": "É tão pacífico aqui em East Scarpe, longe daqueles jovens barulhentos.#$b#Aqui não há nada além dos cantos dos pássaros e som do oceano.",
+  "Tue": "Olá! O tempo maravilhoso, você não acha?#$b#Um dia fabuloso para ler no jardim! Cercado pelo maravilhoso perfume das rosas e das lavandas.",
+  "Wed": "Você está plantando flores na sua fazenda? Elas certamente deixarão o ambiente mais bonito!#$b#Gosto especialmente do Jazz Azul. Elas adicionam um toque único aos meus buquês.$1",
+  "Thu": "Ah, olá @. Você está se parecendo muito como um... Um fazendeiro hoje.^Ah, olá @. Você está se parecendo muito como uma... Uma fazendeira hoje.#$b#Qual é a fragrância que você está usando? É só o cheiro da terra? Que... cheiro único.",
+  "Fri": "O saloon? O fedor da cerveja... Você nunca me encontrara ali!#$b#Não, minha idéia de uma noite agradável é olhar para as estrelas. Ou ver o pôr-do-sol sobre o oceano.",
+  "Sat": "Meus vizinhos? O Dr. Jacob é educado, mas um pouco reservado, e Eloise... Ela é tão curiosa, sempre cheia de perguntas.",
+  "Sun": "Aquele terrível pescador tentou me vender algumas de suas mercadorias quando fui à cidade no outro dia!#$b#Não consegui suportar aquele cheiro horrível nem por um momento.",
+  "danceRejection": "Dançar? Com você? Oh, acho que não",
+  "divorced": "Ainda desesperado pela minha atenção? Já terminamos, Acabou! Com licença!$a",
+  "dumped_Girls": "Não tenho desejo de associar-me com você e manchar minha reputação.$a",
+  "breakUp": "Acabou? Sim, estou ferida e decpcionada. Mas espero me recuperar.$s",
+  "Mon2": "Espero que você não passe muito tempo pescando, @.#$b#É uma atividade tão bárbara, e o aroma é absolutamente horrível.$s",
+  "Tue2": "Minhas desculpas se pareço ter falta de temperamento, @.#$b#Barão Munchington viu algum rato ontem à noite, e transformou toda a casa em um caos total!#$b#Dormi muito mal essa noite.$2",
+  "Fri2": "É tão tranqüilo aqui à noite, @. Nada além de grilos e o suave som do oceano. #$b#Eu não suportava nem mais um pouco o barulho horrível do trânsito e das sirenes, das cidades.",
+  "Sun2": "Oh! Meu Deus, olá @. Você me assustou! Eu estava bastante perdida nos meus pensamentos.",
+  "Wed2": "O Barão Munchington provou ser um bom juiz de caráter, @. Embora eu me preocupe, às vezes, que sua opinião seja muito freqüentemente influenciada por seu apetite.",
+  "Tue4": "Você está cultivando flores em sua fazenda @? Eu adoraria tanto um(a) fornecedor(a) local.",
+  "spring_Sat6": "As flores da primavera são minhas preferidas! Suas cores alegres nunca deixam de me fazer sorrir.$1",
+  "Mon8": "Uma vez eu tive um pretendente...#$b#Não estávamos combinando bem. Mas, infelizmente, eu era jovem, e me recusei a ver a verdade disso.#$b#Eu imaginei que ele poderia mudar por mim! Uma fantasia verdadeiramente absurda.",
+  "Thu10": "Muito bem, eu admito isso. Não sou mais repelida por sua fragrância única.#$b#De fato, me sinto bastante atraído por ela. Isso não é muito peculiar?",
+  "Fri6": "East Scarpe? Creio que o nome na tradução ficaria Escarpas do Leste, o tradutor do mod deve ter achado muito ruim a versão em Portugues!#$b#Ridículo, não acha? Escarpas!$1",
+  "summer_1": "Espero que você esteja se preparado para o verão, @.",
+  "summer_Mon": "Você certamente parece ter trabalhado duro hoje. Posso sugerir um mergulho na praia?... Para se refresca é claro.",
+  // "summer_Tue": "",
+  "Summer_Wed": "Peixe para o Barão Munchington? Oh não! Eu nunca sonharia em alimentá-lo com essa carniça.",
+  "Summer_Thu": "Tempo assustadoramente quente, não acha?$3",
+  "summer_Fri": "Este calor tem sido muito indelicado para minhas pobres flores. Vejam como suas pétalas murcham!$2",
+  // "summer_Sat": "",
+  "Summer_Sun": "Os girassóis são flores tão alegres, não concorda @?$1",
+  "summer_Wed2": "Às vezes quero molhar os dedos dos pés na praia, mas... Oh! Está cheio de coisas nojentas e viscosas.$3",
+  "Summer_Tue4": "Você já se aventurou nas montanhas, @?#$b#Lá é tão selvagem e remoto, tembem tem o ar mais frio, e as flores... Oh, há as flores mais exóticas por lá!$h",
+  "summer_Sat6": "Este calor é simplesmente horrível! E essas malditas moscas...$a#$b#Estou ansiosa pelo Outono.",
+  "summer_Thu10": "Oh, de repente eu senti a cabeça leve. Deve ser o calor, pois não consigo imaginar o que mais poderia me afetar assim.",
+  /*"Summer_Fri10": "",
+  "fall_1": "",
+  "fall_Mon": "",
+  "fall_Tue": "",*/
+  "fall_Wed": "Peço desculpas se pareço pouco destraida. Minha última entrega chegou... E os pobres lírios foram esmagadas! $2#$b#Posso ser capaz de salvá-las... Mas oh, eu gostaria que eles tratassem minha preciosa carga com mais cuidado!",
+  "fall_Thu": "Todas as quintas-feiras, o Dr. Jacob passa para comprar flores para sua falecida esposa.#$b#É tão doce, mas tão triste.$2",
+  "fall_Sat": "Eu adoro o Outono, você não @? A temperatura é perfeita, e a cor? Linda!",
+  "fall_Sun6": "Você gosta de histórias de fantasmas, @?#$b#Existem rumores, você sabe, de que o East Scarpe está assombrada. Por quem, você pergunta?3$#$b#Oh! Os fantasmas dos mineiros que morreram aqui, é claro. Perdidos para sempre, sob a terra.#$b#Quando as sombras estão longas, e o vento chocalha nas árvores... Divertino não acha?.",
+  "fall_Mon8": "Você acha, talvez, que a Sra. Marnie e o Dr. Jacob possam fazer um belo par? #$b#Oh, não se importe comigo; eu tenho lido demais e enchi minha cabeça de sonhos fantasiosos.",
+  "fall_Thu6": "Dr. Jacob visita sua esposa uma vez por semana, mesmo depois de tanto tempo partida.#$b#Isso é amor, você acha, @? Nunca conseguindo largar?$2",
+  "fall_Thu8": "Você já esteve apaixonado(a) @? Sentiu a aceleração de seu pulso, e uma leveza quando alguém está próximo?#$b#É endossado com tanta freqüência na literatura, mas temo que a realidade venha a ser uma grande decepção.$s",
+  //"fall_Fri10": "",
+  "winter_1": "O cobertor de neve caiu sobre a terra, e as flores agora estão em hibernação.",
+  "winter_Mon": "O inverno é uma época tão sombria. Tão... Monocromática.#$b#Sinto falta das minhas amigas flores.$2#$b#Amigas? Oh, é apenas um termo extravagante, @.#$b#$b#Você imagina que eu consideraria as flores minhas amigas?$u",
+  "winter_Tue": "Há algo mágico sobre o nascer do sol no inverno, não concorda, @?#$b#Acordei cedo hoje, para tentar fazer um buquê especial.#$b#E agora meus dedos dos pés estão bem gelados.",
+  /* "winter_Wed": "",
+  "winter_Thu": "",
+  "winter_Fri": "",*/
+  "winter_Sat4": "Espero que você não tenha tido a noção de entrar nessas cavernas vis! $2#$b# Tão húmida, tão sombria... e positivamente transbordante com todo tipo de demônios terríveis!",
+  "winter_Sun8": "Hoje? Oh, pretendo me enrolar com um gato no colo e um livro nas mãos.#$b#Pode você pensar numa maneira melhor de passar um dia de inverno sombrio, @?",
+  "winter_Wed2": "Você já visitou Grampleton, @? Há o mais esplêndido empório de roupas.$1",
+  "winter_Thu10": "Oh @! Este frio morde até os meus ossos. Você se importaria muito se eu me aconchegasse com você para me aquecer?",
+  // "winter_Fri10": "",
+  "spring_12": "Estarei ajudando a Srta. Mullner com os arranjos florais para amanhã.#$b#A Caçada aos Ovos? Oh, não! Eu nunca participaria disso. É apenas para as crianças!",
+  "spring_12_2": "Estarei ajudando a Srta. Mullner com os arranjos florais para amanhã.#$b#A Caçada aos Ovos? Oh, não! Eu nunca participaria disso. É apenas para as crianças!",
+  "spring_23": "Olá @! Não posso parar para conversar, pois estou horrivelmente ocupado preparando os arranjos para o baile de amanhã! #$b# Espero que você participe. Embora possa ser um desafio encontrar um parceiro de dança. Todos aqui estão muito bem combinados.",
+  "spring_23_2": "Olá @! Eu não posso conversar. Estou horrivelmente ocupado preparando os preparativos para a dança de amanhã.#$b# Espero que você compareça. Há muitos aqui ansiosos para dançar com você.#$e#Me? Oh, meu Deus! O que lhe deu essa idéia? Comece com você e sua impertinência!",
+  "winter_7": "O festival do gelo? Oh não, você não vai me ver lá! #$b# As esculturas podem ser lindas... mas o cheiro? Gracioso não!#$3",
+  "winter_7_2": "Você está tentando me convencer a assistir amanhã a esse festival bárbaro?#$b# Não, eu estarei quente e aconchegante com o Barão Munchington.",
+  "fall_26": "É a véspera do Espírito amanhã? Eu me encontro com pouco interesse em zombar do sobrenatural.#$3#$b#Não, estarei em casa, com o Barão e um bom livro, e mais feliz ainda por ele.$1",
+  "summer_10": "O luau? É tão caótico! Não como os jantares que participei em Grampleton.#$b#Esses sim! Eram civilizados. Nada desse disparate.",
+  "summer_27": "Amanhã os habitantes da cidade se reúnem no cais para testemunhar a migração anual das Aguas-Vivas.#$b#Ainda não me decidi se vou participar.",
+  "winter_24": "Você já recebeu seu convite para o evento Estrela de Inverno? Não é um evento grandioso, mas tem seu charme.$1",
+  //Event responses:
+  "Ai2_1": "Oh meu Deus, o copo certamente está meio cheio para você, não está? Ainda assim, um pouco de otimismo certamente será vantajoso para a %farm, não duvido.",
+  "Ai2_2": "Oh, você não é Sr. Cynical.^Oh, você não é Sra. Cynical.#$b# Você está certo, é claro. Pelican Town dificilmente é Paradise Bay.#$b#No entanto, a paz pode ser uma atração em si mesma, não acha?",
+  "Ai2_3": "Picky?$a#$b#Não é vergonha, nem crime, ser perspicaz.#$b#De fato, seria muito desvantajoso convidar um hóspede indisciplinado para entrar em minha casa.#$b#Naquela nota, talvez seja hora de sair, pois certamente aquela fazenda deve requerer sua atenção.",
+  "Ai2_4": "Oh! O descaramento de vocês! Para escutar a conversa particular de uma senhora.#$b#Talvez você deva pegar seu nariz e metê-lo nos negócios de outra pessoa!$a",
+  //Unique Courtship Dialogue
+  "rejectNPCA": "Por que eu consideraria me casar com você?$a",
+  "rejectNPCB": "Você está me provocando? Eu não tenho nenhum desejo de me prender a você.$a",
+  "refusal_no_heartsA": "Oh! Você é realmente muito presunçoso(a)! Agora deixe-me em paz.$a", //eles não o conhecem
+  "refusal_no_heartsB": "Não. Deixe-me em paz.$u",
+  "engageA": "Acho que seu noivo não ficaria satisfeito se soubesse disso^Acho que sua noiva não ficaria satisfeita se soubesse disso.$a", // se você já está noivo, eu acho?
+  "engageB": "Você não tem senso comum?$u",
+   "marriedA": "Acho que seu noivo não ficaria contente em saber de suas infidelidades^Acho que sua noiva não ficaria contente em saber de suas infidelidades.$a", // se você já é casado, eu acho?
+  //"marriedB": "",
+  "give_flowersA": "Oh! são tão bonitas. Claro! Eu aceito! $4", //aceitando
+  "give_flowersB": "Oh! Sim, eu ficaria encantada em ser sua acompanhante! $4",
+  "give_pendant": "Você está falando sério? Por que se sim... @, eu gostaria de ter a honra de ser sua esposa.", //aceitando
+  //"stardrop_gift": "",
+  //"reject_two_heartA": "",
+  //"reject_two_heartB": "",
+  "reject_four_heartA": "Oh... Você é um(a) doce, elas são muito bonitas. Mas estou com medo, devo recusar.$6",
+  "reject_four_heartB": "Você fez isso para mim @? Temo que sua atenção tenha sido mal direcionada.#$b#Por favor, leve-os para outro lugar.$6",
+  "refusal_knownA": "Receio que você não seja o que procuro em um(a) pretendente @. Eu realmente sinto muito.$6",
+  "refusal_knownB": "Por favor, não vamos apressar as coisas. Devemos nos conhecer melhor antes que eu possa me comprometer.$6",
+  //"refusal_botherA": "",
+  //"refusal_botherB": "",
+  //Unique Jealousy Responses: - requer o mod. Basicamente significa que se você for pego dando um presente para outra pessoa "solteira", seu cônjuge não terá necessariamente ciúmes: a menos que você minta sobre isso, eu suponho...
+  //"giftquestion_yes": "",
+  //"giftquestion_lie": "",
+  "Aideen_102": "Vizinho? Oh, certamente não Sterling, ele pode exalar um certo encanto de menino, mas não! Ele mal é civilizado!3$#$b#O que? Você quer dizer o Dr. Jacob? Hmm... Bem, ele é certamente gentil e nós temos, ocasionalmente, participado de uma discussão estimulante sobre literatura e artes.$1#$b#Também, o Barão Munchington certamente gosta dele. Mas temo que ele me consideraria como uma mera sombra de sua esposa.$2",
+  "Aideen_103": "Por que, Sr. @!$4^Por que a Srta. @!$4#$b#Você deseja me cortejar?$7#$b#Bem, você exala um charme rural pitoresco.$1^Eu nunca fui cortejado por uma senhora antes! Isto é bem diferente.$1#$b#E eu certamente tenho gostado muito de você. Mas amor? Bem, talvez nossa história seja uma lenta queima, ao invés de uma rápida faísca, sim?$7",
+  "Aideen_104": "O Barão Munchington é certamente uma boa companhia, embora ele não possa conversa.",
+  "Aideen_105": "Uma perspectiva tão niilista, @. Não tenho certeza se aprecio seu cinismo. Por favor, leve-o para outro lugar.",
+  //Unique Gift Tastes
+  "GiftReaction_Ancient_Flower": "Oh! Esta é uma flor realmente impressionante. Onde você a encontrou?$4",
+  "GiftReactionCatergory_-80": "Obrigada! Isto vai ficar esplêndido em um buquê! $1",
+  "GiftReaction_Blue_Jazz": "Eu adoro essa! Adiciona um toque único a qualquer buquê.$4",
+  "GiftReaction_Rodney's_Autograph":"Oh! É uma fotografia autografada de Rodney. Incrivel. Eu poderia usá-la como um marcador, eu acho.$2",
+  "reject_534": "Oh não, isso é lindo, mas você não deveria me dar. É uma antiguidade! E olhe, tem uma inscrição.#$b#Você precisa encontrar o proprietário legítimo. Tenho certeza que ele sente falta disso!$1",
+  //Conversation Topics
+  "MateoAideenScene1":"Ah... Eu não posso acreditar, mas ainda estou pensando no meu encontro anterior...$2#$b#Isso mesmo, mas o discurso dele foi surpreendentemente eloquente.#$b#Ah, se ao menos ele olhassem por onde esta indo!$a",
+  "Aideen_Garden":"Tudo está se encaixando muito bem, meu amor. O jardim deve estar pronto em poucos dias.$1",
+  
+}
+/*“I don't believe we have been introduced. I am…”
+Or “Do I have the pleasure of addressing..?”
+Then “Pleased to make your acquaintance ….”
+Perhaps “How lovely to see you again” or “Good day” rather than “Hello”
+Sharron sent Today at 16:12
+Dating:
+Rather than calling it a date she might say “I should be delighted to accompany you to …” or “You may call on me at such and such time”
+The suitor might say “May I call on you, Miss…?” And after a date “May I call on you again?”
+Sharron sent Today at 16:12
+Random comments
+“How very tiresome!”
+“So you say”
+“Nothing of import”
+“Really, this is most unseemly!”
+*/

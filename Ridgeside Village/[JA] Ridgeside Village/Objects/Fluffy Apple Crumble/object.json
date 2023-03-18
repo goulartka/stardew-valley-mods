@@ -11,11 +11,11 @@
     "Luck": 0,
 	"Foraging": 0,
 	"MaxStamina": 0,
-    "MagnetRadius": 2,
+    "MagnetRadius": 64,
 	"Speed": 2,
 	"Defense": 2,
 	"Attack": 0,
-    "Duration": 300
+    "Duration": 300,
 	},
 	"Price": 420,
 	"IsColored": false,
@@ -30,22 +30,22 @@
         "Ingredients": [
         {
             "Object": 246,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": 408,
-            "Count": 3
+            "Count": 3,
         },
         {
             "Object": 613,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": "Ridge Wild Apple",
-            "Count": 1
-        }
+            "Count": 1,
+        },
         ],
-        "CanPurchase": false
+        "CanPurchase": false,
     },
 
     "NameLocalization":

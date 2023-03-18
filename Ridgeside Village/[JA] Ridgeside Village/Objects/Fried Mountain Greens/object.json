@@ -11,17 +11,17 @@
     "Luck": 0,
 	"Foraging": 3,
 	"MaxStamina": 0,
-    "MagnetRadius": 1,
+    "MagnetRadius": 32,
 	"Speed": 0,
 	"Defense": 0,
 	"Attack": 0,
-    "Duration": 300
+    "Duration": 300,
 	},
 	"Price": 240,
 	"IsColored": false,
 	"GiftTastes":
 	{
-		"Love": ["Keahi", "Ysabelle"]
+		"Love": ["Keahi", "Ysabelle"],
 	},
     "Recipe":
     {
@@ -29,18 +29,18 @@
         "Ingredients": [
         {
             "Object": 247,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": "Highland Chard",
-            "Count": 2
+            "Count": 2,
         },
         {
             "Object": "Mountain Arugula",
-            "Count": 1
-        }
+            "Count": 1,
+        },
         ],
-        "CanPurchase": false
+        "CanPurchase": false,
     },
 
     "NameLocalization":

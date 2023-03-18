@@ -5,11 +5,11 @@
 	"Edibility": 10,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
-	"Price": 155,
+	"Price": 75,
 	"IsColored": false,
 	"GiftTastes":
 	{
-		"Love": ["Willy"]
+		"Love": ["Willy"],
 	},
 
     "NameLocalization":

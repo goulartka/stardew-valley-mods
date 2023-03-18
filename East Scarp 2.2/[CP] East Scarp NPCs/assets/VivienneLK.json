@@ -1,0 +1,128 @@
+{
+    "Changes": [ //replace all "PlayerName":"Isla" with "HasSeenEvent":"57875001"
+        {
+            "LogName": "NPC Manifestation",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "Entries": {
+                "VivienneLK": "adult/rude/outgoing/positive/female/not-datable/Eyvinder/Other//Jacob '{{i18n:Relationship.Vivienne.Jacob}}' Eloise '{{i18n:Relationship.Vivienne.Eloise}}'/Custom_ES_TNPCWaitingWarpRoom 2 8/{{i18n:Name.Vivienne}}"
+            },
+            "When": {
+                "PlayerName |contains=Isla": false
+            }
+        },
+        {
+            "LogName": "NPC Manifestation",
+            "Action": "EditData",
+            "Target": "Data/NPCDispositions",
+            "When": {
+                "PlayerName": "Isla"
+            },
+            "Entries": {
+                "VivienneLK": "adult/rude/outgoing/positive/female/not-datable/Eyvinder/Other//Jacob '{{i18n:Relationship.Vivienne.Jacob}}' Eloise '{{i18n:Relationship.Vivienne.Eloise}}'/Custom_ESVetHouse 17 7/{{i18n:Name.Vivienne}}"
+            }
+        },
+        {
+            "LogName": "antisocial flags",
+            "Action": "EditData",
+            "Target": "Data/AntiSocialNPCs",
+            "Entries": {
+                "VivienneLK": true
+            }
+        },
+        {
+            "LogName": "NPC Exclusion NPCs to avoid Perfection issues",
+            "Action": "EditData",
+            "Target": "Data/CustomNPCExclusions",
+            "Entries": {
+                "VivienneLK": "All"
+            }
+        },
+        //Loved item: ruby ring (but not at the front!)
+        /* {
+            "LogName": "NPC Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "VivienneLK": "{{i18n:gifts.VivienneLK.love}}/64 534/{{i18n:gifts.VivienneLK.like}}/102/{{i18n:gifts.VivienneLK.dislike}}//{{i18n:gifts.VivienneLK.hate}}/638/{{i18n:gifts.VivienneLK.neutral}}//"
+            }
+        },*/
+        //VivienneLK
+        {
+            "LogName": "VivienneLK Portraits",
+            "Action": "Load",
+            "Target": "Portraits/VivienneLK, Characters/VivienneLK",
+            "FromFile": "assets/{{Target}}/VivienneLK.png"
+        },
+        {
+            "LogName": "Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/VivienneLK",
+            "FromFile": "assets/{{Target}}/Dialogue.json"
+        },
+        {
+            "LogName": "Schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/VivienneLK",
+            "FromFile": "assets/{{Target}}/Schedule.json",
+            "When": {
+                "PlayerName": "Isla"
+            }
+        },
+        {
+            "LogName": "Festivals",
+            "Action": "Include",
+            "FromFile": "assets/Festivals/VivienneLK.json",
+            "When": {
+                "PlayerName": "Isla"
+            }
+        },
+        {
+            "LogName": "Animations",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "viviennelk_write": "16/19 19 19 19 19 18 18 17 17 18 18 17 17 18 18 19 19 19/16"
+            }
+        },
+        {
+            "LogName": "Subtly tweaks Clint's strings",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "Blacksmith.2": "{{i18n:strings.es.blacksmith}}",
+                "Blacksmith.3": "{{i18n:strings.es.blacksmith}}",
+            }
+        },
+        {
+            "LogName": "Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/VivienneLK",
+            "Entries": {
+                "rain": "610 Custom_ESVetHouse 14 7 0/0730 Custom_ESVetHouse 31 16 0/900 Custom_DND_DialaCafe 22 9 2 viviennelk_write/1600 Custom_ESVetHouse 14 7 0/2200 Custom_ESVetHouse 17 7 3" //For D&D Cafe
+            },
+            "When": {
+                "HasMod": "skellady.DNDCP"
+            }
+        },
+        {
+            "LogName": "Sends dog park mail",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "57870018/e 57874015/e 57874014/x EloisePuppyInvite": "null"
+            }
+        },
+        {
+            "LogName": "Town events",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                //2-heart event: people-watching
+                "57877002/f VivienneLK 500/t 1000 1700": "continue/43 80/VivienneLK 43 77 2 Jodi 37 82 1 Caroline 38 82 3 farmer 49 80 1/skippable/showFrame VivienneLK 16/textAboveHead Jodi \"Really?\"/move farmer -5 0 3/emote Caroline 40/pause 500/emote farmer 8/faceDirection farmer 0/pause 50/faceDirection farmer 3/pause 50/faceDirection farmer 0/pause 100/move farmer 0 -2 3/question null \"...#What are you up to?#Are you spying on them?\"/pause 500/speak VivienneLK \"Oh, nothing nefarious, I promise!$4#$b#Just engaging in a favorite past-time of mine. People watching!$1\"/emote farmer 8/pause 500/pause 500/move VivienneLK 0 1 1/speak VivienneLK \"One of the many curses - or maybe perks - of being an author, is an overactive imagination.#$b#I enjoy observing and trying to work out people stories.\"/pause 500/faceDirection farmer 2/faceDirection VivienneLK 2/textAboveHead Caroline \"He didn't?!\"/pause 1000/faceDirection farmer 3/faceDirection VivienneLK 1/quickQuestion So...#What's my story?#What's her story?#What's your story?(break)pause 50\\textAboveHead VivienneLK \"Hmmm...\"\\pause 1000\\speak VivienneLK \"You were a fae prince, trapped in thrall to a cruel darklord.^You were a fae princess, trapped in thrall to a cruel darklord.#$b#Life was monotonous and wearying, and your hope had faded, draining you of life.$2#$b#Then, a spirit came to you in the night, a being of pure light and dropped a key into your hands. The key to unlock you from your shackles.\"\\switchEvent Vivienne_FantasticalEnd(break)pause 50\\textAboveHead VivienneLK \"Caroline?\"\\pause 1000\\speak VivienneLK \"Hmmm, she's a dryad, an elemental being bound to the forest. Fey and wild, she would dance barefoot in the moonlight, singing.#$b#Until one day, a young man heard her song, followed her and fell irredeemably in love.$1#$b#It took some trickery, a great deal of cunning, and some help from mystical hands, but eventually he captured her heart, and made her his.\"\\switchEvent Vivienne_FantasticalEnd(break)pause 50\\textAboveHead VivienneLK \"Mine?\"\\pause 1000\\speak VivienneLK \"Oh, my tale is most horribly mundane, the sheer pinacle of drudgery.#$b#I'm sure you would find it entirely too dull for words.\"/Question null \"...#I don't believe that!#If you say so.\"/pause 500/speak VivienneLK \"I've found, despite rumors to the opposite, that most times, truth is in fact not stranger than fiction.#$b#It mostly has less serendipitous coincidence and an underwhelming, rather predictable, conclusion.#$b#Disappointing, I know.$2\"/pause 500/switchEvent Vivienne_eventEnd",
+                "Vivienne_FantasticalEnd": "pause 1000/emote farmer 40/pause 500/speak VivienneLK \"So, am I right?\"/quickQuestion #Uncannily so!#Sorry, not even close.#Pretty sure that's nonsense.(break)pause 500\\emote VivienneLK 20\\speak VivienneLK \"These eyes might be old, but they can see to the heart of the matter.#$b#There's magic to be found, even in the mundane.$1\"(break)pause 500\\emote VivienneLK 40\\speak VivienneLK \"Really? Oh, how disappointing. Still, I'm a storyteller, not a seer.\"(break)pause 500\\emote VivienneLK 60\\speak VivienneLK \"Of course it is, @. I'm a storyteller, not a seer.\"/switchEvent Vivienne_eventEnd",
+                "Vivienne_eventEnd": "pause 500/faceDirection VivienneLK 2/pause 1000/faceDirection VivienneLK 1/speak VivienneLK \"Anyhow, I rather like you, @. I hope that we can become friends.\"/pause 500/emoet farmer 32/pause 1000/end"
+            }
+        }
+    ]
+}

@@ -13,5 +13,13 @@
 		"Dislike": ["Elliott", "Maru", "Robin", "Demetrius", "George", "Gus", "Marnie"],
 		"Hate": ["Alex", "Caroline", "Clint", "Dwarf", "Evelyn", "Harvey", "Jodi", "Kent", "Lewis", "Pam", "Penny", "Pierre", "Shane", "Haley", "Jas", "Vincent"]
     },
-    "Recipe": null
+    "Recipe": null,
+    "NameLocalization":
+    {
+        "pt": "Fruta Fantasma",
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Esta fruta misteriosa não parece pertencer ao nosso mundo.",
+    },
 }

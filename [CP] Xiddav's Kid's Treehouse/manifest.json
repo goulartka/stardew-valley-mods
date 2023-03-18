@@ -1,0 +1,14 @@
+{
+  "Name": "Kids Treehouse",
+  "Author": "Xiddav",
+  "Version": "1.2.3",
+  "Description": "Adds a Treehouse to town.",
+  "UniqueID": "Xiddav.KidsTreeHouse",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:6377" ],
+  "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher"},
+  "Dependencies": [
+   {      "UniqueID": "aedenthorn.ExtraMapLayers",
+      "IsRequired": true,   },]
+
+}

@@ -7,5 +7,13 @@
     "IsColored": false,
 	"CanSell": true,
     "Recipe": null,
-	"Price": 500
+	"Price": 500,
+    "NameLocalization":
+    {
+        "pt": "Moeda Antiga Gigante",
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Essa moeda é enorme! Que descoberta de sorte!",
+    },
 }

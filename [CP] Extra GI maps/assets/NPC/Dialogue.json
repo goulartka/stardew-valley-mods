@@ -1,0 +1,17 @@
+{
+    "default":"...",
+    "Clearance":"The weather is very hot...#$b#So the Clearance is perfect for relaxing.#$c#It's got lots of shade.",
+    "Altar":"I don't know why this is here.#$b#It looks old.",
+    "Trader":"I come every wednesday here.#$b#There's few people to trade with.",
+    "Loot":"After pirates party here, they leave a lot of things around.#$b#Careless as always.$2",
+    "HiddenBeach":"Not many people know of this beach.#$b#It's nice to come 'ere once in a while.$1",
+    "Rain":"'S raining...#$b#This sound reminds me of the sea.",
+    "Mon":"Have you ever eaten blue discus?#$b#No?",
+    "Tue":"What? Dwarves?#$b#What do you mean?#$b#Everyone knows those are just fairytales.",
+    "Wed":"Life here isn't easy, but it's worth it.#$b#To me.$1",
+    "Thu":"How's life in the big city, @?#$b#...#$b#Ah. So you dislike it too.",
+    "Fri":"Have you visited the other islands?",
+    "Sat": "What, ye have a farm?#$b#What's in it?",
+    "Sun": "I can't get tired of fish.$1#$b#We ate them a lot at sea.#$b#But you can cook them in many ways...$1",
+    "StoleMoney":"@!#$b#I saw you taking money from that box.$3"
+}

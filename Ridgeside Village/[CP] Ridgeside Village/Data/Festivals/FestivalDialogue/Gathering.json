@@ -46,6 +46,7 @@
 				"Kimpoi": "{{i18n:Festivals.Gathering.Kimpoi}}",
 				"Naomi": "{{i18n:Festivals.Gathering.Naomi}}",
 				"Torts": "{{i18n:Festivals.Gathering.Torts}}",
+				"Bryle": "{{i18n:Festivals.Gathering.Bryle}}",
 
 			//Vanilla Non-Dateables
 			    "Robin": "{{i18n:GatheringDialogue.Robin}}",
@@ -100,6 +101,10 @@
 				"Paula_spouse": "{{i18n:Festivals.Gathering.Paula_spouse}}",
 				"Blair_spouse": "{{i18n:Festivals.Gathering.Blair_spouse}}",
 
+				"Irene_spouse": "{{i18n:Festivals.Gathering.Irene_spouse}}",
+				"Zayne": "{{i18n:Festivals.Gathering.Zayne}}",
+				"Zayne_spouse": "{{i18n:Festivals.Gathering.Zayne_spouse}}",
+
 			//Vanilla Dateables
 			    "Abigail_spouse": "{{i18n:GatheringDialogue.Abigail.spouse}}",
 			    "Abigail": "{{i18n:GatheringDialogue.Abigail}}",
@@ -124,7 +129,7 @@
 			    "Emily": "{{i18n:GatheringDialogue.Emily}}",
 			    "Emily_spouse": "{{i18n:GatheringDialogue.Emily.spouse}}",
 			    "Shane": "{{i18n:GatheringDialogue.Shane}}",
-				"Shane_spouse": "{{i18n:GatheringDialogue.Shane.spouse}}",
+					"Shane_spouse": "{{i18n:GatheringDialogue.Shane.spouse}}",
 
 			},
 		},

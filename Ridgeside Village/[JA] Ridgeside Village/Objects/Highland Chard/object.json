@@ -14,7 +14,7 @@
 	"Speed": 0,
 	"Defense": 1,
 	"Attack": 0,
-    "Duration": 10
+    "Duration": 200,
 	},
   "Price": 70,
   "IsColored": false,
@@ -22,7 +22,7 @@
   "GiftTastes":
   {
   "Love": ["Lola", "Maddie"],
-  "Like": ["Flor", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy", "Wizard","Abigail", "Haley", "Sam", "Sebastian", "Vincent"]
+  "Like": ["Flor", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy", "Wizard","Abigail", "Haley", "Sam", "Sebastian", "Vincent"],
   },
 
   "NameLocalization":

@@ -1,0 +1,325 @@
+{
+   "Format": "1.26.0",
+   "ConfigSchema":{
+      "JackieSpeech":{
+         "AllowValues":"Pirate,Clearer",
+         "Default": "Pirate",
+         "Section":"NPC"
+      },
+      "Native": {
+         "AllowValues": "true, false",
+         "Default": "false",
+         "Section": "NPC"
+      },
+      "Flash":{
+         "AllowValues":"true, false",
+         "Default":"true",
+         "Section":"Event"
+      }
+   },
+   "DynamicTokens": [
+      //unlocked content
+      {
+         "Name": "HasUnlockedFour",
+         "Value": "false"
+      },
+      {
+         "Name": "HasUnlockedFour",
+         "Value": "true",
+         "When": {
+            "HasFlag |contains=Island_Turtle": "true",
+            "HasFlag |contains=Island_FirstParrot": "true",
+            "HasFlag |contains=Island_UpgradeParrotPlatform": "true",
+            "HasFlag |contains=Island_Resort": "true"
+         }
+      },
+      //gift IDs
+      {
+         "Name": "drinks",
+         "Value": "346 348 -6"
+      },
+      {
+         "Name": "fancies",
+         "Value": "440 90 424 340 247 417 426 797"
+      },
+      {
+         "Name":"formalities",
+         "Value":"402 18 418"
+      }
+   ],
+   "CustomLocations": [
+      {
+         "Name": "Custom_GiCave",
+         "FromMapFile": "assets/Maps/GiCave.tmx"
+      },
+      {
+         "Name": "Custom_GiForest",
+         "FromMapFile": "assets/Maps/IslandEForest.tmx"
+      },
+      {
+         "Name": "Custom_GiRiver",
+         "FromMapFile": "assets/Maps/IslandE_rivermouth.tmx"
+      },
+      {
+         "Name": "Custom_GiClearance",
+         "FromMapFile": "assets/Maps/Island_Clearance.tmx"
+      },
+      {
+         "Name": "Custom_IslandSW",
+         "FromMapFile": "assets/Maps/Island_southwestExtra.tmx"
+      },
+      {
+         "Name":"Custom_Event_TreeChop",
+         "FromMapFile":"assets/Maps/Temp_TreeChop.tmx"
+      },
+      {
+         "Name": "Custom_GiHut",
+         "FromMapFile": "assets/Maps/Island_SW_hut.tmx"
+      },
+      {
+         "Name": "Custom_GiDeepForest",
+         "FromMapFile": "assets/Maps/FightZone.tmx"
+      },
+      {
+         "Name": "Custom_GiForestEnd",
+         "FromMapFile": "assets/Maps/GiForestEnd.tmx"
+      },
+      {
+         "Name": "Custom_GiRBeach",
+         "FromMapFile": "assets/Maps/RMBeach.tmx"
+      },
+      {
+         "Name":"Custom_IslandSouthPast",
+         "FromMapFile":"assets/Maps/Island_S_Past.tmx"
+      },
+      {
+         "Name":"Custom_ShipWreck",
+         "FromMapFile":"assets/Maps/ShipWreck.tmx"
+      },
+      {
+         "Name": "Custom_BattleShip",
+         "FromMapFile": "assets/Maps/BattleShip.tmx"
+      },
+      {
+         "Name": "Custom_ExtinctLair",
+         "FromMapFile": "assets/Maps/ExtinctLair.tmx"
+      }
+   ],
+   "Changes": [
+      {
+         "LogName": "Patch south to be walkable",
+         "Action": "EditMap",
+         "Target": "Maps/Island_S",
+         "FromFile": "assets/Maps/SouthPatch.tbin",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 5,
+            "Height": 8
+         },
+         "ToArea": {
+            "X": 0,
+            "Y": 33,
+            "Width": 5,
+            "Height": 8
+         },
+         "PatchMode": "ReplaceByLayer",
+         "When": {
+            "HasFlag": "Island_Resort"
+         }
+      },
+      {
+         "LogName": "Patch I_SE to have cave",
+         "Action": "EditMap",
+         "Target": "Maps/Island_SE",
+         "FromFile": "assets/Maps/Island_SE_entrance-patch.tmx",
+         "FromArea": {
+            "X": 1,
+            "Y": 1,
+            "Width": 4,
+            "Height": 4
+         },
+         "ToArea": {
+            "X": 20,
+            "Y": 9,
+            "Width": 4,
+            "Height": 4
+         },
+         "PatchMode": "ReplaceByLayer"
+      },
+      {
+         "LogName": "Patch lair if ring not obtained",
+         "Action":"EditMap",
+         "Target":"Maps/Custom_ExtinctLair",
+         "FromFile":"assets/Maps/ExtinctLair_preRing.tmx",
+         "FromArea": {
+            "X": 0,
+            "Y": 0,
+            "Width": 2,
+            "Height": 2
+         },
+         "ToArea": {
+            "X": 4,
+            "Y": 17,
+            "Width": 2,
+            "Height": 2
+         },
+         "When":{
+            "HasFlag |contains= gotFireRing":false
+         }
+      },
+      {
+         "LogName":"Nighttime patch",
+         "Action":"EditMap",
+         "Target":"Maps/Custom_GiForestEnd",
+         "FromFile":"assets/Maps/GiForestEnd_night.tmx",
+         "When":{
+            "Time":"{{Range: 1900, 2500}}"
+         },
+         "Update":"OnTimeChange"
+      },
+      {
+         "LogName": "Add warp to E",
+         "Action": "EditMap",
+         "Target": "Maps/Island_E",
+         "AddWarps": [
+            "21 47 Custom_GiForest 9 9",
+            "22 47 Custom_GiForest 9 10",
+            "23 47 Custom_GiForest 9 11",
+            "24 47 Custom_GiForest 9 12",
+            "25 47 Custom_GiForest 9 13"
+         ]
+      },
+      {
+         "LogName": "Add .cs strings",
+         "Action": "EditData",
+         "Target": "Strings/StringsFromMaps",
+         "Entries": {
+            "Custom_GiForest.0": "{{i18n: Custom_GiForest.0}}",
+            "Custom_GiForest.1": "{{i18n: Custom_GiForest.1}}",
+            "Custom_GiForest.2": "{{i18n: Custom_GiForest.2}}",
+            "Custom_GiRiver.0": "{{i18n: Custom_GiRiver.0}}",
+            "Custom_GiRiver.1": "{{i18n: Custom_GiRiver.1}}",
+            "Custom_GiRiver.2": "{{i18n: Custom_GiRiver.2}}",
+            "Custom_GiRiver.3": "{{i18n: Custom_GiRiver.3}}",
+            "Custom_GiRiver.4": "{{i18n: Custom_GiRiver.4}}",
+            "Custom_GiRiver.5": "{{i18n: Custom_GiRiver.5}}",
+            "Custom_GiRiver.6": "{{i18n: Custom_GiRiver.6}}",
+            "Custom_GiRiver.7": "{{i18n: Custom_GiRiver.7}}",
+            "Custom_GiRiver.8": "{{i18n: Custom_GiRiver.8}}",
+            "Custom_GiCave.2": "{{i18n: Custom_GiCave.2}}",
+            "Custom_GiCave.1": "{{i18n: Custom_GiCave.1}}",
+            "Custom_GiCave.0": "{{i18n: Custom_GiCave.0}}",
+            "Custom_GiCave.3": "{{i18n: Custom_GiCave.3}}",
+            "Custom_IslandSW.0": "{{i18n: Custom_IslandSW.0}}",
+            "Custom_IslandSW.1": "{{i18n: Custom_IslandSW.1}}",
+            "Custom_IslandSW.2": "{{i18n: Custom_IslandSW.2}}",
+            "Custom_IslandSW.3": "{{i18n: Custom_IslandSW.3}}",
+            "Custom_IslandSW.4": "{{i18n: Custom_IslandSW.4}}",
+            "Custom_GiHut.0": "{{i18n: Custom_GiHut.0}}",
+            "Custom_GiHut.1": "{{i18n: Custom_GiHut.1}}",
+            "Custom_GiHut.2": "{{i18n: Custom_GiHut.2}}",
+            "GI.FrozenStatue": "{{i18n: GI.FrozenStatue}}",
+            "GI.Legend": "{{i18n: GI.Legend}}",
+            "GI.Rope": "{{i18n: GI.Rope}}",
+            "GI.Egg": "{{i18n: GI.Egg}}"
+         }
+      },
+      {
+         "LogName": "Add monsters",
+         "Action": "Include",
+         "FromFile": "assets/Monster_content.json"
+      },
+      {
+         "LogName": "Captain room plus",
+         "Action": "Load",
+         "Target": "Maps/Island_CaptainRoom",
+         "FromFile": "assets/Maps/CaptainRoom.tmx"
+      },
+      {
+         "LogName": "Add NPC",
+         "Action": "Include",
+         "FromFile": "assets/NPC.json"
+      },
+      {
+         "LogName": "Add Events",
+         "Action": "Include",
+         "FromFile": "assets/Events.json"
+      },
+      //load tilesheets
+      {
+         "Action":"Load",
+         "Target":"Maps/z_extraitems",
+         "FromFile":"assets/Maps/Tilesheets/z_extraitems.png"
+      },
+      {
+         "Action": "Load",
+         "Target": "Maps/z_grassGradient",
+         "FromFile": "assets/Maps/Tilesheets/z_grassGradient.png"
+      },
+      {
+         "Action": "Load",
+         "Target": "Maps/z_grassToRiver",
+         "FromFile": "assets/Maps/Tilesheets/z_grassToRiver.png"
+      },
+      {
+         "Action": "Load",
+         "Target": "Maps/z_island_extras",
+         "FromFile": "assets/Maps/Tilesheets/z_island_extras.png"
+      },
+      //recolour patches
+      {
+         "LogName":"Earthy patch #1",
+         "Action":"EditImage",
+         "Target":"Maps/z_extraitems",
+         "FromFile":"assets/Maps/Compat/Earthy_extraitems.png",
+         "When":{
+            "HasMod":"DaisyNiko.EarthyRecolour"
+         }
+      },
+      {
+         "LogName": "Earthy patch #2",
+         "Action": "EditImage",
+         "Target": "Maps/z_grassGradient",
+         "FromFile": "assets/Maps/Compat/Earthy_grassGradient.png",
+         "When": {
+            "HasMod": "DaisyNiko.EarthyRecolour"
+         }
+      },
+      {
+         "LogName": "Earthy patch #3",
+         "Action": "EditImage",
+         "Target": "Maps/z_grassToRiver",
+         "FromFile": "assets/Maps/Compat/Earthy_grassToRiver.png",
+         "When": {
+            "HasMod": "DaisyNiko.EarthyRecolour"
+         }
+      },
+      {
+         "LogName": "Earthy patch #4",
+         "Action": "EditImage",
+         "Target": "Maps/z_island_extras",
+         "FromFile": "assets/Maps/Compat/Earthy_island_extras.png",
+         "When": {
+            "HasMod": "DaisyNiko.EarthyRecolour"
+         }
+      },
+      //add location fishing data
+      {
+         "Action":"EditData",
+         "Target":"Data/Locations",
+         "Entries":{
+            "Custom_ExtinctLair":"0/0/0/0/162 -1 156 -1 158 -1/162 -1 156 -1 158 -1/162 -1 156 -1 158 -1/162 -1 156 -1 158 -1/0",
+            "Custom_GiForest": "-1/-1/-1/-1/155 -1 130 -1 128 -1 267 -1 837 -1/155 -1 130 -1 128 -1 267 -1 837 -1/155 -1 130 -1 128 -1 267 -1 837 -1/155 -1 130 -1 128 -1 267 -1 837 -1/791 .05 292 .05 774 .1 749 1",
+            "Custom_GiRiver": "-1/-1/-1/-1/155 -1 130 -1 128 -1 267 -1 837 -1/155 -1 130 -1 128 -1 267 -1 837 -1/155 -1 130 -1 128 -1 267 -1 837 -1/155 -1 130 -1 128 -1 267 -1 837 -1/791 .05 292 .05 774 .1 749 1",
+            "Custom_GiRBeach": "-1/-1/-1/-1/155 -1 130 -1 128 -1 267 -1 837 -1/155 -1 130 -1 128 -1 267 -1 837 -1/155 -1 130 -1 128 -1 267 -1 837 -1/155 -1 130 -1 128 -1 267 -1 837 -1/791 .05 292 .05 774 .1 749 1"
+         }
+      },
+      //last patch so it isnt overwritten
+      {
+         "LogName": "Add unlock stuff",
+         "Action": "Include",
+         "FromFile": "assets/FourStatues.json"
+      }
+   ]
+}

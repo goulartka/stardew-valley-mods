@@ -5,11 +5,11 @@
 	"Edibility": 10,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
-	"Price": 300,
+	"Price": 125,
 	"IsColored": false,
 	"GiftTastes":
 	{
-		"Love": ["Corine"]
+		"Love": ["Corine"],
 	},
 
     "NameLocalization":

@@ -1,0 +1,23 @@
+[
+    {
+        "Id": "GiEX.FourCompleted",
+        "Text": "FourCompleted.text",
+        "LetterBG": "QiStationary.png",
+        "TextColor": 4, //-1 = Dark Red, 0 = Black, 1 = Sky Blue, 2 = Red, 3 = Blue Violet, 4 = White, 5 = Orange Red, 6 = Lime Green, 7 = Cyan, 8 = Darkest Gray
+        "Repeatable": false,
+        "Attachments": [ // List of attachments. Remove the property to not attach items to the mail.
+            {
+                "Type": "Object", // [Object|BigCraftable|Tool|Ring|Furniture|Weapon|Boots|DGA] Required. The type of item that will be attached. If not provided the item will be ignored.
+                "Name": "Prismatic Shard", // Used to find the item index. That's required if using custom objects like Json Assets ones. Should be the full DGA ID is using DGA. If not provided, the index will be used. Default is null.
+                "Stack": 2
+            }
+        ],
+        "MailReceived": [
+            "Island_Turtle",
+            "Island_FirstParrot",
+            "Island_UpgradeParrotPlatform",
+            "Island_Resort"
+        ],
+        "RequireAllMailReceived": true
+    }
+]

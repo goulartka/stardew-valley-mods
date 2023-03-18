@@ -10,18 +10,18 @@
     "Mining": 0,
     "Luck": 0,
 	"Foraging": 2,
-	"MaxStamina": 2,
+	"MaxStamina": 40,
     "MagnetRadius": 0,
 	"Speed": 0,
 	"Defense": 0,
 	"Attack": 0,
-    "Duration": 300
+    "Duration": 300,
 	},
 	"Price": 300,
 	"IsColored": false,
 	"GiftTastes":
 	{
-		"Love": ["Pika", "Alissa"]
+		"Love": ["Pika", "Alissa"],
 	},
     "Recipe":
     {
@@ -29,22 +29,22 @@
         "Ingredients": [
         {
             "Object": 340,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": 266,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": "Highland Chard",
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": "Ridge Cherry",
-            "Count": 1
-        }
+            "Count": 1,
+        },
         ],
-        "CanPurchase": false
+        "CanPurchase": false,
     },
 
     "NameLocalization":

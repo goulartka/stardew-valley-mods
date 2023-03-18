@@ -6,5 +6,13 @@
     "Edibility": -300,
     "IsColored": false,
     "Recipe": null,
-	"Price": 0
+	"Price": 0,
+    "NameLocalization":
+    {
+        "pt": "Moeda Antiga",
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "Só porque é antiga não significa que seja valiosa.",
+    },
 }

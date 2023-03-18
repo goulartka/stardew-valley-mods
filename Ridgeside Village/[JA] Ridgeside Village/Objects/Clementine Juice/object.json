@@ -17,10 +17,10 @@
         "Ingredients": [
         {
             "Object": "Ridgeside Clementine",
-            "Count": 1
-        }
+            "Count": 1,
+        },
         ],
-        "CanPurchase": false
+        "CanPurchase": false,
     },
 
   "NameLocalization":

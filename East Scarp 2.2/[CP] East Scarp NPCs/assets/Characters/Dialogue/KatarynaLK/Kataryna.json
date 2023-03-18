@@ -1,0 +1,58 @@
+{
+    "fall_15_2": "Essa é uma pequena Vila tão pitoresca, não é? Faz você se perguntar o que ela esconde por de trás dos panos.#$b#Fantasmas, Ghouls, coisas sinistras que acontecem durante a noite... Todo lugar tem seus segredos, e é minha missão encontrá-los.$1",
+    "Mon": "Há definitivamente algo sobrenatural acontecendo aqui. Eu posso praticamente sentir o cheiro.",
+    "Mon4": "Oh, @! Rápido, você tem que me salvar. Eloise está tagarelando sobre pássaros novamente.$2#$b#Não há nada enigmático sobre os Tucanos. Embora seus bicos sejam bastante estranhos.$3",
+    "Mon6": "Certa vez, passamos a noite toda acampando em Foreverglades. Ouvimos rumores de um 'Macaco Pungente'.#$b#Acabei sendo comida viva por mosquitos nequela noite.$4",
+    "summer_Mon": "Viu algo sobrenatural acontecendo? Não? Então não tenho tempo para conversar.$4",
+    "winter_Mon": "Oh, que tola eu fui de não levar um cachecol.$2#$b#'É mais quente perto do Mar' Eles disseram. Mentira!$4",
+    "fall_Mon": "Passei todo o fim de semana revisando artigos e argh... A gramática. 'A Ortografia'!#$b#Ninguém mais sabe usar um dicionário?$a",
+    "summer_Mon8":"Eu nem sempre quis ser jornalista... Zoologia era minha verdadeira paixão.#$b#Meus pais diziam que não tinha dinheiro, e me empurraram para outro caminho.$2#$b#Claro que não tem dinheiro também no jornalismo. Mas eu fiz isso funcionar.$1",
+    //Tue ...........................................................
+    "Tue": "Uma das minhas fontes me disse que há um bruxo morando no Vale.#$b#Será que ele não gosta de uma visita?#$b#Claro que tentei bater na porta dele! Mas ele se recusou a responder.$a",
+    "Tue4": "Este mago... Você é amigo(a) dele? Eu adoraria entrevistá-lo.",
+    "Tue6": "Tablóide! Esses críticos podem ser cínicos.$a#$b#Você tem que mantenha sua mente aberta para o sobrenatural, @. Afinal, ele está ao nosso redor.",
+    "summer_Tue": "Oh... Aquele desgraçado do Peasbody tem criticado minhas histórias de novo. Que ousadia!$a#$b#Tudo porque ELE não acredita em monstros...^Tudo porque ELA não acredita em monstros...",
+    "winter_Tue": "Certa vez, visitamos uma Cidade fantasma que foi invadida por Macacos Selvagens.#$b#Tudo parecia uma grande brincadeira, até que o pobre Raoul teve sua câmera roubada.$2",
+    "fall_Tue": "Você já viu um Unicórnio, @? Lindas criaturas que são... Se parecem mais com Cabras do que Cavalos.#$b#Uma vez perseguimos um certo boato, em uma floresta profunda. Um lugar aterrorizante. Quase fomos comidos por fantasmas.#$b#Ora, se não fosse por Raoul e sua pistola sinalizadora, provavelmente teríamos partido para o além.$2",
+    //Wed ..........................................................
+    "Wed": "Ah sim, eu consegui conhecer aquele cara 'Encantador' da Guilda.#$b#Ele é um pouco rude, não é? Não me disse muitas coisa. Apenas disse que a informação era reservada para membros da Guilda. Hmmph.$a",
+    "Wed4": "O que é preciso para se juntar à Guilda dos Aventureiros? Eu nunca empunhei uma espada...#$b#Mas uma vez eu lutei contra um Wyvern territorial com uma frigideira.$1",
+    "Wed6": "Algumas pessoas parecem ser mais amigáveis ​​do que outras aqui... Achei que as pessoas de Vilas pequenas eram hospitaleiras.$2",
+    "summer_Wed": "Você acredita em fantasmas @?#$b#Eu? Oh, eu não acredito neles... EU SEI! Que eles são Reais. É igual perguntar a você se acredita em cabras?#$b#Isso é ridículo.$1",
+    "fall_Wed": "Fantasmas, Goblins, Lobisomens, Chupacus... Sim, claro que eles existem. Mas vampiros? Bem, isso é outro assunto.",
+    "winter_Wed": "Podia jurar que ouvi um barulho estranho, em algum lugar bem embaixo da minha cama ontem à noite.#$b#Provavelmente os espíritos dos mineiros... Quando a morte ataca de repente, os espiritos ficam confusos. Na maioria das vezes elas são inofensivas. Majoritariamente.$1",
+    "fall_Wed4": "Alguns dos aldeões parecem um pouco... Incomuns para você, @?$3#$b#Eu ouvi Aideen falando com suas flores! Talvez ela seja uma das fadas?$1#$b#Ou talvez seja mais porque Vilas Pequenas incentivam excentricidades.",
+    //Thu ..........................................................
+    "Thu": "Vovó Evelyn é uma amor! Ela me contou tanto sobre a Vila.#$b#Nada disso foi particularmente útil, mas não tive coragem de desencoraja-la.$1",
+    "Thu4": "Como está seu gado?#$b#Ouvi dizer que algo está incomodando as Galinhas de Marnie.#$b#Será que pode ser uma Cocatriz? Se você encontrar algum ovo estranho, traga-o para mim!$1",
+    "Thu6": "Já se encontrou com algum golem, @?#$b#Alguns dizem que eles são animados por magia... Outros teorizam que eles são sencientes.#$b#O que você acha?",
+    "summer_Thu": "Há muitos desses caranguejos chatos por aí, não acha?#$b#Eu não diria que são enigmáticos, mas também não são naturais. Coisas horríveis.",
+    "winter_Thu": "Encontrei o velho pomar. Parece que pode haver alguma história interessante lá.#$b#Será que é assombrado? Bem, naturalmente. Como não poderia ser!$3",
+    "fall_Thu": "Oi, @. Eu mataria por um Expresso agora. Fiquei acordada a noite toda arrumando um furo no roteiro.#$b#Haha, não poddo dizer! Isso é informação confidencial. Você pode comprar na próxima edição, como todo mundo.$3",
+    //Fri .........................................................
+    "Fri": "Oh! Desculpa. Não posso parar, prazos a cumprir!",
+    "Fri4": "Você tem cabras na sua fazenda, @?#$b#Nenhum motivo especifico... Será que a avistamentos de um Chupacabra na área?$1",
+    "Fri6": "Você conhece a lenda do Roger irritado? Ele era um minerador de ouro que se tornou fora da lei... Há uns cem e tantos anos atrás.#$b#Dizem que ele escondeu seu tesouro em algum lugar dessas colinas. Ninguém sabe onde.",
+    "summer_Fri": "Você não viu nada incomum por aqui, viu?",
+    "fall_Fri": "Você sabe onde fica a entrada da antiga mina? Tenho tentado encontrá-la, mas o Guia é terrivelmente impreciso.$2",
+    "winter_Fri": "Definitivamente há algo um pouco... Diferente nessa Vila, você não acha?#$b#E tão insular. Ninguém quer falar comigo. Bem, exceto a filha do veterinário. E tudo o que ela quer falar são de pássaros.$a",
+    "winter_Fri8": "Você já ouviu algum boato em torno de Abigail? Definitivamente, há algo interessante sobre ela.$3#$b#Ela se parece com a propia mãe... Ouvi dizer que supostamente Caroline viveu uma juventude de espírito livre!$1",
+    "summer_Fri_inlaw_Jasper": "Espero que seu Marido esteja trabalhando em algo refrescante para nós! Seus artigos são sempre uma piada.$1",
+    //Sat .........................................................
+    "Sat": "As crianças continuam me contando histórias tão ultrajantes.#$b#Um homem-peixe escondido nos esgotos, Duendes na floresta... Se ao menos fossem verdade!$3",
+    "Sat4": "Já visitou uma fazenda de Slime, @? Se você receber um convite, não use roupas novas!#$b#Eu participei de uma Convenção de Amantes de Slime uma vez. Eles são um bando bastante excêntrico. Muito, err, entusiasmados.$1",
+    "summer_Sat": "Dr. Jacob parece ser um cara legal. Demorou um pouco para ele se abrir... Você tinha reparado?",
+    "winter_Sat": "É tão difícil encontrar bons funcionários hoje em dia. Nenhum deles estava disposto a trabalhar nos finais de semana!$a#$b#Essa juventude de hoje... Sem dedicação ao ofício.$2",
+    "fall_Sat": "Você sabe o que o Prefeito me disse, @?#$b#Ele disse, se eu ouvisse barulho nos arbustos depois de escurecer, eu deveria ignorá-los.#$b#Eu me pergunto o que ele está escondendo.$3",
+    "fall_Sat_inlaw_Jasper": "Vejo que seu Marido tem trabalhado duro. Seu último artigo sobre o Junimo foi muito esclarecedor. Hmm... Gostaria de saber se pode haver algum por aqui?",
+    //Sun .........................................................
+    "Sun": "O que você sabe sobre essa mensagem na lápide, @? É bastante misteriosa, não é.$1",
+    "Sun4": "%Kataryna parece cansada.#$b#Eu mataria por um Expresso agora. O que? Não, eu nem estava fazendo pesquisa.#$b#Acabei de ler o último romance de Lilith Sheridan... Eu não conseguia parar de ler aquela maldita coisa.$2",
+    "summer_Sun": "Existe algum lugar para tomar um Expresso por aqui?",
+    "winter_Sun": "Aquele garoto de Oliver ainda está por aqui? Pensei que seus pais o mandariam para algum internato chique.$4",
+    "fall_Sun": "Folga? Eu não. Não há descanso para os ímpios.$1",
+    "summer_Sun6": "Uma vez fomos perseguidos por um enxame de Fadas. Elas são pequenas parasitas territoriais.#$b#Elas mordem também. E levou dias para lavar todo o pó de Fada.$2",
+    //"GiftReactions ..............................................
+    "GiftReaction_Rodney's_Autograph":"Um autógrafo do Sr. O'Brien? Você está atuando como publicitário agora?#$b#Ele ganhou um prêmio ou dois, e imediatamente pensa que ele é o 'Rei da cocada preta'.$a#$b#Haha, apenas meu ciúme não profissional falando. Gostei dos livros dele.$1",
+    "reject_534": "Você está me dando essa jóias antiga? Eu não posso aceitar isso. Você deve valorizá-la... Pode valer uma fortuna. Quem sabe?$1"
+}

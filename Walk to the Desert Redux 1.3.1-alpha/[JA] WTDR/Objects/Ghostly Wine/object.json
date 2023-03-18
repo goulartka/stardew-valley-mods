@@ -28,5 +28,13 @@
 		"Dislike": ["Elliott", "Maru", "Robin", "Demetrius", "George", "Gus", "Marnie"],
 		"Hate": ["Alex", "Caroline", "Clint", "Dwarf", "Evelyn", "Harvey", "Jodi", "Kent", "Lewis", "Pam", "Penny", "Pierre", "Shane", "Haley", "Jas", "Vincent"]
     },
-    "Recipe": null
+    "Recipe": null,
+    "NameLocalization":
+    {
+        "pt": "Vinho Fantasmagórico",
+    },
+    "DescriptionLocalization":
+    {
+        "pt": "O cheiro é estranhamente atraente.",
+    },
 }

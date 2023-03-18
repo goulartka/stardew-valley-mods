@@ -10,12 +10,12 @@
     "Mining": 0,
     "Luck": 0,
 	"Foraging": 3,
-	"MaxStamina": 2,
+	"MaxStamina": 40,
     "MagnetRadius": 0,
 	"Speed": 0,
 	"Defense": 0,
 	"Attack": 0,
-    "Duration": 300
+    "Duration": 300,
 	},
 	"Price": 370,
 	"IsColored": false,
@@ -30,22 +30,22 @@
         "Ingredients": [
         {
             "Object": 246,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": 245,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": 635,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": "Ridgeside Clementine",
-            "Count": 2
+            "Count": 2,
         }
         ],
-        "CanPurchase": false
+        "CanPurchase": false,
     },
 
     "NameLocalization":

@@ -15,14 +15,14 @@
     "Speed": 2,
     "Defense": 0,
     "Attack": 0,
-    "Duration": 300
+    "Duration": 300,
 	},
 	"Price": 230,
 	"IsColored": false,
 	"GiftTastes":
 	{
 		"Love": ["Corine", "Lenny", "Lewis", "Pierre", "Ian", "Philip"],
-        "Like": ["Shiro", "Alissa", "Ysabelle"]
+        "Like": ["Shiro", "Alissa", "Ysabelle"],
 	},
     "Recipe":
     {
@@ -30,22 +30,22 @@
         "Ingredients": [
         {
             "Object": 246,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": 245,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": 433,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": "Mountain Chico",
-            "Count": 1
+            "Count": 1,
         }
         ],
-        "CanPurchase": false
+        "CanPurchase": false,
     },
 
     "NameLocalization":

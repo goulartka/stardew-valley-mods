@@ -1,0 +1,126 @@
+{
+    "config.JackieSpeech.name": "Modo de habla", // 	The field name.
+    "config.JackieSpeech.description": "Esto cambia el diálogo usado al recibir regalos (si 'Nativo' está desactivado).", // 	The field description (usually shown as a tooltip).
+    "config.JackieSpeech.values.Pirate": "Pirata", // 	The display text for an AllowValues value when shown in a dropdown or checkbox list.
+    "config.JackieSpeech.values.Clearer": "Normal",
+
+    "config.Native.name": "¿Nativo?",
+    "config.Native.description": "Vuelve al PNJ un personaje nativo de la isla. \n(Su historia es casi la misma en ambas versiones)",
+    
+    "config.Flash.name": "Activar flash", // 	The field name.
+    "config.Flash.description": "Activa flash en el cuarto evento de PNJ.",
+    
+    "config.section.Event.name": "Eventos", //	The section name.
+    "config.section.Event.description": "Configuración relacionada a eventos de PNJ.",
+
+    "config.section.NPC.name": "PNJ",//	The section name.
+    "config.section.NPC.description": "Configuración relacionada al PNJ que agrega este mod.",
+
+    //Monsters: The framework
+    "Normal_Crab": "Cangrejo",
+    "Leaf_Crab": "Cangrejo de hojas",
+    "Stone_Crab": "Cangrejo de piedra",
+    "ghostdragon": "Dragón fantasma",
+    "lavadragon":"Dragón de lava",
+
+    //Statue
+    "mail.FourCompleted": "Veo que decifraste el acertijo.^^Hace mucho tiempo, la energía de Isla Gengibre fluía a través de las estatuas, que guardaban la entrada a lugares valiosos.^Pero cuando la isla perdió su vida, sus \"amuletos.\" cerraron el camino.^^Los loros dejaron esto cuando te fuiste.^  -Tu amigo, el Sr. Qi",
+    "statue.TextChanged":"No hay nada.",
+    //jackie text
+    "Jackie_lovedgift": "Aye, ¡Qué tesoro!",
+    "Jackie_likedgift": "¡Sa'es qué me gusta, camara'a!",
+    "Jackie_dislikedgift": "¿Qué estabas pensando?",
+    "Jackie_hatedgift": "¡A caminar por la plancha, @!",
+    "Jackie_neutralgift": "Voy a ver que uso le 'ncuentro.",
+    //jackie text - clearer
+    "Jackie_lovedgift_clearer": "Aye, ¡Qué tesoro!",
+    "Jackie_likedgift_clearer": "¡Sí sabes qué me gusta!",
+    "Jackie_dislikedgift_clearer": "¿Te crees chistoso?^¿Te crees chistosa?",
+    "Jackie_hatedgift_clearer": "¡Tíralo por el estribor!",
+    "Jackie_neutralgift_clearer": "Le daré algún uso.",
+
+    //schedule dialogue
+    "Altar": "Los loros son muy importantes para nosotros.#$b#Este altar ha estado aquí por décadas.#$c#Está algo abandonado, pero igual dejo ofrendas.",
+    "Rain": "Esta lluvia...#$b#Al fin, un descanso del sol.$1",
+    //random dialogue
+    "Alone": "¿Qué? Yo, ¿En soledad?#$b#No con alguien molestándome.$1",
+    "Volcano": "¿Por qué viniste?#$b#¿Por el volcán?",
+    "OldLife": "No extraño mi antigua vida.#$b#...Qué, ¿creíste que si?#$c#No. Me gusta esta tranquilidad.",
+    "Volcano2": "Nunca entres al volcán.#$b#Nunca.",
+    "Caldera": "¿La caldera sobre la montaña?#$b#'s un lugar raro.#$b#Sólo he escuchado rumores de qué hay ahí.",
+    "Leo": "Hay un jovencito aquí. ¿Lo has visto?#$b#Su nombre es Leo.",
+    "Snaily": "¿Sabías?#$b#A Snaily le encanta la sopa de champiñones.#$b#Pregúntale por qué, jeje.$1",
+    "Past": "¿Quieres escuchar una historia?#$b#Tal vez después.",
+    "Past2": "Has escuchado del \"Pez Carmesí\"?#$b#Nay, no me refiero al pez literalmente.#$c#Pez Carmesí era un pirata famoso.#$b#Dicen que dominaba el mar gema.",
+    "Past3": "Aye, la nave del Carmesí? Se llamaba \"Los @s\".#$b#Obvio que es broma.$1#$b#Se llamaba...\"Perla negra\".#$b#Y pensar que navegué en ella...$2",
+    "Ship": "La belleza de nuestra \"Perla negra\" era incomparable.",
+    "Crewmen": "¿Los camaradas del Pez Carmesí?#$b#Nay, no sé nada de eso.",
+    "Crewmen2": "¿Quieres escuchar un rumor?#$b#Dicen que el Pez Carmesí era más gentil con las mujeres, especialmente las piratas.#$b#Otros dicen que si eras rudo con una, en frente de Carmesí, caminarías por la plancha.#$c#No, no caminé por la plancha por eso.$3",
+    "TheDrake": "Habían rumores de si Carmesí era hombre o mujer. Su voz y vestimenta confundían a cualquiera.#$b#Nay, ni siquiera nosotros sabíamos.#$c#\"¿Por qué no preguntaste?\" ¿Crees que quiero caminar por la plancha?$3",
+    "TheDrake2": "Nadie podía entrar al cuarto de Pez Carmesí.#$b#Habían muchos rumores por eso.",
+    "TheDrake3": "Qué, ¿Quieres saber más?#$b#Pez Carmesí tenía el pelo muy corto.#$b#Y hablaba fuerte.$1",
+    "Rivalry": "Éramos rivales de otra nave, y su pirata.#$b#Nay, no te diré su nombre.",
+    //add if native is true
+    "Accent": "Todavía tengo pegado el acento pirata.#$b#Es difícil quitárselo.#$c#El mar era mi hogar, despues de todo.",
+    "Birdie": "Aye, escuché que Birdie sigue aquí.#$b#Qué bueno.$1",
+    "Birdie2": "¿Qué? ¿Leo es el nieto de Birdie?#$b#Si, obvio que sabía...",
+    "Parrots": "Los loros son muy importantes para nosotros.",
+    "Parrots2": "¿Viste las avestruces en la isla?#$b#Son criaturas hermosas.",
+    "Parrots3": "Si encuentras nueces de oro, dáselas a los loros.",
+    "Statues": "¿Las estatuas tras mi casa?#$b#Nay, están así desde que yo era bebé.$2#$c#Se dice que nos protegen de algo peligroso.",
+    "Statues2": "Qué, ¿las estatuas de nuevo?#$b#Aye, recuerdo la leyenda. ¿Necesitas ayuda?#$c#Bueno, no sé si lo lograrás, pero...#$b#Los loros pueden abrir la entrada.#$b#No lo harán hasta que la vida vuelva a la isla.",
+    "Statues3": "Si arreglas la isla, los loros confiarán en ti.#$b#...\"¿Por qué no lo haces tú?\"#$b#Nay, ya estoy cuidando mi lado de la isla.$2#$b#No gracias.",
+    "Leaving": "Muchos de nosotros se han ido...Sí, yo también lo hice.#$b#A veces no aprecias lo que tienes.",
+    "LeoBrother": "¿El hermano de Leo se fue a Gotoro?$2#$b#Espero que esté bien. Puede ser peligroso ahí afuera.",
+    "LeoBrother2": "Me pregunto cómo estará Birdie con todo eso...#$b#Aye, un día la iré a ver.",
+    "Stealing_piratevers": "@!#$b#¿Estás robando en mi territorio ahora?$3",
+
+    //lore dialogue
+    "RiverMouth_forage":"¿Este lugar? Si, alguien vivía aquí.#$b#...Pero no sé si volverán.$2#$b#Bueno, no importa. ¡Esta tierra es perfecta para plantar!$1#$c#Siéntete libre de tomar las frutas que crecen aquí.",
+    "RiverMouth_lore":"Me pregunto quién vivió aquí.#$b#Está abandonado todo.",
+
+    "aboutplace_q":"¿Dónde estamos?",
+    "aboutplace_a":"Estamos en la zona este de la isla.#$b#El río desemboca cerca de aquí.",
+
+    "aboutplace2_q":"¿Por qué estás aquí?",
+    "aboutplace2_a":"¿...?#$b#Estoy cosechando.#$b#Mi casa está en la playa. No se dan bien los frutos en la arena.",
+
+    "abouthouse_q":"¿Quién vivió aquí?",
+    "abouthouse_a":"No sé.#$b#Pero se ve que fue hace décadas.",
+
+    "abouthouse2_q":"¿Puedo vivir aquí?",
+    "abouthouse2_a":"¿Qué?#$b#Bueno, si te gusta dormir en madera astillada.$1#$c#...No lo vas a hacer, ¿cierto?",
+
+    "aboutTrader_q":"¿Por qué vienes aquí?",
+    "aboutTrader_a": "El trueque es bueno en esta zona.#$b#Deberías revisar la tienda algún día.",
+
+    //strings from CS maps
+    "Custom_GiForest.0": "Parece que alguien dejó esto aquí",
+    "Custom_GiForest.1": "Es una caja desgastada.",
+    "Custom_GiForest.2": "Un martillo.#Se está empezando a oxidar.",
+    "Custom_GiRiver.0": "Una estatua.#Hay musgo por todos lados.",
+    "Custom_GiRiver.1": "Está atascado, no puedes entrar.",
+    "Custom_GiRiver.2": "Al fondo de la choza, hay una mesa.#Está cubierta de polvo.",
+    "Custom_GiRiver.3": "Se marchitó.",
+    "Custom_GiRiver.4": "Tiene frutas dibujadas.",
+    "Custom_GiRiver.5": "Una caja de envío.#Está toda deshecha.",
+    "Custom_GiRiver.6": "Una nota vieja.#Intentas leerla...#\"V..el..o p....nt..\"#El resto se ha desgastado.#Parece que es de hace años.",
+    "Custom_GiRiver.7": "Un cartel antiguo.#\"L.. t....nd.. d.. ..-../....\"#¿Tal vez era una tienda?",
+    "Custom_GiRiver.8": "Una caja vieja.",
+    "Custom_GiCave.2": "Fuera de servicio.",
+    "Custom_GiCave.1": "Está desgastado.",
+    "Custom_GiCave.0": "Alguien dejó esto aquí.",
+    "Custom_GiCave.3": "Está todo oxidado.#Sería mejor no tocar esto.",
+    "Custom_IslandSW.0": "Alguien colgó un pescado aquí..",
+    "Custom_IslandSW.1": "Una canasta con mariscos.#Parecen ser frescos.",
+    "Custom_IslandSW.2": "Cuerda, enrollada y dejada en el suelo.",
+    "Custom_IslandSW.3": "Madera, apilada de manera ordenada.",
+    "Custom_IslandSW.4": "Una fogata.",
+    "Custom_GiHut.0": "Un montón de herramientas.",
+    "Custom_GiHut.1": "Una caja con piñas.#También hay semillas aquí...",
+    "Custom_GiHut.2": "Una canasta con frutas.",
+    "GI.FrozenStatue": "Parece como si el tiempo no pasara aquí...",
+    "GI.Legend": "Encuentra a los guardianes de este cielo^Bríndales el tesoro nacido de esta tierra^Abrirán las puertas a un río de gemas^Que esconde un arcoíris de substancia etérea",
+    "GI.Rope": "Parece que alguien dejó esto aquí.#Si usas la cuerda para bajar, llegarás al oeste de la isla.",
+    "GI.Egg": "Está cuidando un huevo."
+}

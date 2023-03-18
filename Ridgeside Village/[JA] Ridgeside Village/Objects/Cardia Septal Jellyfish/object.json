@@ -5,11 +5,11 @@
 	"Edibility": 10,
 	"EdibleIsDrink": false,
 	"EdibleBuffs": null,
-	"Price": 330,
+	"Price": 165,
 	"IsColored": false,
 	"GiftTastes":
 	{
-		"Love": ["Shiro"]
+		"Love": ["Shiro"],
 	},
 
     "NameLocalization":

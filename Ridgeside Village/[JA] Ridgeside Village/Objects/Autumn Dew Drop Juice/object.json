@@ -30,18 +30,18 @@
         "Ingredients": [
         {
             "Object": "Autumn Drop Berry",
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": 406,
-            "Count": 1
+            "Count": 1,
         },
         {
             "Object": 410,
-            "Count": 1
-        }
+            "Count": 1,
+        },
         ],
-        "CanPurchase": false
+        "CanPurchase": false,
     },
 
   "NameLocalization":

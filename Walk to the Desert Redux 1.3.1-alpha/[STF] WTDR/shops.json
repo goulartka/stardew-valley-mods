@@ -4,7 +4,7 @@
 		"ShopName": "WTDRGhostShop",
 		"CategoriesToSellHere": [-74,-80,-81],
 		"PortraitPath": "assets/PeteShop.png",
-		"Quote": "Buy something?",
+		"Quote": "Quer comprar algo?",
 		"When": ["NPCAt PickledPete 2 4"],
 		"ItemStocks": [
 		{
@@ -22,7 +22,7 @@
 			"StockItemCurrency": "Slime Cheese"
 		}
 	],
-			"ClosedMessage": "Come back later."
+			"ClosedMessage": "Volte sempre."
 		}
 	]
 }

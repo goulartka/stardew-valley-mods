@@ -1413,7 +1413,7 @@
 			"When": { "HasSeenEvent |contains=13730004": true },
 			"Target": "Data/NPCGiftTastes",
 			"Entries": {
-				"PickledPete": "For me? Really? Aw, thank you so much!/303 348/Thank you kindly./308 346/What am I supposed to do with this?/72 74/Now I really need a drink./373 446/Thanks, I guess./-7 -75 -79 -80 -81/"
+				"PickledPete": "Para mim? Sério? Ah, muito obrigado!/303 348/Muito gentil, obrigado./308 346/O que devo fazer com isso?/72 74/Eu realmente precisava de uma bebida./373 446/Obrigado, eu acho./-7 -75 -79 -80 -81/"
 			}
 		},
 		{
@@ -1464,14 +1464,14 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sandy",
 			"Entries": {
-				"Mon": "$d bus#Hello hello, sweetie! I'm so glad that bus is working again! It's been hard to stay in business.#Hello hello, sweetie! I'm so glad you're willing to make the long trip out here! It's been hard to stay in business.",
+				"Mon": "$d bus#Olá, querido! Estou tão feliz que o ônibus está funcionando novamente! Tem sido difícil permanecer no negócio.#Olá, querida! Estou tão contente que você esteja disposto a fazer a longa viagem até aqui! Tem sido difícil permanecer no negócio.",
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sandy",
 			"Entries": {
-				"Mon2": "Hey, sweetie, how's the farm?#$e#Let me guess. You're here to buy a whole bunch of seeds... right, sweetie?$h",
+				"Mon2": "Ei, querido, como está a fazenda?^Ei, querida, como está a fazenda?#$e#Deixe-me adivinhar. Você está aqui para comprar um ramo inteiro de sementes... Certo, querido?$h^Deixe-me adivinhar. Você está aqui para comprar um ramo inteiro de sementes... Certo, querida?$h",
 			}
 		},
 		
@@ -1480,8 +1480,8 @@
 			"Action": "EditData",
 			"Target": "Data/ObjectInformation",
 			"Entries": {
-				"{{spacechase0.JsonAssets/ObjectId:Old Coin}}": "Old Coin/5/-300/-12/Old Coin/Just because it's old doesn't mean it's valuable.",
-				"{{spacechase0.JsonAssets/ObjectId:Giant Old Coin}}": "Giant Old Coin/500/-300/-12/Giant Old Coin/This coin is huge! What a lucky find!"
+				"{{spacechase0.JsonAssets/ObjectId:Old Coin}}": "Old Coin/5/-300/-12/Moeda Antiga/Só porque é antigo não significa que seja valioso.",
+				"{{spacechase0.JsonAssets/ObjectId:Giant Old Coin}}": "Giant Old Coin/500/-300/-12/Moeda Antiga Gigante/Esta moeda é enorme! Que achado de sorte!"
 			}
 		},
 		{   
@@ -1516,38 +1516,38 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
-				"Interchange.1": "You can't think of any reason to visit Zuzu City today, why would you want to anyway?",
-				"Interchange.2": "` Highway 5 to Zuzu City^` Glacier Outpost^@ Calico Desert",
-				"Interchange.3": "` Highway 5 to Zuzu City^> Glacier Outpost",
-				"Interchange.4": "Road blocked by an avalanche. I'm sure it will be cleared in a future update.",
-				"GhostTown.1": "DANGER!",
-				"GhostTown.2": "DO NOT ENTER!",
-				"GhostTown.3": "This old collapsed building doesn't look safe to enter.",
-				"GhostTown.4": "The Door is Locked. An eerie voice whispers \"Future Update.\"",
-				"GhostShop.1": "The Door is Locked. And the doorknob is covered in sticky spiderwebs, Eugh.",
-				"GhostShop.2": "Pickled Pete: Won't you buy some of my wares?",
-				"Horsepath.1": "Horses are prohibited to enter the tunnel!^Tractors are prohibited to enter the tunnel!",
-				"Horsepath.2": "@ Horse and Tractor path this way.",
-				"Horsepath.3": "> Horse and Tractor path this way.",
-				"Winding.1": "` Highway 5 to Zuzu City^@ Garden Village^> Pelican Town",
-				"Winding.2": "` Highway 5 to Zuzu City^@ Ridgeside Village",
-				"Winding.3": "Unfortunately due to seaside erosion, the road has fallen into the sea. Hopefully Ridgeside Village will fix this soon, try again another time?",
-				"Winding.4": "Several downed powerlines, a fallen tree and several emergency vehicles block your path as you try to reach The Garden Village.",
-				"Cave.1": "For some reason, this door is painted onto the wall. Who would do such a thing?",
-				"Cave.2": "It's a pile of bones, nothing too interesting.",
-				"Cave.3": "This is a hole, you cannot jump into it because that would not be a smart idea. Also because it's illegal, so don't try it!",
-				"Cave.4": "This appears to be a crude joke written several decades ago about the mine supervisors mother.",
-				"Cave.5": "This is an old rusty minecart, it has the name Ridgeside inscribed on a metal plate. The way it came from appears to be blocked."
+				"Interchange.1": "Você não consegue pensar em nenhum motivo para visitar a cidade de Zuzu hoje, por que você iria querer?",
+				"Interchange.2": "` Rodovia 5 para Cidade Zuzu^@ Deserto de Calico",
+				"Interchange.3": "` Rodovia 5 para Cidade Zuzu^> Posto Avançado da Geleira",
+				"Interchange.4": "Estrada bloqueada por avalanche. Tenho certeza de que será limpo em uma atualização futura.",
+				"GhostTown.1": "PERIGO!",
+				"GhostTown.2": "NÃO ENTRE!",
+				"GhostTown.3": "essa construção parece muito perigosa para se entrar.",
+				"GhostTown.4": "Trancado. Uma voz misteriosa sussurra\"Atualização futura.\"",
+				"GhostShop.1": "Trancado. E a maçaneta está coberta de teias de aranha.",
+				"GhostShop.2": "Fantasma: Vai comprar algo??",
+				"Horsepath.1": "Cavalos não são permitidos nesse tunel!^Os tratores estão proibidos de entrar no túnel!",
+				"Horsepath.2": "@ Caminho para cavalos por aqui.",
+				"Horsepath.3": "> Caminho para cavalos por aqui.",
+				"Winding.1": "` Rodovia 5 para Cidade Zuzu^@ Vila Jardim^> Vila Pelicanos",
+				"Winding.2": "` Rodovia 5 para Cidade Zuzu^@ Vila Ridgeside ",
+				"Winding.3": "Devido aos recentes deslizamentos de rochas, a estrada para Vila Ridgeside foi danificada, volte quando os reparos forem concluídos.",
+				"Winding.4": "Várias linhas de alta tensão caídas, uma árvore caída e vários veículos de emergência bloqueiam seu caminho enquanto você tenta chegar a Vila Jardim.",
+				"Cave.1": "Por alguma razão estranha, esta porta parece estar pintada na parede? Quem faria uma coisa dessas?",
+				"Cave.2": "É uma pilha de ossos, nada muito interessante.",
+				"Cave.3": "Isso é um buraco, você não deve pular nele porque não seria uma ideia inteligente. Também porque é ilegal, então não tente!",
+				"Cave.4": "Esta parece ser uma piada grosseira escrita há várias décadas sobre a mãe do supervisor de mina.",
+				"Cave.5": "Este carrinho de mina tem o nome Ridgeside, deve ser de uma velha mina subterrânea nas proximidades. Embora a origem de sua rota esteja bloqueada.",
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Quests",
 			"Entries": {
-				"1373001": "ItemDelivery/Ghost Berry/The Wizard wants to study a Ghost Berry. Don't ask why./Bring the Wizard a Ghost Berry./Wizard {{spacechase0.JsonAssets/ObjectId:Ghost Berry}}/-1/500/-1/true/Ah, fascinating. The magical potential of this fruit is incredible! You've done well, @. You have my gratitude. Now, let me work in peace.",
-				"1373002": "ItemDelivery/Refined Quartz Request/Hephaestus needs 10 refined quartz for his work./Bring Hephaestus 10 refined quartz./Hephaestus 338 10/-1/2000/-1/true/Thank you, @! These look perfect!$h#$b#I appreciate you taking the time to help me out.$0",
-				"1373003": "ItemDelivery/Slime Request/Hephaestus needs 50 slime for his work./Bring Hephaestus 50 slime./Hephaestus 766 50/-1/1000/-1/true/Thank you, @! These look nice and juicy.$h#$b#I appreciate you taking the time to help me out.$0",
-				"1373004": "ItemDelivery/Iridium Bar Request/Hephaestus needs 5 iridium bars for his work./Bring Hephaestus 5 iridium bars./Hephaestus 337 5/-1/25000/-1/true/Thank you, @! I knew I could count on you!$h#$b#You are a true friend.$0"
+				"1373001": "ItemDelivery/Baga Fantasma/O Mágico quer estudar uma Baga Fantasma. Não pergunte por quê./Traga ao Mago uma Baga Fantasma./Wizard {{spacechase0.JsonAssets/ObjectId:Ghost Berry}}/-1/500/-1/true/Ah, fascinante. O potencial mágico desta fruta é incrível! Você se saiu bem, @. Você tem minha gratidão. Agora, deixe-me trabalhar em paz.",
+				"1373002": "ItemDelivery/Pedido de Quartzo Refinado/Hephaestus precisa de 10 quartzos refinados para seu trabalho./Traga 10 quartzos refinados para Hephaestus./Hephaestus 338 10/-1/2000/-1/true/Obrigado, @! Parecem perfeitos!$h#$b#Fico feliz de você ter encontrado tempo para me ajudar.$0",
+				"1373003": "ItemDelivery/Solicitação de Slime/Hephaestus precisa de 50 slimes para seu trabalho./Traga 50 Slimes para Hephaestus./Hephaestus 766 50/-1/1000/-1/true/Obrigado, @! Parece bom.$h#$b#Fico feliz de você ter encontrado tempo para me ajudar.$0",
+				"1373004": "ItemDelivery/Solicitação de barra de Irídio/Hephaestus precisa de 5 barras de irídio para seu trabalho./Traga 5 barras de irídio para Hephaestus./Hephaestus 337 5/-1/25000/-1/true/Obrigado, @! Eu sabia que podia contar com você!$h#$b#Você é demais.$0"
 			}
 		}
 	]

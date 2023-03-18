@@ -1,0 +1,163 @@
+{
+    "Changes": [
+        {
+            "LogName": "Activate North statue",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_GiClearance",
+            "FromFile": "assets/Maps/ClearancePatches.tbin",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 13,
+                "Y": 3,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "HasFlag": "Island_FirstParrot"
+            }
+        },
+        {
+            "LogName": "Activate West statue",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_GiClearance",
+            "FromFile": "assets/Maps/ClearancePatches.tbin",
+            "FromArea": {
+                "X": 1,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 6,
+                "Y": 5,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "HasFlag": "Island_Turtle"
+            }
+        },
+        {
+            "LogName": "Activate East statue",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_GiClearance",
+            "FromFile": "assets/Maps/ClearancePatches.tbin",
+            "FromArea": {
+                "X": 3,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 18,
+                "Y": 6,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "HasFlag": "Island_UpgradeParrotPlatform"
+            }
+        },
+
+        {
+            "LogName": "Activate South statue",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_GiClearance",
+            "FromFile": "assets/Maps/ClearancePatches.tbin",
+            "FromArea": {
+                "X": 5,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 4,
+                "Y": 9,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "HasUnlockedFour": true
+            }
+        },
+        {
+            "LogName": "Add reward selector (statue for now)",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_GiClearance",
+            "FromFile": "assets/Maps/ClearancePatches.tbin",
+            "FromArea": {
+                "X": 2,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 11,
+                "Y": 8,
+                "Width": 1,
+                "Height": 2
+            },
+            "When": {
+                "HasUnlockedFour": true
+            }
+        },
+        {
+            "LogName": "Add warp to fighting map",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_GiClearance",
+            "AddWarps": [
+                "24 9 Custom_GiDeepForest 3 9",
+                "24 10 Custom_GiDeepForest 3 10",
+                "24 11 Custom_GiDeepForest 3 11"
+            ],
+            "When": {
+                "HasUnlockedFour": true
+            }
+        },
+        {
+            "LogName": "Close path if not unlocked yet",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_GiClearance",
+            "FromFile": "assets/Maps/Island_Clearance_Locked.tmx",
+            "FromArea": {
+                "X": 20,
+                "Y": 3,
+                "Width": 9,
+                "Height": 12
+            },
+            "ToArea": {
+                "X": 20,
+                "Y": 3,
+                "Width": 9,
+                "Height": 12
+            },
+            "When": {
+                "HasUnlockedFour": false
+            }
+        },
+        {
+            "LogName": "Add event",
+            "Action": "Load",
+            "Target": "Data/Events/Custom_GiClearance",
+            "FromFile": "assets/Data/Events/Custom_GiClearance.json",
+            "When": {
+                "HasUnlockedFour": true
+            }
+        },
+        {
+            "Action":"EditData",
+            "Target":"Strings/StringsFromMaps",
+            "Entries":{
+                "GI.Legend": "{{i18n: statue.TextChanged}}"
+            },
+            "When": {
+                "HasUnlockedFour": true
+            }
+        }
+    ]
+}

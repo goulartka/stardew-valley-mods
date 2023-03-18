@@ -1,6 +1,6 @@
 {
 	"Name": "Icreon",
-	"Description": "An ancient blade used by a band of cultists worshipping a deity with a red tail. Discovered to be commonly used in their rituals.",
+	"Description": "An ancient blade used by a band of cultists worshipping a deity with a green tail. Discovered to be commonly used in their rituals.",
 	"Type": "sword",
 	"PurchasePrice": 50000,
 	"MinimumDamage": 70,
@@ -17,7 +17,7 @@
 
     "DescriptionLocalization":
     {
-        "pt": "Uma lâmina antiga usada por um bando de cultistas que adoram uma divindade com cauda vermelha. Foi descoberto que era comumente usada em seus rituais.",
+        "pt": "Uma lâmina antiga usada por um bando de cultistas que adoram uma divindade com cauda verde. Foi descoberto que era comumente usada em seus rituais.",
     },
 	"TypeLocalization":
 	{

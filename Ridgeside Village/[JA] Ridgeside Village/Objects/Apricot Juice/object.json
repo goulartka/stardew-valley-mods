@@ -17,10 +17,10 @@
         "Ingredients": [
         {
             "Object": 634,
-            "Count": 1
-        }
+            "Count": 1,
+        },
         ],
-        "CanPurchase": false
+        "CanPurchase": false,
     },
 
   "NameLocalization":

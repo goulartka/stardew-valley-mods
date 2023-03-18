@@ -45,6 +45,7 @@
 
 	"NotEnoughMoney": "Você não tem dinheiro suficiente.",
 
+	"IanShop.Closed": "Desculpe, estamos fechados! (Aberto das 9h às 17h, exceto aos domingos).",
 	"IanShop.Open": "Serviços para Trabalhos Diversos",
 	"IanShop.WaterPlants": "Lavouras Regadas",
 	"IanShop.Cancel": "Deixa pra lá",
@@ -73,6 +74,10 @@
 	"IanShop.HasPetAnimals": "Os trabalhadores acariciam seus animais de fazenda.",
 	"IanShop.SummitFarm": "Melhorias da Fazenda do Cume",
 	"IanShop.BrokenCarts": "Hm, eu gostaria que pudéssemos te ajudar, @, mas não sei como levaríamos os materiais até o topo do cume...$2#$b#Talvez se os carrinhos antigos fossem consertados, poderíamos usar aqueles?$1",
+	"IanShop.Construction": "Certo, vamos começar o projeto {{projeto}} imediatamente!",
+	"IanShop.Instant": "Muito bem! O {{projeto}} na verdade vem pré-montado, então nós o entregaremos em sua fazenda o mais rápido possível!",
+	"IanShop.AlreadyBuilding": "Na verdade, @, já estamos trabalhando em um projeto para você, portanto não podemos assumir nenhum trabalho novo enquanto isso estiver ativo.$s#$b#Mas quando isso estiver feito, vamos conversar novamente!",
+	"IanShop.AllRenovated": "Na verdade, @, nós já fizemos todas as reformas que podemos para você! Portanto, não temos nada de novo a oferecer - Desculpe!$1",
 	
 	"ShowImage.Arknir": "Esta foto foi tirada durante um evento de karaokê em Ridgeside pelo fotógrafo de Grampleton Ark Nir.#(Vencedor do RSV Discord Art Contest 2021)",
 	"ShowImage.Aniv1st": "'Mia visitando seus amigos durante a Reunião de Ridgeside!'#Cópia da foto fornecida pelo Hime, o turista que capturou esta foto.#(1º lugar do concurso de fan-art do Discord Event do 1º aniversário do RSV)", 
@@ -114,6 +119,7 @@
 	"CompleteCrystalsNotif": "As montanhas parecem falar...#'Obrigado, agricultor... Vou continuar daqui...'#'Volte amanhã, e finalmente nos encontraremos...#'Cuidado, neto do meu amigo...'",
 
 	"RSV.MyLetter": "Para quem está lendo isso,^Faz tanto tempo desde que fomos isolados do resto do mundo. Era um dia ensolarado, quando de repente uma névoa roxa estava se aproximando da fazenda, até que a natureza se moveu para nos envolver em altos muros de terra, plantas e árvores. Sempre que tentávamos derrubar o muro, ele voltava a crescer mais forte. Pode-se pensar que minha esposa e eu guardaríamos rancor contra o poder superior que nos prendeu. Mas não, não nos importamos. ^ Deve haver uma razão pela qual a natureza nos prendeu, e gostamos de pensar que fomos salvos daquela névoa sinistra. E por isso, agradecemos a Yoba por nos dar a oportunidade de viver o resto de nossas vidas em paz.^Já se passaram anos e estamos felizes. Um dia, esta terra que uma vez foi cheia de colheitas que minha esposa e eu apreciávamos como crianças, desaparecerá.^E quando esse dia chegar, eu sei que minha esposa e eu já teríamos voltado para os braços de Yoba e as paredes poderiam ter caído.^^Para quem está lendo isso, esta terra é sua.^Tudo o que peço é que você dê amor como fizemos antes.^Que Yoba te abençoe.^^- R",
+	"RSV.Fridge": "Frigorífico",
 
 	"RSV.UndreyaError": "Somente o host pode acessar isso!",
 	"RSV.UndreyaSchedStart": "Começar a brincar de esconde-esconde com Undreya?",
@@ -138,7 +144,7 @@
 	"Aniv.2nd": "O Livro de Kabuto N.", 
 	"Aniv.3rd": "O Livro de Yri",
 
-    "Aniv.Airyn-Leilani": "(1st place of the poem contest from RSV's 1st Anniversary Discord Event)^^Dad^Goofy, Loving^Grow, Laugh, Lounge^Parents, Plants, Princess, Play^Watch, Worry, Smile^Warm, Strict^Mom^^L oves hugging me^E very time she visits^I pretend it's gross but I^L ove hearing her stories^A nd I wish that she was^N ot away so much^I miss you, Mom^^My brother Shiro^I care for him every day.^I don't mind. I don't.",
+    "Aniv.Airyn-Leilani": "(1º lugar do concurso de poemas do 1º Evento de Discórdia de Aniversário da RSV) ^^Dad^Goofy, Loving^Grow, Laugh, Lounge^Parents, Plants, Princess, Play^Watch, Worry, Smile^Warm, Sólida^Mãe^E muito abraçando-me^E muito tempo que ela me visita^Faço de conta que é nojento, mas tenho que ouvir suas histórias^A e desejo que ela não esteja tão longe^Sinto sua falta, mamãe^Meu irmão Shiro^Eu cuido dele todos os dias. Eu não me importo. Eu não me importo.",
 	"Aniv.Airyn": "(1º lugar do concurso de poemas do evento de discórdia do 1º aniversário da RSV)^^Papai^Pateta, Amor^Crescer, Rir, Lounge^Pais, Plantas, Princesa, Brincar^Assista, Preocupe-se, Sorria^Quente , Strict^Mãe^^Está me abraçando^E sempre que ela me visita^Finjo que é nojento, mas eu^Adoro ouvir as histórias dela^E gostaria que ela estivesse^Não muito longe^Sinto sua falta, mãe^ ^Meu irmão Shiro^Eu cuido dele todos os dias.^Não me importo. Não me importo.", 
 	"Aniv.ChickenNuggets": "(2º lugar do concurso de poemas do 1º Aniversário do Discord Event)^^Trinnie, para Yuuma:^Keahi e eu^Tenha um monte de brincadeiras prontas^Venha se juntar a nós algum dia!^^Keahi, para Yuuma:^Lembra das brincadeiras^E a diversão que costumávamos ter?^Vamos fazer isso de novo!^^ Yuuma, para Trinnie e Keahi:^Meus queridos amigos^Estou feliz por ter vocês dois^Por favor, esperem por mim",
 	"Aniv.Yri": "(3º lugar do concurso de poemas do 1º aniversário do RSV Discord Event)^^Elevenie^'Ridgeside^alto^em um penhasco^olhando sobre o vale^tranquil'", 
@@ -189,4 +195,12 @@
 	"FoxbloomHint.hard.28": "Apenas entre os aldeões de Ridgeside:^    Aniversário de terça-feira mais comum^    Total de mulheres aldeãs nascidas no inverno^    Número de aldeões com aniversário par durante a primeira semana do mês [letterbg LooseSprites/FoxbloomHints.hard 3]",
 
 	"RSV.MapIconName":  "Vila Ridgeside",
+
+	"LogCabinHotel.HistoryScroll": "A História de Ridgeside Village^^Muitos milênios atrás...^O vale veio a ser, seja criado por Yoba ou por causas naturais.^Um tipo de grande batalha aconteceu muito antes de qualquer história registrada da civilização humana. Entretanto, nenhuma evidência permanece quanto às origens do conflito.^[Falta muita história daqui até as gravações mais recentes...algumas delas riscadas ou desbotadas. Tudo inelegível] ^^Ao redor de 2500 anos atrás...^Uma antiga colônia tribal chegou ao cume e começou uma aldeia. As pessoas da tribo acreditavam em algum tipo de espírito de lago, que eles comumente retratavam como um híbrido de lontra/selina.^Eventualmente, o vilarejo foi destruído - muito provavelmente um grupo de antigos invasores.^Ao redor há 700 anos atrás...^Quando os primeiros colonos chegaram ao vale, instalaram uma cidade ao longo da linha costeira. Essa cidade é a cidade Pelican que conhecemos hoje.^A cidade Pelican foi originalmente criada como uma cidade mineira e acabou se tornando um porto comercial com o passar do tempo.^Originalmente, as pessoas afluíram à cidade Pelican por ser um ótimo lugar para viver da terra com solo extremamente fértil e colônias abundantes de peixes nas águas vizinhas. Com uma guerra internacional no horizonte, o estado decidiu construir uma nova aldeia nas montanhas como refúgio para os civis. Alguns dos colonos da cidade de Pelican decidiram viver permanentemente nesta nova aldeia - e assim nasceu Ridgeside Village.",
+
+	"ShowImage.zRSVOldKids": "É uma fotografia antiga de um grupo de crianças por uma árvore familiar.",
+
+	"RelationshipStatus.Locked": "(unavailable)",
+
+	"RSV.NoNewOrders": "Nada publicado esta semana.",
 }

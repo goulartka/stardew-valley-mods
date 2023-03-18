@@ -14,7 +14,7 @@
 	"Speed": 0,
 	"Defense": 0,
 	"Attack": 0,
-    "Duration": 10
+    "Duration": 200,
 	},
   "Price": 50,
   "IsColored": false,
@@ -22,7 +22,7 @@
   "GiftTastes":
   {
   "Love": ["Trinnie", "Alissa", "Malaya", "Maru", "Harvey"],
-  "Like": ["Jas", "Bert", "Corine"]
+  "Like": ["Jas", "Bert", "Corine"],
   },
 
   "NameLocalization":

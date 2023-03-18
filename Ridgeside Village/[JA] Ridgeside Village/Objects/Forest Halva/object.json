@@ -10,12 +10,12 @@
     "Mining": 0,
     "Luck": 0,
 	"Foraging": 0,
-	"MaxStamina": 1,
+	"MaxStamina": 30,
     "MagnetRadius": 0,
 	"Speed": 0,
 	"Defense": 0,
 	"Attack": 0,
-    "Duration": 300
+    "Duration": 300,
 	},
 	"Price": 120,
 	"IsColored": true,
@@ -30,10 +30,10 @@
         "Ingredients": [
         {
             "Object": 245,
-            "Count": 5
+            "Count": 5,
         }
         ],
-        "CanPurchase": false
+        "CanPurchase": false,
     },
 
     "NameLocalization":
