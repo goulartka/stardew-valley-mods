@@ -6,7 +6,7 @@
       "Target": "Maps/{{season}}_outdoorsTileSheet",
       "FromFile": "assets/TileSheets/Kaya/outdoorsTileSheet.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Overlay",
       "Update": "OnLocationChange"
@@ -17,7 +17,7 @@
       "Target": "Maps/{{season}}_outdoorsTileSheet",
       "FromFile": "assets/TileSheets/Kaya/outdoorsTileSheet.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Replace",
       "FromArea": {
@@ -40,7 +40,7 @@
       "Target": "Maps/{{season}}_outdoorsTileSheet",
       "FromFile": "assets/TileSheets/Kaya/outdoorsTileSheet.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Replace",
       "FromArea": {
@@ -63,7 +63,7 @@
       "Target": "Maps/{{season}}_outdoorsTileSheet",
       "FromFile": "assets/TileSheets/Kaya/outdoorsTileSheet.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Replace",
       "FromArea": {
@@ -86,7 +86,7 @@
       "Target": "Maps/{{season}}_outdoorsTileSheet",
       "FromFile": "assets/TileSheets/Kaya/outdoorsTileSheet.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Replace",
       "FromArea": {
@@ -109,7 +109,7 @@
       "Target": "Maps/{{season}}_outdoorsTileSheet",
       "FromFile": "assets/TileSheets/Kaya/outdoorsTileSheet.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Replace",
       "FromArea": {
@@ -132,7 +132,7 @@
       "Target": "Maps/{{season}}_outdoorsTileSheet",
       "FromFile": "assets/TileSheets/Kaya/outdoorsTileSheet.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Replace",
       "FromArea": {
@@ -155,7 +155,7 @@
       "Target": "Maps/{{season}}_beach",
       "FromFile": "assets/TileSheets/Kaya/beach.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Replace",
       "FromArea": {
@@ -178,7 +178,7 @@
       "Target": "Maps/winter_beach",
       "FromFile": "assets/TileSheets/Kaya/winter_beach.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Overlay",
       "Update": "OnLocationChange"
@@ -189,7 +189,7 @@
       "Target": "Maps/{{season}}_beach",
       "FromFile": "assets/TileSheets/Kaya/beach.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Overlay",
       "FromArea": {
@@ -212,7 +212,7 @@
       "Target": "Maps/{{season}}_town",
       "FromFile": "assets/TileSheets/Kaya/town.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Overlay",
       "FromArea": {
@@ -235,7 +235,7 @@
       "Target": "Maps/{{season}}_town",
       "FromFile": "assets/TileSheets/Kaya/town.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Overlay",
       "FromArea": {
@@ -258,7 +258,7 @@
       "Target": "Maps/{{season}}_town",
       "FromFile": "assets/TileSheets/Kaya/town.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Overlay",
       "FromArea": {
@@ -281,7 +281,7 @@
       "Target": "Maps/{{season}}_town",
       "FromFile": "assets/TileSheets/Kaya/town.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Overlay",
       "FromArea": {
@@ -304,7 +304,7 @@
       "Target": "Maps/{{season}}_town",
       "FromFile": "assets/TileSheets/Kaya/town.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Replace",
       "FromArea": {
@@ -327,7 +327,7 @@
       "Target": "Maps/{{season}}_town",
       "FromFile": "assets/TileSheets/Kaya/town.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Overlay",
       "FromArea": {
@@ -350,7 +350,7 @@
       "Target": "Maps/{{season}}_town",
       "FromFile": "assets/TileSheets/Kaya/town.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Overlay",
       "FromArea": {
@@ -373,14 +373,14 @@
       "Target": "Maps/{{season}}_town",
       "FromFile": "assets/TileSheets/Kaya/{{season}}_town.png",
       "When": {
-        "LocationName": "Custom_EastScarpe"
+        "LocationName": "EastScarp_Village"
       },
       "PatchMode": "Overlay",
       "Update": "OnLocationChange"
     },
     {
       "Action": "EditMap",
-      "Target": "Maps/Custom_EastScarpe",
+      "Target": "Maps/EastScarp_Village",
       "MapTiles": [
         {
           "Position": {
@@ -399,7 +399,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "LockedDoorWarp 12 26 Custom_ESVetHouse 1000 2000"
+            "Action": "LockedDoorWarp 12 26 EastScarp_VetHouse 1000 2000"
           }
         }
       ]
@@ -407,9 +407,9 @@
     {
       "LogName": "Adjusts exit warp from VetHouse",
       "Action": "EditMap",
-      "Target": "Maps/Custom_ESVetHouse",
+      "Target": "Maps/EastScarp_VetHouse",
       "MapProperties": {
-        "Warp": "12 28 Custom_EastScarpe 15 24"
+        "Warp": "12 28 EastScarp_Village 15 24"
       }
     },
   ]

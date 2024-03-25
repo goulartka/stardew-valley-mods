@@ -68,6 +68,7 @@
 			    "Willy": "{{i18n:EmberNightDialogue.Willy}}",
 				"Marlon": "{{i18n:EmberNightDialogue.Marlon}}",
 				"Wizard": "{{i18n:EmberNightDialogue.Wizard}}",
+				"Leo": "{{i18n:EmberNightDialogue.Leo}}",
 
 			//Dateables
 				"Alissa": "{{i18n:Festivals.EoR.Alissa}}",
@@ -104,6 +105,9 @@
 				"Irene_spouse": "{{i18n:Festivals.EoR.Irene_spouse}}",
 				"Zayne": "{{i18n:Festivals.EoR.Zayne}}",
 				"Zayne_spouse": "{{i18n:Festivals.EoR.Zayne_spouse}}",
+
+				"Faye_spouse": "{{i18n:Festivals.EoR.Faye_spouse}}",
+				"Bryle_spouse": "{{i18n:Festivals.EoR.Bryle_spouse}}",
 
 			//Vanilla Dateables
 			    "Abigail": "{{i18n:EmberNightDialogue.Abigail}}",

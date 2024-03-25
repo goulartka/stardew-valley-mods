@@ -1,7 +1,7 @@
 ﻿{
    "Name": "StardewHack",
    "Author": "bcmpinc",
-   "Version": "6.0",
+   "Version": "7.2",
    "Description": "Transpilation library used by my other mods. Doesn't do much on its own.",
    "UniqueID": "bcmpinc.StardewHack",
    "EntryDll": "StardewHack.dll",
@@ -9,7 +9,7 @@
    "UpdateKeys": ["Nexus:3213"],
    "Dependencies": [{
       "UniqueId": "spacechase0.GenericModConfigMenu",
-      "MinimumVersion": "1.10",
+      "MinimumVersion": "1.12",
       "IsRequired": false
    }]
 }

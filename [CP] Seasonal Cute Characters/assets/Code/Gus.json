@@ -1,5 +1,29 @@
 {
 	"Changes": [
+
+		{
+			"LogName": "Gus - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Gus_Winter, Characters/Gus_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Gus/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Gus - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Gus_Winter, Characters/Gus_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Gus/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
 		{
 			"LogName": "Gus - Seasonal",
 			"Action": "EditImage",
@@ -26,7 +50,7 @@
 		{
 			"LogName": "Gus - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Gus, Characters/Gus",
+			"Target": "Portraits/Gus, Characters/Gus, Portraits/Gus_Winter, Characters/Gus_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{

@@ -1,6 +1,16 @@
 {
 	"Changes": [
 		{
+			"LogName": "Linus - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Linus_Winter, Characters/Linus_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Linus/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
 			"LogName": "Linus - Seasonal",
 			"Action": "EditImage",
 			"Target": "Portraits/Linus, Characters/Linus",
@@ -13,7 +23,7 @@
 		{
 			"LogName": "Linus - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Linus, Characters/Linus",
+			"Target": "Portraits/Linus, Characters/Linus, Portraits/Linus_Winter, Characters/Linus_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{

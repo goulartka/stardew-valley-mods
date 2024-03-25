@@ -1,6 +1,29 @@
 {
 	"Changes": [
 		{
+			"LogName": "Shane - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_Winter, Characters/Shane_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Shane/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Shane - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_Winter, Characters/Shane_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Shane/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
 			"LogName": "Shane - Seasonal",
 			"Action": "EditImage",
 			"Target": "Portraits/Shane, Characters/Shane",
@@ -26,7 +49,7 @@
 		{
 			"LogName": "Shane - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Shane, Characters/Shane",
+			"Target": "Portraits/Shane, Characters/Shane, Portraits/Shane_Winter, Characters/Shane_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -71,6 +94,18 @@
         },
 		
 // NOSE OVERLAY
+		{
+			"LogName": "Shane - Winter Nose",
+			"Action": "EditImage",
+			"Target": "Characters/Shane_Winter",
+			"FromFile": "assets/Characters/Shane/Shane_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},
 		{
 			"LogName": "Shane - Seasonal Nose",
 			"Action": "EditImage",

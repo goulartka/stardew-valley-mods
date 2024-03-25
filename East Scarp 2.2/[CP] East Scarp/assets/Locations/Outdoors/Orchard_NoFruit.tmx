@@ -3,7 +3,7 @@
  <properties>
   <property name="AmbientLight" value="120 65 120"/>
   <property name="Outdoors" value="T"/>
-  <property name="Warp" value="-1 16 Custom_EastScarpe 76 48 -1 17 Custom_EastScarpe 76 48 -1 18 Custom_EastScarpe 76 48"/>
+  <property name="Warp" value="-1 16 EastScarp_Village 76 48 -1 17 EastScarp_Village 76 48 -1 18 EastScarp_Village 76 48"/>
  </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
   <image source="paths.png" width="64" height="144"/>

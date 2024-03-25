@@ -1,6 +1,30 @@
 {
 	"Changes": [
 		{
+			"LogName": "Abigail - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_Winter, Characters/Abigail_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Abigail/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Abigail - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_Winter, Characters/Abigail_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Abigail/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		
+		{
 			"LogName": "Abigail - Seasonal",
 			"Action": "EditImage",
 			"Target": "Portraits/Abigail, Characters/Abigail",
@@ -22,11 +46,12 @@
                 "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
 			},
 			"Update": "OnLocationChange",
-		},
+		},		
+	
 		{
 			"LogName": "Abigail - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Abigail, Characters/Abigail",
+			"Target": "Portraits/Abigail, Characters/Abigail, Portraits/Abigail_Winter, Characters/Abigail_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -47,6 +72,18 @@
 		},
 		
 // NOSE OVERLAY
+		{
+			"LogName": "Abigail - Winter Nose",
+			"Action": "EditImage",
+			"Target": "Characters/Abigail_Winter",
+			"FromFile": "assets/Characters/Abigail/Abigail_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},
 		{
 			"LogName": "Abigail - Seasonal Nose",
 			"Action": "EditImage",

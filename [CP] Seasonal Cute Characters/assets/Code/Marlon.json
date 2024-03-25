@@ -10,6 +10,19 @@
 				"HasFile:{{FromFile}}": true,
 			},
 		},
+
+		{
+            "LogName": "Marlon - Festival",
+            "Action": "EditImage",
+            "Target": "Portraits/Marlon, Characters/Marlon",
+            "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "FestivalOutfits": "True",
+            },
+            "Update": "OnLocationChange",
+        },	
 		
 // MISCELLANEOUS		
 		{

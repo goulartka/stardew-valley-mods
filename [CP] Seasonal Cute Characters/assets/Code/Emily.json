@@ -1,5 +1,29 @@
 {
 	"Changes": [
+
+		{
+			"LogName": "Emily - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Emily_Winter, Characters/Emily_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Emily/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Emily - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Emily_Winter, Characters/Emily_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Emily/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
 		{
 			"LogName": "Emily - Seasonal",
 			"Action": "EditImage",
@@ -26,7 +50,7 @@
 		{
 			"LogName": "Emily - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Emily, Characters/Emily",
+			"Target": "Portraits/Emily, Characters/Emily, Portraits/Emily_Winter, Characters/Emily_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -55,10 +79,34 @@
 				"HasFile:{{FromFile}}": true,
 				"AerobicsDay": "Regular, Harvey",
 			},
-			"Update": "OnLocationChange",
+			"Update": "OnLocationChange, OnTimeChange",
 		},
-		
+
+		{
+			"LogName": "Emily - Aerobics Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Emily_Winter, Characters/Emily_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Emily/{{TargetWithoutPath}}_Aerobics.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"AerobicsDay": "Regular, Harvey",
+			},
+			"Update": "OnLocationChange, OnTimeChange",
+		},		
 // NOSE OVERLAY
+		{
+			"LogName": "Emily - Winter Nose",
+			"Action": "EditImage",
+			"Target": "Characters/Emily_Winter",
+			"FromFile": "assets/Characters/Emily/Emily_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},
 		{
 			"LogName": "Emily - Seasonal Nose",
 			"Action": "EditImage",

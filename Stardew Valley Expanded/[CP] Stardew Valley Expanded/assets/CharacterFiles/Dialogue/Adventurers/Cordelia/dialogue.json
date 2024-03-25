@@ -1,11 +1,20 @@
 ﻿{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Cordelia",
+        "Entries": 
+        {
 
-"Mon": "%Cordelia: Camilla, nossa bruxa, me enviou aqui para buscar uma audiência com Marlon. Sabe, ele é uma lenda de onde eu venho.",
-"Tue": "%Cordelia: Camilla, nossa bruxa, me enviou aqui para buscar uma audiência com Marlon. Sabe, ele é uma lenda de onde eu venho.",
-"Wed": "%Cordelia: Camilla, nossa bruxa, me enviou aqui para buscar uma audiência com Marlon. Sabe, ele é uma lenda de onde eu venho.",
-"Thu": "%Cordelia: Camilla, nossa bruxa, me enviou aqui para buscar uma audiência com Marlon. Sabe, ele é uma lenda de onde eu venho.",
-"Fri": "%Cordelia: Camilla, nossa bruxa, me enviou aqui para buscar uma audiência com Marlon. Sabe, ele é uma lenda de onde eu venho.",
-"Sat": "%Cordelia: Camilla, nossa bruxa, me enviou aqui para buscar uma audiência com Marlon. Sabe, ele é uma lenda de onde eu venho.",
-"Sun": "%Cordelia: Camilla, nossa bruxa, me enviou aqui para buscar uma audiência com Marlon. Sabe, ele é uma lenda de onde eu venho."
+"Mon": "{{i18n:Cordelia.CharacterDialogue.001}}",
+"Tue": "{{i18n:Cordelia.CharacterDialogue.001}}",
+"Wed": "{{i18n:Cordelia.CharacterDialogue.001}}",
+"Thu": "{{i18n:Cordelia.CharacterDialogue.001}}",
+"Fri": "{{i18n:Cordelia.CharacterDialogue.001}}",
+"Sat": "{{i18n:Cordelia.CharacterDialogue.001}}",
+"Sun": "{{i18n:Cordelia.CharacterDialogue.001}}",
 
+},
+      },
+    ]
 }

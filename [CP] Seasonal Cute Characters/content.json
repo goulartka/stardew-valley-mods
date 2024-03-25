@@ -73,9 +73,71 @@
             "When":
             {
                 "DayEvent": "spirit's eve",
+                "LocationName": "town,Custom_EastScarpeInn, Custom_EastScarpe, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "EggF",
+            "When":
+            {
+                "DayEvent": "egg festival",
                 "LocationName": "town, temp"
             }
         },
+        {
+            "Name": "Festival",
+            "Value": "IceF",
+            "When":
+            {
+                "DayEvent": "festival of ice",
+                "LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Luau",
+            "When":
+            {
+                "DayEvent": "luau",
+                "LocationName": "Beach, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Jellies",
+            "When":
+            {
+                "DayEvent": "dance of the moonlight jellies",
+                "LocationName": "Beach, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Fair",
+            "When":
+            {
+                "DayEvent": "stardew valley fair",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "WinterStar",
+            "When":
+            {
+                "DayEvent": "feast of the winter star",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Wedding",
+            "Value": "WeddingOutfits",
+            "When":
+            {
+                "DayEvent": "wedding",
+            }
+        },		
         {
 			"Name": "AerobicsDay",
 			"Value": "",
@@ -247,6 +309,11 @@
 			"AllowValues": "True, False",
 			"Default": "True",
 		},	
+		"SlightlyCuterBear":
+        {
+			"AllowValues": "True, False",
+			"Default": "True",
+		},			
 		"SlightlyCuterBirdie":
         {
 			"AllowValues": "True, False",
@@ -282,6 +349,11 @@
 			"AllowValues": "True, False",
 			"Default": "True",
 		},
+		"SlightlyCuterFizz":
+        {
+			"AllowValues": "True, False",
+			"Default": "True",
+		},			
 		"SlightlyCuterGeorge":
         {
 			"AllowValues": "True, False",

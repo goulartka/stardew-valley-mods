@@ -71,7 +71,7 @@
 				"HasMod: |contains=Yagisan.NPCMapLocationsForNPCs": false
 			},
 			"Entries": {
-				"Custom_EastScarpe": {
+				"EastScarp_Village": {
 					"MapVectors": [
 						{
 							"TileX": 0,
@@ -94,7 +94,7 @@
 						"PrimaryText": "{{i18n:LocationName.EastScarp}}"
 					}
 				},
-				"Custom_ESOrchard": {
+				"EastScarp_Orchard": {
 					"MapVectors": [
 						{
 							"TileX": 0,
@@ -117,7 +117,7 @@
 						"PrimaryText": "{{i18n:LocationName.Orchard}}"
 					}
 				},
-				"Custom_ESMeadowFarm": {
+				"EastScarp_MeadowFarm": {
 					"MapVectors": [
 						{
 							"TileX": 0,
@@ -140,7 +140,7 @@
 						"PrimaryText": "{{i18n:LocationName.MeadowFarm}}"
 					}
 				},
-				"Custom_ESDeepMountains": {
+				"EastScarp_DeepMountains": {
 					"MapVectors": [
 						{
 							"TileX": 0,
@@ -163,7 +163,7 @@
 						"PrimaryText": "{{i18n:LocationName.DeepMountains}}"
 					}
 				},
-				"Custom_ESClearingHouse": {
+				"EastScarp_ClearingHouse": {
 					"MapVectors": [
 						{
 							"TileX": 0,
@@ -191,7 +191,7 @@
 				"HasMod: |contains=Yagisan.NPCMapLocationsForNPCs": false
 			},
 			"Entries": {
-				"Custom_EastScarpe": {
+				"EastScarp_Village": {
 					"MapVectors": [
 						{
 							"TileX": 0,
@@ -214,7 +214,7 @@
 						"PrimaryText": "{{i18n:LocationName.EastScarp}}"
 					}
 				},
-				"Custom_ESOrchard": {
+				"EastScarp_Orchard": {
 					"MapVectors": [
 						{
 							"TileX": 0,
@@ -237,7 +237,7 @@
 						"PrimaryText": "{{i18n:LocationName.Orchard}}"
 					}
 				},
-				"Custom_ESMeadowFarm": {
+				"EastScarp_MeadowFarm": {
 					"MapVectors": [
 						{
 							"TileX": 0,
@@ -260,7 +260,7 @@
 						"PrimaryText": "{{i18n:LocationName.MeadowFarm}}"
 					}
 				},
-				"Custom_ESDeepMountains": {
+				"EastScarp_DeepMountains": {
 					"MapVectors": [
 						{
 							"TileX": 0,

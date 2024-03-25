@@ -2,7 +2,8 @@
 <map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="9" height="8" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
-  <property name="Warp" value="5 7 Custom_ESVetHouse 5 10"/>
+    <property name="LocationContext" value="Lemurkat_EastScarp"/>
+  <property name="Warp" value="5 7 EastScarp_VetHouse 5 10"/>
  </properties>
  <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="32" columns="4">
   <image source="paths" width="64" height="128"/>

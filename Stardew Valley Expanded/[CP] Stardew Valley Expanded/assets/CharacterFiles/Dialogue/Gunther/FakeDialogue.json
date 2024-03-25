@@ -1,15 +1,27 @@
 ﻿
-{ 
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/GuntherSilvian",
+      "When": {
+        "GuntherUnlocked": "false"
+      },
+      "Entries": 
+      {
   //SPECIAL DIALOGUE
-  "Introduction": "You must be Mr. @. Pleasure to meet you.^You must be Ms. @. Pleasure to meet you.",
+  "Introduction": "{{i18n:FakeGunther.CharacterDialogue.001}}",
 
-  "Mon": "Olá.#$e#Encontrou algo interessante?",
-  "Tue": "Err, olá.$0",
-  "Wed": "Olá Sr. @.^Olá Sra. @.",
-  "Thu": "Bem-vindo ao Escritório de Arqueologia.^Bem-vinda ao Escritório de Arqueologia",
-  "Fri": "Oi.$0",
-  "Sat": "Você tem planos para o fim de semana?",
-  "Sun": "Bom dia, Sr. @.^Bom dia, Sra. @.",
+  "Mon": "{{i18n:FakeGunther.CharacterDialogue.002}}",
+  "Tue": "{{i18n:FakeGunther.CharacterDialogue.003}}",
+  "Wed": "{{i18n:FakeGunther.CharacterDialogue.004}}",
+  "Thu": "{{i18n:FakeGunther.CharacterDialogue.005}}",
+  "Fri": "{{i18n:FakeGunther.CharacterDialogue.006}}",
+  "Sat": "{{i18n:FakeGunther.CharacterDialogue.007}}",
+  "Sun": "{{i18n:FakeGunther.CharacterDialogue.008}}",
 
+},
+    },
+  ]
 }
 

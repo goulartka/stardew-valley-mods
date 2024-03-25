@@ -1,4 +1,7 @@
 {
+  "WarpLocation": "default",
+  "EnchantedGroveWarpX": "48",
+  "EnchantedGroveWarpY": "7",
   "SeasonalEdits": "true",
   "ReplaceDefaultFences": "true",
   "ReplaceHardwoodFences": "false",

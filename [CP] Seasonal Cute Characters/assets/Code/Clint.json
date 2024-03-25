@@ -1,5 +1,29 @@
 {
 	"Changes": [
+
+		{
+			"LogName": "Clint - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Clint_Winter, Characters/Clint_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Clint/{{TargetWithoutPath}}{{ClintWork}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Clint - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Clint_Winter, Characters/Clint_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Clint/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
 		{
 			"LogName": "Clint - Seasonal",
 			"Action": "EditImage",
@@ -27,7 +51,7 @@
 		{
 			"LogName": "Clint - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Clint, Characters/Clint",
+			"Target": "Portraits/Clint, Characters/Clint, Portraits/Clint_Winter, Characters/Clint_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -48,6 +72,19 @@
 		},
 		
 // NOSE OVERLAY
+
+		{
+			"LogName": "Clint - Winter Nose",
+			"Action": "EditImage",
+			"Target": "Characters/Clint_Winter",
+			"FromFile": "assets/Characters/Clint/Clint_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},
 		{
 			"LogName": "Clint - Seasonal Nose",
 			"Action": "EditImage",

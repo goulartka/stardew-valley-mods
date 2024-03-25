@@ -44,7 +44,7 @@
 			"Target": "LooseSprites/Cursors",
 			"FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
 			"FromArea": { "X": 50, "Y": 1387, "Width": 14, "Height": 30 },
-			"ToArea": { "X": 0, "Y": 1387, "Width": 14, "Height": 30 },
+			"ToArea": { "X": 50, "Y": 1387, "Width": 14, "Height": 30 },
 			"When": 
 			{
 				"HasFile:{{FromFile}}": true,

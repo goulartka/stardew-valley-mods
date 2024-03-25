@@ -13,6 +13,24 @@
             "Target": "Maps/{{season}}_inn",
             "FromFile": "assets/TileSheets/Yri/{{season}}_inn.png",
         },
+        {
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Maps/balcony_house",
+            "FromFile": "assets/TileSheets/Yri/balcony_house.png",
+            "When": {
+                "Season": "spring,summer,fall"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Maps/balcony_house",
+            "FromFile": "assets/TileSheets/Yri/winter_balcony_house.png",
+            "When": {
+                "Season": "winter"
+            }
+        },
         ///Flowers
         //Cottage
         {
@@ -39,7 +57,28 @@
             "FromFile": "assets/TileSheets/Yri/Flowers/cottage/{{FlowerStyle}}.png",
             "PatchMode": "Overlay",
             "When": {
-                "FlowerStyle |contains=RoseWhite, ClematisBlue, WisteriaBlue, WisteriaPink, WisteriaPurple, WisteriaRed, WisteriaWhite, WisteriaYellow": true
+                "FlowerStyle |contains=RoseWhite, ClematisBlue, WisteriaFBlue, WisteriaFPink, WisteriaFPurple, WisteriaFRed, WisteriaFWhite, WisteriaFYellow": true
+            }
+        },
+        //BalconyHouse
+        {
+            "Action": "EditImage",
+            "Target": "Maps/balcony_house",
+            "FromFile": "assets/TileSheets/Yri/Flowers/balcony_house/{{FlowerStyle}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "FlowerStyle |contains=RoseWhite, ClematisBlue, WisteriaBlue, WisteriaPink, WisteriaPurple, WisteriaRed, WisteriaWhite, WisteriaYellow": true,
+                "Season": "spring,summer"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/balcony_house",
+            "FromFile": "assets/TileSheets/Yri/Flowers/balcony_house/{{FlowerStyle}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "FlowerStyle |contains=WisteriaFBlue, WisteriaFPink, WisteriaFPurple, WisteriaFRed, WisteriaFWhite, WisteriaFYellow": true,
+                "Season": "fall"
             }
         },
         //EastScarp
@@ -67,7 +106,7 @@
             "FromFile": "assets/TileSheets/Yri/Flowers/EastScarp/{{FlowerStyle}}.png",
             "PatchMode": "Overlay",
             "When": {
-                "FlowerStyle |contains=RoseWhite, ClematisBlue, WisteriaBlue, WisteriaPink, WisteriaPurple, WisteriaRed, WisteriaWhite, WisteriaYellow": true
+                "FlowerStyle |contains=RoseWhite, ClematisBlue, WisteriaFBlue,WisteriaFPink, WisteriaFPurple, WisteriaFRed, WisteriaFWhite, WisteriaFYellow": true
             }
         },
         //Inn
@@ -123,7 +162,7 @@
             "FromFile": "assets/TileSheets/Yri/Flowers/lighthouse/{{FlowerStyle}}.png",
             "PatchMode": "Overlay",
             "When": {
-                "FlowerStyle |contains=RoseWhite, ClematisBlue, WisteriaBlue, WisteriaPink, WisteriaPurple, WisteriaRed, WisteriaWhite, WisteriaYellow": true
+                "FlowerStyle |contains=RoseWhite, ClematisBlue, WisteriaFBlue, WisteriaFPink, WisteriaFPurple, WisteriaFRed, WisteriaFWhite, WisteriaFYellow": true
             }
         },
     ]

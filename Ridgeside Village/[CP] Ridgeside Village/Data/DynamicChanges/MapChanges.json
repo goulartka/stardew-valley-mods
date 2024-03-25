@@ -11,7 +11,7 @@
 	{
 		"Action": "EditMap",
 		"Target": "Maps/Custom_Ridgeside_RSVCliff",
-		"FromFile": "Assets/Maps/OutdoorMaps/RSVCliff.tmx",
+		"FromFile": "Assets/Maps/OutdoorMaps/Custom_Ridgeside_RSVCliff.tmx",
 		"FromArea": { "X": 0, "Y": 0, "Width": 108, "Height": 40 },
 		"ToArea": { "X": 0, "Y": 0, "Width": 108, "Height": 40 },
 		"PatchMode": "ReplaceByLayer",
@@ -33,7 +33,7 @@
 	{
 		"Action": "EditMap",
 		"Target": "Maps/Custom_Ridgeside_RSVTheRide",
-		"FromFile": "Assets/Maps/EventMaps/RSVTheRide.tmx",
+		"FromFile": "Assets/Maps/EventMaps/Custom_Ridgeside_RSVTheRide.tmx",
 		"ToArea": { "X": 0, "Y": 0, "Width": 93, "Height": 40 },
 		"PatchMode": "ReplaceByLayer",
 		"When": { "Time": "{{Range: 0600, 1900}}" },
@@ -150,85 +150,6 @@
 	},
 
 //Unlock Minecarts
-	{
-				"LogName": "RSV: Full minecart usage in village",
-        "Action": "EditMap",
-        "Target": "Maps/Custom_Ridgeside_RidgesideVillage",
-        "MapTiles": [
-			{
-				"Position": { "X": 69, "Y": 15 },
-				"Layer": "Buildings",
-				"SetProperties": {
-				"Action": "RSVMinecart2"
-               }
-            },
-			{
-				"Position": { "X": 16, "Y": 81 },
-				"Layer": "Buildings",
-				"SetProperties": {
-				"Action": "RSVMinecart3"
-               }
-            },
-            {
-				"Position": { "X": 109, "Y": 84 },
-				"Layer": "Buildings",
-				"SetProperties": {
-				"Action": "RSVMinecart4"
-               }
-            }
-		],
-		"When": {
-			"HasFlag: hostPlayer": "RSV.FixedMinecart",
-			"HasMod: |contains=jibb.minecarts": false
-		},
-		"Update": "OnLocationChange"
-    },
-	{
-				"LogName": "RSV: Full minecart usage at cable car",
-        "Action": "EditMap",
-        "Target": "Maps/Custom_Ridgeside_RSVCableCar",
-        "MapTiles": [
-			{
-				"Position": { "X": 25, "Y": 17 },
-				"Layer": "Buildings",
-				"SetProperties": {
-				"Action": "RSVMinecart1"
-               }
-            }
-		],
-		"When": {
-			"HasFlag: hostPlayer": "RSV.FixedMinecart",
-			"HasMod: |contains=jibb.minecarts": false
-		},
-		"Update": "OnLocationChange"
-	},
-	{
-				"LogName": "RSV: Full minecart usage at summit farm",
-        "Action": "EditMap",
-        "Target": "Maps/Custom_Ridgeside_SummitFarm",
-        "MapTiles": [
-			{
-				"Position": { "X": 77, "Y": 47 },
-				"Layer": "Buildings",
-				"SetProperties": {
-				"Action": "RSVMinecart5"
-               }
-            },
-
-            {
-				"Position": { "X": 22, "Y": 40 },
-				"Layer": "Buildings",
-				"SetProperties": {
-				"Action": "RSVMinecart6"
-               }
-            }
-		],
-		"When": {
-			"HasFlag: hostPlayer": "RSV.FixedMinecart",
-			"HasMod: |contains=jibb.minecarts": false
-		},
-		"Update": "OnLocationChange"
-	},
 	//Open Entrance
 	{
 		"LogName": "RSV: Open entrance to minecarts",
@@ -401,7 +322,7 @@
       	},
 
     //Hike Greenhouse unlock
-     	 {
+			{
 				 "LogName": "RSV: Open phantom greenhouse at night",
          "Action": "EditMap",
          "Target": "Maps/Custom_Ridgeside_RSVTheHike",
@@ -427,7 +348,7 @@
          "PatchMode": "Overlay",
          "Update": "OnLocationChange",
     	 "When": {
-             "HasSeenEvent: hostPlayer": 75160271,
+						 "HasFlag: hostPlayer |contains=RSV.HauntedGHFix": true,
       	}
       	},
 
@@ -714,7 +635,7 @@
 				"Position": { "X": 125, "Y": 12 },
 				"Layer": "Buildings",
 				"SetProperties": {
-				"Action": "RSVWarp Custom_Ridgeside_RidgesideVillage 46 72"
+				"Action": "RSVTeleport Custom_Ridgeside_RidgesideVillage 46 72"
                }
             }
 		],
@@ -729,7 +650,7 @@
 				"Position": { "X": 45, "Y": 72 },
 				"Layer": "Buildings",
 				"SetProperties": {
-				"Action": "RSVWarp Custom_Ridgeside_RidgesideVillage 67 123"
+				"Action": "RSVTeleport Custom_Ridgeside_RidgesideVillage 67 123"
                }
             }
 		],
@@ -744,7 +665,7 @@
 				"Position": { "X": 67, "Y": 124 },
 				"Layer": "Buildings",
 				"SetProperties": {
-				"Action": "RSVWarp Custom_Ridgeside_RSVTheHike 60 27"
+				"Action": "RSVTeleport Custom_Ridgeside_RSVTheHike 60 27"
                }
             }
 		],
@@ -759,7 +680,7 @@
 				"Position": { "X": 60, "Y": 26 },
 				"Layer": "Buildings",
 				"SetProperties": {
-				"Action": "RSVWarp Custom_Ridgeside_RidgesideVillage 125 13"
+				"Action": "RSVTeleport Custom_Ridgeside_RidgesideVillage 125 13"
                }
             }
 		],
@@ -776,7 +697,7 @@
 				"Position": { "X": 57, "Y": 52 },
 				"Layer": "Buildings",
 				"SetProperties": {
-				"Action": "RSVWarp Custom_Ridgeside_TortsRealm 14 38"
+				"Action": "RSVTeleport Custom_Ridgeside_TortsRealm 14 38"
                }
             }
 		],
@@ -952,33 +873,6 @@
 		"PatchMode": "Replace",
 		"When": { "HasFlag: hostPlayer": "RSV.SummitOreArea" }
 	},
-	{
-		"Action": "EditMap",
-		"Target": "Maps/Custom_Ridgeside_SummitFarm",
-		"FromFile": "Assets/Maps/DynamicMaps/SummitFarm_Shed.tmx",
-		"FromArea": { "X": 0, "Y": 0, "Width": 13, "Height": 11 },
-		"ToArea": { "X": 9, "Y": 29, "Width": 13, "Height": 11 },
-		"PatchMode": "Replace",
-		"When": { "HasFlag: hostPlayer": "RSV.ShedAdded" }
-	},
-	{
-		"Action": "EditMap",
-		"Target": "Maps/Custom_Ridgeside_SummitFarm",
-		"FromFile": "Assets/Maps/DynamicMaps/SummitFarm_ShedStairs.tmx",
-		"FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 6 },
-		"ToArea": { "X": 9, "Y": 43, "Width": 1, "Height": 6 },
-		"PatchMode": "Replace",
-		"When": { "HasConversationTopic: hostPlayer": "RSV.ShedCT" }
-	},
-	{
-		"Action": "EditMap",
-		"Target": "Maps/Custom_Ridgeside_SummitFarm",
-		"FromFile": "Assets/Maps/DynamicMaps/SummitFarm_ShedStairs.tmx",
-		"FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 6 },
-		"ToArea": { "X": 9, "Y": 43, "Width": 1, "Height": 6 },
-		"PatchMode": "Replace",
-		"When": { "HasFlag: hostPlayer": "RSV.ShedAdded" }
-	},
 
 //Paula Clean Room
 	{
@@ -1131,7 +1025,7 @@
 
 	// Clear existing door properties
 	{
-			"LogName": "June Log Cabin 2nd Floor door change",
+			"LogName": "June Log Cabin Hotel door change",
 			"Action": "EditMap",
 			 "Target": "Maps/Custom_Ridgeside_LogCabinHotel2ndFloor",
 			 "When": {
@@ -1151,7 +1045,7 @@
 
 		// Assign tile to be June's door
 		{
-				"LogName": "June Log Cabin 2nd Floor door change",
+				"LogName": "June Log Cabin Hotel door change",
 				"Action": "EditMap",
 				 "Target": "Maps/Custom_Ridgeside_LogCabinHotel2ndFloor",
 				 "When": {
@@ -1169,41 +1063,56 @@
 				 ]
 			},
 
+			{
+				"LogName": "Decorate June's rom",
+				"Action": "EditMap",
+				"Target": "Maps/Custom_Ridgeside_LogCabinHotel2ndFloor",
+				"FromFile": "Assets/Maps/DynamicMaps/LogCabinHotel2ndFloor_June.tmx",
+				"FromArea": { "X": 0, "Y": 0, "Width": 8, "Height": 8 },
+				"ToArea": { "X": 35, "Y": 18, "Width": 8, "Height": 8 },
+				"PatchMode": "ReplaceByLayer",
+				"When": {
+					"Season": "fall, winter",
+					"Relationship:June |contains=Married": false,
+				},
+			},
+
 		// Edit the piano text when June is present but not playing
 			{
-	  		"LogName": "June Piano Text - Fall Winter MTW",
+	  		"LogName": "June Piano Text Edit - Unmarried",
 	      "Action": "EditData",
 	  		"Target": "Strings/StringsFromMaps",
 	      "When": {
 					"Season": "fall, winter",
 					"DayOfWeek": "Monday, Tuesday, Wednesday",
+					"Relationship:June |contains=Married": false,
 					"HasSeenEvent": 94620000,
 	      },
 	  		"Entries": {
-	        "rsv.hotel10": "{{i18n:i18n.piano_sign}}"
+	        "rsv.hotel10": "{{i18n:June.piano_sign.unmarried}}"
 	      }
 	    },
 			{
-				"LogName": "June Piano Text - Married +Spring Summer MTW",
+				"LogName": "June Piano Text Edit - Married",
 				"Action": "EditData",
 				"Target": "Strings/StringsFromMaps",
 				"When": {
-					"Season": "spring, summer",
-					"DayOfWeek": "Monday, Tuesday, Wednesday",
+					"DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday",
 					"Relationship:June |contains=Married": true,
 					"HasSeenEvent": 94620000,
 				},
 				"Entries": {
-					"rsv.hotel10": "{{i18n:i18n.piano_sign}}"
+					"rsv.hotel10": "{{i18n:June.piano_sign.married}}"
 				}
 			},
 
 		// Clear piano text on days June plays
 			{
-	  		"LogName": "June Piano Text - Fall Winter TFSS",
+	  		"LogName": "June Piano Text Clear - Unmarried",
 	      "Action": "EditMap",
 	  		"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
 	      "When": {
+					"Relationship:June |contains=Married": false,
 					"Season": "fall, winter",
 					"DayOfWeek": "Thursday, Friday, Saturday, Sunday",
 					"HasSeenEvent": 94620000,
@@ -1227,12 +1136,11 @@
 	    },
 
 			{
-				"LogName": "June Piano Text - Married +Spring Summer TFSS",
+				"LogName": "June Piano Text Clear - Married",
 				"Action": "EditMap",
 				"Target": "Maps/Custom_Ridgeside_LogCabinHotelLobby",
 				"When": {
-					"Season": "spring, summer",
-					"DayOfWeek": "Thursday, Friday, Saturday, Sunday",
+					"DayOfWeek": "Saturday, Sunday",
 					"Relationship:June |contains=Married": true,
 					"HasSeenEvent": 94620000,
 				},
@@ -1276,10 +1184,90 @@
 			],
 			"When": {
 				"HasSeenEvent: |contains=75160440": false,
-				"HasSeenEvent: |contains=75160439": true
+				"HasFlag": "ZayneLetter",
 			},
 			"Update": "OnLocationChange, OnTimeChange"
 	},
+
+	//Rainy backgrounds (Thanks Kailey!)
+	{
+		"LogName": "RSV: Rainy backgrounds DAY",
+		"Action": "EditImage",
+		"Target": "Maps/{{season}}_zrsvwideview",
+		"FromFile": "Assets/Maps/TileSheets/Kailey/{{season}}_rain_day_zrsvwideview.png",
+		"When": {
+			"Weather": "Rain, Storm",
+			"Time": "{{Range: 0600, 1999}}"
+		},
+		"Update": "OnLocationChange"
+	},
+	{
+		"LogName": "RSV: Rainy backgrounds NIGHT",
+		"Action": "EditImage",
+		"Target": "Maps/{{season}}_zrsvwideviewnight",
+		"FromFile": "Assets/Maps/TileSheets/Kailey/{{season}}_rain_night_zrsvwideview.png",
+		"When": {
+			"Weather": "Rain, Storm",
+			"Time": "{{Range: 2000, 2600}}"
+		},
+		"Update": "OnLocationChange"
+	},
+
+	{
+		"LogName": "RSV: Traveling Cart at Hike Trail",
+		"Action": "EditMap",
+		"Target": "Maps/Custom_Ridgeside_RSVTheHike",
+		"FromFile": "Assets/Maps/DynamicMaps/RSVTheHike_Cart.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 9, "Height": 5 },
+		"ToArea": { "X": 48, "Y": 20, "Width": 9, "Height": 5 },
+		"PatchMode": "ReplaceByLayer",
+		"Update": "OnTimeChange",
+		"When": {
+			"Time": "{{Range: 0600, 1950}}",
+			"DayOfWeek": "Wednesday"
+		},
+	},
+	{
+		"LogName": "RSV: Traveling Cart at Hike Trail",
+		"Action": "EditMap",
+		"Target": "Maps/Custom_Ridgeside_RSVTheHike",
+		"FromFile": "Assets/Maps/DynamicMaps/RSVTheHike_Cart-Empty.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 9, "Height": 5 },
+		"ToArea": { "X": 48, "Y": 20, "Width": 9, "Height": 5 },
+		"PatchMode": "ReplaceByLayer",
+		"Update": "OnTimeChange",
+		"When": {
+			"Time": "{{Range: 2000, 2600}}",
+			"DayOfWeek": "Wednesday"
+		},
+	},
+
+	{
+		"LogName": "RSV: Irene's Room at Amethynes Empty",
+		"Action": "EditMap",
+		"Target": "Maps/Custom_Ridgeside_PurpleMansion",
+		"FromFile": "Assets/Maps/DynamicMaps/PurpleMansion_NoIrene.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 14, "Height": 8 },
+		"ToArea": { "X": 0, "Y": 40, "Width": 14, "Height": 8 },
+		"PatchMode": "ReplaceByLayer",
+		"When": {
+			"HasSeenEvent |contains=75160431": true
+		},
+	},
+	/*
+	{
+		"LogName": "RSV: Irene Room at Faye's",
+		"Action": "EditMap",
+		"Target": "Maps/Custom_Ridgeside_FayeHouse",
+		"FromFile": "Assets/Maps/DynamicMaps/FayeHouse_Irene.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 13, "Height": 9 },
+		"ToArea": { "X": 1, "Y": 1, "Width": 13, "Height": 9 },
+		"PatchMode": "ReplaceByLayer",
+		"When": {
+			"HasSeenEvent |contains=75160431": false
+		},
+	},
+	*/
 
 ]
 }

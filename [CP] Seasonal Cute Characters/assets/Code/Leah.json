@@ -1,6 +1,29 @@
 {
 	"Changes": [
 		{
+			"LogName": "Leah - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Winter, Characters/Leah_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Leah/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Leah - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Winter, Characters/Leah_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Leah/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
 			"LogName": "Leah - Seasonal",
 			"Action": "EditImage",
 			"Target": "Portraits/Leah, Characters/Leah",
@@ -26,7 +49,7 @@
 		{
 			"LogName": "Leah - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Leah, Characters/Leah",
+			"Target": "Portraits/Leah, Characters/Leah, Portraits/Leah_Winter, Characters/Leah_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -57,8 +80,31 @@
 			},
 			"Update": "OnLocationChange, OnTimeChange",
 		},
-		
+		{
+			"LogName": "Leah - Aerobics Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_Winter, Characters/Leah_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Leah/{{TargetWithoutPath}}_Aerobics.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"AerobicsDay": "Regular, Harvey",
+			},
+			"Update": "OnLocationChange, OnTimeChange",
+		},		
 // NOSE OVERLAY
+		{
+			"LogName": "Leah - Winter Nose",
+			"Action": "EditImage",
+			"Target": "Characters/Leah_Winter",
+			"FromFile": "assets/Characters/Leah/Leah_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},
 		{
 			"LogName": "Leah - Seasonal Nose",
 			"Action": "EditImage",

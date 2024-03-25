@@ -29,7 +29,7 @@
           418
         ],
         "UniqueAreaID": "EastScarpeLand",
-        "MapName": "Custom_EastScarpe",
+        "MapName": "EastScarp_Village",
         "MinimumSpawnsPerDay": 1,
         "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [],
@@ -56,6 +56,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -89,7 +90,7 @@
           723
         ],
         "UniqueAreaID": "EastScarpeBeach",
-        "MapName": "Custom_EastScarpe",
+        "MapName": "EastScarp_Village",
         "MinimumSpawnsPerDay": -1,
         "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [],
@@ -115,6 +116,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -133,7 +135,7 @@
         "FallItemIndex": null,
         "WinterItemIndex": null,
         "UniqueAreaID": "EastScarpe (summer extras)",
-        "MapName": "Custom_EastScarpe",
+        "MapName": "EastScarp_Village",
         "MinimumSpawnsPerDay": 4,
         "MaximumSpawnsPerDay": 10,
         "IncludeTerrainTypes": [],
@@ -163,6 +165,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -187,7 +190,7 @@
           80
         ],
         "UniqueAreaID": "DeepDark Foraging Area 1",
-        "MapName": "Custom_ESDeepDark",
+        "MapName": "EastScarp_DeepDark",
         "MinimumSpawnsPerDay": -2,
         "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [],
@@ -214,6 +217,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -442,7 +446,7 @@
           }
         ],
         "UniqueAreaID": "Underground1 forage area 1",
-        "MapName": "Custom_ESDeepDark",
+        "MapName": "EastScarp_DeepDark",
         "MinimumSpawnsPerDay": -2,
         "MaximumSpawnsPerDay": 5,
         "IncludeTerrainTypes": [],
@@ -469,6 +473,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -489,7 +494,7 @@
           440
         ],
         "UniqueAreaID": "JacobBarn",
-        "MapName": "Custom_ESJacobBarn",
+        "MapName": "EastScarp_JacobBarn",
         "MinimumSpawnsPerDay": -1,
         "MaximumSpawnsPerDay": 1,
         "IncludeTerrainTypes": [],
@@ -515,6 +520,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -535,7 +541,7 @@
           152
         ],
         "UniqueAreaID": "ESOrchard Beach",
-        "MapName": "Custom_ESOrchard",
+        "MapName": "EastScarp_Orchard",
         "MinimumSpawnsPerDay": -1,
         "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [],
@@ -561,6 +567,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -570,30 +577,30 @@
       {
         "SpringItemIndex": [
           {
-            "Category": "Item",
-            "Name": "Ruby Ring"
+            "Category": "Object",
+            "Name": "EastScarp_Vintage_Ruby_Ring"
           }
         ],
         "SummerItemIndex": [
           {
-            "Category": "Item",
-            "Name": "Ruby Ring"
+            "Category": "Object",
+            "Name": "EastScarp_Vintage_Ruby_Ring"
           }
         ],
         "FallItemIndex": [
           {
-            "Category": "Item",
-            "Name": "Ruby Ring"
+            "Category": "Object",
+            "Name": "EastScarp_Vintage_Ruby_Ring"
           }
         ],
         "WinterItemIndex": [
           {
-            "Category": "Item",
-            "Name": "Ruby Ring"
+            "Category": "Object",
+            "Name": "EastScarp_Vintage_Ruby_Ring"
           }
         ],
         "UniqueAreaID": "SmugglerDen",
-        "MapName": "Custom_ESSmugglerDen",
+        "MapName": "EastScarp_SmugglerDen",
         "MinimumSpawnsPerDay": 1,
         "MaximumSpawnsPerDay": 1,
         "IncludeTerrainTypes": [],
@@ -618,6 +625,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
@@ -637,8 +645,8 @@
         "WinterItemIndex": [
           109
         ],
-        "UniqueAreaID": "Custom_ESSmugglerDen forage area 1",
-        "MapName": "Custom_ESSmugglerDen",
+        "UniqueAreaID": "EastScarp_SmugglerDen forage area 1",
+        "MapName": "EastScarp_SmugglerDen",
         "MinimumSpawnsPerDay": 1,
         "MaximumSpawnsPerDay": 1,
         "IncludeTerrainTypes": [],
@@ -663,6 +671,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
@@ -695,7 +704,7 @@
         "PercentExtraSpawnsPerSkillLevel": 0,
         "RelatedSkill": "Foraging",
         "UniqueAreaID": "ESOrchard",
-        "MapName": "Custom_ESOrchard",
+        "MapName": "EastScarp_Orchard",
         "MinimumSpawnsPerDay": -2,
         "MaximumSpawnsPerDay": 4,
         "IncludeTerrainTypes": [],
@@ -720,6 +729,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -736,7 +746,7 @@
         "StartingSpawnChance": null,
         "LevelTenSpawnChance": null,
         "UniqueAreaID": "DeepDark Ore Area 1",
-        "MapName": "Custom_ESDeepDark",
+        "MapName": "EastScarp_DeepDark",
         "MinimumSpawnsPerDay": 10,
         "MaximumSpawnsPerDay": 15,
         "IncludeTerrainTypes": [],
@@ -763,6 +773,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -797,8 +808,8 @@
           "CinderShard": 0
         },
         "LevelTenSpawnChance": null,
-        "UniqueAreaID": "Custom_ESSmugglerDen ore area 1",
-        "MapName": "Custom_ESSmugglerDen",
+        "UniqueAreaID": "EastScarp_SmugglerDen ore area 1",
+        "MapName": "EastScarp_SmugglerDen",
         "MinimumSpawnsPerDay": 1,
         "MaximumSpawnsPerDay": 4,
         "IncludeTerrainTypes": [],
@@ -823,6 +834,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -922,7 +934,7 @@
           }
         ],
         "UniqueAreaID": "EastScarpe monster area 1",
-        "MapName": "Custom_EastScarpe",
+        "MapName": "EastScarp_Village",
         "MinimumSpawnsPerDay": 5,
         "MaximumSpawnsPerDay": 20,
         "IncludeTerrainTypes": [
@@ -949,10 +961,11 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
-          "CPConditions": {},
-          "EPUPreconditions": [
-            "k 63079050"
+          "GameStateQueries": [
+            "!PLAYER_HAS_SEEN_EVENT host 63079050"
           ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
         "DaysUntilSpawnsExpire": null
@@ -973,7 +986,7 @@
           }
         ],
         "UniqueAreaID": "Underground Monster Area",
-        "MapName": "Custom_ESDeepDark",
+        "MapName": "EastScarp_DeepDark",
         "MinimumSpawnsPerDay": 10,
         "MaximumSpawnsPerDay": 20,
         "IncludeTerrainTypes": [
@@ -1002,6 +1015,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -1037,6 +1051,18 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "Bat Wing",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 90
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Bat Wing",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
                   "Name": "Void Essence",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
@@ -1060,6 +1086,18 @@
               "DodgeChance": 2,
               "EXP": 30,
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Bat Wing",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 90
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Bat Wing",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 50
+                },
                 {
                   "Category": "Object",
                   "Name": "Void Essence",
@@ -1095,7 +1133,7 @@
           }
         ],
         "UniqueAreaID": "Abandoned Mine Monsters",
-        "MapName": "Custom_ESMineEntrance",
+        "MapName": "EastScarp_MineEntrance",
         "MinimumSpawnsPerDay": 20,
         "MaximumSpawnsPerDay": 80,
         "IncludeTerrainTypes": [
@@ -1120,6 +1158,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -1146,7 +1185,7 @@
           }
         ],
         "UniqueAreaID": "ESOrchard monster area 1",
-        "MapName": "Custom_ESOrchard",
+        "MapName": "EastScarp_Orchard",
         "MinimumSpawnsPerDay": 3,
         "MaximumSpawnsPerDay": 10,
         "IncludeTerrainTypes": [],
@@ -1171,75 +1210,11 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
-          "CPConditions": {},
-          "EPUPreconditions": [
-            "k 63078004"
+          "GameStateQueries": [
+            "!PLAYER_HAS_SEEN_EVENT host 63078004"
           ],
-          "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": null
-      },
-      {
-        "MonsterTypes": [
-          {
-            "MonsterName": "Green Slime",
-            "Settings": {
-              "HP": 3000,
-              "Damage": 0
-            }
-          },
-          {
-            "MonsterName": "Blue Slime",
-            "Settings": {
-              "HP": 3000,
-              "Damage": 0
-            }
-          },
-          {
-            "MonsterName": "Purple Slime",
-            "Settings": {
-              "HP": 3000,
-              "Damage": 0
-            }
-          },
-          {
-            "MonsterName": "Red Slime",
-            "Settings": {
-              "HP": 3000,
-              "Damage": 0
-            }
-          }
-        ],
-        "UniqueAreaID": "Custom_ESOrchard monster area 1",
-        "MapName": "Custom_ESOrchard",
-        "MinimumSpawnsPerDay": 3,
-        "MaximumSpawnsPerDay": 10,
-        "IncludeTerrainTypes": [],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [
-          "15,5/48,28"
-        ],
-        "ExcludeCoordinates": [],
-        "StrictTileChecking": "Maximum",
-        "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 1800,
-          "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": 6,
-          "OnlySpawnIfAPlayerIsPresent": false,
-          "SpawnSound": "slime"
-        },
-        "ExtraConditions": {
-          "Years": [],
-          "Seasons": [],
-          "Days": [],
-          "WeatherYesterday": [],
-          "WeatherToday": [],
-          "WeatherTomorrow": [],
           "CPConditions": {},
-          "EPUPreconditions": [
-            "e 63078004"
-          ],
+          "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
         "DaysUntilSpawnsExpire": null
@@ -1280,7 +1255,7 @@
           }
         ],
         "UniqueAreaID": "Smugglers Den",
-        "MapName": "Custom_ESSmugglerDen",
+        "MapName": "EastScarp_SmugglerDen",
         "MinimumSpawnsPerDay": 10,
         "MaximumSpawnsPerDay": 20,
         "IncludeTerrainTypes": [
@@ -1307,11 +1282,322 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
         "DaysUntilSpawnsExpire": 0
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {}
+          }
+        ],
+        "UniqueAreaID": "EastScarp_ToriSlimeBasement",
+        "MapName": "EastScarp_ToriSlimebasement",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "4,22/7,26"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 2,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Red Slime",
+            "Settings": {
+              "Gender": "M"
+            }
+          }
+        ],
+        "UniqueAreaID": "EastScarp_ToriSlimebasement monster area 1",
+        "MapName": "EastScarp_ToriSlimebasement",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "9,22/12,26"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 2,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Blue Slime",
+            "Settings": {
+              "Gender": "F"
+            }
+          }
+        ],
+        "UniqueAreaID": "EastScarp_ToriSlimebasement monster area 2",
+        "MapName": "EastScarp_ToriSlimebasement",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "14,22/17,26"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 2,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Purple Slime",
+            "Settings": {
+              "Gender": "M"
+            }
+          }
+        ],
+        "UniqueAreaID": "EastScarp_ToriSlimebasement monster area 3",
+        "MapName": "EastScarp_ToriSlimebasement",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "19,22/22,26"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 2,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "Gender": "F"
+            }
+          }
+        ],
+        "UniqueAreaID": "EastScarp_ToriSlimebasement monster area 4",
+        "MapName": "EastScarp_ToriSlimebasement",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "24,22/27,26"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 2,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Prismatic Slime",
+            "Settings": {
+              "Gender": "F"
+            }
+          }
+        ],
+        "UniqueAreaID": "EastScarp_ToriSlimebasement monster area 5",
+        "MapName": "EastScarp_ToriSlimebasement",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "19,16/29,16"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [
+            "PLAYER_HAS_MAIL Any Tori.PrismaticJelly"
+          ],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Green Slime",
+            "Settings": {
+              "Color": "255 127 0",
+              "DodgeChance": 999,
+              "Gender": "M"
+            }
+          }
+        ],
+        "UniqueAreaID": "EastScarp_ToriSlimeBasement monster area 6",
+        "MapName": "EastScarp_ToriSlimebasement",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "1,16/10,17"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
       }
     ],
     "CustomTileIndex": []

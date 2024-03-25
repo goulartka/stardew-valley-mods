@@ -2392,12 +2392,12 @@
  <objectgroup id="2" name="Back">
   <object id="36" name="TileData" x="64" y="80" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_EastScarpe 3 1"/>
+    <property name="TouchAction" value="Warp EastScarp_Village 3 1"/>
    </properties>
   </object>
   <object id="37" name="TileData" x="80" y="80" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_EastScarpe 4 1"/>
+    <property name="TouchAction" value="Warp EastScarp_Village 4 1"/>
    </properties>
   </object>
  </objectgroup>

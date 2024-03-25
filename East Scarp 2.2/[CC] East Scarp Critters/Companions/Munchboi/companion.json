@@ -12,7 +12,11 @@
   "EnableShadow": true,
   "EnableBreathing": false,
   "InspectionDialogue": "Munchboi.Inspection.1",
-
+ "Portrait": {
+    "PortraitDisplayName": "Munchington",
+    "FrameSizeWidth": 64,
+    "FrameSizeHeight": 64,
+  },
   // This plays when the companion travels upwards
   "UpAnimation": {
     "StartingFrame": 8,

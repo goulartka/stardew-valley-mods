@@ -5,7 +5,8 @@
  </editorsettings>
  <properties>
   <property name="Doors" value="23 8 1 120"/>
-  <property name="Warp" value="18 -1 Custom_EastScarpeInn 11 22"/>
+    <property name="LocationContext" value="Lemurkat_EastScarp"/>
+  <property name="Warp" value="18 -1 EastScarp_VillageInn 11 22"/>
  </properties>
  <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
   <image source="paths.png" width="64" height="144"/>
@@ -1285,7 +1286,7 @@
  <layer id="5" name="Front" width="40" height="22">
   <properties>
    <property name="Doors" value="23 8 1"/>
-   <property name="Warp" value="18 -1 Custom_EastScarpeInn 7 22"/>
+   <property name="Warp" value="18 -1 EastScarp_VillageInn 7 22"/>
   </properties>
   <data encoding="csv">
 0,2902,2903,2903,2903,2903,2903,2904,0,0,0,0,0,0,0,0,0,2965,0,2969,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

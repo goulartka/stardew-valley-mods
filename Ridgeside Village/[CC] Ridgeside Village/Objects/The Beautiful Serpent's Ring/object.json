@@ -1,6 +1,6 @@
 ﻿{
     "Name": "The Beautiful Serpent's Ring",
-    "Description": "Summons a soul from the Spirit Realm to your side.",
+    "TranslationKey": "objects.beautiful-serpents-ring",
     "Category": "Ring",
     "Edibility": -300,
     "Price": 15000,
@@ -10,11 +10,33 @@
       "RingSpirit": {"NumberToSummon": 1}
     },
     "NameLocalization":
-    { 
-        "pt": "O Lindo Anel da Serpente"
+    {
+    	//remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
     },
     "DescriptionLocalization":
     {
-        "pt": "Invoca um espírito do Reino dos Espíritos para o seu lado."
+    	//remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
     }
 }

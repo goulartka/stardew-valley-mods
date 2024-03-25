@@ -1,6 +1,29 @@
 {
 	"Changes": [
 		{
+			"LogName": "Marnie - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie_Winter, Characters/Marnie_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Marnie/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Marnie - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie_Winter, Characters/Marnie_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Marnie/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
 			"LogName": "Marnie - Seasonal",
 			"Action": "EditImage",
 			"Target": "Portraits/Marnie, Characters/Marnie",
@@ -26,7 +49,7 @@
 		{
 			"LogName": "Marnie - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Marnie, Characters/Marnie",
+			"Target": "Portraits/Marnie, Characters/Marnie, Portraits/Marnie_Winter, Characters/Marnie_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -57,7 +80,18 @@
 			},
 			"Update": "OnLocationChange, OnTimeChange",
 		},
-		
+		{
+			"LogName": "Marnie - Aerobics Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie_Winter, Characters/Marnie_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Marnie/{{TargetWithoutPath}}_Aerobics.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"AerobicsDay": "Regular, Harvey",
+			},
+			"Update": "OnLocationChange, OnTimeChange",
+		},		
 // MISCELLANEOUS		
 		{
 			"LogName": "Marnie - Emoji",
@@ -108,6 +142,16 @@
 				"HasFile:{{FromFile}}": true,
 			},
 		},
-
+		
+		{
+			"LogName": "Marnie Winter Dance",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Marnie_Winter_Dance",
+            "FromFile": "assets/Characters/Marnie_WinterDance.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
 	]
 }

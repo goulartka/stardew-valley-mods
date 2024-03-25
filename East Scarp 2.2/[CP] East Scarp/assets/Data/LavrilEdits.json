@@ -12,7 +12,7 @@
             "Update": "OnLocationChange",
             "Target": "Characters/Monsters/Green Slime",
             "When": {
-                "LocationName": "Custom_ESOrchard",
+                "LocationName": "EastScarp_Orchard",
                 "HasSeenEvent": "63078004"
             },
             "FromFile": "assets/kittyslime.png"
@@ -21,7 +21,7 @@
         {
             "LogName": "Bedroom repair",
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESOrchardHouse",
+            "Target": "Maps/EastScarp_OrchardHouse",
             "FromFile": "assets/Locations/Interiors/OrchardHouse-repaired.tmx",
             "When": {
                "HasSeenEvent": "63078001",
@@ -44,7 +44,7 @@
         {
             "LogName": "Adds the windows",
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESOrchardHouse",
+            "Target": "Maps/EastScarp_OrchardHouse",
             "MapProperties": {
                 "DayTiles": "Front 3 1 256 Front 3 2 288 Front 6 1 256 Front 6 2 288",
                 "NightTiles": "Front 3 1 1253 Front 3 2 1285 Front 6 1 1253 Front 6 2 1285",
@@ -57,7 +57,7 @@
         { //Fixing room on top right | Living Room still damaged
             "LogName": "Hallway Repair",
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESOrchardHouse",
+            "Target": "Maps/EastScarp_OrchardHouse",
             "FromFile": "assets/Locations/Interiors/OrchardHouse-repaired.tmx",
             "When": {
                 "HasSeenEvent": "63078002",
@@ -79,7 +79,7 @@
         {
             "LogName": "Adds the windows",
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESOrchardHouse",
+            "Target": "Maps/EastScarp_OrchardHouse",
             "MapProperties": {
                 "DayTiles": "Front 3 1 256 Front 3 2 288 Front 6 1 256 Front 6 2 288 Front 13 1 256 Front 13 2 288 Front 16 1 256 Front 16 2 288",
                 "NightTiles": "Front 3 1 1253 Front 3 2 1285 Front 6 1 1253 Front 6 2 1285 Front 13 1 1253 Front 13 2 1285 Front 16 1 1253 Front 16 2 1285",
@@ -93,7 +93,7 @@
         /* {
             "LogName": "1Living Room Repair",
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESOrchardHouse",
+            "Target": "Maps/EastScarp_OrchardHouse",
             "FromFile": "assets/Locations/Interiors/OrchardHouse-repaired.tmx",
             "When": {
                 "HasSeenEvent": "63078002",
@@ -116,7 +116,7 @@
         {
             "LogName": "Entire Map Repair",
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESOrchardHouse",
+            "Target": "Maps/EastScarp_OrchardHouse",
             "FromFile": "assets/Locations/Interiors/OrchardHouse-repaired.tmx",
             "When": {
                 "HasSeenEvent": "63078003"
@@ -137,7 +137,7 @@
         {
             "LogName": "Adds the windows",
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESOrchardHouse",
+            "Target": "Maps/EastScarp_OrchardHouse",
             "MapProperties": {
                 "DayTiles": "Front 3 1 256 Front 3 2 288 Front 6 1 256 Front 6 2 288 Front 13 1 256 Front 13 2 288 Front 16 1 256 Front 16 2 288 Front 3 15 256 Front 3 16 288 Front 7 15 256 Front 7 16 288",
                 "NightTiles": "Front 3 1 1253 Front 3 2 1285 Front 6 1 1253 Front 6 2 1285 Front 13 1 1253 Front 13 2 1285 Front 16 1 1253 Front 16 2 1285 Front 3 15 1253 Front 3 16 1285 Front 7 15 1253 Front 7 16 1286",

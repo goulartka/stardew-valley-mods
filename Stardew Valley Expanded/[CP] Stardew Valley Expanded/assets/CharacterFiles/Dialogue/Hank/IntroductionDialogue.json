@@ -1,11 +1,20 @@
 ﻿{
-
-"Mon": "%Hank: Ei, você é aquele amigo fazendeiro de Scarlett. Meu nome é Hank. Bem-vindo ao Lago da Madeira!#$e#%Hank: Então, como está a vida no vale? Só ouvi coisas boas de lá. Meu marido tem um contrato com o Rancho da Marnie.",
-"Tue": "%Hank: Ei, você é aquele amigo fazendeiro de Scarlett. Meu nome é Hank. Bem-vindo ao Lago da Madeira!#$e#%Hank: Então, como está a vida no vale? Só ouvi coisas boas de lá. Meu marido tem um contrato com o Rancho da Marnie.",
-"Wed": "%Hank: Ei, você é aquele amigo fazendeiro de Scarlett. Meu nome é Hank. Bem-vindo ao Lago da Madeira!#$e#%Hank: Então, como está a vida no vale? Só ouvi coisas boas de lá. Meu marido tem um contrato com o Rancho da Marnie.",
-"Thu": "%Hank: Ei, você é aquele amigo fazendeiro de Scarlett. Meu nome é Hank. Bem-vindo ao Lago da Madeira!#$e#%Hank: Então, como está a vida no vale? Só ouvi coisas boas de lá. Meu marido tem um contrato com o Rancho da Marnie.",
-"Fri": "%Hank: Ei, você é aquele amigo fazendeiro de Scarlett. Meu nome é Hank. Bem-vindo ao Lago da Madeira!#$e#%Hank: Então, como está a vida no vale? Só ouvi coisas boas de lá. Meu marido tem um contrato com o Rancho da Marnie.",
-"Sat": "%Hank: Ei, você é aquele amigo fazendeiro de Scarlett. Meu nome é Hank. Bem-vindo ao Lago da Madeira!#$e#%Hank: Então, como está a vida no vale? Só ouvi coisas boas de lá. Meu marido tem um contrato com o Rancho da Marnie.",
-"Sun": "%Hank: Ei, você é aquele amigo fazendeiro de Scarlett. Meu nome é Hank. Bem-vindo ao Lago da Madeira!#$e#%Hank: Então, como está a vida no vale? Só ouvi coisas boas de lá. Meu marido tem um contrato com o Rancho da Marnie."
-
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/HankSVE",
+      "When": {
+        "HasSeenEvent |contains=3691373": false
+      },
+      "Entries": {
+        "Mon": "{{i18n:Hank.IntroductionDialogue.001}}",
+        "Tue": "{{i18n:Hank.IntroductionDialogue.001}}",
+        "Wed": "{{i18n:Hank.IntroductionDialogue.001}}",
+        "Thu": "{{i18n:Hank.IntroductionDialogue.001}}",
+        "Fri": "{{i18n:Hank.IntroductionDialogue.001}}",
+        "Sat": "{{i18n:Hank.IntroductionDialogue.001}}",
+        "Sun": "{{i18n:Hank.IntroductionDialogue.001}}",
+      },
+    },
+  ]
 }

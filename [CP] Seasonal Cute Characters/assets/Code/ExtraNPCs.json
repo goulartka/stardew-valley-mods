@@ -3,14 +3,37 @@
 		{
             "LogName": "Miscellaneous Characters",
             "Action": "EditImage",
-            "Target": "Portraits/Bouncer, Portraits/Grandpa, Characters/Bouncer, Characters/Dwarf, Characters/Governor, Characters/Henchman, Characters/LeahExFemale, Characters/LeahExMale, Characters/Marcello, Characters/Mariner",
+            "Target": "Portraits/Bouncer, Portraits/Grandpa, Characters/Assorted_Fishermen, Characters/Assorted_Fishermen_Winter, Characters/Bouncer, Characters/Governor, Characters/Henchman, Characters/LeahExFemale, Characters/LeahExMale, Characters/Marcello, Characters/Mariner",
             "FromFile": "assets/{{Target}}.png",
             "When":
             {
                 "HasFile:{{FromFile}}": true,
             }        
 		},
-		
+
+		{
+            "LogName": "Miscellaneous Characters Nose",
+            "Action": "EditImage",
+            "Target": "Characters/Assorted_Fishermen, Characters/Assorted_Fishermen_Winter",
+            "FromFile": "assets/{{Target}}_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},
+		{
+            "LogName": "Miscellaneous Characters Dwarf",
+            "Action": "EditImage",
+            "Target": "Characters/Dwarf",
+            "FromFile": "assets/{{Target}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"HasMod |contains= Lemurkat.Dwarf.CP": false,				
+            }        
+		},		
 // Cursors
 
 		{  
@@ -39,19 +62,7 @@
                 "HasFile:{{FromFile}}": true,
             },
 		},
-		{  
-			"LogName": "Cursors 3 - News Programs",
-			"Action": "EditImage",
-			"Target": "LooseSprites/Cursors",
-			"Update": "OnLocationChange",
-			"FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
-			"FromArea": { "X": 413, "Y": 305, "Width": 253, "Height": 28 },
-			"ToArea": { "X": 413, "Y": 305, "Width": 253, "Height": 28 },
-			"When":
-            {
-                "HasFile:{{FromFile}}": true,
-            },
-		},
+
 
 // Desert
 
@@ -652,5 +663,113 @@
                 "HasFile:{{FromFile}}": true,
             },
 		},
+		
+// Volcano Dwarf
+
+        {   
+			"LogName": "Volcano Dwarf",
+            "Action": "EditImage",
+            "Target": "Maps/Mines/volcano_dungeon",
+            "FromFile": "assets/Characters/VolcanoDwarf.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 20 },
+            "ToArea": { "X": 208, "Y": 60, "Width": 16, "Height": 20  },
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"HasMod |contains= Lemurkat.Dwarf.CP": false,	
+            },
+		},
+		
+		
+		{  
+			"LogName": "Cursors 1 - Joja Employees",
+			"Action": "EditImage",
+			"Update": "OnLocationChange",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
+			"FromArea": { "X": 0, "Y": 1391, "Width": 46, "Height": 29 },
+			"ToArea": { "X": 0, "Y": 1391, "Width": 46, "Height": 29 },
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+            },
+		},	
+
+// Desert Festival
+
+        {   
+			"LogName": "Desert Festival Marlon",
+            "Action": "EditImage",
+            "Target": "Maps/desert_festival_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/desert_festival_tilesheet.png",
+            "FromArea": { "X": 66, "Y": 66, "Width": 13, "Height": 13 },
+            "ToArea": { "X": 66, "Y": 66, "Width": 13, "Height": 13 },
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+            },
+		},
+        {   
+			"LogName": "Desert Festival Gil 1",
+            "Action": "EditImage",
+            "Target": "Maps/desert_festival_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/desert_festival_tilesheet.png",
+            "FromArea": { "X": 48, "Y": 320, "Width": 16, "Height": 22 },
+            "ToArea": { "X": 48, "Y": 320, "Width": 16, "Height": 22 },
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+            },
+		},
+        {   
+			"LogName": "Desert Festival Gil 2",
+            "Action": "EditImage",
+            "Target": "Maps/desert_festival_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/desert_festival_tilesheet.png",
+            "FromArea": { "X": 49, "Y": 352, "Width": 16, "Height": 21 },
+            "ToArea": { "X": 49, "Y": 352, "Width": 16, "Height": 21 },
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+            },
+		},
+        {   
+			"LogName": "Desert Festival Gil 3",
+            "Action": "EditImage",
+            "Target": "Maps/desert_festival_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/desert_festival_tilesheet.png",
+            "FromArea": { "X": 82, "Y": 351, "Width": 19, "Height": 21 },
+            "ToArea": { "X": 82, "Y": 351, "Width": 19, "Height": 21 },
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+            },
+		},
+      {   
+			"LogName": "Desert NPCs",
+            "Action": "EditImage",
+            "Target": "Maps/desert_festival_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/desert_festival_tilesheet.png",
+            "FromArea": { "X": 240, "Y": 336, "Width": 79, "Height": 32 },
+            "ToArea": { "X": 240, "Y": 336, "Width": 79, "Height": 32 },
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+            },
+		},
+
+// Cursors 1 6
+
+        {   
+			"LogName": "1 6 Cursors",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors_1_6",
+            "FromFile": "assets/Characters/SunMorris_{{Season}}.png",
+            "ToArea": { "X": 200, "Y": 89, "Width": 56, "Height": 32  },
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+            },
+		},		
 	]
 }

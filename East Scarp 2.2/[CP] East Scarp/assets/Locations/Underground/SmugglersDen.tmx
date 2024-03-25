@@ -3,8 +3,9 @@
  <properties>
   <property name="AmbientLight" value="120 140 140"/>
   <property name="CanCaskHere" type="bool" value="true"/>
+    <property name="LocationContext" value="Lemurkat_EastScarp"/>
   <property name="Music" value="EarthMine"/>
-  <property name="Warp" value="9 19 Custom_ESSmugglerDen 49 24"/>
+  <property name="Warp" value="9 19 EastScarp_SmugglerDen 49 24"/>
   <property name="indoorWater" type="bool" value="true"/>
  </properties>
  <tileset firstgid="1" name="mine" tilewidth="16" tileheight="16" tilecount="384" columns="16">
@@ -538,7 +539,7 @@
  <objectgroup id="2" name="Back">
   <object id="22" name="TileData" x="208" y="288" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_ESDeepDark 46 35"/>
+    <property name="TouchAction" value="Warp EastScarp_DeepDark 46 35"/>
    </properties>
   </object>
   <object id="23" name="TileData" x="160" y="64" width="16" height="16">
@@ -548,7 +549,7 @@
   </object>
   <object id="24" name="TileData" x="368" y="80" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_ESOrchardHouse 11 19"/>
+    <property name="TouchAction" value="Warp EastScarp_OrchardHouse 11 19"/>
    </properties>
   </object>
   <object id="25" name="TileData" x="576" y="64" width="16" height="16">
@@ -558,12 +559,12 @@
   </object>
   <object id="26" name="TileData" x="608" y="304" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_ESSeaCave 37 10"/>
+    <property name="TouchAction" value="Warp EastScarp_SeaCave 37 10"/>
    </properties>
   </object>
   <object id="27" name="TileData" x="672" y="304" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_ESShack 8 9"/>
+    <property name="TouchAction" value="Warp EastScarp_Shack 8 9"/>
    </properties>
   </object>
   <object id="29" name="TileData" x="592" y="320" width="16" height="16">

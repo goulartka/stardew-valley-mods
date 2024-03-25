@@ -2,9 +2,10 @@
 <map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="18">
  <properties>
   <property name="AmbientLight" value="110 110 110"/>
+    <property name="LocationContext" value="Lemurkat_EastScarp"/>
   <property name="DayTiles_asdf" value="Buildings 3 1 24 Buildings 9 1 24  Buildings 12 1 24 Buildings 15 1 24  Buildings 18 1 24 Buildings 21 1 24"/>
   <property name="NightTiles_asdf" value="Buildings 3 1 26 Buildings 9 1 26  Buildings 12 1 26 Buildings 15 1 26  Buildings 18 1 26 Buildings 21 1 26"/>
-  <property name="Warp" value="11 15 Custom_EastScarpe 14 12"/>
+  <property name="Warp" value="11 15 EastScarp_Village 14 12"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="84" columns="4">
   <image source="coopTiles.png" width="64" height="336"/>

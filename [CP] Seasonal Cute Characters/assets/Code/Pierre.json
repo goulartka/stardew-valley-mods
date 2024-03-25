@@ -1,5 +1,29 @@
 {
 	"Changes": [
+
+		{
+			"LogName": "Pierre - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Pierre_Winter, Characters/Pierre_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Pierre/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Pierre - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Pierre_Winter, Characters/Pierre_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Pierre/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
 		{
 			"LogName": "Pierre - Seasonal",
 			"Action": "EditImage",
@@ -26,7 +50,7 @@
 		{
 			"LogName": "Pierre - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Pierre, Characters/Pierre",
+			"Target": "Portraits/Pierre, Characters/Pierre, Portraits/Pierre_Winter, Characters/Pierre_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -47,6 +71,18 @@
 		},
 		
 // NOSE OVERLAY
+		{
+			"LogName": "Pierre - Winter Nose",
+			"Action": "EditImage",
+			"Target": "Characters/Pierre_Winter",
+			"FromFile": "assets/Characters/Pierre/Pierre_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},
 		{
 			"LogName": "Pierre - Seasonal Nose",
 			"Action": "EditImage",

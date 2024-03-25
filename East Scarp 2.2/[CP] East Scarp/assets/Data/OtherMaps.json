@@ -47,20 +47,6 @@
                 "HasMod |contains=DaisyNiko.SVR3": true
             }
         },
-        { // Seven Deadly Sins
-            "Action": "EditMap",
-            "Target": "Maps/Town",
-            "FromFile": "assets/Patches/ES_rev_SDS.tmx",
-            "ToArea": {
-                "X": 109,
-                "Y": 63,
-                "Width": 11,
-                "Height": 14
-            },
-            "When": {
-                "HasMod |contains=ricehit.SDSMPAS,ricehit.SDSMAPS": true
-            }
-        },
         //Reimagined
         {
             "Action": "EditMap",
@@ -104,7 +90,7 @@
                 "X": 86,
                 "Y": 0,
                 "Width": 7,
-                "Height": 15
+                "Height": 14
             },
             "When": {
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
@@ -127,20 +113,20 @@
             }
         },
         { //Mountain > Deep Mountains
-        "Action": "EditMap",
-        "Target": "Maps/Mountain",
-        "FromFile": "assets/Patches/MountainPatchDeepMountainsSVR3.tmx",
-        "ToArea": {
-            "X": 84,
-            "Y": 0,
-            "Width": 8,
-            "Height": 15
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "FromFile": "assets/Patches/MountainPatchDeepMountainsSVR3.tmx",
+            "ToArea": {
+                "X": 84,
+                "Y": 0,
+                "Width": 8,
+                "Height": 15
+            },
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+                "HasMod |contains=DaisyNiko.SVR3": true
+            }
         },
-        "When": {
-            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
-            "HasMod |contains=DaisyNiko.SVR3": true
-        }
-    },
         //M O U N T A I N   >   E A S T   S C A R P
         /************************************************/
         { // Mountain > East Scarp
@@ -158,33 +144,33 @@
             }
         },
         { // Mountain > East Scarp
-        "Action": "EditMap",
-        "Target": "Maps/Mountain",
-        "FromFile": "assets/Patches/MountainEastScarpeSDR3.tmx",
-        "ToArea": {
-            "X": 85,
-            "Y": 35,
-            "Width": 10,
-            "Height": 6
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "FromFile": "assets/Patches/MountainEastScarpeSDR3.tmx",
+            "ToArea": {
+                "X": 85,
+                "Y": 35,
+                "Width": 10,
+                "Height": 6
+            },
+            "When": {
+                "HasMod |contains=DaisyNiko.SVR3": true
+            }
         },
-        "When": {
-            "HasMod |contains=DaisyNiko.SVR3": true
-        }
-    },
         { // Mountain > East Scarp
-        "Action": "EditMap",
-        "Target": "Maps/Mountain",
-        "FromFile": "assets/Patches/MountainEastScarpeSDR2.tmx",
-        "ToArea": {
-            "X": 85,
-            "Y": 35,
-            "Width": 10,
-            "Height": 6
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "FromFile": "assets/Patches/MountainEastScarpeSDR2.tmx",
+            "ToArea": {
+                "X": 85,
+                "Y": 35,
+                "Width": 10,
+                "Height": 6
+            },
+            "When": {
+                "HasMod |contains=DaisyNiko.SVR2": true
+            }
         },
-        "When": {
-            "HasMod |contains=DaisyNiko.SVR2": true
-        }
-    },
         { // Expanded/Water Filled Gorge
             "Action": "EditMap",
             "Target": "Maps/Mountain",
@@ -234,7 +220,7 @@
         {
             "LogName": "Adds warp to Mountain when Shortcuts installed",
             "Action": "EditMap",
-            "Target": "Maps/Custom_EastScarpe",
+            "Target": "Maps/EastScarp_Village",
             "MapTiles": [
                 {
                     "Position": {

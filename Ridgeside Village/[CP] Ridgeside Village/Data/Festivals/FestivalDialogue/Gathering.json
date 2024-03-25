@@ -66,8 +66,8 @@
 			    "Jas": "{{i18n:GatheringDialogue.Jas}}",
 			    "Vincent": "{{i18n:GatheringDialogue.Vincent}}",
 			    "Willy": "{{i18n:GatheringDialogue.Willy}}",
-				"Marlon": "{{i18n:GatheringDialogue.Marlon}}",
 				"Wizard": "{{i18n:GatheringDialogue.Wizard}}",
+				"Leo": "{{i18n:GatheringDialogue.Leo}}",
 
 			//Dateables
 				"Alissa": "{{i18n:Festivals.Gathering.Alissa}}",
@@ -105,6 +105,9 @@
 				"Zayne": "{{i18n:Festivals.Gathering.Zayne}}",
 				"Zayne_spouse": "{{i18n:Festivals.Gathering.Zayne_spouse}}",
 
+				"Faye_spouse": "{{i18n:Festivals.Gathering.Faye_spouse}}",
+				"Bryle_spouse": "{{i18n:Festivals.Gathering.Bryle_spouse}}",
+
 			//Vanilla Dateables
 			    "Abigail_spouse": "{{i18n:GatheringDialogue.Abigail.spouse}}",
 			    "Abigail": "{{i18n:GatheringDialogue.Abigail}}",
@@ -132,6 +135,15 @@
 					"Shane_spouse": "{{i18n:GatheringDialogue.Shane.spouse}}",
 
 			},
+		},
+		{
+				//Marlon without SVE
+				"Action": "EditData",
+				"Target": "Data/Festivals/fall20",
+				"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false },
+				"Entries": {
+						"Marlon": "{{i18n:GatheringDialogue.Marlon}}",
+				}
 		},
 
 ]

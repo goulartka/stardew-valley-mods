@@ -12,7 +12,7 @@
 			"RSV_GH1": "{{i18n:RSV.GH1.{{TargetWithoutPath}}}}",
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"Lidens_Return": "{{i18n:LidensReturn.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -21,7 +21,7 @@
 		"Target": "Characters/Dialogue/Corine",
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -30,7 +30,7 @@
 		"Target": "Characters/Dialogue/Flor",
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -40,7 +40,7 @@
 		"Entries": {
 			"RSV_GH1": "{{i18n:RSV.GH1.{{TargetWithoutPath}}}}",
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -49,7 +49,7 @@
 		"Target": "Characters/Dialogue/Ysabelle",
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 
@@ -60,7 +60,7 @@
 		"Target": "Characters/Dialogue/Ian",
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -70,7 +70,7 @@
 		"Entries": {
 			"RSV_GH1": "{{i18n:RSV.GH1.{{TargetWithoutPath}}}}",
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -79,7 +79,7 @@
 		"Target": "Characters/Dialogue/Kenneth",
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -88,7 +88,7 @@
 		"Target": "Characters/Dialogue/Philip",
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -98,7 +98,8 @@
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"Naomi_Return": "{{i18n:NaomiReturn.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"RSV_PianoLessons": "{{i18n:pianolessons.{{TargetWithoutPath}}}}",
 		},
 	},
 
@@ -110,7 +111,7 @@
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -121,7 +122,7 @@
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
 			"Lidens_Return": "{{i18n:LidensReturn.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -131,7 +132,7 @@
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -141,7 +142,7 @@
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -151,7 +152,7 @@
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"RSV.OngoingSpiritRealm": "{{i18n:RSV.OngoingSpiritRealm.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -162,7 +163,7 @@
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
 			"RSV.OngoingSpiritRealm": "{{i18n:RSV.OngoingSpiritRealm.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -175,7 +176,7 @@
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
 			"Naomi_Return": "{{i18n:NaomiReturn.{{TargetWithoutPath}}}}",
 			"Lidens_Return": "{{i18n:LidensReturn.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -185,7 +186,7 @@
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -197,7 +198,7 @@
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
 			"Lidens_Return": "{{i18n:LidensReturn.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -208,7 +209,7 @@
 			// pika_pickup goes in SOStrings
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -219,7 +220,8 @@
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
 			"Naomi_Return": "{{i18n:NaomiReturn.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_return": "{{i18n:june_return.{{TargetWithoutPath}}}}",
 		},
 	},
 
@@ -232,7 +234,7 @@
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -245,7 +247,7 @@
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
 			"Lidens_Return": "{{i18n:LidensReturn.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -255,7 +257,7 @@
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -265,7 +267,7 @@
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -276,7 +278,8 @@
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
 			"Naomi_Return": "{{i18n:NaomiReturn.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"RSV_PianoLessons": "{{i18n:pianolessons.{{TargetWithoutPath}}}}",
 		},
 	},
 
@@ -600,7 +603,8 @@
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
-			"Naomi_Return": "{{i18n:NaomiReturn.{{TargetWithoutPath}}}}"
+			"Naomi_Return": "{{i18n:NaomiReturn.{{TargetWithoutPath}}}}",
+			"RSV_PianoLessons": "{{i18n:pianolessons.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -610,7 +614,7 @@
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
-			"Lidens_Return": "{{i18n:LidensReturn.{{TargetWithoutPath}}}}"
+			"Lidens_Return": "{{i18n:LidensReturn.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -620,7 +624,7 @@
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"event_postweddingreception": "{{i18n:postweddingreception.{{TargetWithoutPath}}}}",
-			"Lidens_Return": "{{i18n:LidensReturn.{{TargetWithoutPath}}}}"
+			"Lidens_Return": "{{i18n:LidensReturn.{{TargetWithoutPath}}}}",
 		},
 	},
 	{
@@ -630,8 +634,24 @@
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"RSV.OngoingSpiritRealm": "{{i18n:RSV.OngoingSpiritRealm.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
+	},
+	// For AgentLyoko~
+	{
+		"LogName": "Daia",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Daia",
+		"Entries": {
+			"june_return": "{{i18n:june_return.Daia-i}}
+			#$q 1010010/1010011 null#{{i18n:june_return.Daia-q}}
+					#$r 1010010 0 june_return-r1#{{i18n:june_return.Daia-o1}}
+					#$r 1010011 -5 june_return-r2#{{i18n:june_return.Daia-o2}}
+			",
+			"june_return-r1": "{{i18n:june_return.Daia-r1}}",
+			"june_return-r2": "{{i18n:june_return.Daia-r2}}",
+		},
+		"When": { "Relationship:Daia": "Married" },
 	},
 
 	{
@@ -651,7 +671,7 @@
 		"Target": "Characters/Dialogue/Ariah",
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 
@@ -689,7 +709,7 @@
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
 			"cc_complete": "{{i18n:Faye.Dialogue.CC_Complete}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 
@@ -708,7 +728,7 @@
 		"Target": "Characters/Dialogue/Kiarra",
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
-			"cc_complete": "{{i18n:Kiarra.Dialogue.CC_Complete}}"
+			"cc_complete": "{{i18n:Kiarra.Dialogue.CC_Complete}}",
 		},
 	},
 
@@ -727,7 +747,7 @@
 		"Target": "Characters/Dialogue/Louie",
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 
@@ -737,7 +757,7 @@
 		"Target": "Characters/Dialogue/Maive",
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 
@@ -785,7 +805,7 @@
 		"Target": "Characters/Dialogue/Sonny",
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
 		},
 	},
 
@@ -813,7 +833,8 @@
 		"Target": "Characters/Dialogue/June",
 		"Entries": {
 			"keahi_prank": "{{i18n:keahiprank.{{TargetWithoutPath}}}}",
-			"june_arrival": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"june_arrival-long": "{{i18n:June.june_arrival.{{TargetWithoutPath}}}}",
+			"RSV_PianoLessons": "{{i18n:pianolessons.{{TargetWithoutPath}}}}",
 		},
 	},
 ]

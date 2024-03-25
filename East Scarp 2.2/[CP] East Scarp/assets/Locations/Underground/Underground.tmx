@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="50" height="70" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="15">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="50" height="70" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="18">
  <properties>
   <property name="AmbientLight" value="200 120 120"/>
-  <property name="indoorWater" type="bool" value="true"/>
+  <property name="IndoorWater" type="bool" value="true"/>
+    <property name="LocationContext" value="Lemurkat_EastScarp"/>
   <property name="Music" value="EarthMine"/>
-  <property name="Warp" value="21 15 Custom_EastScarpe 35 38"/>
+  <property name="Warp" value="21 15 EastScarp_Village 35 38"/>
  </properties>
  <tileset firstgid="1" name="mine_desert" tilewidth="16" tileheight="16" tilecount="384" columns="16">
   <image source="ES_mine_desert.png" width="256" height="384"/>
@@ -891,12 +892,12 @@
  <objectgroup id="2" name="Back">
   <object id="11" name="TileData" x="224" y="1104" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_EastScarpe 44 86"/>
+    <property name="TouchAction" value="Warp EastScarp_Village 44 86"/>
    </properties>
   </object>
   <object id="14" name="TileData" x="752" y="944" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_ESSeaCave 1 9"/>
+    <property name="TouchAction" value="Warp EastScarp_SeaCave 1 9"/>
    </properties>
   </object>
  </objectgroup>
@@ -1045,7 +1046,7 @@
 96,96,101,118,119,134,135,0,0,0,471,469,470,263,0,0,158,159,160,79,117,134,135,0,0,0,158,159,160,79,80,181,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2313,192,79,96,
 96,96,117,134,135,0,0,0,0,0,0,0,0,279,280,280,280,280,280,79,79,0,282,0,0,0,283,0,79,79,79,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,224,79,96,
 96,96,133,573,574,0,0,0,0,0,0,0,0,0,0,0,0,0,192,79,79,0,0,0,0,0,0,0,79,79,79,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,240,79,96,
-96,96,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,206,222,79,79,79,0,0,0,0,0,0,79,79,79,79,170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,79,96,
+96,96,149,196,225,0,0,0,0,0,0,0,0,0,0,0,0,206,222,79,79,79,0,0,0,0,0,0,79,79,79,79,170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,79,96,
 96,96,96,0,0,0,0,0,288,0,0,0,0,0,0,0,206,207,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,0,0,0,0,0,0,0,0,0,0,0,0,0,79,79,96,
 96,96,96,215,216,215,216,215,216,216,216,216,217,0,0,221,222,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,96,
 96,96,96,96,96,96,96,96,96,96,96,96,96,165,0,224,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
@@ -1083,6 +1084,17 @@
     <property name="Action" value="Message &quot;ES.trapdoorLocked.1&quot;"/>
    </properties>
   </object>
+  <object id="15" name="TileData" x="48" y="1040" width="16" height="16">
+   <properties>
+    <property name="Action" value="MinecartTransport EastScarp"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="64" y="1040" width="16" height="16">
+   <properties>
+    <property name="Action" value="MinecartTransport EastScarp"/>
+   </properties>
+  </object>
+  
  </objectgroup>
  <layer id="5" name="Front" width="50" height="70">
   <data encoding="csv">
@@ -1150,7 +1162,7 @@
 0,0,85,0,0,0,0,0,0,0,451,449,450,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,208,96,0,
 96,96,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,224,0,0,
 79,79,117,553,554,0,0,0,0,0,0,0,0,0,0,0,0,0,208,96,181,0,0,0,0,0,0,221,222,0,0,181,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,240,0,0,
-61,79,133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96,197,198,0,0,0,0,0,237,0,61,0,214,198,0,0,0,0,0,0,0,0,0,0,0,0,0,221,222,0,0,
+61,79,133,180,209,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96,197,198,0,0,0,0,0,237,0,61,0,214,198,0,0,0,0,0,0,0,0,0,0,0,0,0,221,222,0,0,
 79,96,149,0,0,0,0,0,272,0,0,0,0,0,0,0,0,0,0,96,96,214,215,216,215,216,215,222,0,96,44,0,214,198,0,0,0,0,0,0,0,0,0,0,0,0,237,44,61,0,
 96,96,214,198,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,96,0,96,96,96,0,0,0,0,96,60,0,0,214,215,215,215,215,215,215,215,215,215,215,215,216,222,60,96,96,
 96,44,96,214,215,216,215,216,0,216,216,215,216,217,0,0,0,0,0,60,0,0,96,96,96,0,0,0,0,0,0,96,0,0,0,0,0,0,0,0,0,0,0,96,96,0,61,0,96,96,

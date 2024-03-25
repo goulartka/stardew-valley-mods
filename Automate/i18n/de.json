@@ -8,6 +8,8 @@
     "config.enabled.desc": "Ob automatisierte Funktionen verwendet werden sollen. Wenn deaktiviert werden Maschinen nicht automatisiert und das Overlay erscheint nicht.",
     "config.automation-interval.name": "Automatisierungs-Intervall",
     "config.automation-interval.desc": "Die Anzahl der Ticks zwischen den einzelnen Automatisierungsprozessen (60: 1x pro Sekunde, 120: alle zwei Sekunden usw.).",
+    "config.min-minutes-for-fairy-dust.name": "Min minutes for fairy dust", // TODO
+    "config.min-minutes-for-fairy-dust.desc": "The minimum machine processing time in minutes for which to apply fairy dust. For example, setting this to 30 minutes means fairy dust won't be applied if the machine would finish in 20 minutes without it.", // TODO
     "config.toggle-overlay-key.name": "Taste zum Umschalten des Overlays",
     "config.toggle-overlay-key.desc": "Die Tasten, mit denen das Automatisierungs-Overlay umgeschaltet wird.",
     "config.warn-for-missing-bridge-mod.name": "Warnung für fehlende Brücken-Mod",
@@ -20,26 +22,24 @@
     "config.custom-connectors.desc": "Die exakten englischen Bezeichnungen für Gegenstände, die benachbarte Maschinen miteinander verbinden. Mehrere Elemente können mit Kommas aufgeführt werden.", // note: connector names must be English even when playing in other languages
 
     // Junimo hut options
-    // TODO
-    "config.title.junimo-huts": "Junimo hut behavior",
-    "config.junimo-hut-gems.name": "Gems",
-    "config.junimo-hut-gems.desc": "What Junimo huts should do with gemstone items. 'Auto-detect' will ignore them.",
-    "config.junimo-hut-fertilizer.name": "Fertilizer",
-    "config.junimo-hut-fertilizer.desc": "What Junimo huts should do with fertilizer items. 'Auto-detect' will ignore them if Better Junimos is installed, else move them from the hut into connected chests.",
-    "config.junimo-hut-seeds.name": "Seeds",
-    "config.junimo-hut-seeds.desc": "What Junimo huts should do with seed items. 'Auto-detect' will ignore them if Better Junimos is installed, else move them from the hut into connected chests.",
+    "config.title.junimo-huts": "Junimo Hütte Einstellungen",
+    "config.junimo-hut-gems.name": "Edelsteine",
+    "config.junimo-hut-gems.desc": "Was Junimo Hütten mit Edelsteinen machen. 'Auto-Erkennung' wird diese ignorieren.",
+    "config.junimo-hut-fertilizer.name": "Dünger",
+    "config.junimo-hut-fertilizer.desc": "Was Junimo Hütten mit Dünger machen. 'Auto-Erkennung' wird diese ignorieren, wenn der Mod 'Better Junimos' installiert ist, ansonsten wird von der Hütte in verbundene Kisten übertragen.",
+    "config.junimo-hut-seeds.name": "Samen",
+    "config.junimo-hut-seeds.desc": "Was Junimo Hütten mit Samen machen.  'Auto-Erkennung' wird diese ignorieren, wenn der Mod 'Better Junimos' installiert ist, ansonsten wird von der Hütte in verbundene Kisten übertragen.",
 
     // Junimo hut dropdown values
-    // TODO
-    "config.junimo-huts.auto-detect": "Auto-detect",
-    "config.junimo-huts.ignore": "Ignore them",
-    "config.junimo-huts.move-into-chests": "Move from Junimo huts into chests",
-    "config.junimo-huts.move-into-huts": "Move from chests into Junimo huts",
+    "config.junimo-huts.auto-detect": "Auto-Erkennung",
+    "config.junimo-huts.ignore": "Ignorieren",
+    "config.junimo-huts.move-into-chests": "Von Junimo Hütten in Kisten legen",
+    "config.junimo-huts.move-into-huts": "Von Kisten in Junimo Hütten legen",
 
-    // machine overrides
-    "config.title.machine-overrides": "Überbrückung von Maschinen",
-    "config.override.ShippingBin-name": "Versandbehälter",
-    "config.override.MiniShippingBin-name": "Mini-Versandbehälter",
-    "config.override.desc": "Ob Automatisierung für {{machineName}} aktiviert werden soll.",
-    "config.custom-overrides-note": "Für benutzerdefinierte Überbrückungen finden Sie unter https://github.com/Pathoschild/StardewMods/tree/develop/Automate#configure Hilfe, um die Datei config.json direkt zu bearbeiten."
+    // per-machine settings
+    "config.title.machine-settings": "{{machineName}} Einstellungen",
+    "config.machine-settings-enabled.Name": "Aktiviert",
+    "config.machine-settings-enabled.desc": "Ob Automatisierung für {{machineName}} aktiviert werden soll.",
+    "config.machine-settings-priority.name": "Priorität",
+    "config.machine-settings-priority.desc": "Die Prioritätsreihenfolge, in der {{machineName}} Maschinen im Verhältnis zu anderen Maschinen verarbeitet werden sollen. Maschinen haben eine Standardpriorität von 0, wobei höhere Werte zuerst verarbeitet werden."
 }

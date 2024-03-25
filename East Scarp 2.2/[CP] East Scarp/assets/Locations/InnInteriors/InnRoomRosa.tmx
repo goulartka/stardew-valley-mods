@@ -8,7 +8,7 @@
   <property name="DayTiles" value="Back 15 29 31 Back 15 30 63 Front 15 25 256 Front 15 26 288 Back 3 8 507 Back 3 9 539 Front 3 5 256 Front 3 6 288 Back 4 8 507 Back 4 9 539 Front 4 5 256 Front 4 6 288 Back 10 8 507 Back 10 9 539 Front 10 5 256 Front 10 6 288 Back 17 8 507 Back 17 9 539 Front 17 5 256 Front 17 6 288 Back 18 8 507 Back 18 9 539 Front 18 5 256 Front 18 6 288 Back 29 11 671 Back 29 12 703 Front 29 8 256 Front 29 9 288 Back 30 11 671 Back 30 12 703 Front 30 8 256 Front 30 9 288 Back 33 11 671 Back 33 12 703 Front 33 8 256 Front 33 9 288 Back 46 9 94 Back 46 10 126 Front 46 6 256 Front 46 7 288"/>
   <property name="Doors" value="8 16 1 120 15 16 1 120 39 16 1 824 40 16 1 825"/>
   <property name="NightTiles" value="Back 15 29 60 Back 15 30 60 Front 15 25 1253 Front 15 26 1285 Back 3 8 604 Back 3 9 603 Front 3 5 1253 Front 3 6 1285 Back 4 8 604 Back 4 9 603 Front 4 5 1253 Front 4 6 1285 Back 10 8 604 Back 10 9 635 Front 10 5 1253 Front 10 6 1285 Back 17 8 604 Back 17 9 603 Front 17 5 1253 Front 17 6 1285 Back 18 8 604 Back 18 9 635 Front 18 5 1253 Front 18 6 1285 Back 29 11 574 Back 29 12 606 Front 29 8 1253 Front 29 9 1285 Back 30 11 574 Back 30 12 606 Front 30 8 1253 Front 30 9 1285 Back 33 11 574 Back 33 12 638 Front 33 8 1253 Front 33 9 1285 Back 46 9 92 Back 46 10 124 Front 46 6 1253 Front 46 7 1285"/>
-  <property name="Warp" value="3 10 Custom_EastScarpeInn 25 5"/>
+  <property name="Warp" value="3 10 EastScarp_VillageInn 25 5"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>

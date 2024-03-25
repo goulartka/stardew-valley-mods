@@ -1,6 +1,29 @@
 {
 	"Changes": [
 		{
+			"LogName": "Sebastian - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Winter, Characters/Sebastian_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sebastian/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Sebastian - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Winter, Characters/Sebastian_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Sebastian/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
 			"LogName": "Sebastian - Seasonal",
 			"Action": "EditImage",
 			"Target": "Portraits/Sebastian, Characters/Sebastian",
@@ -26,7 +49,7 @@
 		{
 			"LogName": "Sebastian - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Sebastian, Characters/Sebastian",
+			"Target": "Portraits/Sebastian, Characters/Sebastian, Portraits/Sebastian_Winter, Characters/Sebastian_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -59,6 +82,18 @@
 				"NoNose": "false",
 			},
 		},
+		{
+			"LogName": "Sebastian - Winter Nose",
+			"Action": "EditImage",
+			"Target": "Characters/Sebastian_Winter",
+			"FromFile": "assets/Characters/Sebastian/Sebastian_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},		
 		{
 			"LogName": "Sebastian - Beach Nose",
 			"Action": "EditImage",

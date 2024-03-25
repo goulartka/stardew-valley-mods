@@ -2,7 +2,8 @@
 <map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="42" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="16">
  <properties>
   <property name="Doors" value="6 12 1 120 15 12 1 120"/>
-  <property name="Warp" value="9 26 Custom_ESOrchard 33 14"/>
+    <property name="LocationContext" value="Lemurkat_EastScarp"/>
+  <property name="Warp" value="9 26 EastScarp_Orchard 33 14"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior" width="512" height="1088"/>

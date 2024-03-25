@@ -1,10 +1,17 @@
 ﻿{
-
-"Mon": "Você já ouviu falar de miragens? Às vezes, quando fica quente o suficiente aqui, o ar brilha e é como se você pudesse espiar para um mundo diferente.$0",
-"Tue": "*boceja* É muito monótono aqui. Estou feliz que você passou para me visitar.$0",
-"Wed": "Já ouvi pessoas mencionarem você algumas vezes, @. Você é muito conhecido na Guilda, que bom!",
-"Thu": "Estou ansioso para voltar ao campo de batalha. O dever de vigia é importante, mas estou com vontade de lutar.$1",
-"Sat": "Qualquer coisa em que eu possa te ajudar, @?$0#$e#Gostaria de poder lhe oferecer algo para comer ou beber enquanto estiver aqui, mas nossas provisões são limitadas.$2",
-"Sun": "Ser um aventureiro faz você apreciar algumas coisas estranhas. Como o cheiro de ar fresco depois de passar dias em uma caverna úmida e bolorenta.$0"
-
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jadu",
+      "Entries": {
+        "Mon": "{{i18n:Jadu.CharacterDialogue.001}}",
+        "Tue": "{{i18n:Jadu.CharacterDialogue.002}}",
+        "Wed": "{{i18n:Jadu.CharacterDialogue.003}}",
+        "Thu": "{{i18n:Jadu.CharacterDialogue.004}}",
+        "Sat": "{{i18n:Jadu.CharacterDialogue.005}}",
+        "Sun": "{{i18n:Jadu.CharacterDialogue.006}}",
+        "DesertFestival_Jadu": "{{i18n:DesertFestival_Jadu}}",
+      },
+    },
+  ]
 }

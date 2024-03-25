@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="40" height="33" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="11">
  <properties>
+   <property name="LocationContext" value="Lemurkat_EastScarp"/>
   <property name="Outdoors" value="T"/>
-  <property name="Warp" value="-1 22 Custom_EastScarpe 84 20 -1 21 Custom_EastScarpe 84 20 -1 20 Custom_EastScarpe 84 20"/>
+  <property name="Warp" value="-1 22 EastScarp_Village 99 20 -1 21 EastScarp_Village 99 20 -1 20 EastScarp_Village 99 20"/>
  </properties>
  <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
   <image source="paths.png" width="64" height="144"/>
@@ -1679,27 +1680,27 @@
  <objectgroup id="5" name="Back">
   <object id="5" name="TileData" x="288" y="512" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_ESOrchard 14 5"/>
+    <property name="TouchAction" value="Warp EastScarp_Orchard 14 5"/>
    </properties>
   </object>
   <object id="6" name="TileData" x="272" y="512" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_ESOrchard 14 5"/>
+    <property name="TouchAction" value="Warp EastScarp_Orchard 14 5"/>
    </properties>
   </object>
   <object id="7" name="TileData" x="256" y="512" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_ESOrchard 14 5"/>
+    <property name="TouchAction" value="Warp EastScarp_Orchard 14 5"/>
    </properties>
   </object>
   <object id="8" name="TileData" x="240" y="512" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_ESOrchard 14 5"/>
+    <property name="TouchAction" value="Warp EastScarp_Orchard 14 5"/>
    </properties>
   </object>
   <object id="9" name="TileData" x="240" y="512" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_ESOrchard 14 5"/>
+    <property name="TouchAction" value="Warp EastScarp_Orchard 14 5"/>
    </properties>
   </object>
  </objectgroup>

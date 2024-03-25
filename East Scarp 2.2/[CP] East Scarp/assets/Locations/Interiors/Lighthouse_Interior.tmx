@@ -2,7 +2,8 @@
 <map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="24" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="6">
  <properties>
   <property name="NightTiles" value="Buildings 3 1 1252 Buildings 6 1 1252 Buildings 9 1 1252 Buildings 16 1 1252 Buildings 21 1 1252"/>
-  <property name="Warp" value="5 16 Custom_EastScarpe 71 118"/>
+    <property name="LocationContext" value="Lemurkat_EastScarp"/>
+  <property name="Warp" value="5 16 EastScarp_Village 71 118"/>
   <property name="asdf" type="bool" value="false"/>
  </properties>
  <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">

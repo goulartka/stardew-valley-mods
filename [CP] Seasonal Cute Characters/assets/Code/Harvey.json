@@ -1,5 +1,29 @@
 {
 	"Changes": [
+
+		{
+			"LogName": "Harvey - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Winter, Characters/Harvey_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Harvey/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Harvey - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Winter, Characters/Harvey_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Harvey/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
 		{
 			"LogName": "Harvey - Seasonal",
 			"Action": "EditImage",
@@ -26,7 +50,7 @@
 		{
 			"LogName": "Harvey - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Harvey, Characters/Harvey",
+			"Target": "Portraits/Harvey, Characters/Harvey, Portraits/Harvey_Winter, Characters/Harvey_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -58,6 +82,18 @@
 			"Update": "OnLocationChange",
 		},
 		{
+			"LogName": "Harvey - Aerobics Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Winter, Characters/Harvey_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Harvey/{{TargetWithoutPath}}_Aerobics.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"AerobicsDay": "Harvey",
+			},
+			"Update": "OnLocationChange, OnTimeChange",
+		},			
+		{
             "LogName": "Harvey - Labcoat",
             "Action": "EditImage",
             "Target": "Portraits/Harvey, Characters/Harvey",
@@ -70,8 +106,32 @@
             },
             "Update": "OnLocationChange",
         },
-		
+		{
+            "LogName": "Harvey - Labcoat Winter",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey_Winter, Characters/Harvey_Winter",
+            "FromFile": "assets/{{TargetPathOnly}}/Harvey/Harvey_Doctor.png",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "Hospital",
+				"ExtraOutfits": "True",
+            },
+            "Update": "OnLocationChange",
+        },		
 // NOSE OVERLAY
+		{
+			"LogName": "Harvey - Winter Nose",
+			"Action": "EditImage",
+			"Target": "Characters/Harvey_Winter",
+			"FromFile": "assets/Characters/Harvey/Harvey_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},
 		{
 			"LogName": "Harvey - Seasonal Nose",
 			"Action": "EditImage",
@@ -124,6 +184,20 @@
             },
             "Update": "OnLocationChange",
         },
+        {
+            "LogName": "Harvey - Mustache Overlay Winter",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey_Winter",
+            "FromFile": "assets/Portraits/Harvey/MustacheOverlay.png",
+            "PatchMode": "Overlay",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "HarveyFacialHair": "True",
+            },
+            "Update": "OnLocationChange",
+        },		
+		
         {
 			"LogName": "Harvey - Emoji",
 			"Action": "EditImage",

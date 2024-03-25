@@ -1,5 +1,29 @@
 {
 	"Changes": [
+
+		{
+			"LogName": "Evelyn - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Evelyn_Winter, Characters/Evelyn_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Evelyn/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Evelyn - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Evelyn_Winter, Characters/Evelyn_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Evelyn/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
 		{
 			"LogName": "Evelyn - Seasonal",
 			"Action": "EditImage",
@@ -26,7 +50,7 @@
 		{
 			"LogName": "Evelyn - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Evelyn, Characters/Evelyn",
+			"Target": "Portraits/Evelyn, Characters/Evelyn, Portraits/Evelyn_Winter, Characters/Evelyn_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -50,6 +74,19 @@
 		},
 		
 // NOSE OVERLAY
+		
+				{
+			"LogName": "Evelyn - Winter Nose",
+			"Action": "EditImage",
+			"Target": "Characters/Evelyn_Winter",
+			"FromFile": "assets/Characters/Evelyn/Evelyn_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},
 		{
 			"LogName": "Evelyn - Seasonal Nose",
 			"Action": "EditImage",

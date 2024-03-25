@@ -1347,46 +1347,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="1976" name="zspring_z_extras" tilewidth="16" tileheight="16" tilecount="5375" columns="25">
-  <image source="spring_z_extras.png" width="400" height="3440"/>
-  <tile id="3254">
-   <animation>
-    <frame tileid="3254" duration="1000"/>
-    <frame tileid="3257" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="3255">
-   <animation>
-    <frame tileid="3255" duration="1000"/>
-    <frame tileid="3258" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="3256">
-   <animation>
-    <frame tileid="3256" duration="1000"/>
-    <frame tileid="3259" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="3279">
-   <animation>
-    <frame tileid="3279" duration="1000"/>
-    <frame tileid="3282" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="3280">
-   <animation>
-    <frame tileid="3280" duration="1000"/>
-    <frame tileid="3283" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="3281">
-   <animation>
-    <frame tileid="3281" duration="1000"/>
-    <frame tileid="3284" duration="1000"/>
-   </animation>
-  </tile>
- </tileset>
- <tileset firstgid="7351" name="Town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+ <tileset firstgid="1976" name="Town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
   <image source="spring_town.png" width="512" height="1152"/>
   <tile id="159">
    <properties>
@@ -1655,7 +1616,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="9655" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+ <tileset firstgid="4280" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
   <image source="paths.png" width="64" height="144"/>
   <tile id="0">
    <properties>
@@ -1688,13 +1649,13 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="9691" name="z_lumi" tilewidth="16" tileheight="16" tilecount="400" columns="25">
+ <tileset firstgid="4316" name="z_lumi" tilewidth="16" tileheight="16" tilecount="400" columns="25">
   <image source="spring_mod_lumisteria_tilesheetsoutdoor_decorations.png" width="400" height="256"/>
  </tileset>
- <tileset firstgid="10091" name="z_daisy" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
+ <tileset firstgid="4716" name="z_daisy" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
   <image source="spring_daisyextras.png" width="480" height="960"/>
  </tileset>
- <tileset firstgid="11891" name="z_cottage" tilewidth="16" tileheight="16" tilecount="204" columns="12">
+ <tileset firstgid="6516" name="z_cottage" tilewidth="16" tileheight="16" tilecount="204" columns="12">
   <image source="spring_cottage.png" width="200" height="280"/>
  </tileset>
  <layer id="1" name="Back" width="10" height="8">
@@ -1704,8 +1665,8 @@
 382,330,301,330,330,330,330,330,380,382,
 382,354,404,839,839,839,354,404,380,382,
 382,353,376,378,276,376,378,351,380,382,
-382,379,7959,7960,7960,7960,7961,329,380,382,
-330,330,8315,8314,8315,8314,8315,330,330,382,
+382,379,2584,2585,2585,2585,2586,329,380,382,
+330,330,2940,2939,2940,2939,2940,330,330,382,
 280,280,280,280,280,280,280,280,280,280
 </data>
  </layer>
@@ -1717,10 +1678,10 @@
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
-0,0,0,10395,10396,10398,0,0,0,0,
-12093,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,9716,9717,9718,0,
-9741,9742,9743,0,0,0,9741,9742,9743,0,
+0,0,0,5020,5021,5023,0,0,0,0,
+6718,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,4341,4342,4343,0,
+4366,4367,4368,0,0,0,4366,4367,4368,0,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0
 </data>
@@ -1729,13 +1690,13 @@
  <layer id="5" name="Buildings" width="10" height="8">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,
-8184,8184,8184,8184,8184,8184,8184,8184,8184,8185,
-12093,9729,9730,8323,8331,8332,9733,8294,8295,8217,
-9691,9692,9693,0,0,0,9691,8326,8327,8217,
-9716,9717,9718,0,0,0,0,0,0,8217,
-0,0,0,0,0,0,9747,9748,9749,8249,
-8280,8280,8280,0,0,0,8251,8280,8280,8281,
-8265,8266,0,0,0,0,0,8460,8461,0
+2809,2809,2809,2809,2809,2809,2809,2809,2809,2810,
+6718,4354,4355,2948,2956,2957,4358,2919,2920,2842,
+4316,4317,4318,0,0,0,4316,2951,2952,2842,
+4341,4342,4343,0,0,0,0,0,0,2842,
+0,0,0,0,0,0,4372,4373,4374,2874,
+2905,2905,2905,0,0,0,2876,2905,2905,2906,
+2890,2891,0,0,0,0,0,3085,3086,0
 </data>
  </layer>
  <objectgroup id="6" name="Buildings" visible="0">
@@ -1765,7 +1726,7 @@
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
-0,0,8248,0,0,0,8219,8248,0,0,
+0,0,2873,0,0,0,2844,2873,0,0,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0
 </data>
@@ -1773,39 +1734,39 @@
  <objectgroup id="8" name="Buildings2"/>
  <layer id="9" name="Paths" width="10" height="8" visible="0">
   <data encoding="csv">
-0,0,9681,0,0,0,0,0,0,0,
+0,0,4306,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,9681,0,0,9680
+0,0,0,0,0,0,4306,0,0,4305
 </data>
  </layer>
  <objectgroup id="10" name="Paths"/>
  <layer id="11" name="Front" width="10" height="8">
   <data encoding="csv">
-8152,8152,8152,8152,8152,8152,8152,8152,8152,8153,
-12069,9704,9705,10365,10366,10368,9708,8262,8263,0,
-12081,0,0,0,0,0,0,0,0,0,
-9769,9770,9771,0,0,0,9697,9692,9693,0,
-9794,9795,9796,0,0,0,9722,9723,9724,0,
-8248,8248,9735,9736,0,0,12045,12046,8248,0,
-8233,8234,9760,0,0,0,12057,12058,8429,0,
-8139,0,0,0,0,0,0,0,0,0
+2777,2777,2777,2777,2777,2777,2777,2777,2777,2778,
+6694,4329,4330,4990,4991,4993,4333,2887,2888,0,
+6706,0,0,0,0,0,0,0,0,0,
+4394,4395,4396,0,0,0,4322,4317,4318,0,
+4419,4420,4421,0,0,0,4347,4348,4349,0,
+2873,2873,4360,4361,0,0,6670,6671,2873,0,
+2858,2859,4385,0,0,0,6682,6683,3054,0,
+2764,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <objectgroup id="12" name="Front"/>
  <layer id="13" name="AlwaysFront" width="10" height="8">
   <data encoding="csv">
-0,0,0,0,0,0,8229,8230,8231,8232,
+0,0,0,0,0,0,2854,2855,2856,2857,
 0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,9698,9699,0,
-0,0,9710,9711,12070,9712,9713,0,0,0,
-4,5,3,0,0,9737,9738,0,8397,0,
-29,30,28,0,0,9762,9763,0,0,0,
+0,0,0,0,0,0,0,4323,4324,0,
+0,0,4335,4336,6695,4337,4338,0,0,0,
+4,5,3,0,0,4362,4363,0,3022,0,
+29,30,28,0,0,4387,4388,0,0,0,
 54,55,56,0,0,0,0,0,0,0
 </data>
  </layer>

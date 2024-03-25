@@ -1,5 +1,29 @@
 {
 	"Changes": [
+
+		{
+			"LogName": "George - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/George_Winter, Characters/George_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/George/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "George - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/George_Winter, Characters/George_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/George/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
 		{
 			"LogName": "George - Seasonal",
 			"Action": "EditImage",
@@ -26,7 +50,7 @@
 		{
 			"LogName": "George - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/George, Characters/George",
+			"Target": "Portraits/George, Characters/George, Portraits/George_Winter, Characters/George_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -37,6 +61,19 @@
 		},
 		
 // NOSE OVERLAY
+
+		{
+			"LogName": "George - Winter Nose",
+			"Action": "EditImage",
+			"Target": "Characters/George_Winter",
+			"FromFile": "assets/Characters/George/George_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},
 		{
 			"LogName": "George - Seasonal Nose",
 			"Action": "EditImage",

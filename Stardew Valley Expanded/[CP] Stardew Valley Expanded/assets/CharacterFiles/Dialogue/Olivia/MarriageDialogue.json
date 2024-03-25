@@ -1,97 +1,1207 @@
 {
-  //SPECIAL DIALOGUE
-  "patio_Olivia": "Sabe, @, eu pensei que sentiria falta da negociação de ações, mas nem tanto.$0#$b#A fazenda %farm é um lugar relaxante...$3#$e#Estou tão feliz por estar aqui com você, amor. Eu amo você, e a vida que estamos construindo juntos.$1#$b#Boa sorte, love!$3",
-  "spouseRoom_Olivia": "Estou tentando algumas técnicas de pintura de Gotoro que li... mas elas estão me dando alguns problemas.$0#$e#Talvez eu deva pedir ajuda a Leah. Eu odeio incomodá-la com perguntas amadoras, mas...$2#$b#Se eu conseguir dominar essas técnicas, posso pintar um retrato verdadeiramente emocionante de você, amor. Eu gostaria de fazer isso.$4",
-  "funReturn_Olivia": "Você teve um bom dia?$0#$e#Encontrei uma garrafa de vinho raro que queria experimentar em leilão e consegui pegá-la por um ótimo preço.$3#$b#Teremos que encontrar algo para comemorar, então temos uma desculpa para abri-lo.$1",
-  "funLeave_Olivia": "Eu já gastei uma grana com pintura, mas sinto que estou realmente melhorando, @!$3#$e#Podemos falar sobre o seu dia se quiser, amor.$3",
-  "OneKid_0": "Eu tirei os olhos de %kid1 por um momentinho hoje e foi suficiente para surgir uma bagunça enorme com minhas tintas!$2#$b#Nossas paredes se tornaram uma festa, talvez %kid1 seja um grande artista no futuro...$3",
-  "OneKid_1": "Contar histórias para %kid1 foi muito divertido, @! Nós fingimos ser animais da selva e ficamos fazendo barulhos.$1#$e#$Eu tinha esquecido o quão divertido era ter filhos...$0",
-  "OneKid_2": "%kid1 fez uma birra tremenda hoje.$2#$b#Victor nunca fez esse tipo de coisa, acho que ele anda puxando isso de você...$2#$b#Eu me pergunto como você era quando criança!$4",
-  "OneKid_3": "%kid1 me lembra muito do Victor nessa idade.$1#$e#Ele gostava tanto de histórias sobre amizade e simpatia. Eu sempre pensei que crianças eram um pouquinho egoístas, então isso me surpreendeu.$3#$b#Olhando agora, dá um pouco de inveja, não?$1",
-  "OneKid_4": "Eu estive observando %kid1 hoje, ele tem muitas características de nós dois... nossos melhores lados.$3#$e#Eu amo você, @!$3",
-  "TwoKids_0": "Eu acho que %kid1 está com ciúmes de %kid2 por estar tendo um pouco mais da minha atenção.$2#$e#Acho que esse ciúmes vem de mim, não acha? $2",
-  "TwoKids_1": "Hoje as crianças tiveram uma mini-briga...$2#$e#Não se preocupe, isso acontece, eu sei que eles se amam.$3#$b#Mas agora que você chegou, amor, podemos finalmente relaxar...$4",
-  "TwoKids_2": "Sabe, depois de Victor, eu jurei para mim mesma não ter mais filhos...$3#$b#Mas viver com você me fez esquecer essa ideia boba, você abriu um novo capítulo em minha vida, @.$1",
-  "TwoKids_3": "Eu amo muito como nossa vida vem se desenvolvendo.$1#$b#Talvez devêssemos sair para algum lugar assim que você tiver tempo livre.$3",
-  "TwoKids_4": "Duas crianças é bastante trabalhoso... eu quase não consigo dar conta desses dois hoje.$2#$e#Eu não sou mais tão jovem como costumava, mas espero que isso não te atrapalhe, amor...$2",
- 
-  //SEASONAL DIALOGUE
-  "spring_Olivia": "Eu sinto um pouco de falta da cidade, mas viver aqui é outra história!$3#$e#Nunca tinha sentido um ar tão limpo assim, não quando morava lá.$1#$b#Vamos passear pela floresta quando estiver livre, @, eu amo tudo isso.$3",
-  "spring_1": "A primavera chegou, amor!$1#$e#Na primavera, você não quer beber nada muito pesado ou muito doce. Deve ser como as flores, frescas e apenas começando a florescer.$3",
-  "spring_13": "Você estava participando do festival, amor?$3#$e#Eu sei que você gosta de ganhar, mas pode ser bom para você e Abigail dar uma chance aos mais jovens.$0",
-  "spring_24": "Não consigo decidir qual vestido devo escolher para o baile hoje... quero ter certeza de que vai bem com o que você está vestindo.$4#$b#Eu gostaria que fôssemos dançar mais. É tão encantador, estar em seus braços, ouvindo músicas bonitas e cercado por amigos...$3",
-  "summer_Olivia": "Está bem quente hoje, não?$3#$b#Vou escolher um lugar maravilhoso para pintar hoje!$1",
-  "summer_1": "Você já decidiu o que vai plantar nessa estação, @? Eu queria mandar um pouco para meus pais.$0#$e#Eles mal podem acreditar que estou vivendo em uma fazenda!$3",
-  "summer_11": "Eu sei que você vai me chamar de fanática, amor, mas que tal adicionar um pouco de vinho tinto à sopa do festival.$0#$e#Um pouco de vinho na sopa torna o sabor agradável e rico. É bom para mais do que apenas beber!$3",
-  "summer_28": "Na verdade, essas medusas me deixam um pouco nervosa, elas podem picar, sabia?$2#$e#Será tão romântico.$3",
-  "fall_Olivia": "O outono é uma estação maravilhosa para procurar pelo vale. Até os cogumelos importados mais caros não conseguem superar os que o próprio vale produz.$0#$e#Você deveria pegar alguns cogumelos para o nosso jantar hoje à noite, amor.$3",
-  "fall_1": "Eu quero pintar as folhas mudando de cor na Floresta Cinzaseiva. Dessa forma, podemos lembrar como fica o outono o ano todo.$3#$e#É uma ótima oportunidade para aprender a usar cores com mais nuances. E que pintura linda seria, se bem feita!$1",
-  "fall_16": "Espero que sua exibição esteja ótima!$3#$b#Sei o quanto você trabalhou para montar uma representação fantástica do seu trabalho. Tenho certeza que o prefeito vai concordar.$1",
-  "fall_27": "Confesso que realmente não vejo muita coisa no Festival de Espíritos. As coisas que deveriam ser assustadoras sempre parecem um pouco tolas.$0#$e#E a maioria das decorações...$2",
-  "winter_Olivia": "Estou ansiosa pelos dias em que pratico Yoga, especialmente nesta época do ano. Eu fico muito enferrujada durante o inverno.$0#$e#Eu nunca me chamaria de velha, mas nestes últimos anos eu realmente senti o clima frio.$2",
-  "winter_1": "O inverno dá um belo rubor nas suas bochechas, @. É tão fofo.$4#$e#É uma temporada do ano amável.$3",
-  "winter_8": "Eu fiz uma cidra quente para nós levarmos para o festival hoje.$0#$b#Isso vai manter seu corpo quente durante a competição.$3",
-  "winter_12": "Se mantenha aquecido, amorzinho.$0#$e#Estarei esperando com uma taça de vinho tinto para que possamos relaxar quando você terminar seu trabalho.$3",
-  "winter_25": "Espero que você tenha um belo presente para o seu amigo secreto, amor!$3#$e#Eu me preocupo em exagerar um pouco nos presentes. Não quero que as pessoas se sintam culpadas por não poderem pagar o mesmo tipo de presentes que posso.$0",
- 
-  //DAY DIALOGUE
-  "Indoor_Day_0": "Estou me sentindo um pouco preguiçosa hoje, acho que vou ficar em casa lendo um romance.$0#$e#Eu sinto falta da biblioteca às vezes, acho que vou passar no Victor e trazer alguns livros.$3",
-  "Indoor_Day_1": "Nós podemos ter uma TV maior, amor?$0#$b#Nós temos espaço suficiente, seria maravilhoso nos fins de semana.$1",
-  "Indoor_Day_2": "Cuidar de uma casa na fazenda é exaustivo. Outro dia eu encontrei um rato, amor, um rato!$5#$b#Nós deveríamos contratar uma limpadora doméstica.$2",
-  "Indoor_Day_3": "Será que um papel de parede diferente ficaria bem na sala de estar...? Ou talvez uma pintura nova...$4",
-  "Indoor_Day_4": "Às vezes sinto que estou enferrujando dentro de casa.$0#$b#Eu devo ir para a cidade às vezes... e levar você comigo!$3",
-  "Outdoor_Olivia": "O segundo que pisei fora de casa, meus dedos começaram desenhar.$3#$b#A natureza tem uma paleta de cores linda.$1",
-  "Outdoor_0": "Às vezes eu penso em ir na floresta pegar alguns cogumelos, mas eu temo me perder...$0#$e#Você me levaria até lá?$3",
-  "Outdoor_1": "O ar da fazenda é tão limpo.$3#$b#Nós deveríamos trazer o Victor e fazer um piquenique.$0",
-  "Outdoor_2": "Você já encontrou algum animal selvagem pela floresta, @?$0#$b#Eu tenho muito medo de ursos, espero nunca encontrar um.$2",
-  "Outdoor_3": "Em breve estarei visitando Sophia para comprar mais vinho.$3#$b#Mesmo o vale sendo pequeno, nossos produtores produzem coisas incríveis.$3",
-  "Outdoor_4": "Hmm... eu me pergunto se deveria tentar desenhar uma gota...$0#$b#O que você me diz, amor? Você sempre teve bons olhos.$3",
-  "Rainy_Day_0": "A chuva na cidade parecia tão diferente... mais depressiva.$0#$b#Aqui ela parece mais calma, eu realmente não temo me molhar nela.$3",
-  "Rainy_Day_1": "Dias chuvosos combinam com vinho vermelho, você não acha?$0#$b#Um pouco de vinho vai alavancar o seu sistema imunológico.$3",
-  "Rainy_Day_2": "Em dias assim apenas tento lembrar que esse clima é bom para as plantas. Mas eu acho isso meio triste...$0#$e#Não fique fora tanto tempo, amor, eu gostaria de ter você aqui.$3",
-  "Rainy_Day_3": "A umidade do ar em dias como esse dificulta a pintura. Ele fica molhado por muito tempo e tudo leva mais tempo.$2#$b#Suponho que vou ter que encontrar outra coisa para ocupar meu tempo...$0",
- 
-  //NIGHT DIALOGUE
-  "Indoor_Night_0": "Você gosta do som de chuva caindo no telhado?$0#$e#Eu me sinto tão segura... eu te amo, @.$3",
-  "Indoor_Night_1": "Nós teveríamos jogar alguma coisa em dias assim.$0#$e#Cuidado, eu não gosto de perder.$4",
-  "Indoor_Night_2": "Vinho tinto ou branco... qual você iria preferir para hoje à noite?$3#$e#Eu? Vou querer o que você quiser!$1",
-  "Indoor_Night_3": "Estou um pouco cansada hoje... podemos ir para a cama cedo, @?$0",
-  "Indoor_Night_4": "A garrafa que abri está quase vazia. Último taça da noite, amor. Vamos fazer valer.$3",
-  "Rainy_Night_0": "Você acha que eu deveria visitar o Victor?$0#$b#Ele fica de mal humor em dias de chuva.$2",
-  "Rainy_Night_1": "Eu espero que a terra esteja seca amanhã... eu não quero melar meus pés com lama.$0",
-  "Rainy_Night_2": "Chovia muito assim no Império Gotoro...$0#$e#Espero que estejam bem.$2",
-  "Rainy_Night_3": "Noites chuvosas me fazem pensar muito...$0#$e#Você pode me distrair, @? Eu não gosto de me perder em lembranças.$2#$e#Ah, eu te amo!$1",
-  "Rainy_Night_4": "Você está bem, @? Fiquei preocupada com você.$0#$b#Eu não quero que nada aconteça com você a essa hora da noite.$2",
- 
-  //AFFECTION DIALOGUE
-  "Good_0": "Às vezes eu te olho e mal posso acreditar que nos encontramos...$3#$e#Eu amo você, @.$3",
-  "Good_1": "@, eu realmente não esperava encontrar outro amor, não ainda nessa idade.$3#$b#Eu sei que não sou muito velha, mas eu realmente não esperava isso.$2#$e#Estou feliz que isso tenha mudado.$3",
-  "Good_2": "Você me faz uma pessoa melhor, sabia, @?$3#$b#Eu posso ser... um pouco esnobe, mas você me ensinou muito sobre ser mais paciente e compassiva, amor. Obrigada!.$3",
-  "Good_3": "Você é o único capaz de me fazer melhorar de humor tão rápido.$0#$b#Eu não sei porque, mas você me faz me sentir segura. Obrigada.$3",
-  "Good_4": "Às vezes eu te olho e mal posso acreditar que nos encontramos...$3#$e#Eu amo você, @.$3",
-  "Good_5": "Você acha que deveríamos sair de férias alguma vez?$0#$b#Algum lugar romântico... alguma ílha.$4#$e#Eu quero ver todos os lugares bonitos do mundo com você, amor.$3",
-  "Good_6": "Não me arrependo de desistir de negociar para morar com você na fazenda.$3#$b#Encontrei muita paz aqui com você.$1",
-  "Good_7": "Você sabe dançar, @? Além do festival das flores?$0#$e#Quando estou com tigo, sinto uma estranha vontade de dançar, talvez você possa me ensinar algum dia?$3",
-  "Good_8": "Na cidade tudo se moveu tão rápido. Eu estava sempre a caminho de algum lugar, nunca parando para prestar atenção ao mundo ao meu redor.$0#$e#É lindo parar um pouco e viver com você, @.$3",
-  "Good_9": "Na última noite tive um sonho de nós dois... velhinhos, sentados observando a lua.$0#$b#Eu sei que é um pouco brega, amor. Mas isso me fez pensar em pintar um retrato nosso no futuro, feliz juntos.$3",
-  "Neutral_0": "Nós podemos viajar para o deserto algum dia?$3#$e#Eu nunca estive lá.$1",
-  "Neutral_1": "Estou pensando em montar uma ordem de grupo para a cidade de alguns vinhedos distantes. Poderíamos obter alguns casos por preços razoáveis.$0#$b#Nós temos uma linda comunidade aqui, você não acha?$0",
-  "Neutral_2": "Estarei limpando a casa hoje, amor, não entre aqui com as botas sujas.$0#$e#Eu sei que você tomará cuidado.$3",
-  "Neutral_3": "Você já se encontrou com aquele mago que vive na torre?$0#$e#Você é mais corajoso do que eu, eu admiro sua coragem para conhecer pessoas tão diferentes.$3",
-  "Neutral_4": "Eu gostaria de te apresentar algumas amigas da cidade Zuzu algum dia.$0#$e#Tenho certeza que vocês vão se dar bem.$3",
-  "Neutral_5": "Victor deixou um livro para você, amor. Ele disse que acha que você vai gostar. É um livro de memórias dos primórdios da Guilda dos Aventureiros.$0#$e#Estou feliz que vocês estão se dando bem.",
-  "Neutral_6": "Uma das pessoas que conheci quando era comerciante ligou hoje para me dar um grande investimento.$3#$e#É um pouco tentador, mas estou bem onde estou.$3",
-  "Neutral_7": "Vamos convidar o Victor para jantar aqui algum dia.$0#$b#Eu não quero que ele pense que estou o deixando de lado, ele é bem-vindo aqui também.$0",
-  "Neutral_8": "Eu preciso ir até a cidade para pegar materiais de pintura em breve.$0#$e#Encomendei a maioria dos meus suprimentos, mas ainda gosto de olhar ao redor localmente para ver se algo único aparece.$0",
-  "Neutral_9": "Outro dia no vale...$0#$b#Os dias parecem iguais aqui, às vezes. Devemos fazer algo em breve para agitar um pouco.$3",
-  "Bad_0": "Tive que desfazer a pintura em que trabalho hoje. Eu simplesmente não conseguia acertar.$2#$e#Talvez eu faça uma pausa na pintura por um tempo. Sinto que não estou fazendo nenhum progresso.$2",
-  "Bad_1": "Que pena que o vinho não pode resolver todos os meus problemas...$2#$e#Ah, não se preocupe, eu não bebi demais.$0",
-  "Bad_2": "Ah... eu não estou me sentindo bem, acho que vou ver o doutor.$2#$b#Fique longe, tudo bem? Pode ser uma gripe.$2",
-  "Bad_3": "Estou um pouco de mal humor, docinho, você pode me deixar só?$5#$e#Você não fez nada de errado. Às vezes eu fico assim...$2",
-  "Bad_4": "Em dias assim eu só quero estar na cama...$2#$b#Ou fazer compras. Talvez eu faça uma viagem à cidade para me animar.$0",
-  "Bad_5": "A guerra contra o Império continua e as vítimas continuam se acumulando...$2#$b#Dói pensar em todas aquelas pessoas que sofrem.$2",
-  "Bad_6": "Eu vi você falando com ela na vila, sabe...$2#$b#Você sabe quem, @!.$5",
-  "Bad_7": "Eu quero ficar sozinha, tudo bem?$6#$b#...Desculpa, amor, eu só quero espaço...$2",
-  "Bad_8": "Eu deixei cair uma das minhas peças mais raras de porcelana de Gotoro hoje, está em pedaços...$5#$b#Estou furiosa comigo mesma, isso é insubstituível.$5#$e#Eu não quero mais pensar sobre isso...$2",
-  "Bad_9": "Eu amo você, mas alguns dias eu só penso em Edward e como tudo isso foi triste...$0#$b#Eu te contarei sobre ele em breve, não hoje.$2",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "Entries": {
+        //SPECIAL DIALOGUE
+        "patio_Olivia": "{{i18n:Olivia.MarriageDialogue.001}}",
+        "spouseRoom_Olivia": "{{i18n:Olivia.MarriageDialogue.002}}",
+        "funReturn_Olivia": "{{i18n:Olivia.MarriageDialogue.003}}",
+        "funLeave_Olivia": "{{i18n:Olivia.MarriageDialogue.004}}",
+        "OneKid_0": "{{i18n:Olivia.MarriageDialogue.005}}",
+        "OneKid_1": "{{i18n:Olivia.MarriageDialogue.006}}",
+        "OneKid_2": "{{i18n:Olivia.MarriageDialogue.007}}",
+        "OneKid_3": "{{i18n:Olivia.MarriageDialogue.008}}",
+        "OneKid_4": "{{i18n:Olivia.MarriageDialogue.009}}",
+        "TwoKids_0": "{{i18n:Olivia.MarriageDialogue.010}}",
+        "TwoKids_1": "{{i18n:Olivia.MarriageDialogue.011}}",
+        "TwoKids_2": "{{i18n:Olivia.MarriageDialogue.012}}",
+        "TwoKids_3": "{{i18n:Olivia.MarriageDialogue.013}}",
+        "TwoKids_4": "{{i18n:Olivia.MarriageDialogue.014}}",
+        "spring_Olivia": "{{i18n:Olivia.MarriageDialogue.015}}",
+        "spring_1": "{{i18n:Olivia.MarriageDialogue.016}}",
+        "spring_13": "{{i18n:Olivia.MarriageDialogue.017}}",
+        "spring_24": "{{i18n:Olivia.MarriageDialogue.018}}",
+        "summer_Olivia": "{{i18n:Olivia.MarriageDialogue.019}}",
+        "summer_1": "{{i18n:Olivia.MarriageDialogue.020}}",
+        "summer_11": "{{i18n:Olivia.MarriageDialogue.021}}",
+        "summer_28": "{{i18n:Olivia.MarriageDialogue.022}}",
+        "fall_Olivia": "{{i18n:Olivia.MarriageDialogue.023}}",
+        "fall_1": "{{i18n:Olivia.MarriageDialogue.024}}",
+        "fall_16": "{{i18n:Olivia.MarriageDialogue.025}}",
+        "fall_27": "{{i18n:Olivia.MarriageDialogue.026}}",
+        "winter_Olivia": "{{i18n:Olivia.MarriageDialogue.027}}",
+        "winter_1": "{{i18n:Olivia.MarriageDialogue.028}}",
+        "winter_8": "{{i18n:Olivia.MarriageDialogue.029}}",
+        "winter_12": "{{i18n:Olivia.MarriageDialogue.030}}",
+        "winter_25": "{{i18n:Olivia.MarriageDialogue.031}}",
+        "DesertFestival_Olivia_marriage": "{{i18n:DesertFestival_Olivia_marriage}}",
+        //DAY DIALOGUE
+        "Indoor_Day_0": "{{i18n:Olivia.MarriageDialogue.032}}",
+        "Indoor_Day_1": "{{i18n:Olivia.MarriageDialogue.033}}",
+        "Indoor_Day_2": "{{i18n:Olivia.MarriageDialogue.034}}",
+        "Indoor_Day_3": "{{i18n:Olivia.MarriageDialogue.035}}",
+        "Indoor_Day_4": "{{i18n:Olivia.MarriageDialogue.036}}",
+        "Outdoor_Olivia": "{{i18n:Olivia.MarriageDialogue.037}}",
+        "Outdoor_0": "{{i18n:Olivia.MarriageDialogue.038}}",
+        "Outdoor_1": "{{i18n:Olivia.MarriageDialogue.039}}",
+        "Outdoor_2": "{{i18n:Olivia.MarriageDialogue.040}}",
+        "Outdoor_3": "{{i18n:Olivia.MarriageDialogue.041}}",
+        "Outdoor_4": "{{i18n:Olivia.MarriageDialogue.042}}",
+        "Rainy_Day_0": "{{i18n:Olivia.MarriageDialogue.043}}",
+        "Rainy_Day_1": "{{i18n:Olivia.MarriageDialogue.044}}",
+        "Rainy_Day_2": "{{i18n:Olivia.MarriageDialogue.045}}",
+        "Rainy_Day_3": "{{i18n:Olivia.MarriageDialogue.046}}",
+        //NIGHT DIALOGUE
+        "Indoor_Night_0": "{{i18n:Olivia.MarriageDialogue.047}}",
+        "Indoor_Night_1": "{{i18n:Olivia.MarriageDialogue.048}}",
+        "Indoor_Night_2": "{{i18n:Olivia.MarriageDialogue.049}}",
+        "Indoor_Night_3": "{{i18n:Olivia.MarriageDialogue.050}}",
+        "Indoor_Night_4": "{{i18n:Olivia.MarriageDialogue.051}}",
+        "Rainy_Night_0": "{{i18n:Olivia.MarriageDialogue.052}}",
+        "Rainy_Night_1": "{{i18n:Olivia.MarriageDialogue.053}}",
+        "Rainy_Night_2": "{{i18n:Olivia.MarriageDialogue.054}}",
+        "Rainy_Night_3": "{{i18n:Olivia.MarriageDialogue.055}}",
+        "Rainy_Night_4": "{{i18n:Olivia.MarriageDialogue.056}}",
+        //AFFECTION DIALOGUE
+        "Good_0": "{{i18n:Olivia.MarriageDialogue.057}}",
+        "Good_1": "{{i18n:Olivia.MarriageDialogue.058}}",
+        "Good_2": "{{i18n:Olivia.MarriageDialogue.059}}",
+        "Good_3": "{{i18n:Olivia.MarriageDialogue.060}}",
+        "Good_4": "{{i18n:Olivia.MarriageDialogue.061}}",
+        "Good_5": "{{i18n:Olivia.MarriageDialogue.062}}",
+        "Good_6": "{{i18n:Olivia.MarriageDialogue.063}}",
+        "Good_7": "{{i18n:Olivia.MarriageDialogue.064}}",
+        "Good_8": "{{i18n:Olivia.MarriageDialogue.065}}",
+        "Good_9": "{{i18n:Olivia.MarriageDialogue.066}}",
+        "Neutral_0": "{{i18n:Olivia.MarriageDialogue.067}}",
+        "Neutral_1": "{{i18n:Olivia.MarriageDialogue.068}}",
+        "Neutral_2": "{{i18n:Olivia.MarriageDialogue.069}}",
+        "Neutral_3": "{{i18n:Olivia.MarriageDialogue.070}}",
+        "Neutral_4": "{{i18n:Olivia.MarriageDialogue.071}}",
+        "Neutral_5": "{{i18n:Olivia.MarriageDialogue.072}}",
+        "Neutral_6": "{{i18n:Olivia.MarriageDialogue.073}}",
+        "Neutral_7": "{{i18n:Olivia.MarriageDialogue.074}}",
+        "Neutral_8": "{{i18n:Olivia.MarriageDialogue.075}}",
+        "Neutral_9": "{{i18n:Olivia.MarriageDialogue.076}}",
+        "Bad_0": "{{i18n:Olivia.MarriageDialogue.077}}",
+        "Bad_1": "{{i18n:Olivia.MarriageDialogue.078}}",
+        "Bad_2": "{{i18n:Olivia.MarriageDialogue.079}}",
+        "Bad_3": "{{i18n:Olivia.MarriageDialogue.080}}",
+        "Bad_4": "{{i18n:Olivia.MarriageDialogue.081}}",
+        "Bad_5": "{{i18n:Olivia.MarriageDialogue.082}}",
+        "Bad_6": "{{i18n:Olivia.MarriageDialogue.083}}",
+        "Bad_7": "{{i18n:Olivia.MarriageDialogue.084}}",
+        "Bad_8": "{{i18n:Olivia.MarriageDialogue.085}}",
+        "Bad_9": "{{i18n:Olivia.MarriageDialogue.086}}",
+      },
+    },
+    //Random spouse room dialogues for Olivia to mix things up
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 3"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.01}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 4"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.02}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 6"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.03}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 7"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.04}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 10"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.05}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 11"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.06}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 13"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.07}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 14"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.08}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 17"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.09}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 18"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.10}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 20"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.11}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 21"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.12}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 24"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.13}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 25"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.14}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 28"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.15}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 3"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.16}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 4"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.17}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 6"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.18}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 7"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.19}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 10"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.20}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 11"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.21}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 13"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.22}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 14"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.23}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 17"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.24}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 18"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.25}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 20"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.26}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 21"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.27}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 24"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.28}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 25"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.29}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 28"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.30}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 3"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.31}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 4"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.32}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 6"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.33}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 7"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.34}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 10"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.35}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 11"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.36}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 13"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.37}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 14"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.38}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 17"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.39}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 18"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.40}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 20"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.41}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 21"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.42}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 24"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.43}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 25"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.44}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 28"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.45}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 3"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.46}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 4"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.47}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 6"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.48}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 7"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.49}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 10"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.50}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 11"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.51}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 13"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.52}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 14"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.53}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 17"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.54}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 18"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.55}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 20"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.56}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 21"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.57}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 24"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.58}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 25"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.59}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 28"
+      },
+      "Entries": {
+        "spouseRoom_Olivia": "{{i18n:Olivia.Spousevary.60}}",
+      }
+    },
+    //Olivia's Marriage Schedule Dialogue - Patching is necessary to prevent the same "leave" and "return" dialogue Three days out of a week
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 1"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.61}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.62}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 2"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.63}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.64}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 5"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.65}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.66}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 8"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.67}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.68}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 9"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.69}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.70}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 12"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.71}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.72}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 15"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.73}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.74}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 16"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.75}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.76}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 19"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.77}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.78}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 22"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.79}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.80}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 23"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.81}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.82}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Spring 26"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.83}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.84}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 1"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.85}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.86}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 2"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.87}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.88}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 5"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.89}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.90}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 8"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.91}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.92}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 9"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.93}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.94}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 12"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.95}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.96}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 15"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.97}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.98}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 16"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.99}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.100}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 17"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.101}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.102}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 22"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.103}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.104}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 23"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.105}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.106}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Summer 26"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.107}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.108}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 1"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.109}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.110}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 2"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.111}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.112}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 5"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.113}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.114}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 8"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.115}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.116}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 9"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.117}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.118}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 12"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.119}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.120}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 15"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.121}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.122}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 19"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.123}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.124}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 22"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.125}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.126}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 23"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.127}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.128}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Fall 26"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.129}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.130}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 1"
+      },
+      "Entries": {
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.131}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 2"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.132}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.133}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 5"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.134}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.135}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 9"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.136}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.137}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 12"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.138}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.139}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 15"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.140}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.141}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 16"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.142}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.143}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 19"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.144}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.145}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 22"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.146}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.147}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 23"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.148}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+      "When": {
+        "Date": "Winter 26"
+      },
+      "Entries": {
+        "funReturn_Olivia": "{{i18n:Olivia.Spousevary.149}}",
+        "funLeave_Olivia": "{{i18n:Olivia.Spousevary.150}}",
+      }
+    },
+  ]
 }

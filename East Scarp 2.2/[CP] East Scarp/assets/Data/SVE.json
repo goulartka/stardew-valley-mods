@@ -11,17 +11,40 @@
                 "Width": 2,
                 "Height": 10
             },
-            "TextOperations": [
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 64,
+                        "Y": 8
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "Warp EastScarp_DeepMountains 7 60"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 64,
+                        "Y": 9
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "Warp EastScarp_DeepMountains 7 60"
+                    }
+                },
+                
+            ],
+           /* "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [
                         "MapProperties",
                         "Warp"
                     ],
-                    "Value": "65 8 Custom_ESDeepMountains 7 61 65 9 Custom_ESDeepMountains 7 61",
+                    "Value": "65 8 EastScarp_DeepMountains 7 61 65 9 EastScarp_DeepMountains 7 61",
                     "Delimiter": " "
                 }
-            ],
+            ],*/
             "When": {
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
             }
@@ -30,17 +53,49 @@
         {
             "LogName": "Adds the Warp from ES to AdventurerSummit",
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESDeepMountains",
-            "MapProperties": {
+            "Target": "Maps/EastScarp_DeepMountains",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 6,
+                        "Y": 61
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "Warp Custom_AdventurerSummit 64 8"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 7,
+                        "Y": 61
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "Warp Custom_AdventurerSummit 64 9"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 8,
+                        "Y": 61
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "Warp Custom_AdventurerSummit 64 9"
+                    }
+                }
+            ],
+            /*"MapProperties": {
                 "Warp": "6 62 Custom_AdventurerSummit 64 8 8 62 Custom_AdventurerSummit 64 9 7 62 Custom_AdventurerSummit 64 9"
-            },
+            },*/
             "When": {
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
             }
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_EastScarpe",
+            "Target": "Maps/EastScarp_Village",
             "TextOperations": [
                 {
                     "Operation": "Append",
@@ -72,7 +127,7 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_EastScarpe",
+            "Target": "Maps/EastScarp_Village",
             "TextOperations": [
                 {
                     "Operation": "Append",
@@ -92,8 +147,8 @@
             "Action": "EditMap",
             "Target": "Maps/Custom_ShearwaterBridge",
             "MapProperties": {
-                "Warp": "-1 19 Town 118 72 -1 20 Town 118 72 -1 21 Town 118 72 -1 22 Town 118 72 -1 23 Town 118 72 60 19 Custom_EastScarpe 0 70 60 20 Custom_EastScarpe 0 71 60 21 Custom_EastScarpe 0 72 60 22 Custom_EastScarpe 0 73 60 23 Custom_EastScarpe 0 74"
-                // 60 24 Custom_EastScarpe 0 74 60 25 Custom_EastScarpe 0 74 60 26 Custom_EastScarpe 0 74"
+                "Warp": "-1 19 Town 118 72 -1 20 Town 118 72 -1 21 Town 118 72 -1 22 Town 118 72 -1 23 Town 118 72 60 19 EastScarp_Village 0 70 60 20 EastScarp_Village 0 71 60 21 EastScarp_Village 0 72 60 22 EastScarp_Village 0 73 60 23 EastScarp_Village 0 74"
+                // 60 24 EastScarp_Village 0 74 60 25 EastScarp_Village 0 74 60 26 EastScarp_Village 0 74"
             },
             "When": {
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
@@ -101,13 +156,13 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_EastScarpe",
-            "FromFile": "assets/Patches/GrampletonPatch.tmx",
+            "Target": "Maps/EastScarp_Village",
+            "FromFile": "assets/Patches/SVE_GrampletonPatch.tmx",
             "ToArea": {
-                "X": 77,
+                "X": 93,
                 "Y": 32,
-                "Width": 8,
-                "Height": 4
+                "Width": 7,
+                "Height": 6
             },
             "When": {
                 "HasMod |contains=flashshifter.GrampletonFields": true,
@@ -125,7 +180,7 @@
                     },
                     "Layer": "Back",
                     "SetProperties": {
-                        "TouchAction": "Warp Custom_EastScarpe 83 33"
+                        "TouchAction": "Warp EastScarp_Village 98 34"
                     }
                 },
                 {
@@ -135,7 +190,7 @@
                     },
                     "Layer": "Back",
                     "SetProperties": {
-                        "TouchAction": "Warp Custom_EastScarpe 83 33"
+                        "TouchAction": "Warp EastScarp_Village 98 34"
                     }
                 },
                 {
@@ -145,7 +200,18 @@
                     },
                     "Layer": "Back",
                     "SetProperties": {
-                        "TouchAction": "Warp Custom_EastScarpe 83 33"
+                        "TouchAction": "Warp EastScarp_Village 98 35"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 1,
+                        "Y": 113
+
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "TouchAction": "Warp EastScarp_Village 98 35"
                     }
                 }
             ],
@@ -175,7 +241,8 @@
             "Action": "EditMap",
             "Target": "Maps/Town",
             "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+                "HasSeenEvent": "57871014",
+                "HasSeenEvent |contains=57871015": false,
             },
             "MapTiles": [
                 {

@@ -4,7 +4,8 @@
   <export format="tmx"/>
  </editorsettings>
  <properties>
-  <property name="Warp" value="5 12 Custom_ESOrchard 19 65"/>
+   <property name="LocationContext" value="Lemurkat_EastScarp"/>
+  <property name="Warp" value="5 12 EastScarp_Orchard 19 65"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior" width="512" height="1088"/>

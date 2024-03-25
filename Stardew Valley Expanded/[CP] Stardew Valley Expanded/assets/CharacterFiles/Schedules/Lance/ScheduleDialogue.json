@@ -1,20 +1,30 @@
 {
-  "marriage.000": "Olá meu querido. Eu confio que você tem negócios de guilda de aventura hoje?$1#$e#Fique seguro lá fora^^ Olá minha querida. Eu confio que você tem negócios de guilda de aventura hoje?$1#$e#Fique seguro lá fora.$0^Fique segura lá fora.$0",
-  "marriage.001": "Ah, você chegou!$1#$e#Hoje foi tranquilo?$0",
-  "marriage.002": "Suas visitas despertam muita alegria em mim.$0#$e#Seria apertado, mas poderíamos dividir a cama esta noite.$4",
-  "marriage.003": "Há muitos grandes poderes neste mundo, mas nenhum supera o poder do amor.$1#$e#*risada*...$5",
-  "marriage.004": "Olá, meu amor. O que te traz ao Recife das Fábulas hoje?$1#$e#Preciso reabastecer meu estoque de poções de mana.$0",
-  "marriage.005": "Jolyne tem muitas histórias de aventureiros...$5#$b#Quando eu acho que já ouvi todas, ela tem uma nova para compartilhar.$1",
-  "marriage.006": "Quer dividir a cama comigo aqui esta noite?$1#$b#Vai ser apertado, mas podemos fazer funcionar...$4",
-  "marriage.007": "Esta é uma árvore maravilhosa.$0#$e#Estou ansioso pelo banquete da amanhã. eu nunca sentiria falta...$5",
-  "NightMarket.001": "Conheço o feiticeiro que vende totens.$0#$e#Já fizemos várias expedições juntos.$5",
-  "NightMarket.002": "Cada comerciante aqui tem sua própria história para contar.$5",
-  "NightMarket.003": "Acho que tem algo sobre aquele barco sereia...$0",
-  "KrobusDialogue.001": "Krobus estava apenas compartilhando uma história encantadora.$0#$e#Como está sua noite?$0#$b#Você parece ter corrido o dia todo.$1",
-  "KrobusDialogue.002": "As pessoas das sombras são incompreendidas. Talvez nós somos os monstros...$6",
-  "KrobusDialogue.003": "Eu vejo. Yoba desempenha um grande papel em tudo...$5#$e#%Lance está ocupado conversando com Krobus.#$e#%Lance está ocupado conversando com Krobus.#$e#%Lance está ocupado conversando com Krobus.#$e#%Lance está ocupado falando com Krobus.#$e#%Lance está ocupado falando com Krobus.#$e#%Lance está ocupado falando com Krobus.#$e#%Lance está ocupado falando com Krobus.#$e#%Lance está ocupado falando com Krobus.",
-  "KrobusDialogue.004": "Krobus estava apenas compartilhando uma história encantadora.$0#$e#Como está sua noite?$0#$b#Você parece ter corrido o dia todo.$1",
-  "KrobusDialogue.005": "Há uma história feia entre os anões e o povo das sombras.$6#$e#O que alguns fazem pela busca de riquezas...$5#$b#A ganância pode ser uma coisa volúvel.$0",
-  "KrobusDialogue.006": "Achei que veria você aqui esta noite.$0#$e#Eu trouxe raízes vazias para Krobus.$1",
-  "KrobusDialogue.007": "Algumas tribos de pessoas das sombras usam a época mais sombria do ano para migrar para cavernas distantes.$0#$b#Pode ser uma jornada perigosa se não for bem planejada...$6"
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Strings/schedules/Lance",
+      "Entries": 
+      {
+  "marriage.000": "{{i18n:Lance.Marriage.000}}",
+  "marriage.001": "{{i18n:Lance.Marriage.001}}",
+  "marriage.002": "{{i18n:Lance.Marriage.002}}",
+  "marriage.003": "{{i18n:Lance.Marriage.003}}",
+  "marriage.004": "{{i18n:Lance.Marriage.004}}",
+  "marriage.005": "{{i18n:Lance.Marriage.005}}",
+  "marriage.006": "{{i18n:Lance.Marriage.006}}",
+  "marriage.007": "{{i18n:Lance.Marriage.007}}",
+  "NightMarket.001": "{{i18n:Lance.NightMarket.001}}",
+  "NightMarket.002": "{{i18n:Lance.NightMarket.002}}",
+  "NightMarket.003": "{{i18n:Lance.NightMarket.003}}",
+  "KrobusDialogue.001": "{{i18n:Lance.KrobusDialogue.001}}",
+  "KrobusDialogue.002": "{{i18n:Lance.KrobusDialogue.002}}",
+  "KrobusDialogue.003": "{{i18n:Lance.KrobusDialogue.003}}",
+  "KrobusDialogue.004": "{{i18n:Lance.KrobusDialogue.004}}",
+  "KrobusDialogue.005": "{{i18n:Lance.KrobusDialogue.005}}",
+  "KrobusDialogue.006": "{{i18n:Lance.KrobusDialogue.006}}",
+  "KrobusDialogue.007": "{{i18n:Lance.KrobusDialogue.007}}",
+  "DesertFestival_Lance_marriage": "{{i18n:DesertFestival_Lance_marriage}}"
+},
+    },
+  ]
 }

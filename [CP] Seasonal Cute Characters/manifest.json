@@ -1,10 +1,9 @@
 {
    "Name": "Seasonal Cute Characters",
    "Author": "Poltergeister with assets by various artists",
-   "Version": "4.0.3",
+   "Version": "5.0.1",
    "Description": "Seasonal outfits with the slightly cuter character aesthetic.",
    "UniqueID": "Poltergeister.SeasonalCuteCharacters",
-    "MinimumApiVersion": "3.10.0",
 "UpdateKeys": [ "Nexus:5450" ],
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher",
@@ -33,6 +32,7 @@
       {
         "UniqueID": "Poltergeister.CuteSprites",
         "IsRequired": false
-      },      
+      }, 
+ 	  
  ]
 }

@@ -9,7 +9,7 @@
 			*********/
 			{
 				"Action": "EditData",
-				"Target": "Data/CustomNPCExclusions",
+				"Target": "Data/Characters",
 				"TextOperations":
 				[
 					{
@@ -524,6 +524,26 @@
          		},
 				"When": {
 					"HasSeenEvent: hostPlayer": 75160338
+				},
+				"Update": "OnLocationChange, OnTimeChange",
+			},
+
+			{
+				"Action": "EditData",
+				"Target": "Data/CustomNPCExclusions",
+				"TextOperations":
+				[
+					{
+						"Operation": "Append",
+						"Target": ["Entries", "Zayne"],
+						"Value": "WinterStar",
+						"Delimiter": " "
+					}
+				],
+				"When": {
+					"HasSeenEvent: hostPlayer": 75160338,
+					"Rafseazz.RidgesideVillage/RSVNPCSAttendFestivals": true,
+					"HasSeenEvent: |contains=75160440": false
 				},
 				"Update": "OnLocationChange, OnTimeChange",
 			},

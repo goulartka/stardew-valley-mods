@@ -1,11 +1,20 @@
 ﻿{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Sawyer",
+        "Entries": 
+        {
 
-"Mon": "%Sawyer: Hmph? O que você quer, criança?",
-"Tue": "%Sawyer: Hmph? O que você quer, criança?",
-"Wed": "%Sawyer: Hmph? O que você quer, criança?",
-"Thu": "%Sawyer: Hmph? O que você quer, criança?",
-"Fri": "%Sawyer: Hmph? O que você quer, criança?",
-"Sat": "%Sawyer: Hmph? O que você quer, criança?",
-"Sun": "%Sawyer: Hmph? O que você quer, criança?"
+"Mon": "{{i18n:Sawyer.CharacterDialogue.001}}",
+"Tue": "{{i18n:Sawyer.CharacterDialogue.001}}",
+"Wed": "{{i18n:Sawyer.CharacterDialogue.001}}",
+"Thu": "{{i18n:Sawyer.CharacterDialogue.001}}",
+"Fri": "{{i18n:Sawyer.CharacterDialogue.001}}",
+"Sat": "{{i18n:Sawyer.CharacterDialogue.001}}",
+"Sun": "{{i18n:Sawyer.CharacterDialogue.001}}",
 
+},
+      },
+    ]
 }

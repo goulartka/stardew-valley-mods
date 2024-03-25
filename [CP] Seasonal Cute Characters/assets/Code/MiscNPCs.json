@@ -1,6 +1,17 @@
 {
 	"Changes": [
-	
+// Bear
+		{
+			"LogName": "Bear - Slightly Cuter",
+			"Action": "EditImage",
+			"Target": "Portraits/Bear",
+			"FromFile": "assets/{{Target}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "SlightlyCuterBear": "True",
+			},
+		},
 // Birdie
 		{
 			"LogName": "Birdie - Slightly Cuter",
@@ -23,6 +34,18 @@
 			{
 				"HasFile:{{FromFile}}": true,
 				"NoNose": "false",
+			},
+		},
+// Fizz
+		{
+			"LogName": "Fizz - Slightly Cuter",
+			"Action": "EditImage",
+			"Target": "Portraits/Fizz, Characters/Fizz",
+			"FromFile": "assets/{{Target}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "SlightlyCuterFizz": "True",
 			},
 		},
 		

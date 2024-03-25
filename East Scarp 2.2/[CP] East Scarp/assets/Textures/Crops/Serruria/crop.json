@@ -1,0 +1,22 @@
+﻿{
+    "Name": "Serruria Plant",
+    "Product": "Serruria Flower",
+    "SeedName": "Serruria Seeds",
+    "SeedDescription": "Plant in winter to produce a brilliant white flower in spring. Takes 14 days to mature, and keeps producing after the first harvest.",
+    "Type": "Flower",
+    "Seasons": ["winter", "spring", "summer"],
+    "Phases": [2,2,3,4,3],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+  
+    "CanPurchase": true,
+	"SeedPurchasePrice": 125,
+	"SeedPurchaseFrom": "NOTSOLDATVENDOR",
+	"SeedPurchaseRequirements": null,
+   
+    "ContextTags": [  "season_winter", "season_spring","seed_item" ],
+   "TranslationKey": "crop.serruria-plant",
+	"SeedTranslationKey": "crop.serruria-seed",
+}

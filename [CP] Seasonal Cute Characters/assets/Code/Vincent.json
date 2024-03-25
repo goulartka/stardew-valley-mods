@@ -1,6 +1,29 @@
 {
 	"Changes": [
 		{
+			"LogName": "Vincent - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Vincent_Winter, Characters/Vincent_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Vincent/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Vincent - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Vincent_Winter, Characters/Vincent_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Vincent/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
 			"LogName": "Vincent - Seasonal",
 			"Action": "EditImage",
 			"Target": "Portraits/Vincent, Characters/Vincent",
@@ -26,7 +49,7 @@
 		{
 			"LogName": "Vincent - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Vincent, Characters/Vincent",
+			"Target": "Portraits/Vincent, Characters/Vincent, Portraits/Vincent_Winter, Characters/Vincent_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -50,6 +73,18 @@
 		},
 		
 // NOSE OVERLAY
+		{
+			"LogName": "Vincent - Winter Nose",
+			"Action": "EditImage",
+			"Target": "Characters/Vincent_Winter",
+			"FromFile": "assets/Characters/Vincent/Vincent_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},
 		{
 			"LogName": "Vincent - Seasonal Nose",
 			"Action": "EditImage",

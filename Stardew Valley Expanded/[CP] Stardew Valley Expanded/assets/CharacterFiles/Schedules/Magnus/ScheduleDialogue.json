@@ -1,21 +1,31 @@
 {
-  "marriage.000": "Está aqui para uma visita? Você é bem-vindo aqui, como sempre. Minhas desculpas se estou um pouco distraído.$0",
-  "marriage.001": "Se você esperar um pouco, deixo você provar a poção que estou preparando! Nada perigoso, eu prometo a você.$0#$b#Estamos tentando aperfeiçoar uma receita que forneça visão noturna de longa duração.$0",
-  "marriage.002": "Oh, que surpresa agradável! E na hora certa. Eu estava prestes a desaparecer em uma pilha de livros.$0",
-  "marriage.003": "Você é a distração mais bem-vinda que tive o dia todo.$0#$b#Lewis faz alguns pedidos muito estranhos às vezes...$2",
-  "marriage.004": "Ah, olá, @! Você pode ficar enquanto eu trabalho. Acho sua presença calmante.$0",
-  "marriage.005": "É sempre uma agradável surpresa quando você vem me visitar na minha torre. Espero que seu dia esteja indo bem.$0",
-  "marriage.006": "Estou dando um tempo para ensinar a Morgan o próximo conjunto de feitiços no minuto.$0#$b#Ele estão se saindo muito bem nas aulas, mas ensinar magia me cansa um pouco.$0",
-  "marriage.007": "Hoje, estou ensinando a Morgan vários feitiços diferentes para transformar um tipo de fruta em um tipo diferente.$0#$b#Estamos ambos com mais do que um pouco de fome.",
-  "marriage.008": "Tenho que ficar me lembrando de que Morgan é jovem. Eles têm um potencial tremendo, mas precisam de algum tempo para crescer nele.$0",
-  "marriage.009": "Já se passaram muitos dias coletando cogumelos na floresta, mas Morgan e eu finalmente conseguimos fazer algumas experiências com novas receitas de poções hoje.$0",
-  "marriage.010": "As habilidades de poção de Morgan estão indo muito bem. Eles prepararam um elixir de cura anterior que era tão bom quanto qualquer coisa que eu pudesse produzir.$0",
-  "marriage.011": "Hoje, Morgan e eu estamos preparando uma poção de sorte. Espero que ele não cometam o mesmo erro que cometeram da última vez.$0#$b#Ele passou uma semana tropeçando em todos os galhos da floresta e eu quebrei *dois* dos meus espelhos favoritos.$3",
-  "marriage.012": "Ah, que bom que você passou por aqui! Eu queria que você soubesse que posso chegar tarde esta noite.#$b#Hoje, Morgan e eu temos que fazer uma viagem mais profunda na floresta do que o normal para uma de nossas aulas.$0",
-  "marriage.013": "Morgan e eu estamos avaliando as proteções na floresta a oeste daqui hoje.$0",
-  "marriage.014": "Estou terminando aqui, @! Estou ansioso para passar a noite com você.$0",
-  "marriage.015": "Só mais uma tentativa de terminar esta poção antes de desistir. Pelo menos ainda não *explodiu* de verdade.$0",
-  "marriage.016": "Estarei em casa logo, eu prometo. Eu preciso limpar um pouco por aqui primeiro.#$b#Receio que quanto mais emocionante a pesquisa mágica se torna, mais bagunça ela faz.$0",
-  "marriage.017": "Eu gostaria que Camilla me chamasse pelo meu nome, em vez de 'Razzy.' ...Não, não se atreva a me chamar assim.$5",
-  "marriage.018": "Ainda não olhei para fora, mas espero que Camilla tenha tido mais cuidado com onde pousou dessa vez.$0#$b#Da última vez, perdi meu arbusto de amora-preta favorito.$2"
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Strings/schedules/Wizard",
+      "Entries": 
+      {
+  "marriage.000": "{{i18n:Magnus.Marriage.000}}",
+  "marriage.001": "{{i18n:Magnus.Marriage.001}}",
+  "marriage.002": "{{i18n:Magnus.Marriage.002}}",
+  "marriage.003": "{{i18n:Magnus.Marriage.003}}",
+  "marriage.004": "{{i18n:Magnus.Marriage.004}}",
+  "marriage.005": "{{i18n:Magnus.Marriage.005}}",
+  "marriage.006": "{{i18n:Magnus.Marriage.006}}",
+  "marriage.007": "{{i18n:Magnus.Marriage.007}}",
+  "marriage.008": "{{i18n:Magnus.Marriage.008}}",
+  "marriage.009": "{{i18n:Magnus.Marriage.009}}",
+  "marriage.010": "{{i18n:Magnus.Marriage.010}}",
+  "marriage.011": "{{i18n:Magnus.Marriage.011}}",
+  "marriage.012": "{{i18n:Magnus.Marriage.012}}",
+  "marriage.013": "{{i18n:Magnus.Marriage.013}}",
+  "marriage.014": "{{i18n:Magnus.Marriage.014}}",
+  "marriage.015": "{{i18n:Magnus.Marriage.015}}",
+  "marriage.016": "{{i18n:Magnus.Marriage.016}}",
+  "marriage.017": "{{i18n:Magnus.Marriage.017}}",
+  "marriage.018": "{{i18n:Magnus.Marriage.018}}",
+  "DesertFestival_Wizard_marriage": "{{i18n:DesertFestival_Wizard_marriage}}"
+},
+    },
+  ]
 }

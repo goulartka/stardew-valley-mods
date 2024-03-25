@@ -1,11 +1,25 @@
-﻿{
+﻿
+    {
+        "Changes": [
+          {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/ScarlettFake",
+            "Entries": 
+            {
 
-"Mon": "Ei!$0",
-"Tue": "Ei!$1",
-"Wed": "Ei!$0",
-"Thu": "Ei!$1",
-"Fri": "Ei!$0",
-"Sat": "Ei!$1",
-"Sun": "Ei!$0",
+              
 
-}
+"Mon": "{{i18n:FakeScarlett.CharacterDialogue.001}}",
+"Tue": "{{i18n:FakeScarlett.CharacterDialogue.002}}",
+"Wed": "{{i18n:FakeScarlett.CharacterDialogue.001}}",
+"Thu": "{{i18n:FakeScarlett.CharacterDialogue.002}}",
+"Fri": "{{i18n:FakeScarlett.CharacterDialogue.001}}",
+"Sat": "{{i18n:FakeScarlett.CharacterDialogue.002}}",
+"Sun": "{{i18n:FakeScarlett.CharacterDialogue.001}}",
+
+
+
+},
+          },
+        ]
+    }

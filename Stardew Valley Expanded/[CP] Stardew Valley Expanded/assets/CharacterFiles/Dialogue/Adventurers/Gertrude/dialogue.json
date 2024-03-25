@@ -1,11 +1,20 @@
 ﻿{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Gertrude",
+        "Entries": 
+        {
 
-"Mon": "%Gertrude: Sinto falta do calor seco do deserto. Está muito úmido aqui.",
-"Tue": "%Gertrude: Sinto falta do calor seco do deserto. Está muito úmido aqui.",
-"Wed": "%Gertrude: Sinto falta do calor seco do deserto. Está muito úmido aqui.",
-"Thu": "%Gertrude: Sinto falta do calor seco do deserto. Está muito úmido aqui.",
-"Fri": "%Gertrude: Sinto falta do calor seco do deserto. Está muito úmido aqui.",
-"Sat": "%Gertrude: Sinto falta do calor seco do deserto. Está muito úmido aqui.",
-"Sun": "%Gertrude: Sinto falta do calor seco do deserto. Está muito úmido aqui."
+"Mon": "{{i18n:Gertrude.CharacterDialogue.001}}", 
+"Tue": "{{i18n:Gertrude.CharacterDialogue.001}}", 
+"Wed": "{{i18n:Gertrude.CharacterDialogue.001}}", 
+"Thu": "{{i18n:Gertrude.CharacterDialogue.001}}", 
+"Fri": "{{i18n:Gertrude.CharacterDialogue.001}}", 
+"Sat": "{{i18n:Gertrude.CharacterDialogue.001}}", 
+"Sun": "{{i18n:Gertrude.CharacterDialogue.001}}", 
 
+},
+      },
+    ]
 }

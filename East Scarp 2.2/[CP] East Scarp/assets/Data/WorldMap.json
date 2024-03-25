@@ -66,7 +66,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 				"HasMod: |contains=Bouhm.NPCMapLocations": true,
-				"HasMod: |contains=DaisyNiko.EarthyRecolour": false
+				"HasMod: |contains=DaisyNiko.EarthyRecolour, Lita.StarblueValley": false
 			}
 		},
 		//SVE Compat
@@ -134,7 +134,6 @@
 				"Width": 73,
 				"Height": 102
 			},
-			
 			"When": {
 				"HasMod: |contains=DaisyNiko.EarthyRecolour": true,
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
@@ -162,6 +161,28 @@
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 				"HasMod: |contains=DaisyNiko.EarthyRecolour": true
 			}
-		}
+		},
+		{
+			"LogName": "Map Replace Vanilla",
+			"Action": "EditImage",
+			"Target": "LooseSprites/map",
+			"FromFile": "assets/maps/Vanilla_SB/{{season}}_ES1.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 73,
+				"Height": 102
+			},
+			"ToArea": {
+				"X": 227,
+				"Y": 47,
+				"Width": 73,
+				"Height": 102
+			},
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=Lita.StarblueValley": true
+			}
+		},
 	]
 }

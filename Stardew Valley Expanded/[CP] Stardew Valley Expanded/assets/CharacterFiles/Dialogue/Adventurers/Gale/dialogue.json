@@ -1,11 +1,20 @@
 ﻿{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Gale",
+        "Entries": 
+        {
 
-"Mon": "%Gale: Tem areia na minha bota...",
-"Tue": "%Gale: Tenho um exame de feiticeiro em breve. Eu estou muito nervoso.",
-"Wed": "%Gale: Nossa ilha fica bem escondida.",
-"Thu": "%Gale: Esta nossa pequena ilha é como uma joia colorida no oceano.",
-"Fri": "%Gale: Alguns de nós são apenas pesquisadores.",
-"Sat": "%Gale: Há muita forragem natural por aqui.",
-"Sun": "%Gale: Estou trabalhando em uma nova espada mágica. Eu quero que ela seja rápida e ágil.",
+"Mon": "{{i18n:Gale.CharacterDialogue.001}}",
+"Tue":  "{{i18n:Gale.CharacterDialogue.002}}",
+"Wed":  "{{i18n:Gale.CharacterDialogue.003}}",
+"Thu":  "{{i18n:Gale.CharacterDialogue.004}}",
+"Fri":  "{{i18n:Gale.CharacterDialogue.005}}",
+"Sat":  "{{i18n:Gale.CharacterDialogue.006}}",
+"Sun":  "{{i18n:Gale.CharacterDialogue.007}}",
 
+},
+      },
+    ]
 }

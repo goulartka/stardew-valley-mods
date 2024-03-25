@@ -6,10 +6,10 @@
   "Target": "Characters/Dialogue/MarriageDialogueJune",
   "Entries": {
 
-    "patio_June": "{{i18n:June.patio}}",
-    "spouseRoom_June": "{{i18n:June.spouseRoom}}",
-    "funLeave_June": "{{i18n:June.jobLeave}}",
-    "funReturn_June": "{{i18n:June.jobReturn}}",
+    "spouseRoom_June": "{{i18n:June.spouseRoom.{{Random:0,1,2,3,4,5}}}}",
+		"patio_June": "{{i18n:June.patio.0-1}}[Rafseazz.RSVCP_Summit_Iced_Tea]#$b#{{i18n:June.patio.0-2}}",
+    "funLeave_June": "{{i18n:June.jobLeave.{{Random:0,1,2,3,4,5}}}}",
+		"funReturn_June": "{{i18n:June.jobReturn.0}}[Rafseazz.RSVCP_Fluffy_Apple_Crumble Rafseazz.RSVCP_Strawberry_Lover_Pie Rafseazz.RSVCP_Hundred_Flavor_Doughnut Rafseazz.RSVCP_Ridge_Apple_Cake Rafseazz.RSVCP_Clementine_Cake Rafseazz.RSVCP_Kedi_Delight]",
 
   // Day-specific
     "spring_1": "{{i18n:June.spring_1.spouse}}",
@@ -114,6 +114,51 @@
     "Bad_7": "{{i18n:June.Bad_7}}",
     "Bad_8": "{{i18n:June.Bad_8}}",
     "Bad_9": "{{i18n:June.Bad_9}}"
+  }
+},
+{
+ "Action": "EditData",
+ "Target": "Characters/Dialogue/MarriageDialogueJune",
+ "When": { "Query: {{Random: 0, 1, 2, 3, 4, 5|key=June}}|contains=0": false },
+ "Entries": {
+	 "patio_June": "{{i18n:June.patio.{{Random: 1, 2, 3, 4, 5}}}}",
+	}
+},
+{
+ "Action": "EditData",
+ "Target": "Characters/Dialogue/MarriageDialogueJune",
+ "When": {
+	 "DayOfWeek|contains=Tuesday": false,
+	 "Query: {{Random: 0, 1, 2, 3, 4, 5|key=June}}|contains=0": false,
+ },
+ "Entries": {
+	 "funReturn_June": "{{i18n:June.jobReturn.{{Random: 1, 2, 3, 4, 5}}}}",
+	}
+},
+{
+  "LogName": "June Tue marriage dialogue Summer 9",
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/MarriageDialogueJune",
+  "When": {
+    "Season": "Summer",
+		"Day": "9"
+  },
+  "Entries": {
+    "funReturn_June": "{{i18n:June.funReturn_Summer.9-1}}[Rafseazz.RSVCP_Fried_Fish_a_la_Ridge Rafseazz.RSVCP_Fried_Mountain_Greens Rafseazz.RSVCP_Ridge_Fruity_Plate Rafseazz.RSVCP_Zesty_Tuna Rafseazz.RSVCP_Arugula_Roll]#$b#{{i18n:June.funReturn_Summer.9-2}}",
+  }
+},
+{
+  "LogName": "June Tue marriage dialogue general",
+  "Action": "EditData",
+  "Target": "Characters/Dialogue/MarriageDialogueJune",
+  "When": {
+    "DayOfWeek": "Tuesday",
+		"Season|contains=summer": false,
+		"Day|contains=9": false
+  },
+  "Entries": {
+    "funLeave_June": "{{i18n:June.funLeave_{{Season}}.{{Day}}}}",
+    "funReturn_June": "{{i18n:June.funReturn_{{Season}}.{{Day}}}}",
   }
 },
 	]

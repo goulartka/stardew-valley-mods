@@ -1,6 +1,6 @@
 ﻿{
     "Name": "The Fairy Doe Fox's Ring",
-    "Description": "Summons a fox spirit to your side.",
+    "TranslationKey": "objects.fairy-doe-foxs-ring",
     "Category": "Ring",
     "Edibility": -300,
     "Price": 15000,
@@ -10,11 +10,33 @@
       "SpiritFoxRing": {"NumberToSummon": 1},
     },
     "NameLocalization":
-    { 
-        "pt": "Anel de Raposa da Fada Corça"
+    {
+    	//remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
     },
     "DescriptionLocalization":
     {
-        "pt": "Invoca um espírito de raposa ao seu lado."
+    	//remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
     }
 }

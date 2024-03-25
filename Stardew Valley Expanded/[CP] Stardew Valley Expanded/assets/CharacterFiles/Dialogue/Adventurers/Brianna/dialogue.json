@@ -1,11 +1,20 @@
 ﻿{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Brianna",
+        "Entries": 
+        {
 
-"Mon": "%Brianna: Estou ocupada. Saia por favor.#$e#%Brianna: Xô...",
-"Tue": "%Brianna: Droga. Fiquei ocupada com o trabalho de patrulhar.",
-"Wed": "%Brianna: Lance cuidou de mim desde que entrei. Ele é como um irmão mais velho para mim.",
-"Thu": "%Brianna: Meu manto azul me dá 20 de defesa!",
-"Fri": "%Ela continua falando com Drake e te ignora.",
-"Sat": "%Brianna: Você também consegue andar sobre a água?#$e#%Brianna: Levei meses para aprender.",
-"Sun": "%Brianna: Essas flores douradas do oceano me ajudaram a fazer amizade com Drake."
+"Mon": "{{i18n:Brianna.CharacterDialogue.001}}",
+"Tue": "{{i18n:Brianna.CharacterDialogue.002}}",
+"Wed": "{{i18n:Brianna.CharacterDialogue.003}}",
+"Thu": "{{i18n:Brianna.CharacterDialogue.004}}",
+"Fri": "{{i18n:Brianna.CharacterDialogue.005}}",
+"Sat": "{{i18n:Brianna.CharacterDialogue.006}}",
+"Sun": "{{i18n:Brianna.CharacterDialogue.007}}",
 
+},
+      },
+    ]
 }

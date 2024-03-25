@@ -1,6 +1,6 @@
 ﻿{
     "Name": "The Ring of the Ridge Deities",
-    "Description": "The mist begins to clear.",
+    "TranslationKey": "objects.ring-of-the-ridge-deities",
     "Category": "Ring",
     "Edibility": -300,
     "Price": 15000,
@@ -10,11 +10,33 @@
       "MistFoxRing": {"NumberToSummon": 1},
     },
     "NameLocalization":
-    { 
-        "pt": "O Anel das Entidades do Cume"
+    {
+    	//remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
     },
     "DescriptionLocalization":
     {
-        "pt": "A névoa começa a dissipar."
+    	//remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
     }
 }

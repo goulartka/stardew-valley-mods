@@ -1,94 +1,1006 @@
 {
-  //SPECIAL DIALOGUE
-  "patio_Sophia": "Estou realmente feliz de viver com você, @.$1#$e#%Você abraça Sophia.#$e#!!!$9",
-  "spouseRoom_Sophia": "Ei, você!$4#$b#Estou tentando decidir qual mangá devo começar a ler na próxima semana!$9#$e#Hm... talvez eu deva terminar aquele que comecei!$1",
-  "funReturn_Sophia": "Estou um pouco dolorida pelo trabalho que tive hoje no vinhedo, mas foi um dia muito produtivo.$1#$e#Eu te amo!$4#$b#*smooch*$9",
-  "funLeave_Sophia": "Eu preciso passar no vinhedo hoje para ver como estão os processos, tudo bem?$1#$e#Boa sorte com a fazenda hoje, amor!$4",
-  "OneKid_0": "Eu mal posso acreditar que somos pais, @. Tudo está tão diferente.$9#$e#Estou tão feliz com você... é bom ter família novamente.$1",
-  "OneKid_1": "%kid1 gosta quando faço caretas e barulhos engraçados.$9#$e#Eu amo como tudo aqui parece engraçado se você tentar!$8#$e#%Você dá um tapinha na cabeça da Sophia. Ela sorri para você.",
-  "OneKid_2": "Ei! Hoje estarei passando no Pierre para comprar alguma coisa para o bebê, tudo bem?$1",
-  "OneKid_3": "%kid1 esteve brincando muito na lama lá fora, então tive que dar um banho rápido.$0#$e#Eu sinto como se %kid1 fosse seguir o famo agrícola como nós.$1",
-  "TwoKids_0": "Eu quero criar uma muralha de travesseiros para %kid1 e %kid2! Você acha que eles gostariam disso?$1#$e#Eu farei.$9",
-  "TwoKids_1": "%kid2 estava fuçando a minha gaveta com produtos para cosplay hoje cedo.$0#$e#Talvez quando %kid2 crescer possa querer se fantasiar também!$1",
-  "TwoKids_2": "Ei, amor! Nós deveríamos levar %kid1 e %kid2 para aquele parque qualquer dia desses.$1#$b#Será divertido!$9#$e#Ou talvez um piquenique!$1",
-  "TwoKids_3": "%kid1 e %kid2 estão se dando bem um com o outro.$1#$e#Temos que amar os dois de forma igualitária, eu não quero que fiquem com inveja um do outro.$1",
-  
-  //SEASONAL DIALOGUE
-  "spring_1": "Você sente o cheiro do pólem no ar!? Sim, a primavera chegou!$1#$e#Vou precisar passar no vinhedo em breve!$9#$b#Boa sorte na fazenda, amor! Estarei cuidando do vinhedo o dia inteiro!$1",
-  "spring_13": "Eu ainda fico muito nervosa em grandes multidões...$2#$e#V-Você pode segurar minha mão?$4",
-  "spring_24": "Nós não precisamos participar da dança... eu não gosto de dançar.$2#$e#Talvez possamos dançar juntos hoje à noite?$4",
-  "spring_28": "Nossa, como a primavera passou rápido!$5#$e#Mas nós podemos ir para a praia durante o verão!$1",
-  "summer_1": "Oie! Esse é o primeiro e mais movimentado dia da estação! Boa sorte com o que for fazer!$9#$e#Eu faço o jantar hoje, tudo bem?$1",
-  "summer_11": "Você já sabe o que irá levar para o Luau hoje?$1#$e#Vou derramar um pouco mais de vinho desta vez!$1",
-  "summer_28": "Hm... você gostaria de assistir as medusas ao meu lado, @?$4#$e#...Você acha que elas... picam?$0",
-  "fall_1": "O outono como sempre me traz bastante trabalho, eu preciso ir colher aquelas uvas.$1#$e#Ah! Boa sorte na fazenda, amor.$9",
-  "fall_4": "Foi nesse dia que meus pais morreram...$6#$b#E-Eu fiquei sozinha por tanto tempo que tinha esquecido como é ter uma família.$12#$e#Obrigada por estar comigo, @.$14#$e#%Sophia está chorando.#$e#%Você a abraça, e ela sorri pra você.",
-  "fall_16": "A feira é hoje, amor! Vamos mostrar pra eles!$9#$e#Hm! E também vou mostrar à você!$1",
-  "fall_27": "Hoje é dia de se assustar!$9#$e#Eu me pergunto se o labirinto será diferente este ano!$1",
-  "fall_28": "Brrr... está ficando muito frio, provavelmente vai nevar bastante hoje à noite.$2#$b#Eu vi na TV que amanhã tudo vai estar coberto de neve!$1#$e#Sabe... dormir agarradinho é uma boa forma de se esquentar...$4#$e#%Sophia parece envergonhada.",
-  "winter_1": "Nevou muito na noite passada, olhe lá fora!$5#$e#Nós deveríamos dormir perto da lareira hoje, não acha?$4",
-  "winter_8": "Você vai ganhar a competição de pesca hoje, eu sinto isso!$1#$e#Se você ganhar... beijinhos extras à noite!$4",
-  "winter_25": "Feliz natal, amor! Eu fiz um café pra você! [395]$4#$e#Me deixe saber quando quiser ir à praça.$4#$e#Ah, hm... você terá um 'presente' especial esta noite.$4#$e#Ah! Não! Não é algo que você possa abrir, é algo diferente!$4",
-  "winter_28": "Estou um pouco triste porque a neve está indo embora...$2",
-  
-  //DAY DIALOGUE
-  "Indoor_Day_0": "Oie, você dormiu bem?$1#$e#Estou pensando em qual cosplay eu poderia fazer...$9",
-  "Indoor_Day_1": "*yawn* Ainda estou com tanto sono...$2#$e#Tenha um ótimo dia, amor.$1#$e#Ah! Como eu poderia esquecer?$4#$b#*smooch*!!!$9",
-  "Indoor_Day_2": "Oie, amor! Você finalmente levantou!$9#$e#Desejando algo para o café da manhã?$1",
-  "Indoor_Day_3": "Se você estiver saindo, lembre-se de pegar alguma coisa para comer no caminho.$1#$e#Eu te amo!$9",
-  "Indoor_Day_4": "Ei, amor, eu te fiz um pouco de café.[395]$4#$e#Espero que você tenha um dia produtivo!$1",
-  "Outdoor_0": "Eu amo o ar fresco aqui, estava acostumada com o ar salgado que vinha do oceano.$0",
-  "Outdoor_1": "Que dia maravilhoso para ler um bom mangá lá fora! Está tudo tão vivo!$1",
-  "Outdoor_2": "Deveríamos transformar suas colheitas em uma produção de vinho, seria uma má ideia?$9",
-  "Outdoor_3": "Não trabalhe demais, amor, deixe um pouco de energia para nós.$1#$e#*smooch*$9",
-  "Outdoor_4": "Oie, fazendo algo divertido hoje?$1#$e#Hmmmm, parece importante!$8",
-  "Rainy_Day_0": "Está chovendo! Em dias como esse, eu só quero me cobrir e assistir anime.$1#$e#Ah! E comer algo bom!$9",
-  "Rainy_Day_1": "Caramba! Mais um dia de chuva!$1#$e#Chega mais perto, amor.$4#$e#*smooch*$9",
-  "Rainy_Day_2": "Será que Haley estará fazendo alguma coisa hoje? Vou ligar para perguntar.$1",
-  "Rainy_Day_3": "Nós deveríamos ficar aqui todos os dias assistindo anime!$9#$e#Estou brincando, amor.$1#$e#Hm! Aposto que você iria adorar fazer isso, não é?!$5",
-  "Rainy_Day_4": "V-Você se lembra quando me encontrou chorando debaixo da chuva? Estou tão feliz por você ter estado lá...$2#$b#Aquele foi um momento muito importante para nós, @.$1#$e#%Você dá um tapinha na cabeça de Sophia, e ela sorri pra você.",
-  
-  //NIGHT DIALOGUE
-  "Indoor_Night_0": "Você esteve trabalhando tanto que perdeu o jantar... você quer alguma coisa pra comer?$1#$e#Hm! Estava brincando, guardei algo pra você![727 231 207 199]$9",
-  "Indoor_Night_1": "*Resmungo* Minha barriga está roncando de novo.$2#$e#Espere, acho que estou entendendo... ela diz que está na hora de jantar!$1",
-  "Indoor_Night_2": "Eu morei sozinha na casa dos meus pais por tanto tempo... era um pouco assustador estar lá sozinha de noite.$0#$b#Tantas noites sem dormir...$2#$e#Mas agora estou realmente ansiosa pelo pôr do sol... isso me dá um motivo para ficar agarradinha em você.$1#$e#Hm...$4",
-  "Indoor_Night_3": "*yawn* que sono... quer ir para a casa mais cedo, @?$1#$e#Vou ler um pouco enquanto você ficar acordado!$9",
-  "Indoor_Night_4": "Não consigo me decidir sobre que material usar para fazer meu próximo cosplay.$0#$e#Hm... acho que vou falar com a Emily!$1",
-  "Rainy_Night_0": "Oie, amor! Estive desejando doces hoje então fiz algo para nós![232 234 223 220]$1#$e#*smooch*$9",
-  "Rainy_Night_1": "É um tempo perfeito para dormir agarradinha...$4#$e#Nos vemos na casa, amor.$4",
-  "Rainy_Night_2": "Eu terminei uma série que estava assistindo hoje.$9#$e#Ah, era uma mini-série, só tinha 5 episódios...$0#$b#Espero que façam uma segunda temporada!$1",
-  "Rainy_Night_3": "Ah, estou feliz que você voltou, já estava me sentindo sozinha.$1#$e#*yawn* Vai pra cama cedo hoje? Aproveita que lavei os lençóis hoje.$0",
-  "Rainy_Night_4": "Oie! Fiz algo pra você! [727 231 207 199]$1",
-  
-  //AFFECTION DIALOGUE
-  "Good_0": "Chega perto, @.$4#$e#Mais...$4#$e#*smooch*$9!!!#$b#Eu te amo!!!$9",
-  "Good_1": "Eu pensei que seria mais difícil administrar o vinhedo Lua Azul, mas nem foi tanto assim.$1",
-  "Good_2": "Eu sempre pensei que estaria sozinha pelo resto da vida.$2#$b#Estou feliz que nos encontramos, amor.$1#$e#*smooch*$9",
-  "Good_3": "Ei, cuidado na caverna, tudo bem? Eu ficaria doente se algo acontecesse com você.$2#$e#Você diz para Sophia não se preocupar, ela sorri pra você.",
-  "Good_4": "Oie, quer tomar alguma coisa comigo hoje?$1",
-  "Good_5": "Não se preocupe comigo, amor, eu vou ficar bem!$9#$e#Se cuida.$1",
-  "Good_6": "Estou pensando em pintar o meu cabelo de novo... qual cor você gostaria?$1#$e#Ah, esquece... eu gosto muito da minha cor atual!$9",
-  "Good_7": "Hm, amor, tem um momento?$1#$e#Eu... só queria dizer que tenho orgulho do que você faz.$9#$b#Você fez desse lugar um paraíso!$1#$b#Conte comigo com o que precisar!$9",
-  "Good_8": "Deveríamos ir a um evento de cosplay algum dia, você vai adorar!$1",
-  "Good_9": "*sussurando para sí mesma*$9#$e#Ah, oie, amor!$1",
-  "Neutral_0": "Ei! Scarlet estará me visitando em breve, tudo bem?$1#$e#Eu te amo!$9",
-  "Neutral_1": "Você quer assistir algo comigo mais tarde, eu comprei alguns lanchinhos!$1",
-  "Neutral_2": "Estarei limpando a casa hoje, não se preocupe comigo.$1",
-  "Neutral_3": "O vinhedo Lua Azul está indo bem, é um pouco difícil cuidar dele daqui, mas não é algo para se preocupar.$1",
-  "Neutral_4": "Você quer viver aqui pelo resto da sua vida, @?$0#$e#Eu estive pensando se poderíamos nos mudar para um lugar maior futuramente... tipo as Ilhas Samambaia?$1#$e#Nós podemos falar disso depois, eu não quero me mudar agora também!$9",
-  "Neutral_5": "Ei, amor, mantenha o ótimo trabalho!$1#$e#Sempre estarei torcendo por você.$9",
-  "Neutral_6": "Sabe, meus pais sentiriam orgulho do estilo de vida que tenho agora.$1#$e#Tenho certeza que o seu avô também.$1",
-  "Neutral_7": "Hm... você pode me contar de novo aquela história de como você obteve o pendante?!$1#$e#Um fantasma na praia... tão assustador!$9",
-  "Neutral_8": "*yawn* E-Eu não sei porque, estou tão... *yawn* sonolênta hoje.$2#$e#Acho que vou tirar um cochilo.$1",
-  "Neutral_9": "Hm... sempre seja você, tudo bem?$9",
-  "Bad_0": "@... você ainda me ama?$2#$e#...$2#$e#N-Nada... deixa pra lá.$6#$e#%Sophia vira as costas pra você.",
-  "Bad_1": "E-Eu tive um pesadelo ontem à noite, sobre meus pais.$6#$e#Estou bem, é algo que acontece de tempo em tempo.$6#$e#...$12#$e#%Você abraça Sophia.",
-  "Bad_2": "Eu tenho uma consulta no médico em breve...$2#$e#Não queria ir.$6#$e#%Você diz à Sophia que tudo ficará bem.",
-  "Bad_3": "Que dor de cabeça...$2#$e#Eu preciso parar de assistir tanto.$3",
-  "Bad_4": "Você sempre esteve tão ausente...$2#$e#Eu te fiz algo ruim, amor?$2",
-  "Bad_5": "Ei... vou sair com o Victor amanhã, tudo bem?$0#$e#Para quê? Não é da sua conta.$3#$e#%Sophia vira as costas pra você.",
-  "Bad_6": "Agora não...$3#$e#Você deveria limpar melhor essa casa, eu não sou sua empregada.$3",
-  "Bad_7": "Desculpa, @, eu não quero falar agora.$2#$e#Eu disse não! Para de me encher!$3#$e#%Sophia está ignorando você.",
-  "Bad_8": "V-Você me acha muito pegajosa?...$2#$e#...$2#$e#%Você abraça Sophia e a beija na bocheca, ela sorri pra você.",
-  "Bad_9": "E-Eu tive problema para respirar esta manhã...$2#$b#E-Estou bem...$6#$e#%Você abraça Sophia."
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "Entries": {
+        //SPECIAL DIALOGUE
+        "patio_Sophia": "{{i18n:Sophia.MarriageDialogue.001}}",
+        "spouseRoom_Sophia": "{{i18n:Sophia.MarriageDialogue.002}}",
+        "funReturn_Sophia": "{{i18n:Sophia.MarriageDialogue.003}}",
+        "funLeave_Sophia": "{{i18n:Sophia.MarriageDialogue.004}}",
+        "OneKid_0": "{{i18n:Sophia.MarriageDialogue.005}}",
+        "OneKid_1": "{{i18n:Sophia.MarriageDialogue.006}}",
+        "OneKid_2": "{{i18n:Sophia.MarriageDialogue.007}}",
+        "OneKid_3": "{{i18n:Sophia.MarriageDialogue.008}}",
+        "TwoKids_0": "{{i18n:Sophia.MarriageDialogue.009}}",
+        "TwoKids_1": "{{i18n:Sophia.MarriageDialogue.010}}",
+        "TwoKids_2": "{{i18n:Sophia.MarriageDialogue.011}}",
+        "TwoKids_3": "{{i18n:Sophia.MarriageDialogue.012}}",
+        "DesertFestival_Sophia_marriage": "{{i18n:DesertFestival_Sophia_marriage}}",
+        //SEASONAL DIALOGUE
+        "spring_1": "{{i18n:Sophia.MarriageDialogue.013}}",
+        "spring_13": "{{i18n:Sophia.MarriageDialogue.014}}",
+        "spring_24": "{{i18n:Sophia.MarriageDialogue.015}}",
+        "spring_28": "{{i18n:Sophia.MarriageDialogue.016}}",
+        "summer_1": "{{i18n:Sophia.MarriageDialogue.017}}",
+        "summer_11": "{{i18n:Sophia.MarriageDialogue.018}}",
+        "summer_28": "{{i18n:Sophia.MarriageDialogue.019}}",
+        "fall_1": "{{i18n:Sophia.MarriageDialogue.020}}",
+        "fall_4": "{{i18n:Sophia.MarriageDialogue.021}}",
+        "fall_16": "{{i18n:Sophia.MarriageDialogue.022}}",
+        "fall_27": "{{i18n:Sophia.MarriageDialogue.023}}",
+        "fall_28": "{{i18n:Sophia.MarriageDialogue.024}}",
+        "winter_1": "{{i18n:Sophia.MarriageDialogue.025}}",
+        "winter_8": "{{i18n:Sophia.MarriageDialogue.026}}",
+        "winter_25": "{{i18n:Sophia.MarriageDialogue.027}}",
+        "winter_28": "{{i18n:Sophia.MarriageDialogue.028}}",
+        //DAY DIALOGUE
+        "Indoor_Day_0": "{{i18n:Sophia.MarriageDialogue.029}}",
+        "Indoor_Day_1": "{{i18n:Sophia.MarriageDialogue.030}}",
+        "Indoor_Day_2": "{{i18n:Sophia.MarriageDialogue.031}}",
+        "Indoor_Day_3": "{{i18n:Sophia.MarriageDialogue.032}}",
+        "Indoor_Day_4": "{{i18n:Sophia.MarriageDialogue.033}}",
+        "Outdoor_0": "{{i18n:Sophia.MarriageDialogue.034}}",
+        "Outdoor_1": "{{i18n:Sophia.MarriageDialogue.035}}",
+        "Outdoor_2": "{{i18n:Sophia.MarriageDialogue.036}}",
+        "Outdoor_3": "{{i18n:Sophia.MarriageDialogue.037}}",
+        "Outdoor_4": "{{i18n:Sophia.MarriageDialogue.038}}",
+        "Rainy_Day_0": "{{i18n:Sophia.MarriageDialogue.039}}",
+        "Rainy_Day_1": "{{i18n:Sophia.MarriageDialogue.040}}",
+        "Rainy_Day_2": "{{i18n:Sophia.MarriageDialogue.041}}",
+        "Rainy_Day_3": "{{i18n:Sophia.MarriageDialogue.042}}",
+        "Rainy_Day_4": "{{i18n:Sophia.MarriageDialogue.043}}",
+        //NIGHT DIALOGUE
+        "Indoor_Night_0": "{{i18n:Sophia.MarriageDialogue.044}}",
+        "Indoor_Night_1": "{{i18n:Sophia.MarriageDialogue.045}}",
+        "Indoor_Night_2": "{{i18n:Sophia.MarriageDialogue.046}}",
+        "Indoor_Night_3": "{{i18n:Sophia.MarriageDialogue.047}}",
+        "Indoor_Night_4": "{{i18n:Sophia.MarriageDialogue.048}}",
+        "Rainy_Night_0": "{{i18n:Sophia.MarriageDialogue.049}}",
+        "Rainy_Night_1": "{{i18n:Sophia.MarriageDialogue.050}}",
+        "Rainy_Night_2": "{{i18n:Sophia.MarriageDialogue.051}}",
+        "Rainy_Night_3": "{{i18n:Sophia.MarriageDialogue.052}}",
+        "Rainy_Night_4": "{{i18n:Sophia.MarriageDialogue.053}}",
+        //AFFECTION DIALOGUE
+        "Good_0": "{{i18n:Sophia.MarriageDialogue.054}}",
+        "Good_1": "{{i18n:Sophia.MarriageDialogue.055}}",
+        "Good_2": "{{i18n:Sophia.MarriageDialogue.056}}",
+        "Good_3": "{{i18n:Sophia.MarriageDialogue.057}}",
+        "Good_4": "{{i18n:Sophia.MarriageDialogue.058}}",
+        "Good_5": "{{i18n:Sophia.MarriageDialogue.059}}",
+        "Good_6": "{{i18n:Sophia.MarriageDialogue.060}}",
+        "Good_7": "{{i18n:Sophia.MarriageDialogue.061}}",
+        "Good_8": "{{i18n:Sophia.MarriageDialogue.062}}",
+        "Good_9": "{{i18n:Sophia.MarriageDialogue.063}}",
+        "Neutral_0": "{{i18n:Sophia.MarriageDialogue.064}}",
+        "Neutral_1": "{{i18n:Sophia.MarriageDialogue.065}}",
+        "Neutral_2": "{{i18n:Sophia.MarriageDialogue.066}}",
+        "Neutral_3": "{{i18n:Sophia.MarriageDialogue.067}}",
+        "Neutral_4": "{{i18n:Sophia.MarriageDialogue.068}}",
+        "Neutral_5": "{{i18n:Sophia.MarriageDialogue.069}}",
+        "Neutral_6": "{{i18n:Sophia.MarriageDialogue.070}}",
+        "Neutral_7": "{{i18n:Sophia.MarriageDialogue.071}}",
+        "Neutral_8": "{{i18n:Sophia.MarriageDialogue.072}}",
+        "Neutral_9": "{{i18n:Sophia.MarriageDialogue.073}}",
+        "Bad_0": "{{i18n:Sophia.MarriageDialogue.074}}",
+        "Bad_1": "{{i18n:Sophia.MarriageDialogue.075}}",
+        "Bad_2": "{{i18n:Sophia.MarriageDialogue.076}}",
+        "Bad_3": "{{i18n:Sophia.MarriageDialogue.077}}",
+        "Bad_4": "{{i18n:Sophia.MarriageDialogue.078}}",
+        "Bad_5": "{{i18n:Sophia.MarriageDialogue.079}}",
+        "Bad_6": "{{i18n:Sophia.MarriageDialogue.080}}",
+        "Bad_7": "{{i18n:Sophia.MarriageDialogue.081}}",
+        "Bad_8": "{{i18n:Sophia.MarriageDialogue.082}}",
+        "Bad_9": "{{i18n:Sophia.MarriageDialogue.083}}",
+      },
+    },
+    //Mixesup spouse room dialogue for Sophia
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 5"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.1}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 6"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.2}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 7"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.3}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 12"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.4}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 13"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.5}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 14"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.6}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 19"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.7}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 21"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.8}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 26"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.9}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 27"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.10}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 5"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.1}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 6"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.2}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 7"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.3}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 12"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.4}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 13"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.5}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 14"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.6}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 19"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.7}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 21"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.8}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 26"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.9}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 27"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.10}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 5"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.1}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 6"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.2}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 7"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.3}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 12"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.4}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 13"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.5}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 14"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.6}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 19"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.7}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 21"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.8}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 26"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.9}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 27"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.10}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Winter 5"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.1}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Winter 6"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.2}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Winter 7"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.3}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Winter 12"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.4}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Winter 13"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.5}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Winter 14"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.6}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Winter 19"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.7}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Winter 21"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.8}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Winter 26"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.9}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Winter 27"
+      },
+      "Entries": {
+        "spouseRoom_Sophia": "{{i18n:Sophia.Spousevary.10}}",
+      }
+    },
+    //Sophias's Marriage Schedule Dialogue - Patching is necessary to prevent the same "leave" and "return" dialogue five days out of a week
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 1"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.11}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.12}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 2"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.13}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.14}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 3"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.15}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.16}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 4"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.17}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.18}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 8"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.19}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.20}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 9"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.21}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.22}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 10"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.23}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.24}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 11"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.25}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.26}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 15"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.27}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.28}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 16"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.29}} [(O)Blue Moon Wine]$1",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.30}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 17"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.31}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.32}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 18"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.33}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.34}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 22"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.35}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.36}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 23"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.37}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.38}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Spring 25"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.39}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.40}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 1"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.41}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.42}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 2"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.43}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.44}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 3"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.45}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.46}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 4"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.47}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.48}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 8"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.49}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.50}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 9"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.51}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.52}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 10"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.53}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.54}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 11"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.55}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.56}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 15"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.57}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.58}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 16"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.59}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.60}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 17"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.61}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.62}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 18"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.63}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.64}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 22"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.65}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.66}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 23"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.67}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.68}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 24"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.69}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.70}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Summer 25"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.71}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.72}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 1"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.73}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.74}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 2"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.75}} [(O)Blue Moon Wine]$9",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.76}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 3"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.77}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.78}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 4"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.79}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.80}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 8"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.81}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.82}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 9"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.83}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.84}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 10"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.85}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.86}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 11"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.87}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.88}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 15"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.89}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.90}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 17"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.91}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.92}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 18"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.93}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.94}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 22"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.95}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.96}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 23"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.97}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.98}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 24"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.99}}",
+        "funLeave_Sophia": "{{i18n:Sophia.Spousevary.100}}",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueSophia",
+      "When": {
+        "Date": "Fall 25"
+      },
+      "Entries": {
+        "funReturn_Sophia": "{{i18n:Sophia.Spousevary.101}}",
+      }
+    },
+  ]
 }

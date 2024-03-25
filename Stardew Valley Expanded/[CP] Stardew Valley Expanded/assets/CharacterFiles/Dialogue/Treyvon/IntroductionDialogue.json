@@ -1,11 +1,23 @@
 ﻿{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Treyvon",
+        "When": {
+          "HasSeenEvent |contains=3691373": false
+        },
+        "Entries": 
+        {
 
-"Mon": "%Treyvon: Ah, você deve ser amigo da minha filha do vale. É um prazer conhecer você. Eu sou Treyvon!#$e#%Treyvon: Scarlett é minha garotinha. Ela nunca fez amigos por aqui, então fico feliz que ela tenha você e Sophia em sua vida.",
-"Tue": "%Treyvon: Ah, você deve ser amigo da minha filha do vale. É um prazer conhecer você. Eu sou Treyvon!#$e#%Treyvon: Scarlett é minha garotinha. Ela nunca fez amigos por aqui, então fico feliz que ela tenha você e Sophia em sua vida.",
-"Wed": "%Treyvon: Ah, você deve ser amigo da minha filha do vale. É um prazer conhecer você. Eu sou Treyvon!#$e#%Treyvon: Scarlett é minha garotinha. Ela nunca fez amigos por aqui, então fico feliz que ela tenha você e Sophia em sua vida.",
-"Thu": "%Treyvon: Ah, você deve ser amigo da minha filha do vale. É um prazer conhecer você. Eu sou Treyvon!#$e#%Treyvon: Scarlett é minha garotinha. Ela nunca fez amigos por aqui, então fico feliz que ela tenha você e Sophia em sua vida.",
-"Fri": "%Treyvon: Ah, você deve ser amigo da minha filha do vale. É um prazer conhecer você. Eu sou Treyvon!#$e#%Treyvon: Scarlett é minha garotinha. Ela nunca fez amigos por aqui, então fico feliz que ela tenha você e Sophia em sua vida.",
-"Sat": "%Treyvon: Ah, você deve ser amigo da minha filha do vale. É um prazer conhecer você. Eu sou Treyvon!#$e#%Treyvon: Scarlett é minha garotinha. Ela nunca fez amigos por aqui, então fico feliz que ela tenha você e Sophia em sua vida.",
-"Sun": "%Treyvon: Ah, você deve ser amigo da minha filha do vale. É um prazer conhecer você. Eu sou Treyvon!#$e#%Treyvon: Scarlett é minha garotinha. Ela nunca fez amigos por aqui, então fico feliz que ela tenha você e Sophia em sua vida."
+"Mon": "{{i18n:Treyvon.IntroductionDialogue.001}}",
+"Tue": "{{i18n:Treyvon.IntroductionDialogue.001}}",
+"Wed": "{{i18n:Treyvon.IntroductionDialogue.001}}",
+"Thu": "{{i18n:Treyvon.IntroductionDialogue.001}}",
+"Fri": "{{i18n:Treyvon.IntroductionDialogue.001}}",
+"Sat": "{{i18n:Treyvon.IntroductionDialogue.001}}",
+"Sun": "{{i18n:Treyvon.IntroductionDialogue.001}}",
 
+},
+      },
+    ]
 }

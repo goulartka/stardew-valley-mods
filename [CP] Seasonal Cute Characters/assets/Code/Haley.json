@@ -1,5 +1,29 @@
 {
 	"Changes": [
+
+		{
+			"LogName": "Haley - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_Winter, Characters/Haley_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Haley/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Haley - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_Winter, Characters/Haley_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Haley/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
 		{
 			"LogName": "Haley - Seasonal",
 			"Action": "EditImage",
@@ -26,7 +50,7 @@
 		{
 			"LogName": "Haley - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Haley, Characters/Haley",
+			"Target": "Portraits/Haley, Characters/Haley, Portraits/Haley_Winter, Characters/Haley_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -47,6 +71,19 @@
 		},
 		
 // NOSE OVERLAY
+
+		{
+			"LogName": "Haley - Winter Nose",
+			"Action": "EditImage",
+			"Target": "Characters/Haley_Winter",
+			"FromFile": "assets/Characters/Haley/Haley_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},
 		{
 			"LogName": "Haley - Seasonal Nose",
 			"Action": "EditImage",

@@ -1,6 +1,29 @@
 {
 	"Changes": [
 		{
+			"LogName": "Robin - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Robin_Winter, Characters/Robin_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Robin/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
+			"LogName": "Robin - Winter Indoor/Outdoor 2",
+			"Action": "EditImage",
+			"Target": "Portraits/Robin_Winter, Characters/Robin_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Robin/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+                "Season": "Winter",
+                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
+			},
+			"Update": "OnLocationChange",
+		},
+		{
 			"LogName": "Robin - Seasonal",
 			"Action": "EditImage",
 			"Target": "Portraits/Robin, Characters/Robin",
@@ -26,7 +49,7 @@
 		{
 			"LogName": "Robin - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/Robin, Characters/Robin",
+			"Target": "Portraits/Robin, Characters/Robin, Portraits/Robin_Winter, Characters/Robin_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -57,8 +80,32 @@
 			},
 			"Update": "OnLocationChange, OnTimeChange",
 		},
+		{
+			"LogName": "Robin - Aerobics Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/Robin_Winter, Characters/Robin_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Robin/{{TargetWithoutPath}}_Aerobics.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"AerobicsDay": "Regular, Harvey",
+			},
+			"Update": "OnLocationChange, OnTimeChange",
+		},	
 		
 // NOSE OVERLAY
+		{
+			"LogName": "Robin - Winter Nose",
+			"Action": "EditImage",
+			"Target": "Characters/Robin_Winter",
+			"FromFile": "assets/Characters/Robin/Robin_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},
 		{
 			"LogName": "Robin - Seasonal Nose",
 			"Action": "EditImage",

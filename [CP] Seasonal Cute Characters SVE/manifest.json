@@ -1,7 +1,7 @@
 {
    "Name": "Seasonal Cute Characters SVE",
    "Author": "Poltergeister",
-   "Version": "2.3.3",
+   "Version": "2.4.2",
    "Description": "Makes the characters of Stardew Valley Expanded slightly cuter and gives them seasonal outfits.",
    "UniqueID": "Poltergeister.SeasonalCuteSpritesSVE",
    "UpdateKeys": [ "Nexus:5969" ],
@@ -9,10 +9,6 @@
       "UniqueID": "Pathoschild.ContentPatcher"
    },
    "Dependencies": [
-      {
-        "UniqueID": "FlashShifter.StardewValleyExpandedALL",
-        "IsRequired": true
-      },
       {
         "UniqueID": "FlashShifter.StardewValleyExpandedCP",
         "IsRequired": true

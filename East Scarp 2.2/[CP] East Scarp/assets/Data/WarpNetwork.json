@@ -3,7 +3,7 @@
             {
             "LogName": "Add warp",
             "Action": "EditMap",
-            "Target": "Maps/Custom_EastScarpe",
+            "Target": "Maps/EastScarp_Village",
             "MapTiles": [
                 {
                     "Position": {
@@ -23,7 +23,7 @@
             "Target": "Data/WarpNetwork/Destinations",
             "Entries": {
                 "scarp": {
-                    "location": "Custom_EastScarpe",
+                    "location": "EastScarp_Village",
                     "x": 24,
                     "y": 97,
                     "enabled": true,

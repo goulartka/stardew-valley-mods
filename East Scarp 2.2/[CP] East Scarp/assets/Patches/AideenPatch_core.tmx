@@ -1347,46 +1347,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="1976" name="zspring_z_extras" tilewidth="16" tileheight="16" tilecount="5375" columns="25">
-  <image source="spring_z_extras.png" width="400" height="3440"/>
-  <tile id="3254">
-   <animation>
-    <frame tileid="3254" duration="1000"/>
-    <frame tileid="3257" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="3255">
-   <animation>
-    <frame tileid="3255" duration="1000"/>
-    <frame tileid="3258" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="3256">
-   <animation>
-    <frame tileid="3256" duration="1000"/>
-    <frame tileid="3259" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="3279">
-   <animation>
-    <frame tileid="3279" duration="1000"/>
-    <frame tileid="3282" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="3280">
-   <animation>
-    <frame tileid="3280" duration="1000"/>
-    <frame tileid="3283" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="3281">
-   <animation>
-    <frame tileid="3281" duration="1000"/>
-    <frame tileid="3284" duration="1000"/>
-   </animation>
-  </tile>
- </tileset>
- <tileset firstgid="7351" name="Town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+ <tileset firstgid="1976" name="Town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
   <image source="spring_town.png" width="512" height="1152"/>
   <tile id="159">
    <properties>
@@ -1655,7 +1616,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="9655" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+ <tileset firstgid="4280" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
   <image source="paths.png" width="64" height="144"/>
   <tile id="0">
    <properties>
@@ -1688,18 +1649,18 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="9691" name="z_lumi" tilewidth="16" tileheight="16" tilecount="400" columns="25">
+ <tileset firstgid="4316" name="z_lumi" tilewidth="16" tileheight="16" tilecount="400" columns="25">
   <image source="spring_mod_lumisteria_tilesheetsoutdoor_decorations.png" width="400" height="256"/>
  </tileset>
- <tileset firstgid="10091" name="z_daisy" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
+ <tileset firstgid="4716" name="z_daisy" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
   <image source="spring_daisyextras.png" width="480" height="960"/>
  </tileset>
- <tileset firstgid="11891" name="z_cottage" tilewidth="16" tileheight="16" tilecount="204" columns="12">
+ <tileset firstgid="6516" name="z_cottage" tilewidth="16" tileheight="16" tilecount="204" columns="12">
   <image source="spring_cottage.png" width="200" height="280"/>
  </tileset>
  <layer id="1" name="Back" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJxLYGRgSADiaiCeCMTuWLAHVI0XFpyAhEFm1EHFdXGor4GqAeEkIJ4CsoMZgWFiyOoSgbgCiKuAWASJHY+mDmS/uDwDgwQSlgRiTyR1MHdUKwDNUEClYXIgdRJEYgCO9xvl
+   eJxLYGRgSADiaiCeCMTuWLAHVI0XFpyAhEFm1EHFdXGor4GqAeEkIJ4CsoMZgWFiyOoSgbgCiKuAWASJHY+mDmS/BBcDgyQSlgJiTyR1cHdwA9Vzo9IwOZA6CSIxAE4pGx0=
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
@@ -1708,13 +1669,13 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxjYKAdmK3BwDAHiOdpYMrZ6lNm9hdVBoavQPxNFcLnVWNg4ANifjVUdbjEqQUAihYHQA==
+   eJxjYCAd/OSCYEJgjjADw1wgni+MKWcnRYbFSOCrAAPDNyD+LgDh8wkyMPADsYAgqjpc4tQCABGdCEI=
   </data>
  </layer>
  <objectgroup id="4" name="Back2"/>
  <layer id="5" name="Buildings" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYCAO/JAnjH/KQ9QyqjEwMAFxswIDQzcQ9wAxK5CfBqTTgVgSiG+rMjDcAeK7qqj2gMTbgPLtUHVfgPyvQPwNTR0yAKnDBaSBchZALAq03xJIRyBhZGCNJB6JxzwQ4FFkYOBVhLABoqwcYA==
+   eJxjYCAO/ORC4DphBoZ6YVQxEP7FBVHLJMjAwAzELdwMDD1A3AvEbEB+OpDOAGIpIL4jwMBwF4jvCaDaAxJvB8p3QNV9BfK/AfF3AUw3wQBIHS4gA5SzBGIxoP1WQDoSCSMDGyTxKDzmgQAvDwMDHw+EDQCCRBgh
   </data>
  </layer>
  <objectgroup id="6" name="Buildings" visible="0">
@@ -1736,19 +1697,19 @@
  </objectgroup>
  <layer id="9" name="Paths" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYICAi6oMowAJXCAiPEBqAFbMAuE=
+   eJxjYICASwIMowAJXCQiPEBqADs7AqU=
   </data>
  </layer>
  <objectgroup id="10" name="Paths"/>
  <layer id="11" name="Front" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJy7Ic/AcIMAvgnEqvoMDC9UGRheAnGtBgNDHRA3APEbIN9NgYHBHYhBwFCfgSigqcbAoAXE2mqo4g+B5t0B4ruqEL4TUN4ZiF3Q1P0Cyv8G4j9QdRYKCIwMeIHu4dPHFEcHkkA1UkD8loA6dAAAhMccUw==
+   eJy7ycXAcJMAvgXEalIMDC8FGBheATEMNAozMLwF8t25GRg8uCFiRlIMRAEtQQYGbSDWEUQVfwQ07y4Q34Pa4wyUdwFiVzR1v4Hyf4D4L1SdJTcCIwM+oHv4pTDF0YEUUI00EL8joA4dAADKshf8
   </data>
  </layer>
  <objectgroup id="12" name="Front"/>
  <layer id="13" name="AlwaysFront" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOVBUYGNSAWB2INRRwKKIReKTKwPBYFVXsHZD/HojV9BkYPgDpj6rY9bKrMTBwqEHYnECaC8o+q4CqTgEorgiVUwLSymrkuRUAHjUKlg==
+   eJxjYMAO1LgZGNSBWAOINblxKKIReCzAwPBEAFXsPZD/AYjVpRgYPgLpTwLY9XIIMjBwCkLYXECaG8o+h+YHRaC4ElROGUirCJLnVgA2+gkG
   </data>
  </layer>
  <objectgroup id="14" name="AlwaysFront"/>

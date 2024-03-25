@@ -8,6 +8,8 @@
     "config.enabled.desc": "Scegli se abilitare l'automazione. Se disabilitata, i macchinari non saranno automatizzati e non camparirà l'overlay.",
     "config.automation-interval.name": "Intervallo di automazione",
     "config.automation-interval.desc": "Il numero di tick tra ogni processo di automazione (60 per una volta al secondo, 120 per ogni due secondi, ecc.).",
+    "config.min-minutes-for-fairy-dust.name": "Min minutes for fairy dust", // TODO
+    "config.min-minutes-for-fairy-dust.desc": "The minimum machine processing time in minutes for which to apply fairy dust. For example, setting this to 30 minutes means fairy dust won't be applied if the machine would finish in 20 minutes without it.", // TODO
     "config.toggle-overlay-key.name": "Imposta il tasto overlay",
     "config.toggle-overlay-key.desc": "I tasti che attivano l'overlay dell'automazione.",
     "config.warn-for-missing-bridge-mod.name": "Avvertimento per la mancanza di mod.",
@@ -20,26 +22,24 @@
     "config.custom-connectors.desc": "I nomi inglesi esatti degli elementi che collegano tra loro macchinari adiacenti. È possibile elencare più elementi con le virgole.", // note: connector names must be English even when playing in other languages
 
     // Junimo hut options
-    // TODO
-    "config.title.junimo-huts": "Junimo hut behavior",
-    "config.junimo-hut-gems.name": "Gems",
-    "config.junimo-hut-gems.desc": "What Junimo huts should do with gemstone items. 'Auto-detect' will ignore them.",
-    "config.junimo-hut-fertilizer.name": "Fertilizer",
-    "config.junimo-hut-fertilizer.desc": "What Junimo huts should do with fertilizer items. 'Auto-detect' will ignore them if Better Junimos is installed, else move them from the hut into connected chests.",
-    "config.junimo-hut-seeds.name": "Seeds",
-    "config.junimo-hut-seeds.desc": "What Junimo huts should do with seed items. 'Auto-detect' will ignore them if Better Junimos is installed, else move them from the hut into connected chests.",
+    "config.title.junimo-huts": "Comportamento capanno Junimo",
+    "config.junimo-hut-gems.name": "Gemme",
+    "config.junimo-hut-gems.desc": "Cosa dovrebbero fare le Capanne Junimo con le gemme. 'Individua automaticamente' le ignorerà.",
+    "config.junimo-hut-fertilizer.name": "Fertilizzante",
+    "config.junimo-hut-fertilizer.desc": "Cosa dovrebbero fare le Capanne Junimo con i fertilizzanti. 'Individua automaticamente' li ignorerà se è stato installato Better Junimos, altrimenti li sposterà dal capanno alle casse collegate.",
+    "config.junimo-hut-seeds.name": "Semi",
+    "config.junimo-hut-seeds.desc": "Cosa dovrebbero fare le Capanne Junimo con i Semi. 'Individua automaticamente' li ignorerà se è stato installato Better Junimos, altrimenti li sposterà dal capanno alle casse collegate.",
 
     // Junimo hut dropdown values
-    // TODO
-    "config.junimo-huts.auto-detect": "Auto-detect",
-    "config.junimo-huts.ignore": "Ignore them",
-    "config.junimo-huts.move-into-chests": "Move from Junimo huts into chests",
-    "config.junimo-huts.move-into-huts": "Move from chests into Junimo huts",
+    "config.junimo-huts.auto-detect": "Individua automaticamente",
+    "config.junimo-huts.ignore": "Ignora",
+    "config.junimo-huts.move-into-chests": "Sposta dai capanni Junimo alle casse",
+    "config.junimo-huts.move-into-huts": "Sposta dalle casse ai capanni Junimo",
 
-    // machine overrides
-    "config.title.machine-overrides": "Sovrascrittura macchinari",
-    "config.override.ShippingBin-name": "Cassetta delle Spedizioni",
-    "config.override.MiniShippingBin-name": "Mini-Cassetta per Spedizioni",
-    "config.override.desc": "Scegli se abilitare l'automazione di {{machineName}}.",
-    "config.custom-overrides-note": "Per sovrascritture personalizzate, vedi https://github.com/Pathoschild/StardewMods/tree/develop/Automate#configure se ti serve una mano per modificare config.json direttamente."
+    // per-machine settings
+    "config.title.machine-settings": "Comportamento {{machineName}}",
+    "config.machine-settings-enabled.Name": "Abilitata",
+    "config.machine-settings-enabled.desc": "Scegli se abilitare l'automazione di {{machineName}}.",
+    "config.machine-settings-priority.name": "Priorità",
+    "config.machine-settings-priority.desc": "L'ordine di priorità con cui le macchine {{machineName}} dovrebbero essere processate rispetto ad altre macchine. Le macchine hanno una priorità predefinita di 0, con valori più alti processati per primi."
 }

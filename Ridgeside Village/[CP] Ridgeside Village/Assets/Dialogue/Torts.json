@@ -5,7 +5,14 @@
    "Target": "Characters/Dialogue/Torts",
    "Entries": {
 		 "Custom_Ridgeside_RidgesideVillage": "{{i18n:Torts.Dialogue.normal{{Random:{{Range:1,10}}}}}}",
-		 "Custom_Ridgeside_TortsRealm": "{{i18n:Torts.Dialogue.realm{{Random:{{Range:1,10}}}}}}"
+		 "Custom_Ridgeside_TortsRealm": "{{i18n:Torts.Dialogue.realm{{Random:{{Range:1,10}}}}}}",
+		 "Beach": "{{i18n: Torts.Dialogue.BeachVisit{{Random:{{Range:1,4}}}}}}",
+		 "Mountain": "{{i18n: Torts.Dialogue.MountainVisit{{Random:{{Range:1,2}}}}}}",
+		 "Town": "{{i18n: Torts.Dialogue.TownVisit{{Random:{{Range:1,2}}}}}}",
+		 "RejectItem_(O)809": "{{i18n: Torts.Dialogue.MovieRejection}}",
+
+		"AcceptGift_(O)StardropTea": "{{i18n:AcceptStardropTea.Torts}}",
+		"GreenRain": "{{i18n:GreenRain.Torts}}",
 		},
 	},
 	{
@@ -49,38 +56,6 @@
 	 },
    "Entries": {
 		 "Custom_Ridgeside_RidgesideVillage": "{{i18n:Torts.Dialogue.post-twist{{Random:{{Range:1,8}}}}}}"
-		},
-	},
-	{
-   "Action": "EditData",
-   "Target": "Characters/Dialogue/Torts",
-   "Entries": {
-		 "NPC.cs.4274": "{{i18n:Torts.birthday.love}}",
-	   "NPC.cs.4275": "{{i18n:Torts.birthday.love}}",
-	   "NPC.cs.4276": "{{i18n:Torts.birthday.love}}",
-	   "NPC.cs.4277": "{{i18n:Torts.birthday.love}}",
-	   "NPC.cs.4278": "{{i18n:Torts.birthday.hate}}",
-	   "NPC.cs.4279": "{{i18n:Torts.birthday.neutral}}",
-	   "NPC.cs.4280": "{{i18n:Torts.birthday.neutral}}",
-	   "NPC.cs.4281": "{{i18n:Torts.birthday.neutral}}",
-		},
-	},
-	{
-   "Action": "EditData",
-   "Target": "Characters/Dialogue/Torts",
-	 "When": {
-		 "HasSeenEvent|contains=75160287": true,
-		 "Day": "1, 28"
-	 },
-   "Entries": {
-		 "NPC.cs.4274": "{{i18n:Torts.birthday.love.realm}}",
-	   "NPC.cs.4275": "{{i18n:Torts.birthday.love.realm}}",
-	   "NPC.cs.4276": "{{i18n:Torts.birthday.love.realm}}",
-	   "NPC.cs.4277": "{{i18n:Torts.birthday.love.realm}}",
-	   "NPC.cs.4278": "{{i18n:Torts.birthday.hate.realm}}",
-	   "NPC.cs.4279": "{{i18n:Torts.birthday.neutral.realm}}",
-	   "NPC.cs.4280": "{{i18n:Torts.birthday.neutral.realm}}",
-	   "NPC.cs.4281": "{{i18n:Torts.birthday.neutral.realm}}",
 		},
 	},
 ]

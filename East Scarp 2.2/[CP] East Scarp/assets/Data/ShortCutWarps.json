@@ -3,7 +3,7 @@
         //Adds warps to ES TRapdoors
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESDeepDark",
+            "Target": "Maps/EastScarp_DeepDark",
             "MapTiles": [
                 {
                     "Position": {
@@ -12,14 +12,14 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "Warp 13 19 Custom_ESSmugglerDen"
+                        "Action": "Warp 13 19 EastScarp_SmugglerDen"
                     }
                 }
             ]
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESSeaCave",
+            "Target": "Maps/EastScarp_SeaCave",
             "MapTiles": [
                 {
                     "Position": {
@@ -28,14 +28,14 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "Warp 38 20 Custom_ESSmugglerDen"
+                        "Action": "Warp 38 20 EastScarp_SmugglerDen"
                     }
                 }
             ]
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESShack",
+            "Target": "Maps/EastScarp_Shack",
             "MapTiles": [
                 {
                     "Position": {
@@ -44,7 +44,7 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "Warp 42 20 Custom_ESSmugglerDen"
+                        "Action": "Warp 42 20 EastScarp_SmugglerDen"
                     }
                 }
             ]
@@ -76,14 +76,14 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "Warp 10 5 Custom_ESSmugglerDen"
+                        "Action": "Warp 10 5 EastScarp_SmugglerDen"
                     }
                 }
             ]
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESSmugglerDen",
+            "Target": "Maps/EastScarp_SmugglerDen",
             "MapTiles": [
                 {
                     "Position": {
@@ -122,14 +122,14 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "Warp 36 5 Custom_ESSmugglerDen"
+                        "Action": "Warp 36 5 EastScarp_SmugglerDen"
                     }
                 },
             ]
         },
         /*{ You will also need to adjust where the map exits to below and remove the / * and * / surrounding this block of code
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESSmugglerDen",
+            "Target": "Maps/EastScarp_SmugglerDen",
             "MapTiles": [
                 {
                     "Position": {
@@ -147,7 +147,7 @@
         //Juliet and Jessie
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESSmugglerDen",
+            "Target": "Maps/EastScarp_SmugglerDen",
             "ToArea": {
                 "X": 15,
                 "Y": 2,
@@ -161,7 +161,7 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESSmugglerDen",
+            "Target": "Maps/EastScarp_SmugglerDen",
             "MapTiles": [
                 {
                     "Position": {
@@ -189,7 +189,7 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "Warp 15 5 Custom_ESSmugglerDen"
+                        "Action": "Warp 15 5 EastScarp_SmugglerDen"
                     }
                 }
             ],
@@ -200,7 +200,7 @@
         //Fairy Pool (Tristan)
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESSmugglerDen",
+            "Target": "Maps/EastScarp_SmugglerDen",
             "ToArea": {
                 "X": 2,
                 "Y": 8,
@@ -214,7 +214,7 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESSmugglerDen",
+            "Target": "Maps/EastScarp_SmugglerDen",
             "MapTiles": [
                 {
                     "Position": {
@@ -242,7 +242,7 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "Warp 2 11 Custom_ESSmugglerDen"
+                        "Action": "Warp 2 11 EastScarp_SmugglerDen"
                     }
                 }
             ],
@@ -253,7 +253,7 @@
         //Meadow Farm Shed (Eyvinder)
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESSmugglerDen",
+            "Target": "Maps/EastScarp_SmugglerDen",
             "ToArea": {
                 "X": 45,
                 "Y": 2,
@@ -262,13 +262,13 @@
             },
             "FromFile": "assets/Patches/doorway.tmx",
             "When": {
-                "HasMod": "Lemurkat.EastScarp.Eyvinder"
-                //HasSeenEvent":""
+                "HasSeenEvent": "57877006"
+               
             }
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESSmugglerDen",
+            "Target": "Maps/EastScarp_SmugglerDen",
             "MapTiles": [
                 {
                     "Position": {
@@ -277,18 +277,18 @@
                     },
                     "Layer": "Back",
                     "SetProperties": {
-                        "TouchAction": "Warp Custom_ESMeadowShed 2 5"
+                        "TouchAction": "Warp EastScarp_MeadowShed 2 5"
                     }
                 }
             ],
             "When": {
-                "HasMod": "Lemurkat.EastScarp.Eyvinder"
+                "HasSeenEvent": "57877006"
                 //HasSeenEvent":""
             }
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_ESMeadowShed",
+            "Target": "Maps/EastScarp_MeadowShed",
             "MapTiles": [
                 {
                     "Position": {
@@ -297,12 +297,12 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "Warp 45 5 Custom_ESSmugglerDen",
+                        "Action": "Warp 45 5 EastScarp_SmugglerDen",
                     }
                 }
             ],
             "When": {
-                "HasMod": "Lemurkat.EastScarp.Eyvinder"
+                "HasSeenEvent": "57877006"
                 //HasSeenEvent":""
             }
         },

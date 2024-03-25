@@ -1,6 +1,16 @@
 {
 	"Changes": [
 		{
+			"LogName": "ParrotBoy - Winter",
+			"Action": "EditImage",
+			"Target": "Portraits/ParrotBoy_Winter, Characters/ParrotBoy_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/ParrotBoy/{{TargetWithoutPath}}{{IndoorVariant}}.png",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},
+		{
 			"LogName": "Leo - Seasonal",
 			"Action": "EditImage",
 			"Target": "Portraits/ParrotBoy, Characters/ParrotBoy",
@@ -11,9 +21,9 @@
 			},
 		},
 		{
-			"LogName": "Leo - Festival",
+			"LogName": "ParrotBoy - Festival",
 			"Action": "EditImage",
-			"Target": "Portraits/ParrotBoy, Characters/ParrotBoy",
+			"Target": "Portraits/ParrotBoy, Characters/ParrotBoy, Portraits/ParrotBoy_Winter, Characters/ParrotBoy_Winter",
             "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
 			"When":
 			{
@@ -24,6 +34,18 @@
 		},
 		
 // NOSE OVERLAY
+		{
+			"LogName": "ParrotBoy - Winter Nose",
+			"Action": "EditImage",
+			"Target": "Characters/ParrotBoy_Winter",
+			"FromFile": "assets/Characters/ParrotBoy/ParrotBoy_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+			},
+		},
 		{
 			"LogName": "Leo - Seasonal Nose",
 			"Action": "EditImage",
