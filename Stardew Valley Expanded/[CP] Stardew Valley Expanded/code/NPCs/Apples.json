@@ -539,7 +539,7 @@
         "HasSeenEvent |contains=7776010": true
       },
       "Entries": {
-        "7776011_RepairAuroraVineyard/": "pause 500/addMailReceived PlayerWantsAuroraVineyard/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/jump Apples/pause 500/playSound junimoMeep1/pause 300/speak Apples \"{{i18n:Apples.AuroraRestore.RepairAuroraVineyard.01}}\"/pause 500/end",
+        "7776011_RepairAuroraVineyard": "pause 500/addMailReceived PlayerWantsAuroraVineyard/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 300/playSound junimoMeep1/jump Apples/pause 500/playSound junimoMeep1/pause 300/speak Apples \"{{i18n:Apples.AuroraRestore.RepairAuroraVineyard.01}}\"/pause 500/end",
       }
     },
     {
