@@ -13,5 +13,7 @@
   "spring": "0 Custom_Claire_WarpRoom 1 3 3",
   
   //You don't want the game to crash so this is necessary even though not needed
-  "JojaMart_Replacement": "MovieTheater 7 5 2 Claire_Idle"
+  "JojaMart_Replacement": "MovieTheater 7 5 2 Claire_Idle",
+  //Green Rain
+  "GreenRain": "0 Custom_Claire_WarpRoom 1 3 3/800 JojaMart 9 25 1 Claire_Idle/2210 BusStop 22 8 0/2420 Custom_DayEnd_WarpRoom 3 3 0",
 }

@@ -19,7 +19,7 @@
                     "ItemId": "FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger",
                     "Price": "5550",
                     "IsRecipe": "true",
-                    "Condition": "PLAYER_HEARTS Any Gus 1250"
+                    "Condition": "PLAYER_HEARTS Any Gus 5"
                 },
                 "FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": {
                     "Id": "FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie",
@@ -32,7 +32,7 @@
                     "ItemId": "FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish",
                     "Price": "4000",
                     "IsRecipe": "true",
-                    "Condition": "PLAYER_HEARTS Any Gus 2500"
+                    "Condition": "PLAYER_HEARTS Any Gus 10"
                 },
             },
         },

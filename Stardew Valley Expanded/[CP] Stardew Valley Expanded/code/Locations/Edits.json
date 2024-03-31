@@ -3,6 +3,9 @@
         {
             "Action": "EditData",
             "Target": "Data/Weddings",
+            "TargetField": [
+                "Attendees"
+            ],
             "Entries": {
                 "Sophia": {
                     "ID": "Sophia",

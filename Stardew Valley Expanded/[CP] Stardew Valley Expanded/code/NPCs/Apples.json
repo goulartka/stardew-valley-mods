@@ -433,11 +433,12 @@
     },
     { //Increases Starfruit sell price by 10% (affects starfruit wine as well)
       "Action": "EditData",
-      "Target": "Data/objectinformation",
-      "Fields": {
-        "268": {
-          1: "825"
-        }
+      "Target": "Data/Objects",
+      "TargetField": [
+        268
+      ],
+      "Entries": {
+        "Price": 825
       },
       "When": {
         "HasSeenEvent": "7776009"

@@ -904,11 +904,12 @@
     },
     { //Increases grape sell price by 100% - does affect grape wine sell price
       "Action": "EditData",
-      "Target": "Data/objectinformation",
-      "Fields": {
-        "398": {
-          1: "160"
-        },
+      "Target": "Data/Objects",
+      "TargetField": [
+        398
+      ],
+      "Entries": {
+        "Price": 160
       },
       "When": {
         "HasSeenEvent": "8185300",

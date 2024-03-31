@@ -1,6 +1,5 @@
 {
   "Changes": [
-
     {
       "Action": "EditData",
       "Target": "Data/Characters",
@@ -71,10 +70,10 @@
         "HasSeenEvent": "191393"
       },
       "Entries": {
-        "MorrisTod":{
+        "MorrisTod": {
           "CanSocialize": false,
           "UnlockCondition": false,
-          "SocialTab": "HiddenAlways",    
+          "SocialTab": "HiddenAlways",
         }
       }
     },
@@ -191,7 +190,6 @@
         "rain": "0 Custom_MorrisHouse 16 6 2/610 Custom_MorrisHouse 14 25 2/1000 JojaMart 24 26 3/2200 Custom_MorrisHouse 16 6 0",
       }
     },
-
     //MOVIE THEATER
     {
       "Action": "EditData",
@@ -926,15 +924,17 @@
     },
     { //joja cola becomes an artisan good instead of trash
       "Action": "EditData",
-      "Target": "Data/objectinformation",
+      "Target": "Data/Objects",
       "When": {
         "HasSeenEvent": "6665293"
       },
-      "Fields": {
-        "167": {
-          3: "Basic -26"
-        },
-      },
+      "TargetField": [
+        167
+      ],
+      "Entries": {
+        "Type": "Basic",
+        "Category": -26
+      }
     },
     //joja conversation topic additions
     {

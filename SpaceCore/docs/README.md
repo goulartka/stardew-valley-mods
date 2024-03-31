@@ -17,6 +17,7 @@ Provided functionality for players:
     * You can set this menu to always show up when interacting with an NPC in the config, in case you want to (for example) prevent accidentally gifting an item to somebody.
 
 Provided functionality for content pack authors:
+* Fixes NPCs taking the longer path when there are circular routes. Note that the "length" of the path is determined by amount of warps, not by amount of tiles travelled, so if there are two paths to a location with the same amount of warps but one map is much larger, they might still take the larger map path.
 * New GameStateQuery queries:
     * Every custom skill registered through the C# API automatically registers a `PLAYER_<SKILLID_IN_CAPS>_LEVEL` query matching the vanilla ones (such as PLAYER_FARMING_LEVEL).
     * `NEARBY_CROPS radius cropId` - Only usable in CropExtensionData YieldOverrides PerItemCondition entries. Checks for fully grown crops of a particular type in a certain radius.
@@ -28,6 +29,7 @@ Provided functionality for content pack authors:
 * New trigger action actions
     * `spacechase0.SpaceCore_PlaySound sound local` - `sound` = the cue ID, `local` = `true` if everyone near the player should hear it, `false` otherwise
     * `spacechase0.SpaceCore_ShowHudMessage "message goes here"`
+    * `spacechase0.SpaceCore_PlayEvent eventid ifNotSeen` - `ifNotSeen` is optional (defaults to false) - if true, the event won't play if it has been seen before
 * Custom event commands
     * `damageFarmer amount`
     * `setDating npc [true/false]` - default true
@@ -55,7 +57,7 @@ Provided functionality for content pack authors:
             * `Color` - Color, the color the screen should flash - ex. `{ "R": 0, "G": 0, "B": 255, "A": 255 }`
         * `UseForTriggerAction` - True to run a trigger action upon use, false otherwise. Default false.
         * `GiftableToNpcDisallowList` - A dictionary of NPC names to messages that should show when you try to gift the item to them, instead of them receiving the gift.
-        * `GiftableToNpcAllowList` - A dictionary of NPC names to `true` for if you want that NPC allowed. If set, any NPCs not listed here will not be able to receive the gift, and instead will show the message from the folowing field.
+        * `GiftableToNpcAllowList` - A dictionary of NPC names to `true` for if you want that NPC allowed. If set, any NPCs not listed here will not be able to receive the gift, and instead will show the message from the following field.
         * `GiftedToNotOnAllowListMessage` - The message to show for when the item is gifted to someone not on the allow list. Required if `GiftableToNpcAllowList` is set. (The disallow list is checked first, so you can still allow specific responses by certain NPCs.)
     * Crops - These are in `spacechase0.SpaceCore/CropExtensionData`
         * `YieldOverrides` - A little complex, but you can override each crop phase's harvestability with experience gained, the new phase it goes to, and the drops it has (including conditional drops). Example [here](https://gist.github.com/spacechase0/79f95bcd46160da9e52f5bc0c71329f4).
@@ -188,6 +190,7 @@ The rest of the features assume you understand C# and the game code a little bit
     * `List<string> GetExtraLevelUpInfo(int level)` - optional, extra text to show upon leveling
     * `string GetSkillPageHoverText(int level)` - optional, extra text to show when hovering on the skills page
     * `void DoLevelPerk(int level)` - optional, apply a some code immediately upon leveling
+    * `bool ShouldShowOnSkillsPage`
 * Custom crafting recipes, for when you want more flexibility (like using non-Object item types).
     * You subclass `CustomCraftingRecipe` and register it by doing `CustomCraftingRecipe.CraftingRecipes.Add( key, new MyCustomCraftingRecipeSubclass() )`.
         * If it is a cooking recipe, you use `CustomCraftingRecipe.CookingRecipes` instead.
@@ -238,7 +241,8 @@ The rest of the features assume you understand C# and the game code a little bit
             * `ExtraFields` - a `Dictionary<string, string>` that contains all the attributes you put on the element in the XML that weren't used in deserialition.
             * `UserData` - an `object` field for you to store whatever you want in
 * Content Engine
-    * *Also hard to document, go read the source ([here](https://github.com/spacechase0/StardewValleyMods/tree/develop/SpaceShared/Content)) or look at Moon Misadventures Redux for an example.
+    * Also hard to document, go read the source ([here](https://github.com/spacechase0/StardewValleyMods/tree/develop/SpaceShared/Content)) or look at Moon Misadventures Redux for an example.
+* `List<int> SpaceCore.GetLocalIndexForMethod(MethodBase meth, string local)` - gets the indices of all variables in a method using a given name. Used for transpilers.
 * Some other things that will remain undocumented because they will be removed soon.
 
 ## Compatibility

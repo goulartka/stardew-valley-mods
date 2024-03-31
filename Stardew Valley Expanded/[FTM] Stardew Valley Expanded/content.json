@@ -685,7 +685,7 @@
         "SummerItemIndex": null,
         "FallItemIndex": null,
         "WinterItemIndex": null,
-        "UniqueAreaID": "Summit forage area 1",
+        "UniqueAreaID": "SVESummit forage area 1",
         "MapName": "Custom_SVESummit",
         "MinimumSpawnsPerDay": 1,
         "MaximumSpawnsPerDay": 2,
@@ -734,7 +734,7 @@
         "WinterItemIndex": [
           "Thistle"
         ],
-        "UniqueAreaID": "Thistle flower summit spawns",
+        "UniqueAreaID": "Thistle flower SVEsummit spawns",
         "MapName": "Custom_SVESummit",
         "MinimumSpawnsPerDay": 2,
         "MaximumSpawnsPerDay": 4,
@@ -785,7 +785,7 @@
           "Goldenrod"
         ],
         "WinterItemIndex": [],
-        "UniqueAreaID": "Goldenrod summit spawns",
+        "UniqueAreaID": "Goldenrod SVEsummit spawns",
         "MapName": "Custom_SVESummit",
         "MinimumSpawnsPerDay": 2,
         "MaximumSpawnsPerDay": 4,
@@ -837,7 +837,7 @@
         "SummerItemIndex": [],
         "FallItemIndex": [],
         "WinterItemIndex": [],
-        "UniqueAreaID": "Ferngill Primrose summit spawns",
+        "UniqueAreaID": "Ferngill Primrose SVEsummit spawns",
         "MapName": "Custom_SVESummit",
         "MinimumSpawnsPerDay": 2,
         "MaximumSpawnsPerDay": 5,
@@ -888,8 +888,260 @@
         "WinterItemIndex": [
           "Winter Star Rose"
         ],
-        "UniqueAreaID": "Winter Star Rose summit spawns",
+        "UniqueAreaID": "Winter Star Rose SVEsummit spawns",
         "MapName": "Custom_SVESummit",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "8,21;6,14",
+          "10,23;9,21",
+          "14,18;12,16",
+          "16,19;13,19",
+          "17,20;14,20",
+          "19,26;15,21",
+          "14,26;14,24",
+          "22,26;20,24"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Winter"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Summit forage area 2",
+        "MapName": "Summit",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Grass",
+          "Diggable"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "20,27;6,20"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "Thistle"
+        ],
+        "SummerItemIndex": [
+          "Thistle"
+        ],
+        "FallItemIndex": [
+          "Thistle"
+        ],
+        "WinterItemIndex": [
+          "Thistle"
+        ],
+        "UniqueAreaID": "Summit forage area 3",
+        "MapName": "Summit",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "8,21;6,14",
+          "10,23;9,21",
+          "14,18;12,16",
+          "16,19;13,19",
+          "17,20;14,20",
+          "19,26;15,21",
+          "14,26;14,24",
+          "22,26;20,24"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [],
+        "SummerItemIndex": [
+          "Goldenrod"
+        ],
+        "FallItemIndex": [
+          "Goldenrod"
+        ],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Summit forage area 4",
+        "MapName": "Summit",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "8,21;6,14",
+          "10,23;9,21",
+          "14,18;12,16",
+          "16,19;13,19",
+          "17,20;14,20",
+          "19,26;15,21",
+          "14,26;14,24",
+          "22,26;20,24"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Summer",
+            "Fall"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "Ferngill Primrose"
+        ],
+        "SummerItemIndex": [],
+        "FallItemIndex": [],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Summit forage area 5",
+        "MapName": "Summit",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "8,21;6,14",
+          "10,23;9,21",
+          "14,18;12,16",
+          "16,19;13,19",
+          "17,20;14,20",
+          "19,26;15,21",
+          "14,26;14,24",
+          "22,26;20,24"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Spring"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [],
+        "SummerItemIndex": [],
+        "FallItemIndex": [],
+        "WinterItemIndex": [
+          "Winter Star Rose"
+        ],
+        "UniqueAreaID": "Summit forage area 6",
+        "MapName": "Summit",
         "MinimumSpawnsPerDay": 1,
         "MaximumSpawnsPerDay": 4,
         "IncludeTerrainTypes": [

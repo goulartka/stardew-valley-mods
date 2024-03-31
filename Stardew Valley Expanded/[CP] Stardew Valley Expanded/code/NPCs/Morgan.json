@@ -1,7 +1,5 @@
   {
     "Changes": [
-
-
       {
         "Action": "EditData",
         "Target": "Data/Characters",
@@ -393,74 +391,275 @@
         "Entries": {
           "5978939/e 5978938/w sunny/t 600 1800": "spring_day_ambient/-500 -500/farmer 26 114 2 Morgan 27 127 3 Wizard 24 127 1/skippable/pause 1000/viewport 26 114 true/viewport move 0 2 5000 true/move farmer 0 10 2 true/pause 3500/faceDirection Wizard 0 true/pause 850/faceDirection Morgan 0 true/pause 800/speak Wizard \"{{i18n:Morgan.10hearts2.01}}\"/speak Morgan \"{{i18n:Morgan.10hearts2.02}}\"/pause 700/faceDirection Wizard 1 true/pause 750/speak Wizard \"{{i18n:Morgan.10hearts2.03}}\"/pause 500/faceDirection Morgan 3 true/pause 500/speak Morgan \"{{i18n:Morgan.10hearts2.04}}\"/pause 700/globalFade/viewport -1000 -1000/warp Wizard 26 129/warp farmer 28 129/warp Morgan 27 125/faceDirection Wizard 0 true/faceDirection farmer 0 true/faceDirection Morgan 2 true/showFrame Morgan 18/viewport 27 127 true/pause 1500/speak Wizard \"{{i18n:Morgan.10hearts2.05}}\"/pause 2000/shake Morgan 500/pause 1500/shake Morgan 350/pause 500/stopMusic/pause 1700/speak Morgan \"{{i18n:Morgan.10hearts2.06}}\"/pause 1600/playMusic winter_day_ambient/pause 3000/speak Morgan \"{{i18n:Morgan.10hearts2.07}}\"/pause 3000/playMusic rain/pause 1700/shake Morgan 500/pause 1300/speak Morgan \"{{i18n:Morgan.10hearts2.08}}\"/pause 2500/shake Morgan 350/pause 700/playMusic fall_day_ambient/pause 2800/speak Morgan \"{{i18n:Morgan.10hearts2.09}}\"/pause 1600/shake Morgan 400/pause 900/playMusic ocean/pause 2300/shake Morgan 200/pause 900/speak Morgan \"{{i18n:Morgan.10hearts2.10}}\"/pause 2200/playMusic moonlightJellies/pause 1500/speak Morgan \"{{i18n:Morgan.10hearts2.11}}\"/pause 2000/playSound SpringBirds/addTemporaryActor Bird1 16 32 33 125 3/move Bird1 -4 0 3/emote farmer 16 true/playSound SpringBirds/animate Bird1 false true 100 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4 8 8 9 9 10 10 9 10 9 9 10 9 10 9 10 9 10 9 8 4 4 4 4 4 4/pause 1400/playSound SpringBirds/addTemporaryActor Bird2 16 32 20 124 1/move Bird2 5 0 1/animate Bird2 false true 100 12 12 12 12 12 12 12 12 12 12 13 13 13 13 13 13 12 12 12 12 12 12 8 8 9 9 9 9 10 9 10 9 10 9 10 9 9 9 9 9 10 9 10 9 10 9 10 9 9 8 12 12 12 12/pause 500/playSound SpringBirds/doAction 21 123/pause 700/doAction 21 123/addTemporaryActor Frog2 16 32 23 123 1/move Frog2 1 0 1/animate Frog2 false true 100 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 8 9 9 8 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 8 9 9 8/pause 500/playSound SpringBirds/pause 500/addTemporaryActor Frog1 16 32 31 127 3/doAction 31 128/pause 100/move Frog1 -3 0 3/animate Frog1 false true 100 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 15 16 17 17 17 16 15 15 15 15 15 15 15 15 15 15 15 15 15/addTemporaryActor Bird3 16 32 34 123 3/playSound SpringBirds/move Bird3 -6 0 3/playSound SpringBirds/animate Bird3 false true 100 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4/pause 1000/playSound SpringBirds/globalFade/viewport -1000 -1000/pause 50/speak Morgan \"{{i18n:Morgan.10hearts2.12}}\"/pause 100/addTemporaryActor Rabbit1 16 32 24 126 1/showFrame Rabbit1 0 true/addTemporaryActor Crow1 16 32 30 127 3/showFrame Crow1 0 true/animate Crow1 false true 250 0 0 0 0 1 0 0 0 0 0 0 0 0 1/addTemporaryActor Squirrel1 16 32 24 127 1/showFrame Squirrel1 0 true/animate Squirrel1 false true 250 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1/addTemporaryActor Rabbit2 16 32 29 126 3/showFrame Rabbit2 0 true/faceDirection Morgan 2 true/animate Morgan false true 200 0 0 0 0 0 0 4 4 4 4 4 4 4 4 0 12 12 12 12 12 12 12 12 0/viewport 27 127 true/pause 500/playSound SpringBirds/pause 1500/playSound SpringBirds/pause 1000/move Wizard 0 -2 0/pause 500/playSound SpringBirds/pause 500/faceDirection Wizard 3 true/pause 1200/faceDirection Wizard 0 true/pause 250/faceDirection Wizard 1 true/pause 700/playSound SpringBirds/pause 600/faceDirection Wizard 0 true/pause 700/stopAnimation Morgan/faceDirection Morgan 2 true/pause 200/playSound SpringBirds/pause 500/speak Wizard \"{{i18n:Morgan.10hearts2.13}}\"/pause 200/emote Morgan 8 true/pause 300/speak Morgan \"{{i18n:Morgan.10hearts2.14}}\"/speak Wizard \"{{i18n:Morgan.10hearts2.15}}\"/pause 200/playSound SpringBirds/pause 100/jump Morgan/pause 900/jump Morgan/pause 400/playSound SpringBirds/pause 500/speak Morgan \"{{i18n:Morgan.10hearts2.16}}\"/pause 500/globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:Morgan.10hearts2.17}}\"/pause 1000/playSound reward/message \"{{i18n:Morgan.10hearts2.18}}\"/end dialogue Morgan \"{{i18n:Morgan.10hearts2.19}}\""
         },
-      },
-      { //Increases animal products sell price by 10%
+      }, //Increases animal products sell price by 10%
+      {
         "Action": "EditData",
-        "Target": "Data/objectinformation",
-        "Fields": {
-          "176": {
-            1: "55"
-          }, //white egg
-          "180": {
-            1: "55"
-          }, //brown egg
-          "174": {
-            1: "105"
-          }, //large white egg
-          "182": {
-            1: "105"
-          }, //large brown egg
-          "442": {
-            1: "105"
-          }, //duck egg
-          "107": {
-            1: "385"
-          }, //dinosaur egg
-          "305": {
-            1: "72"
-          }, //void egg
-          "184": {
-            1: "138"
-          }, //milk
-          "186": {
-            1: "209"
-          }, //large milk
-          "436": {
-            1: "273"
-          }, //goat milk
-          "438": {
-            1: "380"
-          }, //large goat milk
-          "424": {
-            1: "253"
-          }, //cheese
-          "426": {
-            1: "440"
-          }, //goat cheese
-          "306": {
-            1: "209"
-          }, //mayonnaise
-          "307": {
-            1: "413"
-          }, //duck mayonnaise
-          "308": {
-            1: "303"
-          }, //void duck mayonnaise
-          "807": {
-            1: "880"
-          }, //dinosaur mayonnaise
-          "440": {
-            1: "374"
-          }, //wool
-          "428": {
-            1: "517"
-          }, //cloth
-          "430": {
-            1: "688"
-          }, //truffle
-          "432": {
-            1: "1172"
-          }, //truffle oil (Lewis uses this with Marnie. I wonder what for...)	
+        "Target": "Data/Objects",
+        "TargetField": [
+          176
+        ],
+        "Entries": {
+          "Price": 55
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          180
+        ],
+        "Entries": {
+          "Price": 55
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          174
+        ],
+        "Entries": {
+          "Price": 105
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          182
+        ],
+        "Entries": {
+          "Price": 105
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          442
+        ],
+        "Entries": {
+          "Price": 105
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          107
+        ],
+        "Entries": {
+          "Price": 385
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          305
+        ],
+        "Entries": {
+          "Price": 72
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          184
+        ],
+        "Entries": {
+          "Price": 138
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          186
+        ],
+        "Entries": {
+          "Price": 209
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          436
+        ],
+        "Entries": {
+          "Price": 273
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          438
+        ],
+        "Entries": {
+          "Price": 380
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          434
+        ],
+        "Entries": {
+          "Price": 253
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          426
+        ],
+        "Entries": {
+          "Price": 440
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          306
+        ],
+        "Entries": {
+          "Price": 209
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          307
+        ],
+        "Entries": {
+          "Price": 413
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          308
+        ],
+        "Entries": {
+          "Price": 303
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          807
+        ],
+        "Entries": {
+          "Price": 880
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          440
+        ],
+        "Entries": {
+          "Price": 374
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          428
+        ],
+        "Entries": {
+          "Price": 517
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          430
+        ],
+        "Entries": {
+          "Price": 688
+        },
+        "When": {
+          "HasSeenEvent": "5978939"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "TargetField": [
+          432
+        ],
+        "Entries": {
+          "Price": 1172
         },
         "When": {
           "HasSeenEvent": "5978939"
@@ -496,18 +695,30 @@
 },*/
       { //Increases cheese sell price by 30%
         "Action": "EditData",
-        "Target": "Data/objectinformation",
+        "Target": "Data/Objects",
         "When": {
           "HasSeenEvent |contains=1000026": true,
           "HasSeenEvent |contains=5978939": true
         },
-        "Fields": {
-          "424": {
-            1: "300"
-          }, //cheese wheel
-          "426": {
-            1: "520"
-          }, //goat cheese wheel
+        "TargetField": [
+          424
+        ],
+        "Entries": {
+          "Price": 300,
+        },
+      },
+      { //Increases cheese sell price by 30%
+        "Action": "EditData",
+        "Target": "Data/Objects",
+        "When": {
+          "HasSeenEvent |contains=1000026": true,
+          "HasSeenEvent |contains=5978939": true
+        },
+        "TargetField": [
+          426
+        ],
+        "Entries": {
+          "Price": 520,
         },
       },
       /*{
@@ -565,6 +776,5 @@
         "Target": "Characters/Crow1",
         "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/Crow1.png"
       },
-      
     ]
   }

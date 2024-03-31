@@ -1210,7 +1210,7 @@
       "Action": "Load",
       "Target": "Characters/Dialogue/Lance",
       "When": {
-        "HasSeenEvent": "6951319"
+        "HasSeenEvent: anyPlayer| contains=6951319": true
       },
       "FromFile": "Assets/Blank.json"
     },
@@ -1236,7 +1236,7 @@
     // INCLUDES
     {
       "Action": "Include",
-      "FromFile": "code/Items/BigCraftables.json, code/Items/Objects.json, code/Items/Weapons.json, code/Items/Crops.json, code/Items/CookingRecipes.json, code/Items/UniversalGiftTaste.json, code/Items/Furniture.json"
+      "FromFile": "code/Items/BigCraftables.json, code/Items/Objects.json, code/Items/Weapons.json, code/Items/Crops.json, code/Items/CraftingRecipes.json, code/Items/CookingRecipes.json, code/Items/UniversalGiftTaste.json, code/Items/Furniture.json"
     },
     {
       "Action": "Include",

@@ -238,14 +238,15 @@
     },
     { //Increases strawberry sale price by 25%
       "Action": "EditData",
-      "Target": "Data/objectinformation",
+      "Target": "Data/Objects",
       "When": {
         "HasSeenEvent": "5407915"
       },
-      "Fields": {
-        "400": {
-          1: "150"
-        }, //strawberries 120g > 150g
+      "TargetField": [
+        400
+      ],
+      "Entries": {
+        "Price": 150
       },
       "Update": "OnTimeChange"
     },
@@ -364,14 +365,18 @@
       }
     },
     //event adds 1 heart of friendship to everyone at the banquet
-    { //Wine heals 200% more stamina and health
+    //Wine heals 200% more stamina and health
+    { 
       "Action": "EditData",
-      "Target": "Data/objectinformation",
+      "Target": "Data/Objects",
       "When": {
-        "HasSeenEvent": "5407916"
+        "HasSeenEvent": "5407917"
       },
+      "TargetField": [
+        348
+      ],
       "Entries": {
-        "348": "Wine/400/60/Basic -26/{{i18n:Olivia.OrderEvent.Wine}}/{{i18n:Olivia.OrderEvent.Item348}}/drink/0 0 0 0 0 0 0 0 0 0 0/0",
+        "Edibility": 60,
       },
       "Update": "OnTimeChange"
     },
@@ -496,22 +501,46 @@
         "5407917/w sunny/z winter/z spring/z summer/t 600 1700": "none/-500 -500/farmer 54 52 2 Susan 52 52 2 MarlonFay 14 19 0 Linus 53 14 2/addTemporaryActor SusanBigPumpkin 48 55 51 55 2 false/positionOffset SusanBigPumpkin -3 -5/addTemporaryActor SusanBigPumpkin 48 55 55 56 2 false/addTemporaryActor SusanBigPumpkin 48 55 53 59 2 false/pause 500/playMusic playful/pause 400/viewport 53 53 clamp true/pause 1500/jump Susan/pause 1000/speak Susan \"{{i18n:Susan.OrderEvent.Fall.01}}\"/pause 1500/faceDirection Susan 1 true/pause 625/faceDirection farmer 3 true/stopMusic/pause 500/speak Susan \"{{i18n:Susan.OrderEvent.02}}\"/pause 500/globalFade/viewport -1000 -1000/changeLocation Custom_SusanHouse/playMusic FlashShifter.StardewValleyExpandedCP_SDV_FireplaceMusic/warp MarlonFay -100 -100/warp Linus -100 -100/warp Susan 3 15/warp farmer 5 15/faceDirection Susan 0 true/faceDirection farmer 3 true/positionOffset farmer 10 10/viewport 10 16 clamp true/pause 2000/faceDirection Susan 1 true/pause 500/speak Susan \"{{i18n:Susan.OrderEvent.03}}\"/pause 750/move Susan 1 0 1/pause 600/playSound newRecipe/showFrame Susan 5 true/pause 200/shake Susan 400/pause 600/move Susan 0 0 1/pause 500/playSound reward/message \"{{i18n:Susan.OrderEvent.04}}\"/pause 800/speak Susan \"{{i18n:Susan.OrderEvent.05}}\"/pause 750/showFrame farmer 97 true/pause 500/friendship Susan 125/globalFade/viewport -1000 -1000/end dialogue Susan \"{{i18n:Susan.OrderEvent.06}}\""
       }
     },
-    { //pale ale, mead, and beer sale price increases 50%
+    //pale ale, mead, and beer sale price increases 50%
+    { 
       "Action": "EditData",
-      "Target": "Data/objectinformation",
+      "Target": "Data/Objects",
       "When": {
         "HasSeenEvent": "5407917"
       },
-      "Fields": {
-        "303": {
-          1: "450"
-        }, //pale ale
-        "459": {
-          1: "300"
-        }, //mead
-        "346": {
-          1: "300"
-        }, //beer
+      "TargetField": [
+        303
+      ],
+      "Entries": {
+        "Price": 450
+      },
+      "Update": "OnTimeChange"
+    },
+    { 
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+        "HasSeenEvent": "5407917"
+      },
+      "TargetField": [
+        459
+      ],
+      "Entries": {
+        "Price": 300
+      },
+      "Update": "OnTimeChange"
+    },
+    { 
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+        "HasSeenEvent": "5407917"
+      },
+      "TargetField": [
+        346
+      ],
+      "Entries": {
+        "Price": 300
       },
       "Update": "OnTimeChange"
     },
