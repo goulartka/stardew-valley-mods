@@ -5,7 +5,14 @@
             "Target": "Data/Locations",
             "Entries": {
                 //////////////
-                //These should not have CreateOnLoad, but need them until CP is updated.
+                //These are creating on load for scheduling. 
+                "Custom_DayEnd_WarpRoom": {
+                    "CreateOnLoad": {
+                        "AlwaysActive": false,
+                        "MapPath": "Maps\\Custom_DayEnd_WarpRoom"
+                    }
+                },
+                //These are creating on load for music. 
                 "Custom_Atlantis": {
                     "Music": [
                         {

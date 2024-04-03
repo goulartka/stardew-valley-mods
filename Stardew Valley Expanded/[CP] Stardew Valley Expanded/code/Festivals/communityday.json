@@ -45,7 +45,7 @@
 			"Action": "EditMap",
 			"Target": "Maps/CommunityCenter_Refurbished",
 			"When": {
-				"HasSeenEvent": "191393",
+				"HasSeenEvent: anyPlayer| contains=191393": true,
 				"Day": "22"
 			},
 			"MapProperties": {
@@ -97,7 +97,7 @@
 			"Action": "EditMap",
 			"Target": "Maps/Town",
 			"When": {
-				"HasSeenEvent": "191393"
+				"HasSeenEvent: anyPlayer| contains=191393": true,
 			},
 			"TextOperations": [
 				{
@@ -115,7 +115,7 @@
 			"Action": "EditMap",
 			"Target": "Maps/CommunityCenter_Refurbished",
 			"When": {
-				"HasSeenEvent": "191393"
+				"HasSeenEvent: anyPlayer| contains=191393": true,
 			},
 			"Update": "OnLocationChange",
 			"TextOperations": [
@@ -134,7 +134,7 @@
 			"Action": "EditMap",
 			"Target": "Maps/CommunityCenter_Refurbished",
 			"When": {
-				"HasSeenEvent": "191393"
+				"HasSeenEvent: anyPlayer| contains=191393": true,
 			},
 			"Update": "OnLocationChange",
 			"TextOperations": [
@@ -154,7 +154,7 @@
 			"Action": "EditData",
 			"Target": "characters/schedules/Lewis",
 			"When": {
-				"HasSeenEvent": "191393"
+				"HasSeenEvent: anyPlayer| contains=191393": true,
 			},
 			"Entries": {
 				"22": "630 ManorHouse 7 5 0/730 CommunityCenter 55 6 0/1000 CommunityCenter 47 5 0/1030 CommunityCenter 53 5 0/1100 CommunityCenter 31 12 2 \"Strings\\schedules\\Lewis:CommunityDay_Lewis\"/1320 CommunityCenter 31 13 2 \"Strings\\schedules\\Lewis:CommunityDay_Lewis\"/1450 CommunityCenter 47 13 0 \"Strings\\schedules\\Lewis:CommunityDay_Lewis\"/1540 CommunityCenter 31 13 2 \"Strings\\schedules\\Lewis:CommunityDay_Lewis\"/1810 CommunityCenter 33 12 2 \"Strings\\schedules\\Lewis:CommunityDay_Lewis\"/1900 CommunityCenter 33 12 2 \"Strings\\schedules\\Lewis:CommunityDay_Lewis\"/1950 ManorHouse 22 4 1 lewis_sleep",
@@ -3104,7 +3104,7 @@
 			"Target": "Maps/AdventureGuild",
 			"FromFile": "Assets/Maps/MapPatches/GuildShopClosed.tbin",
 			"When": {
-				"HasSeenEvent": "191393",
+				"HasSeenEvent: anyPlayer| contains=191393": true,
 				"Day": "22"
 			},
 			"ToArea": {

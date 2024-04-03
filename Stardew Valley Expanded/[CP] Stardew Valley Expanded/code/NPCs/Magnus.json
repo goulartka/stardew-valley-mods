@@ -275,7 +275,6 @@
       },
       "FromFile": "assets/CharacterFiles/Schedules/Magnus/WizardSchedule.json"
     },
-
     //WIZARD SCHEDULE: Morgan = 'true'
     {
       "Action": "EditData",
@@ -411,7 +410,6 @@
         "marriage_Sat": "1000 Town 26 29 0",
       },
     },
-
     //**end marriage dialogue
     { //WIZARD EVENT - 'The Basement'
       "Action": "EditData",
@@ -673,9 +671,18 @@
     },
     {
       "Action": "EditData",
-      "Target": "Data/BigCraftablesInformation",
+      "Target": "Data/BigCraftables",
       "Entries": {
-        "117": "Mermaid's Bracelet/0/-300/Crafting -9/The Joja soda machine mysteriously formed into the mermaid's bracelet.../true/true/0/Mermaid's Bracelet"
+        "117": {
+          "Name": "Mermaid's Bracelet",
+          "DisplayName": "Mermaid's Bracelet",
+          "Description": "The Joja soda machine mysteriously formed into a Mermaid's Bracelet",
+          "Price": 2500,
+          "CanBePlacedOutDoors": true,
+          "CanBePlacedIndoors": true,
+          "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\BlinkRelic",
+          "SpriteIndex": 0,
+        }
       },
       "When": {
         "LocationName": "Custom_Atlantis"
@@ -821,9 +828,6 @@
       "Target": "Characters/BubbleGroup3",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/BubbleGroup3.png"
     },
-
-
-
     { //Wizard junimo scroll event fix
       "Action": "EditData",
       "Target": "data/events/WizardHouse",

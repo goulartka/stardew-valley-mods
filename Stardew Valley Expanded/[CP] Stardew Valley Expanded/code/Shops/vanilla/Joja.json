@@ -30,21 +30,7 @@
                 ],
                 "PriceModifierMode": "Stack",
                 "Owners": [
-                    {
-                        "Name": "Claire",
-                        "Portrait": "{{InternalAssetKey: assets/CharacterFiles/Shops/Joja/Claire_Vendor.png}}",
-                        "Dialogues": [
-                            {
-                                "Id": "FlashShifter.StardewValleyExpandedCP_JojaDay_Default",
-                                "Dialogue": "{{i18n:ShopsDialogue.ClaireJoja}}",
-                                "Condition": "IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay"
-                            },
-                            {
-                                "Id": "FlashShifter.StardewValleyExpandedCP_Default",
-                                "Dialogue": "{{i18n:ShopsDialogue.Claire}}",
-                            },
-                        ]
-                    },
+
                     {
                         "Name": "Martin",
                         "Portrait": "{{InternalAssetKey: assets/CharacterFiles/Shops/Joja/Martin_Vendor.png}}",
@@ -61,8 +47,19 @@
                         ]
                     },
                     {
-                        "Name": "Juliet",
-                        "Condition": "{{HasMod|contains=LemurKat.JulietHouse.NPC}}"
+                        "Name": "Claire",
+                        "Portrait": "{{InternalAssetKey: assets/CharacterFiles/Shops/Joja/Claire_Vendor.png}}",
+                        "Dialogues": [
+                            {
+                                "Id": "FlashShifter.StardewValleyExpandedCP_JojaDay_Default",
+                                "Dialogue": "{{i18n:ShopsDialogue.ClaireJoja}}",
+                                "Condition": "IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay"
+                            },
+                            {
+                                "Id": "FlashShifter.StardewValleyExpandedCP_Default",
+                                "Dialogue": "{{i18n:ShopsDialogue.Claire}}",
+                            },
+                        ]
                     },
                 ],
                 "VisualTheme": null,
@@ -576,7 +573,7 @@
                     },
                     {
                         "Id": "FlashShifter.StardewValleyExpandedCP_JojaDay_Poppy_Seeds",
-                        "ItemId": "(O)376",
+                        "ItemId": "(O)453",
                         "Condition": "IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay"
                     },
                     {

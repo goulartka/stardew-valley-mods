@@ -33,7 +33,7 @@ Formerly EVEN year = 3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 6
             "Target": "Maps/Town-Halloween",
             "FromFile": "Assets/Maps/MapPatches/KrobusPatched.tbin",
             "When": {
-                "HasSeenEvent": "1090501"
+                "HasSeenEvent: anyPlayer| contains=1090501": true,
             },
             "ToArea": {
                 "X": 36,
@@ -47,7 +47,7 @@ Formerly EVEN year = 3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 6
             "Target": "Maps/Town-Halloween2",
             "FromFile": "Assets/Maps/MapPatches/KrobusPatched.tbin",
             "When": {
-                "HasSeenEvent": "1090501"
+                "HasSeenEvent: anyPlayer| contains=1090501": true,
             },
             "ToArea": {
                 "X": 36,

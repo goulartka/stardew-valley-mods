@@ -333,6 +333,7 @@
                     "CanBePlacedIndoors": true,
                     "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\Fancy Iron Lamp-post",
                     "SpriteIndex": 0,
+                    "IsLamp": true,
                 },
                 "FlashShifter.StardewValleyExpandedCP_Fancy_Wood_Lamp-post": {
                     "Name": "Fancy Wood Lamp-post",
@@ -343,6 +344,7 @@
                     "CanBePlacedIndoors": true,
                     "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\Fancy Wood Lamp-post",
                     "SpriteIndex": 0,
+                    "IsLamp": true,
                 },
                 "FlashShifter.StardewValleyExpandedCP_Flower_Bushel_1": {
                     "Name": "Flower Bushel 1",
@@ -513,6 +515,7 @@
                     "CanBePlacedIndoors": true,
                     "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\Golden Skull Lamp-post",
                     "SpriteIndex": 0,
+                    "IsLamp": true,
                 },
                 "FlashShifter.StardewValleyExpandedCP_Ice_Crystal_1": {
                     "Name": "Ice Crystal 1",
@@ -563,6 +566,7 @@
                     "CanBePlacedIndoors": true,
                     "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\Iridium Skull Lamp-post",
                     "SpriteIndex": 0,
+                    "IsLamp": true,
                 },
                 "FlashShifter.StardewValleyExpandedCP_Iron_Node": {
                     "Name": "Iron Node",

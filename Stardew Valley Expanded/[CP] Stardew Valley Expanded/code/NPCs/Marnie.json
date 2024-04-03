@@ -109,7 +109,7 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"When": {
-				"HasSeenEvent": "1000026"
+				"HasSeenEvent: anyPlayer| contains=1000026": true,
 			},
 			"TargetField": [
 				424
@@ -125,7 +125,7 @@
 		"Action": "EditData",
 		"Target": "Data/Objects",
 		"When": {
-			"HasSeenEvent": "1000026"
+			"HasSeenEvent: anyPlayer| contains=1000026": true,
 		},
 		"TargetField": [
 			426

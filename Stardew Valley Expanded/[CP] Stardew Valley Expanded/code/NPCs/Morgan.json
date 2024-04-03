@@ -87,9 +87,6 @@
         //Morgan's Schedule
         "Action": "Load",
         "Target": "Characters/schedules/Morgan",
-        "When": {
-          "HasSeenEvent": "5978924"
-        },
         "FromFile": "assets/CharacterFiles/Schedules/Morgan/Schedule.json"
       },
       {
@@ -402,7 +399,7 @@
           "Price": 55
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -415,7 +412,7 @@
           "Price": 55
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -428,7 +425,7 @@
           "Price": 105
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -441,7 +438,7 @@
           "Price": 105
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -454,7 +451,7 @@
           "Price": 105
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -467,7 +464,7 @@
           "Price": 385
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -480,7 +477,7 @@
           "Price": 72
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -493,7 +490,7 @@
           "Price": 138
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -506,7 +503,7 @@
           "Price": 209
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -519,7 +516,7 @@
           "Price": 273
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -545,7 +542,7 @@
           "Price": 253
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -571,7 +568,7 @@
           "Price": 209
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -584,7 +581,7 @@
           "Price": 413
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -597,7 +594,7 @@
           "Price": 303
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -610,7 +607,7 @@
           "Price": 880
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -623,7 +620,7 @@
           "Price": 374
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -636,7 +633,7 @@
           "Price": 517
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -649,7 +646,7 @@
           "Price": 688
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       {
@@ -662,7 +659,7 @@
           "Price": 1172
         },
         "When": {
-          "HasSeenEvent": "5978939"
+          "HasSeenEvent: anyPlayer| contains=5978939": true,
         }
       },
       /*{
@@ -697,8 +694,8 @@
         "Action": "EditData",
         "Target": "Data/Objects",
         "When": {
-          "HasSeenEvent |contains=1000026": true,
-          "HasSeenEvent |contains=5978939": true
+          "HasSeenEvent: anyPlayer|contains=1000026": true,
+          "HasSeenEvent: anyPlayer|contains=5978939": true
         },
         "TargetField": [
           424
@@ -711,8 +708,8 @@
         "Action": "EditData",
         "Target": "Data/Objects",
         "When": {
-          "HasSeenEvent |contains=1000026": true,
-          "HasSeenEvent |contains=5978939": true
+          "HasSeenEvent: anyPlayer|contains=1000026": true,
+          "HasSeenEvent: anyPlayer|contains=5978939": true
         },
         "TargetField": [
           426

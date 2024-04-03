@@ -441,7 +441,7 @@
         "Price": 825
       },
       "When": {
-        "HasSeenEvent": "7776009"
+        "HasSeenEvent: anyPlayer| contains=7776009": true,
       }
     },
     /*{	//Increases Starfruit sell price by 10% - lower profit margin configuration = true

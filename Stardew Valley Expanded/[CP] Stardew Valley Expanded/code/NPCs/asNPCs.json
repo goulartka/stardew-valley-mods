@@ -241,14 +241,14 @@
         "Height": 11
       },
       "When": {
-        "HasSeenEvent": "55134259"
+        "HasSeenEvent: anyPlayer| contains=55134259": true,
       },
     },
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_Highlands",
       "When": {
-        "HasSeenEvent": "55134259"
+        "HasSeenEvent: anyPlayer| contains=55134259": true,
       },
       "TextOperations": [
         {

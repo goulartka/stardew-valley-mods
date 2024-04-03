@@ -430,7 +430,7 @@
                     "Height": 29
                },
                "When": {
-                    "HasSeenEvent": "746153084"
+                    "HasSeenEvent: anyPlayer| contains=46153084": true,
                },
                "Update": "OnLocationChange"
           },
@@ -456,7 +456,7 @@
                     "IsFarm": "T"
                },
                "When": {
-                    "HasSeenEvent": "746153084"
+                    "HasSeenEvent: anyPlayer| contains=746153084": true
                },
                "Update": "OnLocationChange"
           },
@@ -467,7 +467,7 @@
                     "ForceAllowTreePlanting": "T"
                },
                "When": {
-                    "HasSeenEvent": "746153084"
+                    "HasSeenEvent: anyPlayer| contains=746153084": true
                },
                "Update": "OnLocationChange"
           },
@@ -504,7 +504,7 @@
                     "Height": 2
                },
                "When": {
-                    "HasSeenEvent": "746153084"
+                    "HasSeenEvent: anyPlayer| contains=746153084": true
                },
                "Update": "OnLocationChange"
           },
@@ -527,7 +527,7 @@
                "Action": "EditMap",
                "Target": "Maps/Custom_Forestwest",
                "When": {
-                    "HasSeenEvent": "746153084"
+                    "HasSeenEvent: anyPlayer| contains=746153084": true
                },
                "Update": "OnLocationChange",
                "TextOperations": [
@@ -565,7 +565,7 @@
                "Action": "EditMap",
                "Target": "Maps/Custom_Forestwest",
                "When": {
-                    "HasSeenEvent": "746153084"
+                    "HasSeenEvent: anyPlayer| contains=746153084": true
                },
                "Update": "OnLocationChange",
                "TextOperations": [
@@ -603,7 +603,7 @@
                "Action": "EditMap",
                "Target": "Maps/Custom_Forestwest",
                "When": {
-                    "HasSeenEvent": "746153084"
+                    "HasSeenEvent: anyPlayer| contains=746153084": true
                },
                "Update": "OnLocationChange",
                "TextOperations": [
@@ -641,7 +641,7 @@
                "Action": "EditMap",
                "Target": "Maps/Custom_Forestwest",
                "When": {
-                    "HasSeenEvent": "746153084",
+                    "HasSeenEvent: anyPlayer| contains=746153084": true,
                     "Season": "Winter"
                },
                "Update": "OnLocationChange",

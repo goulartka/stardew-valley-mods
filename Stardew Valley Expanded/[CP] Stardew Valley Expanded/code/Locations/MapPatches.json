@@ -69,7 +69,7 @@
                     "Height": 16
                },
                "When": {
-                    "HasSeenEvent": "5515272"
+                    "HasSeenEvent: anyPlayer| contains=5515272": true,
                },
                "Update": "OnLocationChange"
           },
@@ -84,7 +84,7 @@
                     "Height": 39
                },
                "When": {
-                    "HasSeenEvent |contains=418172": true
+                    "HasSeenEvent: anyPlayer |contains=418172": true
                },
                "Update": "OnLocationChange"
           },
@@ -99,7 +99,7 @@
                     "Height": 39
                },
                "When": {
-                    "HasSeenEvent |contains=3073012": true,
+                    "HasSeenEvent: anyPlayer |contains=3073012": true,
                     "HasMod": "Nom0ri.RomRas, Parrot.RomRas"
                },
                "Update": "OnLocationChange"
@@ -115,7 +115,7 @@
                     "Height": 39
                },
                "When": {
-                    "HasSeenEvent |contains=3073013": true,
+                    "HasSeenEvent: anyPlayer |contains=3073013": true,
                     "HasMod": "Nom0ri.RomRas, Parrot.RomRas"
                },
                "Update": "OnLocationChange"
@@ -131,7 +131,7 @@
                     "Height": 2
                },
                "When": {
-                    "HasSeenEvent": "2120303"
+                    "HasSeenEvent: anyPlayer| contains=2120303": true,
                },
                "Update": "OnLocationChange"
           },
@@ -177,7 +177,7 @@
                     "Height": 24
                },
                "When": {
-                    "HasSeenEvent": "7775925",
+                    "HasSeenEvent: anyPlayer |contains=7775925": true,
                     "HasSeenEvent |contains=7776001": false
                },
                "Update": "OnLocationChange"

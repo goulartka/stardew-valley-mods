@@ -240,7 +240,7 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "When": {
-        "HasSeenEvent": "5407915"
+        "HasSeenEvent: anyplayer| contains=5407915": true,
       },
       "TargetField": [
         400
@@ -366,11 +366,11 @@
     },
     //event adds 1 heart of friendship to everyone at the banquet
     //Wine heals 200% more stamina and health
-    { 
+    {
       "Action": "EditData",
       "Target": "Data/Objects",
       "When": {
-        "HasSeenEvent": "5407917"
+        "HasSeenEvent: anyplayer| contains=5407917": true,
       },
       "TargetField": [
         348
@@ -502,11 +502,11 @@
       }
     },
     //pale ale, mead, and beer sale price increases 50%
-    { 
+    {
       "Action": "EditData",
       "Target": "Data/Objects",
       "When": {
-        "HasSeenEvent": "5407917"
+        "HasSeenEvent: anyPlayer| contains=5407917": true,
       },
       "TargetField": [
         303
@@ -516,11 +516,11 @@
       },
       "Update": "OnTimeChange"
     },
-    { 
+    {
       "Action": "EditData",
       "Target": "Data/Objects",
       "When": {
-        "HasSeenEvent": "5407917"
+        "HasSeenEvent: anyPlayer| contains=5407917": true,
       },
       "TargetField": [
         459
@@ -530,11 +530,11 @@
       },
       "Update": "OnTimeChange"
     },
-    { 
+    {
       "Action": "EditData",
       "Target": "Data/Objects",
       "When": {
-        "HasSeenEvent": "5407917"
+        "HasSeenEvent: anyPlayer| contains=5407917": true,
       },
       "TargetField": [
         346
@@ -893,7 +893,7 @@
       "Target": "Maps/Railroad",
       "FromFile": "Assets/Maps/MapPatches/RemoveRailroadBoulder.tbin",
       "When": {
-        "HasSeenEvent": "8050109"
+        "HasSeenEvent: anyPlayer| contains=8050109": true
       },
       "ToArea": {
         "X": 43,

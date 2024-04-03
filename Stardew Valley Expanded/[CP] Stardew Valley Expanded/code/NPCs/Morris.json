@@ -143,7 +143,7 @@
       "Action": "Load",
       "Target": "Characters/schedules/MorrisTod",
       "When": {
-        "HasSeenEvent": "5553210"
+        "HasSeenEvent: anyPlayer| contains=5553210": true,
       },
       "FromFile": "assets/CharacterFiles/Schedules/Morris/ScheduleMayor.json"
     },
@@ -151,8 +151,8 @@
       "Action": "EditData",
       "Target": "characters/schedules/MorrisTod",
       "When": {
-        "HasSeenEvent |contains=6663408": true,
-        "HasSeenEvent |contains=5553210": false
+        "HasSeenEvent: anyPlayer|contains=6663408": true,
+        "HasSeenEvent: anyPlayer|contains=5553210": false
       },
       "Entries": {
         "spring": "0 Custom_MorrisHouse 16 6 2/610 Custom_MorrisHouse 14 25 2/900 JojaMart 24 26 3/2200 Custom_MorrisHouse 16 6 0",
@@ -175,8 +175,8 @@
       "Action": "EditData",
       "Target": "characters/schedules/MorrisTod",
       "When": {
-        "HasSeenEvent |contains=6663408": true,
-        "HasSeenEvent |contains=5553210": true
+        "HasSeenEvent: anyPlayer|contains=6663408": true,
+        "HasSeenEvent: |contains=5553210": true
       },
       "Entries": {
         "spring": "0 Custom_MorrisHouse 16 6 2/610 Custom_MorrisHouse 14 25 2/900 JojaMart 24 26 3/2200 Custom_MorrisHouse 16 6 0",
@@ -195,7 +195,7 @@
       "Action": "EditData",
       "Target": "Data/ConcessionTastes",
       "When": {
-        "HasSeenEvent |contains=191393": false
+        "HasSeenEvent: anyPlayer |contains=191393": false
       },
       "Entries": {
         "MorrisTod": {
@@ -217,7 +217,7 @@
       "Action": "EditData",
       "Target": "Data/MoviesReactions",
       "When": {
-        "HasSeenEvent |contains=191393": false,
+        "HasSeenEvent: anyPlayer |contains=191393": false,
         "HasMod |contains=Tanpoponoko.SeasonalOutfits": false
       },
       "Entries": {
@@ -398,7 +398,7 @@
       },
       "Update": "OnLocationChange",
       "When": {
-        "HasSeenEvent": "6663408"
+        "HasSeenEvent: anyPlayer| contains=6663408": true,
       }
     },
     {
@@ -413,7 +413,7 @@
       },
       "Update": "OnLocationChange",
       "When": {
-        "HasSeenEvent": "6663408"
+        "HasSeenEvent: anyPlayer| contains=6663408": true,
       }
     },
     {
@@ -428,16 +428,16 @@
       },
       "Update": "OnLocationChange",
       "When": {
-        "HasSeenEvent |contains=6663408": true,
-        "HasSeenEvent |contains=5553210": false
+        "HasSeenEvent: anyPlayer |contains=6663408": true,
+        "HasSeenEvent: anyPlayer |contains=5553210": false
       }
     },
     {
       "Action": "EditMap",
       "Target": "Maps/Town",
       "When": {
-        "HasSeenEvent |contains=6663408": true,
-        "HasSeenEvent |contains=5553210": false
+        "HasSeenEvent: anyPlayer |contains=6663408": true,
+        "HasSeenEvent: anyPlayer |contains=5553210": false
       },
       "Update": "OnLocationChange",
       "TextOperations": [
@@ -456,8 +456,8 @@
       "Action": "EditMap",
       "Target": "Maps/Town",
       "When": {
-        "HasSeenEvent |contains=6663408": true,
-        "HasSeenEvent |contains=5553210": false
+        "HasSeenEvent: anyPlayer |contains=6663408": true,
+        "HasSeenEvent: anyPlayer |contains=5553210": false
       },
       "Update": "OnLocationChange",
       "TextOperations": [
@@ -476,8 +476,8 @@
       "Action": "EditMap",
       "Target": "Maps/Town",
       "When": {
-        "HasSeenEvent |contains=6663408": true,
-        "HasSeenEvent |contains=5553210": false
+        "HasSeenEvent: anyPlayer |contains=6663408": true,
+        "HasSeenEvent: anyPlayer |contains=5553210": false
       },
       "Update": "OnLocationChange",
       "TextOperations": [
@@ -496,7 +496,7 @@
       "Action": "EditMap",
       "Target": "Maps/Town",
       "When": {
-        "HasSeenEvent |contains=6663408": true
+        "HasSeenEvent: anyPlayer |contains=6663408": true
       },
       "Update": "OnLocationChange",
       "TextOperations": [
@@ -926,7 +926,7 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "When": {
-        "HasSeenEvent": "6665293"
+        "HasSeenEvent: anyPlayer| contains=6665293": true
       },
       "TargetField": [
         167

@@ -1555,6 +1555,19 @@
             },
          },
       },
+      {
+         "Action": "EditData",
+         "Target": "Mods/shekurika.VisibleFish/LocationData",
+         "TargetField": [
+           "Woods",
+           "Spawns",
+           "Wall_Basket"
+         ],
+         "Entries": {
+           "X": 83,
+           "Y": 69
+         }
+       },
       /* {
          "Action": "EditData",
          "Target": "Data/FishPondData",
