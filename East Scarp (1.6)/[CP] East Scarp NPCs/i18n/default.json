@@ -483,7 +483,7 @@
     "festivals.oliver.winter8.y2": "Hi @! Yeah you guessed it, I'm hiding from my Mom.$2",
     "festivals.oliver.winter8.3005": "Hi @! Yeah, Ellie wanted to tag along with me.#$b#I don't mind, she's cool. And it's kinda like having a kid sister.$1",
     "festivals.eloise.winter8.3005": "Hey Olly! I think I saw a lingcod. I hope it doesn't gobble up all the other fish!$3",
-    "festivals.rosa.winter8": "Brrr! We're thinking of sneaking into one of those ice huts. It's got to be warmer in there, right?$1",
+    "festivals.rosa.winter8.juliet": "Brrr! We're thinking of sneaking into one of those ice huts. It's got to be warmer in there, right?$1",
     "festivals.rosa.winter8.false": "It's peaceful out here, isn't it @? Wish it were warmer though.$2",
     "festivals.rosa.winter8.sve": "If you'd come out here sooner, @, you would've seen Robin and Leah carving the ice sculptures.#$b#Women with chainsaws - quite a formidable combination!$1",
     "festivals.vivienne.winter8": "Don't let George's grumpiness fool you, @. He was quite the charmer in his youth.$1#$b#Not that he ever had eyes for anyone except Evie, of course.",
@@ -4750,7 +4750,7 @@
     "Josephine_reject_EastScarp_Vintage_Ruby_Ring": "Oh, that's beautiful! I've an eye for gemstones @, and that's a fine one. Someone must be missing it.#$b#Oh, perhaps you could go around town and try it on people's fingers - like a modern-day Cinderella!$1",
     "Josephine_ShearwaterBridgeRenovationStart": "Your husband has been tasked with such an important project. You must be so proud!$1",
     "Josephine_AcceptGift_(O)167": "Oh, @... I'm afraid this really isn't a suitable gift... Might I suggest that you keep to produce and preserves? This concoction won't make you many friends.$2",
-    "Josephine_AcceptGift_(O)J44": "How absolutely delightful! I so love home preserves.$1",
+    "Josephine_AcceptGift_(O)J44": "How absolutely delightful! I do so love home preserves.$1",
     "Josephine_AcceptGift_(O)342": "Wonderful! These will add a wonderfully rustic touch to our next dinner party.$1",
     "Josephine_AcceptGift_(O)StardropTea": "What a wonderful beverage! The fragrance is truly unparallelled. Is this a local brew?",
     //*********************
@@ -5191,11 +5191,13 @@
     //Rosa additional dialogue (with Juliet)
     "Rosa_Juliet_cc_Complete": "I saw the JojaMart is all boarded up. What happened?#$b#I hope that doesn't mean Juliet's going to leave.$2",
     "Rosa_Juliet_summer_Tue": "Are you friends with Juliet? Now, there's a woman who knows her own mind!$1",
+    "Rosa_Juliet_summer_Tue.RivalHearts":"$d joja#Hey, you know Juliet? The cute clerk at the JojaMart? She's such a hoot.#$b#You won't believe what she said to me yesterday! Yep, something about melons.$1#$b#I bought two. Shes' err... very persuasive.$4|Have you seen you Juliet around? Now, there's a woman who knows her own mind!$1",
     "Rosa_Juliet_Resort_Wander": "Shh, don't tell Juliet, but I'm taking her to see the mermaid later.",
     "Rosa_Juliet_winter_Fri10": "Jules dropped by last night. She's convinced this place is haunted.#$b#Honestly, I'm not sure if she's here to see me, or try and catch a ghost.#$b#I'm happy for her company either way!$1",
     "Rosa_Juliet_fall_Fri6": "Jules and I have been talking about a seance. Spooky time of year and all that.#$b#Not really my scene, but you know what she's like. Do you want in on it?",
     "Rosa_Juliet_Sun6": "Hah, you should come join us sometime on Saturday night. Jules and me have been shooting pool down at the Stardrop.#$b#She's not quite the poolshark she thinks she is!$1#$e#But she does this cute little dance when she wins... so sometimes I miss on purpose.#$e#That's our little secret, 'k?$4",
     "Rosa_Juliet_fall_Fri10": "Jules dropped by last night. We watched a movie, and she fell asleep against my shoulder.#$b#It was pretty cute, even if she did drool a bit.$1",
+    "Juliet_Mon_IslandSouth":"I know Rosa's enjoying the landscape, but me? I'm enjoying the scenery. Heh.$4#$b#Up for a skinny dip, anyone? I'm sure the water's warm.$1",
     //************************
     //TORI Daily Dialogue
     "Tori_Introduction": "Oh, um... hi, I'm Victoria. Tori. I live here, I mean, in the 'Scarp.#$b#Hopefully we'll see each other around, right?",

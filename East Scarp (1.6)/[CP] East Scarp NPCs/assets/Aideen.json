@@ -91,7 +91,7 @@
             "Action": "Include",
             "FromFile": "assets/RivalHearts/AideenMateo.json",
             "When": {
-                "HasMod": "DestyNova.Mateo.CP",
+                "HasMod |contains=DestyNova.Mateo.CP, DN.SnS.CP, DN.SnS":true,
                 "RivalHearts |contains=AideenMateo": true
             }
         },

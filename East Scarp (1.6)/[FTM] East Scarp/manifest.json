@@ -2,7 +2,7 @@
   "Name": "Forage Settings East Scarp",
   "Author": "Lemurkat",
   "Description": "Controls forage and monsters in East Scarp",
-    "Version": "2.4.4",
+    "Version": "2.4.5",
   "UniqueID": "Lemurkat.EastScarpe.FTM",
    "UpdateKeys": ["Nexus:???"],
   "MinimumApiVersion": "2.5",

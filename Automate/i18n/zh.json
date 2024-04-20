@@ -41,5 +41,17 @@
     "config.machine-settings-enabled.Name": "启用",
     "config.machine-settings-enabled.desc": "是否启用{{machineName}}自动化。",
     "config.machine-settings-priority.name": "优先级",
-    "config.machine-settings-priority.desc": "相对于其他机器，{{machineName}}机器应处理的优先级顺序。机器默认优先级为0，优先处理更高值。"
+    "config.machine-settings-priority.desc": "相对于其他机器，{{machineName}}机器应处理的优先级顺序。机器默认优先级为0，优先处理更高值。",
+
+    // machine names
+    // TODO
+    "config.machines.bush": "Bush",
+    "config.machines.fruit-tree": "Tree (Fruit Tree)",
+    "config.machines.trash-can": "Trash Can",
+    "config.machines.wild-tree": "Tree (Wild Tree)",
+
+    // special settings for individual machines
+    // TODO
+    "config.machines.wild-tree.collect-moss.name": "Collect Moss",
+    "config.machines.wild-tree.collect-moss.desc": "Whether to collect moss on trees. For example, keeping moss on trees will boost the quality of mushrooms from nearby mushroom logs."
 }

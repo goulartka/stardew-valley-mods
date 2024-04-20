@@ -1149,9 +1149,10 @@
 			],
 			"Entries": {
 				"Custom_LK_ClearingHouse": {
-					"Location": "Custom_LK_ClearingHouse",
-					"Tile": {
-						"X": 54,
+					"ID": "Lemurkat_ClearingHouse",
+					"TargetLocation": "Custom_LK_ClearingHouse",
+					"TargetTile": {
+						"X": 55,
 						"Y": 7
 					},
 					"Direction": "down",

@@ -987,8 +987,8 @@
                     }, //insert here
                     "Fish": [
                         {
-                            "Id": "EastScarp_Fairy_Betta",
-                            "ItemId": "(O)EastScarp_Fairy_Betta_OrchardFresh",
+                            "Id": "EastScarp_Fairy_Betta_OrchardFresh",
+                            "ItemId": "(O)EastScarp_Fairy_Betta",
                             "FishAreaID": "OrchardFresh",
                             "Condition": "LOCATION_Season Here spring summer fall"
                         },

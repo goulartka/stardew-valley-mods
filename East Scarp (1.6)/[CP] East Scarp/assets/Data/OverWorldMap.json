@@ -274,8 +274,8 @@
                                     "Id": "ToriHouse",
                                     "LocationName": "EastScarp_NTHouse",
                                     "MapPixelArea": {
-                                        "X": 102,
-                                        "Y": 60,
+                                        "X": 94,
+                                        "Y": 74,
                                         "Width": 9,
                                         "Height": 6
                                     },
@@ -285,12 +285,12 @@
                                     "Id": "ToriBasement",
                                     "LocationName": "EastScarp_ToriSlimeBasement",
                                     "MapPixelArea": {
-                                        "X": 94,
+                                        "X": 102,
                                         "Y": 75,
-                                        "Width": 10,
-                                        "Height": 7
+                                        "Width": 2,
+                                        "Height": 6
                                     },
-                                    "ScrollText": "{{i18n:EastScarp.Locations.Tori}}"
+                                    "ScrollText": "{{i18n:EastScarp.Locations.ToriBasement}}"
                                 },
                                 {
                                     "Id": "ScarpeInn",

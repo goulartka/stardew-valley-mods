@@ -8,8 +8,8 @@
     "config.enabled.desc": "Ob automatisierte Funktionen verwendet werden sollen. Wenn deaktiviert werden Maschinen nicht automatisiert und das Overlay erscheint nicht.",
     "config.automation-interval.name": "Automatisierungs-Intervall",
     "config.automation-interval.desc": "Die Anzahl der Ticks zwischen den einzelnen Automatisierungsprozessen (60: 1x pro Sekunde, 120: alle zwei Sekunden usw.).",
-    "config.min-minutes-for-fairy-dust.name": "Min minutes for fairy dust", // TODO
-    "config.min-minutes-for-fairy-dust.desc": "The minimum machine processing time in minutes for which to apply fairy dust. For example, setting this to 30 minutes means fairy dust won't be applied if the machine would finish in 20 minutes without it.", // TODO
+    "config.min-minutes-for-fairy-dust.name": "Min. Minuten für Feenstaub",
+    "config.min-minutes-for-fairy-dust.desc": "Die minimale Maschinenlaufzeit in Minuten, bei der Feenstaub verwendet wird. Zum Beispiel bedeutet ein Wert von 30 Minuten, dass kein Feenstaub verwendet wird, wenn die Maschine ohne Feenstaub nur 20 Minuten benötigen würde.",
     "config.toggle-overlay-key.name": "Taste zum Umschalten des Overlays",
     "config.toggle-overlay-key.desc": "Die Tasten, mit denen das Automatisierungs-Overlay umgeschaltet wird.",
     "config.warn-for-missing-bridge-mod.name": "Warnung für fehlende Brücken-Mod",
@@ -41,5 +41,17 @@
     "config.machine-settings-enabled.Name": "Aktiviert",
     "config.machine-settings-enabled.desc": "Ob Automatisierung für {{machineName}} aktiviert werden soll.",
     "config.machine-settings-priority.name": "Priorität",
-    "config.machine-settings-priority.desc": "Die Prioritätsreihenfolge, in der {{machineName}} Maschinen im Verhältnis zu anderen Maschinen verarbeitet werden sollen. Maschinen haben eine Standardpriorität von 0, wobei höhere Werte zuerst verarbeitet werden."
+    "config.machine-settings-priority.desc": "Die Prioritätsreihenfolge, in der {{machineName}} Maschinen im Verhältnis zu anderen Maschinen verarbeitet werden sollen. Maschinen haben eine Standardpriorität von 0, wobei höhere Werte zuerst verarbeitet werden.",
+
+    // machine names
+    // TODO
+    "config.machines.bush": "Bush",
+    "config.machines.fruit-tree": "Tree (Fruit Tree)",
+    "config.machines.trash-can": "Trash Can",
+    "config.machines.wild-tree": "Tree (Wild Tree)",
+
+    // special settings for individual machines
+    // TODO
+    "config.machines.wild-tree.collect-moss.name": "Collect Moss",
+    "config.machines.wild-tree.collect-moss.desc": "Whether to collect moss on trees. For example, keeping moss on trees will boost the quality of mushrooms from nearby mushroom logs."
 }

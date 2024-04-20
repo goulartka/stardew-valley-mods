@@ -530,7 +530,7 @@
                 "Cheesy Jelly Toast": "216 1 344 1 424 1/1 10/EastScarp_Cheesy_Jelly_Toast 3/f Eloise 7/",
                 "Rosa's Baklava": "340 1 246 1 408 1/1 10/EastScarp_Rosas_Baklava 3/f Rosa 7/",
                 "Rosa's Spanakopita": "250 1 426 1 246 1 399 2/1 10/EastScarp_Rosas_Spanakopita/none/",
-                "Toast": "216 1/10 10/EastScarp_Toast 3/farming 0/",
+                "EastScarp_Toast": "216 1/1 10/EastScarp_Toast 3/default/",
             }
         },
         {

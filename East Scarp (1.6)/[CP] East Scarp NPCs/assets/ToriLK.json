@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "ToriLK": "{{i18n:gift.torilk.love}}/680 413 437 439 557 903/{{i18n:gift.torilk.like}}/394 392 876/{{i18n:gift.torilk.dislike}}/-4/{{i18n:gift.torilk.hate}}//{{i18n:gift.torilk.neutral}}/766/"
+                "ToriLK": "{{i18n:gift.torilk.love}}/680 413 437 439 557 903 857/{{i18n:gift.torilk.like}}/394 392 876/{{i18n:gift.torilk.dislike}}/-4/{{i18n:gift.torilk.hate}}//{{i18n:gift.torilk.neutral}}/766/"
             }
         },
         {

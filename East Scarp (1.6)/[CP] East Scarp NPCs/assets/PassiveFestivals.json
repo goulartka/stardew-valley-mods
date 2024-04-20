@@ -508,7 +508,7 @@
                 "marriage_EastScarpe_SpiritsEve": "a1300 EastScarp_VillageInn 33 27 0/1450 EastScarp_VillageInn 31 29 2/2020 bed"
             },
             "When": {
-                "HasMod": "DestyNova.Mateo.CP"
+                "HasMod |contains=DestyNova.Mateo.CP, DN.SnS.CP, DN.SnS":true,
             }
         },
         //Moves ItsBenter's family
