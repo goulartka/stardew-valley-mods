@@ -28,10 +28,6 @@
 		"GenderNeutral": {
 			"AllowValues": "true,false",
 			"Default": "false"
-		},
-		"AllowNagito": {
-			"AllowValues": "true,false",
-			"Default": "false"
 		}
 	},
 	"DynamicTokens": [

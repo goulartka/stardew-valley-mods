@@ -1,0 +1,164 @@
+{
+"Changes": [
+	{
+   
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/MarriageDialogueZinnia",
+   "Entries": {
+
+///Spring
+	"spring_1": "It's the begining of a new year! I know this year will be the best ever, especially with you by my side!$h",
+	"spring_13": "Today's the Egg Festival, honey! I'll meet you there after you finish your morning work.#$b#I'll be cheering for you to win to Egg Hunt!$h",
+	"spring_24": "It's the Flower Dance today!$h#$b#I've picked out my best dress for just you, honey.$l",
+	"spring_28": "The end of spring has arrived, @.#$b#While I loved seeing all the pretty flowers, I know that summer will be better than ever with you!$h",
+
+///Summer
+	"summer_1": "The warm summer air is finally here! It's time to get out and have fun!#$b#Make sure you wear your sunscreen, honey!$h",
+	"summer_7": "Today's a very exciting day... you know why, right honey?#$b#It's my birthday!$h#$b#Don't worry, you don't have to get me anything...#$b#I already have the best gift I could ever imagine!$l",
+	"summer_11": "Just thinking about the Luau tonight makes my stomach grumble! What are we adding to the pot, dear?#$b#We don't want people looking at our family with angry eyes, so make sure it's good!$h",
+	"summer_28": "I can't believe the season's already over...$s#$b#Hey, dear, are you coming to the Dance of the Moonlight Jellies tonight? I'd love to watch it with your hand in mine.$l",
+
+///Fall
+	"fall_1": "The leaves have already started to turn orange and fall down. Stay warm, honey, I'd hate for you to catch a cold.",
+	"fall_16": "I know our farm's grange display is going to be the best one at the fair today!#$b#You're the best farmer in the town, in my opinion.$l",
+	"fall_27": "Are you going to wear a costume to the festival tonight?#$b#Usually I'd be a little scared to go, but if you were there I'd feel a lot better!$h",
+	"fall_28": "The air's getting chilly... I can feel the snow ready to fall tomorrow! Make sure to clear out any crops today, honey!",
+
+///Winter
+	"winter_1": "The snow is so pretty when it falls from the sky... I can just feel that this season is going to be amazing!",
+	"winter_9": "I know you'll win the Ice Fishing competition today!#$b#You're the best at fishing in my eyes, at least!$h",
+	"winter_15": "Hi dear. I'm going to visit the Night Market today. Maybe I'll buy something cute to add to the house!$h",
+	"BeachNightMarket": "Hi, honey! They have some cute statues in that stall over there. I think the farm would look perfect with one of those!$h",
+	"winter_22": "Today's my brother's birthday! Did you get him anything, honey?#$b#[395] Here, take this Coffee... he loves this a ton!",
+	"winter_25": "Happy Feast of the Winter Star, honey!#$b#[221] Here, I got you a little something. I know it isn't time for the official gift swap, but I wanted to get something for my love anyways!",
+	"winter_28": "Another year has gone by... thanks for making it amazing, @.#$b#Let's have some fun at midnight tonight...$l",
+
+///Room
+	"spouseRoom_Zinnia": "{{Random: I might write a bit in my diary today. Gotta keep the mind sharp!$h 88 I read in Mom's book that there's a cave with glistening gems of all colors somewhere in the mines.#$b#I'm gonna write a plan to try and find it today.#$b#It might take me a while, so don't mind me! 88 I read in Mom's book that there's a skeleton sanctuary hidden in the caves somewhere.#$b#I'm gonna write a plan to try and find it today.#$b#It might take me a while, so don't mind me! 88 I read in Mom's book that there's hidden hot springs somewhere in the mines.#$b#I'm gonna write a plan to try and find it today.#$b#It might take me a while, so don't mind me! 88 Thanks for letting me set up my own room, honey! I think it looks great! 88 Hey, @, after you finish working, we should play with some of my stuffed animals. I think you can never be too old for that!$h |inputSeparator=88}}",
+
+///Patio
+	"patio_Zinnia": "{{Random: Ah, it's always nice to sit and relax on our lovely farm! 88 Hi, honey! Don't mind me, I'm just sitting and appreciatiing everything we have together. 88 I grew the flowers behind me all on my own. Did I do a good job, honey?#$b#I know they're not as good as anything you can grow, but I still think they're pretty nice! 88 Hello, dear! I just came back from a long walk, so I'm resting here before I head in. Have a good day today!$h 88 I may not be the best at gardening, but I still think it's pretty fun! |inputSeparator=88}}",
+
+///Rainy Day 
+	"Rainy_Day_0": "I woke up early thinking I would get a quick morning walk in, but it was raining buckets!#$b#At least now I can spend time with you, @...$l",
+	"Rainy_Day_1": "Rain used to be my least favorite weather, but now I enjoy the rain because it means more time I get to spend inside with you.$l",
+	"Rainy_Day_2": "It's raining, honey! That means you don't have to water your crops today...#$b#...and you get to spend more time with me!$h",
+	"Rainy_Day_3": "Brr... it's chilly today! Stay warm, honey. I worry about your health.",
+	"Rainy_Day_4": "My Dad told me when I was a kid that rain was Yoba's way of saying thanks to us humans on the ground.#$b#I'm not super religious, but I just think that's pretty interesting!$h",
+	"Rainy_Day_Zinnia": "I didn't see a rain forecast yesterday!#$b#Oh well, I guess that just means we get to spend more time together inside, right, dear?$l",
+
+///Rainy Night
+	"Rainy_Night_0": "@, you're soaked!$s#$b#Here, let me get you a towel, and then we can snuggle by the fireplace...$l",
+	"Rainy_Night_1": "@, you look so cold!$s#$b#[224] Come, let's have some hot spaghetti for dinner. It'll warm you right up!$h",
+	"Rainy_Night_2": "You're so lucky that you're able to work in the rain. The rain makes my spirit dull...$s#$b#...but then you come inside and make it light up again!$h",
+	"Rainy_Night_3": "The best feeling in the world is sleeping in a warm bed during a rainstorm next to the love of your life.$l#$b#I can't wait for bedtime, @!$h",
+	"Rainy_Night_4": "Oh, hi, honey. The rain has made me feel a little gloomy today, but when you came in, everything was all better.$l",
+	"Rainy_Night_5": "Hello, dear. I just wanted to say thank you.#$b#You do so much for us to keep us comfortable on nights like this, and I want you to know that I really appreciate you.$l",
+	"Rainy_Night_Zinnia": "@, you're finally back! I was beginning to get a little scared.#$b#Now, dry up and we then we can watch a movie by the fireplace.#$b#It'll be just what we need after this gloomy day.$l",
+
+///Indoor Day
+	"Indoor_Day_0": "It's a beautiful day to be in Stardew Valley! Have a good day, honey! Don't overwork yourself!",
+	"Indoor_Day_1": "Hi honey! You were very cuddly last night during your sleep.#$b#Don't worry, I thought it was very cute!$h",
+	"Indoor_Day_2": "[211] Good morning, dear! I cooked you some breakfast before you go to work. I hope you like it!",
+	"Indoor_Day_3": "I know you're more experienced in running the farm, but if I were you, I'd want a million little animals roaming around! They're so adorable!",
+	"Indoor_Day_4": "Hi, dear! I think I'm going to read more of my Mom's book today.#$b#She wrote out so many cute little notes for Uncle Marlon and Gil that I think are so interesting!",
+	"Indoor_Day_Zinnia": "It's going to be a great day today, @! Make sure to stay safe, I worry about you!",
+
+//Indoor Night
+	"Indoor_Night_0": "Did you go into the mines today, honey? I get worried everytime you do, but I know that you're strong enough to handle it!$h#$b#Just, try not to hurt too many innocent monsters, okay?",
+	"Indoor_Night_1": "Welcome back, @. I was cleaning some things around the house and found this!#$b#[577] It's from my personal rock collection. It reminds me of you...$l",
+	"Indoor_Night_2": "Hi, honey! I was just missing you.#$b#I know you have a lot of work, but I always love it when you're home with me.$l",
+	"Indoor_Night_3": "Hi, dear. I spent some time journaling today. I think I might be able to find another one of Mom's secret caverns soon!",
+	"Indoor_Night_4": "Night on %farm Farm is so much different than in Zuzu...#$b#It's so peaceful and beautiful. In the city all I would hear were car horns and yelling.#$b#Now I hear peaceful crickets and your lovely voice!$h",
+	"Indoor_Night_Zinnia": "I hope Gabe is doing all right tonight. I know he might feel a bit lonely now that I've moved out.#$b#He's always been so supportive of me and you, so I hope he finds someone just perfect for him too!",
+
+///Outdoors
+	"Outdoor_0": "Hi honey! I was just drinking some tea while looking at our amazing farm.#$b#[614] Here, I made you a cup, too!$h",
+	"Outdoor_1": "There's nothing like the morning air next to my one true love! Have a good day, dear.",
+	"Outdoor_2": "Wow! Did it just get hotter out here?$h",
+	"Outdoor_3": "Good morning, dear. I'm just admiring what we have here.#$b#Remember to be careful out there! I worry about your safety when you're gone.",
+	"Outdoor_4": "I love the smell of morning air - it feels like it's gonna be an amazing day!",
+
+//Leaving
+	"funLeave_Zinnia": "{{Random: Good morning, dear. I'm going to go on a walk through town today. It's never a bad idea to check in on your friends!$h 88 Hi, honey. I'm going to go into town today. Maybe I'll even visit my Uncle and brother.#$b#Stay safe while I'm gone!$h 88 Dr. Harvey said it was a good idea to go on walks for our health, so I'm going to go out today.#$b#You should come join me, dear, if you aren't too busy.$h 88 Hi, @. I'm going to be out of the house today - I'm spending time with Gabe and Marlon. Don't miss me too much!$h 88 [35] Hi, dear. I made you some eggs for breakfast.#$b#I'm going to go out today, but I always will have time to make something delicious for you!$h 88 Hi honey! I hope you have a great day today.#$b#I'm going to go into town today, so have fun while I'm gone!$h |inputSeparator=88}}",
+
+//Returning
+	"funReturn_Zinnia": "{{Random: That walk was amazing. I checked in with almost everyone in town!#$b#I love living in this quaint community!$h 88 Oh, hi, honey. My walk was great.#$b#[591 593 595 597 376 402 418 18] Here, I picked out a pretty flower for you...$l#$b#It reminded me of how beautiful you were! 88 I had a great time today. I love visiting my family!#$b#Did you know that Gabe is working on a research paper? I'm so proud of him!$h 88 I had a great time back at the Guild today.#$b#Uncle Marlon isn't getting any younger, so I'd love to spend as much time as I can with him and Gabe. 88 Oh, @! I was just about to come get you.#$b#[206] Guess what? I brought back a hot pizza from the Saloon for us! I hope you like it. 88 *Yawn* I'm exhuasted! I spent all day traveling around town talking to everyone.#$b#I love being a part of this community!$h |inputSeparator=88}}",
+
+//One kid
+	"OneKid_0": "I think I'll give %kid1 some of my favorite stuffed animals to play with. I just know they'll love them!",
+	"OneKid_1": "Hi, @! I already fed and kissed %kid1.#$b#You should talk to them sometime, they need their father too!^You should talk to them sometime, they need their other mom too!",
+	"OneKid_2": "I'm gonna be the mother that I think my Mom would've been if she had more time with me. I don't want %kid1 to ever feel lost or unworthy, like I did.",
+	"OneKid_3": "Hi, honey. I can't believe we already have a kid together. Life couldn't be any better.",
+
+//Two kids
+	"TwoKids_0": "Hey, honey, do you think %kid1 and %kid2 will be farmers like you?#$b#I can already see them out and about, just like you!",
+	"TwoKids_1": "I fed %kid1 and gave %kid2 a bath. Being a Mom is hard work, but I love it!$h",
+	"TwoKids_2": "One day we should take %kid1 and %kid2 out on a family trip. I'd love for them to see the world before they grow up.",
+	"TwoKids_3": "2 kids, an amazing spouse, and the most beautiful plot of land in the entire valley. This is the life!$l",
+
+//Relationship-dependent
+///Good
+	"Good_0": "Hi, honey. You look really cute in the morning light.$l",
+	"Good_1": "It's a bit embarasshing, but I've dreamed of kissing your lips since the moment we met...$l",
+	"Good_2": "Moving here was the best decision I've ever made, because I got to meet you and be a part of this amazing community.",
+	"Good_3": "[591 593 595 597 376 402 418 18] Hi, honey! I bought you some flowers from the general store. I hope you like them, dear.$l",
+	"Good_4": "Wow, @... you look so amazing today. Even your bedhead looks good!$l",
+	"Good_5": "I'm never going to stop cherishing this pendant, @. It's the best gift I've ever received.$l",
+	"Good_6": "I never thought I'd find true love after I my last relationship ended, but I'm so glad that I was so wrong.#$b#You're amazing, @.$l",
+	"Good_7": "When I first told Emily about my crush on you, she told me that we were destined to be together.#$b#I guess she was right, huh?$l",
+	"Good_8": "Hi, @... oh, why am I smiling?$l#$b#Haha, you're so funny!$h",
+	"Good_9": "Hi, @. I just wanted to say that I love you so much.$l#$b#Nothing else, but I just wanted to say it. You can never have too much love in your life, you know?$h",
+
+///Neutral
+	"Neutral_0": "I'm glad Sam was so open about my relationship with you. Did you know he confessed that he liked me before?#$b#I didn't feel the same, but I'm glad we're still friends!",
+	"Neutral_1": "Hi, @. I hope you have a nice day today. Maybe we can hang out, if you have time?",
+	"Neutral_2": "Oh, hi. Do you have anything to do today? We could spend some time together if you want!$h",
+	"Neutral_3": "I saw some cute squirrels by the trees near our crops. They're so cute with their adorable little cheeks!",
+	"Neutral_4": "Being married to you has made me an official part of the Pelican Town community. I'm so happy for that!",
+	"Neutral_5": "Hey, @, do you like homecooked lunches? I hope so!#$b#[241] I made some burgers for us, if you want them.",
+	"Neutral_6": "Have a good day today, dear. Be safe, I don't want anything to happen to you!",
+	"Neutral_7": "People used to call me the sunshine girl back home. I guess now I'm the sunshine girl married to the sky farmer!",
+	"Neutral_8": "Wouldn't it be so cool if Gabe got married to someone too? Then we go out on double dates with him!#$b#Psst... I heard he has a crush on {{Random: Abigail, Alex, Elliott, Emily, Leah, Maru, Penny, Sam, Sebastian, Shane, Haley, Harvey}}...#$b#You didn't hear it from me, though!$h",
+	"Neutral_9": "My mom always said that one day I would find my perfect match. After all this time, I think that she was actually right!$h",
+
+///Bad
+	"Bad_0": "Oh, um, hi...$s#$b#I'm might just, um, stay in my room all day...$s",
+	"Bad_1": "What?$u#$b#Oh, my Mermaid's Pendant... I think I put in a drawer somewhere...$s",
+	"Bad_2": "Just one day I'd like to spend a little more time with you...$u#$b#It feels like I'm always alone here.$s",
+	"Bad_3": "Hmm? Oh, um, I was just wondering what my life would be if I made some different choices...$s",
+	"Bad_4": "I think that Emily's free today. I might just spend the entire day with her...$s",
+	"Bad_5": "Oh, hi @. I was just dusting off my diary. I only write good things in there to keep the positive energy.#$b#It's, um, been a while since I made a new entry...$s",
+	"Bad_6": "I watched a TV show where the married couple spent every weekend together. I wonder what that could feel like...$s",
+	"Bad_7": "I never knew that getting married would lead to me feeling like this... I thought it was all sunshine and hearts.$s",
+	"Bad_8": "Oh, uh, hi @. I was going to go out today, but something just made me feel like staying home and doing nothing all day.$s",
+	"Bad_9": "My dad told me that his marriage felt like he was soaring every day. I guess every person's experience is different.$s",
+			},
+		},
+
+	{
+ 
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/MarriageDialogueZinnia",
+   "Entries": {
+	"funLeave_Zinnia": "Good morning, honey! I'm going to head to the library today to research some more of Mom's book.#$b#{{Random: I'm almost on the verge of finding how I can uncover the hidden skeleton sanctuary! 88 I think I've almost found out how to find a crazy gem cave! 88 Mom described a beautiful underground pool that I really want to see! |inputSeparator=88}}$h#$b#Come visit if you time, dear!$h",
+
+	"funReturn_Zinnia": "Hi, honey! I had a great day today. I learned a lot more about the secret places in the mines.#$b#I might even go on an expedition soon!$h#$b#How was your day, dear?",
+			},
+   "When": {
+		"HasSeenEvent: anyPlayer": "8280005",
+		"DayOfWeek": "Monday, Thursday",
+		},
+	},
+
+	//Other Dialogue
+	{
+            "Action": "EditData",
+            "Target": "Strings/Characters",
+	    "Entries": {
+	"MovieInvite_Spouse_Zinnia": "A movie? Sure! I'd love to go with you, honey!#$b#I hope it's a fun one!$h",
+		},
+	},
+
+	],
+}

@@ -1,0 +1,67 @@
+{
+"Changes": [	
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/schedules/Gabriel",
+	    "Entries": {
+	
+	//specific days
+	"winter_15": "630 Custom_GE_ZinniaRoom 20 7 0/800 Custom_GE_MonsterResearchWing 4 11 0/1000 Custom_GE_MonsterResearchWing 10 10 0/1200 Custom_GE_MonsterResearchWing 8 12 1 gabriel_read_right \"Strings\\schedules\\Gabriel:reading\"/1400 Beach 11 30 3/2130 Custom_GE_ZinniaRoom 16 6 3 gabriel_sleep",
+
+	//rain
+	"rain": "GOTO spring",
+
+	//days of the week
+	"Mon": "630 Custom_GE_ZinniaRoom 14 7 0/730 Custom_GE_MonsterResearchWing 4 11 0/900 SeedShop 12 27 3 \"Strings\\schedules\\Gabriel:grocery\"/1300 Custom_GE_ZinniaRoom 21 23 0/1730 Custom_GE_MonsterResearchWing 10 10 0/1830 Custom_GE_MonsterResearchWing 8 12 1 gabriel_read_right \"Strings\\schedules\\Gabriel:reading\"/1930 Custom_GE_MonsterResearchWing 4 11 0/2030 Custom_GE_ZinniaRoom 20 7 0/2100 Custom_GE_ZinniaRoom 18 6 0/2200 Custom_GE_ZinniaRoom 15 8 2/2300 Custom_GE_ZinniaRoom 18 6 0/2400 Custom_GE_ZinniaRoom 16 6 3 gabriel_sleep",
+	"Sat": "630 Custom_GE_ZinniaRoom 20 7 0/730 Custom_GE_MonsterResearchWing 4 11 0/900 ArchaeologyHouse 15 5 0 \"Strings\\schedules\\Gabriel:library\"/1400 ArchaeologyHouse 23 17 3 gabriel_read_left \"Strings\\schedules\\Gabriel:reading\"/1800 Custom_GE_MonsterResearchWing 8 12 1 gabriel_read_right \"Strings\\schedules\\Gabriel:reading\"/2300 Custom_GE_ZinniaRoom 20 7 0/2400 Custom_GE_ZinniaRoom 16 6 3 gabriel_sleep",
+	
+	//base schedules
+	"spring": "630 Custom_GE_ZinniaRoom 20 7 0/900 Custom_GE_MonsterResearchWing 4 11 0/1100 Custom_GE_MonsterResearchWing 10 10 0/1230 Custom_GE_MonsterResearchWing 8 12 1 gabriel_read_right \"Strings\\schedules\\Gabriel:reading\"/1400 Custom_GE_MonsterResearchWing 5 11 3 gabriel_sit_left_doze \"Strings\\schedules\\Gabriel:asleep\"/1600 Custom_GE_MonsterResearchWing 11 13 3 gabriel_read_left \"Strings\\schedules\\Gabriel:reading\"/1800 AdventureGuild 2 14 2 \"Strings\\schedules\\Gabriel:rest\"/2000 Custom_GE_MonsterResearchWing 4 11 0/2100 Custom_GE_MonsterResearchWing 8 12 1 gabriel_read_right \"Strings\\schedules\\Gabriel:reading\"/2400 Custom_GE_ZinniaRoom 16 6 3 gabriel_sleep",
+
+	//marriage
+	"marriage_Mon": "830 SeedShop 12 27 3 \"Strings\\schedules\\Gabriel:marriage_grocery\"/1130 Custom_GE_MonsterResearchWing 10 10 0/1600 Custom_GE_MonsterResearchWing 8 12 1 gabriel_read_right \"Strings\\schedules\\Gabriel:marriage_reading2\"/1800 BusStop -1 23 3",
+	"marriage_Sat": "800 ArchaeologyHouse 15 5 0 \"Strings\\schedules\\Gabriel:marriage_reading3\"/1100 ArchaeologyHouse 23 17 3 gabriel_read_left \"Strings\\schedules\\Gabriel:marriage_reading3\"/1400 AdventureGuild 10 12 1 \"Strings\\schedules\\Gabriel:marriage_Gil\"/2000 BusStop -1 23 3",
+	"marriage_winter_15": "830 AdventureGuild 2 14 2 \"Strings\\schedules\\Gabriel:marriage_Marlon\"/1300 AdventureGuild 10 12 1 \"Strings\\schedules\\Gabriel:marriage_Gil\"/1430 Beach 11 30 3 \"Strings\\schedules\\Gabriel:marriage_nightmarket\"/2200 BusStop -1 23 3",
+		},
+	},
+
+	//Goes To Therapy After 6 Heart Event
+	{
+            "Action": "EditData",
+            "Target": "Characters/schedules/Gabriel",
+	    "Entries": {
+	
+		"Sun": "630 Custom_GE_ZinniaRoom 20 7 0/700 BusStop 12 9 gabriel_invisible \"Strings\\schedules\\Gabriel:bus\"/1600 Custom_GE_MonsterResearchWing 4 11 0/2000 Custom_GE_MonsterResearchWing 10 10 0/2100 Custom_GE_MonsterResearchWing 8 12 1 gabriel_read_right \"Strings\\schedules\\Gabriel:reading\"/2300 Custom_GE_ZinniaRoom 20 7 0/2400 Custom_GE_ZinniaRoom 16 6 3 gabriel_sleep",
+
+		"marriage_Sun": "900 BusStop 12 9 gabriel_invisible \"Strings\\schedules\\Gabriel:bus\"/1500 Town 17 57 1 gabriel_read_right \"Strings\\schedules\\Gabriel:marriage_reading\"/1730 BusStop -1 23 3",
+
+		},
+	    "When": {
+		"HasSeenEvent: anyPlayer |contains=8280012": "true",
+		},
+	},
+
+	//STRINGS
+	{
+		"Action": "EditData",
+		"Target": "Strings/schedules/Gabriel",
+		"Entries": {
+			"reading": "Oh, sorry, I can't really talk right now...#$b#I'm kind of in the middle of some important research.",
+			"asleep": "Zzz...$7#$b#%Gabriel's fast asleep...",
+			"rest": "I'm just out for a quick break. I'll be right back to work soon.",
+			"grocery": "Oh, hello. I'm just grabbing some groceries for the week.",
+			"library": "I come into the library once a week to grab new books for my research.#$b#This library isn't as expansive as the one back in Zuzu, but it'll have to do.",
+			"bus": "%It's a bus.",
+			"marriage_reading": "Oh, hi, honey! I'm just reading a bit in the town.#$b#Now that I've married you, I've really begun to enjoy the outdoors more!$h",
+			"marriage_reading2": "Hi, honey. I'm just doing some research at the Guild. I'll be back home soon, don't worry!",
+			"marriage_reading3": "Hi, @! I'm just checking out my books to research with for the week. Come read with me if you have the chance!#$b#I'd love to spend more time with you...$l",
+			"marriage_grocery": "Oh, honey! I'm just grabbing some groceries for the week.#$b#I have a nice dish in my mind to treat you with.$l",
+			"marriage_Gil": "Hi, Gil! How's everything doing?#$b#I wish I could spend more time here, but I'm loving married life!",
+			"marriage_Marlon": "Hey honey. I'm just spending time with my Uncle today.#$b#I want to stay close with my family, you know?",
+			"marriage_nightmarket": "Hi honey! What are you checking out first?#$b#I might buy up that painting for our house... I think we have a perfect place to put it!$h",
+		},
+	},
+
+	]	
+}

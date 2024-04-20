@@ -215,6 +215,7 @@
 				"ToriBlueSlime": "{{i18n:Strings.ToriBlueSlime}}",
 				"ToriDresser": "{{i18n:Strings.ToriDresser}}",
 				"ToriTrash": "{{i18n:Strings.ToriTrash}}",
+				"ToriBonsai":"{{i18n:Strings.ToriBonsai}}",
 				"DeepMountains.GoatGrave":"{{i18n:DeepMountains.GoatGrave}}"
 			}
 		},

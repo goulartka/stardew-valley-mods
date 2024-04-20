@@ -1,0 +1,24 @@
+{
+"Changes": [
+
+	{
+            "Action": "EditData",
+            "Target": "Data/Mail",
+	    "Entries": {
+		"FinishedGuild": "@,^^Just writing to let you know that Robin finally finished our expansion for the Guild.^^Now that it's done, I've invited a few visitors from Zuzu to stay with me and Gil. You should come meet 'em and check out the new Guild if you've got time. You helped out, after all!^^Thanks again for helping us.^^- Marlon[#]Adventure Guild Expanded!",
+		"vincentBall": "hi @!^^i just watned to say sory for what hapend yetserday.^^thanks for beeng a good frend! you and zinia are amasing! shes very difrent than the other adults.^^i watned to give you my ball as thanks for playing with me. i hope you like it.^^sory if my speling isn't the best.^^vincent %item bigobject Vincent_s_Ball %%[#]Vincent's Thanks",
+		"ZinniaDiscovery": "Hi, @!^^I just wanted to invite you to come with me on a mining trip I'm planning to go on today. I think I've finally figured out that book Mr. Gunther gave to us, and I think I just might be able to find the place my mom wanted to find all that time ago.^^Me, Uncle Marlon, and Mr. Clint are going to go looking for it today. You should come join us if you have time! Don't worry if you can't make it today - we'll probably still be looking for it tomorrow!^^Zinnia <[#]Zinnia's Invitation",
+		"ZinniaConfession": "@,^^I read in Mom's book that there's something amazing happening tonight - something that only happens once in a blue moon. Come meet me at the mines after dark for a surprise!^^Zinnia <[#]Once In A Blue Moon",
+		"GabrielApology": "Hey, @.^^I just wanted to write you another apology letter for what happened yesterday.^^I don't really like going out much, so I usually try to head home as fast as possible when I need to go somewhere. I really promise that I didn't mean to hurt you.^^I really hope you can forgive me.^^Gabriel",
+		"GabrielTherapy": "Hey, @.^^I just wanted to write you to say thanks for how you helped me yesterday. I think you'll, um, be happy to know that Dr. Harvey found me a therapist in Zuzu to help with my nightmares. I hope she'll be able to help me.^^Thanks for all your support, @.^-Gabriel[#]Gabriel's Big Step",
+		"GabrielStory": "Hey @.^^I've been thinking a lot about what you told me during my nightmare.^^I think I'm finally ready to tell everyone the whole story. I've prepared a lot for this, so I'd really appreciate if you could be there. Just swing by the Monster Research Wing whenever you're ready.^^Gabriel[#]Gabriel's Story",
+		"greenContainer": "Hey, @!^^So about that question I asked you yesterday...^^Ta-da! I wanted to send you a little gift for everything you've done. It's your own personal slime in a container! Don't worry, it comes with a built in water dispenser.^^Enjoy!^Gabriel %item bigobject Slime_Container_(Green) %%[#]Slime Container For You",
+		"redContainer": "Hey, @!^^So about that question I asked you yesterday...^^Ta-da! I wanted to send you a little gift for everything you've done. It's your own personal slime in a container! Don't worry, it comes with a built in water dispenser.^^Enjoy!^Gabriel %item bigobject Slime_Container_(Red) %%[#]Slime Container For You",
+		"blueContainer": "Hey, @!^^So about that question I asked you yesterday...^^Ta-da! I wanted to send you a little gift for everything you've done. It's your own personal slime in a container! Don't worry, it comes with a built in water dispenser.^^Enjoy!^Gabriel %item bigobject Slime_Container_(Blue) %%[#]Slime Container For You",
+		"purpleContainer": "Hey, @!^^So about that question I asked you yesterday...^^Ta-da! I wanted to send you a little gift for everything you've done. It's your own personal slime in a container! Don't worry, it comes with a built in water dispenser.^^Enjoy!^Gabriel %item bigobject Slime_Container_(Purple) %%[#]Slime Container For You",
+		"zinniaFlower": "Hi, @!^^I was just realizing the other day just how great of a friend you are to me...^^so I got you a little something! I hope you like it!^^Zinnia < %item object Zinnia 1 %%[#]Zinnia's, well, Zinnia",
+	},
+        },
+
+],
+}

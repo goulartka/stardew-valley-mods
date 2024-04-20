@@ -1,0 +1,673 @@
+{
+"Changes": [
+	
+//ConcessionTastes        
+
+	
+	//Available General Tags:  Sweet, Sour, Salty, Fatty, Joja, Healthy, Gourmet, Hot, Candy
+	{	
+	"Action": "EditData",
+	"Target": "Data/ConcessionTastes",
+	"Entries": {
+	
+		"Zinnia": {
+			"Name": "Zinnia",
+			"LovedTags": [ "Star Cookie", "Jasmine Tea" ],
+			"LikedTags": [ "Sweet", "Healthy" ],
+			"DislikedTags": [ "Joja", "Sour Slimes",]
+			},
+		"Gabriel": {
+			"Name": "Gabriel",
+			"LovedTags": [ "Rock Candy", "Popcorn" ],
+			"LikedTags": [ "Salty", "Healthy" ],
+			"DislikedTags": [ "Joja", "Candy", "Salted Peanuts"]
+			},
+		"Silly": {
+			"Name": "Silly",
+			"LovedTags": [ "Rock Candy", "Stardrop Sorbet" ],
+			"LikedTags": [ "Apple Slices"],
+			"DislikedTags": [ "Sweet", "Sour", "Salty", "Fatty", "Joja", "Healthy", "Gourmet", "Hot", "Candy"]
+			},
+		},
+	},
+//-----------------------
+//Movie Reactions        
+//-----------------------
+	
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+	  
+	//*******ZINNIA**********
+        "Zinnia": {
+          "NPCName": "Zinnia",
+          "Reactions": [
+
+            //Brave Little Sapling (ANIMATED) (FAMILY) (COMEDY)
+            {
+              "Tag": "spring_movie_0",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "This movie looks so fun! Thanks for bringing me, @! I love animated movies!$h"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "This is so adorable, @!$h"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Aww, that was so cute! I may be an adult, but that doesn't mean you can't love adorable movies like this one!$h"
+                }
+              },
+              "ID": "reaction_0"
+            },
+
+	    //Journey of the Praire King (VIDEOGAME)
+            {
+              "Tag": "summer_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "A movie based off the video game? That sounds fun! I've tried to play that game at the Saloon before, but I wasn't very good at it."
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Wow! I didn't expect this to be so exciting!$h"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "That movie was pretty cool! Maybe I'll check out the arcade game at the Saloon again...$h"
+                }
+              },
+              "ID": "reaction_1"
+            },
+
+	     //Mysterium (MINDMESS) (MYSTERY)
+            {
+              "Tag": "fall_movie_0",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "A mysterious movie? I wonder what this will be about...$u"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "I-I'm confused...$s"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "That was strange... it had me rethinking everything...$s#$b#I think this is a movie that my brother would like a bit more...$s"
+                }
+              },
+              "ID": "reaction_2"
+            },
+
+	     //Miracle at Coldstar Ranch (WHOLESOME) (TEAR JERKER) (FAMILY)
+            {
+              "Tag": "winter_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "I heard that this movie is very sweet and heartwarming! I can't wait to see it!$h"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "This movie is so wholesome! It makes me want to be with my family."
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "I really liked that movie, @! Thanks for inviting me. It really reminded me of the joy you get when you're with your family."
+                }
+              },
+              "ID": "reaction_3"
+            },
+
+	    //Natural Wonders: Exploring Our Vibrant World (TOUR) (EDUCATIONAL)
+            {
+              "Tag": "spring_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Ooh, this movie looks interesting! I love seeing the natural beauties of the planet!$h"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Wow! This is so interesting to watch!"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "I enjoyed that movie, @! I've always had an interest in the natural environments of our world."
+                }
+              },
+              "ID": "reaction_4"
+            },
+
+	    //Wumbus (SCI-FI) (COMEDY)
+            {
+              "Tag": "summer_movie_1",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "This movie looks like it's going to be a blast! I can't wait!$h"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Haha, this movie is so fun!$h"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "That was really fun, @! I loved that movie.#$b#Think you can win me a souvenir from the crane machine?"
+                }
+              },
+              "ID": "reaction_5"
+            },
+
+	    //Howls in the Rain (HORROR)
+            {
+              "Tag": "fall_movie_1",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Oh, a horror movie...$s#$b#I-I might be a little jumpy during the movie, @...$s"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "I don't like this... my heart's beating so fast!$s"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "T-that was terrifying...$s#$b#I-I might not be able to sleep tonight...$s"
+                }
+              },
+              "ID": "reaction_6"
+            },
+
+	//Zuzu City Express (CLASSIC) (ROMANCE)
+            {
+              "Tag": "winter_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Oh, a classic romance! I've always had a fondness for these.#$b#My dad tells me that my mom liked these kinds of movies too!$h"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "This is so beautiful, @!"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "That was so cool! I love watching charming old movies. Thanks for taking me, @!$h"
+                }
+              },
+              "ID": "reaction_7"
+            }
+		
+          ]
+        },
+
+	//*******GABRIEL**********
+
+        "Gabriel": {
+          "NPCName": "Gabriel",
+          "Reactions": [
+
+            //Brave Little Sapling (ANIMATED) (FAMILY) (COMEDY)
+            {
+              "Tag": "spring_movie_0",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Oh, a kid's movie? I hope this isn't a bore...$s"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Zzz...$7"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "*Yawn* That was a pretty, um, okay movie, I guess...$s#$b#I can't help but wonder how much research time I just wasted...$s"
+                }
+              },
+              "ID": "reaction_0"
+            },
+
+	    //Journey of the Praire King (VIDEOGAME)
+            {
+              "Tag": "summer_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Oh, this looks nice. I used to play this game a lot as a kid, before I started my research.#$b#This will be a fun trip down memory lane!"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Oh, I remember this in the game!"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "That movie was pretty cool! Maybe I'll check out the arcade game at the Saloon again...$h"
+                }
+              },
+              "ID": "reaction_1"
+            },
+
+	//Mysterium (MINDMESS) (MYSTERY)
+            {
+              "Tag": "fall_movie_0",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "This movie looks like it'll be right up my alley! I can't wait!$h"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Wow, this is so interesting!$h"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Thanks for bringing me, @. I love strange movies like this. They always make me feel like I'm a researcher on a mission to uncover the secrets of the world!$h"
+                }
+              },
+              "ID": "reaction_2"
+            },
+
+	//Miracle at Coldstar Ranch (WHOLESOME) (TEAR JERKER) (FAMILY)
+            {
+              "Tag": "winter_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Normally I wouldn't be interested in a movie like this, but it reminds me of my family.#$b#Family means a lot to me, you know?"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "This is so wholesome...#$b#I-I'm not crying, I swear!$u"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "*Sniff* That movie made me miss my mom a lot.$s#$b#I really enjoyed it though, @. Thanks for taking me."
+                }
+              },
+              "ID": "reaction_3"
+            },
+
+	//Natural Wonders: Exploring Our Vibrant World (TOUR) (EDUCATIONAL)
+            {
+              "Tag": "spring_movie_1",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "An educational film? Awesome! I might be weird for this, but I really enjoy learning through film."
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "This is so interesting, @! I'm loving it!"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Wow, @! That was amazing! Thanks for bringing me.#$b#I really like learning more about the world around us. There are just so many secrets, you know?"
+                }
+              },
+              "ID": "reaction_4"
+            },
+
+	//Wumbus (SCI-FI) (COMEDY)
+            {
+              "Tag": "summer_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "This looks interesting. I wonder what a 'Wumbus' really is..."
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "This movie is pretty fun, haha!"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "That was pretty cool, @! I really enjoyed that.#$b#Hey, you should dress up as Wumbus for Spirit's Eve next fall!$h"
+                }
+              },
+              "ID": "reaction_5"
+            },
+
+	//Howls in the Rain (HORROR)
+            {
+              "Tag": "fall_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "A horror film? All right! I've been through so many scares in my real life, so let's see if this movie can spook me!"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Woah! That's so cool! I wonder how they filmed that part?"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Haha, that was pretty fun! I always like a good horror film. Did you like it, @?"
+                }
+              },
+              "ID": "reaction_6"
+            },
+
+	//Zuzu City Express (CLASSIC) (ROMANCE)
+            {
+              "Tag": "winter_movie_1",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Oh, an old movie? I'm not really into those... I'll give this a chance though."
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "*Yawn* Wait, what's happening again?"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "That was all right, I guess. I think I just don't prefer old movies... I just like the modern effects we have now, you know?"
+                }
+              },
+              "ID": "reaction_7"
+            }
+
+          ]
+        },
+
+	//*******SILLY**********
+
+	"Silly": {
+          "NPCName": "Silly",
+          "Reactions": [
+
+            //Brave Little Sapling (ANIMATED) (FAMILY) (COMEDY)
+            {
+              "Tag": "spring_movie_0",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly excited! Silly love playing with @!$h"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly love!$h"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly love show! Sapling just like Silly! Silly thank @ for taking Silly!$h"
+                }
+              },
+              "ID": "reaction_0"
+            },
+
+	    //Journey of the Praire King (VIDEOGAME)
+            {
+              "Tag": "summer_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly excited! Silly love playing with @!"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly like!"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly like show! Silly thank @ for taking Silly!"
+                }
+              },
+              "ID": "reaction_1"
+            },
+
+	//Mysterium (MINDMESS) (MYSTERY)
+            {
+              "Tag": "fall_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly excited! Silly love playing with @!"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly like!"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly like show! Silly thank @ for taking Silly!"
+                }
+              },
+              "ID": "reaction_2"
+            },
+
+	//Miracle at Coldstar Ranch (WHOLESOME) (TEAR JERKER) (FAMILY)
+            {
+              "Tag": "winter_movie_0",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly excited! Silly love family movie!$h"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly love so much! Silly think @ part of Silly's family!$h"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly thank @! Silly love show! Silly love Silly family$h"
+                }
+              },
+              "ID": "reaction_3"
+            },
+
+	//Natural Wonders: Exploring Our Vibrant World (TOUR) (EDUCATIONAL)
+            {
+              "Tag": "spring_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly excited! Silly love playing with @!"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly like!"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly like show! Silly thank @ for taking Silly!"
+                }
+              },
+              "ID": "reaction_4"
+            },
+
+	//Wumbus (SCI-FI) (COMEDY)
+            {
+              "Tag": "summer_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly laugh at Wumbus!$h"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly laugh! Show funny!$h"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly love show! Silly wanna be Wumbus! @ dye Silly green?$h"
+                }
+              },
+              "ID": "reaction_5"
+            },
+
+	//Howls in the Rain (HORROR)
+            {
+              "Tag": "fall_movie_1",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Scary show? Silly scared...$s"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "AH! Silly cry!$s"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "*Cry* Silly don't like...$s"
+                }
+              },
+              "ID": "reaction_6"
+            },
+
+	//Zuzu City Express (CLASSIC) (ROMANCE)
+            {
+              "Tag": "winter_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly excited! Silly love playing with @!"
+                },
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly like!"
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "Silly like show! Silly thank @ for taking Silly!"
+                }
+              },
+              "ID": "reaction_7"
+            }
+
+          ]
+        },
+
+	},
+
+  },
+	
+]
+}

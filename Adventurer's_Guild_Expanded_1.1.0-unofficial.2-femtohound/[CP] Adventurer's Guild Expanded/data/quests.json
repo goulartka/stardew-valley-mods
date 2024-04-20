@@ -1,0 +1,69 @@
+{
+Changes: [
+
+	 { 
+		"Action": "EditData",
+		"Target": "Data/Quests",
+		"Entries": {
+
+	//INITIAL QUESTS
+			"9280001": "ItemDelivery/Expanding the Guild/Robin needs 600 pieces of wood to complete Marlon's request to expand the Adventurer's Guild./Bring Robin 600 pieces of wood./Robin 388 600/9280002/0/-1/false/Oh, you got the wood! That's great. I'll tell Marlon then start working on the guild.",
+
+			"9280002": "Basic/Expanding the Guild/You gave Robin the wood she needed to expand the Adventurer's Guild. She said it would be ready in a few days./Enter the Adventurer's Guild after Robin finishes the expansion./null/-1/0/-1/false",
+
+			"9280003": "Basic/Monster Research Wing/The Adventurer's Guild has been expanded with a new Monster Research Wing, run by Marlon's nephew, Gabriel. He requested your help with his studies./Enter the Monster Research Wing of the Adventurer's Guild./null/-1/0/-1/false",
+
+			"9280004": "Monster/Slime Research: Step 1/You agreed to help Gabriel with his monster research. First up - slimes. Gabriel wants you to slay green slimes to analyze their behavior and keep the mines safer./Slay 20 Green Slimes./Green_Slime 20/9280005/0/-1/false",
+
+			"9280005": "Basic/Slime Research: Step 2/You noticed something strange dropping from the slimes you slayed. What could it mean?/Bring a 'Slime Gem' to the Monster Research Wing./null/-1/0/-1/false",
+
+			"9280006": "Basic/Slime Research: Step 3/Gabriel found a new discovery into the mysterious gem you gave him. Apparently, when enough of them are fused with slime and a diamond, they form something with an immense aura!/Craft a 'Slime Soul' and bring it to the Monster Research Wing./null/-1/0/-1/false",
+
+	//*** Gabriel's Path ***
+
+			"92800071": "ItemDelivery/Slime Research: Step 4/You agreed with Gabriel to capture and test on newly summoned slimes to try and develop perfect weapons and strategies against them. He asked you to create a 'Frozen Slime Soul' to get a sample of the many different slime types./Deliver a 'Frozen Slime Soul' To Gabriel./Gabriel Frozen_Slime_Soul 1/92800081/0/-1/false/Oh, thanks, @! This is perfect. We just need one more slime soul before we can get started.#$b#Can you bring me the 'Fire Slime Soul' next?",
+
+			"92800081": "ItemDelivery/Slime Research: Step 5/You delivered Gabriel what he needed for the Frost Slimes - now he just needs one more slime soul!/Deliver a 'Fire Slime Soul' To Gabriel./Gabriel Fire_Slime_Soul 1/92800091/0/-1/false/Wow, @! You're amazing. I think I'll be able to summon these slimes now.#$b#I'm going to study them more and I'll come get you tomorrow morning.",
+
+			"92800091": "Basic/Slime Research: Step 6/You delivered the items Gabriel requested. He said he would study them and tell you his discoveries tomorrow./Wait for Gabriel's discoveries tomorrow./null/-1/0/-1/false",
+
+			"928000101": "Basic/Slime Research: Step 6/Gabriel said that he's finally ready to summon the next two slimes and begin testing. He'd like you to help him out./Meet Gabriel The Monster Research Wing./null/-1/0/-1/false",
+
+			"928000111": "Basic/The Final Step/You discovered the most raw form of slime energy there is. Now what is there to do with it?/Find a use for 'True Slime Energy'./null/-1/0/-1/false",
+
+			"928000121": "Monster/The Voice's Request: Green/The mysterious voice thanked you for bringing the items to the Sewers. It proposed to you one final quest: Slay 30 of each type of slime./Slay 30 Green Slimes./Green_Slime 30/928000131/0/-1/false",
+
+			"928000131": "Monster/The Voice's Request: Blue/The mysterious voice thanked you for bringing the items to the Sewers. It proposed to you one final quest: Slay 30 of each type of slime./Slay 30 Frost Slimes./Frost_Jelly 30/928000141/0/-1/false",
+
+			"928000141": "Monster/The Voice's Request: Red/The mysterious voice thanked you for bringing the items to the Sewers. It proposed to you one final quest: Slay 30 of each type of slime./Slay 30 Magma Slimes./Sludge 30/928000151/0/-1/false",
+
+			"928000151": "Basic/The Voice's Request/You slayed 30 of each type of slime, completing the mysterious voice's request! Time to return to the Sewers and let him know!/Return to the Sewers./null/-1/0/-1/false",
+
+	//*** Zinnia's Path ***
+
+			"92800072": "Basic/Slime Research: Step 4/You agreed with Zinnia to befriend the newly summoned slime to try and understand their species. Gabriel suggested that you visit the Wizard to see if there was some way to learn to understand the slime./Visit the Wizard at his tower./null/-1/0/-1/false",
+
+			"92800082": "Basic/Slime Research: Step 5/The Wizard was able to give you a potion that allows you to speak to Silly! Time to find out what a slime really thinks about!/Talk to Silly at the Monster Research Wing./null/-1/0/-1/false",
+
+			"92800092": "Basic/Slime Research: Step 6/Gabriel uncovered some history about slimes and their relationship with humans. He wants to explain it to you more at the Monster Research Wing./Meet Gabriel at the Monster Research Wing./null/-1/0/-1/false",
+
+			"928000102": "Basic/The Final Step/The only way that the ancient wounds between Slimes and Humans can be healed is by showing the town that Silly and other slimes don't want to hurt them. You have to get closer to Silly in order for Silly to trust you with this task./Increase your friendship level with Silly./null/-1/0/-1/false",
+
+			"928000112": "Basic/Silly Revealed/You got closer in friendship, and now Silly is finally ready to reveal itself to the town and work towards a peaceful future! All Silly needs is its best friends by its side./Visit the Town Plaza on a sunny day before 8 PM./null/-1/0/-1/false",
+
+	//ZINNIA'S 14 HEART EVENT
+			"8280007": "Basic/Zinnia's Request/Your wife found out some new discoveries about the Flower Paradise. She needs you to craft a 'Life Essence' and visit her at the location to test her theory./Bring a 'Life Essence' to the Flower Paradise./null/-1/0/-1/false",
+
+	//GABRIEL'S 14 HEART EVENT
+			"8280018": "Basic/Gabriel's Request/Your husband is planning on making a shrine for his late mother. He asked you to bring a bouquet of flowers to the mines./Bring a 'Bouquet' to the Mines./null/-1/0/-1/false",
+
+	//SILLY'S 10 HEART EVENT
+
+			"8280020": "ItemDelivery/Silly's New Home/You agreed to let Silly move into the farm. Robin offered to build a new basement underground so Silly can feel comfortable. It'll take 100 hardwood to complete./Bring Robin 100 Hardwood./Robin 709 100/8280021/0/-1/true/Wow, that was fast! Thanks! I'll have Silly's new room built in time for tomorrow.",
+
+			"8280021": "Basic/Silly's New Home/You delivered the 100 Hardwood Robin needed! Robin said that Silly's room would be finished tomorrow./Visit Silly's new room after Robin finishes./null/-1/0/-1/false",
+	},
+	},
+
+],
+}

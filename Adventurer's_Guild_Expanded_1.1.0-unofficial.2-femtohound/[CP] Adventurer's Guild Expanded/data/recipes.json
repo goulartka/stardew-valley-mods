@@ -1,0 +1,16 @@
+{
+"Changes": [
+{
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+	    "Entries": {
+		"Life Essence": "072 1 268 1 422 1/Field/Life_Essence/false/none",
+		"Slime Soul": "Slime_Gem 10 Life_Essence 1/Field/Slime_Soul/false/none",
+		"Frozen Slime Soul": "Slime_Soul 1 084 1 380 5/Field/Frozen_Slime_Soul/false/none",
+		"Fire Slime Soul": "Slime_Soul 1 082 1 384 5/Field/Fire_Slime_Soul/false/none",
+		"Slime Heart Seeds": "766 25 390 10/Field/Slime_Heart_Seeds/false/none",
+		"True Slime Energy": "Slime_Soul 1 Frozen_Slime_Soul 1 Fire_Slime_Soul 1 386 5/Field/True_Slime_Energy/false/none",
+	},
+        },
+],
+}

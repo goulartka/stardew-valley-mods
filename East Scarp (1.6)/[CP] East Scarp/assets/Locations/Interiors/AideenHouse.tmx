@@ -6,7 +6,7 @@
  <properties>
   <property name="DayTiles" value="Front 4 5 256 Front 4 6 288 Front 5 5 256 Front 5 7 288 Front 12 1 256 Front 12 2 288 Front 13 1 256 Front 13 2 288 Front 20 1 256 Front 20 2 288 Front 21 1 256 Front 21 2 288 Front 25 1 256 Front 25 2 288 Front 2 1 1344 Front 7 1 1344 Front 15 1 1344 Front 19 1 1344 Front 23 1 1344 Front 27 1 1344 Front 13 10 1344 Front 19 10 1344 Front 7 15 1344 Front 14 15 1344 Front 18 15 1344"/>
   <property name="Doors" value="5 17 1 120 16 17 1 120 11 12 1 120 21 12 1 120"/>
-  <property name="NightTiles" value="Front 4 5 1253 Front 4 6 1285 Front 5 5 1253 Front 5 6 1285 Front 12 1 1253 Front 12 2 1285 Front 13 1 1253 Front 13 2 1285 Front 20 1 1253 Front 20 2 1285 Front 21 1 1253 Front 21 2 1285 Front 25 1 1253 Front 25 2 1285 Front 26 1 253 Front 26 2 1285 Front 2 1 1345 Front 7 1 1345 Front 15 1 1345 Front 19 1 1345 Front 23 1 1345 Front 27 1 1345 Front 13 10 1345 Front 19 10 1345 Front 7 15 1345 Front 14 15 1345 Front 18 15 1345"/>
+  <property name="NightTiles" value="Front 4 5 1253 Front 4 6 1285 Front 5 5 1253 Front 5 6 1285 Front 12 1 1253 Front 12 2 1285 Front 13 1 1253 Front 13 2 1285 Front 20 1 1253 Front 20 2 1285 Front 21 1 1253 Front 21 2 1285 Front 25 1 1253 Front 25 2 1285 Front 15 1 1345 Front 19 1 1345 Front 23 1 1345 Front 27 1 1345 Front 13 10 1345 Front 19 10 1345 Front 7 15 1345 Front 14 15 1345 Front 18 15 1345"/>
   <property name="Warp" value="10 25 EastScarp_Village 16 49"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">

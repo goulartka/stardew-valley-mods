@@ -44,14 +44,12 @@
     "config.machine-settings-priority.desc": "A ordem de prioridade na qual as máquinas {{machineName}} devem ser processadas em relação a outras máquinas. As máquinas têm uma prioridade padrão de 0, sendo os valores mais altos processados primeiro.",
 
     // machine names
-    // TODO
-    "config.machines.bush": "Bush",
-    "config.machines.fruit-tree": "Tree (Fruit Tree)",
-    "config.machines.trash-can": "Trash Can",
-    "config.machines.wild-tree": "Tree (Wild Tree)",
+    "config.machines.bush": "Arbustos",
+    "config.machines.fruit-tree": "Árvore (Árvore Frutífera)",
+    "config.machines.trash-can": "Lata de Lixo",
+    "config.machines.wild-tree": "Árvore (Árvore Silvestre)",
 
     // special settings for individual machines
-    // TODO
-    "config.machines.wild-tree.collect-moss.name": "Collect Moss",
-    "config.machines.wild-tree.collect-moss.desc": "Whether to collect moss on trees. For example, keeping moss on trees will boost the quality of mushrooms from nearby mushroom logs."
+    "config.machines.wild-tree.collect-moss.name": "Coletar Musgo",
+    "config.machines.wild-tree.collect-moss.desc": "Se deve coletar musgo das árvores. Por exemplo, manter musgo nas árvores aumentará a qualidade dos cogumelos gerados em troncos de cogumelos próximos."
 }

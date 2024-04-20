@@ -595,7 +595,6 @@
         {
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",
-         
             "TextOperations": [
                 {
                     "Operation": "Append",
@@ -832,7 +831,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall27, Data/Festivals/winter25, Data/Festivals/spring13",
             "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+                "HasSeenEvent": "57879903"
             },
             "TextOperations": [
                 {
@@ -850,7 +849,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/fall16",
             "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+                "HasSeenEvent": "57879903"
             },
             "TextOperations": [
                 {

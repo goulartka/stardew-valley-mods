@@ -1,0 +1,6 @@
+{
+	"Name": "Slime Container (Green)",
+	"Description": "A green slime enclosed in a container. Can be placed as decoration.",
+	"ProvidesLight": "false",
+	"CanSell": false,
+}

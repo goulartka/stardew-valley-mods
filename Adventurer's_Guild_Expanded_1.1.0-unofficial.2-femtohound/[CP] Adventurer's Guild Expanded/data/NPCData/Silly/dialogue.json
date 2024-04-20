@@ -1,0 +1,178 @@
+{
+"Changes": [	
+
+	//Initial
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Silly",
+	    "Entries": {
+
+		"Mon": "{{Random: *Squish!*$h#$b#%Silly looks happy! 88 *Squish...*$s#$b#%Silly looks sad. 88 *Squish.*$a#$b#%Something seems to be making Silly angry. 88 *Squish*! *Squish*!#$b#%Silly looks happy to see you. 88 *Squish* *Squish*$s#$b#%Silly looks like it's trying to tell you something. You're not sure you understand. |inputSeparator=88}}",
+		"Tue": "{{Random: *Squish!*$h#$b#%Silly looks happy! 88 *Squish...*$s#$b#%Silly looks sad. 88 *Squish.*$a#$b#%Something seems to be making Silly angry. 88 *Squish*! *Squish*!#$b#%Silly looks happy to see you. 88 *Squish* *Squish*$s#$b#%Silly looks like it's trying to tell you something. You're not sure you understand. |inputSeparator=88}}",
+		"Wed": "{{Random: *Squish!*$h#$b#%Silly looks happy! 88 *Squish...*$s#$b#%Silly looks sad. 88 *Squish.*$a#$b#%Something seems to be making Silly angry. 88 *Squish*! *Squish*!#$b#%Silly looks happy to see you. 88 *Squish* *Squish*$s#$b#%Silly looks like it's trying to tell you something. You're not sure you understand. |inputSeparator=88}}",
+		"Thu": "{{Random: *Squish!*$h#$b#%Silly looks happy! 88 *Squish...*$s#$b#%Silly looks sad. 88 *Squish.*$a#$b#%Something seems to be making Silly angry. 88 *Squish*! *Squish*!#$b#%Silly looks happy to see you. 88 *Squish* *Squish*$s#$b#%Silly looks like it's trying to tell you something. You're not sure you understand. |inputSeparator=88}}",
+		"Fri": "{{Random: *Squish!*$h#$b#%Silly looks happy! 88 *Squish...*$s#$b#%Silly looks sad. 88 *Squish.*$a#$b#%Something seems to be making Silly angry. 88 *Squish*! *Squish*!#$b#%Silly looks happy to see you. 88 *Squish* *Squish*$s#$b#%Silly looks like it's trying to tell you something. You're not sure you understand. |inputSeparator=88}}",
+		"Sat": "{{Random: *Squish!*$h#$b#%Silly looks happy! 88 *Squish...*$s#$b#%Silly looks sad. 88 *Squish.*$a#$b#%Something seems to be making Silly angry. 88 *Squish*! *Squish*!#$b#%Silly looks happy to see you. 88 *Squish* *Squish*$s#$b#%Silly looks like it's trying to tell you something. You're not sure you understand. |inputSeparator=88}}",
+		"Sun": "{{Random: *Squish!*$h#$b#%Silly looks happy! 88 *Squish...*$s#$b#%Silly looks sad. 88 *Squish.*$a#$b#%Something seems to be making Silly angry. 88 *Squish*! *Squish*!#$b#%Silly looks happy to see you. 88 *Squish* *Squish*$s#$b#%Silly looks like it's trying to tell you something. You're not sure you understand. |inputSeparator=88}}",
+
+		},
+		"When": {
+			"HasSeenEvent: hostPlayer |contains=9280011, 9280012": "false",
+		},
+	},
+
+	//Translated
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Silly",
+	    "Entries": {
+
+	//married to Gabriel or Zinnia
+	"{{Random: Mon, Tue, Wed, Thu, Fri, Sat, Sun}}_inlaw_Zinnia": "{{Random: @! Hello!#$b#Silly little more lonely since Zinnia leave.#$b#But Zinnia making @ smile, so Silly happy! 88 Silly don't understand 'marriage'...#$b#What that mean, @? @ and Zinnia 'married'...#$b#Do @ think Silly ever get married to other slime? |inputSeparator=88}}",
+	"{{Random: Mon, Tue, Wed, Thu, Fri, Sat, Sun}}_inlaw_Gabriel": "{{Random: Silly didn't think Silly would miss Gabriel this much... now room empty most days...$s#$b#@ tell Gabriel to visit Silly sometimes? 88 Silly don't understand 'marriage'...#$b#What that mean, @? @ and Gabriel 'married'...#$b#Do @ think Silly ever get married to other slime? |inputSeparator=88}}",
+
+	//Introduction
+	"Introduction": "New farmer?#$b#Yay! Silly love meeting new human!$h",
+		
+	//spring
+	"spring_1": "Silly excited for new year! New year means new fun!$h",
+	"spring_12": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"spring_23": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"spring_28": "Spring over? Silly sad... no more strawberry season. Silly like when Zinnia give Silly strawberry.$s",
+	"spring_1_2": "Silly excited for new year! New year means new fun!$h",
+	"spring_12_2": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"spring_23_2": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"spring_28_2": "Spring over? Silly sad... no more strawberry season. Silly like when Zinnia give Silly strawberry.$s",
+	
+	//summer
+	"summer_1": "Cave have no seasons... Silly not used to the warm air.#$b#Silly kinda like summer!$h",
+	"summer_7": "Zinnia tell Silly it Zinnia birthday today. Silly don't really understand 'birthday'...",
+	"summer_10": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"summer_27": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"summer_28": "Summer over?#$b#Wahhh!$s#$b#Silly like sunny day!$s",
+	"summer_1_2": "Cave have no seasons... Silly not used to the warm air.#$b#Silly kinda like summer!$h",
+	"summer_7_2": "Zinnia tell Silly it Zinnia birthday today. Silly don't really understand 'birthday'...",
+	"summer_10_2": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"summer_27_2": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"summer_28_2": "Summer over?#$b#Wahhh!$s#$b#Silly like sunny day!$s",
+
+	//fall
+	"fall_1": "Leaves on ground? Silly don't understand...#$b#There no 'tree' in cave...$s",
+	"fall_15": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"fall_26": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"fall_28": "Zinnia tell Silly that fall over...#$b#What come next? Silly wanna find out!$h",
+	"fall_1_2": "Leaves on ground? Silly don't understand...#$b#There no 'tree' in cave...$s",
+	"fall_15_2": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"fall_26_2": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"fall_28_2": "Zinnia tell Silly that fall over...#$b#What come next? Silly wanna find out!$h",
+
+	//winter
+	"winter_1": "White crystal falling from sky! Silly relatives would love winter if they out of cave!$h#$b#@ ever meet frost jelly?",
+	"winter_7": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"winter_15": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"winter_22": "Zinnia give Gabriel a gift today... is it Gabriel, uh, what Zinnia call it again...#$b#...'B-birthday'?",
+	"winter_24": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"winter_28": "Year over, @! Silly have so much fun with @ and Zinnia!$h#$b#Silly wanna play even more next year!$h",
+	"winter_1_2": "White crystal falling from sky! Silly relatives would love winter if they out of cave!$h#$b#@ ever meet frost jelly?",
+	"winter_7_2": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"winter_15_2": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"winter_22_2": "Zinnia give Gabriel a gift today... is it Gabriel, uh, what Zinnia call it again...#$b#...'B-birthday'?",
+	"winter_24_2": "Wahh...$s#$b#Zinnia say they going to leave Silly for festival tomorrow...$s#$b#Silly don't like being alone!$s",
+	"winter_28_2": "Year over, @! Silly have so much fun with @ and Zinnia!$h#$b#Silly wanna play even more next year!$h",
+	"BeachNightMarket": "Silly excited for market!#$b#Can @ buy Silly a gift?$h",
+
+	//special
+	"sillyRevealed": "Silly so happy to be part of town!$h#$b#Thank you farmer! Thank you!$h",
+	
+	//Base Dialogue
+	"Mon": "Silly say hi to @! @ know where Zinnia?$h",
+	"Tue": "Silly miss momma and dadda slime...$s",
+	"Wed": "Silly lonely... Anyone play with Silly?$s",
+	"Thu": "Silly happy to see @! Someone Silly can play with?$h",
+	"Fri": "Silly wish other human can understand Silly...#$b#...@ teach other human? Too hard?#$b#Wahh!$s",
+	"Sat": "Sometime Silly miss cave home.#$b#@ miss home too?",
+	"Sun": "Silly wonder if other slime miss Silly.#$b#Do @ think other slime miss Silly?",
+
+	//8 Hearts
+	"Mon8": "@! Silly so happy to see @!#$b#@ one of Silly's best friends!$h",
+	"Tue8": "Silly have dream about @ and Silly playing together.#$b#Huh? @ don't know that slime have dreams?#$b#Haha!$h",
+	"Wed8": "Did @ know there are different kinds of slime?#$b#Silly friends with Frost Jelly, Magma Sludge, and Big Purple slime!#$b#Silly don't know what slime Silly was before he turn pink...$s",
+	"Thu8": "Sometime when Gabriel works late in night Silly can't sleep. Silly miss the quiet cave during the night...$s",
+	"Fri8": "Silly scared to ever go back to cave...#$b#What if other slime don't like Silly anymore?$s",
+	"Sat8": "Some slime born with star symbol, like Silly.#$b#@ know what that mean? Silly don't know...#$b#Do it mean Silly bad?$s",
+	"Sun8": "At first Silly scared to live with humans, but now Silly feel like this Silly's home!$h#$b#Silly especially like @!$h",
+
+		},
+		"When": {
+			"HasSeenEvent: hostPlayer |contains=9280011, 9280012": "true",
+		},
+	},
+
+	//Silly Is Free
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Silly",
+	    "Entries": {
+		
+	//spring
+	"spring_12": "Silly can't wait to go to festival tomorrow!#$b#@ think Mayor let Silly do Egg Hunt? Silly pretty good at finding things in cave home!$h",
+	"spring_23": "Zinnia say festival tomorrow is about love. Silly don't understand... what that mean?#$b#In cave, two slimes have baby only few hours after they meet.",
+	"spring_12_2": "Silly can't wait to go to festival tomorrow!#$b#@ think Mayor let Silly do Egg Hunt? Silly pretty good at finding things in cave home!$h",
+	"spring_23_2": "Zinnia say festival tomorrow is about love. Silly don't understand... what that mean?#$b#In cave, two slimes have baby only few hours after they meet.",
+	
+	
+	//summer
+	"summer_10": "Silly don't normally like human food... but Silly excited to try soup tomorrow!$h#$b#@ throw in strawberry or apple for Silly? Pwease?$l",
+	"summer_27": "Silly so excited to see Moonlight Jelly tomorrow!$h#$b#Gabriel say the jelly is the slime of the sea... Silly wanna make friends with them!$h",
+	"summer_10_2": "Silly don't normally like human food... but Silly excited to try soup tomorrow!$h#$b#@ throw in strawberry or apple for Silly? Pwease?$l",
+	"summer_27_2": "Silly so excited to see Moonlight Jelly tomorrow!$h#$b#Gabriel say the jelly is the slime of the sea... Silly wanna make friends with them!$h",
+	
+
+	//fall
+	"fall_15": "Fair tomorrow! Silly meet so many new people!$h#$b#Silly stay next to Gabriel and Zinnia in case visitor try to hurt Silly, don't worry!",
+	"fall_26": "Silly's favorite festival tomorrow! Silly get to blend in with all the monster costume!$h",
+	"fall_15_2": "Fair tomorrow! Silly meet so many new people!$h#$b#Silly stay next to Gabriel and Zinnia in case visitor try to hurt Silly, don't worry!",
+	"fall_26_2": "Silly's favorite festival tomorrow! Silly get to blend in with all the monster costume!$h",
+	
+
+	//winter
+	"winter_7": "Silly don't like most fish. Fish scary...#$b#@ catch a Slimejack before? Silly love those! Do @ think Slimejack at the festival tomorrow?",
+	"winter_15": "Zinnia taking me to Night Market today! Silly so excited!#$b#Nighttime is Silly's favorite time!$h",
+	"winter_24": "Silly don't know if Silly's person will like Silly's gift...#$b#Silly hope Silly's gift makes them happy!$h",
+	"winter_7_2": "Silly don't like most fish. Fish scary...#$b#@ catch a Slimejack before? Silly love those! Do @ think Slimejack at the festival tomorrow?",
+	"winter_15_2": "Zinnia taking me to Night Market today! Silly so excited!#$b#Nighttime is Silly's favorite time!$h",
+	"winter_24_2": "Silly don't know if Silly's person will like Silly's gift...#$b#Silly hope Silly's gift makes them happy!$h",
+
+	//Special Dialogue
+	"MovieInvitation": "A movie? @ wanna go with Silly?#$b#YAY!$h#$b#Silly so excited!$h",
+	
+	//Resort
+	"Resort_Entering": "Silly feel like relaxing on warm sand today!$h",
+	"Resort_Leaving": "Wahh...$s#$b#Silly sad... why fun have to end?$s",
+	"Resort_Shore": "Silly wonder what would happen if Silly swim. Can slime swim, @?",
+	"Resort_Chair": "Silly like shade...#$b#It keeps Silly's slime soft and squishy!",
+	"Resort_Bar": "Silly wants fruit juice! Does Gus have, @? Silly thirsty!$h",
+	"Resort": "Silly heard there a new type of slime on this island.#$b#@ meet them yet? Silly think they called 'Tiger' slimes...",
+
+		},
+		"When": {
+				"HasSeenEvent: hostPlayer |contains=9280017": "true",
+			},
+	},
+
+	//Rain Dialogue
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+	    "Entries": {
+
+	"Silly": "Rain so fun! Silly don't understand why human don't like...",
+		},
+	    "When": {
+				"HasSeenEvent: hostPlayer |contains=9280011, 9280012": "true",
+			},
+	},
+
+
+	],
+}

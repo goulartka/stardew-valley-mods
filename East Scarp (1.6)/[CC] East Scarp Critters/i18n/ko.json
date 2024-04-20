@@ -1,12 +1,4 @@
-// Korean Translation By 팀 아빠양
-// 아빠양
-// 마리나
-// 얼음꽃향초
-// 돌냥
-// 매니
-// 지니
-// 탸니스타크
-// 파도
+// Korean Translation By 아빠양
 {
 "FairyPenguin.Inspection.1":"궤에-?",
 "FairyPenguinChick.Inspection.1":"이건 어떤 종류의 새일까요? 솜털뭉치처럼 보이는군요!",
@@ -15,5 +7,6 @@
 "VoidBilly.Inspection.1":"이 염소는 뭔가 반항적인 것처럼 보입니다.",
 "VoidNanny.Inspection.1":"이 염소에게선 뭔가 기묘한 느낌이 듭니다.",
 "VoidKid.Inspection.1":"이 염소에게선 뭔가 기묘한 느낌이 듭니다.",
-"LittleGruff.Inspection.1":"이 아이에게선 뭔가 묘한 느낌이 듭니다."
+"LittleGruff.Inspection.1":"이 아이에게선 뭔가 묘한 느낌이 듭니다.",
+"Alpaca.Inspection.1":"알파카는 당신을 우호적인 시선으로 보며 울음소리를 냅니다."
 }

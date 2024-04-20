@@ -1,0 +1,163 @@
+{
+"Changes": [	
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gabriel",
+	    "Entries": {
+	//Married To Zinnia
+	"{{Random: Mon, Tue, Wed, Thu, Fri, Sat, Sun}}_inlaw_Zinnia": "{{Random: Oh, hello. How's Zinnia doing? I'm glad that she's so happy with you.#$b#You two are the perfect couple. 88 Hi, @. Tell Zinnia I miss her!#$b#It's pretty quiet around here now that she's gone.#$b#I'm still happy she found you, though! |inputSeparator=88}}",
+
+	//Introduction
+	"Introduction": "Oh, hi. I'm Gabriel.#$b#I run the Monster Research Wing at the Adventure Guild.",
+
+	//spring
+	"spring_1": "Oh, hello. I hope you have a nice year. I'm planning on getting even more work done than I did last year!",
+	"spring_12": "The Egg Festival's tomorrow? Hmm... I don't really like festivals, but I do like eating eggs, so I'll probably go.",
+	"spring_23": "*Gulp* S-sorry if I look a little out of it today.$u#$b#I'm just a little nervous for the dance tomorrow...$u#$b#Everyone watching and judging you... it's scary!$s",
+	"spring_28": "Spring's already over? Wow. I've been working so hard that the time just flew by.",
+	"spring_1_2": "Oh, hello. I hope you have a nice year. I'm planning on getting even more work done than I did last year!",
+	"spring_12_2": "The Egg Festival's tomorrow? Hmm... I don't really like festivals, but I do like eating eggs, so I'll probably go.",
+	"spring_23_2": "*Gulp* S-sorry if I look a little out of it today.$u#$b#I'm just a little nervous for the dance tomorrow...$u#$b#Everyone watching and judging you... it's scary!$s",
+	"spring_28_2": "Spring's already over? Wow. I've been working so hard that the time just flew by.",
+	
+	//summer
+	"summer_1": "Happy summer, @.#$b#Summer was my favorite season as a kid because it meant less time needed for school and more time I could spend on my monster research.",
+	"summer_7": "Today is my sister's birthday.#$b#I can still remember the day she was born. I was about 8 years old, I think...#$b#It was one of the happiest days for our family.$h",
+	"summer_10": "I'm probably just going to throw in some mango fruit into the soup tomorrow. It's been my favorite ever since I was a kid.",
+	"summer_27": "Tomorrow's festival is one of the ones I'm actually really looking forward to.#$b#Did you know that the Moonlight Jellies used to be hostile?$h#$b#We were able to form a peaceful connection with them after years of conflict.",
+	"summer_28": "Half the year is already done. I feel like I haven't gotten very far with my research this so far...$s",
+	"summer_1_2": "Happy summer, @.#$b#Summer was my favorite season as a kid because it meant less time needed for school and more time I could spend on my monster research.",
+	"summer_7_2": "Today is my sister's birthday.#$b#I can still remember the day she was born. I was about 8 years old, I think...#$b#It was one of the happiest days for our family.$h",
+	"summer_10_2": "I'm probably just going to throw in some mango fruit into the soup tomorrow. It's been my favorite ever since I was a kid.",
+	"summer_27_2": "Tomorrow's festival is one of the ones I'm actually really looking forward to.#$b#Did you know that the Moonlight Jellies used to be hostile?$h#$b#We were able to form a peaceful connection with them after years of conflict.",
+	"summer_28_2": "Half the year is already done. I feel like I haven't gotten very far with my research this so far...$s",
+
+	//fall
+	"fall_1": "The orange floors of autumn always made me feel sad when I was a kid. I didn't really like school.",
+	"fall_15": "Will you be setting up a grange display for the fair tomorrow?#$b#I might help with my uncle's display.",
+	"fall_26": "I'm going to help set up the monster display cases for the festival tomorrow. Don't worry, me and Marlon will make sure they're safe!",
+	"fall_28": "The season's already over. I'm looking forward to staying inside during the cold winter.",
+	"fall_1_2": "The orange floors of autumn always made me feel sad when I was a kid. I didn't really like school.",
+	"fall_15_2": "Will you be setting up a grange display for the fair tomorrow?#$b#I might help with my uncle's display.",
+	"fall_26_2": "I'm going to help set up the monster display cases for the festival tomorrow. Don't worry, me and Marlon will make sure they're safe!",
+	"fall_28_2": "The season's already over. I'm looking forward to staying inside during the cold winter.",
+
+	//winter
+	"winter_1": "Happy winter, @. I probably won't be leaving the Guild much, because I like staying warm.",
+	"winter_7": "Are you good at fishing? I'll cheer for you at the festival tomorrow! You can represent the Guild.",
+	"winter_15": "The Night Market sounds like a cool idea. Maybe if it gets bigger, other branches of the Guild can come and open up stalls!",
+	"winter_22": "Hi, @. Today's one of the few days of the year where I'm not researching.#$b#Why? It's my birthday!$h#$b#Zinnia already gave me my favorite Coffee order from the Saloon.",
+	"winter_24": "I hope my secret person likes the gift I got...$s#$b#I'm not the best gift giver...$s",
+	"winter_28": "Happy new year, @.#$b#I can't believe the year's already over. I feel like I didn't get anything done...$s",
+	"winter_1_2": "Happy winter, @. I probably won't be leaving the Guild much, because I like staying warm.",
+	"winter_7_2": "Are you good at fishing? I'll cheer for you at the festival tomorrow! You can represent the Guild.",
+	"winter_15_2": "The Night Market sounds like a cool idea. Maybe if it gets bigger, other branches of the Guild can come and open up stalls!",
+	"winter_22_2": "Hi, @. Today's one of the few days of the year where I'm not researching.#$b#Why? It's my birthday!$h#$b#Zinnia already gave me my favorite Coffee order from the Saloon.",
+	"winter_24_2": "I hope my secret person likes the gift I got...$s#$b#I'm not the best gift giver...$s",
+	"winter_28_2": "Happy new year, @.#$b#I can't believe the year's already over. I feel like I didn't get anything done...$s",
+	"BeachNightMarket": "{{Random: That coffee looks so enticing.#$b#Too bad they only allow one per customer.$s 88 This is one of my favorite festivals all year.#$b#When I was little, I loved staying up till midnight here while my mom and uncle got lost in the craze. |inputSeparator=88}}",
+	
+	//0 Hearts
+	"Mon": "Oh, hi.#$b#...$s#$b#Um, did you need something?$s",
+	"Tue": "Sorry if I seem a bit awkward.$s#$b#I'm not, um, the best at talking to people.$s",
+	"Wed": "You're one of the people I'm more comfortable talking to, since you're part of the Guild and all.",
+	"Thu": "Oh, um, I'm kind of busy right now. You can talk to Marlon if you need something.",
+	"Fri": "Are you friends with my sister? She's very social.#$B#*mutter* She's probably friends with the whole town by now...$a",
+	"Sat": "I like it here more than the city. The loud sounds can make it hard to work.",
+	"Sun": "...$7#$b#Oh!$u#$b#Um, h-hi. S-sorry about that...$s",
+
+	//2 Hearts
+	"Mon2": "Hi, @. Um, how's your day been?#$b#My uncle tells me you work hard all day, everyday...#$b#...you have the same work ethic as me!$h",
+	"Tue2": "{{Random: Uncle Marlon tells me that you're one of the best Guild members we've had in years.#$b#That's so great!$h 88 Hey, @, do you have any monster loot?#$b#If you want, you can give some to me. I know most people would hate that, but I'd really like to study them closely. |inputSeparator=88}}",
+	"Wed2": "My life dream is to find a way to eliminate the threat of monsters in the mines in order to make Pelican Town a safer place.",
+	"Thu2": "{{Random: Oh, um, hi. You're pretty nice, aren't you?#$b#Most people just give up trying to talk to me. 88 I usually don't have much time to cook meals, so I end up eating precooked food most days.#$b#Sometimes if I'm lucky, my sister will cook us all a nice meal!$h |inputSeparator=88}}",
+	"Fri2": "I didn't sleep until 4 AM last night...#$b#*yawn*$7",
+	"Sat2": "Hi. Taking a weekend off?#$b#Oh me? Never. I have to work everyday if I want to reach my goals in time.",
+	"Sun2": "Hi @. Sorry if I seem like I'm not paying attention.#$b#I think I might be on the verge of a big discovery.",
+
+	//4 Hearts
+	"Mon4": "I miss my mom every day. I wish she was still here...$s",
+	"Tue4": "Me and my dad are pretty close. We bonded after my mom passed away.#$b#She always used to call us 'her boys'!$h",
+	"Wed4": "{{Random: I've had these glasses since I was 6 years old.#$b#It only took a few years of bumping into everything for my parents to notice!$h 88 I've actually known some people in the valley for some time.#$b#I met the intelligent Wizard when I visited a few years back. Do you know him? |inputSeparator=88}}",
+	"Thu4": "{{Random: Hi, @. I just wanted to say thanks for talking to me.#$b#You're one of the few people who haven't given up on me yet...$s 88 The girl who lives in that science house came to visit a few days ago. Maru, I think.#$b#She kept looking at me strange...$s |inputSeparator=88}}",
+	"Fri4": "I think schools should have a class about monsters and monster biology.#$b#Unfortunately, most of the tragedies that happen are with little children thinking monsters and friendly...",
+	"Sat4": "My dad always used to get annoyed when Zinnia slept in, but I don't think he ever cared when I did...#$b#Maybe he really wanted me to make some new discoveries.",
+	"Sun4": "{{Random: Did you know that I went to the most prestigious university in Zuzu City?#$b#I don't like to talk about it often.#$b#It really wasn't all that I hoped it would be. Sometimes I wish I didn't go to college like Zinnia. 88 Zinnia told me that there was a guy that reminded her of me.#$b#I think he lives in the house down the mountain.#$b#Apparently he has a hard work ethic like me. |inputSeparator=88}}",
+
+	//6 Hearts
+	"Mon6": "I wear a necklace made from my mom's favorite gem from her mine expeditions.#$b#It's hidden under my shirt, but trust me, it's there!$h#$b#I'll never take it off.",
+	"Tue6": "You must really see something in me, huh?#$b#I feel good calling you one of my closest friend.#$b#Actually, you are my closest friend!$h",
+	"Wed6": "The coffee at the Saloon is great, but nothing compares to how it was in the city!$h#$b#Hey, if we ever go visit, you should try some!",
+	"Thu6": "My dad's a police officer in Zuzu City. He didn't move here because there's no police station in Pelican Town.#$b#I guess that's a good thing then, right?",
+	"Fri6": "Oh, hi, @. I don't know if you realized, but you're the person I've opened up to the most that isn't my sister or my dad.#$b#I think this friendship thing that Zinnia talks about so much might really be something great!$h",
+	"Sat6": "I've wanted to study monsters ever since my mother passed away.#$b#...$s#$b#Um, sorry, I just get a little sad thinking about what happened to her...$s",
+	"Sun6": "I've been thinking about taking more breaks from my work recently...#$b#Do you think that's a good idea, @?",
+
+	//8 Hearts
+	"Mon8": "I've never been in a relationship before. I've had some crushes, but I was too focused on my work to ever act on them.",
+	"Tue8": "My mom and dad fell in love when they both were after a monster-gone-loose case.#$b#I hope my love story is as amazing as theirs.",
+	"Wed8": "I used to think that having close friends wasn't a good use of time, but now that I've met you...#$b#I was completely wrong! Being friends with you is really fun.$h#$b#I should probably apologize to Zinnia now...$s",
+	"Thu8": "Hey, @. Did you know that I was nervous to talk to you when we first met?#$b#Looking back at that now, I can't believe I thought that! You're the exact opposite!$h",
+	"Fri8": "You've inspired me to stop working so hard and enjoy the small stuff, @. Thanks for that.",
+	"Sat8": "Hey, @, guess what?#$b#I added you to my research's dedication page!$h#$b#It's a real honor you know. You're the only person there that's not related to me.",
+	"Sun8": "Hey, @, I've been thinking.#$b#I want to meet more new friends!$h#$b#Being friends with you is really fun, so I think I should expand my circles.#$b#Got any people you think I'd click with?",
+
+	//Special Dialogue
+	"breakUp": "O-oh! I-I see...$s#$b#Well, goodbye I guess. I can't believe I ever thought this would work out...$s",
+	"danceRejection": "Y-you want to dance with me? Um, I shouldn't...$s#$b#I'll, uh, embarass you with my bad moves.$s",
+	"divorced": "Go away, @. I don't want to talk. I can't believe I let you distract me from my goals.$a#$b#I can't believe I thought anyone would ever love me...$s",
+	"MovieInvitation": "Oh, a movie? Sure, I guess I can take a quick break.",
+	"Resort_Entering": "My sister told me that I need to take some time off and relax some more. I hope the beach lets me clear my mind.",
+        "Resort_Leaving": "Honestly, that was pretty nice. I got my mind off my work for once. Maybe I'll come here more often.",
+        "Resort_Shore": "Do you think there are any monsters in the water? I hope not...$s",
+        "Resort_Chair": "I'm not used to sitting in a chair like this... the ones at home are cushioned and sturdy.",
+        "Resort_Bar": "Do you think they sell mango wine here?#$b#I love that drink!$h",
+	"Resort_Umbrella": "I forgot to put my sunscreen on, so I think I'll stay in the shade for now.",
+	"Resort_Wander": "I wonder what type of monsters lie on this island. Have you explored further, @?",
+        "Resort": "One day we should open a branch of the Guild out on the island.",
+	"sillyRevealed": "I was skeptical of Zinnia's methods, but I'm so glad you talked me into letting Silly free, @.#$b#Maybe we should talk to Marlon about taking those eradication goals down...",
+	"gabeFinished": "@! Y-you did it!#$b#This is amazing! We're making leaps and bounds in our quest for monster eradication!",
+		},
+	},
+
+	//Dating Dialogue
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gabriel",
+	    "Entries": {
+
+	//8 Hearts
+	"Mon8": "H-hi @...$l#$b#S-sorry, I just get butterflies when talking to you...$l",
+	"Tue8": "I'm sorry if I'm not the best boyfriend, @. I don't have much experience...$s#$b#But I'm still going to try as hard as I can to make you happy!$h",
+	"Wed8": "[595] Hi, @. I, uh, got you this as a gift...$l#$b#Zinnia told me that any good boyfriend gifts their partner with beautiful flowers. I hope you like it.$l",
+	"Thu8": "Hi, @...$l#$b#I'm still shocked you feel the same way about me that I did about you...$l",
+	"Fri8": "I didn't come to Stardew Valley to find love, but, now...$l#$b#...I can confidently conclude that moving was the best choice I've ever made!$h",
+	"Sat8": "I wish flowers didn't decay. Otherwise I would keep the beautiful boquet you gave me forever!$h",
+	"Sun8": "Hi, @. I hope you have an amazing week.$l#$b#Be careful out there, I don't want you to get hurt!$h",
+
+	//10 Hearts
+	"Mon10": "@... you're amazing, you know.$l#$b#Not many people can change the life of someone as awkward as me...$l",
+	"Tue10": "Have you heard, @?$l#$b#We're the most popular couple in the Guild!$h#$b#Everyone's talking about how perfect we are for each other...$l#$b#I would've been embarassed in the past, but with you I'm nothing but proud to be your boyfriend.$l",
+	"Wed10": "{{Random: I want to see my beautiful boyfriend in one piece before I sleep. I worry about you.$l^I want to see my beautiful girlfriend in one piece before I sleep. I worry about you.$l 88 Hi, @.$l#$b#Thanks for everything you've given me. That's all...$l#$b#Enjoy your day, @.$l |inputSeparator=88}}",
+	"Thu10": "I wish my mom could meet you. She always wanted to meet my future partner. I'm sure she would love you even more than me!$h",
+	"Fri10": "Hi, @! Are you free tonight?#$b#We could go out together, just me and you...$l",
+	"Sat10": "Be careful out there, @.$l#$b#I want to see my beautiful boyfriend in one piece before I sleep. I worry about you.$l^I want to see my beautiful girlfriend in one piece before I sleep. I worry about you.",
+	"Sun10": "Some day we should go on a mine expedition together. I'll study the monsters and you can protect me.#$b#You're so strong, after all...$l",
+		},
+		"When": {
+			"Relationship:Gabriel": "Dating",
+		},
+	},
+
+	//Rain Dialogue
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+	    "Entries": {
+
+	"Gabriel": "The rain doesn't bother me. I prefer to be inside most days anyways.",
+		},
+	},
+
+	],
+}

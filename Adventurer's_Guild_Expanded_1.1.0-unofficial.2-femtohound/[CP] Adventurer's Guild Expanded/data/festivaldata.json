@@ -1,0 +1,624 @@
+{
+"Changes": [
+
+
+//****************************
+//******* EGG FESTIVAL *******
+//****************************
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+   "Target": "Data/Festivals/spring13",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Zinnia 15 73 left/Gabriel 13 73 right",
+         "Delimiter": "/"
+		},
+
+   //Main Event
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Zinnia 15 73 right/Gabriel 13 73 right",
+         "Delimiter": "/"
+		},
+
+	],
+	},
+
+	{
+	"LogName": "EggFestival",
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+	"Target": "Data/Festivals/spring13",
+	"Entries": {
+		"Zinnia": "Hi, @! Are you doing the Egg Hunt today?#$b#I helped paint a few of the eggs. You'll know which ones I did when you see them, haha!$h",
+		"Zinnia_spouse": "Hi, honey! I'm ready to cheer as loud as possible for you in the Egg Hunt today. I know you can do it!",
+		"Gabriel": "Zinnia wanted us to participate in the Egg Hunt, but I think we're a little old for that.#$b#N-nothing against you, though!$u",
+		"Gabriel_spouse": "Hi, dear. Are you ready for the Egg Hunt? I'll be cheering you on the entire time!$h",
+		},
+	},
+
+	//SILLY
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+   "Target": "Data/Festivals/spring13",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Silly 14 72 down",
+         "Delimiter": "/"
+		},
+
+   //Main Event
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Silly 14 72 right", 
+         "Delimiter": "/"
+		},
+
+	],
+	},
+
+	{
+	"LogName": "EggFestival",
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+	"Target": "Data/Festivals/spring13",
+	"Entries": {
+		"Silly": "Silly hide some egg too!$h#$b#Farmer find them? Silly try their best!",
+		},
+	},
+
+//****************************
+//******* FLOWER DANCE *******
+//****************************
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+   "Target": "Data/Festivals/spring24",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Zinnia 19 39 right/Gabriel 20 39 left",
+         "Delimiter": "/"
+		},
+
+   //Main Event
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Zinnia 19 34 up/Gabriel 20 34 up",
+         "Delimiter": "/"
+		},
+
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+	"Target": "Data/Festivals/spring24",
+	"Entries": {
+		"Zinnia": "Hi, @! Are you going to be dancing today?$h#$b#I wanted to do some freestyling but Lewis said it wasn't 'that' type of dance...",
+		"Zinnia_spouse": "The flowers look so beautiful today...#$b#Not as beautiful as you, though!$h#$b#Well, honey? Do you have something to ask me? *Giggle*$l",
+		"Gabriel": "I don't know if I'll ask anyone to dance...$s#$b#I haven't really connected with many people here, you know?$s",
+		"Gabriel_spouse": "Hi, honey. I used to despise this festival, but then I met you...$l#$b#Would you wanna dance with me, dear?$l",
+		},
+	},
+
+	//SILLY
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+   "Target": "Data/Festivals/spring24",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Silly 18 39 down",
+         "Delimiter": "/"
+		},
+
+   //Main Event
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Silly 18 39 up",
+         "Delimiter": "/"
+		},
+
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+	"Target": "Data/Festivals/spring24",
+	"Entries": {
+		"Silly": "@ dance with Silly?$l#$b#What farmer mean?! Silly can't dance?$s",
+		},
+	},
+
+//****************************
+//*********** LUAU ***********
+//****************************
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+   "Target": "Data/Festivals/summer11",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Zinnia 37 24 down/Gabriel 35 23 left",
+         "Delimiter": "/"
+		},
+
+   //Main Event
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Zinnia 36 23 up/Gabriel 35 23 up",
+         "Delimiter": "/"
+		},
+
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+	"Target": "Data/Festivals/summer11",
+	"Entries": {
+		"Zinnia": "Mmm... the food here is so delicious! I think I'll ask Gus to teach me some recipes someday.",
+		"Zinnia_spouse": "Hi, honey! Did you put something from %farm into the soup? We want to show the town how great the farm is, after all!$h",
+		"Gabriel": "Hi, @. What are you putting in the soup? I wanted to put in some coffee, but I realized it probably wouldn't be good for the kids. Oh well!",
+		"Gabriel_spouse": "@! Just who I wanted to see!#$b#%Gabriel kisses you.#$b#Mmm... looks like you've had some good food from the buffet, haha!$h",
+		},
+	},
+
+	//SILLY
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+   "Target": "Data/Festivals/summer11",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Silly 38 24 down",
+         "Delimiter": "/"
+		},
+
+   //Main Event
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "MainEvent_additionalCharacters"],
+         "Value": "Silly 38 24 up",
+         "Delimiter": "/"
+		},
+
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+	"Target": "Data/Festivals/summer11",
+	"Entries": {
+		"Silly": "Wait farmer! Don't get too close. Silly's slime become burning in the sun...",
+		},
+	},
+
+//****************************
+//***** MOONLIGHT JELLIES ****
+//****************************
+
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+   "Target": "Data/Festivals/summer28",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Zinnia 38 34 down/Gabriel 39 34 down",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+	"Target": "Data/Festivals/summer28",
+	"Entries": {
+		"Zinnia": "I'm so excited to see the adorable little jellies. Do you think they like seeing us, too?",
+		"Zinnia_spouse": "Hi, honey. I can't wait to hold your hand while watching these beautiful creatures tonight.$l",
+		"Gabriel": "Did you know that the Moonlight Jellies used to be hostile like mine monsters?#$b#Over time, we befriended them and now we have this amazing festival.",
+		"Gabriel_spouse": "Hi, dear. Tonight I'm going to be thinking of you when the Moonlight Jellies come in. You're as beautiful and magical as they are.$l",
+		},
+	},
+
+	//SILLY
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+   "Target": "Data/Festivals/summer28",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Silly 37 34 down",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+	"Target": "Data/Festivals/summer28",
+	"Entries": {
+		"Silly": "Silly can't wait to see the slimes of the sea!#$b#They become Silly's friends?",
+		},
+	},
+
+//****************************
+//*** STARDEW VALLEY FAIR ****
+//****************************
+
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+   "Target": "Data/Festivals/fall16",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Zinnia 29 82 right/Gabriel 30 82 left",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+	"Target": "Data/Festivals/fall16",
+	"Entries": {
+		"Zinnia": "I won the last teddy bear from the prize booth. It only took a few hours of playing the slingshot game...#$b#I'll cherish it forever!",
+		"Zinnia_spouse": "Did you set up %farm farm's grange display yet, dear? I know you'll win!#$b#You're the best farmer ever!$h",
+		"Gabriel": "I think the Adventurer's Guild should have their own grange display. We would win for sure!#$b#At least, I think we would. I don't really know how the judging works...$s",
+		"Gabriel_spouse": "Hi honey. I'm looking forward to seeing you win the grange competition. I believe in you!#$b#You're the best farmer ever, after all!$l",
+		},
+	},
+
+	//SILLY
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+   "Target": "Data/Festivals/fall16",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Silly 29 83 down",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+	"Target": "Data/Festivals/fall16",
+	"Entries": {
+		"Silly": "Come on, Zinnia! Silly want to play festival game more!#$b#Wahh!$s",
+		},
+	},
+
+//****************************
+//******* SPIRIT'S EVE *******
+//****************************
+
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false"},
+   "Target": "Data/Festivals/fall27",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Zinnia 24 55 down/Gabriel 24 56 up",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", "IsOddYear": "true", "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true"},
+   "Target": "Data/Festivals/fall27",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Zinnia 24 55 down/Gabriel 24 56 up",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", "IsOddYear": "false", "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true"},
+   "Target": "Data/Festivals/fall27",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Zinnia 32 66 down/Gabriel 31 66 down",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+	"Target": "Data/Festivals/fall27",
+	"Entries": {
+		"Zinnia": "Why are they keeping those monsters locked up? It's terrible! I think they should be free in their homes.$s",
+		"Zinnia_spouse": "Hi honey. I think I'll stay here and out of the maze, haha.$h#$b#Just be safe in there! I worry about you.",
+		"Gabriel": "These monsters are imported from the Grampleton Adventurer's Guild. I wish I could keep them here and study them closer...",
+		"Gabriel_spouse": "@! Hi!#$b#I'm trying not to get distracted by the monsters and have some fun. Have you checked out the maze yet?#$b#I'm sure you could beat it easily!$h",
+		},
+	},
+
+	//SILLY
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false"},
+   "Target": "Data/Festivals/fall27",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Silly 23 55 left",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", "IsOddYear": "true", "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true"},
+   "Target": "Data/Festivals/fall27",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Silly 23 55 left",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", "IsOddYear": "false", "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true"},
+   "Target": "Data/Festivals/fall27",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Silly 33 66 down",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+	"Target": "Data/Festivals/fall27",
+	"Entries": {
+		"Silly": "They keep monster locked up...$s#$b#They lock Silly up too?$s#$b#Wahh...$s",
+		},
+	},
+
+//****************************
+//***** FESTIVAL OF ICE ******
+//****************************
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+   "Target": "Data/Festivals/winter8",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Zinnia 64 24 right/Gabriel 65 24 left",
+         "Delimiter": "/"
+		},
+
+   //Main Event
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Main-Event_additionalCharacters"],
+         "Value": "Zinnia 64 24 down/Gabriel 65 24 down",
+         "Delimiter": "/"
+		},
+
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+	"Target": "Data/Festivals/winter8",
+	"Entries": {
+		"Zinnia": "Brr... It's chilly out here!#$b#I'll still get a brain freeze even with my trusty beanie!",
+		"Zinnia_spouse": "Make sure to release the fish you catch, dear. I don't want any harm to come to them or their families.#$b#I know I'd be horrified if you were taken away from me!",
+		"Gabriel": "I've never really been much of a fisherman. Do you like fishing, @?#$b#Once I read about a giant monster that hooked onto a man's fishing rod down in the Fern Islands.",
+		"Gabriel_spouse": "I'm ready to cheer you on, honey. You can do it!#$b#I'll give you a reward after, if you want...$l",
+		},
+	},
+
+	//SILLY
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+   "Target": "Data/Festivals/winter8",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Silly 63 24 down",
+         "Delimiter": "/"
+		},
+
+   //Main Event
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Main-Event_additionalCharacters"],
+         "Value": "Silly 63 24 down",
+         "Delimiter": "/"
+		},
+
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+	"Target": "Data/Festivals/winter8",
+	"Entries": {
+		"Silly": "It freezy out here...#$b#Silly not a Frost Jelly.. Silly's slime gonna freeze!$s"
+		},
+	},
+
+//****************************
+//* FEAST OF THE WINTER STAR *
+//****************************
+
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+   "Target": "Data/Festivals/winter25",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Zinnia 25 57 right/Gabriel 26 57 left",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280002": "true", },
+	"Target": "Data/Festivals/winter25",
+	"Entries": {
+		"Zinnia": "I love this festival! It always makes me appreciate what I have...#$b#...an amazing community and delicious food!$h",
+		"Zinnia_spouse": "Hi, honey. The food here is extra tasty!#$b#Don't eat too much, or we won't have room for dessert...$l",
+		"Gabriel": "Usually I'm not into cheesy things, but I really like this festival. Family is really important to me, you know?",
+		"Gabriel_spouse": "Hey, @. I'm just appreciating everything we have in our life.#$b#I think tonight's gonna be even better than this...$l",
+		},
+	},
+
+	//SILLY
+	{
+
+   "Action": "EditData",
+   "When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+   "Target": "Data/Festivals/winter25",
+   "TextOperations": [
+
+   //SetUp
+		{
+         "Operation": "Append",
+         "Target": ["Entries", "Set-Up_additionalCharacters"],
+         "Value": "Silly 25 58 right",
+         "Delimiter": "/"
+		},
+	],
+	},
+
+	{
+	"Action": "EditData",
+	"When": { "HasSeenEvent: hostPlayer |contains=9280017": "true", },
+	"Target": "Data/Festivals/winter25",
+	"Entries": {
+		"Silly": "Silly love this festival! So much fun!#$b#Did farmer get a gift for Silly?$h",
+		},
+	},
+
+]
+}

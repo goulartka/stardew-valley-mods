@@ -1,0 +1,168 @@
+{
+"Changes": [	
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Zinnia",
+	    "Entries": {
+
+	//Married To Gabriel or Daniel
+	"{{Random: Mon, Tue, Wed, Thu, Fri, Sat, Sun}}_inlaw_Gabriel": "{{Random: Hi brother-in-law!$h&Hi sister-in-law!$h#$b#How's Gabe doing?#$b#I'm glad to see him happy with you.$h 88 Hi, @! Tell Gabe that I miss him back at the Guild.#$b#I'm glad he's happy with you, though!$h |inputSeparator=88}}",
+	"{{Random: Mon, Tue, Wed, Thu, Fri, Sat, Sun}}_inlaw_Daniel": "{{Random: Oh, hi, @!#$b#I admit I was kinda skeptical of you becoming my new, um, stepfather, but...^I admit I was kinda skeptical of you becoming my new, um, stepmother, but...#$b#...seeing how happy Dad is with you makes me so glad for you two!$h 88 I know my mom would be happy for my dad to have found you, @.#$b#I hope your married life is going well!$h |inputSeparator=88}}",
+
+	//Introduction
+	"Introduction": "Oh, hi!#$b#I'm Zinnia!#$b#I love meeting new people, haha! I hope we can be friends!$h",
+
+	//spring
+	"spring_1": "Ah! Another great year to be alive!$h#$b#Oh, hi @! I hope you have a great season!$h",
+	"spring_12": "Tomorrow's the Egg Festival! How exciting!#$b#My brother Gabe likes eggs, so I might snag him a few to give him when things get a little tough!$h",
+	"spring_17": "It's my dad's birthday today!#$b#I'm going to make him a big chocolate cake! It was always his favorite thing that my mom made for him.#$b#I even have her homemade recipe!$h",
+	"spring_23": "I heard that Haley's going to be the Flower Princess this year.#$b#Maybe one day I'll get a shot at the being the Flower Princess!$h",
+	"spring_28": "Springs already over, @! Can you believe it? The year's already flying by!$h",
+	"spring_1_2": "Ah! Another great year to be alive!$h#$b#Oh, hi @! I hope you have a great season!$h",
+	"spring_12_2": "Tomorrow's the Egg Festival! How exciting!#$b#My brother Gabe likes eggs, so I might snag him a few to give him when things get a little tough!$h",
+	"spring_17_2": "It's my dad's birthday today!#$b#I'm going to make him a big chocolate cake! It was always his favorite thing that my mom made for him.#$b#I even have her homemade recipe!$h",
+	"spring_23_2": "I heard that Haley's going to be the Flower Princess this year.#$b#Maybe one day I'll get a shot at the being the Flower Princess!$h",
+	"spring_28_2": "Springs already over, @! Can you believe it? The year's already flying by!$h",
+	
+	//summer
+	"summer_1": "The warmth of summer is a sign for me to get outside and have fun!$h",
+	"summer_7": "Today's my birthday! I'm so excited.#$b#Gabe gave me a giant Pink Cake - how sweet of him!$h",
+	"summer_10": "The big community Luau is tomorrow - I wonder what I should put in the pot...#$b#Hey, do you think people will like it if I add some Green Tea? It's my favorite!$h",
+	"summer_27": "Tomorrow's the beautiful Dance of the Moonlight Jellies.#$b#I should probably head to bed early tonight - I wanna be able to stay awake to enjoy the festival tomorrow!$h",
+	"summer_28": "I can't believe Summer's already come and gone.#$b#Oh well, it's time for our next Fall adventure, I guess!$h",
+	"summer_1_2": "The warmth of summer is a sign for me to get outside and have fun!$h",
+	"summer_7_2": "Today's my birthday! I'm so excited.#$b#Gabe gave me a giant Pink Cake - how sweet of him!$h",
+	"summer_10_2": "The big community Luau is tomorrow - I wonder what I should put in the pot...#$b#Hey, do you think people will like it if I add some Green Tea? It's my favorite!$h",
+	"summer_27_2": "Tomorrow's the beautiful Dance of the Moonlight Jellies.#$b#I should probably head to bed early tonight - I wanna be able to stay awake to enjoy the festival tomorrow!$h",
+	"summer_28_2": "I can't believe Summer's already come and gone.#$b#Oh well, it's time for our next Fall adventure, I guess!$h",
+
+	//fall
+	"fall_1": "Summer might be my favorite season, but Fall is definitely the prettiest.#$b#Just look at those gorgeous colors!$h",
+	"fall_15": "Hi, @! Are you going to set up a display for the Fair tomorrow? I can't wait to see what %farm Farm has to show off!$h",
+	"fall_26": "Wait, Spirit's Eve is tomorrow?#$b#Oh no! I still haven't found a costume to wear!$s#$b#Maybe I should stay home... I do get scared pretty easily...$u",
+	"fall_28": "It's time to say goodbye to the golden brown leaves, and hello to the chilly snow skies of Winter. This is so exciting!$h",
+	"fall_1_2": "Summer might be my favorite season, but Fall is definitely the prettiest.#$b#Just look at those gorgeous colors!$h",
+	"fall_15_2": "Hi, @! Are you going to set up a display for the Fair tomorrow? I can't wait to see what %farm Farm has to show off!$h",
+	"fall_26_2": "Wait, Spirit's Eve is tomorrow?#$b#Oh no! I still haven't found a costume to wear!$s#$b#Maybe I should stay home... I do get scared pretty easily...$u",
+	"fall_28_2": "It's time to say goodbye to the golden brown leaves, and hello to the chilly snow skies of Winter. This is so exciting!$h",
+
+	//winter
+	"winter_1": "Brr...#$b#Winter is finally here! I can't wait to make snowmen all around Town!$h",
+	"winter_7": "The Festival of Ice sounds like it's going to require a few more layers of clothing. Maybe I'll ask Emily to sew me some!$h",
+	"winter_15": "The Night Market sounds so interesting! Do you think they'll be selling any cool beanies?",
+	"winter_22": "Today's my brother's birthday. Don't tell him, but I'm getting him his favorite Coffee order from the Stardrop Saloon.#$b#He'll love it!$h",
+	"winter_24": "Hey, @, who did you get as your secret friend? I won't tell if you don't tell mine!#$b#No? Oh well, it was worth a shot!$h",
+	"winter_28": "This year has flown by so fast, @. Happy New Year! I hope you find even more success next year!$h",
+	"winter_1_2": "Brr...#$b#Winter is finally here! I can't wait to make snowmen all around Town!$h",
+	"winter_7_2": "The Festival of Ice sounds like it's going to require a few more layers of clothing. Maybe I'll ask Emily to sew me some!$h",
+	"winter_15_2": "The Night Market sounds so interesting! Do you think they'll be selling any cool beanies?",
+	"winter_22_2": "Today's my brother's birthday. Don't tell him, but I'm getting him his favorite Coffee order from the Stardrop Saloon.#$b#He'll love it!$h",
+	"winter_24_2": "Hey, @, who did you get as your secret friend? I won't tell if you don't tell mine!#$b#No? Oh well, it was worth a shot!$h",
+	"winter_28_2": "This year has flown by so fast, @. Happy New Year! I hope you find even more success next year!$h",
+	"BeachNightMarket": "{{Random: Did you know that they're selling some cute decorations in one of the boats?#$b#I think I might snag up a Stone Frog for my room, haha!$h 88 Ooh! They're giving away free coffee! I bet Gabe would love that!$h |inputSeparator=88}}",
+	
+
+	//0 Hearts
+	"Mon": "I love exploring the town. It feels like every day I find something new!",
+	"Tue": "My brother doesn't like how I spend a lot of time making new friends, but I think it's fun!$h#$b#Friends are always there to help you out!$h",
+	"Wed": "{{Random: Everyone in this town is so nice!#$b#Mr. Clint even offered to help me with my Adventure Guild mining errand! How sweet!$h 88 I visited Sam's house the other day. I played a little with Vincent, and Sam kept looking at me funny.#$b#Do you think he likes me? Haha!$h |inputSeparator=88}}",
+	"Thu": "I'm trying to find some gold ore today. My brother assigned me to get some.#$b#Do you know where I can find some?",
+	"Fri": "Some people get surprised when they learn that Marlon is my uncle, not my grandpa.#$b#Don't tell him though! He gets self concious of his aging... poor guy.",
+	"Sat": "{{Random: Do you like drinking green tea?#$b#I love take sips while looking out at the peaceful lake in the morning! 88 I wonder how Gil and my Uncle Marlon met...#$b#My mom used to joke that they were old lovers!$h |inputSeparator = 88}}",
+	"Sun": "Sometimes when I'm walking I see little squirrels or frogs pop out of the bushes.#$b#I always wish I could pet them, but they're too fast!$h",
+
+	//2 Hearts
+	"Mon2": "I visited Marnie's Ranch the other day. She lets me pet the cows and chickens. Do you have animals on your farm, @?",
+	"Tue2": "Hi @! How's your day been?#$b#Me? Oh, my day's been fun! I got to have a fun conversation with Gil.#$b#It's rare to catch him awake, you know!$h",
+	"Wed2": "Alex told me that his mom also died when he was younger.#$b#I think have more in common with people in this town than I thought!$h",
+	"Thu2": "My brother and I have never really gotten along growing up. We have opposite personalities, I think.#$b#I'll always love him, though!$h",
+	"Fri2": "{{Random: You might catch me wandering all around the valley, but that's just because I'm so glad to live in this beautiful area!#$b#Of course I'd want to soak it all in!$h 88 Do you like the morning or the night, @? I'm think I'm more of a morning bird.#$b#I just thrive in the sunlight!$h |inputSeparator=88}}",
+	"Sat2": "Hello, @! I was just thinking that I should visit your farm someday.#$b#I always like to visit my neighbors and keep our friendship growing!$h",
+	"Sun2": "Have I ever told you that I'm from Zuzu City? The big city life's fun, but I sure do like it way more here in Pelican Town!",
+
+	//4 Hearts
+	"Mon4": "I was only 2 years old when my mom died, so I don't really remember her or what really happened.$s#$b#Maybe my brother or uncle can tell you the story someday.$s",
+	"Tue4": "{{Random: I love my dad, but sometimes he can be a bit annoying.#$b#I feel like he doesn't really believe in me, you know?$a 88 My dad's a police officer at Zuzu City.#$b#He and my mom were quite the danger fighting duo, you know!$h}}",
+	"Wed4": "Do you have any siblings, @?#$b#Even though me and Gabe fight, I wouldn't trade him for anything!",
+	"Thu4": "@! I was just going to visit you! Gotta keep your friendships strong, you know!$h",
+	"Fri4": "I'm usually a positive person, but I hate when people are mean for no reason.$s#$b#Sorry, maybe I really am oblivious to people's emotions like my brother says...$s",
+	"Sat4": "{{Random: Something I love about this community is how close knit everyone is! Back at Zuzu, you would never be able to get to know all of neighbors closely! 88 Linus tells me that people treat him like an outsider.$s#$b#That makes me sad...$s#$b#I always try to make him feel loved!$h |inputSeparator=88}}",
+	"Sun4": "I'm not good at much, but I am great at cooking! You should come and visit for lunch sometime!$h",
+
+	//6 Hearts
+	"Mon6": "I don't really like going spelunking in the mines like my Uncle did.#$b#Something about slaying innocent creatures in their own homes just feels wrong to me...$s",
+	"Tue6": "Back in the city, you could never sleep past 8:00 because of the loud and bustling traffic.#$b#That's just one reason I'm so glad to be living in this peaceful valley!$h",
+	"Wed6": "Hi there, @! I've been meaning to tell you that I really like your farm.#$b#I walked by it on my morning stroll and it was just glowing with radiant positivity!$h",
+	"Thu6": "A bunny wandered up to me the other day.#$b#It was so adorable! Do you have bunnies on your farm, @?$h",
+	"Fri6": "I used to have a boyfriend back during high school.^I used to have a girlfriend back during high school.#$b#I remember Gabe was annoyed, because he thought that dating takes time away from studies.#$b#Maybe he was right...$s#$b#My boyfriend was a mean and rude jerk, after all.^My girlfriend was a mean and rude jerk, after all.$a",
+	"Sat6": "My brother was never in a relationship back at Zuzu.#$b#There was one boy who he clearly had a crush on, though...^There was one girl who he clearly had a crush on, though...#$b#I wonder what happened with him.^I wonder what happened with her.",
+	"Sun6": "Many people tell me that I look a lot like my mother.#$b#I think my dad thinks that too, which is why he's so protective of me.",
+
+	//8 Hearts
+	"Mon8": "{{Random:Hi @! I feel blessed to call you one of my closest friends.$h 88 I'm always learning something new out here. I can't believe I used to be so strongheaded and think I knew everything at 18 years old in an area like Zuzu City. |inputSeparator=88}}",
+	"Tue8": "I used to feel sad that I would never find my purpose in life, but now, I think I've accepted that I'll find my purpose when the time is right.",
+	"Wed8": "I'm glad I found such great friends in Pelican Town.$h#$b#Emily, Sam, and you are all amazing people and I look up to each of you so much!",
+	"Thu8": "@! Just the person I wanted to see!$h#$b#[60 62 64 66 68 70 72 80 82 84 86] Here, I found this in the caves and it reminded me of you!$h#$b#Thanks for being such a good friend!$h",
+	"Fri8": "{{Random: Hi, @! I love your outfit - it really matches your personality!#$b#Maybe I'll ask Emily to make something that matches my personality, too...#$b#There's only so many days I can wear this beanie!$h 88 I always tell my brother to take time off and to smile.#$b#I feel like he works too hard because of what happened to my mom...$s |inputSeparator=88}}",
+	"Sat8": "This necklace is made from a stone that my mom cherised when she was still with us.#$b#After she passed, my Dad split the stone into three pieces, and me, Gabe, and him all wear this necklace to carry a part of her with us everywhere we go.",
+	"Sun8": "My mom named me after the Zinnia flower. The Zinnia flower is a flower that only grows in full sunlight, kinda like me.#$b#The Zinnia flower doesn't like being moved, though, so maybe it isn't a perfect name for me after all...$s#$b#What's the meaning of your name, @?",
+
+	//Special Dialogue
+	"breakUp": "Y-you want to break up?$s#$b#*Sniff* W-what did I do wrong?$s#$b#I really thought you were the one, @...$s",
+	"danceRejection": "Oh! Sorry, um, I've already agreed to dance with someone else. Maybe next time?",
+	"divorced": "I would appreciate it if you left me alone, @.$a#$b#I thought we were going to stay together forever, but I guess I was too naive to see who you really were...$s",
+	"MovieInvitation": "A movie? Sure! I'd love to go with you!",
+	"Resort_Entering": "I can't wait to have some fun in the sun!",
+        "Resort_Leaving": "Today was so refreshing... I can't wait to come back again sometime!",
+        "Resort_Shore": "The water looks so peaceful... do you think there are any cute fish in there?",
+        "Resort_Chair": "The beach is so relaxing today!",
+        "Resort_Bar": "There's so many options! I wonder what I should get... maybe I'll try something tropical!",
+	"Resort_Umbrella": "Hi there, @! Come into to the shade if you're feeling hot.",
+	"Resort_Wander": "This island looks so vast... I wonder what's out there!",
+        "Resort": "I love the beach!",
+	"sillyRevealed": "I just knew that making friends would be the best approach!$h#$b#Thanks for believing in me, @.",
+	"gabeFinished": "I guess I was wrong about the slime...$s#$b#Sorry if I delayed anything for you guys...$s",
+		},
+	},
+
+	//Dating Dialogue
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Zinnia",
+	    "Entries": {
+
+	//8 Hearts
+	"Mon8": "You're way nicer than my high school boyfriend, @.$l^You're way nicer than my high school girlfriend, @.$l#$b#You're more confident, determined, and motivated to follow your dreams...$l#$b#I admire that!$h",
+	"Tue8": "I didn't come to Pelican Town looking for love, but now I can't imagine dating anyone else but you, @.$l#$b#This trip has been a dream!$l",
+	"Wed8": "I always knew we would end up together, @.$l#$b#A few days after we met, Emily told me that she sensed our destinies coming together.$l#$b#I never really believed in fate before, but now I'm convinced!$h",
+	"Thu8": "Hi, @! How are you going? Don't overwork yourself... you have someone who cares about you now, so you better stay healthy!$l#$b#For me, at least!$h",
+	"Fri8": "I'll keep the boquet you gave me as long as possible, @.$lIt's my favorite gift I've ever received... at least, until you give something better - I know you'll top it, @!$h#$b#You're gifts are amazing!$h",
+	"Sat8": "I kinda expected Sam to stop talking to me when I told him that I was dating you, but he was really nice. This town is just full of nice people!$l#$b#Especially you, @!$l",
+	"Sun8": "I never realized how fun dating is when you aren't dating a toxic person.$l#$b#You treat me amazing, @...$l#$b#I hope I can do the same for you!$h",
+
+	//10 Hearts
+	"Mon10": "When I came here, I never expected to meet someone like you, @.$l#$b#Thanks for making this move the best decision I've ever made!$h",
+	"Tue10": "Hi, @.$l#$b#Do you maybe wanna meet up sometime? I always miss your lovely face when you're gone.$l",
+	"Wed10": "Hi, @.$l#$b#...$l#$b#Sorry, I was just taking it all in.#$b#I can't believe I have you in my life!$h",
+	"Thu10": "When I finally figure out exactly what I'm meant to do and become succesful, I want to use it to support all the people I love in my life. My Dad, Marlon, Gabe...#$b#And you, of course...$l",
+	"Fri10": "You've become one of the most important people in my life, @. I hope you know that.$l#$b#I hope we stay together forever!$h",
+	"Sat10": "@! There you are! I have something for you.$l#$b#[240] I hope you like it.#$b#I made it just for you, my amazing, hardworking boyfriend.$l^I made it just for you, my amazing, hardworking girlfriend.$l",
+	"Sun10": "{{Random: Ah... another week with with the most handsome person in the valley...life is good!$l^Ah... another week with with the most beautiful person in the valley...life is good!$l 88 Your face is so cute, @. This is kinda embarassing but...$l#$b#I've dreamed of kissing it since the moment I met you...$l |inputSeparator=88}}",
+		},
+		"When": {
+			"Relationship:Zinnia": "Dating",
+		},
+	},
+
+	//Rain Dialogue
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+	    "Entries": {
+
+	"Zinnia": "The rain always seems to make me feel gloomy. I guess my dad calls me his sunshine girl for a reason!",
+		},
+	},
+
+],
+}

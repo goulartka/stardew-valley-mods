@@ -1,0 +1,371 @@
+{
+"Changes": [
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+		"gabrielArrive": "Zinnia's nice, but she's not my friend type. I don't think I can handle her sunshine positivity.",
+		"sillyRevealed": "I feel kinda bad now that Silly is trying to make amends. I may have um, *fantasized*, about slaying monsters in the mines...$s",
+		"gabeFinished": "What? Y-you found a way to stop damage from slimes?#$b#Hmm, maybe Dad might let me into the mines now...ss",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Entries": {
+		"gabrielArrive": "Do you think those new people in town play ball?#$b#I've always dreamed of making a Pelican Town team.",
+		"sillyRevealed": "Silly's pretty cool!#$b#Do you think they can catch a ball? Or would it become slimy, haha!$h",
+		"gabeFinished": "Woah, dude!^Woah, there!#$b#I feel like I just became ten times stronger!#$b#Huh? Slimes won't hurt me anymore? Hmm...",
+            },
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Entries": {
+		"gabrielArrive": "I can't help but wonder if that new girl Zinnia has a boyfriend or not...$l",
+            },
+	    "When": {
+		  "Relationship:Alex |contains=Dating, Engaged, Married": "false",
+	},
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+		"gabrielArrive": "Zinnia is awfully nice. I hope she can leave an impact like that on my daughter...",
+		"sillyRevealed": "I just know that Silly would be perfect at aerobics, *giggle*!#$b#Hey, @, tell Silly that they're welcome anytime!$h",
+		"gabeFinished": "@! You're glowing as if you just had some sweet green tea...#$b#What's that? We're protected against slimes?#$b#Hmm.. well, at least I'll be a little less worried about my daughter sneaking out...",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "Entries": {
+		"gabrielArrive": "Hey, @... have you seen the new girl? She's, um, pretty, uh, nice, right?^...Oh! Sorry, @. I didn't notice you there. I was just thinking about that new girl in town...",
+		"sillyRevealed": "Do you think Zinnia likes Silly more than any of us? Just wondering...$s",
+		"gabeFinished": "What?$u#$b#You found a way to stop damage from slimes? That's um, cool, I guess.$u#$b#...$u#$b#Zinnia told me about what you said to her, by the way.$u",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+		"gabrielArrive": "I awoke this morning to a girl I'd never seen before rummaging through the bushes.#$b#When I asked her what she was looking for, she went on and on about some project that Marlon had given her.#$b#If I see her distracting my daughter...$4",
+		"sillyRevealed": "I'm a bit skeptical of a slime mingling upon us, to be honest. I've seen dangerous things come out of those mines.$s#$b#I guess it is okay to give it a chance though...$s",
+		"gabeFinished": "Energy? Souls?#$b#That doesn't sound very scientific...#$b#How would that make slimes not hurt? I don't get it...",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+		"gabrielArrive": "The new arrivals are always most exciting.#$b#I enjoy learning of everyone's life stories. We all have different backgrounds, but we all ended up here!$h",
+		"sillyRevealed": "Suddenly, I'm inspired to write a biography on that mystical creature, Silly.#$b#Tell Silly to visit me sometime, @.",
+		"gabeFinished": "A mysterious voice blessed us with a slime immunity?#$b#Well, isn't that a story!$h#$b#I'm overflowing with ideas!",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+		"gabrielArrive": "Have you met Zinnia yet, @? She moved in to that house on the mountain a couple days ago.#$b#When I met her, she had this glowing aura that reminded me of sunshine!$h",
+		"sillyRevealed": "Silly is so adorable! I'm so glad that we can become friends with the creatures that lie underground!$h",
+		"gabeFinished": "@, your aura... I can just feel it!#$b#Oh, slimes are no longer dangerous?#$b#That's amazing! I might try to have one as a pet now, haha!$h",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Evelyn",
+            "Entries": {
+		"gabrielArrive": "The new arrivals are wonderfully sweet. I'm glad that the town is expanding!",
+		"sillyRevealed": "A new bonding between monsters and humans is another step towards peace!",
+		"gabeFinished": "You found a way to stop damage from slimes? That's nice dear...#$b#I'm sure your grandfather would be proud.",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/George",
+            "Entries": {
+		"gabrielArrive": "Hmmph.#$b#Too many people are moving here. Ruining our small little town, if you ask me.",
+		"sillyRevealed": "Slimes used to be the bane of my existence as a boy.#$b#It'll take me time to befriend them.",
+		"gabeFinished": "Good work, boy!$h#$b#These pesky slimes will no longer hurt us. You're doing some great work.$h",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+		"gabrielArrive": "New people in the town is always a good thing for business!#$b#I hope they become part of the town.",
+		"sillyRevealed": "Little Silly is lots of fun!#$b#I want to give Silly some food to make them feel welcome!",
+		"gabeFinished": "Oh, slimes will no longer be a problem?#$b#Well, as much as I don't like violence..#$b#...I guess that's a good thing.",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+		"gabrielArrive": "The more people that move here, the more it feels like the city.#$b#I've always liked the city, so I have no problem with it!",
+		"sillyRevealed": "Silly the slime is pretty cute, all things considered.#$b#I might just have to wear some of my, uh, less important clothes if I hang out with them.",
+		"gabeFinished": "Slimes don't hurt anymore?#$b#Ugh, gross. I never liked those creeps anyways.#$b#Thanks for dealing with them, I guess.",
+            },
+        },
+	
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+		"gabrielArrive": "Have you seen that new boy in town?#$b#He's pretty cute, even with his terrible choice of clothes.$l",
+            },
+	    "When": {
+		  "Relationship:Haley |contains=Dating, Engaged, Married": "false",
+	},
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+		"gabrielArrive": "Sorry if I seem flustered today, @.#$b#Two new arrivals in town means I have to update all my logs and start planning annual visits...#$b#And I had just gotten done preparing things for your arrival!",
+		"sillyRevealed": "The Slime Heart sounds like a medical discovery waiting to happen! I cannot believe it has been lost away to time all along.#$b#I want to study it extensively!$h",
+		"gabeFinished": "Oh? Slimes are no longer dangerous?#$b#Well, that's good! I think it'll lower the amount of patients we get from accidents in the mines.",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+		"gabrielArrive": "Ms. Zinnia played with me and Vincent today. I know she's an adult, but for some reason I think she's different than most adults...#$b#Kinda like you, Mr. @!$h^Kinda like you, Ms. @!$h",
+		"sillyRevealed": "Vincent and I adopted Silly into our little play group. Silly's so fun to be around!$h",
+		"gabeFinished": "Oh? Slimeys don't hurt anymore? How'd you do that, farmer?#$b#Oh, testing and research? That's sounds, um, cool...$s",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+		"gabrielArrive": "Zinnia reminds me a lot of when I was younger. Cheerful, hopeful, and free.",
+		"sillyRevealed": "Little Silly likes to play with Vincent. They're so cute together!$h",
+		"gabeFinished": "Thank you for your work, @.#$b#You're helping the valley become safer for more families.#$b#I can't wait until all the horrible monsters are gone from the north caves.",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+		"gabrielArrive": "The more people that come here, the less familiar this town feels...",
+		"sillyRevealed": "It's hard for me to trust a cave creature like Silly, but if I learned anything from the war...#$b#It's that you can't judge by appearance.",
+		"gabeFinished": "I admire you, @.#$b#Me and you, we're similar. We want to make this valley safe from any threats to our safety.",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Entries": {
+		"gabrielArrive": "I heard one of the new people in town hates monsters like me...",
+		"sillyRevealed": "I'm so happy to see the slimes and humans in harmony. I wonder if one day my species can make amends, too...",
+		"gabeFinished": "I can't believe you would lock up slimes like that. They're creatures, too.#$b#I hope that your 'energy' makes people less likely to kill slimes. It's the best thing that could result from this...",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "Entries": {
+		"gabrielArrive": "I'm happy that new people are seeing the beauty of our little valley!",
+		"sillyRevealed": "Silly is adorable! I've decided to make my next sculpture of Silly. Do you think they'll like it?",
+		"gabeFinished": "Oh, slimes aren't dangerous anymore?#$b#Well, that's nice. I don't go to the caves often.#$b#I guess it might be nice place for a painting.",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leo",
+            "Entries": {
+		"gabrielArrive": "...$s#$b#New people scare me.$s",
+		"sillyRevealed": "Silly the slime is nice friend.#$b#Reminds me of parrots!$h",
+		"gabeFinished": "Way to have no hurts from slime?$s#$b#Why? Tiger slime don't do anything to me...$s",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+		"gabrielArrive": "New arrivals in town is a great thing!#$b#A higher population will increase tourism, you know.",
+		"sillyRevealed": "I'm reluctant to allow Silly into our town out of safety, but...#$b#...if it makes people happy, I guess it's fine!",
+		"gabeFinished": "Thank you, @. You've done a great thing, experimenting on those slimes and developing a way to stop damage from them.#$b#I'm glad you and Gabriel moved here.",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Linus",
+            "Entries": {
+		"gabrielArrive": "I hope the new arrivals treat me nice.#$b#Not everyone is as kind as you, @.",
+		"sillyRevealed": "I'm already best friends with Silly the slime. I feel like we just connect together, as creatures of nature.",
+		"gabeFinished": "I heard what you did, @. I'm not very happy with you.#$b#These creatures are alive too, you know.#$b#You can't just lock them up and create terrible potions to stop their natural defense mechanism.",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+		"gabrielArrive": "Everytime a new person joins our town, I hope that Shane would be able to connect with them.#$b#I just want to see him improve.",
+		"sillyRevealed": "I love watching Jas and Silly play together! Thanks for introducing us to them, @!",
+		"gabeFinished": "Oh? Slimes are safe now?#$b#That's nice. Maybe I'll get one to play with Jas.",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "Entries": {
+		"gabrielArrive": "The new boy Gabriel stopped by our house this morning to introduce himself. I was amazed by his knowledge of the deep underground!",
+		"sillyRevealed": "A slime that's friendly is something so interesting! I want to get to know Silly a bit more to learn how its mind really works.",
+		"gabeFinished": "Energies?#$b#I've never heard of that before...#$b#But if it stops those mean slimes from hurting us, I'm all for it!",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "Entries": {
+		"gabrielArrive": "The new boy Gabriel stopped by our house this morning to introduce himself. I was amazed by his knowledge of the deep underground!#$b#Hey, @? If you see him, mind asking him if he has a girlfriend? I'm just wondering...$l",
+            },
+	    "When": {
+		  "Relationship:Maru |contains=Dating, Engaged, Married": "true",
+	},
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "Entries": {
+		"gabrielArrive": "I hope that as more people join our little town, we'll be able to convince the governor to build a proper school here.",
+		"sillyRevealed": "Little Silly the slime is great fun for Vincent and Jas. Thanks for freeing them for us, @!",
+		"gabeFinished": "I'm interested in the book you used to create that slime bottle.#$b#Did Gabe find it at the library? I never knew our library had such interesting books.",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pam",
+            "Entries": {
+		"gabrielArrive": "These new people better not drive up the price of my drinks. Inflation's a real thing, you know.",
+		"sillyRevealed": "I couldn't care less about that Slime people are head over heels for.#$b#Long as it's not hurting me, good for them.",
+		"gabeFinished": "You're doing some good work, kid.#$b#Those creatures needed to be dealt with a long time ago.",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pierre",
+            "Entries": {
+		"gabrielArrive": "New residents means more business for me!#$b#I'm gonna send them some coupons to deter from Joja. Want some, @?",
+		"sillyRevealed": "Hey, @! I'm selling some Slime Heart seeds at the store now, directly from Silly! You should buy some!",
+		"gabeFinished": "@, some people were telling me about the thing you made to stop the dangers of slimes.#$b#Thanks for that. I'm also worried about my little girl going to the mines.",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+		"gabrielArrive": "I'm glad to see my Guild expansion in good use.#$b#Hey, tell those new residents to spread some positive referrals for me, haha!$h",
+		"sillyRevealed": "I knew about Silly for quite some time, but Zinnia made me promise to not tell anyone until Silly was ready.#$b#Glad I finally get to let this secret go!$h",
+		"gabeFinished": "Hmm? Oh, you found a way to stop damage from slimes?#$b#That's nice. I think I might be able to collet some of my own stone, now...",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+		"gabrielArrive": "Those new people are pretty cool, I guess.#$b#My mom made me go give them a welcome gift.",
+		"sillyRevealed": "I think Silly should come to one of me and Seb's Solarion Chronicles sessions.#$b#I can see them fitting perfectly into the story!",
+		"gabeFinished": "Hey, you found a way to repel those slimes?#$b#You're probably pretty smart for figuring something like that out.",
+            },
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+		"gabrielArrive": "Hey, if you see the new girl Zinnia, would you tell her that I'd like to text her sometime?$l#$b#J-just as friends, of course!$10",
+            },
+	     "When": {
+		  "Relationship:Sam |contains=Dating, Engaged, Married": "false",
+	},
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+		"gabrielArrive": "The new guy came over to say hi this morning. Didn't even bother to talk to me. I doubt we'll be friends.",
+		"sillyRevealed": "Maybe a slime will understand me more than my own parents.#$b#I feel like they're just different.",
+		"gabeFinished": "Oh, you created a way to stop slime damage.#$b#I guess that's nice. I can appreciate someone who works as hard as you.",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+		"gabrielArrive": "There's a new guy in Pelican Town, huh? Let's hope this town doesn't turn him inside out like it did to me.$s",
+		"sillyRevealed": "Jas found a new friend with that Silly slime. I'm happy for her.",
+		"gabeFinished": "You stopped damage from those cave slimes?#$b#Cool, I guess.",
+            }
+        },
+	
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+		"gabrielArrive": "Jas and I met the new lady that moved here, Ms. Zinnia today!$h#$b#She's so fun! I want to be her to be my best friend!$h#$b#A-After Jas, obviously!!$3",
+		"sillyRevealed": "Silly is so fun! I love it! It's so cute and squishy!$h",
+		"gabeFinished": "Y-you trapped poor slimeys?$s#$b#*Sob*$s",
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+		"gabrielArrive": "Hello, @. Have you met Marlon's niece and nephew yet? I knew them when they were just little children.#$b#Such a shame what happened to their mother...$s",
+		"sillyRevealed": "I am glad you were able to convince the town to accept Silly into the community. You and Zinnia have done great things and the guild.",
+		"gabeFinished": "I appluad you and Gabriel's work towards a safer valley.#$b#Hmm? I'm not aware of a voice in the Sewers..."
+            }
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Willy",
+            "Entries": {
+		"gabrielArrive": "Ya think any of the new youngin's will be into fishing? I'm always looking to expand the practice.",
+		"sillyRevealed": "Little Silly would make the perfect fisherman. Too bad he can't hold a fishin' rod.",
+		"gabeFinished": "You ever met a Tiger Slime, mate?#$b#Their jumps can hurt. Thanks for giving us a cure, heh.",
+            }
+        },
+
+
+
+],
+}

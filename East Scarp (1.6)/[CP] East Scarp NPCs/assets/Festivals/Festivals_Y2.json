@@ -229,7 +229,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters"
                     ],
-                    "Value": "Aideen 18 4 2/Beatrice 49 18 2/Eloise 19 10 3/Jacob 16 11 1/OliverK 44 45 2/Rosa 25 18 1/ToriLK 31 34 1",
+                    "Value": "Aideen 18 4 2/Beatrice 49 18 2/Eloise 19 10 3/Jacob 16 11 1/JosephineK 26 4 2/OliverK 44 45 2/Rosa 25 18 1/ToriLK 31 34 1",
                     "Delimiter": "/"
                 },
                 {
@@ -238,7 +238,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters"
                     ],
-                    "Value": "Aideen 18 4 2/Beatrice 49 18 2/Eloise 18 8 1/Jacob 17 8 1/JosephineK 23 9 2/OliverK 22 9 2/Rosa 24 20 0/JosephineK 26 4 2",
+                    "Value": "Aideen 18 4 2/Beatrice 49 18 2/Eloise 18 8 1/Jacob 17 8 1/JosephineK 23 9 2/OliverK 22 9 2/Rosa 24 20 0",
                     "Delimiter": "/"
                 }
             ]
@@ -822,6 +822,24 @@
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
                 "HasSeenEvent |contains=57875000": true
             }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27, Data/Festivals/winter25, Data/Festivals/spring13",
+            "When": {
+                "HasSeenEvent": "57879903"
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "LadySheba 57 53 2",
+                    "Delimiter": "/"
+                }
+            ]
         },
     ]
 }

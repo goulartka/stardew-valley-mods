@@ -1,0 +1,23 @@
+{
+"Changes": [
+
+{
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "TextOperations": [
+	{
+            "Operation": "Append",
+            "Target": ["Entries", "Universal_Like"],
+            "Value": "Life_Essence Slime_Heart Zinnia",
+            "Delimiter": " ",
+        },
+        {
+            "Operation": "Append",
+            "Target": ["Entries", "Universal_Dislike"],
+            "Value": "Slime_Gem Slime_Soul Slime_Heart_Seeds Zinnia_Seeds Frozen_Slime_Soul Fire_Slime_Soul True_Slime_Energy",
+            "Delimiter": " ",
+        },
+	],
+},
+],
+}

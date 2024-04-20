@@ -28,7 +28,7 @@
     "config.junimo-hut-fertilizer.name": "Dünger",
     "config.junimo-hut-fertilizer.desc": "Was Junimo Hütten mit Dünger machen. 'Auto-Erkennung' wird diese ignorieren, wenn der Mod 'Better Junimos' installiert ist, ansonsten wird von der Hütte in verbundene Kisten übertragen.",
     "config.junimo-hut-seeds.name": "Samen",
-    "config.junimo-hut-seeds.desc": "Was Junimo Hütten mit Samen machen.  'Auto-Erkennung' wird diese ignorieren, wenn der Mod 'Better Junimos' installiert ist, ansonsten wird von der Hütte in verbundene Kisten übertragen.",
+    "config.junimo-hut-seeds.desc": "Was Junimo Hütten mit Samen machen. 'Auto-Erkennung' wird diese ignorieren, wenn der Mod 'Better Junimos' installiert ist, ansonsten wird von der Hütte in verbundene Kisten übertragen.",
 
     // Junimo hut dropdown values
     "config.junimo-huts.auto-detect": "Auto-Erkennung",
@@ -37,21 +37,19 @@
     "config.junimo-huts.move-into-huts": "Von Kisten in Junimo Hütten legen",
 
     // per-machine settings
-    "config.title.machine-settings": "{{machineName}} Einstellungen",
+    "config.title.machine-settings": "{{machineName}}-Einstellungen",
     "config.machine-settings-enabled.Name": "Aktiviert",
     "config.machine-settings-enabled.desc": "Ob Automatisierung für {{machineName}} aktiviert werden soll.",
     "config.machine-settings-priority.name": "Priorität",
     "config.machine-settings-priority.desc": "Die Prioritätsreihenfolge, in der {{machineName}} Maschinen im Verhältnis zu anderen Maschinen verarbeitet werden sollen. Maschinen haben eine Standardpriorität von 0, wobei höhere Werte zuerst verarbeitet werden.",
 
     // machine names
-    // TODO
-    "config.machines.bush": "Bush",
-    "config.machines.fruit-tree": "Tree (Fruit Tree)",
-    "config.machines.trash-can": "Trash Can",
-    "config.machines.wild-tree": "Tree (Wild Tree)",
+    "config.machines.bush": "Busch",
+    "config.machines.fruit-tree": "Baum (Obstbaum)",
+    "config.machines.trash-can": "Mülleimer",
+    "config.machines.wild-tree": "Baum (Wilder Baum)",
 
     // special settings for individual machines
-    // TODO
-    "config.machines.wild-tree.collect-moss.name": "Collect Moss",
-    "config.machines.wild-tree.collect-moss.desc": "Whether to collect moss on trees. For example, keeping moss on trees will boost the quality of mushrooms from nearby mushroom logs."
+    "config.machines.wild-tree.collect-moss.name": "Moos sammeln",
+    "config.machines.wild-tree.collect-moss.desc": "Ob Moos von Bäumen gesammelt werden soll. Wenn du Moos auf Bäumen lässt, wird zum Beispiel die Qualität der Pilze nahegelegener Pilz-Baumstämme verbessert."
 }

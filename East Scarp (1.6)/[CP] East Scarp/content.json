@@ -279,34 +279,7 @@
             "When": {
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
             },
-        },
-        //Rosa & Juliet's house
-        {
-            "Name": "LoadRosaJulietHouse",
-            "Value": "false"
-        },
-        {
-            "Name": "LoadRosaJulietHouse",
-            "Value": "true",
-            "When": {
-                "HasMod |contains=LemurKat.JulietHouse.NPC": true
-            },
-        },
-        {
-            "Name": "LoadRosaJulietHouse",
-            "Value": "false",
-            "When": {
-                "HasMod |contains=LemurKat.JulietHouse.NPC": true,
-                "Relationship:Juliet": "Married"
-            }
-        },
-        {
-            "Name": "LoadRosaJulietHouse",
-            "Value": "false",
-            "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
-            },
-        },
+        }
     ],
     "Changes": [
         { //External Map
@@ -820,7 +793,7 @@
                 }
             ]
         },
-        { //OVewrites the house if J/R don't happen
+        /*{ //OVewrites the house if J/R don't happen
             "Action": "EditMap",
             "Target": "Maps/EastScarp_ClearingHouse",
             "FromFile": "assets/Locations/Outdoors/ES_ClearingHouse2.tmx",
@@ -839,7 +812,7 @@
             "When": {
                 "LoadRosaJulietHouse": false
             }
-        },
+        },*/
         {
             "Action": "EditMap",
             "Target": "Maps/Custom_ShearwaterBridge",
@@ -1635,6 +1608,7 @@
             "Action": "EditMap",
             "Target": "Maps/EastScarp_Orchard",
             "FromFile": "assets/Patches/Orchard_NoBridge.tmx",
+            "Update": "OnLocationChange",
             "ToArea": {
                 "X": 5,
                 "Y": 17,
@@ -1642,8 +1616,9 @@
                 "Height": 3
             },
             "When": {
-                "Weather |contains=rain, storm, snow": false,
-                "HasSeenEvent |contains=63070010,57875010": false
+                // "Weather |contains=rain, storm, snow": false,
+                "HasSeenEvent |contains=63070010": false, //,57875010
+                "Time": "{{Range: 640, 1720}}"
             }
         },
         {

@@ -21,6 +21,7 @@ Provided functionality for content pack authors:
 * New GameStateQuery queries:
     * Every custom skill registered through the C# API automatically registers a `PLAYER_<SKILLID_IN_CAPS>_LEVEL` query matching the vanilla ones (such as PLAYER_FARMING_LEVEL).
     * `NEARBY_CROPS radius cropId` - Only usable in CropExtensionData YieldOverrides PerItemCondition entries. Checks for fully grown crops of a particular type in a certain radius.
+    * `PLAYER_SEEN_CONVERSATION_TOPIC targetPlayer topicId` - If the player has seen the conversation topic in the past (but is no longer active). For targetPlayer, see [here](https://stardewvalleywiki.com/Modding:Game_state_queries#Target_player).
 * New tile action - `spacechase0.SpaceCore_TriggerAction triggerActionId` - for running a trigger action, set the Trigger to "Manual"
 * New touch action - `spacechase0.SpaceCore_TriggerAction triggerActionId` - for running a trigger action, set the Trigger to "Manual"
 * New trigger actions
@@ -28,8 +29,9 @@ Provided functionality for content pack authors:
     * `spacechase0.SpaceCore_OnItemEaten` - use item GSQ conditions to check the right item
 * New trigger action actions
     * `spacechase0.SpaceCore_PlaySound sound local` - `sound` = the cue ID, `local` = `true` if everyone near the player should hear it, `false` otherwise
-    * `spacechase0.SpaceCore_ShowHudMessage "message goes here"`
+    * `spacechase0.SpaceCore_ShowHudMessage "message goes here" optionalQualifiedItemIdForIcon`
     * `spacechase0.SpaceCore_PlayEvent eventid ifNotSeen` - `ifNotSeen` is optional (defaults to false) - if true, the event won't play if it has been seen before
+    * `spacechase0.SpaceCore_DamageCurrentFarmer amount`
 * Custom event commands
     * `damageFarmer amount`
     * `setDating npc [true/false]` - default true
@@ -118,6 +120,9 @@ Provided functionality for content pack authors:
     * `spacechase0.SpaceCore/CurrentEventId` - the current event ID, if in an event
     * `spacechase0.SpaceCore/QuestionsAsked` - a token which takes in an NPC name, and returns the questions asked (not including repeatable questions). (For use with the Backstory Questions feature.)
     * `spacechase0.SpaceCore/BooksellerInTown` - true or false
+* New dialogue keys:
+    * `HitBySlingshot_(O)ItemId` for if they get hit with a slingshot shot of the `(O)ItemId` item.
+    * `HitBySlingshot_context_tag` for if they get hit with a slingshot shot of an item with the context tag `context_tag`.
 
 The rest of the features assume you understand C# and the game code a little bit (and are only accessible via C#):
 * In the API provided through SMAPI's mod registry (see mod source for interface you can copy):
