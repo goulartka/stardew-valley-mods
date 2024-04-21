@@ -87,43 +87,43 @@
     },
     {
       //Andy's Portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Andy",
       "FromFile": "assets/CharacterFiles/Portraits/Andy/Andy.png"
     },
     {
       //Andy's Sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Andy",
       "FromFile": "assets/CharacterFiles/OverworldSprites/Andy/Andy.png"
     },
     {
       //Andy's Winter Portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Andy_Winter",
       "FromFile": "assets/CharacterFiles/Portraits/Andy/Andy_Winter.png"
     },
     {
       //Andy's Winter Sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Andy_Winter",
       "FromFile": "assets/CharacterFiles/OverworldSprites/Andy/Andy_Winter.png"
     },
     {
       //Andy's beach portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Andy_Beach",
       "FromFile": "assets/CharacterFiles/Portraits/Andy/Andy_Beach.png"
     },
     {
       //Andy's beach sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Andy_Beach",
       "FromFile": "assets/CharacterFiles/OverworldSprites/Andy/Andy_Beach.png"
     },
     {
       //Andy's Schedule
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/schedules/Andy",
       "FromFile": "assets/CharacterFiles/Schedules/Andy/Schedule.json"
     },

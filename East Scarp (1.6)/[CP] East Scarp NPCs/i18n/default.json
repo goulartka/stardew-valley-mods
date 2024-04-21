@@ -4431,13 +4431,13 @@
     //Eloise strings
     "eloise.strings.tuesday.000": "You're so funny, Jas! It's a blue jay: Cyanocitta cristata.A type of corvid, so he's cousin to the crows.$1",
     "eloise.strings.tuesday.001": "Vinny and I wanted to go outside and look for bugs, but his mom said not until after lunch...$2",
-    "eloise.strings.tuesday.002": "There's something in here.Maybe a bird nest? No, wait, it's got too many legs! That's the biggest spider I've ever seen!$3",
-    "eloise.strings.tuesday.003": "I dunno why Vinny's always complaining about the food.His mom's a great cook!",
+    "eloise.strings.tuesday.002": "There's something in here. Maybe a bird nest? No, wait, it's got too many legs! That's the biggest spider I've ever seen!$3",
+    "eloise.strings.tuesday.003": "I dunno why Vinny's always complaining about the food. His mom's a great cook!",
     "eloise.strings.tuesday.004": "Bye Dad! Yes, Jas and I will have heaps of fun playing together today. She likes birds almost as much as me!",
     "eloise.strings.tuesday.005": "Bye Dad! I promise I'll be kind to Vinny today, and I'll try not to get too dirty!",
     "eloise.strings.vethouse.000": "Hmm...what should I write Sora about today?",
     "eloise.strings.vethouse.001": "Hey Princess Midnight, you're a good kitty, aren't you? You don't hunt birds!",
-    "eloise.strings.schoolday.000": "Bye Dad.Hope you make heaps of animals better! Miss you already.",
+    "eloise.strings.schoolday.000": "Bye Dad. Hope you make heaps of animals better! Miss you already.",
     "eloise.strings.schoolday.001": "Yes Dad, I promise I won't ask Miss Penny too many questions today! Even though she likes questions!",
     "eloise.strings.winter_17.000": "That pig is so funny! It seems to think it's a person.$1",
     "eloise.strings.winter_17.100": "That's a rose-headed parrot, farmer @.They can live a really long time and are super-smart.$1#$b#They need lots of attention and can learn to talk!$1#$b#I asked if I could buy her, but she's not for sale.$2",
@@ -5095,7 +5095,7 @@
     "Oliver_summer_Thu10": "One of the side effects of living with Jacob is that I will never need to learn things about birds ever again.",
     "Oliver_winter_Fri10": "I miss my parents sometimes. It is nice to be fussed over less, but... Maybe I should write a letter. No, but wait, what if that makes them visit?",
     //**************************
-    //ROSA Daily DIalogue
+    //ROSA Daily Dialogue
     "Rosa_Introduction": "Hi, I'm Rosa.  I'm new in town.$h#$b#Let me know if you have any work going, I'm up for any odd jobs!",
     "Rosa_GreenRain": "Oh, howdy @! You're a brave one, traipsing through all that to get here.",
     "Rosa_GreenRain_2": "Oh, howdy @. Sorry about all the towels, but could you wipe your feet, please? I'm trying to keep moss out of the carpet.",
@@ -5191,13 +5191,13 @@
     //Rosa additional dialogue (with Juliet)
     "Rosa_Juliet_cc_Complete": "I saw the JojaMart is all boarded up. What happened?#$b#I hope that doesn't mean Juliet's going to leave.$2",
     "Rosa_Juliet_summer_Tue": "Are you friends with Juliet? Now, there's a woman who knows her own mind!$1",
-    "Rosa_Juliet_summer_Tue.RivalHearts":"$d joja#Hey, you know Juliet? The cute clerk at the JojaMart? She's such a hoot.#$b#You won't believe what she said to me yesterday! Yep, something about melons.$1#$b#I bought two. Shes' err... very persuasive.$4|Have you seen you Juliet around? Now, there's a woman who knows her own mind!$1",
+    "Rosa_Juliet_summer_Tue.RivalHearts": "$d joja#Hey, you know Juliet? The cute clerk at the JojaMart? She's such a hoot.#$b#You won't believe what she said to me yesterday! Yep, something about melons.$1#$b#I bought two. Shes' err... very persuasive.$4|Have you seen you Juliet around? Now, there's a woman who knows her own mind!$1",
     "Rosa_Juliet_Resort_Wander": "Shh, don't tell Juliet, but I'm taking her to see the mermaid later.",
     "Rosa_Juliet_winter_Fri10": "Jules dropped by last night. She's convinced this place is haunted.#$b#Honestly, I'm not sure if she's here to see me, or try and catch a ghost.#$b#I'm happy for her company either way!$1",
     "Rosa_Juliet_fall_Fri6": "Jules and I have been talking about a seance. Spooky time of year and all that.#$b#Not really my scene, but you know what she's like. Do you want in on it?",
     "Rosa_Juliet_Sun6": "Hah, you should come join us sometime on Saturday night. Jules and me have been shooting pool down at the Stardrop.#$b#She's not quite the poolshark she thinks she is!$1#$e#But she does this cute little dance when she wins... so sometimes I miss on purpose.#$e#That's our little secret, 'k?$4",
     "Rosa_Juliet_fall_Fri10": "Jules dropped by last night. We watched a movie, and she fell asleep against my shoulder.#$b#It was pretty cute, even if she did drool a bit.$1",
-    "Juliet_Mon_IslandSouth":"I know Rosa's enjoying the landscape, but me? I'm enjoying the scenery. Heh.$4#$b#Up for a skinny dip, anyone? I'm sure the water's warm.$1",
+    "Juliet_Mon_IslandSouth": "I know Rosa's enjoying the landscape, but me? I'm enjoying the scenery. Heh.$4#$b#Up for a skinny dip, anyone? I'm sure the water's warm.$1",
     //************************
     //TORI Daily Dialogue
     "Tori_Introduction": "Oh, um... hi, I'm Victoria. Tori. I live here, I mean, in the 'Scarp.#$b#Hopefully we'll see each other around, right?",
@@ -5697,4 +5697,14 @@
     "EastScarp.SpecialOrders.ZUCUBoneCollectorsMail.text": "The Zuzu City University Palentology Department thanks you for your contibution. Please find attached a token of our appreciation.   - Prof. Cameron Peasbody",
     "EastScarp.SpecialOrders.AideenFlowersMail.invite.title": "Flower Delivery Thank You",
     "EastScarp.SpecialOrders.AideenFlowersMail.invite.text": "Dear @, ^I am most grateful for the daffodils. In return, I insist that you call by my house. I have acquired some new seeds, and I would appreciate your assistance growing them.^ Regards, Aideen.",
+    //*************************************************************************************************
+    //Gender Neutral Dialogue adjustments (from here-on these will be included among original dialogue)
+    "genderneutral.Aideen_103": "Why, Mx @! Are you wishing to court me?$7#$b#Well, you do exude a quaint rural charm.$1#$1#$b#And I have certainly grown fond of you. But love? Well, perhaps our tale is a slow burn, rather than a quick spark, yes?$7",
+    "genderneutral.Ai1_2": "Oh, aren't you Mx.Cynical.#$b#You're right, of course. Pelican Town is hardly Paradise Bay.#$b#Yet the peace might be an attraction in itself, don't you think?",
+    "genderneutral.rejectNPCA.rosa": "Too soon, sunshine, I'd rather we got to know each other first.$1",
+    "genderneutral.Mon.eyvind": "You're a long way from home, aren't you cotter? Don't get lost.",
+    "genderneutral.fall_Tue.eyvind": "Can't resist coming up here, can you cotter?#$b#What's the attraction? You better not be looking to steal my goats.$a#$e#I'd have you for breakfast if you so much as tried!$1",
+    "genderneutral.winter_Sun2.eyvind": "You got some woollen socks, cotter?#$b#Ain't nothing like goat wool to keep the feet warm.$1",
+    "genderneutral.summer_Fri8.eyvind": "You know @, I reckon I knew your grandfather.$1#$b#Solid fellow, reliable. Not afraid to get his hands dirty.#$e#The world needs more people like him... like you... people who get stuff done, instead of whistling into the wind.",
+    "genderneutral.winter_Fri8.eyvind": "Ah, it's good to see you, @.#$e#Lonely? Nah, not me... although I gotta admit - it's good to have someone to talk to."
 }

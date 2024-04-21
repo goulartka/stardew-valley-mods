@@ -51,7 +51,7 @@
             }
         },
         { //loads custom letter backgrounds
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Mods/FlashShifter.StardewValleyExpandedCP/LetterBackgrounds",
             "FromFile": "Assets/Tilesheets/SVE_Letter_Backgrounds.png"
         },

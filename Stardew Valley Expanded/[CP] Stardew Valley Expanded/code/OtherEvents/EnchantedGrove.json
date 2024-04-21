@@ -122,7 +122,7 @@
             }
         },
         { //Magic warp [48x48] temp actor load    <<is referenced throughout all enchanted grove events
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Characters/MagicWarp",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/MagicWarp.png"
         },
@@ -142,7 +142,7 @@
             "Update": "OnLocationChange"
         },
         { //potion object temp actor load
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Characters/WizardPotionObject",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/WizardPotionObject.png"
         },
@@ -164,7 +164,7 @@
             "Update": "OnLocationChange"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Mods/FlashShifter.StardewValleyExpandedCP/WizardPotion",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/WizardPotion.png",
         },
@@ -266,7 +266,7 @@
             }
         },
 		{ //Green Rupee temp actor load
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Characters/GreenRupeeObject",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/GreenRupee.png",
         },
@@ -288,7 +288,7 @@
             "Update": "OnLocationChange"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Mods/FlashShifter.StardewValleyExpandedCP/GreenRupee",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/GreenRupee.png",
         },
@@ -563,7 +563,7 @@
             }
         },
         { //Aurora Vineyard Wine Bottle temp actor load
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Characters/AuroraVineyardWineBottleObject",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/AuroraVineyardWineBottleObject.png"
         },
@@ -585,7 +585,7 @@
             "Update": "OnLocationChange"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Mods/FlashShifter.StardewValleyExpandedCP/AuroraVineyardWineBottle",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/AuroraVineyardWineBottle.png",
         },
@@ -865,7 +865,7 @@
             }
         },
         { //Tulip Bouquet [16x16] temp actor load
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Characters/TulipBouquetObject",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/TulipBouquetObject.png"
         },
@@ -887,7 +887,7 @@
             "Update": "OnLocationChange"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Mods/FlashShifter.StardewValleyExpandedCP/TulipBouquet",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/TulipBouquet.png",
         },
@@ -1083,7 +1083,7 @@
             }
         },
         { //Ancient Scroll [16x16] temp actor load
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Characters/AncientScrollObject",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/AncientScrollObject.png"
         },
@@ -1106,7 +1106,7 @@
             "Update": "OnLocationChange"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Mods/FlashShifter.StardewValleyExpandedCP/AncientScroll",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/AncientScroll.png",
         },
@@ -1382,7 +1382,7 @@
             }
         },*/
         { //Swirl Stone temp actor load
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Characters/SwirlStoneObject",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/SwirlStoneObject.png"
         },
@@ -1404,7 +1404,7 @@
             "Update": "OnLocationChange"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Mods/FlashShifter.StardewValleyExpandedCP/SwirlStone",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/SwirlStone.png",
         },

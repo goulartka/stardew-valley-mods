@@ -381,22 +381,22 @@
       "Update": "OnTimeChange"
     },
     {
-      "Action": "Load", //46x47
+      "Action": "Load", "Priority": "Low", //46x47
       "Target": "Characters/ReceptionTable1",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ReceptionTable1.png"
     },
     {
-      "Action": "Load", //46x47
+      "Action": "Load", "Priority": "Low", //46x47
       "Target": "Characters/ReceptionTable2",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ReceptionTable2.png"
     },
     {
-      "Action": "Load", //46x47
+      "Action": "Load", "Priority": "Low", //46x47
       "Target": "Characters/ReceptionTable3",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ReceptionTable3.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ArtGuy",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ArtGuy.png"
     },
@@ -545,17 +545,17 @@
       "Update": "OnTimeChange"
     },
     {
-      "Action": "Load", //48x55
+      "Action": "Load", "Priority": "Low", //48x55
       "Target": "Characters/SusanBigCauliflower",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/SusanBigCauliflower.png"
     },
     {
-      "Action": "Load", //48x55
+      "Action": "Load", "Priority": "Low", //48x55
       "Target": "Characters/SusanBigMelon",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/SusanBigMelon.png"
     },
     {
-      "Action": "Load", //48x55
+      "Action": "Load", "Priority": "Low", //48x55
       "Target": "Characters/SusanBigPumpkin",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/SusanBigPumpkin.png"
     },
@@ -811,7 +811,7 @@
       }
     },
     {
-      "Action": "Load", //32x32
+      "Action": "Load", "Priority": "Low", //32x32
       "Target": "Characters/BombCrate",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/BombCrate.png"
     },
@@ -1090,7 +1090,7 @@
       },
     },
     { //adds Junimo Scroll temp actor   >>10x11
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/JunimoScroll",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/JunimoScroll.png"
     },

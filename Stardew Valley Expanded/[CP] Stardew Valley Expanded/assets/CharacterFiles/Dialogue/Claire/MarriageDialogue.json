@@ -18,6 +18,10 @@
         "TwoKids_2": "{{i18n:Claire.MarriageDialogue.011}}",
         "TwoKids_3": "{{i18n:Claire.MarriageDialogue.012}}",
         "DesertFestival_Claire_marriage": "{{i18n:DesertFestival_Claire_marriage}}",
+        "Indoor_Day_Claire": "{{i18n:Claire.MarriageDialogue.031}}",
+        "Indoor_Night_Claire": "{{i18n:Claire.MarriageDialogue.047}}",
+        "Rainy_Day_Claire": "{{i18n:Claire.MarriageDialogue.042}}",
+        "Rainy_Night_Claire": "{{i18n:Claire.MarriageDialogue.052}}",
         //SEASONAL DIALOGUE
         "spring_Claire": "{{i18n:Claire.MarriageDialogue.013}}",
         "spring_1": "{{i18n:Claire.MarriageDialogue.014}}",

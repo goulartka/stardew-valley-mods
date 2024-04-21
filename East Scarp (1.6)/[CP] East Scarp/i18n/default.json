@@ -49,6 +49,7 @@
     "EastScarp.Locations.SlimeBasement": "Tori's Slime Hutch",
     "EastScarp.Locations.HenryWarp": "Somewhere Out of Town",
     "EastScarp.Locations.underwater": "Somewhere Out to Sea",
+
     //Location Names For NPC Map 
     //************************************
     "LocationName.EastScarp": "East Scarp",
@@ -58,6 +59,9 @@
     //Obelisk
     "Obelisk.name": "Scarp Obelisk",
     "Obelisk.desc": "Warps you to East Scarp.",
+    //CJB Cheats
+    "CJB.EastScarp_DeepMountains_DeepLake":"Deep Lake",
+    "CJB.EastScarp_DeepMountains_Pond":"Deep Mountains Pond",
     //Locational Messages
     //*******************
     "Strings.GrampletonES.00": "Grampleton Fields >",

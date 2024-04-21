@@ -2,6 +2,11 @@
 
     "Changes": [
         {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/FlashShifter.StardewValleyExpandedCP/adventurerLedger",
+            "FromFile": "assets/CharacterFiles/Shops/Ledgers/AdventurerLedger.png"
+        },
+        {
             "Action": "EditData",
             "Target": "Data/Shops",
             "Entries": {
@@ -10,7 +15,7 @@
                         {   
                             "Name": "AnyOrNone",
 							"Dialogue": "",
-                            "Portrait": "{{InternalAssetKey: assets/CharacterFiles/Shops/Ledgers/AdventurerLedger.png}}"
+                            "Portrait": "Mods\\FlashShifter.StardewValleyExpandedCP\\AdventurerLedger"
                         }
                     ],
 

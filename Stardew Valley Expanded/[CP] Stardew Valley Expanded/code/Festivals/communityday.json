@@ -64,7 +64,7 @@
 			},
 		},
 		{
-			"Action": "Load",
+			"Action": "Load", "Priority": "Low",
 			"Target": "Maps/CommunityCenter_Ruins",
 			"When": {
 				"HasSeenEvent": "191393"
@@ -72,7 +72,7 @@
 			"FromFile": "Assets/Maps/MapPatches/CommunityCenter_Refurbished.tbin"
 		},
 		{
-			"Action": "Load",
+			"Action": "Load", "Priority": "Low",
 			"Target": "Maps/CommunityCenter_Refurbished",
 			"When": {
 				"HasSeenEvent": "191393"
@@ -3123,7 +3123,7 @@
 				"Day": "22"
 			},
 			"Entries": {
-				"22": "0 Custom_Claire_WarpRoom 3 3 2/1130 CommunityCenter 25 11 0 \"Strings\\schedules\\Claire:CommunityDay_Claire\"/1710 BusStop 22 8 0/1900 Custom_DayEnd_WarpRoom 2 2 0",
+				"22": "0 Custom_Claire_WarpRoom 3 3 2/1130 CommunityCenter 25 11 0 \"Strings\\schedules\\Claire:CommunityDay_Claire\"/1710 BusStop 22 8 0/1850 BusStop 22 9 0/1900 Custom_DayEnd_WarpRoom 2 2 0",
 			}
 		},
 		{ //Spring Dialogue
@@ -3235,7 +3235,7 @@
 				"HasFlag": "ccMovieTheater"
 			},
 			"Entries": {
-				"22": "0 Custom_Martin_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Martin_Blink/2130 BusStop 22 8 0/2340 Custom_DayEnd_WarpRoom 3 3 0"
+				"22": "0 Custom_Martin_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Martin_Blink/2130 BusStop 22 8 0/2330 BusStop 22 9 0/2340 Custom_DayEnd_WarpRoom 3 3 0"
 			}
 		},
 	]

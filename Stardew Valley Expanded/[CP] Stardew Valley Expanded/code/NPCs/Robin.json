@@ -56,7 +56,7 @@
             }
         },
         { //Allows precise positioning of Robin's deluxe bed
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Characters/Deluxebed",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/DeluxeBed.png"
         },

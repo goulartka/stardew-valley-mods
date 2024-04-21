@@ -91,12 +91,20 @@
                 "Wed10": "{{i18n:Oliver_vet_Wed10}}",
                 "winter_Wed10": "{{i18n:Oliver_vet_winter_Wed10}}",
                 "fall_Wed10": "{{i18n:Oliver_vet_fall_Wed10}}",
-                "fall_Fri10": "{{i18n:Oliver_fall_Fri10}}",
                 "winter_Thu10": "{{i18n:Oliver_winter_Thu10}}",
-                "winter_Fri10": "{{i18n:Oliver_winter_Fri10}}",
-                "fall_Mon10":"{{i18n:Oliver_fall_Mon10}}",
-                "summer_Thu10":"{{i18n:Oliver_summer_Thu10}}"
-               
+                "fall_Mon10": "{{i18n:Oliver_fall_Mon10}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/OliverK",
+            "When": {
+                "HasSeenEvent": "57873005"
+            },
+            "Entries": {
+                "fall_Fri10": "{{i18n:Oliver_fall_Fri10}}", 
+                "winter_Fri10": "{{i18n:Oliver_winter_Fri10}}", 
+                "summer_Thu10": "{{i18n:Oliver_summer_Thu10}}" 
             }
         }
     ]

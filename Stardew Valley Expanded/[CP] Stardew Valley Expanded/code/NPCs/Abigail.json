@@ -116,12 +116,12 @@
             },
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Characters/JojaPetStoreEmployee",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/JojaPetStoreEmployee.png"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Characters/HamishCameo",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/HamishCameo.png"
         },

@@ -412,7 +412,7 @@ Formerly EVEN year = 3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 6
             ]
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Town-Halloween",
             "When": {
                 "Year": "1, 5, 9, 13, 17, 21, 25,  29, 33, 37, 41, 45, 49, 53, 56, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99",
@@ -421,7 +421,7 @@ Formerly EVEN year = 3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 6
             "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-Halloween.tmx"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Town-Halloween",
             "When": {
                 "Year": "1, 5, 9, 13, 17, 21, 25,  29, 33, 37, 41, 45, 49, 53, 56, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99",
@@ -762,7 +762,7 @@ Formerly EVEN year = 3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 6
             ]
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Town-Halloween2",
             "When": {
                 "HasSeenEvent |contains=5553210": false
@@ -770,7 +770,7 @@ Formerly EVEN year = 3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 6
             "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-Halloween2.tmx"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Town-Halloween2",
             "When": {
                 "HasSeenEvent": "5553210"
@@ -1068,7 +1068,7 @@ Formerly EVEN year = 3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 6
         },
         //Map Loads
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Town-Halloween",
             "When": {
                 "Year": "3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97",
@@ -1077,7 +1077,7 @@ Formerly EVEN year = 3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 6
             "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-Halloween3.tmx"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Town-Halloween",
             "When": {
                 "Year": "3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97",

@@ -69,7 +69,7 @@
                     "RequiredTags": "",
                     "OrderType": "",
                     "SpecialRule": "",
-                    "Text": "{{i18n:EastScarp.SpecialOrders.SlayCrabs_Text}}", 
+                    "Text": "{{i18n:EastScarp.SpecialOrders.SlayCrabs_Text}}",
                     "ItemToRemoveOnEnd": null,
                     "MailToRemoveOnEnd": null,
                     "RandomizedElements": null,
@@ -1001,6 +1001,9 @@
             "Action": "EditData",
             "Target": "Strings/SpecialOrderStrings",
             "Entries": {
+                //BELOW IS RELIC CODE LEFT IN TO AVOID ISSUES WITH ALREADY ACCEPTED SPECIAL ORDERS
+                //IT DOESN'T NEED TRANSLATING
+                //*********************************************************************************
                 //Catch Fish for the Cat
                 "EastScarp.SpecialOrders.LadySheba_Name": "Feeding the Cat",
                 "EastScarp.SpecialOrders.LadySheba_Text": "There's a stray cat on East Scarp beach and she's hungry! Can someone give her some fish please? {FishType:Text} are her favourite! < Jas",
@@ -1111,7 +1114,7 @@
                 "EastScarp.SpecialOrders.AideenFlowersMail.invite": "{{i18n:EastScarp.SpecialOrders.AideenFlowersMail.invite.text}}[#]{{i18n:EastScarp.SpecialOrders.AideenFlowersMail.invite.title}}"
             }
         },
-       /* {
+        /* {
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
@@ -1211,19 +1214,19 @@
                     },
                     "Layer": "Back",
                     "SetProperties": {
-                        "CustomCompanions": "Spawn 2 LemurKat.EastScarpeCompanions.Fairy_Penguin"
+                        "CustomCompanions": "Spawn 1 LemurKat.EastScarpeCompanions.Fairy_Penguin"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 16,
+                        "Y": 117
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 LemurKat.EastScarpeCompanions.Fairy_Penguin"
                     }
                 }
-                /*  {
-                "Position": {
-                    "X": 16,
-                    "Y": 117
-                },
-                "Layer": "Back",
-                "SetProperties": {
-                    "CustomCompanions": "Spawn 1 LemurKat.EastScarpeCompanions.Fairy_Penguin_Chick"
-                }
-            }*/
             ]
         },
         {

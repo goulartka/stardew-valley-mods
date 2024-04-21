@@ -560,7 +560,7 @@
         },
         {
             "Action": "EditData",
-            "Target": "Data/FruitTrees",
+            "Target": "Data/fruitTrees",
             "Entries": {
                 "Lemurkat_Heirloom_Cherry_Tree": {
                     "DisplayName": "{{i18n:fruittree.heirloomcherry}}",

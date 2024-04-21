@@ -862,12 +862,12 @@
     },
     //Map Loads
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Maps/Forest-IceFestival",
       "FromFile": "Assets/Maps/FestivalMaps/Forest-SVE-IceFestival.tmx",
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Maps/Forest-IceFestival2",
       "FromFile": "Assets/Maps/FestivalMaps/Forest-SVE-IceFestival2.tmx",
     },

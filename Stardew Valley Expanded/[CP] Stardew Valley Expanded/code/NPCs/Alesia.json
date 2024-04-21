@@ -49,19 +49,19 @@
     },
     {
       //Alesia's sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Alesia",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Alesia/Alesia.png"
     },
     {
       //Alesia's portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Alesia",
       "FromFile": "Assets/CharacterFiles/Portraits/Alesia/Alesia.png"
     },
     {
       //Alesia's schedule
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/schedules/Alesia",
       "FromFile": "assets/CharacterFiles/Schedules/Alesia/Alesia.json"
     },

@@ -3,7 +3,7 @@
         {
             "LogName": "Dialogue",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/LeumaJunimo",
+            "Target": "Characters/Dialogue/LumaJunimo",
             "Entries": { //Most dialogue written by RainydayJules (and some by Kat)
                 "LumaIntro": "{{i18n:Luma_LumaIntro}}",
                 "Mon": "{{i18n:Luma_Mon}}",

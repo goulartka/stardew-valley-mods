@@ -968,7 +968,7 @@
     },
     //map loads
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Maps/Town-EggFestival",
       "When": {
         "HasSeenEvent |contains=5553210": false
@@ -976,7 +976,7 @@
       "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-EggFestival.tmx"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Maps/Town-EggFestival2",
       "When": {
         "HasSeenEvent |contains=5553210": false
@@ -985,7 +985,7 @@
     },
     //Joja Variants
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Maps/Town-EggFestival",
       "When": {
         "HasSeenEvent": "5553210",
@@ -993,7 +993,7 @@
       "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-EggFestival_Joja.tmx"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Maps/Town-EggFestival2",
       "When": {
         "HasSeenEvent": "5553210",

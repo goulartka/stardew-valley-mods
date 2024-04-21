@@ -826,12 +826,12 @@
         },
         //Map Load
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Beach-Jellies",
             "FromFile": "Assets/Maps/FestivalMaps/Beach-SVE-Jellies.tmx",
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Beach-Jellies2",
             "FromFile": "Assets/Maps/FestivalMaps/Beach-SVE-Jellies2.tmx",
         },

@@ -9460,6 +9460,7 @@
               "SpawnWeight": 1,
               "DodgeChance": 5,
               "Sprite": "Characters/Monsters/BullyRex",
+              "InstantKillImmunity": true,
               "Loot": [
                 "Golden Key",
                 "Ornate Treasure Chest",
@@ -9520,6 +9521,7 @@
               "SpawnWeight": 1,
               "DodgeChance": 5,
               "Sprite": "Characters/Monsters/BullyRex",
+              "InstantKillImmunity": true,
               "Loot": [
                 "Ornate Treasure Chest",
                 166,
@@ -9579,6 +9581,7 @@
               "Damage": 120,
               "DodgeChance": 30,
               "Segments": 7,
+              "InstantKillImmunity": true,
               "Loot": [
                 "Void Shard",
                 769,

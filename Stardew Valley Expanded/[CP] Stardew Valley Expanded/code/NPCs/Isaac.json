@@ -51,19 +51,19 @@
     },
     {
       //Isaac's sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Isaac",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Isaac/Isaac.png"
     },
     {
       //Isaac's portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Isaac",
       "FromFile": "Assets/CharacterFiles/Portraits/Isaac/Isaac.png"
     },
     {
       //Isaac's schedule
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/schedules/Isaac",
       "FromFile": "assets/CharacterFiles/Schedules/Isaac/Isaac.json"
     },

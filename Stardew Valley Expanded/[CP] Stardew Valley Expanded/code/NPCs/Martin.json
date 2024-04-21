@@ -74,13 +74,13 @@
     },
     {
       //Martin's Portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Martin",
       "FromFile": "Assets/CharacterFiles/Portraits/Martin/Martin.png"
     },
     {
       //Martin's Sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Martin",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Martin/Martin.png"
     },
@@ -186,13 +186,13 @@
     },
     {
       //Martin's Winter Portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Martin_Winter",
       "FromFile": "assets/CharacterFiles/Portraits/Martin/Martin_Winter.png"
     },
     {
       //Andy's Winter Sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Martin_Winter",
       "FromFile": "assets/CharacterFiles/OverworldSprites/Martin/Martin_Winter.png"
     },
@@ -208,8 +208,13 @@
       }
     },
     {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Characters/schedules/Martin",
+      "FromFile": "Assets/Blank.json"
+    },
+   /* {
       //Martin's Schedule - Joja Mart
-      "Action": "Load",
+      "Action": "EditData",
       "Target": "Characters/schedules/Martin",
       "When": {
         "HasSeenEvent |contains=191393": false
@@ -218,7 +223,7 @@
     },
     {
       //Martin's Schedule - Joja Mart ruins
-      "Action": "Load",
+      "Action": "EditData",
       "Target": "Characters/schedules/Martin",
       "When": {
         "HasSeenEvent": "191393",
@@ -228,14 +233,14 @@
     },
     {
       //Martin's Schedule - Movie Theater built
-      "Action": "Load",
+      "Action": "EditData",
       "Target": "Characters/schedules/Martin",
       "When": {
         "HasFlag": "ccMovieTheater",
         "HasSeenEvent": "191393"
       },
       "FromFile": "assets/CharacterFiles/Schedules/Martin/MovieTheater.json"
-    },
+    },*/
     /*{
       //Martin's Schedule - Movie Theater - no schedule on festival days
       "Action": "EditData",
@@ -263,8 +268,8 @@
         "Spouse": "Claire"
       },
       "Entries": {
-        "Fri": "0 Custom_Martin_WarpRoom 1 3 3/800 JojaMart 9 25 1 Martin_Idle/2200 BusStop 22 8 0/2410 Custom_DayEnd_WarpRoom 3 3 0",
-        "rain": "0 Custom_Martin_WarpRoom 1 3 3/800 JojaMart 9 25 1 Martin_Idle/2200 BusStop 22 8 0/2410 Custom_DayEnd_WarpRoom 3 3 0"
+        "Fri": "0 Custom_Martin_WarpRoom 1 3 3/800 JojaMart 9 25 1 Martin_Idle/2200 BusStop 22 8 0/2400 BusStop 22 9 0/2410 Custom_DayEnd_WarpRoom 3 3 0",
+        "rain": "0 Custom_Martin_WarpRoom 1 3 3/800 JojaMart 9 25 1 Martin_Idle/2200 BusStop 22 8 0/2400 BusStop 22 9 0/2410 Custom_DayEnd_WarpRoom 3 3 0"
       }
     },
     {
@@ -277,7 +282,7 @@
         "HasSeenEvent |contains=4269703": true
       },
       "Entries": {
-        "Wed": "0 Custom_Martin_WarpRoom 1 3 3/800 JojaMart 9 25 1 Martin_Idle/2200 BusStop 22 8 0/2410 Custom_DayEnd_WarpRoom 3 3 0"
+        "Wed": "0 Custom_Martin_WarpRoom 1 3 3/800 JojaMart 9 25 1 Martin_Idle/2200 BusStop 22 8 0/2400 BusStop 22 9 0/2410 Custom_DayEnd_WarpRoom 3 3 0"
       }
     },
     {
@@ -290,8 +295,8 @@
         "Spouse": "Claire"
       },
       "Entries": {
-        "Fri": "0 Custom_Martin_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Martin_Blink/2130 BusStop 22 8 0/2340 Custom_DayEnd_WarpRoom 3 3 0",
-        "rain": "0 Custom_Martin_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Martin_Blink/2130 BusStop 22 8 0/2340 Custom_DayEnd_WarpRoom 3 3 0"
+        "Fri": "0 Custom_Martin_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Martin_Blink/2130 BusStop 22 8 0/2330 BusStop 22 9 0/2340 Custom_DayEnd_WarpRoom 3 3 0",
+        "rain": "0 Custom_Martin_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Martin_Blink/2130 BusStop 22 8 0/2330 BusStop 22 9 0/2340 Custom_DayEnd_WarpRoom 3 3 0"
       }
     },
     {
@@ -305,7 +310,7 @@
         "HasSeenEvent |contains=4269703": true
       },
       "Entries": {
-        "Wed": "0 Custom_Martin_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Martin_Blink/2130 BusStop 22 8 0/2340 Custom_DayEnd_WarpRoom 3 3 0"
+        "Wed": "0 Custom_Martin_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Martin_Blink/2130 BusStop 22 8 0/2330 BusStop 22 9 0/2340 Custom_DayEnd_WarpRoom 3 3 0"
       }
     },
     //This puts Martin in town on days he attends a festival. He is sometimes trapped in the warp room otherwise. 
@@ -317,10 +322,10 @@
         "HasSeenEvent": "3219873",
       },
       "Entries": {
-        "Spring_13": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
-        "Spring_24": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
-        "Fall_16": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
-        "Fall_27": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
+        "Spring_13": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1450 BusStop 22 9 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
+        "Spring_24": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1450 BusStop 22 9 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
+        "Fall_16": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1450 BusStop 22 9 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
+        "Fall_27": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1450 BusStop 22 9 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
       }
     },
     {
@@ -331,10 +336,10 @@
         "IsOddYear": false
       },
       "Entries": {
-        "Summer_11": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
-        "Summer_28": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
-        "Winter_8": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
-        "Winter_25": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
+        "Summer_11": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1450 BusStop 22 9 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
+        "Summer_28": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1450 BusStop 22 9 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
+        "Winter_8": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1450 BusStop 22 9 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
+        "Winter_25": "0 Custom_Martin_WarpRoom 1 3 3/800 ArchaeologyHouse 7 16 2 Martin_Read/1240 BusStop 22 8 0/1450 BusStop 22 9 0/1500 Custom_DayEnd_WarpRoom 3 3 0",
       }
     },
     /*
@@ -768,22 +773,22 @@
       },
     },
     { //theater temp actor loads
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/**Martin**",
       "FromFile": "Assets/CharacterFiles/Portraits/Martin/Martin_Theater.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/**Martin**",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Martin/Martin_Theater.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/**Claire**",
       "FromFile": "Assets/CharacterFiles/Portraits/Claire/Claire_Theater.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/**Claire**",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Claire/Claire_Theater.png"
     },
@@ -795,7 +800,7 @@
       },
     },
     {
-      "Action": "Load", //16x16
+      "Action": "Load", "Priority": "Low", //16x16
       "Target": "Characters/GenealogyBook",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/GenealogyBook.png"
     },

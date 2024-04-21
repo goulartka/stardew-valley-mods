@@ -62,7 +62,7 @@
       ]
     },
     { //SANDY SCHEDULE - Default
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "characters/schedules/Sandy",
       "FromFile": "Assets/CharacterFiles/Schedules/Sandy/ShopSchedule.json",
     },
@@ -74,12 +74,13 @@
         "HasSeenEvent |contains=5553210": false
       },
       "Entries": {
-        "6": "0 Custom_Sandy_WarpRoom 3 4 2/840 HaleyHouse 13 20 2/1010 HaleyHouse 13 20 1/1100 HaleyHouse 20 6 3/1300 Town 22 64 1/1500 Town 101 68 0/1720 Saloon 17 20 0/2310 Saloon 17 20 2/2330 HaleyHouse 19 4 1",
-        "13": "0 Custom_Sandy_WarpRoom 3 4 2/810 Beach 53 24 2/1300 Forest 71 50 2/1730 HaleyHouse 7 16 0/2010 HaleyHouse 5 20 2/2200 HaleyHouse 21 4 0",
-        "20": "0 Custom_Sandy_WarpRoom 3 4 2/810 Beach 53 24 2/1300 Forest 71 50 2/1730 HaleyHouse 7 16 0/2020 HaleyHouse 5 20 2/2200 HaleyHouse 21 4 0",
-        "27": "0 Custom_Sandy_WarpRoom 3 4 2/840 HaleyHouse 13 20 2/1010 HaleyHouse 13 20 1/1100 HaleyHouse 20 6 3/1300 Town 22 64 1/1500 Town 101 68 0/1720 Saloon 17 20 0/2310 Saloon 17 20 2/2330 HaleyHouse 19 4 1",
+        "6": "0 HaleyHouse 13 20 2/840 HaleyHouse 13 20 2/1010 HaleyHouse 13 20 1/1100 HaleyHouse 20 6 3/1300 Town 22 64 1/1500 Town 101 68 0/1720 Saloon 17 20 0/2310 Saloon 17 20 2/2330 HaleyHouse 19 4 1",
+        "13": "0 Beach 53 24 2/810 Beach 53 24 2/1300 Forest 71 50 2/1730 HaleyHouse 7 16 0/2010 HaleyHouse 5 20 2/2200 HaleyHouse 21 4 0",
+        "20": "0 Beach 53 24 2/810 Beach 53 24 2/1300 Forest 71 50 2/1730 HaleyHouse 7 16 0/2020 HaleyHouse 5 20 2/2200 HaleyHouse 21 4 0",
+        "27": "0 HaleyHouse 13 20 2/840 HaleyHouse 13 20 2/1010 HaleyHouse 13 20 1/1100 HaleyHouse 20 6 3/1300 Town 22 64 1/1500 Town 101 68 0/1720 Saloon 17 20 0/2310 Saloon 17 20 2/2330 HaleyHouse 19 4 1",
       },
     },
+
     { //SANDY SCHEDULE - Visits Stardew Valley (joja route)
       "Action": "EditData",
       "Target": "characters/schedules/Sandy",
@@ -88,10 +89,10 @@
         "HasSeenEvent": "5553210"
       },
       "Entries": {
-        "6": "0 Custom_Sandy_WarpRoom 3 4 2/840 HaleyHouse 13 20 2/1010 HaleyHouse 13 20 1/1100 HaleyHouse 20 6 3/1300 Town 22 64 1/1500 Town 103 98 2/1720 Saloon 17 20 0/2310 Saloon 17 20 2/2330 HaleyHouse 19 4 1",
-        "13": "0 Custom_Sandy_WarpRoom 3 4 2/810 Beach 53 24 2/1300 Forest 71 50 2/1730 HaleyHouse 7 16 0/2010 HaleyHouse 5 20 2/2200 HaleyHouse 21 4 0",
-        "20": "0 Custom_Sandy_WarpRoom 3 4 2/810 Beach 53 24 2/1300 Forest 71 50 2/1730 HaleyHouse 7 16 0/2020 HaleyHouse 5 20 2/2200 HaleyHouse 21 4 0",
-        "27": "0 Custom_Sandy_WarpRoom 3 4 2/840 HaleyHouse 13 20 2/1010 HaleyHouse 13 20 1/1100 HaleyHouse 20 6 3/1300 Town 22 64 1/1500 Town 103 98 2/1720 Saloon 17 20 0/2310 Saloon 17 20 2/2330 HaleyHouse 19 4 1",
+        "6": "0 HaleyHouse 13 20 2/840 HaleyHouse 13 20 2/1010 HaleyHouse 13 20 1/1100 HaleyHouse 20 6 3/1300 Town 22 64 1/1500 Town 103 98 2/1720 Saloon 17 20 0/2310 Saloon 17 20 2/2330 HaleyHouse 19 4 1",
+        "13": "0 Beach 53 24 2/810 Beach 53 24 2/1300 Forest 71 50 2/1730 HaleyHouse 7 16 0/2010 HaleyHouse 5 20 2/2200 HaleyHouse 21 4 0",
+        "20": "0 Beach 53 24 2/810 Beach 53 24 2/1300 Forest 71 50 2/1730 HaleyHouse 7 16 0/2020 HaleyHouse 5 20 2/2200 HaleyHouse 21 4 0",
+        "27": "0 HaleyHouse 13 20 2/840 HaleyHouse 13 20 2/1010 HaleyHouse 13 20 1/1100 HaleyHouse 20 6 3/1300 Town 22 64 1/1500 Town 103 98 2/1720 Saloon 17 20 0/2310 Saloon 17 20 2/2330 HaleyHouse 19 4 1",
       },
     },
     { //SANDY DIALOGUE - Visits Stardew Valley

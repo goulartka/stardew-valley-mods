@@ -65,13 +65,13 @@
 
     {
       //Camilla's portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Camilla",
       "FromFile": "Assets/CharacterFiles/Portraits/Camilla/Camilla.png"
     },
     {
       //Camilla's sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Camilla",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Camilla/Camilla.png"
     },
@@ -85,7 +85,7 @@
     },
     {
       //Camilla's Schedule
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/schedules/Camilla",
       "FromFile": "assets/CharacterFiles/Schedules/Camilla/Camilla.json"
     },

@@ -123,7 +123,7 @@
       }
     },
     {
-      "Action": "Load", //16x16
+      "Action": "Load", "Priority": "Low", //16x16
       "Target": "Characters/PennyClassMaterials",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/PennyClassMaterials.png"
     },

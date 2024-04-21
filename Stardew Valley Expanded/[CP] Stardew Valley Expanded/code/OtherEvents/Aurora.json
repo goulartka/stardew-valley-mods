@@ -133,22 +133,22 @@
                },
           },
           { //19x28
-               "Action": "Load",
+               "Action": "Load", "Priority": "Low",
                "Target": "Characters/JojaWorker1",
                "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/JojaWorker1.png"
           },
           { //19x28
-               "Action": "Load",
+               "Action": "Load", "Priority": "Low",
                "Target": "Characters/JojaWorker2",
                "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/JojaWorker2.png"
           },
           { //21x21
-               "Action": "Load",
+               "Action": "Load", "Priority": "Low",
                "Target": "Characters/JojaWorkerBox",
                "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/JojaWorkerBox.png"
           },
           { //31x21
-               "Action": "Load",
+               "Action": "Load", "Priority": "Low",
                "Target": "Characters/JojaWorkerSuppliesPile",
                "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/JojaWorkerSuppliesPile.png"
           },
@@ -430,7 +430,7 @@
                     "Height": 29
                },
                "When": {
-                    "HasSeenEvent: anyPlayer| contains=46153084": true,
+                    "HasSeenEvent: anyPlayer| contains=746153084": true,
                },
                "Update": "OnLocationChange"
           },

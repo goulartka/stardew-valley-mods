@@ -1,6 +1,56 @@
 {
   "Changes": [
     {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/CrimsonBadlands",
+      "FromFile": "assets/Maps/WorldMaps/CrimsonBadlands.png"
+    },
+    {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/FableReef",
+      "FromFile": "assets/Maps/WorldMaps/FableReef.png"
+    },
+    {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/spring_GrampletonSuburbs",
+      "FromFile": "assets/Maps/WorldMaps/GrampletonSuburbs/spring_GrampletonSuburbs_Worldmap.png"
+    },
+    {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/summer_GrampletonSuburbs",
+      "FromFile": "assets/Maps/WorldMaps/GrampletonSuburbs/summer_GrampletonSuburbs_Worldmap.png"
+    },
+    {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/fall_GrampletonSuburbs",
+      "FromFile": "assets/Maps/WorldMaps/GrampletonSuburbs/fall_GrampletonSuburbs_Worldmap.png"
+    },
+    {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/",
+      "FromFile": "assets/Maps/WorldMaps/GrampletonSuburbs/winter_GrampletonSuburbs_Worldmap.png"
+    },
+    {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/spring_Highlands",
+      "FromFile": "assets/Maps/WorldMaps/Highlands/spring_Highlands_WorldMap.png"
+    },
+    {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/summer_Highlands",
+      "FromFile": "assets/Maps/WorldMaps/Highlands/summer_Highlands_WorldMap.png"
+    },
+    {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/fall_Highlands",
+      "FromFile": "assets/Maps/WorldMaps/Highlands/fall_Highlands_WorldMap.png"
+    },
+    {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/winter_Highlands",
+      "FromFile": "assets/Maps/WorldMaps/Highlands/winter_Highlands_WorldMap.png"
+    },
+    {
       "Action": "EditData",
       "Target": "Data/WorldMap",
       "TargetField": [
@@ -915,7 +965,7 @@
           "BaseTexture": [
             {
               "Id": "Custom_CrimsonBadlands",
-              "Texture": "{{InternalAssetKey: assets/Maps/WorldMaps/CrimsonBadlands.png}}",
+              "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\CrimsonBadlands",
               "SourceRect": {
                 "X": 0,
                 "Y": 0,
@@ -1086,7 +1136,7 @@
           "BaseTexture": [
             {
               "Id": "Custom_FableReef",
-              "Texture": "{{InternalAssetKey: assets/Maps/WorldMaps/FableReef.png}}",
+              "Texture":  "Mods\\FlashShifter.StardewValleyExpandedCP\\FableReef",
               "SourceRect": {
                 "X": 0,
                 "Y": 0,
@@ -1179,7 +1229,7 @@
           "BaseTexture": [
             {
               "Id": "Custom_GrampletonSuburbs",
-              "Texture": "{{InternalAssetKey: assets/Maps/WorldMaps/GrampletonSuburbs/spring_GrampletonSuburbs_Worldmap.png}}",
+              "Texture":  "Mods\\FlashShifter.StardewValleyExpandedCP\\spring_GrampletonSuburbs",
               "SourceRect": {
                 "X": 0,
                 "Y": 0,
@@ -1196,7 +1246,7 @@
             },
             {
               "Id": "Custom_GrampletonSuburbs",
-              "Texture": "{{InternalAssetKey: assets/Maps/WorldMaps/GrampletonSuburbs/summer_GrampletonSuburbs_Worldmap.png}}",
+              "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\summer_GrampletonSuburbs",
               "SourceRect": {
                 "X": 0,
                 "Y": 0,
@@ -1207,7 +1257,7 @@
             },
             {
               "Id": "Custom_GrampletonSuburbs",
-              "Texture": "{{InternalAssetKey: assets/Maps/WorldMaps/GrampletonSuburbs/fall_GrampletonSuburbs_Worldmap.png}}",
+              "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\fall_GrampletonSuburbs",
               "SourceRect": {
                 "X": 0,
                 "Y": 0,
@@ -1218,7 +1268,7 @@
             },
             {
               "Id": "Custom_GrampletonSuburbs",
-              "Texture": "{{InternalAssetKey: assets/Maps/WorldMaps/GrampletonSuburbs/winter_GrampletonSuburbs_Worldmap.png}}",
+              "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\winter_GrampletonSuburbs",
               "SourceRect": {
                 "X": 0,
                 "Y": 0,
@@ -1325,7 +1375,7 @@
           "BaseTexture": [
             {
               "Id": "Custom_Highlands",
-              "Texture": "{{InternalAssetKey: assets/Maps/WorldMaps/Highlands/spring_Highlands_WorldMap.png}}",
+              "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\spring_Highlands",
               "SourceRect": {
                 "X": 0,
                 "Y": 0,
@@ -1336,7 +1386,7 @@
             },
             {
               "Id": "Custom_Highlands",
-              "Texture": "{{InternalAssetKey: assets/Maps/WorldMaps/Highlands/summer_Highlands_WorldMap.png}}",
+              "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\summer_Highlands",
               "SourceRect": {
                 "X": 0,
                 "Y": 0,
@@ -1347,7 +1397,7 @@
             },
             {
               "Id": "Custom_Highlands",
-              "Texture": "{{InternalAssetKey: assets/Maps/WorldMaps/Highlands/fall_Highlands_WorldMap.png}}",
+              "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\fall_Highlands",
               "SourceRect": {
                 "X": 0,
                 "Y": 0,
@@ -1358,7 +1408,7 @@
             },
             {
               "Id": "Custom_Highlands",
-              "Texture": "{{InternalAssetKey: assets/Maps/WorldMaps/Highlands/winter_Highlands_WorldMap.png}}",
+              "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\winter_Highlands",
               "SourceRect": {
                 "X": 0,
                 "Y": 0,

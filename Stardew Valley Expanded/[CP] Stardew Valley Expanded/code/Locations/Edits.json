@@ -21,11 +21,11 @@
                 },
                 "Andy": {
                     "ID": "Andy",
-                    "Setup": "29 70 0"
+                    "Setup": "Andy 29 70 0"
                 },
                 "Susan": {
                     "ID": "Susan",
-                    "Setup": "30 70 0"
+                    "Setup": "Susan 30 70 0"
                 }
             }
         },

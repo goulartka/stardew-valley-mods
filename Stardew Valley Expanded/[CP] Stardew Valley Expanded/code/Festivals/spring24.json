@@ -1150,12 +1150,12 @@
         },
         //Map Loads
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Forest-FlowerFestival",
             "FromFile": "Assets/Maps/FestivalMaps/Forest-SVE-FlowerFestival.tmx",
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Forest-FlowerFestival2",
             "FromFile": "Assets/Maps/FestivalMaps/Forest-SVE-FlowerFestival2.tmx",
         },

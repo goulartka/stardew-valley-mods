@@ -2,7 +2,7 @@
     "Name": "East Scarp NPCs",
     "Author": "Lemurkat",
     "Description": "Adds Dr Jacob, Eloise, Aideen, Rosa and more!",
-    "Version": "2.4.7",
+    "Version": "2.4.8",
     "UniqueID": "Lemurkat.EastScarpNPCs.CP",
     "UpdateKeys": [
         "Nexus:???"
@@ -26,7 +26,11 @@
             "IsRequired": false
         },
         {
-            "UniqueID": "DestyNova.Mateo.CP",
+            "UniqueID": "DN.SnS",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "DN.SnS.CP",
             "IsRequired": false
         },
         {
@@ -41,5 +45,6 @@
             "UniqueID": "Himetarts.ARV.CP",
             "IsRequired": false
         },
+     
     ]
 }

@@ -194,7 +194,7 @@
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
             },
             "Entries": {
-                "rain": "610 Custom_LK_LodgingHouse 21 21 3/a830 EastScarp_ClearingHouse 27 19 2/900 IslandSouth 24 33 2/1300 IslandSouth 5 14 3/1600 IslandSouth 24 33 2/1800 EastScarp_ClearingHouse 26 9 1/2200 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
+                "rain": "610 Custom_LK_LodgingHouse 21 21 3/a830 EastScarp_ClearingHouse 27 19 2/900 IslandSouth 24 33 2/1300 IslandSouth 5 14 3/1600 IslandSouth 24 33 2/1800 EastScarp_ClearingHouse 26 11 1/2200 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
             }
         },
         {
@@ -209,7 +209,7 @@
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
             },
             "Entries": {
-                "rain": "a830 EastScarp_ClearingHouse 27 20 0/900 IslandSouth 25 33 2/1300 IslandSouth 4 14 1/1600 IslandSouth 25 33 2/1800 EastScarp_ClearingHouse 27 9 3/2200 EastScarp_VillageInn 66 8 1"
+                "rain": "a830 EastScarp_ClearingHouse 27 20 0/900 IslandSouth 25 33 2/1300 IslandSouth 4 14 1/1600 IslandSouth 25 33 2/1800 EastScarp_ClearingHouse 27 11 3/2200 EastScarp_VillageInn 66 8 1"
             }
         },
         //With SVE
@@ -225,7 +225,7 @@
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
             },
             "Entries": {
-                "rain": "a900 Town 88 101 1/930 IslandSouth 24 33 2/1300 IslandSouth 5 14 3/1600 IslandSouth 24 33 2/1800 EastScarp_ClearingHouse 26 9 1/2200 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
+                "rain": "a900 Town 88 101 1/930 IslandSouth 24 33 2/1300 IslandSouth 5 14 3/1600 IslandSouth 24 33 2/1800 Town 88 101 1/2200 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
             }
         },
         {
@@ -240,7 +240,7 @@
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
             },
             "Entries": {
-                "rain": "a900 Town 89 101 3/930 IslandSouth 25 33 2/1300 IslandSouth 4 14 1/1600 IslandSouth 25 33 2/1800 EastScarp_ClearingHouse 27 9 3/2200 EastScarp_VillageInn 66 8 1"
+                "rain": "a900 Town 89 101 3/930 IslandSouth 25 33 2/1300 IslandSouth 4 14 1/1600 IslandSouth 25 33 2/1800 Town 89 101 3/2200 EastScarp_VillageInn 66 8 1"
             }
         },
         //Once dating - without SVE
@@ -256,7 +256,7 @@
                 "MunchieLocation": "bedroom" //This is just because it's already set as a random key not for any real significance
             },
             "Entries": {
-                "rain": "610 Custom_LK_LodgingHouse 21 21 3/a830 EastScarp_ClearingHouse 27 19 2/900 IslandSouth 24 33 2/1300 IslandSouth 5 14 3/1600 IslandSouth 24 33 2/1800 EastScarp_ClearingHouse 26 9 1/2200 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
+                "rain": "610 Custom_LK_LodgingHouse 21 21 3/a830 EastScarp_ClearingHouse 27 19 2/900 IslandSouth 24 33 2/1300 IslandSouth 5 14 3/1600 IslandSouth 24 33 2/1800 EastScarp_ClearingHouse 26 11 1/2200 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
             }
         },
         {
@@ -271,7 +271,7 @@
                 "MunchieLocation": "bedroom" //This is just because it's already set as a random key not for any real significance
             },
             "Entries": {
-                "rain": "a830 EastScarp_ClearingHouse 27 20 0/900 IslandSouth 25 33 2/1300 IslandSouth 4 14 1/1600 IslandSouth 25 33 2/1800 EastScarp_ClearingHouse 27 9 3/2200 Custom_LK_LodgingHouse 23 6 3"
+                "rain": "a830 EastScarp_ClearingHouse 27 20 0/900 IslandSouth 25 33 2/1300 IslandSouth 4 14 1/1600 IslandSouth 25 33 2/1800 EastScarp_ClearingHouse 27 11 3/2200 Custom_LK_LodgingHouse 23 6 3"
             }
         },
         //Once dating - with SVE
@@ -287,7 +287,7 @@
                 "MunchieLocation": "bedroom"
             },
             "Entries": {
-                "rain": "a900 Town 88 101 1/930 IslandSouth 24 33 2/1300 IslandSouth 5 14 3/1600 IslandSouth 24 33 2/1800 EastScarp_ClearingHouse 26 9 1/2200 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
+                "rain": "a900 Town 88 101 1/930 IslandSouth 24 33 2/1300 IslandSouth 5 14 3/1600 IslandSouth 24 33 2/1800 Custom_LK_ClearingHouse 26 11 1/2200 Custom_LK_LodgingHouse 22 6 2 Juliet_sleep"
             }
         },
         {
@@ -302,7 +302,7 @@
                 "MunchieLocation": "bedroom"
             },
             "Entries": {
-                "rain": "a900 Town 89 101 3/930 IslandSouth 25 33 2/1300 IslandSouth 4 14 1/1600 IslandSouth 25 33 2/1800 EastScarp_ClearingHouse 27 9 3/2200 Custom_LK_LodgingHouse 23 6 3"
+                "rain": "a900 Town 89 101 3/930 IslandSouth 25 33 2/1300 IslandSouth 4 14 1/1600 IslandSouth 25 33 2/1800 Custom_LK_ClearingHouse 27 11 3/2200 Custom_LK_LodgingHouse 23 6 3"
             }
         },
         {

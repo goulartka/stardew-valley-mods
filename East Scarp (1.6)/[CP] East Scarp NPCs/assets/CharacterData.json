@@ -421,8 +421,8 @@
                     "Calendar": "HiddenUntilMet", //delete when released
                     "SocialTab": "HiddenUntilMet", //delete when released
                     "CanVisitIsland": "true",
-                    "IntroductionsQuest": false, //delete when released
-                    "PerfectionScore": false, //delete when released
+                    "IntroductionsQuest": true, //delete when released
+                    "PerfectionScore": true, //delete when released
                     "Home": [
                         {
                             "Id": "Default",
@@ -494,9 +494,9 @@
                     "Calendar": "HiddenUntilMet",
                     "SocialTab": "HiddenUntilMet",
                     "CanVisitIsland": "FALSE",
-                    "IntroductionsQuest": true,
-                    "PerfectionScore": true,
-                    "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Host 57871100",
+                    "IntroductionsQuest": false,
+                    "PerfectionScore": false,
+                    //"UnlockConditions": "PLAYER_HAS_SEEN_EVENT Host 57871100",
                     "EndSlideShow": "TrailingGroup",
                     "LoveInterest": null,
                     "CustomFields": {
@@ -505,10 +505,10 @@
                     "Home": [
                         {
                             "Id": "Default",
-                            "Location": "EastScarp_OrchardHouse",
+                            "Location": "EastScarp_LumaHut",
                             "Tile": {
-                                "X": 4,
-                                "Y": 4
+                                "X": 7,
+                                "Y": 6
                             },
                             "Direction": "Down"
                         }

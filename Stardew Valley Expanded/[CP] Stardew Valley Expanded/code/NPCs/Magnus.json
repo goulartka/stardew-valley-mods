@@ -13,7 +13,7 @@
             "Wizard",
             1
           ],
-          "Value": "FlashShifter.StardewValleyExpandedCP_Void_Soul FlashShifter.StardewValleyExpandedCP_Void_Shard FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi FlashShifter.StardewValleyExpandedCP_Void_Root FlashShifter.StardewValleyExpandedCP_Void_Pebble FlashShifter.StardewValleyExpandedCP_Void_Delight FlashShifter.StardewValleyExpandedCP_Swirl_Stone FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo FlashShifter.StardewValleyExpandedCP_Lightning_Elixir FlashShifter.StardewValleyExpandedCP_Hero_Elixir FlashShifter.StardewValleyExpandedCP_Haste_Elixir FlashShifter.StardewValleyExpandedCP_Gravity_Elixir FlashShifter.StardewValleyExpandedCP_Frog_Legs FlashShifter.StardewValleyExpandedCP_Barbarian_Elixir FlashShifter.StardewValleyExpandedCP_Armor_Elixir FlashShifter.StardewValleyExpandedCP_Ancient_Fiber FlashShifter.StardewValleyExpandedCP_Aegis_Elixir",
+          "Value": "IceRod BasiliskPaw MagicHairGel FlashShifter.StardewValleyExpandedCP_Void_Soul FlashShifter.StardewValleyExpandedCP_Void_Shard FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi FlashShifter.StardewValleyExpandedCP_Void_Root FlashShifter.StardewValleyExpandedCP_Void_Pebble FlashShifter.StardewValleyExpandedCP_Void_Delight FlashShifter.StardewValleyExpandedCP_Swirl_Stone FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo FlashShifter.StardewValleyExpandedCP_Lightning_Elixir FlashShifter.StardewValleyExpandedCP_Hero_Elixir FlashShifter.StardewValleyExpandedCP_Haste_Elixir FlashShifter.StardewValleyExpandedCP_Gravity_Elixir FlashShifter.StardewValleyExpandedCP_Frog_Legs FlashShifter.StardewValleyExpandedCP_Barbarian_Elixir FlashShifter.StardewValleyExpandedCP_Armor_Elixir FlashShifter.StardewValleyExpandedCP_Ancient_Fiber FlashShifter.StardewValleyExpandedCP_Aegis_Elixir",
           "Delimiter": " "
         }
         /*Like*/ ,
@@ -135,13 +135,13 @@
     },*/
     //Spouse Room
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Maps/Custom_WizardsRoom",
       "FromFile": "Assets/Maps/SpouseRooms/WizardsRoom.tbin",
     },
     //Spouse Patio
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Maps/Wizard_Spouse_Area",
       "FromFile": "Assets/Maps/SpouseRooms/Wizard_Spouse_Area.tbin"
     },
@@ -267,14 +267,19 @@
       },
     },
     {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Characters/schedules/Wizard",
+      "FromFile": "Assets/Blank.json"
+    },
+    /*{
       //Wizard's Schedule
-      "Action": "Load",
+      "Action": "EditData",
       "Target": "Characters/schedules/Wizard",
       "When": {
         "HasSeenEvent": "112"
       },
       "FromFile": "assets/CharacterFiles/Schedules/Magnus/WizardSchedule.json"
-    },
+    },*/
     //WIZARD SCHEDULE: Morgan = 'true'
     {
       "Action": "EditData",
@@ -523,22 +528,22 @@
       },
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/FemaleFarmer",
       "FromFile": "Assets/CharacterFiles/Portraits/NoPortraits/FemaleFarmer.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FemaleFarmer",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/FemaleFarmer/FemaleFarmer.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/MaleFarmer",
       "FromFile": "Assets/CharacterFiles/Portraits/NoPortraits/MaleFarmer.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/MaleFarmer",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/MaleFarmer/MaleFarmer.png"
     },
@@ -572,27 +577,27 @@
       },
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/WizardJunimo1", //Blue, left
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Junimos/WizardJunimo1.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/WizardJunimo2", //Yellow, right
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Junimos/WizardJunimo2.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/WizardJunimo3", //Green, bottom
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Junimos/WizardJunimo3.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/WizardJunimo4", //Purple, top
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Junimos/WizardJunimo4.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/WizardSpellBook",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/WizardSpellBook.png"
     },
@@ -604,7 +609,7 @@
       },
     },
     { //111x50
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/WizardFeast",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/WizardFeast.png"
     },
@@ -620,24 +625,13 @@
         "1724099/O Wizard/f Wizard 3500/t 1800 2600/e 1724098": "none/-500 -500/farmer 11 5 3 Wizard 4 5 0/makeInvisible 4 5 8 1/pause 750/playMusic 50s/pause 500/positionOffset Wizard 0 -13/skippable/viewport 5 5 true/speed farmer 1/move farmer -5 0 3/pause 800/faceDirection Wizard 1 true/pause 500/speak Wizard \"{{i18n:Wizard.14hearts1.01}}\"/pause 500/emote farmer 8 true/pause 1000/speak Wizard \"{{i18n:Wizard.14hearts1.02}}\"/pause 500/globalFade/viewport -1000 -1000/end dialogue Wizard \"{{i18n:Wizard.14hearts1.03}}\""
       },
     },
-    { //Wizard 14 heart event - part 1 - (farmhouse level III)
-      "Action": "EditData",
-      "Target": "data/events/farmhouse",
-      "When": {
-        "HasSeenEvent": "1724098",
-        "FarmhouseUpgrade": 2,
-        "HasFlag |contains=Island_UpgradeHouse": true
-      },
-      "Entries": {
-        "1724099/O Wizard/f Wizard 3500/t 1800 2600/e 1724098": "none/-500 -500/farmer 14 14 3 Wizard 7 14 0/skippable/makeInvisible 7 14 8 1/pause 750/playMusic 50s/pause 500/viewport 8 14 true/speed farmer 1/move farmer -5 0 3/pause 800/faceDirection Wizard 1 true/pause 500/speak Wizard \"{{i18n:Wizard.14hearts1.01}}\"/pause 500/emote farmer 8 true/pause 1000/speak Wizard \"{{i18n:Wizard.14hearts1.02}}\"/pause 500/globalFade/viewport -1000 -1000/end dialogue Wizard \"{{i18n:Wizard.14hearts1.03}}\""
-      },
-    },
+
     { //Wizard 14 heart event - part 1 - Farmhouse level (IV)
       "Action": "EditData",
       "Target": "data/events/farmhouse",
       "When": {
         "HasSeenEvent": "1724098",
-        "FarmhouseUpgrade": 3,
+        "FarmhouseUpgrade|contains=2, 3": true,
         "HasFlag |contains=Island_UpgradeHouse": true
       },
       "Entries": {
@@ -699,132 +693,132 @@
     },
     //*** Load temporary actors for wizard 14 heart event***
     { //48x64
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/WizardsMagicBubble",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/WizardsMagicBubble.png"
     },
     { //48x64
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FarmersMagicBubble",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FarmersMagicBubble.png"
     },
     { //51x22
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/MermaidSwim",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/MermaidSwim.png"
     },
     { //Mermaid's portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Mermaid",
       "FromFile": "assets/CharacterFiles/Portraits/Mermaid/Mermaid.png"
     },
     { //28x74
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Mermaid",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/Mermaid.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup1Light",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup1Light.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup1Dark",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup1Dark.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup2Light",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup2Light.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup2Dark",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup2Dark.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup3Light",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup3Light.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup3Dark",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup3Dark.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup4Light",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup4Light.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup4Dark",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup4Dark.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup5Light",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup5Light.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup5Dark",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup5Dark.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup6Dark",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup6Dark.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup7Dark",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup7Dark.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup8Dark",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup8Dark.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup9Dark",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup9Dark.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup10Dark",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup10Dark.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup11Dark",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup11Dark.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup12Dark",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup12Dark.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/FishGroup13Dark",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/FishGroup13Dark.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/BubbleGroup1",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/BubbleGroup1.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/BubbleGroup2",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/BubbleGroup2.png"
     },
     { //60x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/BubbleGroup3",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/BubbleGroup3.png"
     },

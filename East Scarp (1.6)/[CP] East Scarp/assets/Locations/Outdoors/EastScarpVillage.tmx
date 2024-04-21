@@ -6643,12 +6643,12 @@
   </object>
   <object id="27" name="TileData" x="704" y="1344" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_DeepDark 14 67"/>
+    <property name="TouchAction" value="Warp EastScarp_DeepDark 14 67"/>
    </properties>
   </object>
   <object id="49" name="TileData" x="688" y="1344" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_DeepDark 14 67"/>
+    <property name="TouchAction" value="Warp EastScarp_DeepDark 14 67"/>
    </properties>
   </object>
   <object id="63" name="TileData" x="1232" y="1824" width="16" height="16">

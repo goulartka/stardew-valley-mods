@@ -337,30 +337,30 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "Claire": "{{i18n:gifts.claire.love}}/614 349 421 618 634 560 FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish/{{i18n:gifts.claire.like}}/613 635 636 637 638 88 90 607 815 408 395 FlashShifter.StardewValleyExpandedCP_Butterfish/{{i18n:gifts.claire.dislike}}/396 16 152 153 218 219 226 296 309 310 311 283 346 459 303 304 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:gifts.claire.hate}}/167 342 412 416 330 372 723 722 721 720 718 717 716 715 233 FlashShifter.StardewValleyExpandedCP_Void_Eel FlashShifter.StardewValleyExpandedCP_Starfish FlashShifter.StardewValleyExpandedCP_Seahorse FlashShifter.StardewValleyExpandedCP_Sea_Sponge FlashShifter.StardewValleyExpandedCP_Minnow FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Daggerfish FlashShifter.StardewValleyExpandedCP_Clownfish/{{i18n:gifts.claire.neutral}}/394 393 392 406 410 414/"
+        "Claire": "{{i18n:gifts.claire.love}}/614 349 421 618 634 560 ParrotEgg FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish/{{i18n:gifts.claire.like}}/613 635 636 637 638 88 90 607 815 408 395 FlashShifter.StardewValleyExpandedCP_Butterfish/{{i18n:gifts.claire.dislike}}/396 16 152 153 218 219 226 296 309 310 311 283 346 459 303 304 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:gifts.claire.hate}}/167 342 412 416 330 372 723 722 721 720 718 717 716 715 233 FlashShifter.StardewValleyExpandedCP_Void_Eel FlashShifter.StardewValleyExpandedCP_Starfish FlashShifter.StardewValleyExpandedCP_Seahorse FlashShifter.StardewValleyExpandedCP_Sea_Sponge FlashShifter.StardewValleyExpandedCP_Minnow FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Daggerfish FlashShifter.StardewValleyExpandedCP_Clownfish/{{i18n:gifts.claire.neutral}}/394 393 392 406 410 414/"
       }
     },
     //Spouse Room
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Maps/Custom_ClairesRoom",
       "FromFile": "Assets/Maps/SpouseRooms/ClairesRoom.tbin",
     },
     //Spouse Patio
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Maps/Claire_Spouse_Area",
       "FromFile": "Assets/Maps/SpouseRooms/Claire_Spouse_Area.tbin"
     },
     {
       //Claire's Portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Claire",
       "FromFile": "Assets/CharacterFiles/Portraits/Claire/Claire.png"
     },
     {
       //Claire's Sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Claire",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Claire/Claire.png"
     },
@@ -376,25 +376,25 @@
     },
     {
       //Claire's Winter Portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Claire_Winter",
       "FromFile": "assets/CharacterFiles/Portraits/Claire/Claire_Winter.png"
     },
     {
       //Claire's Winter Sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Claire_Winter",
       "FromFile": "assets/CharacterFiles/OverworldSprites/Claire/Claire_Winter.png"
     },
     {
       //Claire's beach portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Claire_Beach",
       "FromFile": "assets/CharacterFiles/Portraits/Claire/Claire_Beach.png"
     },
     {
       //Claire's beach sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Claire_Beach",
       "FromFile": "assets/CharacterFiles/OverworldSprites/Claire/Claire_Beach.png"
     },
@@ -513,8 +513,13 @@
       }
     },
     {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Characters/schedules/Claire",
+      "FromFile": "Assets/Blank.json"
+    },
+    /*{
       //Claire's Schedule - Joja Mart
-      "Action": "Load",
+      "Action": "EditData",
       "Target": "Characters/schedules/Claire",
       "When": {
         "HasSeenEvent |contains=191393": false
@@ -523,7 +528,7 @@
     },
     {
       //Claire's Schedule - Joja Mart ruins
-      "Action": "Load",
+      "Action": "EditData",
       "Target": "Characters/schedules/Claire",
       "When": {
         "HasSeenEvent": "191393",
@@ -533,14 +538,14 @@
     },
     {
       //Claire's Schedule - Movie Theater built
-      "Action": "Load",
+      "Action": "EditData",
       "Target": "Characters/schedules/Claire",
       "When": {
         "HasFlag": "ccMovieTheater",
         "HasSeenEvent": "191393"
       },
       "FromFile": "assets/CharacterFiles/Schedules/Claire/MovieTheater.json"
-    },
+    },*/
     {
       //Claire's Schedule - Desert Festival - Will only apply if married
       "Action": "EditData",
@@ -1110,7 +1115,7 @@
     },
     {
       //load shane joja uniform temp actor
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/ShaneJoja",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShaneJoja.png"
     },
@@ -1133,7 +1138,7 @@
       },
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/ClaireJoja",
       "FromFile": "assets/CharacterFiles/Portraits/NoPortraits/ClaireJoja.png"
     },
@@ -1174,20 +1179,20 @@
     },
     {
       //load claire joja uniform temp actor
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/ClaireJoja",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ClaireJoja.png"
     },
     {
       //load claire theater uniform temp actor
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/ClaireTheater",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ClaireTheater.png"
     },
     //fake portrait
     {
       //load claire theater uniform temp actor
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/ClaireTheater",
       "FromFile": "Assets/CharacterFiles/Portraits/NoPortraits/ClaireTheater.png"
     },
@@ -1246,7 +1251,7 @@
         "HasSeenEvent": "3219873"
       },
       "Entries": {
-        "Tue": "1030 SeedShop 26 17 1 \"Strings\\schedules\\Claire:AerobicsClass.002\"/1300 SeedShop 23 18 2 Claire_Dance \"Strings\\schedules\\Claire:AerobicsClass.001\"/1600 BusStop 22 8 0/1740 Custom_DayEnd_WarpRoom 2 2 0",
+        "Tue": "1030 SeedShop 26 17 1 \"Strings\\schedules\\Claire:AerobicsClass.002\"/1300 SeedShop 23 18 2 Claire_Dance \"Strings\\schedules\\Claire:AerobicsClass.001\"/1600 BusStop 22 8 0/1730 BusStop 22 9 0/1740 Custom_DayEnd_WarpRoom 2 2 0",
         "marriage_Tue": "1030 SeedShop 26 17 1 \"Strings\\schedules\\Claire:AerobicsClass.000\"/1300 SeedShop 23 18 2 Claire_Dance \"Strings\\schedules\\Claire:AerobicsClass.001\"/1600 bed",
       }
     },
@@ -1259,7 +1264,7 @@
         "Weather": "Rain"
       },
       "Entries": {
-        "Tue": "1200 SeedShop 23 18 2 Claire_Dance \"Strings\\schedules\\Claire:AerobicsClass.003\"/1600 BusStop 22 8 0/1740 Custom_DayEnd_WarpRoom 2 2 0"
+        "Tue": "1200 SeedShop 23 18 2 Claire_Dance \"Strings\\schedules\\Claire:AerobicsClass.003\"/1600 BusStop 22 8 0/1730 BusStop 22 9 0/1740 Custom_DayEnd_WarpRoom 2 2 0"
       }
     },
     //CLOSE MOVIE THEATER ON THE 22ND
@@ -1381,12 +1386,12 @@
       },
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/ClaireProp1",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ClaireProp1.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/ClaireProp2",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ClaireProp2.png"
     },
@@ -1402,25 +1407,14 @@
         "3219877/O Claire/f Claire 3000/t 600 800/u 2 3 4 8 9 10 11/z winter": "none/-500 -500/farmer 11 5 3 Claire 4 5 0/makeInvisible 4 5 8 1/pause 750/playMusic 50s/pause 500/positionOffset Claire 0 -13/skippable/ignoreCollisions farmer/ignoreCollisions Claire/viewport 5 5 true/speed farmer 1/move farmer -5 0 3/pause 800/faceDirection Claire 1 true/pause 500/speak Claire \"{{i18n:Claire.12hearts1.01}}\"/pause 700/emote farmer 32/pause 400/move farmer -1 0 3/pause 675/showFrame Claire 5 true/shake Claire 225/pause 375/showFrame Claire 4 true/pause 300/faceDirection farmer 2 true/pause 250/playSound pickUpItem/showFrame farmer 90 true/pause 400/showFrame farmer 91 true/pause 300/showFrame farmer 92 true/pause 200/playSound gulp/showFrame farmer 93 true/pause 200/showFrame farmer 92 true/pause 200/showFrame farmer 93 true/pause 200/showFrame farmer 92 true/showFrame farmer 93 true/playSound gulp/pause 200/showFrame farmer 92 true/pause 200/showFrame farmer 93 true/pause 200/showFrame farmer 92 true/pause 200/showFrame farmer 91 true/pause 200/showFrame farmer 90 true/pause 200/showFrame farmer 0 true/pause 1000/faceDirection farmer 3 true/pause 500/emote farmer 20/pause 400/speak Claire \"{{i18n:Claire.12hearts1.02}}\"/pause 1000/speak Claire \"{{i18n:Claire.12hearts1.03}}\"/pause 550/jump farmer/pause 900/speak Claire \"{{i18n:Claire.12hearts1.04}}\"/pause 500/globalFade/viewport -1000 -1000/end dialogue Claire \"{{i18n:Claire.12hearts1.05}}\""
       },
     },
+
     {
       //Claire 12 heart event - part 1
       "Action": "EditData",
       "Target": "data/events/farmhouse",
       "When": {
         "HasSeenEvent": "3219876",
-        "FarmhouseUpgrade": 2
-      },
-      "Entries": {
-        "3219877/O Claire/f Claire 3000/t 600 800/u 2 3 4 8 9 10 11/z winter": "none/-500 -500/farmer 14 14 3 Claire 7 14 0/skippable/makeInvisible 7 14 8 1/pause 750/playMusic 50s/pause 500/ignoreCollisions farmer/ignoreCollisions Claire/viewport 8 14 true/speed farmer 1/move farmer -5 0 3/pause 800/faceDirection Claire 1 true/pause 500/speak Claire \"{{i18n:Claire.12hearts1.01}}\"/pause 700/emote farmer 32/pause 400/move farmer -1 0 3/pause 675/showFrame Claire 5 true/shake Claire 225/pause 375/showFrame Claire 4 true/pause 300/faceDirection farmer 2 true/pause 250/playSound pickUpItem/showFrame farmer 90 true/pause 400/showFrame farmer 91 true/pause 300/showFrame farmer 92 true/pause 200/playSound gulp/showFrame farmer 93 true/pause 200/showFrame farmer 92 true/pause 200/showFrame farmer 93 true/pause 200/showFrame farmer 92 true/showFrame farmer 93 true/playSound gulp/pause 200/showFrame farmer 92 true/pause 200/showFrame farmer 93 true/pause 200/showFrame farmer 92 true/pause 200/showFrame farmer 91 true/pause 200/showFrame farmer 90 true/pause 200/showFrame farmer 0 true/pause 1000/faceDirection farmer 3 true/pause 500/emote farmer 20/pause 400/speak Claire \"{{i18n:Claire.12hearts1.02}}\"/pause 1000/speak Claire \"{{i18n:Claire.12hearts1.03}}\"/pause 550/jump farmer/pause 900/speak Claire \"{{i18n:Claire.12hearts1.04}}\"/pause 500/globalFade/viewport -1000 -1000/end dialogue Claire \"{{i18n:Claire.12hearts1.05}}\""
-      },
-    },
-    {
-      //Claire 12 heart event - part 1
-      "Action": "EditData",
-      "Target": "data/events/farmhouse",
-      "When": {
-        "HasSeenEvent": "3219876",
-        "FarmhouseUpgrade": 3
+        "FarmhouseUpgrade|contains=2, 3": true
       },
       "Entries": {
         "3219877/O Claire/f Claire 3000/t 600 800/u 2 3 4 8 9 10 11/z winter": "none/-500 -500/farmer 29 24 3 Claire 23 24 0/skippable/makeInvisible 7 14 8 1/pause 750/playMusic 50s/pause 500/ignoreCollisions farmer/ignoreCollisions Claire/viewport 23 24 true/speed farmer 1/move farmer -5 0 3/pause 800/faceDirection Claire 1 true/pause 500/speak Claire \"{{i18n:Claire.12hearts1.01}}\"/pause 700/emote farmer 32/pause 400/move farmer -1 0 3/pause 675/showFrame Claire 5 true/shake Claire 225/pause 375/showFrame Claire 4 true/pause 300/faceDirection farmer 2 true/pause 250/playSound pickUpItem/showFrame farmer 90 true/pause 400/showFrame farmer 91 true/pause 300/showFrame farmer 92 true/pause 200/playSound gulp/showFrame farmer 93 true/pause 200/showFrame farmer 92 true/pause 200/showFrame farmer 93 true/pause 200/showFrame farmer 92 true/showFrame farmer 93 true/playSound gulp/pause 200/showFrame farmer 92 true/pause 200/showFrame farmer 93 true/pause 200/showFrame farmer 92 true/pause 200/showFrame farmer 91 true/pause 200/showFrame farmer 90 true/pause 200/showFrame farmer 0 true/pause 1000/faceDirection farmer 3 true/pause 500/emote farmer 20/pause 400/speak Claire \"{{i18n:Claire.12hearts1.02}}\"/pause 1000/speak Claire \"{{i18n:Claire.12hearts1.03}}\"/pause 550/jump farmer/pause 900/speak Claire \"{{i18n:Claire.12hearts1.04}}\"/pause 500/globalFade/viewport -1000 -1000/end dialogue Claire \"{{i18n:Claire.12hearts1.05}}\""
@@ -1613,12 +1607,12 @@
       },
     },
     { //90x150
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/ClaireMovieScenes",
       "FromFile": "Assets/Tilesheets/ClaireMovieScenes.png"
     },
     { //96x192
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/MovieProjectorLight",
       "FromFile": "Assets/Tilesheets/MovieProjectorLight.png"
     },

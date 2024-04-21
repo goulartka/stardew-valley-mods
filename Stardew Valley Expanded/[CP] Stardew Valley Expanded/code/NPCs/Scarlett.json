@@ -66,31 +66,31 @@
     },
     {
       //Fake Scarlett's sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/ScarlettFake",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Scarlett/Scarlett.png"
     },
     {
       //Fake Scarlett's portraits (fake)
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/ScarlettFake",
       "FromFile": "Assets/CharacterFiles/Portraits/Scarlett/Scarlett.png"
     },
     {
       //Fake Scarlett's sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/ScarlettFake_Winter",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Scarlett/Scarlett_Winter.png"
     },
     {
       //Fake Scarlett's portraits (fake)
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/ScarlettFake_Winter",
       "FromFile": "Assets/CharacterFiles/Portraits/Scarlett/Scarlett_Winter.png"
     },
     {
       //Fake Scarlett's schedule
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/schedules/ScarlettFake",
       "FromFile": "assets/CharacterFiles/Schedules/Scarlett/FakeSchedule.json"
     },
@@ -298,7 +298,7 @@
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {},
-          "UnlockConditions": null,
+          "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Any 3691371",
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -357,7 +357,7 @@
     },
     {
       //Scarlett's sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Scarlett",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Scarlett/Scarlett.png"
     },
@@ -375,25 +375,25 @@
     },
     {
       //Scarlett's beach sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Scarlett_Beach",
       "FromFile": "assets/CharacterFiles/OverworldSprites/Scarlett/Scarlett_Beach.png"
     },
     {
       //Scarlett's portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Scarlett",
       "FromFile": "Assets/CharacterFiles/Portraits/Scarlett/Scarlett.png"
     },
     {
       //Fake Scarlett's sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Scarlett_Winter",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Scarlett/Scarlett_Winter.png"
     },
     {
       //Fake Scarlett's portraits (fake)
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Scarlett_Winter",
       "FromFile": "Assets/CharacterFiles/Portraits/Scarlett/Scarlett_Winter.png"
     },
@@ -414,14 +414,19 @@
       "FromFile": "assets/CharacterFiles/Portraits/Scarlett/Scarlett_Cosplay.png"
     },
     {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Characters/schedules/Scarlett",
+      "FromFile": "Assets/Blank.json"
+    },
+   /* {
       //Scarlett's schedule
-      "Action": "Load",
+      "Action": "EditData",
       "Target": "Characters/schedules/Scarlett",
       "FromFile": "assets/CharacterFiles/Schedules/Scarlett/Schedule.json",
       "When": {
         "HasSeenEvent": "3691371"
       }
-    },
+    },*/
     {
       //Scarlett's fall blue moon vineyard farmhand schedule (Married to Sophia)
       "Action": "EditData",
@@ -888,7 +893,7 @@
       }
     },
     { //Strawberry Cart temp actor (50x40)
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/StrawberryCart",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/StrawberryCart.png"
     },
@@ -937,12 +942,12 @@
       }
     },
     { //Grape Barrel temp actor (40x50)
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/ScarlettBarrel",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ScarlettBarrel.png"
     },
     { //Grape Barrel 2 temp actor (40x250)
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/ScarlettBarrel2",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ScarlettBarrel2.png"
     },
@@ -978,12 +983,12 @@
       }
     },
     { //doggo temp actor (32x24)
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/ZoomingKatie",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ZoomingKatie.png"
     },
     { //doggo owner temp actor (16x32)
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/ZoomieDoggoOwner",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ZoomieDoggoOwner.png"
     },
@@ -1095,12 +1100,12 @@
       }
     },
     { //Treyvon's Truck side profile temp actor (103x61)
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/TreyvonsTruck1",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/TreyvonsTruck1.png"
     },
     { //Treyvon's Truck front profile temp actor (61x103)
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/TreyvonsTruck2",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/TreyvonsTruck2.png"
     },

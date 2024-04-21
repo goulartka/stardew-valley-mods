@@ -231,6 +231,26 @@
                 "1091881/e 3073013": "none/-500 -500/farmer -100 -100 2/viewport 119 103 true/viewport move -1 -1 8000 true/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:SpriteSprings.02}}\"/pause 1300/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 800/message \"{{i18n:SpriteSprings.03}}\"/pause 1000/end position 116 121",
             },
         },
+        { //SPRITE SPRING PATH OPEN - compatibility patch
+        "Action": "EditData",
+        "Target": "data/events/Custom_ForestWest",
+        "When": {
+            "HasMod": "Nom0ri.RomRas, Parrot.RomRas"
+        },
+        "Entries": {
+            "1091881/e arrot.RomRas_MagicInkStandardPart2": "none/-500 -500/farmer -100 -100 2/viewport 119 103 true/viewport move -1 -1 8000 true/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:SpriteSprings.02}}\"/pause 1300/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 800/message \"{{i18n:SpriteSprings.03}}\"/pause 1000/end position 116 121",
+        },
+    },
+    { //SPRITE SPRING PATH OPEN - compatibility patch
+        "Action": "EditData",
+        "Target": "data/events/Custom_ForestWest",
+        "When": {
+            "HasMod": "Nom0ri.RomRas, Parrot.RomRas"
+        },
+        "Entries": {
+            "1091881/e Parrot.RomRas_MagicInkMarriedPart2": "none/-500 -500/farmer -100 -100 2/viewport 119 103 true/viewport move -1 -1 8000 true/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:SpriteSprings.02}}\"/pause 1300/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 800/message \"{{i18n:SpriteSprings.03}}\"/pause 1000/end position 116 121",
+        },
+    },
         { //SPRITE SPRING PATH OPEN - directly teleports players if sprite spring is the last nexus warp
             "Action": "EditData",
             "Target": "data/events/Custom_ForestWest",
@@ -315,12 +335,12 @@
 		    },
         },
 		{
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Characters/WillyBag",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/WillyBag.png"
         },
 		{
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Characters/ShimmeringWater",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShimmeringWater.png"
         },

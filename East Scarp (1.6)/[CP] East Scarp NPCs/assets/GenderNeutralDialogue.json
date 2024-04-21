@@ -5,8 +5,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Aideen",
             "Entries": {
-                "Aideen_103": "Why, Mx @! Are you wishing to court me?$7#$b#Well, you do exude a quaint rural charm.$1#$1#$b#And I have certainly grown fond of you. But love? Well, perhaps our tale is a slow burn, rather than a quick spark, yes?$7",
-                "Ai2_2": "Oh, aren't you Mx.Cynical.#$b#You're right, of course. Pelican Town is hardly Paradise Bay.#$b#Yet the peace might be an attraction in itself, don't you think?"
+                "Aideen_103": "{{i18n:genderneutral.Aideen_103}}",
+                "Ai2_2": "{{i18n:genderneutral.Ai1_2}}"
             }
         },
         {
@@ -14,7 +14,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Rosa",
             "Entries": {
-                "rejectNPCA": "Too soon, sunshine, I'd rather we got to know each other first.$1"
+                "rejectNPCA": "{{i18n:genderneutral.rejectNPCA.rosa}}"
             }
         },
         {
@@ -22,11 +22,11 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Eyvinder",
             "Entries": {
-                "Mon": "You're a long way from home, aren't you cotter? Don't get lost.",
-                "fall_Tue": "Can't resist coming up here, can you cotter?#$b#What's the attraction? You better not be looking to steal my goats.$a#$e#I'd have you for breakfast if you so much as tried!$1",
-                "winter_Sun2": "You got some woollen socks, cotter?#$b#Ain't nothing like goat wool to keep the feet warm.$1",
-                "summer_Fri8": "You know @, I reckon I knew your grandfather.$1#$b#Solid fellow, reliable. Not afraid to get his hands dirty.#$e#The world needs more people like him... like you... people who get stuff done, instead of whistling into the wind.",
-                "winter_Fri8": "Ah, it's good to see you, @.#$e#Lonely? Nah, not me... although I gotta admit - it's good to have someone to talk to.",
+                "Mon": "{{i18n:genderneutral.Mon.eyvind}}",
+                "fall_Tue": "{{i18n:genderneutral.fall_Tue.eyvind}}",
+                "winter_Sun2": "{{i18n:genderneutral.winter_Sun2.eyvind}}",
+                "summer_Fri8": "{{i18n:genderneutral.summer_Fri8.eyvind}}",
+                "winter_Fri8": "{{i18n:genderneutral.winter_Fri8.eyvind}}",
             }
         }
     ]

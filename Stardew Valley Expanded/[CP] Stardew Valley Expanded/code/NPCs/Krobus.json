@@ -161,152 +161,152 @@
       }
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor1",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor1.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor2",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor2.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor3",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor3.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor4",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor4.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor5",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor5.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor6",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor6.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor7",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor7.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor8",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor8.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor9",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor9.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor10",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor10.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor11",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor11.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor12",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor12.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor13",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor13.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor14",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor14.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor15",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor15.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor16",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor16.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor17",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor17.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor18",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor18.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor19",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor19.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteActor20",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteActor20.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteLargeActor1",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteLargeActor1.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteLargeActor2",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteLargeActor2.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteLargeActor3",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteLargeActor3.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowBruteLargeActor4",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowBruteLargeActor4.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowKidActor1",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowKidActor1.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowKidActor2",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowKidActor2.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowKidActor3",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowKidActor3.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowShamanActor1",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowShamanActor1.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/ShadowShamanActor2",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/ShadowShamanActor2.png"
     },
     {
-      "Action": "Load", //16x32
+      "Action": "Load", "Priority": "Low", //16x32
       "Target": "Characters/Nyx",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/Nyx.png"
     },

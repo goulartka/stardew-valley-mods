@@ -50,19 +50,19 @@
         },
         {
             //Jadu's portraits
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Portraits/Jadu",
             "FromFile": "Assets/CharacterFiles/Portraits/Jadu/Jadu.png"
         },
         {
             //Jadu's sprites
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Characters/Jadu",
             "FromFile": "Assets/CharacterFiles/OverworldSprites/Jadu/Jadu.png"
         },
         {
             //Jadu's schedule
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Characters/schedules/Jadu",
             "FromFile": "assets/CharacterFiles/Schedules/Jadu/Jadu.json"
         },

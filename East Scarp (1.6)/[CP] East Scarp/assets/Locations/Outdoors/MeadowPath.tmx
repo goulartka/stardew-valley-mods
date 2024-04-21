@@ -5,6 +5,7 @@
   <property name="CanBuildHere" type="bool" value="true"/>
   <property name="DirtDecayChance" value="0.1"/>
   <property name="ForceAllowTreePlanting" value="T"/>
+  <property name="EnableGrassSpread" value="T"/>
   <property name="IsFarm" type="bool" value="true"/>
   <property name="LocationContext" value="Lemurkat_EastScarp"/>
   <property name="Outdoors" value="T"/>

@@ -1,0 +1,258 @@
+{
+	"Gathering.location": "na praça da Vila Ridgeside.",
+	"EoR.location": "no Cume.",
+	"LogCabinHotel.Rates.Normal": "PREÇOS DO HOTEL^^Quarto - 500$^^Esperamos que aproveite a sua estadia!",
+	"LogCabinHotel.Rates.Expanded": "TARIFA DE HOTEL^^Quarto - 500$^Festa de Aniversário - 1500$^Recepção de Casamento - 2000$^Festa de Aniversário - 2000$^^Mais informações:^Você só pode reservar uma festa quando o aniversário de um amigo está chegando nos próximos 3 dias.^Você não pode reservar uma festa para um estranho.^^Recepção de casamento disponível apenas quando houver um próximo casamento.^^Você só pode reservar 1 evento por vez!",
+
+	"HotelCounter.Booking.Question": "Deseja reservar um quarto?",
+	"HotelCounter.Booking.Yes": "Sim, eu gostaria de alugar um quarto por 500$.",
+	"HotelCounter.Booking.No": "Não, obrigado.",
+	"HotelCounter.Booking.AfterBooking": "Seu quarto fica no 2º andar.#Na parte inferior esquerda do andar.#Aproveite sua estadia!",
+	"HotelCounter.Booking.AlreadyBooked": "Você já reservou um quarto.",
+	"HotelCounter.Booking.NotEnoughMoney": "Você não tem dinheiro suficiente para reservar um quarto.",
+	"HotelRoom.DirectionsAlert": "Meu quarto fica na parte inferior esquerda do andar.",
+	"HotelCounter.Booking.Free": "Como amigo do proprietário, o quarto no canto inferior esquerdo do segundo andar é seu para usar como quiser, gratuitamente.",
+
+	"EventHallCounter.Booking.Question": "Deseja reservar um evento?",
+	"EventHallCounter.Booking.AlreadyBooked": "Você já reservou um evento.",
+	"EventHallCounter.Booking.NotEnoughMoney": "Você não tem dinheiro suficiente para reservar um evento.",
+	"EventHallCounter.Booking.No": "Não, obrigado.",
+
+	"EventHallCounter.Booking.BirthdayParty": "Festa de Aniversário - 1500$",
+	"EventHallCounter.Booking.Bday.Question": "Gostaria de dar uma festa para alguém?",
+	"EventHallCounter.Booking.Bday.Yes": "Sim, eu gostaria de dar uma festa por 1500$.",
+	"EventHallCounter.Booking.Bday.AfterBooking": "Obrigado! Venha visitar o salão de eventos a qualquer momento no aniversário do celebrante. Esperamos vê-lo em breve!",
+	"EventHallCounter.Booking.Bday.List": "Próximos aniversários",
+	"EventHall.TodayBirthday": "Você reservou uma festa de aniversário para {{name}} hoje!#Não se esqueça de visitar o Log Cabin Hotel Event Hall neste dia.",
+
+	"EventHallCounter.Booking.WeddingReception": "Recepção de casamento - 2000$",
+	"EventHallCounter.Booking.WR.Question": "Gostaria de reservar uma recepção pós-casamento?",
+	"EventHallCounter.Booking.WR.Yes": "Sim, eu gostaria de realizar uma recepção de casamento por $2.000.",
+	"EventHallCounter.Booking.WR.AfterBooking": "Obrigado! Vamos preparar tudo para a sua recepção. Parabéns, mais uma vez!",
+
+	"EventHallCounter.Anv.Title": "Festa de aniversário - 2000$",
+	"EventHallCounter.Anv.Yes": "Sim, eu gostaria de dar uma festa para amanhã.",
+	"EventHallCounter.Anv.Question": "Gostaria de reservar uma festa de aniversário de casamento amanhã?",
+	"EventHallCounter.Anv.AfterBooking": "Obrigado! Até amanhã!",
+
+	"RSV.Minecart.Question": "Onde você gostaria de ir?",
+	"MinecartLocation.1": "Vila Pelicanos",
+	"MinecartLocation.2": "Armazém geral de Heaps",
+	"MinecartLocation.3": "Pomar Nightingale",
+	"MinecartLocation.4": "Estufa Comunitária de Ridgeside",
+	"MinecartLocation.5": "Summit Farm",
+	"MinecartLocation.6": "West - Summit Farm",
+	"Exit.Text": "Cancelar",
+
+	"NotEnoughMoney": "Você não tem dinheiro suficiente.",
+
+	"IanShop.Closed": "Desculpe, estamos fechados! (Aberto das 9h às 17h, exceto aos domingos).",
+	"IanShop.Open": "Serviços para Trabalhos Diversos",
+	"IanShop.Cancel": "Voltar",
+	"IanShop.Bye": "Por favor, volte sempre!",
+	"IanShop.ServiceAlreadyActive": "Você já contratou o serviço {{serviceName}}.",
+	"IanShop.ServiceNotActive": "Você não pode cancelar o serviço {{serviceName}} porque ele não está contratado no momento.",
+	"IanShop.ServiceStarted": "A Odd Jobs iniciará o serviço {{serviceName}} a partir de amanhã. Por favor, acesse a qualquer momento para cancelar o serviço. Obrigado por seu patrocínio!",
+	"IanShop.CancelService": "Cancelar serviço",
+	"IanShop.ServiceCancelled": "O serviço {{serviceName}} foi cancelado. Visite novamente para renovar o serviço.",
+	// Crop watering
+	"IanShop.WaterPlants": "Rega das lavouras",
+	"IanShop.WaterPlantsMenu": "Contratar os trabalhadores para regar suas plantações?",
+	"IanShop.WaterPlantsSelection": "Contrate trabalhadores para regar sua fazenda por {{amount}}$ por planta, por dia em que não estiver chovendo",
+	"IanShop.HasWatered": "A Odd Jobs regou suas plantações hoje por um total de ",
+	// Animal petting
+	"IanShop.PetAnimals": "Animais de estimação",
+	"IanShop.PetAnimalsMenu": "Contratar os funcionários para acariciar seus animais?",
+	"IanShop.PetAnimalsSelection": "Contratar trabalhadores por {{amount}}$ por animal e por dia",
+	"IanShop.NoAnimals": "Você não tem nenhum animal para acariciar.",
+	"IanShop.HasPetAnimals": "Odd Jobs tem animais de estimação em sua fazenda para hoje por um total de ",
+	"IanShop.NotEnoughMoneyHUD": "{{serviceName}} serviço cancelado devido a fundos insuficientes. Visite a Odd Jobs para renovar o serviço.",
+	// Fence fixing
+	"IanShop.FixFences": "Reparo de cercas",
+	"IanShop.FixFencesMenu": "Contratar os trabalhadores para consertar suas cercas?",
+	"IanShop.FixFencesSelection": "Contrate trabalhadores para consertar todas as cercas amanhã por {{amount}}$ por cerca",
+	"IanShop.HasFixedFences": "Suas cercas foram consertadas por um total de ",
+	"IanShop.NoFences": "Você não tem cercas em sua fazenda!",
+	// Renovations
+	"IanShop.SummitFarm": "Melhorias da Fazenda do Cume",
+	"IanShop.OnlyFarmOwner": "Somente o proprietário da fazenda pode reformar a Summit Farm.",
+	"IanShop.BrokenCarts": "Hm, eu gostaria que pudéssemos te ajudar, @, mas não sei como levaríamos os materiais até o topo do cume...$2#$b#Talvez se os carrinhos antigos fossem consertados, poderíamos usar aqueles?$1",
+	"IanShop.Construction": "Certo, vamos começar o projeto {{project}} imediatamente!",
+	"IanShop.Instant": "Muito bem! O {{project}} na verdade vem pré-montado, então nós o entregaremos em sua fazenda o mais rápido possível!",
+	"IanShop.AlreadyBuilding": "Na verdade, @, já estamos trabalhando em um projeto para você, portanto não podemos assumir nenhum trabalho novo enquanto isso estiver ativo.$s#$b#Mas quando isso estiver feito, vamos conversar novamente!",
+	"IanShop.AllRenovated": "Na verdade, @, nós já fizemos todas as reformas que podemos para você! Portanto, não temos nada de novo a oferecer - Desculpe!$1",
+
+	"SummitHouseUpgrade.Name": "Upgrade da Casa da Cúpula",
+	"SummitHouseUpgrade.Description": "Deixe a Casa da Cúpula como nova, por dentro e por fora.",
+	"ClimateControl.Name": "Controle do clima",
+	"ClimateControl.Description": "Cultive qualquer cultura durante todo o ano.",
+	"SprinklerSystem.Name": "Sistema de sprinklers",
+	"SprinklerSystem.Description": "Instale um sistema de aspersão subterrâneo que regue as plantações todos os dias automaticamente.",
+	"OreArea.Name": "Área de minério",
+	"OreArea.Description": "Converta o topo da colina leste em uma área para extração de minério.",
+	"Shed.Name": "Galpão",
+	"Shed.Description": "Um prédio vazio na colina acima da casa. O interior pode ser decorado.",
+	
+	"ShowImage.Arknir": "Esta foto foi tirada durante um evento de karaokê em Ridgeside pelo fotógrafo de Grampleton Ark Nir.#(Vencedor do RSV Discord Art Contest 2021)",
+	"ShowImage.Aniv1st": "'Mia visitando seus amigos durante a Reunião de Ridgeside!'#Cópia da foto fornecida pelo Hime, o turista que capturou esta foto.#(1º lugar do concurso de fan-art do Discord Event do 1º aniversário do RSV)", 
+	"ShowImage.Aniv2nd": "'Miss Flor no chão'#Uma foto espontânea capturada por Rajah, emoldurada com consentimento.#(2º lugar do concurso de fan-art do 1º Aniversário do RSV Discord Event)", 
+	"ShowImage.Aniv3rd": "'Pássaros cantantes no pomar'#Uma foto promocional do pomar de Ryoma.#(3º lugar do concurso de fan-art do 1º Aniversário da RSV Discord Event)", 
+
+	"Clinic.Healthy": "Você já tem muita resistência e saúde!",
+	"Clinic.HealthyHealth": "Você já tem muita saúde!",
+	"Clinic.HealthyStamina": "Você já tem uma grande quantidade de resistência!",
+	"Clinic.Choices": "O que você está fazendo?",
+	"Clinic.Health": "Exame de saúde",
+	"Clinic.Stamina": "Verificação de Stamina",
+	"Clinic.Look": "Vamos dar uma olhada em você...",
+	"Clinic.Done": "Tudo melhor!",
+	"Clinic.PaulaNotHere": "O médico está fora.",
+
+	"Offer.Question": "Você realmente quer jogar {{itemName}} na água?",
+	"Offer.Yes": "Sim",
+	"Offer.No": "Não",
+	"Offer.IllegalItem": "É melhor eu não jogar isso fora.",
+
+	"Daia.BookOpen": "Ao abrir o livro, texto e imagens aparecem lentamente a partir das páginas em branco.",
+	"Daia.BookClose": "Fechar livro.",
+	"Daia.BookPages": "Escolha uma página.",
+	"Daia.Page1": "Página 1 - Artefatos Amaldiçoados I",
+	"Daia.Page2": "Página 2 - Artefatos Amaldiçoados II",
+	"Daia.Page3": "Página 3 - Artefatos Amaldiçoados III",
+	"Daia.Page4": "Página 4 - Artefatos Amaldiçoados IV",
+	"Daia.Page5": "Página 5 - Artefatos Abençoados I",
+	"Daia.Page6": "Página 6 - Artefatos Abençoados II",
+	"Daia.Page7": "Página 7 - Artefatos Abençoados III",
+	"Daia.LegendFishes": "Página 8 - Peixes Lendários",
+	"Daia.RelicHint1": "'Fósseis de Montanha'^Dentro da Floresta da Serra,^Perto de cachoeiras, fósseis antigos aparecem.^Um dos restos tatuados de uma fera antiga,^E um dos ossos prateados de um peixe.",
+	"Daia.RelicHint2": "'A Noite e os Monstros'^Um diamante tingido com o céu noturno.^Escondido entre os ricos minerais da floresta da montanha.^Seja cauteloso ao entrar no local.^Enquanto amaldiçoadas antigas feras serpentinas vagam. ^Elimine-os e obtenha as relíquias de uma raça antiga.",
+	"Daia.RelicHint3": "'Amante Perdido'^Durante encontros múltiplos de três,^Um espírito perdido percorre a floresta da montanha entre outros fantasmas.^De cor azul pálido, mas você verá,^Que é amigável, e dá a rosa amaldiçoada.",
+	"Daia.RelicHint4": "'O Alce'^Um animal se esconde atrás do banco que olha para o céu,^Em frente à árvore que anseia por voar.^^'A Raposa'^Uma frase é uma hora.^Paciência é recompensado quando na frente da gema roxa da raposa.^A paciência é recompensada quando na frente da gema roxa da raposa.",
+	"Daia.RelicHint5": "'Música atrás dos muros'^Uma antiga cantora está presa atrás de uma foto de uma dançarina,^Derrube-a para libertá-la.^^'O Herói Esquecido'^Quando você pesca no poço dos ricos, ^Uma figura esquecida é salva de onde caiu.^^'O Pente Élfico'^Na trilha da caminhada, uma casa abandonada é encontrada.^Em algum lugar ao lado dela, um pente é enterrado para esconder o segredo do traidor.",
+
+	"CompleteCrystalsNotif": "As montanhas parecem falar...#'Obrigado, agricultor... Vou continuar daqui...'#'Volte amanhã, e finalmente nos encontraremos...#'Cuidado, neto do meu amigo...'",
+
+	"RSV.MyLetter": "Para quem está lendo isso,^Faz tanto tempo desde que fomos isolados do resto do mundo. Era um dia ensolarado, quando de repente uma névoa roxa estava se aproximando da fazenda, até que a natureza se moveu para nos envolver em altos muros de terra, plantas e árvores. Sempre que tentávamos derrubar o muro, ele voltava a crescer mais forte. Pode-se pensar que minha esposa e eu guardaríamos rancor contra o poder superior que nos prendeu. Mas não, não nos importamos. ^ Deve haver uma razão pela qual a natureza nos prendeu, e gostamos de pensar que fomos salvos daquela névoa sinistra. E por isso, agradecemos a Yoba por nos dar a oportunidade de viver o resto de nossas vidas em paz.^Já se passaram anos e estamos felizes. Um dia, esta terra que uma vez foi cheia de colheitas que minha esposa e eu apreciávamos como crianças, desaparecerá.^E quando esse dia chegar, eu sei que minha esposa e eu já teríamos voltado para os braços de Yoba e as paredes poderiam ter caído.^^Para quem está lendo isso, esta terra é sua.^Tudo o que peço é que você dê amor como fizemos antes.^Que Yoba te abençoe.^^- R",
+	"RSV.Fridge": "Frigorífico",
+
+	"RSV.UndreyaError": "Somente o host pode acessar isso!",
+	"RSV.UndreyaSchedStart": "Começar a brincar de esconde-esconde com Undreya?",
+	"RSV.UndreyaSchedStop": "Parar de brincar de esconde-esconde com Undreya?",
+	"RSV.UndreyaWillPlay": "Undreya se esconderá amanhã!",
+	"RSV.UndreyaWontPlay": "Undreya vai ficar em casa amanhã.",
+	
+	"Loan.Error": "Somente o hospedeiro pode acessar isso!",
+	"Loan.BeginQuestion": "Olá, obrigado por entrar em contato com o Banco Amethyne e Compania de Seguros. Quanto você gostaria de pegar de empréstimo?",
+	"Loan.100k": "100,000$",
+	"Loan.500k": "500,000$",
+	"Loan.1mil": "1,000,000$",
+	"Loan.Nevermind": "Deixa pra lá",
+	"Loan.Begun": "{amount}$ foi transferido para sua conta. Retorne a este local para pagar sua dívida.",
+	"Loan.Interest": "Valor dos lucros de ontem deduzidos como juros: ",
+	"Loan.PayQuestion": "Fazer um pagamento para sua dívida? ({amount}$ restante.)",
+	"Loan.PayMenu": "Valor a pagar:",
+	"Loan.FullyPaid": "Seu saldo foi pago integralmente. Retorne a este local para fazer outro empréstimo.",
+	"Loan.PartlyPaid": "Pagou {amount}$ em relação à dívida. Saldo remanescente: ",
+
+	"Aniv.1st": "O Livro de Airyn", 
+	"Aniv.2nd": "O Livro de Kabuto N.", 
+	"Aniv.3rd": "O Livro de Yri",
+
+    "Aniv.Airyn-Leilani": "(1º lugar do concurso de poemas do 1º Evento de Discórdia de Aniversário da RSV) ^^Dad^Goofy, Loving^Grow, Laugh, Lounge^Parents, Plants, Princess, Play^Watch, Worry, Smile^Warm, Sólida^Mãe^E muito abraçando-me^E muito tempo que ela me visita^Faço de conta que é nojento, mas tenho que ouvir suas histórias^A e desejo que ela não esteja tão longe^Sinto sua falta, mamãe^Meu irmão Shiro^Eu cuido dele todos os dias. Eu não me importo. Eu não me importo.",
+	"Aniv.Airyn": "(1º lugar do concurso de poemas do evento de discórdia do 1º aniversário da RSV)^^Papai^Pateta, Amor^Crescer, Rir, Lounge^Pais, Plantas, Princesa, Brincar^Assista, Preocupe-se, Sorria^Quente , Strict^Mãe^^Está me abraçando^E sempre que ela me visita^Finjo que é nojento, mas eu^Adoro ouvir as histórias dela^E gostaria que ela estivesse^Não muito longe^Sinto sua falta, mãe^ ^Meu irmão Shiro^Eu cuido dele todos os dias.^Não me importo. Não me importo.", 
+	"Aniv.ChickenNuggets": "(2º lugar do concurso de poemas do 1º Aniversário do Discord Event)^^Trinnie, para Yuuma:^Keahi e eu^Tenha um monte de brincadeiras prontas^Venha se juntar a nós algum dia!^^Keahi, para Yuuma:^Lembra das brincadeiras^E a diversão que costumávamos ter?^Vamos fazer isso de novo!^^ Yuuma, para Trinnie e Keahi:^Meus queridos amigos^Estou feliz por ter vocês dois^Por favor, esperem por mim",
+	"Aniv.Yri": "(3º lugar do concurso de poemas do 1º aniversário do RSV Discord Event)^^Elevenie^'Ridgeside^alto^em um penhasco^olhando sobre o vale^tranquil'", 
+	"BlissBook.Title": "Índice",
+
+    "RSV.WarpFail": "Não é possível usar o totem de teletransporte.",
+	"RSV.WarpFestival": "O festival Brasa das Resoluções ainda está sendo montado. Volte mais tarde!",
+
+	"Shiro.RejectProposal": "Oh, me desculpe, @. Você sabe que eu te amo tanto, e eu quero isso tanto quanto você, mas eu seria um péssimo irmão mais velho se dissesse sim.$s#$b#Com nossos pais longe, Yuuma não tem mais ninguém para cuidar dele...$s#$b#E com tudo o que eu o fiz passar nos últimos anos, seria egoísta da minha parte afastá-lo do último pedaço de sua antiga vida que ele deixou.$s#$b#Desculpe, mas espero que você entenda.$s",
+	"Kiarra.RejectProposal": "Desculpe, @, mas sei o que você fez para ajudar a Joja a construir aquele armazém, e não acho que nossos valores se alinhem.$a",
+
+	"installation.incorrect": "Ridgeside Village parece ter sido instalado incorretamente.",
+	"missing.mods": "Não foi detectado mod(s) que são requisitos para Ridgeside Village...",
+	"missing.mods.cont": "Faça o download ou verifique se instalou o seguinte corretamente:",
+	"outdated.mods": "Detectada versão do mod(s) desatualizadas para Ridgeside Village...",
+	"outdated.mods.cont": "Por favor, atualize os seguintes para continuar jogando:",
+	"orphaned.mods": "O(s) seguinte(s) mod(s) não puderam ser encontrados. Ou eles não estão",
+	"orphaned.mods.cont": "instalados, ou eles estão faltando algumas dependências dos mesmos. Por favor, conferir abaixo:",
+	"mod.info": "{{modName}} por {{author}} -",
+	"mod.parents": "Requerimento relevante: {{parents}}",
+	"smapi.outdated": "SMAPI está desatualizado! Por favor, atualize O MAIS RÁPIDO POSSÍVEL!",
+	"ridgeside.CP.missing": "\n\n\nParece que tem um problema com a sua instalação de Ridgeside Village.\nPor favor, visite https://smapi.io/log e siga as instruções nesse site para fazer o upload do seu log.\nNavegue para o topo da página e leia o texto em vermelho para identificar os problemas.\n\n\n",
+	"help.message" : "Se precisar de ajuda, visite o nosso servidor de Discord!  https://discord.gg/wkrUNkQ4xQ",
+
+	"RidgePond.NoFishing": "A população do lago é terrivelmente baixa... Belinda ficaria brava comigo se eu pescasse aqui.",
+	"GrandmaMessage.1": "Meu querido neto...^Minha querida neta...#Estou feliz que você finalmente veio...#Tenho certeza que seu avô também...#Viva bem, meu querido...^Viva bem, minha querida...",
+
+	"FoxbloomHint.Uncleansed": "Os livros são todos escritos em línguas diferentes...",
+	"FoxbloomHint.Cleansed": "Os livros são todos escritos em diferentes idiomas... Mas um desperta seu interesse. A caligrafia parece ser de Belinda.",
+	"FoxbloomHint.Text": "A flor da raposa é tão rara que ninguém jamais encontrou mais de uma em um único dia. Sabe-se que aparece perto dos misteriosos cristais na floresta.^^^^Além disso, só se revelará à máscara da raposa na floresta da montanha durante um dos domingos de cada estação. Quanto a qual domingo será este mês, acredito que criei uma fórmula para determinar a data exata: [letterbg LooseSprites/FoxbloomHints.opener 0]",
+
+	// 9 - 2
+	"FoxbloomHint.easy.7": "Local: Mansão Amethyne [letterbg LooseSprites/FoxbloomHints.easy 0]",
+	// 14
+	"FoxbloomHint.easy.14": "Local: Cachoeiras do Cume [letterbg LooseSprites/FoxbloomHints.easy 1]",
+	// 7 * 3
+	"FoxbloomHint.easy.21": "Local: Vila Ridgeside^^^^^^^^^^(Note: Animal color does not matter.) [letterbg LooseSprites/FoxbloomHints.easy 2]",
+	// 4 * 7
+	"FoxbloomHint.easy.28": "Local: Barraca do Kimpoi [letterbg LooseSprites/FoxbloomHints.easy 3]",
+
+	//Non-English characters are there to create an indent on the first line - If your language is Japanese or Korean, replace your character with the one not from your alphabet
+	// 9 - (4/2)
+	"FoxbloomHint.medium.7": "あ   Ilhas no Reino Espiritual^    Árvores nas Cachoeiras Místicas do Amor [letterbg LooseSprites/FoxbloomHints.medium 0]",
+	// 6 + 8 ("scarecrows" -> "plain scarecrows")
+	"FoxbloomHint.medium.14": "Somente entre os moradores de Ridgeside:^    Número de espantalhos simples na aldeia^    Pais com filhos que moram na aldeia [letterbg LooseSprites/FoxbloomHints.medium 1]",
+	// 10 + 11
+	"FoxbloomHint.medium.21": "아   Plantas na casa de Maddie^    Assentos* no prédio da clínica de Ridgeside^^^^^^^^*(Nota: \"Assentos\" em como lugares para se sentar.) [letterbg LooseSprites/FoxbloomHints.medium 2]",
+	// (5 * 5) + 3
+	"FoxbloomHint.medium.28": "Local: Vila Ridgeside^    Moinhos^    Edifícios de vários andares^    Pontes de pedras [letterbg LooseSprites/FoxbloomHints.medium 3]",
+
+	// (50 - 36)/(50 - 48)
+	"FoxbloomHint.hard.7": "Local: Pomar do Rouxinol^    Total de frutas nas árvores todos os dias da primavera^    Total de frutas nas árvores todos os dias do verão^    Média anual total de frutas nas árvores cada dia (excluindo inverno) [letterbg LooseSprites/FoxbloomHints.hard 0]",
+	// 2 * (8 - 3 + 2)
+	"FoxbloomHint.hard.14": "Localização: Pisos internos da loja de conveniência Heaps^    Total de placas (todos)^    Total \"PILHAS\" placas^    Total branco \"A VENDA\" placas^    Total azul \"A VENDA\" sinais [letterbg LooseSprites/FoxbloomHints.hard 1]",
+	// (18 * 12)/9 - 3
+	"FoxbloomHint.hard.21": "Local: Floresta do Cume^    Número total de cachoeiras^    Número total de pontes na horizontal^    Níveis de penhasco distintos totais*^    Total de pontes verticais^^^^^^*(Nota: Incluindo níveis não acessíveis.) [letterbg LooseSprites/FoxbloomHints.hard 2]",
+	// 16 * (3/sq(4)) + 4 (last hint changed)
+	"FoxbloomHint.hard.28": "Apenas entre os aldeões de Ridgeside:^    Aniversário de terça-feira mais comum^    Total de mulheres aldeãs nascidas no inverno^    Número de moradores com aniversário em um sábado [letterbg LooseSprites/FoxbloomHints.hard 3]",
+
+	"RSV.MapIconName":  "Vila Ridgeside",
+
+	"LogCabinHotel.HistoryScroll": "A História de Ridgeside Village^^Muitos milênios atrás...^O vale veio a ser, seja criado por Yoba ou por causas naturais.^Um tipo de grande batalha aconteceu muito antes de qualquer história registrada da civilização humana. Entretanto, nenhuma evidência permanece quanto às origens do conflito.^[Falta muita história daqui até as gravações mais recentes...algumas delas riscadas ou desbotadas. Tudo inelegível] ^^Ao redor de 2500 anos atrás...^Uma antiga colônia tribal chegou ao cume e começou uma aldeia. As pessoas da tribo acreditavam em algum tipo de espírito de lago, que eles comumente retratavam como um híbrido de lontra/selina.^Eventualmente, o vilarejo foi destruído - muito provavelmente um grupo de antigos invasores.^Ao redor há 700 anos atrás...^Quando os primeiros colonos chegaram ao vale, instalaram uma cidade ao longo da linha costeira. Essa cidade é a cidade Pelican que conhecemos hoje.^A cidade Pelican foi originalmente criada como uma cidade mineira e acabou se tornando um porto comercial com o passar do tempo.^Originalmente, as pessoas afluíram à cidade Pelican por ser um ótimo lugar para viver da terra com solo extremamente fértil e colônias abundantes de peixes nas águas vizinhas. Com uma guerra internacional no horizonte, o estado decidiu construir uma nova aldeia nas montanhas como refúgio para os civis. Alguns dos colonos da cidade de Pelican decidiram viver permanentemente nesta nova aldeia - e assim nasceu Ridgeside Village.",
+
+	"ShowImage.zRSVOldKids": "É uma fotografia antiga de um grupo de crianças por uma árvore familiar.",
+
+	"RelationshipStatus.Locked": "(locked)",
+
+	"RSV.NoNewOrders": "Nada publicado esta semana.",
+
+	//Options
+	"ShowVillagersOnMap": "MostrarVillagersOnMap",
+	"ShowVillagersOnMap.Description": "Mostrar aldeões no mapa RSV",
+	"ProgressiveStory": "ProgressiveStory",
+	"ProgressiveStory.Description": "Ativar o modo história progressiva (alguns eventos ocorrem em relação à data de instalação do RSV)",
+	"RepeatCableCarCutscene": "RepeatCableCarCutscene",
+	"RepeatCableCarCutscene.Description": "Ativar cena do teleférico.",
+	"EnableOtherNPCsInCableCar": "EnableOtherNPCsInCableCar",
+	"EnableOtherNPCsInCableCar.Description": "Ative as chances de outros NPCs aparecerem no teleférico (juntamente com LASV, ES e SVE NPCs).",
+	"EnableRidgesideMusic": "EnableRidgesideMusic",
+	"EnableRidgesideMusic.Description": "Habilita música para Ridgeside Village.",
+	"RSVNPCSAttendFestivals": "RSVNPCSAttendFestivals",
+	"RSVNPCSAttendFestivals.Description": "Permite que NPCs RSV participem dos Festivais de Pelican Town.",
+	"ExpandedFestivalMaps": "ExpandedFestivalMaps",
+	"ExpandedFestivalMaps.Description": "Ativa os mapas do festival expandidos. Se for false usará os posicionamentos antigos que podem entrar em conflito com outros mods.",
+	"EasyIntroduction": "EasyIntroduction",
+	"EasyIntroduction.Description": "RSV NPCs não aparecem na missão de introdução.",
+	"EnableBetterBusStop": "EnableBetterBusStop",
+	"EnableBetterBusStop.Description": "Usa o patch oficial de Ridgeside Village para o ponto de ônibus de TheLimeyDragon e Rafseazz. Pode ser incompatível com outros mods.",
+	"PoleAtBackwoods": "PoleAtBackwoods",
+	"PoleAtBackwoods.Description": "Habilitar/Desabilitar o poste do teleférico no sertão.",
+	"SeasonalRSVMap": "SeasonalRSVMap",
+	"SeasonalRSVMap.Description": "Ativar/desativar o mapa mundial RSV sazonal.",
+	"EnableTouristNPCs": "AtivarTuristNPCs",
+	"EnableTouristNPCs.Description": "Habilitar/Desabilitar a decoração de NPCs turísticos no hotel.",
+	
+	"ErrorMessage": "O Ridgeside Village parece ter sido instalado incorretamente. Verifique o registro para obter mais detalhes."
+}

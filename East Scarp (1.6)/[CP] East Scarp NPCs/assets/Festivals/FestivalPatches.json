@@ -7,6 +7,25 @@
             "Action": "EditMap",
             "Target": "Maps/Forest-FlowerFestival, Maps/Forest-FlowerFestival2",
             "FromFile": "assets/Maps/ES_FlowerFestival.tmx",
+            "When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP":false
+			},
+            "ToArea": {
+                "X": 45,
+                "Y": 29,
+                "Width": 23,
+                "Height": 21
+            },
+            "PatchMode": "Replace"
+        },
+        {
+            "LogName": "Flower Dance Test",
+            "Action": "EditMap",
+            "Target": "Maps/Forest-FlowerFestival, Maps/Forest-FlowerFestival2",
+            "FromFile": "assets/Maps/ES_FlowerFestival_SVE.tmx",
+            "When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+			},
             "ToArea": {
                 "X": 45,
                 "Y": 29,

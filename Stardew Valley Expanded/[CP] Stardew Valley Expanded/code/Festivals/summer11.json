@@ -915,12 +915,12 @@
     },
     //Map Load
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Maps/Beach-Luau",
       "FromFile": "Assets/Maps/FestivalMaps/Beach-SVE-Luau.tmx",
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Maps/Beach-Luau2",
       "FromFile": "Assets/Maps/FestivalMaps/Beach-SVE-Luau2.tmx",
     },

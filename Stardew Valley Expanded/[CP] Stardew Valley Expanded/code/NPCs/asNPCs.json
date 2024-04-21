@@ -63,19 +63,24 @@
     },
     {
       //Peaches' sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Peaches",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Peaches/Peaches.png"
     },
     {
       //Peaches' portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Peaches",
       "FromFile": "Assets/CharacterFiles/Portraits/Peaches/Peaches.png"
     },
     {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Characters/schedules/Peaches",
+      "FromFile": "Assets/Blank.json"
+    },
+    /*{
       //Peaches' schedule 
-      "Action": "Load",
+      "Action": "EditData",
       "Target": "Characters/schedules/Peaches",
       "When": {
         "HasSeenEvent |contains=7776006": true,
@@ -85,14 +90,14 @@
     },
     {
       //Peaches' schedule - JunimoWoods
-      "Action": "Load",
+      "Action": "EditData",
       "Target": "Characters/schedules/Peaches",
       "When": {
         "HasSeenEvent |contains=7776006": true,
         "HasSeenEvent |contains=7776012": true
       },
       "FromFile": "assets/CharacterFiles/Schedules/Peaches/ScheduleJunimoWoods.json"
-    },
+    },*/
     {
       //Peaches schedule - roommates with apples
       "Action": "EditData",
@@ -156,19 +161,19 @@
     
     {
       //Highlands Dwarf's sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/HighlandsDwarf",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/HighlandsDwarf/HighlandsDwarf.png"
     },
     {
       //Highlands Dwarf's portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/HighlandsDwarf",
       "FromFile": "Assets/CharacterFiles/Portraits/HighlandsDwarf/HighlandsDwarf.png"
     },
     {
       //Highlands Dwarf's schedule
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/schedules/HighlandsDwarf",
       "FromFile": "assets/CharacterFiles/Schedules/HighlandsDwarf/Schedule.json"
     },
@@ -333,19 +338,19 @@
     },
     {
       //Hank's sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/HankSVE",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Hank/Hank.png"
     },
     {
       //Hank's portraits (fake)
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/HankSVE",
       "FromFile": "Assets/CharacterFiles/Portraits/NoPortraits/Hank.png"
     },
     {
       //Hank's schedule
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/schedules/HankSVE",
       "FromFile": "assets/CharacterFiles/Schedules/Hank/Schedule.json"
     },
@@ -410,63 +415,63 @@
     },
     {
       //Treyvon's sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Treyvon",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Treyvon/Treyvon.png"
     },
     {
       //Treyvon's portraits (fake)
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Treyvon",
       "FromFile": "Assets/CharacterFiles/Portraits/NoPortraits/Treyvon.png"
     },
     {
       //Treyvon's schedule
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/schedules/Treyvon",
       "FromFile": "assets/CharacterFiles/Schedules/Treyvon/Schedule.json"
     },
 
     //SUKI NPC
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Suki",
       "FromFile": "Assets/CharacterFiles/Portraits/Suki/Suki.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Suki_IceFestival",
       "FromFile": "Assets/CharacterFiles/Portraits/Suki/Suki_IceFestival.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Suki_DesertFestival",
       "FromFile": "Assets/CharacterFiles/Portraits/Suki/Suki_DesertFestival.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Suki",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/NoSprites/Suki/Suki.png"
     },
     //JACE NPC
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Jace",
       "FromFile": "Assets/CharacterFiles/Portraits/Jace/Jace.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Jace",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Jace/Jace.png"
     },
     //AXEL NPC
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Axel",
       "FromFile": "Assets/CharacterFiles/Portraits/Axel/Axel.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Axel",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Axel/Axel.png"
     },
@@ -519,34 +524,34 @@
     },
     //BROOKLYN NPC
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Brooklyn",
       "FromFile": "Assets/CharacterFiles/Portraits/Brooklyn/Brooklyn.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Brooklyn",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Brooklyn/Brooklyn.png"
     },
     //ZOEY NPC
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Zoey",
       "FromFile": "Assets/CharacterFiles/Portraits/Zoey/Zoey.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Zoey",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Zoey/Zoey.png"
     },
     //CHLOE NPC
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Chloe",
       "FromFile": "Assets/CharacterFiles/Portraits/Chloe/Chloe.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Chloe",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Chloe/Chloe.png"
     },

@@ -91,22 +91,22 @@
             },
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Mods/FlashShifter.StardewValleyExpandedCP/DiamondWand",
             "FromFile": "assets/Items/Weapons/DiamondWand.png",
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Tempered Galaxy Dagger",
             "FromFile": "assets/Items/Weapons/Tempered Galaxy Dagger.png",
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Tempered Galaxy Hammer",
             "FromFile": "assets/Items/Weapons/Tempered Galaxy Hammer.png",
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Tempered Galaxy Sword",
             "FromFile": "assets/Items/Weapons/Tempered Galaxy Sword.png",
         },
@@ -169,22 +169,22 @@
                 "26": {
                     "MinDamage": 23,
                     "MaxDamage": 32,
-                    "Defence": 5
+                    "Defense": 5
                 },
                 "27": {
                     "MinDamage": 18,
                     "MaxDamage": 27,
-                    "Defence": 3
+                    "Defense": 3
                 },
                 "28": {
                     "MinDamage": 55,
                     "MaxDamage": 67,
-                    "Defence": 7
+                    "Defense": 7
                 },
                 "29": {
                     "MinDamage": 85,
                     "MaxDamage": 100,
-                    "Defence": 10
+                    "Defense": 10
                 }, //Galaxy Hammer
                 "34": {
                     "Description": "{{i18n:GalaxySlingshot}}"
@@ -203,17 +203,17 @@
                 "54": {
                     "MinDamage": 75,
                     "MaxDamage": 100,
-                    "Defence": 7,
+                    "Defense": 7,
                 },
                 "55": {
                     "MinDamage": 80,
                     "MaxDamage": 90,
-                    "Defence": 15,
+                    "Defense": 15,
                 },
                 "56": {
                     "MinDamage": 36,
                     "MaxDamage": 42,
-                    "Defence": 8,
+                    "Defense": 8,
                     "CritChance":.012
                 },
                 "61": {
@@ -224,7 +224,7 @@
                     "MinDamage": 140,
                     "MaxDamage": 160,
                     "Precision": 100,
-                    "Defence": 0,
+                    "Defense": 0,
                     "CritChance":.20,
                     "CritMultiplier": 3
                 }, //INFINITY BLADE: High damage. Good all-around weapon
@@ -233,15 +233,15 @@
                     "MaxDamage": 175,
                     "Knockback": 3,
                     "Precision": 100,
-                    "Defence": 15,
+                    "Defense": 15,
                     "CritChance": 0,
                     "CritMultiplier": 3
-                }, //INFINITY HAMMER: High damage and knockback, medium defense. Low speed and no crit 
+                }, //INFINITY HAMMER: High damage and knockback, medium Defense. Low speed and no crit 
                 "64": {
                     "MinDamage": 60,
                     "MaxDamage": 80,
                     "Precision": 100,
-                    "Defence": 5,
+                    "Defense": 5,
                     "CritChance":.35,
                     "CritMultiplier": 3
                 } //INFINITY DAGGER: Very high damange, very high crit. Small range

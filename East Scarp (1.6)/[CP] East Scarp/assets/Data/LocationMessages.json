@@ -215,16 +215,8 @@
 				"ToriBlueSlime": "{{i18n:Strings.ToriBlueSlime}}",
 				"ToriDresser": "{{i18n:Strings.ToriDresser}}",
 				"ToriTrash": "{{i18n:Strings.ToriTrash}}",
-				"ToriBonsai":"{{i18n:Strings.ToriBonsai}}",
-				"DeepMountains.GoatGrave":"{{i18n:DeepMountains.GoatGrave}}"
-			}
-		},
-		{
-			"LogName": "Location Messages",
-			"Action": "EditData",
-			"Target": "Strings/Locations",
-			"Entries": {
-				"ESSeaCave_StrongCurrent": "{{i18n:Strings.SeaCave.14}}"
+				"ToriBonsai": "{{i18n:Strings.ToriBonsai}}",
+				"DeepMountains.GoatGrave": "{{i18n:DeepMountains.GoatGrave}}"
 			}
 		},
 		//Deleted Music code

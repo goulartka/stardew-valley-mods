@@ -449,9 +449,9 @@
             "LogName": "Dialogue",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Eyvinder",
-            /* "When": {
+             "When": {
                 "HasSeenEvent": "57877004"
-            },*/
+            },
             "Entries": {
                 "summer_1_2": "{{i18n:dialogue.eyvind.summer_1_2}} [(O)EastScarp_Azure_Chrysanthemum_Seed] $1",
                 "fall_2_2": "{{i18n:dialogue.eyvind.fall_2_2}} [(O)EastScarp_Serruria_Seed]$1",

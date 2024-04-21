@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Mods/FlashShifter.StardewValleyExpandedCP/SVE_Portraits",
             "FromFile": "assets/Items/Furniture/SVE_Portraits.png",
         },

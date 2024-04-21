@@ -6,27 +6,6 @@
             "FromFile": "assets/Maps/SplitScreen.tmx"
         },
         {
-            "LogName": "Rival Hearts Mateo Armor for Aideen",
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "TargetField": [
-                "Mateo",
-                "Appearance"
-            ],
-            "Entries": {
-                "LemurKat.EastScarpe.RivalMateoArmor": {
-                    "Id": "LemurKat.EastScarpe.RivalMateoArmor",
-                    "Condition": "IS_EVENT 57871051",
-                    "Portrait": "Portraits/Armor_Mateo",
-                    "Sprite": "Characters/Armor_Mateo",
-                    "Precedence": -777
-                }
-            },
-            "When": {
-                "HasMod": "DN.SnS"
-            }
-        },
-        {
             "LogName": "Mateo and Aideen meet",
             "Action": "EditData",
             "Target": "Data/Events/EastScarp_Village",
@@ -47,7 +26,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Saloon",
             "Entries": {
-                "57871054/n RivalHearts_AideenMateo/A MateoPain/o Aideen/o Mateo/d Thu Fri Sat Sun/t 1800 2300": "Saloon1/-100 -100/farmer 10 20 0 Shane 20 17 3 Gus 10 18 2 Emily 18 17 1 Pam 7 18 1 Lewis 9 22 1 Clint 19 23 3 Willy 18 22 2 Aideen -100 -100 0 Mateo -100 -100 0/skippable/changePortrait Mateo date/changeSprite Mateo date/viewport 11 20 clamp true/pause 500/emote Gus 40/pause 500/textAboveHead Shane \"{{i18n:57871054.01}}\"/pause 1500/emote Emily 32/playSound doorOpen/warp Aideen 14 24/move Aideen 0 -3 0/faceDirection farmer 2/pause 500/emote farmer 8/pause 500/faceDirection Aideen 1/pause 500/emote Aideen 28/pause 500/emote farmer 56/jump Aideen 5/faceDirection Aideen 3/speak Aideen \"{{i18n:57871054.02}}\"/speed Aideen 3/move Aideen -3 0 0/move Aideen 0 -1 3/faceDirection farmer 1/quickQuestion #{{i18n:57871054.03}}#{{i18n:57871054.04}}(break)speak Aideen \"{{i18n:57871054.05}}\"\\pause 500\\textAboveHead Aideen \"{{i18n:57871054.06}}\"(break)emote Aideen 28\\textAboveHead Aideen \"{{i18n:57871054.07}}\"/speak Aideen \"{{i18n:57871054.08}}\"/pause 500/textAboveHead Gus \"{{i18n:57871054.09}}\"/jump Aideen 3/faceDirection Aideen 0 true/faceDirection farmer 0 true/speak Gus \"{{i18n:57871054.10}}\"/faceDirection Aideen 3 true/faceDirection farmer 1 true/emote Aideen 40/pause 500/faceDirection Aideen 0/faceDirection farmer 0/speak Aideen \"{{i18n:57871054.11}}\"/pause 1000/faceDirection Aideen 3/faceDirection farmer 1/pause 1000/speak Aideen \"{{i18n:57871054.12}}\"/playSound doorOpen/faceDirection Aideen 2/faceDirection farmer 2/warp Mateo 14 24/move Mateo 0 -3 3/emote Mateo 32/move Aideen 0 1 1/emote Aideen 16/pause 500/speak Aideen \"{{i18n:57871054.13}}\"/advancedMove farmer false -2 0 0 2 1 2000/move Mateo -2 0 3/speak Mateo \"{{i18n:57871054.14}}\"/showFrame Mateo 16/pause 500/emote Aideen 20/pause 500/speak Aideen \"{{i18n:57871054.15}}\"/emote Mateo 60/faceDirection Lewis 3/pause 500/speak Mateo \"{{i18n:57871054.16}}\"/pause 500/emote Aideen 60/pause 500/speak Aideen \"{{i18n:57871054.17}}\"/showFrame Aideen 29/pause 500/emote Mateo 16/pause 1500/playSound shwip/showFrame Aideen 4/showFrame Mateo 12/pause 500/speak Gus \"{{i18n:57871054.18}}\"/faceDirection Aideen 0 true/faceDirection Mateo 0 true/pause 500/textAboveHead Mateo \"{{i18n:57871054.19}}\"/pause 500/emote Gus 32/advancedMove Gus false 0 -1 -5 0 2 2000/advancedMove Aideen false 0 -1 -6 0 4 2000/advancedMove Mateo false 0 -1 -6 0 4 2000/pause 3000/advancedMove Gus false -2 0 4 1000/pause 500/doAction 3 16/doAction 4 16/pause 1500/advancedMove Gus false 0 -5 2 1000 1 0 0 -1 7 0 3 1000/advancedMove Aideen false 0 -2 1 1000 -2 0 0 -4 1 500/advancedMove Mateo false 0 -2 3 1000 -2 0 0 -4 3 500/pause 1000/speak Lewis \"{{i18n:57871054.20}}\"/pause 500/emote farmer 20/pause 1000/end",
+                "57871054/n RivalHearts_AideenMateo/A MateoPain/o Aideen/o Mateo/d Thu Fri Sat Sun/t 1800 2300": "Saloon1/-100 -100/farmer 10 20 0 Shane 20 17 3 Gus 10 18 2 Emily 18 17 1 Pam 7 18 1 Lewis 9 22 1 Clint 19 23 3 Willy 18 22 2 Aideen -100 -100 0 Mateo -100 -100 0/skippable/viewport 11 20 clamp true/pause 500/emote Gus 40/pause 500/textAboveHead Shane \"{{i18n:57871054.01}}\"/pause 1500/emote Emily 32/playSound doorOpen/warp Aideen 14 24/move Aideen 0 -3 0/faceDirection farmer 2/pause 500/emote farmer 8/pause 500/faceDirection Aideen 1/pause 500/emote Aideen 28/pause 500/emote farmer 56/jump Aideen 5/faceDirection Aideen 3/speak Aideen \"{{i18n:57871054.02}}\"/speed Aideen 3/move Aideen -3 0 0/move Aideen 0 -1 3/faceDirection farmer 1/quickQuestion #{{i18n:57871054.03}}#{{i18n:57871054.04}}(break)speak Aideen \"{{i18n:57871054.05}}\"\\pause 500\\textAboveHead Aideen \"{{i18n:57871054.06}}\"(break)emote Aideen 28\\textAboveHead Aideen \"{{i18n:57871054.07}}\"/speak Aideen \"{{i18n:57871054.08}}\"/pause 500/textAboveHead Gus \"{{i18n:57871054.09}}\"/jump Aideen 3/faceDirection Aideen 0 true/faceDirection farmer 0 true/speak Gus \"{{i18n:57871054.10}}\"/faceDirection Aideen 3 true/faceDirection farmer 1 true/emote Aideen 40/pause 500/faceDirection Aideen 0/faceDirection farmer 0/speak Aideen \"{{i18n:57871054.11}}\"/pause 1000/faceDirection Aideen 3/faceDirection farmer 1/pause 1000/speak Aideen \"{{i18n:57871054.12}}\"/playSound doorOpen/faceDirection Aideen 2/faceDirection farmer 2/warp Mateo 14 24/move Mateo 0 -3 3/emote Mateo 32/move Aideen 0 1 1/emote Aideen 16/pause 500/speak Aideen \"{{i18n:57871054.13}}\"/advancedMove farmer false -2 0 0 2 1 2000/move Mateo -2 0 3/speak Mateo \"{{i18n:57871054.14}}\"/showFrame Mateo 16/pause 500/emote Aideen 20/pause 500/speak Aideen \"{{i18n:57871054.15}}\"/emote Mateo 60/faceDirection Lewis 3/pause 500/speak Mateo \"{{i18n:57871054.16}}\"/pause 500/emote Aideen 60/pause 500/speak Aideen \"{{i18n:57871054.17}}\"/showFrame Aideen 29/pause 500/emote Mateo 16/pause 1500/playSound shwip/showFrame Aideen 4/showFrame Mateo 12/pause 500/speak Gus \"{{i18n:57871054.18}}\"/faceDirection Aideen 0 true/faceDirection Mateo 0 true/pause 500/textAboveHead Mateo \"{{i18n:57871054.19}}\"/pause 500/emote Gus 32/advancedMove Gus false 0 -1 -5 0 2 2000/advancedMove Aideen false 0 -1 -6 0 4 2000/advancedMove Mateo false 0 -1 -6 0 4 2000/pause 3000/advancedMove Gus false -2 0 4 1000/pause 500/doAction 3 16/doAction 4 16/pause 1500/advancedMove Gus false 0 -5 2 1000 1 0 0 -1 7 0 3 1000/advancedMove Aideen false 0 -2 1 1000 -2 0 0 -4 1 500/advancedMove Mateo false 0 -2 3 1000 -2 0 0 -4 3 500/pause 1000/speak Lewis \"{{i18n:57871054.20}}\"/pause 500/emote farmer 20/pause 1000/end",
             }
         },
         {

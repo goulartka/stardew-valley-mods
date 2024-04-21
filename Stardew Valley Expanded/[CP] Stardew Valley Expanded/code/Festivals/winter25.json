@@ -653,7 +653,7 @@
         },
         //Festival Loads
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Town-Christmas",
             "When": {
                 "HasSeenEvent |contains=5553210": false,
@@ -661,7 +661,7 @@
             "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-Christmas.tmx"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Town-Christmas2",
             "When": {
                 "HasSeenEvent |contains=5553210": false,
@@ -669,7 +669,7 @@
             "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-Christmas2.tmx"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Town-Christmas",
             "When": {
                 "HasSeenEvent": "5553210"
@@ -677,7 +677,7 @@
             "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-Christmas_Joja.tmx"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Town-Christmas2",
             "When": {
                 "HasSeenEvent": "5553210"

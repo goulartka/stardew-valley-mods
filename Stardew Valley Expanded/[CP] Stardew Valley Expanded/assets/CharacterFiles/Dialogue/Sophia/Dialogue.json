@@ -50,6 +50,7 @@
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": "{{i18n:Sophia.GiftBigBarkBurger}}",
         "AcceptGift_(O)459": "{{i18n:Sophia.Gift459}}",
         "AcceptGift_(O)346": "{{i18n:Sophia.Gift346}}",
+		"AcceptGift_(TR)FairyBox": "{{i18n:Sophia.GiftFairyBox}}",
         "AcceptGift_(O)StardropTea": "{{i18n:Sophia.GiftStardropTea}}",
         "AcceptBirthdayGift_Positive": "{{i18n:Sophia.GiftBDpos}}",
         "AcceptBirthdayGift_Negative": "{{i18n:Sophia.GiftBDneg}}",

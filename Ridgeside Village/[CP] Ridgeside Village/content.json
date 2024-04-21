@@ -904,7 +904,7 @@
 		{
 			"LogName": "Include all InterModCompat files",
 			"Action": "Include",
-			"FromFile": "Data/InterModCompat/CustomGiftDialogue.json, Data/InterModCompat/EastScarpe.json, Data/InterModCompat/KarmyllasImmersiveMaps.json, Data/InterModCompat/StardewValleyExpanded.json, Data/InterModCompat/TownSchool.json, Data/InterModCompat/WarpNetwork.json, Data/InterModCompat/FreeLove.json, Data/InterModCompat/DaisyNiko.json, Data/InterModCompat/WalkToDesertRedux.json",
+			"FromFile": "Data/InterModCompat/CustomGiftDialogue.json, Data/InterModCompat/EastScarpe.json, Data/InterModCompat/KarmyllasImmersiveMaps.json, Data/InterModCompat/StardewValleyExpanded.json, Data/InterModCompat/TownSchool.json, Data/InterModCompat/WarpNetwork.json, Data/InterModCompat/FreeLove.json, Data/InterModCompat/DaisyNiko.json, Data/InterModCompat/WalkToDesertRedux.json, Data/InterModCompat/VisibleFish.json",
 		},
 		//Includes Map Data
 		/*
@@ -969,6 +969,16 @@
 			"FromFile": "Data/Extras/Minecarts.json"
 		},
 		{
+			"LogName": "Include Minecarts",
+			"Action": "Include",
+			"FromFile": "Data/Extras/SpaceCorePatches.json"
+		},
+		{
+			"LogName": "Include Minecarts",
+			"Action": "Include",
+			"FromFile": "Data/Extras/Powers.json"
+		},
+		{
 			"LogName": "Include Old Festival Placements",
 			"Action": "Include",
 			"FromFile": "Data/Festivals/FestivalLocations/OldLocations.json",
@@ -1015,6 +1025,16 @@
 			"LogName": "Include Shops",
 			"Action": "Include",
 			"FromFile": "Data/Shops.json",
+		},
+
+		//Include Winter Outfits if RSV Seasonals isn't installed
+		{
+			"LogName": "Include Winter Outfits",
+			"Action": "Include",
+			"FromFile": "Data/WinterOutfits.json",
+			"When": {
+				"HasMod |contains=Rafseazz.RSVSeasonalOutfits": false,
+			}
 		},
 	],
 }

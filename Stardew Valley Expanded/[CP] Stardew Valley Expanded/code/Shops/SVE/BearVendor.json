@@ -1,6 +1,11 @@
 {
     "Changes": [
         {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Bear_Vendor",
+            "FromFile": "assets/CharacterFiles/Shops/Miscellaneous/Bear_Vendor.png"
+        },
+        {
             "Action": "EditData",
             "Target": "Data/Shops",
             "Entries": {
@@ -8,7 +13,7 @@
                     "Owners": [
                         {
                             "Name": "AnyOrNone",
-                            "Portrait": "{{InternalAssetKey: assets/CharacterFiles/Shops/Miscellaneous/Bear_Vendor.png}}",
+                            "Portrait": "Mods\\FlashShifter.StardewValleyExpandedCP\\Bear_Vendor",
                             "Dialogues": [
                                 {
                                     "Id": "FlashShifter.StardewValleyExpandedCP_Default",

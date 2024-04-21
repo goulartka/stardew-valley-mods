@@ -1186,5 +1186,24 @@
 				"GenderNeutral": "true"
 			}
 		},
+		/*{
+			"LogName": "Rival Hearts Mateo Armor for Aideen",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Priority": "Late",
+			"TargetField": [
+				"Mateo",
+				"Appearance"
+			],
+			"Entries": {
+				"LemurKat.EastScarpe.RivalMateoArmor": {
+					"Id": "LemurKat.EastScarpe.RivalMateoArmor",
+					"Condition": "IS_EVENT 57871051",
+					"Portrait": "Portraits/Armor_Mateo",
+					"Sprite": "Characters/Armor_Mateo",
+					"Precedence": -777
+				},
+			}
+		},*/
 	]
 }

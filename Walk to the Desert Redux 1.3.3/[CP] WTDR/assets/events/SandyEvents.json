@@ -1,0 +1,18 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/SandyHouse",
+			"Entries": {
+				// Change introductory event if the bus is unlocked
+				"67/n ccVault": "none/4 5/farmer 4 9 0 Sandy 2 5 2/skippable/move farmer 0 -2 0/emote Sandy 8/speak Sandy \"{{i18n:Events.SandyIntro.1}}\"/speed Sandy 4/move Sandy 2 0 2/speed Sandy 4/move Sandy 0 1 2/emote Sandy 16/speak Sandy \"{{i18n:Events.SandyIntro.2}}\"/emote Sandy 32/move Sandy 0 -1 0/move Sandy -2 0 2/emote Sandy 32/end dialogue Sandy \"{{i18n:Events.SandyIntro.3}}\"",
+				"67/n jojaVault": "none/4 5/farmer 4 9 0 Sandy 2 5 2/skippable/move farmer 0 -2 0/emote Sandy 8/speak Sandy \"{{i18n:Events.SandyIntro.1}}\"/speed Sandy 4/move Sandy 2 0 2/speed Sandy 4/move Sandy 0 1 2/emote Sandy 16/speak Sandy \"{{i18n:Events.SandyIntro.2}}\"/emote Sandy 32/move Sandy 0 -1 0/move Sandy -2 0 2/emote Sandy 32/end dialogue Sandy \"{{i18n:Events.SandyIntro.3}}\"",
+				// Change introductory event if bus not unlocked
+				"13730001/l ccVault l jojaVault/k 67": "none/4 5/farmer 4 9 0 Sandy 2 5 2/skippable/move farmer 0 -2 0/emote Sandy 8/speak Sandy \"{{i18n:Events.13730001.1}}\"/speed Sandy 4/move Sandy 2 0 2/speed Sandy 4/move Sandy 0 1 2/emote Sandy 16/speak Sandy \"{{i18n:Events.13730001.2}}\"/emote Sandy 16/speed Sandy 4/move Sandy 0 -1 0/speed Sandy 4/move Sandy -2 0 2/speed Sandy 4/move Sandy 2 0 1/speed Sandy 4/move Sandy 0 1 2/speak Sandy \"{{i18n:Events.13730001.3}}\"",
+			
+				// Warning about Ghost Town
+				"13730002/t 1700 2600": "none/4 5/farmer 4 9 0 Sandy 2 5 2/skippable/move farmer 0 -2 0/emote Sandy 16/speak Sandy \"{{i18n:Events.13730002.1}}\"/emote farmer 16/speak Sandy \"{{i18n:Events.13730002.2}}\"/end"
+			}
+		}
+	]
+}

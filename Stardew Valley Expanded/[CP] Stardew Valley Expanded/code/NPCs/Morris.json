@@ -95,43 +95,48 @@
     },
     {
       //Morris' Portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/MorrisTod",
       "FromFile": "assets/CharacterFiles/Portraits/Morris/Morris.png"
     },
     {
       //Morris' Portraits - Vanilla
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/Morris",
       "FromFile": "assets/CharacterFiles/Portraits/Morris/Morris.png"
     },
     {
       //Morris's Winter Portraits
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/MorrisTod_Winter",
       "FromFile": "assets/CharacterFiles/Portraits/Morris/MorrisTod_Winter.png"
     },
     {
       //Andy's Winter Sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/MorrisTod_Winter",
       "FromFile": "assets/CharacterFiles/OverworldSprites/Morris/MorrisTod_Winter.png"
     },
     {
       //Morris' Sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/MorrisTod",
       "FromFile": "assets/CharacterFiles/OverworldSprites/Morris/Morris.png"
     },
     {
       //Morris' Sprites - Vanilla
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/Morris",
       "FromFile": "assets/CharacterFiles/OverworldSprites/Morris/Morris.png"
     },
     {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Characters/schedules/MorrisTod",
+      "FromFile": "Assets/Blank.json"
+    },/*
+    {
       //Morris' Schedule
-      "Action": "Load",
+      "Action": "EditData",
       "Target": "Characters/schedules/MorrisTod",
       "When": {
         "HasSeenEvent |contains=5553210": false
@@ -140,13 +145,13 @@
     },
     {
       //Morris' Mayor Schedule
-      "Action": "Load",
+      "Action": "EditData",
       "Target": "Characters/schedules/MorrisTod",
       "When": {
         "HasSeenEvent: anyPlayer| contains=5553210": true,
       },
       "FromFile": "assets/CharacterFiles/Schedules/Morris/ScheduleMayor.json"
-    },
+    },*/
     { //Morris' Townhouse Schedule
       "Action": "EditData",
       "Target": "characters/schedules/MorrisTod",
@@ -871,27 +876,27 @@
 },*/
     //Load temporary actors for Morris 10 heart event
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/VotingBooth1",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/VotingBooth1.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/VotingBooth2",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/VotingBooth2.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/JojaTruck", //Yes. That's right. A truck.
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/JojaTruck.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/MartinJoja",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/MartinJoja.png"
     },
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/SamJoja",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Miscellaneous/SamJoja.png"
     },

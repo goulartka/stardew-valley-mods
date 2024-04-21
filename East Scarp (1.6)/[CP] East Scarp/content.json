@@ -15,15 +15,14 @@
             "Default": "false",
             // "Description": "{{i18n:config.Forest}}"
         },
+        "EnableMeadowFarm": {
+            "AllowValues": "true, false",
+            "Default": "true",
+        },
         "Skin": {
             "AllowValues": "Kaya, NewEastScarpe, Yri",
             "Default": "NewEastScarpe",
             //  "Description": "{{i18n:config.Skins}}"
-        },
-        "EnableMeadowFarm": {
-            "AllowValues": "true, false",
-            "Default": "true",
-            // "Description": "{{i18n:config.MeadowFarm}}"
         },
         "WalkTidePools": {
             "AllowValues": "true, false",
@@ -334,6 +333,7 @@
             "Target": "Maps/EastScarp_LanternRoom",
             "FromFile": "assets/Locations/Interiors/LanternRoom.tmx",
         },
+   
         { //Silo
             "Action": "Load",
             "Target": "Maps/EastScarp_Silo",
@@ -417,11 +417,11 @@
             "Target": "Maps/EastScarp_EyvinderCave",
             "FromFile": "assets/Locations/Interiors/EyvinderCave.tmx"
         },
-        {
+        /*{
             "Action": "Load",
             "Target": "Maps/EastScarp_MeadowShed_Ruins",
             "FromFile": "assets/Locations/Interiors/MeadowFarmShed_ruins.tmx"
-        },
+        },*/
         {
             "Action": "Load",
             "Target": "Maps/EastScarp_ToriSlimeBasement",
@@ -453,6 +453,14 @@
                 "HasMod": "tlitookilakin.warpnetwork"
             }
         },
+        { // CJB Cheats Compatibility
+            "Action": "Include",
+            "FromFile": "assets/Data/CJBCheats.json",
+            "When": {
+                "HasMod": "CJBok.CheatsMenu",
+                "HasMod |contains=juanpa98ar.WarpsEnglishNOSVE": false
+            }
+        },
         { // Event LookUp Compatibility
             "Action": "Include",
             "FromFile": "assets/Data/EventLookUp.json",
@@ -467,6 +475,13 @@
         { // Adds Location Data
             "Action": "Include",
             "FromFile": "assets/Data/LocationData.json"
+        },
+        { // Meadow farm
+            "Action": "Include",
+            "FromFile": "assets/Data/MeadowFarm.json",
+            "When": {
+                "EnableMeadowFarm": true
+            }
         },
         { // Adds Object Data
             "Action": "Include",
@@ -952,7 +967,7 @@
             }
         },
         //If Meadow Farm Enabled
-        {
+        /* {
             "Action": "EditMap",
             "Target": "Maps/EastScarp_DeepMountains",
             "MapTiles": [
@@ -990,7 +1005,7 @@
             "When": {
                 "EnableMeadowFarm": "true"
             }
-        },
+        },*/
         /* {
             "Action": "EditMap",
             "Target": "Maps/EastScarp_DeepMountains",
@@ -1054,7 +1069,7 @@
             ]
         },
         //Adds warp to Meadow Farm if option selected  
-        {
+        /*{
             "LogName": "Adds warp to Meadow Farm",
             "Action": "EditMap",
             "Target": "Maps/EastScarp_Village",
@@ -1093,7 +1108,7 @@
                     }
                 }
             ]
-        },
+        },*/
         {
             "Action": "EditMap",
             "Target": "Maps/EastScarp_Village",
@@ -1489,7 +1504,7 @@
         {
             "LogName": "Events for East Scarpe",
             "Action": "Load",
-            "Target": "Data/Events/EastScarp_Village, Data/Events/EastScarp_DeepMountains, Data/Events/EastScarp_Silo, Data/Events/EastScarp_House1, Data/Events/EastScarp_VillageInn, Data/Events/EastScarp_Orchard, Data/Events/EastScarp_SeaCave, Data/Events/EastScarp_ClearingHouse, Data/Events/EastScarp_DeepDark,Data/Events/EastScarp_VetHouse, Data/Events/EastScarp_BirdHide, Data/Events/EastScarp_OrchardHouse, Data/Events/EastScarp_SmugglerDen, Data/Events/EastScarp_MeadowFarm, Data/Events/EastScarp_MineEntrance, Data/Events/EastScarp_Lighthouse, Data/Events/EastScarp_EyvinderCave",
+            "Target": "Data/Events/EastScarp_Village, Data/Events/EastScarp_DeepMountains, Data/Events/EastScarp_Silo, Data/Events/EastScarp_House1, Data/Events/EastScarp_VillageInn, Data/Events/EastScarp_Orchard, Data/Events/EastScarp_SeaCave, Data/Events/EastScarp_ClearingHouse, Data/Events/EastScarp_DeepDark,Data/Events/EastScarp_VetHouse, Data/Events/EastScarp_BirdHide, Data/Events/EastScarp_OrchardHouse, Data/Events/EastScarp_SmugglerDen,  Data/Events/EastScarp_MineEntrance, Data/Events/EastScarp_Lighthouse, Data/Events/EastScarp_EyvinderCave, Data/Events/EastScarp_MeadowFarm",
             "FromFile": "assets/Data/EastScarpeEvents.json"
         },
         //TileData messages
@@ -2017,15 +2032,15 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "Warp 13 21 EastScarp_LumaHut"
+                        "Action": "Warp 4 9 EastScarp_LumaHut"
                     }
                 }
             ],
             "When": {
-                "HasMod": "Pillow.Luma"
+                "HasSeenEvent": "57871100"
             }
         },
-        {
+        /* {
             "Action": "EditMap",
             "Target": "Maps/EastScarp_MeadowFarm",
             "FromFile": "assets/Patches/MeadowFarm_Paths.tmx",
@@ -2033,7 +2048,7 @@
             "When": {
                 "HasSeenEvent": "57879002"
             }
-        },
+        },*/
         // Adds NPC Map Locations
         {
             "Action": "Include",
@@ -2146,7 +2161,7 @@
                 }
             ]
         },
-        {
+        /* {
             "Action": "EditMap",
             "Target": "Maps/EastScarp_MeadowFarm",
             "Update": "OnLocationChange",
@@ -2165,7 +2180,7 @@
                     }
                 }
             ]
-        },
+        },*/
         {
             "LogName": "Patches in Aideen's Garden",
             "Action": "EditMap",
@@ -2299,7 +2314,7 @@
                 },
             ]
         },
-        {
+        /*  {
             "Action": "EditMap",
             "Target": "Maps/EastScarp_MeadowFarm",
             //"Update": "OnTimeChange",
@@ -2343,7 +2358,7 @@
                     }
                 }
             ]
-        },
+        },*/
         {
             "Action": "EditMap",
             "Target": "Maps/EastScarp_Village",

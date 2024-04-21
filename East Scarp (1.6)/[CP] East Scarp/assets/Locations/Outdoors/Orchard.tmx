@@ -2802,7 +2802,7 @@
   </object>
   <object id="36" name="TileData" x="240" y="0" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_ESMineEntrance 16 30"/>
+    <property name="TouchAction" value="Warp EastScarp_MineEntrance 16 30"/>
    </properties>
   </object>
  </objectgroup>

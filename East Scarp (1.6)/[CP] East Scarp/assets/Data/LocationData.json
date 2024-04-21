@@ -1,10 +1,10 @@
 {
     "Changes": [
-        { //External Map
+        /* { //External Map
             "Action": "Load",
             "Target": "Maps/EastScarp_MeadowFarm",
             "FromFile": "assets/Locations/Outdoors/MeadowPath.tmx"
-        },
+        },*/
         {
             "Action": "EditData",
             "Target": "Data/Locations",
@@ -505,20 +505,42 @@
                         {
                             "Season": null,
                             "FishAreaId": "ESBay",
-                            "Id": "(O)131_ESBay",
-                            "ItemId": "(O)131",
-                            "Condition": "LOCATION_Season Here spring summer"
-                        },
-                        {
-                            "Season": "Spring",
-                            "FishAreaId": "ESBay",
-                            "Id": "(O)148_ESBay",
-                            "ItemId": "(O)148"
+                            "Id": "(O)129_ESBay",
+                            "ItemId": "(O)129",
+                            "Condition": "LOCATION_SEASON Here spring fall",
                         },
                         {
                             "Season": null,
                             "FishAreaId": "ESBay",
-                            "Id": "(O)709_ESBay",
+                            "Id": "(O)131_ESBay",
+                            "ItemId": "(O)131",
+                            "Condition": "LOCATION_Season Here spring fall winter"
+                        },
+                        {
+                            "Season": null,
+                            "FishAreaId": "ESBay",
+                            "Id": "(O)147_ESBay",
+                            "ItemId": "(O)147",
+                            "Condition": "LOCATION_Season Here spring winter"
+                        },
+                        {
+                            "Season": null,
+                            "FishAreaId": "ESBay",
+                            "Id": "(O)148_ESBay",
+                            "ItemId": "(O)148",
+                            "Condition": "LOCATION_SEASON Here spring fall",
+                        },
+                        {
+                            "Season": null,
+                            "FishAreaId": "ESBay",
+                            "Id": "(O)267_ESBay",
+                            "ItemId": "(O)267",
+                            "Condition": "LOCATION_SEASON Here spring summer",
+                        },
+                        {
+                            "Season": null,
+                            "FishAreaId": "ESBay",
+                            "Id": "(O)708_ESBay",
                             "ItemId": "(O)708",
                             "Condition": "LOCATION_Season Here spring summer winter"
                         },
@@ -539,12 +561,6 @@
                             "FishAreaId": "ESBay",
                             "Id": "(O)155_ESBay",
                             "ItemId": "(O)155"
-                        },
-                        {
-                            "Season": "Summer",
-                            "FishAreaId": "ESBay",
-                            "Id": "(O)267_ESBay",
-                            "ItemId": "(O)267"
                         },
                         {
                             "Season": null,
@@ -580,18 +596,6 @@
                             "Id": "(O)701_ESBay",
                             "ItemId": "(O)701",
                             "Condition": "LOCATION_Season Here summer fall"
-                        },
-                        {
-                            "Season": "Fall",
-                            "FishAreaId": "ESBay",
-                            "Id": "(O)148_ESBay",
-                            "ItemId": "(O)148"
-                        },
-                        {
-                            "Season": "Winter",
-                            "FishAreaId": "ESBay",
-                            "Id": "(O)131_ESBay",
-                            "ItemId": "(O)131"
                         },
                         {
                             "Season": "Winter",
@@ -1755,7 +1759,7 @@
                     ],
                     "CustomFields": {}
                 },
-                "EastScarp_MeadowFarm": {
+                /* "EastScarp_MeadowFarm": {
                     "DisplayName": "{{i18n:EastScarp.Locations.MeadowFarm}}",
                     "CanPlantHere": "true",
                     "CreateOnLoad": {
@@ -1957,7 +1961,7 @@
                         }
                     ],
                     "CustomFields": {}
-                },
+                },*/
                 "EastScarp_MineEntrance": {
                     "DisplayName": "{{i18n:EastScarp.Locations.MineEntrance}}",
                     "DefaultArrivalTile": {
@@ -2189,7 +2193,7 @@
                     ],
                     "CustomFields": {}
                 },
-                "EastScarp_MeadowShed": {
+                /*"EastScarp_MeadowShed": {
                     "DisplayName": "{{i18n:EastScarp.Locations.MeadowShed}}",
                     "DefaultArrivalTile": {
                         "X": 9,
@@ -2205,7 +2209,7 @@
                     ],
                     "CanPlantHere": true,
                     "CustomFields": {}
-                },
+                },*/
                 "EastScarp_BirdHide": {
                     "DisplayName": "{{i18n:EastScarp.Locations.BirdHide}}",
                     "DefaultArrivalTile": {
@@ -2293,8 +2297,8 @@
                 "EastScarp_LumaHut": {
                     "DisplayName": "{{i18n:EastScarp.Locations.LumaHut}}",
                     "DefaultArrivalTile": {
-                        "X": 13,
-                        "Y": 21
+                        "X": 5,
+                        "Y": 8
                     },
                     "CreateOnLoad": {
                         "MapPath": "Maps\\EastScarp_LumaHut"
@@ -2403,20 +2407,6 @@
                     ],
                     "CustomFields": {}
                 },
-                "EastScarp_MeadowShed_Ruins": {
-                    "DisplayName": "{{i18n:EastScarp.Locations.MeadowShed}}",
-                    "DefaultArrivalTile": {
-                        "X": 9,
-                        "Y": 18
-                    },
-                    "CreateOnLoad": {
-                        "MapPath": "Maps\\EastScarp_MeadowShed_Ruins"
-                    },
-                    "FormerLocationNames": [
-                        "Custom_ESMeadowShed_Ruins"
-                    ],
-                    "CustomFields": {}
-                },
                 "EastScarp_ToriSlimeBasement": {
                     "DisplayName": "{{i18n:EastScarp.Locations.SlimeBasement}}",
                     "DefaultArrivalTile": {
@@ -2505,9 +2495,9 @@
                 "Lemurkat_EastScarp": {
                     "PlayRandomAmbientSounds": true,
                     "CopyWeatherFromLocation": "Default",
-                    "PlantableLocations": [
+                    /*"PlantableLocations": [
                         "EastScarp_MeadowFarm"
-                    ],
+                    ],*/
                     "ReviveLocations": [
                         {
                             "Condition": null,
@@ -2782,7 +2772,7 @@
                         "MapProperties",
                         "DayTiles"
                     ],
-                    "Value":"Front 22 3 2371 Front 23 3 2372 Front 22 4 2396 Front 23 4 2397",
+                    "Value": "Front 22 3 2371 Front 23 3 2372 Front 22 4 2396 Front 23 4 2397",
                     "Delimiter": " "
                 },
                 {
@@ -2791,7 +2781,7 @@
                         "MapProperties",
                         "NightTiles"
                     ],
-                    "Value":"Front 22 3 2373 Front 23 3 2374 Front 22 4 2398 Front 23 4 2399",
+                    "Value": "Front 22 3 2373 Front 23 3 2374 Front 22 4 2398 Front 23 4 2399",
                     "Delimiter": " "
                 },
             ],

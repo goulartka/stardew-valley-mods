@@ -15,10 +15,13 @@
             "FromFile": "assets/{{target}}/LumaJunimo.png"
         },
         {
-            "LogName": "Load LumaJunimo Dialogue File",
+            "LogName": "Load LumaJunimo schedule File",
             "Action": "Load",
             "Target": "Characters/schedules/LumaJunimo",
-            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}.json"
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}.json",
+            "When": {
+                "HasSeenEvent": "57871100"
+            }
         },
         {
             "LogName": "Luma Dialogue",

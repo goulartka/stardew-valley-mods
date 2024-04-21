@@ -724,7 +724,7 @@
         },
         //Festival Loads
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Town-Fair",
             "When": {
                "HasSeenEvent |contains=5553210": false,
@@ -733,7 +733,7 @@
             "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-Fair.tmx"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Town-Fair2",
             "When": {
                "HasSeenEvent |contains=5553210": false,
@@ -741,7 +741,7 @@
             "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-Fair2.tmx"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Town-Fair",
             "When": {
                "HasSeenEvent |contains=5553210": true,
@@ -750,7 +750,7 @@
             "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-Fair_Joja.tmx"
         },
         {
-            "Action": "Load",
+            "Action": "Load", "Priority": "Low",
             "Target": "Maps/Town-Fair2",
             "When": {
                "HasSeenEvent |contains=5553210": true,

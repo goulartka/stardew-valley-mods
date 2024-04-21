@@ -1048,12 +1048,12 @@
 		},
 		//CHARACTER SCHEDULE STRING LOADS
 		{
-			"Action": "Load",
+			"Action": "Load", "Priority": "Low",
 			"Target": "Strings/Schedules/Kent",
 			"FromFile": "assets/XNBs/Kent.xnb"
 		},
 		{
-			"Action": "Load",
+			"Action": "Load", "Priority": "Low",
 			"Target": "Strings/Schedules/Marlon",
 			"FromFile": "assets/XNBs/MarlonFay.xnb"
 		},

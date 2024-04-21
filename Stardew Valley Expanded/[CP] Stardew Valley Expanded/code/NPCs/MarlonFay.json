@@ -1,7 +1,5 @@
 {
   "Changes": [
-
-
     {
       "Action": "EditData",
       "Target": "Data/Characters",
@@ -77,6 +75,7 @@
           "ExcludeFromIntroductionsQuest": true,
           "PerfectionScore": false,
           "EndSlideShow": "Hidden",
+          "CanSocialize": false,
           "CanReceiveGifts": false,
           "Home": [
             {
@@ -104,7 +103,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "MarlonFay": "{{i18n:Marlon.Gifts.Loved}}/244 773 413 437 439 680 FlashShifter.StardewValleyExpandedCP_Void_Shard FlashShifter.StardewValleyExpandedCP_Void_Pebble FlashShifter.StardewValleyExpandedCP_Void_Delight FlashShifter.StardewValleyExpandedCP_Swirl_Stone FlashShifter.StardewValleyExpandedCP_Slime_Berry FlashShifter.StardewValleyExpandedCP_Lightning_Elixir FlashShifter.StardewValleyExpandedCP_Hero_Elixir FlashShifter.StardewValleyExpandedCP_Haste_Elixir FlashShifter.StardewValleyExpandedCP_Gravity_Elixir FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Daggerfish FlashShifter.StardewValleyExpandedCP_Barbarian_Elixir FlashShifter.StardewValleyExpandedCP_Armor_Elixir FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aegis_Elixir/{{i18n:Marlon.Gifts.Liked}}/346 303 348 459 205 422 287 288 FlashShifter.StardewValleyExpandedCP_Void_Soul FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi FlashShifter.StardewValleyExpandedCP_Void_Root FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_Monster_Fruit FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower FlashShifter.StardewValleyExpandedCP_Gemfish FlashShifter.StardewValleyExpandedCP_Frog_Legs/{{i18n:Marlon.Gifts.Disliked}}/-81 FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Marlon.Gifts.Hated}}/-80 283 233 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Rusty_Blade/{{i18n:Marlon.Gifts.Neutral}}/286 424 426 436 438 803 184 186 420 -28 FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia/"
+        "MarlonFay": "{{i18n:Marlon.Gifts.Loved}}/BasiliskPaw IceRod MagicQuiver 244 773 413 437 439 680 FlashShifter.StardewValleyExpandedCP_Void_Shard FlashShifter.StardewValleyExpandedCP_Void_Pebble FlashShifter.StardewValleyExpandedCP_Void_Delight FlashShifter.StardewValleyExpandedCP_Swirl_Stone FlashShifter.StardewValleyExpandedCP_Slime_Berry FlashShifter.StardewValleyExpandedCP_Lightning_Elixir FlashShifter.StardewValleyExpandedCP_Hero_Elixir FlashShifter.StardewValleyExpandedCP_Haste_Elixir FlashShifter.StardewValleyExpandedCP_Gravity_Elixir FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Daggerfish FlashShifter.StardewValleyExpandedCP_Barbarian_Elixir FlashShifter.StardewValleyExpandedCP_Armor_Elixir FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aegis_Elixir/{{i18n:Marlon.Gifts.Liked}}/346 303 348 459 205 422 287 288 FlashShifter.StardewValleyExpandedCP_Void_Soul FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi FlashShifter.StardewValleyExpandedCP_Void_Root FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_Monster_Fruit FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower FlashShifter.StardewValleyExpandedCP_Gemfish FlashShifter.StardewValleyExpandedCP_Frog_Legs/{{i18n:Marlon.Gifts.Disliked}}/-81 FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Marlon.Gifts.Hated}}/-80 283 233 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Rusty_Blade/{{i18n:Marlon.Gifts.Neutral}}/286 424 426 436 438 803 184 186 420 -28 FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia/"
       }
     },
     {
@@ -121,30 +120,40 @@
     {
       //Marlon's Portraits
       "Action": "Load",
+      "Priority": "Low",
       "Target": "Portraits/MarlonFay",
       "FromFile": "assets/CharacterFiles/Portraits/Marlon/Marlon.png"
     },
     {
       //Marlon's Sprites
       "Action": "Load",
+      "Priority": "Low",
       "Target": "Characters/MarlonFay",
       "FromFile": "assets/CharacterFiles/OverworldSprites/Marlon/Marlon.png"
     },
     {
       //Marlon's Portraits
       "Action": "Load",
+      "Priority": "Low",
       "Target": "Portraits/MarlonFay_Winter",
       "FromFile": "assets/CharacterFiles/Portraits/Marlon/MarlonFay_Winter.png"
     },
     {
       //Marlon's Sprites
       "Action": "Load",
+      "Priority": "Low",
       "Target": "Characters/MarlonFay_Winter",
       "FromFile": "assets/CharacterFiles/OverworldSprites/Marlon/MarlonFay_Winter.png"
     },
     {
-      //Marlon's Schedule
       "Action": "Load",
+      "Priority": "Low",
+      "Target": "Characters/schedules/MarlonFay",
+      "FromFile": "Assets/Blank.json"
+    },
+    /* {
+      //Marlon's Schedule
+      "Action": "EditData",
       "Target": "Characters/schedules/MarlonFay",
       "When": {
         "HasFlag": "landslideDone"
@@ -153,13 +162,13 @@
     },
     {
       //Marlon stuck inside until player is a member
-      "Action": "Load",
+      "Action": "EditData",
       "Target": "Characters/schedules/MarlonFay",
       "When": {
         "HasFlag |contains=landslideDone": false
       },
       "FromFile": "assets/CharacterFiles/Schedules/Marlon/BeforeGuildMember.json"
-    },
+    },*/
     {
       "Action": "EditData",
       "Target": "Strings/SpeechBubbles",
@@ -349,8 +358,6 @@
         }
       }
     },
-    
- 
     { //ADVENTURER GUILD INITIATION
       "Action": "EditData",
       "Target": "data/events/adventureguild",
@@ -443,6 +450,5 @@
         "1579125/e 103042015/k 1090501": "continue/-500 -500/MarlonFay 41 101 3 farmer 26 94 1/pause 1250/skippable/viewport 35 97 clamp true/move MarlonFay -6 0 0/move MarlonFay 0 -4 0/pause 1200/faceDirection MarlonFay 3 true/pause 850/faceDirection MarlonFay 0 true/pause 225/faceDirection MarlonFay 1 true/pause 1000/faceDirection MarlonFay 0 true/pause 900/playSound trashcanlid/shake MarlonFay 600/pause 1150/playSound stairsdown/warp MarlonFay -100 -100/pause 1000/move farmer 3 0 2/move farmer 0 2 1/move farmer 1 0 1/pause 600/emote farmer 8/globalFade/viewport -1000 -1000/pause 1000/end dialogue MarlonFay \"{{i18n:Marlon.SewerRejection.01}}\"",
       },
     },
-   
   ]
 }
