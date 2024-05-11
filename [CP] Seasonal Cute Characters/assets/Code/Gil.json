@@ -1,5 +1,6 @@
 {
 	"Changes": [
+		
 		{
 			"LogName": "Gil - Seasonal",
 			"Action": "EditImage",
@@ -10,6 +11,8 @@
 				"HasFile:{{FromFile}}": true,
 			},
 		},
+
+//Normal Gil
 		{   
 			"LogName": "Gil - TownInterior 1",
             "Action": "EditImage",
@@ -29,7 +32,7 @@
             "ToArea": { "X": 214, "Y": 657, "Width": 24, "Height": 31 },
 		},
 		
-// MISCELLANEOUS	
+// MISCELLANEOUS
 		{
 			"LogName": "Gil - Movie Theater",
             "Action": "EditImage",

@@ -1,137 +1,198 @@
 {
 	"Changes": [
+		// OUTFIT LOADS
+	
 		{
-			"LogName": "Shane - Winter",
-			"Action": "EditImage",
-			"Target": "Portraits/Shane_Winter, Characters/Shane_Winter",
-			"FromFile": "assets/{{TargetPathOnly}}/Shane/{{TargetWithoutPath}}{{IndoorVariant}}.png",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-			},
+			"LogName": "Load Shane's Outfits",
+			"Action": "Load",
+			"Priority": "High",
+			"Target": "Portraits/Shane_Spring, Portraits/Shane_Summer, Portraits/Shane_Fall, Portraits/Shane_Winter_Outdoor, Portraits/Shane_Winter_Indoor, Portraits/Shane_FlowerDance, Portraits/Shane_SpiritsEve, Portraits/Shane_EggF, Portraits/Shane_Fair, Portraits/Shane_Jellies, Portraits/Shane_Luau, Portraits/Shane_Winter_IceF, Portraits/Shane_Winter_WinterStar, Portraits/Shane_Joja, Characters/Shane_Spring, Characters/Shane_Summer, Characters/Shane_Fall, Characters/Shane_Winter_Outdoor, Characters/Shane_Winter_Indoor, Characters/Shane_FlowerDance, Characters/Shane_SpiritsEve, Characters/Shane_EggF, Characters/Shane_Fair, Characters/Shane_Jellies, Characters/Shane_Luau, Characters/Shane_Winter_IceF, Characters/Shane_Winter_WinterStar, Characters/Shane_JojaMart_Spring, Characters/Shane_JojaMart_Summer, Characters/Shane_JojaMart_Fall, Characters/Shane_JojaMart_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Shane/{{TargetWithoutPath}}.png"
 		},
+		
 		{
-			"LogName": "Shane - Winter Indoor/Outdoor 2",
-			"Action": "EditImage",
-			"Target": "Portraits/Shane_Winter, Characters/Shane_Winter",
-			"FromFile": "assets/{{TargetPathOnly}}/Shane/{{TargetWithoutPath}}{{IndoorVariant}}.png",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-                "Season": "Winter",
-                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
-			},
-			"Update": "OnLocationChange",
-		},
-		{
-			"LogName": "Shane - Seasonal",
-			"Action": "EditImage",
-			"Target": "Portraits/Shane, Characters/Shane",
-			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-			},
-		},
-		{
-			"LogName": "Shane - Winter Indoor/Outdoor",
-			"Action": "EditImage",
-			"Target": "Portraits/Shane, Characters/Shane",
-			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-                "Season": "Winter",
-                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
-			},
-			"Update": "OnLocationChange",
-		},
-		{
-			"LogName": "Shane - Festival",
-			"Action": "EditImage",
-			"Target": "Portraits/Shane, Characters/Shane, Portraits/Shane_Winter, Characters/Shane_Winter",
-            "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-				"FestivalOutfits": "True",
-			},
-			"Update": "OnLocationChange",
-		},
-		{
-			"LogName": "Shane - Beach",
+			"LogName": "Edit Shane's Beach Outfit",
 			"Action": "EditImage",
 			"Target": "Portraits/Shane_Beach, Characters/Shane_Beach",
-			"FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}.png",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-			},
+			"FromFile": "assets/{{TargetPathOnly}}/Shane/{{TargetWithoutPath}}.png"
 		},
-		{
-            "LogName": "Shane - Joja Sprite",
-            "Action": "EditImage",
-            "Target": "Characters/Shane_JojaMart",
-            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}.png",
-			"When":
-            {
-                "HasFile:{{FromFile}}": true,
-            },
-        },
-		{
-            "LogName": "Shane - Joja Portrait",
-            "Action": "EditImage",
-            "Target": "Portraits/Shane",
-            "FromFile": "assets/Portraits/Shane/Shane_Joja.png",
-			"When":
-            {
-                "HasFile:{{FromFile}}": true,
-                "HasSeenEvent: currentPlayer |contains=191393": false,
-                "LocationName": "JojaMart",
-				"ExtraOutfits": "True",
-            },
-            "Update": "OnLocationChange",
-        },
 		
-// NOSE OVERLAY
-		{
-			"LogName": "Shane - Winter Nose",
-			"Action": "EditImage",
-			"Target": "Characters/Shane_Winter",
-			"FromFile": "assets/Characters/Shane/Shane_nose.png",
-            "PatchMode": "Overlay",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-				"NoNose": "false",
-			},
-		},
+		// NOSE OVERLAY
 		{
 			"LogName": "Shane - Seasonal Nose",
 			"Action": "EditImage",
-			"Target": "Characters/Shane, Characters/Shane_JojaMart",
-            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_nose.png",
+			"Target": "Characters/Shane_Spring, Characters/Shane_Summer, Characters/Shane_Fall, Characters/Shane_Winter_Outdoor, Characters/Shane_Winter_Indoor, Characters/Shane_FlowerDance, Characters/Shane_SpiritsEve, Characters/Shane_EggF, Characters/Shane_Fair, Characters/Shane_Jellies, Characters/Shane_Luau, Characters/Shane_Winter_IceF, Characters/Shane_Winter_WinterStar",
+			"FromFile": "assets/{{TargetPathOnly}}/Shane/Shane_nose.png",
             "PatchMode": "Overlay",
 			"When":
 			{
-				"HasFile:{{FromFile}}": true,
 				"NoNose": "false",
 			},
 		},
+		
+		{
+			"LogName": "Shane - Seasonal Nose",
+			"Action": "EditImage",
+			"Target": "Characters/Shane_JojaMart_Spring, Characters/Shane_JojaMart_Summer, Characters/Shane_JojaMart_Fall, Characters/Shane_JojaMart_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Shane/Shane_JojaMart_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"NoNose": "false",
+			},
+		},
+		
 		{
 			"LogName": "Shane - Beach Nose",
 			"Action": "EditImage",
 			"Target": "Characters/Shane_Beach",
-            "FromFile": "assets/{{TargetPathOnly}}/Beach/{{TargetWithoutPath}}_nose.png",
+            "FromFile": "assets/{{TargetPathOnly}}/Shane/{{TargetWithoutPath}}_nose.png",
             "PatchMode": "Overlay",
 			"When":
 			{
-				"HasFile:{{FromFile}}": true,
 				"NoNose": "false",
 			},
 		},
 		
-// MISCELLANEOUS		
+		//APPEARANCE DATA 
+		{
+			"LogName": "Shane Appearance Data",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Shane", "Appearance"],
+			"Entries": {
+				
+				//Regular Outfits
+				"{{ModId}}.ShaneSpring": {
+					"Id": "{{ModId}}.ShaneSpring",
+					"Condition": "SEASON spring",
+					"Sprite": "Characters/Shane_Spring",
+					"Portrait": "Portraits/Shane_Spring",
+					"Precedence": -120,
+				},
+
+				"{{ModId}}.ShaneSummer": {
+					"Id": "{{ModId}}.ShaneSummer",
+					"Condition": "SEASON Summer",
+					"Sprite": "Characters/Shane_Summer",
+					"Portrait": "Portraits/Shane_Summer",
+					"Precedence": -120,
+				},
+				
+				"{{ModId}}.ShaneFall": {
+					"Id": "{{ModId}}.ShaneFall",
+					"Condition": "SEASON Fall",
+					"Sprite": "Characters/Shane_Fall",
+					"Portrait": "Portraits/Shane_Fall",
+					"Precedence": -120,
+				},
+				
+				"{{ModId}}.ShaneWinterIndoor": {
+					"Id": "{{ModId}}.ShaneWinterIndoor",
+					"Condition": "SEASON Winter, {{WinterIndoorOutdoorOutfits |contains=IndoorOutdoor,IndoorOnly}}",
+					"Sprite": "Characters/Shane_Winter_Indoor",
+					"Portrait": "Portraits/Shane_Winter_Indoor",
+					"Outdoors": "{{WinterIndoorOutdoorOutfits |contains=IndoorOnly}}",
+					"Precedence": -120,
+				},
+				
+				"{{ModId}}.ShaneWinterOutdoor": {
+					"Id": "{{ModId}}.ShaneWinterOutdoor",
+					"Condition": "SEASON Winter, {{WinterIndoorOutdoorOutfits |contains=IndoorOutdoor,OutdoorOnly}}",
+					"Sprite": "Characters/Shane_Winter_Outdoor",
+					"Portrait": "Portraits/Shane_Winter_Outdoor",
+					"Indoors": "{{WinterIndoorOutdoorOutfits |contains=OutdoorOnly}}",
+					"Precedence": -120,
+				},
+				
+				//Festival Outfits
+				
+				"{{ModId}}.ShaneEggFest": {
+					"Id": "{{ModId}}.ShaneEggFest",
+					"Condition": "IS_EVENT festival_spring13, {{FestivalOutfits}}",
+					"Sprite": "Characters/Shane_EggF",
+					"Portrait": "Portraits/Shane_EggF",
+					"Precedence": -1000,
+				},
+				
+				"{{ModId}}.ShaneFlowerDance": {
+					"Id": "{{ModId}}.ShaneFlowerDance",
+					"Condition": "IS_EVENT festival_spring24, {{FestivalOutfits}}",
+					"Sprite": "Characters/Shane_FlowerDance",
+					"Portrait": "Portraits/Shane_FlowerDance",
+					"Precedence": -1000,
+				},
+					
+				"{{ModId}}.ShaneLuau": {
+					"Id": "{{ModId}}.ShaneLuau",
+					"Condition": "IS_EVENT festival_summer11, {{FestivalOutfits}}",
+					"Sprite": "Characters/Shane_Luau",
+					"Portrait": "Portraits/Shane_Luau",
+					"Precedence": -1000,
+				},
+				
+				"{{ModId}}.ShaneJellies": {
+					"Id": "{{ModId}}.ShaneJellies",
+					"Condition": "IS_EVENT festival_summer28, {{FestivalOutfits}}",
+					"Sprite": "Characters/Shane_Jellies",
+					"Portrait": "Portraits/Shane_Jellies",
+					"Precedence": -1000,
+				},
+					
+				"{{ModId}}.ShaneFair": {
+					"Id": "{{ModId}}.ShaneFair",
+					"Condition": "IS_EVENT festival_fall16, {{FestivalOutfits}}",
+					"Sprite": "Characters/Shane_Fair",
+					"Portrait": "Portraits/Shane_Fair",
+					"Precedence": -1000,
+				},
+				
+				"{{ModId}}.ShaneSpirit": {
+					"Id": "{{ModId}}.ShaneSpirit",
+					"Condition": "ANY \"IS_EVENT festival_fall27, {{FestivalOutfits}}\" \"SEASON Fall, DAY_OF_MONTH 27, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn, {{FestivalOutfits}}\"",
+					"Sprite": "Characters/Shane_SpiritsEve",
+					"Portrait": "Portraits/Shane_SpiritsEve",
+					"Precedence": -1000,
+				},
+					
+				"{{ModId}}.ShaneIceFestival": {
+					"Id": "{{ModId}}.ShaneIceFestival",
+					"Condition": "IS_EVENT festival_winter8, {{FestivalOutfits}}",
+					"Sprite": "Characters/Shane_Winter_IceF",
+					"Portrait": "Portraits/Shane_Winter_IceF",
+					"Precedence": -1000,
+				},
+				
+				"{{ModId}}.ShaneWinterStar": {
+					"Id": "{{ModId}}.ShaneWinterStar",
+					"Condition": "IS_EVENT festival_winter25, {{FestivalOutfits}}",
+					"Sprite": "Characters/Shane_Winter_WinterStar",
+					"Portrait": "Portraits/Shane_Winter_WinterStar",
+					"Precedence": -1000,
+				},
+				
+				//Beach
+				
+				"{{ModId}}.ShaneBeach": {
+					"Id": "{{ModId}}.ShaneBeach",
+					"Sprite": "Characters/Shane_Beach",
+					"Portrait": "Portraits/Shane_Beach",
+					"IsIslandAttire": true,
+					"Precedence": -10000,
+				},
+				
+				//Work
+				"{{ModId}}.ShaneJoja": {
+					"Id": "{{ModId}}.ShaneJoja",
+					"Condition": "LOCATION_NAME Target JojaMart, !PLAYER_HAS_SEEN_EVENT Any 191393",
+					"Sprite": "Characters/Shane_JojaMart_{{Season}}",
+					"Portrait": "Portraits/Shane_Joja",
+					"Precedence": -10000, //Shane's original work outfit has 1000 precedence - this will cause it to fire over Vanilla's
+				},
+			},
+		},
+		
+// MISCELLANEOUS
 		{
 			"LogName": "Shane - Emoji",
 			"Action": "EditImage",
@@ -169,5 +230,17 @@
 				"HasFile:{{FromFile}}": true,
 			},
 		},
+		{
+			"LogName": "Shane - Spouse Picture",
+			"Action": "EditImage",
+			"Target": "TileSheets/junimo_furniture",
+            "FromFile": "assets/Characters/junimo_furniture.png",
+			"FromArea": {"X": 71, "Y": 311, "Width": 18, "Height": 18},
+			"ToArea": {"X": 71, "Y": 311, "Width": 18, "Height": 18},
+			"When": 
+			{
+				"HasFile:{{FromFile}}": true,
+			},
+		},			
 	]
 }

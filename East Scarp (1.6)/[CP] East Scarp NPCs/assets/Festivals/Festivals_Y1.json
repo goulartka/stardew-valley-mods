@@ -279,6 +279,16 @@
                     ],
                     "Value": "Aideen 22 4 2/Eloise 5 7 down/Jacob 4 7 2/Rosa 10 10 3",
                     "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "set-up",
+                        7
+                    ],
+                    "Value": "addLantern 735 98 43 3",
+                    "Delimiter": "/"
                 }
             ]
         },

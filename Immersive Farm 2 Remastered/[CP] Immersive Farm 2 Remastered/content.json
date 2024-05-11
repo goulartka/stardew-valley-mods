@@ -146,6 +146,28 @@
       "ToArea": { "X": 0, "Y": 43, "Width": 142, "Height": 61 },
       "When": { "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
     },*/
+	
+	{
+      "Action": "Load", "Priority": "Low",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Spring_IF2R_WorldMap",
+      "FromFile": "assets/Maps/WorldMaps/Spring_IF2R_WorldMap.png"
+    },
+    {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Summer_IF2R_WorldMap",
+      "FromFile": "assets/Maps/WorldMaps/Summer_IF2R_WorldMap.png"
+    },
+    {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Fall_IF2R_WorldMap",
+      "FromFile": "assets/Maps/WorldMaps/Fall_IF2R_WorldMap.png"
+    },
+    {
+      "Action": "Load", "Priority": "Low",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Winter_IF2R_WorldMap",
+      "FromFile": "assets/Maps/WorldMaps/Winter_IF2R_WorldMap.png"
+    },
+	
     {
       "Action": "EditImage",
       "Target": "LooseSprites/Map",

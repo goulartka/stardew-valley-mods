@@ -145,6 +145,7 @@
                     "SpriteIndex": 0,
                     "Edibility": -300,
                     "IsDrink": false,
+					"CanBeTrashed": false,
                     "ExcludeFromFishingCollection": true,
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true,
@@ -164,7 +165,7 @@
                     "Edibility": -10,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_pink",
@@ -356,7 +357,7 @@
                     "Edibility": -30,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_white",
@@ -376,7 +377,7 @@
                     "Edibility": 10,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_river",
@@ -396,7 +397,7 @@
                     "Edibility": 20,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_yellow",
@@ -417,7 +418,7 @@
                     "Edibility": 20,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_orange",
@@ -438,7 +439,7 @@
                     "Edibility": -60,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_orange",
@@ -577,7 +578,7 @@
                     "Edibility": -30,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_green",
@@ -629,7 +630,7 @@
                     "Edibility": -12,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_white",
@@ -702,7 +703,7 @@
                     "Edibility": 5,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_yellow",
@@ -791,7 +792,7 @@
                     "Edibility": 15,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "fish_river",
@@ -983,7 +984,7 @@
                     "Edibility": 52,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_white",
@@ -1004,7 +1005,7 @@
                     "Edibility": 40,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_white",
@@ -1014,14 +1015,15 @@
                 },
                 "FlashShifter.StardewValleyExpandedCP_Lance's_Schedule": {
                     "Name": "Lance's Schedule",
-                    "DisplayName": "{{i18n:object.lance-schelude.name}}",
-                    "Description": "{{i18n:object.lance-schelude.description}}",
+                    "DisplayName": "{{i18n:object.lance-schedule.name}}",
+                    "Description": "{{i18n:object.lance-schedule.description}}",
                     "Type": "0",
                     "Category": 0,
                     "Price": 0,
                     "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\Lance's_Schedule",
                     "SpriteIndex": 0,
                     "Edibility": -300,
+					"CanBeTrashed": false,
                     "ExcludeFromFishingCollection": true,
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true,
@@ -1092,7 +1094,7 @@
                     "Edibility": -25,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_pink",
@@ -1127,7 +1129,7 @@
                     "Edibility": -20,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_purple",
@@ -1147,7 +1149,7 @@
                     "Edibility": 1,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_gray",
@@ -1317,6 +1319,7 @@
                     "SpriteIndex": 0,
                     "Edibility": -300,
                     "IsDrink": false,
+					"CanBeTrashed": false,
                     "ExcludeFromFishingCollection": true,
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true,
@@ -1333,7 +1336,7 @@
                     "Edibility": 40,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_brown",
@@ -1354,7 +1357,7 @@
                     "Edibility": -50,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_green",
@@ -1449,7 +1452,7 @@
                     "Edibility": -25,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_yellow",
@@ -1469,7 +1472,7 @@
                     "Edibility": 5,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_yellow",
@@ -1521,7 +1524,7 @@
                     "Edibility": -50,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_blue",
@@ -1574,7 +1577,7 @@
                     "Edibility": 13,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "colorbrown",
@@ -1658,7 +1661,7 @@
                     "Edibility": -20,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_red",
@@ -1762,7 +1765,7 @@
                     "Edibility": -10,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_red",
@@ -1782,7 +1785,7 @@
                     "Edibility": -60,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_green",
@@ -1837,7 +1840,7 @@
                     "Edibility": -200,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_black",
@@ -1966,7 +1969,7 @@
                     "Edibility": 40,
                     "IsDrink": false,
                     "ExcludeFromFishingCollection": false,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
                         "color_white",

@@ -1,39 +1,88 @@
 {
 	"Changes": [
+		
+		// OUTFIT LOADS
+	
 		{
-			"LogName": "Linus - Winter",
-			"Action": "EditImage",
-			"Target": "Portraits/Linus_Winter, Characters/Linus_Winter",
-			"FromFile": "assets/{{TargetPathOnly}}/Linus/{{TargetWithoutPath}}{{IndoorVariant}}.png",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-			},
-		},
-		{
-			"LogName": "Linus - Seasonal",
-			"Action": "EditImage",
-			"Target": "Portraits/Linus, Characters/Linus",
-			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-			},
-		},
-		{
-			"LogName": "Linus - Festival",
-			"Action": "EditImage",
-			"Target": "Portraits/Linus, Characters/Linus, Portraits/Linus_Winter, Characters/Linus_Winter",
-            "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-				"FestivalOutfits": "True",
-			},
-			"Update": "OnLocationChange",
+			"LogName": "Load Linus's Outfits",
+			"Action": "Load",
+			"Priority": "High",
+			"Target": "Portraits/Linus_Spring, Portraits/Linus_Summer, Portraits/Linus_Fall, Portraits/Linus_Winter_Outdoor, Portraits/Linus_Winter_Indoor, Portraits/Linus_FlowerDance, Portraits/Linus_SpiritsEve, Characters/Linus_Spring, Characters/Linus_Summer, Characters/Linus_Fall, Characters/Linus_Winter_Outdoor, Characters/Linus_Winter_Indoor, Characters/Linus_FlowerDance, Characters/Linus_SpiritsEve",
+			"FromFile": "assets/{{TargetPathOnly}}/Linus/{{TargetWithoutPath}}.png"
 		},
 		
-// MISCELLANEOUS		
+		//APPEARANCE DATA 
+		{
+			"LogName": "Linus Appearance Data",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Linus", "Appearance"],
+			"Entries": {
+				
+				//Regular Outfits
+				"{{ModId}}.LinusSpring": {
+					"Id": "{{ModId}}.LinusSpring",
+					"Condition": "SEASON spring",
+					"Sprite": "Characters/Linus_Spring",
+					"Portrait": "Portraits/Linus_Spring",
+					"Precedence": -120,
+				},
+
+				"{{ModId}}.LinusSummer": {
+					"Id": "{{ModId}}.LinusSummer",
+					"Condition": "SEASON Summer",
+					"Sprite": "Characters/Linus_Summer",
+					"Portrait": "Portraits/Linus_Summer",
+					"Precedence": -120,
+				},
+				
+				"{{ModId}}.LinusFall": {
+					"Id": "{{ModId}}.LinusFall",
+					"Condition": "SEASON Fall",
+					"Sprite": "Characters/Linus_Fall",
+					"Portrait": "Portraits/Linus_Fall",
+					"Precedence": -120,
+				},
+				
+				"{{ModId}}.LinusWinterIndoor": {
+					"Id": "{{ModId}}.LinusWinterIndoor",
+					"Condition": "SEASON Winter, {{WinterIndoorOutdoorOutfits |contains=IndoorOutdoor,IndoorOnly}}",
+					"Sprite": "Characters/Linus_Winter_Indoor",
+					"Portrait": "Portraits/Linus_Winter_Indoor",
+					"Outdoors": "{{WinterIndoorOutdoorOutfits |contains=IndoorOnly}}",
+					"Precedence": -120,
+				},
+				
+				"{{ModId}}.LinusWinterOutdoor": {
+					"Id": "{{ModId}}.LinusWinterOutdoor",
+					"Condition": "SEASON Winter, {{WinterIndoorOutdoorOutfits |contains=IndoorOutdoor,OutdoorOnly}}",
+					"Sprite": "Characters/Linus_Winter_Outdoor",
+					"Portrait": "Portraits/Linus_Winter_Outdoor",
+					"Indoors": "{{WinterIndoorOutdoorOutfits |contains=OutdoorOnly}}",
+					"Precedence": -120,
+				},
+				
+				//Festival Outfits
+				
+				"{{ModId}}.LinusFlowerDance": {
+					"Id": "{{ModId}}.LinusFlowerDance",
+					"Condition": "IS_EVENT festival_spring24, {{FestivalOutfits}}",
+					"Sprite": "Characters/Linus_FlowerDance",
+					"Portrait": "Portraits/Linus_FlowerDance",
+					"Precedence": -1000,
+				},
+				
+				"{{ModId}}.LinusSpirit": {
+					"Id": "{{ModId}}.LinusSpirit",
+					"Condition": "ANY \"IS_EVENT festival_fall27, {{FestivalOutfits}}\" \"SEASON Fall, DAY_OF_MONTH 27, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn, {{FestivalOutfits}}\"",
+					"Sprite": "Characters/Linus_SpiritsEve",
+					"Portrait": "Portraits/Linus_SpiritsEve",
+					"Precedence": -1000,
+				},
+			},
+		},
+		
+// MISCELLANEOUS
 		{
 			"LogName": "Linus - Bundle Sprite",
 			"Action": "EditImage",

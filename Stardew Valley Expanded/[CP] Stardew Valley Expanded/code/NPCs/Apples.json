@@ -26,9 +26,9 @@
           "SpouseWantsChildren": false,
           "SopuseGetsJealous": false,
           "CanSocialize": true,
-          "CanVisitIslandCondition": "FALSE",
+          "CanVisitIsland": "FALSE",
           "ExcludeFromIntroductionsQuest": true,
-          "ExcludeFromPerfectionScore": true,
+          "PerfectionScore": true,
           "EndSlideShow": "TrailingGroup",
           "SpouseRoom": {
             "MapAsset": "Custom_ApplesRoommate",
@@ -168,7 +168,7 @@
       "Action": "EditData",
       "Target": "Data/MoviesReactions",
       "Entries": {
-        "Victor": {
+        "Apples": {
           "NPCName": "Apples",
           "Reactions": [
             {

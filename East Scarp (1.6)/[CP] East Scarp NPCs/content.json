@@ -654,7 +654,6 @@
 			"Action": "Include",
 			"FromFile": "assets/Festivals/Festivals_y1.json",
 			"When": {
-				"IsEvenYear": false,
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
@@ -662,7 +661,6 @@
 			"Action": "Include",
 			"FromFile": "assets/Festivals/Festivals_y2.json",
 			"When": {
-				"IsEvenYear": true,
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
@@ -670,7 +668,6 @@
 			"Action": "Include",
 			"FromFile": "assets/Festivals/Festivals_y1_SVE.json",
 			"When": {
-				"IsEvenYear": false,
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
@@ -678,7 +675,6 @@
 			"Action": "Include",
 			"FromFile": "assets/Festivals/Festivals_y2_SVE.json",
 			"When": {
-				"IsEvenYear": true,
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},

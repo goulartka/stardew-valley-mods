@@ -21,9 +21,9 @@
           "Calendar": "HiddenAlways",
           "SocialTab": "HiddenAlways",
           "CanSocialize": false,
-          "CanVisitIslandCondition": "FALSE",
+          "CanVisitIsland": "FALSE",
           "ExcludeFromIntroductionsQuest": true,
-          "ExcludeFromPerfectionScore": true,
+          "PerfectionScore": true,
           "EndSlideShow": "TrailingGroup",
           "FriendsAndFamily": {},
           "UnlockConditions": null,
@@ -67,6 +67,11 @@
       "Target": "Characters/schedules/Isaac",
       "FromFile": "assets/CharacterFiles/Schedules/Isaac/Isaac.json"
     },
+	{
+      "Action": "Load", "Priority": "Low",
+      "Target": "Strings/Schedules/Isaac",
+      "FromFile": "Assets/Blank.json"
+    },
     { //Isaac visits the adventurer guild
       "Action": "EditData",
       "Target": "characters/schedules/Isaac",
@@ -79,16 +84,17 @@
         "11": "0 Custom_Isaac_WarpRoom 3 3 2/610 AdventureGuild 11 16 3/1300 Custom_AdventurerSummit 42 27 1/1710 AdventureGuild 3 13 2",
         "26": "0 Custom_Isaac_WarpRoom 3 3 2/610 AdventureGuild 6 13 2",
         "27": "0 Custom_Isaac_WarpRoom 3 3 2/610 AdventureGuild 11 14 3/1150 Custom_AdventurerSummit 34 25 1/1800 AdventureGuild 11 14 3",
-        "DesertFestival_1": "0 Desert 14 7 3 \"Strings\\schedules\\IsaacDesertFestival_Isaac\"",
-        "DesertFestival_2": "0 Desert 14 7 3 \"Strings\\schedules\\IsaacDesertFestival_Isaac\"",
-        "DesertFestival_3": "0 Desert 14 7 3 \"Strings\\schedules\\IsaacDesertFestival_Isaac\"",
+        "DesertFestival_1": "0 Desert 14 7 3/610 Desert 14 7 3 \"Strings\\schedules\\Isaac:DesertFestival_Isaac\"",
+        "DesertFestival_2": "0 Desert 14 7 3/610 Desert 14 7 3 \"Strings\\schedules\\Isaac:DesertFestival_Isaac\"",
+        "DesertFestival_3": "0 Desert 14 7 2/610 Desert 14 7 2 \"Strings\\schedules\\Isaac:DesertFestival_Isaac_AlesiaGone\"",
       }
     },
     {
       "Action": "EditData",
       "Target": "Strings/Schedules/Isaac",
       "Entries": {
-        "DesertFestival_Isaac": "{{i18n:DesertFestival_Isaac}}"
+        "DesertFestival_Isaac": "{{i18n:DesertFestival_Isaac}}",
+		"DesertFestival_Isaac_AlesiaGone": "{{i18n:DesertFestival_Isaac_AlesiaGone}}"
       }
     },
     {

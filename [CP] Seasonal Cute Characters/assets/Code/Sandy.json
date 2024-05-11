@@ -1,39 +1,87 @@
 {
 	"Changes": [
+		
+		// OUTFIT LOADS
+	
 		{
-			"LogName": "Sandy - Seasonal",
-			"Action": "EditImage",
-			"Target": "Portraits/Sandy, Characters/Sandy",
-			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}.png",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-			},
-		},
-		{
-			"LogName": "Sandy - Festival",
-			"Action": "EditImage",
-			"Target": "Portraits/Sandy, Characters/Sandy",
-            "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-				"FestivalOutfits": "True",
-			},
-			"Update": "OnLocationChange",
+			"LogName": "Load Sandy's Outfits",
+			"Action": "Load",
+			"Priority": "High",
+			"Target": "Portraits/Sandy_Spring, Portraits/Sandy_Summer, Portraits/Sandy_Fall, Portraits/Sandy_Winter, Portraits/Sandy_FlowerDance, Portraits/Sandy_SpiritsEve, Characters/Sandy_Spring, Characters/Sandy_Summer, Characters/Sandy_Fall, Characters/Sandy_Winter, Characters/Sandy_FlowerDance, Characters/Sandy_SpiritsEve",
+			"FromFile": "assets/{{TargetPathOnly}}/Sandy/{{TargetWithoutPath}}.png"
 		},
 		
-// NOSE OVERLAY
+		// NOSE OVERLAY
 		{
 			"LogName": "Sandy - Seasonal Nose",
 			"Action": "EditImage",
-			"Target": "Characters/Sandy",
-            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_nose.png",
+			"Target": "Characters/Sandy_Spring, Characters/Sandy_Summer, Characters/Sandy_Fall, Characters/Sandy_Winter, Characters/Sandy_FlowerDance, Characters/Sandy_SpiritsEve",
+			"FromFile": "assets/{{TargetPathOnly}}/Sandy/Sandy_nose.png",
             "PatchMode": "Overlay",
 			"When":
 			{
-				"HasFile:{{FromFile}}": true,
 				"NoNose": "false",
+			},
+		},
+
+		//APPEARANCE DATA 
+		{
+			"LogName": "Sandy Appearance Data",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Sandy", "Appearance"],
+			"Entries": {
+				
+				//Regular Outfits
+				"{{ModId}}.SandySpring": {
+					"Id": "{{ModId}}.SandySpring",
+					"Condition": "SEASON spring",
+					"Sprite": "Characters/Sandy_Spring",
+					"Portrait": "Portraits/Sandy_Spring",
+					"Precedence": -120,
+				},
+
+				"{{ModId}}.SandySummer": {
+					"Id": "{{ModId}}.SandySummer",
+					"Condition": "SEASON Summer",
+					"Sprite": "Characters/Sandy_Summer",
+					"Portrait": "Portraits/Sandy_Summer",
+					"Precedence": -120,
+				},
+				
+				"{{ModId}}.SandyFall": {
+					"Id": "{{ModId}}.SandyFall",
+					"Condition": "SEASON Fall",
+					"Sprite": "Characters/Sandy_Fall",
+					"Portrait": "Portraits/Sandy_Fall",
+					"Precedence": -120,
+				},
+				
+				"{{ModId}}.SandyWinterIndoor": {
+					"Id": "{{ModId}}.SandyWinterIndoor",
+					"Condition": "SEASON Winter",
+					"Sprite": "Characters/Sandy_Winter",
+					"Portrait": "Portraits/Sandy_Winter",
+					"Precedence": -120,
+				},
+				
+				//Festival Outfits
+				
+				"{{ModId}}.SandyFlowerDance": {
+					"Id": "{{ModId}}.SandyFlowerDance",
+					"Condition": "IS_EVENT festival_spring24, {{FestivalOutfits}}",
+					"Sprite": "Characters/Sandy_FlowerDance",
+					"Portrait": "Portraits/Sandy_FlowerDance",
+					"Precedence": -1000,
+				},
+				
+				"{{ModId}}.SandySpirit": {
+					"Id": "{{ModId}}.SandySpirit",
+					"Condition": "ANY \"IS_EVENT festival_fall27, {{FestivalOutfits}}\" \"SEASON Fall, DAY_OF_MONTH 27, LOCATION_NAME Target EastScarp_Village EastScarp_VillageInn, {{FestivalOutfits}}\"",
+					"Sprite": "Characters/Sandy_SpiritsEve",
+					"Portrait": "Portraits/Sandy_SpiritsEve",
+					"Precedence": -1000,
+				},
 			},
 		},
 		

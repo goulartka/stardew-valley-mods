@@ -21,9 +21,9 @@
             "Calendar": "HiddenUntilMet",
             "SocialTab": "HiddenUntilMet",
             "CanSocialize": true,
-            "CanVisitIslandCondition": "FALSE",
+            "CanVisitIsland": "FALSE",
             "ExcludeFromIntroductionsQuest": true,
-            "ExcludeFromPerfectionScore": false,
+            "PerfectionScore": false,
             "EndSlideShow": "MainGroup",
             "FriendsAndFamily": {},
             "WinterStarParticipant": false,
@@ -113,7 +113,7 @@
         "Action": "EditData",
         "Target": "Data/MoviesReactions",
         "Entries": {
-          "Victor": {
+          "Morgan": {
             "NPCName": "Morgan",
             "Reactions": [
               {

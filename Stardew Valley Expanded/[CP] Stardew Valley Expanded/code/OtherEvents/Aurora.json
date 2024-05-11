@@ -49,16 +49,16 @@
                     "MorrisTod_Objective_1_Text3": "{{i18n:Morris.AuroraString.03}}",
                }
           },
-          { //Buying Aurora Vineyard - part 1 
+          { //Buying Aurora Vineyard - part 1     Requirements: Player has visited Joja Emporium at least once, player has built Morris' townhouse, must be sunny, must be a Tuesday, must be host player, removed the railroad boulder, built the island resort
                "Action": "EditData",
                "Target": "data/events/farm",
                "When": {
                     "HasSeenEvent |contains=5553214": true,
                     "HasSeenEvent |contains=8050109": true,
                     "HasFlag |contains=Island_Resort": true
-               }, //Player has visited Joja Emporium at least once, player has built Morris' townhouse, must be sunny, must be a Tuesday, must be host player, removed the railroad boulder, built the island resort
+               },
                "Entries": {
-                    "746153081/e 6663408/k 8033858/u 2 9 16 23/t 600 1100/w sunny/H": "continue/-500 -500/farmer 95 49 2 MorrisTod 95 51 0/pause 1250/speak MorrisTod \"{{i18n:Joja.Aurora1.01}}\"/pause 400/emote farmer 16/pause 200/speak MorrisTod \"{{i18n:Joja.Aurora1.02}}\"/globalFade/viewport -1000 -1000/pause 1000/question fork0 \"{{i18n:Joja.Aurora1.03}}\"/fork 746153081_PurchasedAuroraVineyard/pause 1000/message \"{{i18n:Joja.Aurora1.04}}\"/pause 500/end dialogue MorrisTod \"{{i18n:Joja.Aurora1.05}}\"",
+                    "746153081/e 6663408/u 2 9 16 23/t 600 1100/w sunny/H": "continue/-500 -500/farmer 95 49 2 MorrisTod 95 51 0/pause 1250/speak MorrisTod \"{{i18n:Joja.Aurora1.01}}\"/pause 400/emote farmer 16/pause 200/speak MorrisTod \"{{i18n:Joja.Aurora1.02}}\"/globalFade/viewport -1000 -1000/pause 1000/question fork0 \"{{i18n:Joja.Aurora1.03}}\"/fork 746153081_PurchasedAuroraVineyard/pause 1000/message \"{{i18n:Joja.Aurora1.04}}\"/pause 500/end dialogue MorrisTod \"{{i18n:Joja.Aurora1.05}}\"",
                     "746153081_PurchasedAuroraVineyard": "pause 400/addMailReceived PlayerWillBuyAuroraVineyard/pause 100/message \"{{i18n:Joja.Aurora1.Purchased.01}}\"/pause 500/end dialogue MorrisTod \"{{i18n:Joja.Aurora1.Purchased.02}}\""
                },
           },

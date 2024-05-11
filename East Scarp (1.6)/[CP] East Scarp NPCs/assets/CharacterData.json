@@ -353,7 +353,7 @@
                     "Home": [
                         {
                             "Id": "JosephineLeaves",
-                            "Location": "EastScarp_VetHouse ",
+                            "Location": "EastScarp_VetHouse",
                             "Tile": {
                                 "X": 18,
                                 "Y": 21

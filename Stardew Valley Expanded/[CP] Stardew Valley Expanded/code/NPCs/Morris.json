@@ -21,9 +21,9 @@
           "Calendar": "AlwaysShown",
           "SocialTab": "AlwaysShown",
           "CanSocialize": true,
-          "CanVisitIslandCondition": "FALSE",
+          "CanVisitIsland": "FALSE",
           "ExcludeFromIntroductionsQuest": false,
-          "ExcludeFromPerfectionScore": true,
+          "PerfectionScore": true,
           "EndSlideShow": "TrailingGroup",
           "FriendsAndFamily": {},
           "WinterStarParticipant": false,
@@ -672,7 +672,7 @@
         "HasSeenEvent |contains=191393": false
       },
       "Entries": {
-        "6663915/k 191393/w sunny/f MorrisTod 1500/t 2400 2600": "spring_night_ambient/-500 -500/farmer 80 53 1 Morris 95 51 0/pause 700/viewport 95 52 true/skippable/move farmer 15 0 0 true/pause 1300/shake Morris 500/playSound openBox/pause 1500/shake Morris 400/playSound openBox/pause 800/speak Morris \"{{i18n:Morris.6hearts.01}}\"/pause 600/emote Morris 12/pause 1000/faceDirection Morris 1 true/pause 250/faceDirection Morris 2 true/pause 400/speak Morris \"{{i18n:Morris.6hearts.02}}\"/pause 400/move farmer 0 -1 1/move farmer 1 0 0/move farmer 0 -1 3 true/pause 350/faceDirection Morris 1 true/pause 500/emote farmer 40 true/pause 400/speak Morris \"{{i18n:Morris.6hearts.03}}\"/faceDirection farmer 0/pause 200/startJittering/playSound openBox/pause 180/playSound money/pause 350/stopJittering/pause 200/emote Morris 16 true/pause 300/faceDirection farmer 3/pause 450/speak Morris \"{{i18n:Morris.6hearts.04}}\"/pause 1000/question fork0 \"{{i18n:Morris.6hearts.05}}\"/pause 100/fork 6663915_LongHours/pause 400/speak Morris \"{{i18n:Morris.6hearts.06}}\"/pause 200/globalFade/viewport -1000 -1000/end dialogue Morris \"{{i18n:Morris.6hearts.07}}\"",
+        "6663915/k 191393/w sunny/f MorrisTod 1500/t 2400 2600": "spring_night_ambient/-500 -500/farmer 80 53 1 Morris 95 51 0/pause 700/viewport 95 52 true/skippable/move farmer 15 0 0 true/pause 1300/shake Morris 500/playSound openBox/pause 1500/shake Morris 400/playSound openBox/pause 800/speak Morris \"{{i18n:Morris.6hearts.01}}\"/pause 600/emote Morris 12/pause 1000/faceDirection Morris 1 true/pause 250/faceDirection Morris 2 true/pause 400/speak Morris \"{{i18n:Morris.6hearts.02}}\"/pause 400/move farmer 0 -1 1/move farmer 1 0 0/move farmer 0 -1 3 true/pause 350/faceDirection Morris 1 true/pause 500/emote farmer 40 true/pause 400/speak Morris \"{{i18n:Morris.6hearts.03}}\"/faceDirection farmer 0/pause 200/startJittering/playSound openBox/pause 180/playSound money/pause 350/stopJittering/pause 200/emote Morris 16 true/pause 300/faceDirection farmer 3/pause 450/speak Morris \"{{i18n:Morris.6hearts.04}}\"/pause 1000/question fork0 \"{{i18n:Morris.6hearts.05}}\"/pause 100/fork 6663915_LongHours/pause 400/speak Morris \"{{i18n:Morris.6hearts.06}}\"/pause 200/globalFade/viewport -1000 -1000/end dialogue MorrisTod \"{{i18n:Morris.6hearts.07}}\"",
         "6663915_LongHours": "pause 1000/faceDirection Morris 2/pause 700/move Morris 0 2 2 true/pause 450/faceDirection farmer 2 true/pause 1100/showFrame Morris 32/pause 1500/speak Morris \"{{i18n:Morris.6hearts.LongHours.01}}\"/pause 1000/showFrame Morris 0/pause 800/showFrame Morris 35/pause 1100/speak Morris \"{{i18n:Morris.6hearts.LongHours.02}}\"/pause 600/emote farmer 40 true/pause 800/faceDirection Morris 1 true/pause 250/faceDirection Morris 0 true/pause 450/speak Morris \"{{i18n:Morris.6hearts.LongHours.03}}\"/pause 600/faceDirection Morris 3 true/pause 500/move Morris -8 0 3 true/pause 500/faceDirection farmer 3 true/pause 1000/globalFade/viewport -1000 -1000/halt/pause 1200/message \"{{i18n:Morris.6hearts.LongHours.04}}\"/pause 1000/end dialogue MorrisTod \"{{i18n:Morris.6hearts.LongHours.05}}\"",
       },
     },

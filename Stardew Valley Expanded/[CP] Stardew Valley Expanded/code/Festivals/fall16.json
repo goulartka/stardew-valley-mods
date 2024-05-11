@@ -198,9 +198,6 @@
         { //YEAR ONE fair festival data
             "Action": "EditData",
             "Target": "Data/Festivals/fall16",
-            "When": {
-                "IsOddYear": true
-            },
             "TextOperations": [
                 { //Victor
                     "Operation": "Append",
@@ -263,7 +260,6 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "HasSeenEvent": "6665293",
-                "IsOddYear": true
             },
             "TextOperations": [
                 {
@@ -282,7 +278,6 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "HasSeenEvent": "3219873",
-                "IsOddYear": true
             },
             "TextOperations": [
                 {
@@ -301,7 +296,6 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "HasSeenEvent": "3219873",
-                "IsOddYear": true
             },
             "TextOperations": [
                 {
@@ -320,7 +314,6 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "GuntherUnlocked": "true",
-                "IsOddYear": true
             },
             "TextOperations": [
                 {
@@ -339,7 +332,6 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "HasSeenEvent": "3691371",
-                "IsOddYear": true
             },
             "TextOperations": [
                 {
@@ -359,7 +351,6 @@
             "When": {
                 "ApplesHere": "true",
                 "Roommate": "Apples",
-                "IsOddYear": true
             },
             "TextOperations": [
                 {
@@ -378,7 +369,6 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "HasSeenEvent": "5978924",
-                "IsOddYear": true
             },
             "TextOperations": [
                 {
@@ -397,7 +387,6 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "Spouse": "Lance",
-                "IsOddYear": true
             },
             "TextOperations": [
                 {
@@ -416,7 +405,6 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "HasSeenEvent": "7502582",
-                "IsOddYear": true
             },
             "TextOperations": [
                 {
@@ -435,7 +423,6 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "HasSeenEvent": "908079",
-                "IsOddYear": true,
             },
             "TextOperations": [
                 {
@@ -454,7 +441,6 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "Hearts:Sandy": "{{Range: 5, 14}}",
-                "IsOddYear": true,
             },
             "TextOperations": [
                 {
@@ -471,15 +457,12 @@
         { //YEAR TWO fair festival data
             "Action": "EditData",
             "Target": "Data/Festivals/fall16",
-            "When": {
-                "IsOddYear": false
-            },
             "TextOperations": [
                 { //Victor
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Victor 32 67 up",
                     "Delimiter": "/"
@@ -488,7 +471,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Olivia 32 65 down",
                     "Delimiter": "/"
@@ -497,7 +480,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Andy 49 65 down",
                     "Delimiter": "/"
@@ -506,7 +489,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Susan 49 71 down",
                     "Delimiter": "/"
@@ -515,7 +498,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Sophia 47 60 down",
                     "Delimiter": "/"
@@ -524,7 +507,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "MarlonFay 20 76 down",
                     "Delimiter": "/"
@@ -536,14 +519,13 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "HasSeenEvent": "6665293",
-                "IsOddYear": false
             },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "MorrisTod 27 53 down",
                     "Delimiter": "/"
@@ -555,14 +537,13 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "HasSeenEvent": "3219873",
-                "IsOddYear": false
             },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Martin 17 30 down",
                     "Delimiter": "/"
@@ -574,14 +555,13 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "HasSeenEvent": "3219873",
-                "IsOddYear": false
             },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Claire 15 30 down",
                     "Delimiter": "/"
@@ -593,14 +573,13 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "GuntherUnlocked": "true",
-                "IsOddYear": false
             },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "GuntherSilvian 13 52 down",
                     "Delimiter": "/"
@@ -612,14 +591,13 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "HasSeenEvent": "3691371",
-                "IsOddYear": false
             },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Scarlett 46 64 up",
                     "Delimiter": "/"
@@ -632,14 +610,13 @@
             "When": {
                 "ApplesHere": "true",
                 "Roommate": "Apples",
-                "IsOddYear": false
             },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Apples 47 33 down",
                     "Delimiter": "/"
@@ -651,14 +628,13 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "HasSeenEvent": "5978924",
-                "IsOddYear": false
             },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Morgan 43 90 right",
                     "Delimiter": "/"
@@ -670,14 +646,13 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "HasSeenEvent": "7502582",
-                "IsOddYear": false
             },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Alesia 26 77 down",
                     "Delimiter": "/"
@@ -689,14 +664,13 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "HasSeenEvent": "908079",
-                "IsOddYear": false,
             },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Isaac 18 77 right",
                     "Delimiter": "/"
@@ -708,14 +682,13 @@
             "Target": "Data/Festivals/fall16",
             "When": {
                 "Spouse": "Lance",
-                "IsOddYear": false
             },
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Lance 18 75 down",
                     "Delimiter": "/"
@@ -724,39 +697,40 @@
         },
         //Festival Loads
         {
-            "Action": "Load", "Priority": "Low",
+            "Action": "Load",
+            "Priority": "Low",
             "Target": "Maps/Town-Fair",
             "When": {
-               "HasSeenEvent |contains=5553210": false,
-
+                "HasSeenEvent |contains=5553210": false,
             },
             "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-Fair.tmx"
         },
         {
-            "Action": "Load", "Priority": "Low",
+            "Action": "Load",
+            "Priority": "Low",
             "Target": "Maps/Town-Fair2",
             "When": {
-               "HasSeenEvent |contains=5553210": false,
+                "HasSeenEvent |contains=5553210": false,
             },
             "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-Fair2.tmx"
         },
         {
-            "Action": "Load", "Priority": "Low",
+            "Action": "Load",
+            "Priority": "Low",
             "Target": "Maps/Town-Fair",
             "When": {
-               "HasSeenEvent |contains=5553210": true,
-
+                "HasSeenEvent |contains=5553210": true,
             },
             "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-Fair_Joja.tmx"
         },
         {
-            "Action": "Load", "Priority": "Low",
+            "Action": "Load",
+            "Priority": "Low",
             "Target": "Maps/Town-Fair2",
             "When": {
-               "HasSeenEvent |contains=5553210": true,
+                "HasSeenEvent |contains=5553210": true,
             },
             "FromFile": "Assets/Maps/FestivalMaps/Town-SVE-Fair2_Joja.tmx"
         },
-
     ]
 }

@@ -28,18 +28,9 @@
             "FlashShifter.StardewValleyExpandedCP_Grass_Carp": "Grass Carp/85/mixed/24/42/600 2600/spring summer/both/690 .4/3/.10/.5/0/false",
             "FlashShifter.StardewValleyExpandedCP_Bull_Trout": "Bull Trout/45/mixed/12/25/600 2600/fall winter/both/690 .4/3/.22/.5/0/false",
             "FlashShifter.StardewValleyExpandedCP_Water_Grub": "Water Grub/60/sinker/10/21/600 2600/spring summer fall winter/both/690 .4/3/.40/.5/0/false",
-            "FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": "Dulse Seaweed/1/sinker/5/30/600 2600/spring summer fall winter/both/-1/0/.1/0/0/false",
+            "FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": "Dulse Seaweed/null/sinker/5/30/600 2600/spring summer fall winter/both/-1/0/.1/0/0/false",
             "FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": "Snatcher Worm/75/Dart/18/42/600 2600/spring summer fall winter/both/690 .4/3/.12/.5/0/false",
-         }
-      },
-      {
-         "Action": "EditData",
-         "Target": "Data/Fish",
-         "When": {
-            "HasMod |contains=MoreFish": false
-         },
-         "Entries": {
-            "FlashShifter.StardewValleyExpandedCP_Clownfish": "Clownfish/45/dart/2/5/1000 1700/summer/both/690 .4 685 .1/3/.25/.6/3/false",
+			"FlashShifter.StardewValleyExpandedCP_Clownfish": "Clownfish/45/dart/2/5/1000 1700/summer/both/690 .4 685 .1/3/.25/.6/3/false",
             "FlashShifter.StardewValleyExpandedCP_Starfish": "Starfish/75/sinker/5/10/600 2200/spring summer winter/both/690 .4 685 .1/4/.07/.4/5/false",
          }
       },
@@ -150,7 +141,7 @@
             "FlashShifter.StardewValleyExpandedCP_Butterfish": {
                "ID": "FlashShifter.StardewValleyExpandedCP_Butterfish",
                "RequiredTags": [
-                  "item__butterfish"
+                  "item_butterfish"
                ],
                "SpawnTime": -1,
                "ProducedItems": [

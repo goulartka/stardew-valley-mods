@@ -2,7 +2,7 @@
 <map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="122" height="62" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="1">
  <properties>
   <property name="Outdoors" value="T"/>
-  <property name="Warp" value="20 20 EastScarpe 80 2"/>
+  <property name="Warp" value="20 20 EastScarp_Village 80 2"/>
  </properties>
  <tileset firstgid="1" name="outdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="fall_outdoorsTileSheet.png" width="400" height="1264"/>

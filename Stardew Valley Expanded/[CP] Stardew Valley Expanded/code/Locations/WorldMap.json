@@ -27,7 +27,7 @@
     },
     {
       "Action": "Load", "Priority": "Low",
-      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/",
+      "Target": "Mods/FlashShifter.StardewValleyExpandedCP/winter_GrampletonSuburbs",
       "FromFile": "assets/Maps/WorldMaps/GrampletonSuburbs/winter_GrampletonSuburbs_Worldmap.png"
     },
     {

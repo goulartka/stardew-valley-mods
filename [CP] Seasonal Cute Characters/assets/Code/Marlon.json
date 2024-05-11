@@ -1,28 +1,68 @@
 {
 	"Changes": [
+
+		// OUTFIT LOADS
+	
 		{
-			"LogName": "Marlon - Seasonal",
-			"Action": "EditImage",
-			"Target": "Portraits/Marlon, Characters/Marlon",
-			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}.png",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
+			"LogName": "Load Marlon's Outfits",
+			"Action": "Load",
+			"Priority": "High",
+			"Target": "Portraits/Marlon_Spring, Portraits/Marlon_Summer, Portraits/Marlon_Fall, Portraits/Marlon_Winter, Portraits/Marlon_FlowerDance, Characters/Marlon_Spring, Characters/Marlon_Summer, Characters/Marlon_Fall, Characters/Marlon_Winter, Characters/Marlon_FlowerDance",
+			"FromFile": "assets/{{TargetPathOnly}}/Marlon/{{TargetWithoutPath}}.png"
+		},
+		
+		//APPEARANCE DATA 
+		{
+			"LogName": "Marlon Appearance Data",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Marlon", "Appearance"],
+			"Entries": {
+				
+				//Regular Outfits
+				"{{ModId}}.MarlonSpring": {
+					"Id": "{{ModId}}.MarlonSpring",
+					"Condition": "SEASON spring",
+					"Sprite": "Characters/Marlon_Spring",
+					"Portrait": "Portraits/Marlon_Spring",
+					"Precedence": -120,
+				},
+
+				"{{ModId}}.MarlonSummer": {
+					"Id": "{{ModId}}.MarlonSummer",
+					"Condition": "SEASON Summer",
+					"Sprite": "Characters/Marlon_Summer",
+					"Portrait": "Portraits/Marlon_Summer",
+					"Precedence": -120,
+				},
+				
+				"{{ModId}}.MarlonFall": {
+					"Id": "{{ModId}}.MarlonFall",
+					"Condition": "SEASON Fall",
+					"Sprite": "Characters/Marlon_Fall",
+					"Portrait": "Portraits/Marlon_Fall",
+					"Precedence": -120,
+				},
+				
+				"{{ModId}}.MarlonWinter": {
+					"Id": "{{ModId}}.MarlonWinter",
+					"Condition": "SEASON Winter",
+					"Sprite": "Characters/Marlon_Winter",
+					"Portrait": "Portraits/Marlon_Winter",
+					"Precedence": -120,
+				},
+				
+				//Festival Outfits
+				
+				"{{ModId}}.MarlonFlowerDance": {
+					"Id": "{{ModId}}.MarlonFlowerDance",
+					"Condition": "IS_EVENT festival_spring24, {{FestivalOutfits}}",
+					"Sprite": "Characters/Marlon_FlowerDance",
+					"Portrait": "Portraits/Marlon_FlowerDance",
+					"Precedence": -1000,
+				},
 			},
 		},
-
-		{
-            "LogName": "Marlon - Festival",
-            "Action": "EditImage",
-            "Target": "Portraits/Marlon, Characters/Marlon",
-            "FromFile": "assets/{{TargetPathOnly}}/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
-            "When":
-            {
-                "HasFile:{{FromFile}}": true,
-                "FestivalOutfits": "True",
-            },
-            "Update": "OnLocationChange",
-        },	
 		
 // MISCELLANEOUS		
 		{

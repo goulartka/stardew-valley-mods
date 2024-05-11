@@ -216,6 +216,7 @@
 				"ToriDresser": "{{i18n:Strings.ToriDresser}}",
 				"ToriTrash": "{{i18n:Strings.ToriTrash}}",
 				"ToriBonsai": "{{i18n:Strings.ToriBonsai}}",
+				"NoraToriFridge":"{{i18n:Strings.NoraToriFridge}}",
 				"DeepMountains.GoatGrave": "{{i18n:DeepMountains.GoatGrave}}"
 			}
 		},

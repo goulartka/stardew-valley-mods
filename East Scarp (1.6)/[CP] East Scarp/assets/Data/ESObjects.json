@@ -407,26 +407,30 @@
                     "Texture": "Mods\\Lemurkat.EastScarp\\esobjects",
                     "SpriteIndex": 29,
                     "Edibility": 50,
-                    "Buff": {
-                        "BuffId": null,
-                        "IconTexture": null,
-                        "IconSpriteIndex": 0,
-                        "Duration": 180,
-                        "IsDebuff": false,
-                        "GlowColor": null,
-                        "CustomAttributes": {
-                            "Farming": 0,
-                            "Fishing": 0,
-                            "Mining": 0,
-                            "Luck": 0,
-                            "Foraging": 0,
-                            "MaxStamina": 0,
-                            "MagnetRadius": 0,
-                            "Speed": 1,
-                            "Defense": 0,
-                            "Attack": 0
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 180,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagnetRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            },
+                            "CustomFields": null
                         }
-                    },
+                    ],
                     "ContextTags": [
                         "color_brown",
                         "food_sweet"
@@ -443,32 +447,36 @@
                     "Texture": "Mods\\Lemurkat.EastScarp\\esobjects",
                     "SpriteIndex": 30,
                     "Edibility": 100,
-                    "Buff": {
-                        "BuffId": null,
-                        "IconTexture": null,
-                        "IconSpriteIndex": 0,
-                        "Duration": 220,
-                        "IsDebuff": false,
-                        "GlowColor": null,
-                        "CustomAttributes": {
-                            "Farming": 2,
-                            "Fishing": 0,
-                            "Mining": 0,
-                            "Luck": 0,
-                            "Foraging": 0,
-                            "MaxStamina": 0,
-                            "MagnetRadius": 0,
-                            "Speed": 0,
-                            "Defense": 0,
-                            "Attack": 0
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 220,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 2,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagnetRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            },
+                            "CustomFields": null
                         }
-                    },
+                    ],
                     "ContextTags": [
                         "color_brown"
                     ],
                     "CustomFields": {}
                 },
-                "EastScarp_Toast": {
+                /*"EastScarp_Toast": {
                     "Name": "EastScarp_Toast",
                     "DisplayName": "{{i18n:object.toast.name}}",
                     "Description": "{{i18n:object.toast.description}}",
@@ -483,7 +491,7 @@
                         "food_bakery"
                     ],
                     "CustomFields": {}
-                },
+                },*/
                 "EastScarp_Cheesy_Jelly_Toast": {
                     "Name": "EastScarp_Cheesy_Jelly_Toast",
                     "DisplayName": "{{i18n:object.cheesejellytoast.name}}",
@@ -493,7 +501,7 @@
                     "Price": 180,
                     "Texture": "Mods\\Lemurkat.EastScarp\\esobjects",
                     "SpriteIndex": 32,
-                    "Edibility": 20,
+                    "Edibility": 30,
                     "ContextTags": [
                         "color_brown",
                         "food_bakery"
@@ -520,17 +528,44 @@
                     "ExcludeFromRandomSale": false,
                     "ContextTags": null,
                     "CustomFields": null
-                  },
+                },
             }
         },
         {
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
-                "Cheesy Jelly Toast": "216 1 344 1 424 1/1 10/EastScarp_Cheesy_Jelly_Toast 3/f Eloise 7/",
-                "Rosa's Baklava": "340 1 246 1 408 1/1 10/EastScarp_Rosas_Baklava 3/f Rosa 7/",
-                "Rosa's Spanakopita": "250 1 426 1 246 1 399 2/1 10/EastScarp_Rosas_Spanakopita/none/",
-                "EastScarp_Toast": "216 1/1 10/EastScarp_Toast 3/default/",
+                "EastScarp_Cheesy_Jelly_Toast": "216 1 344 1 424 1/1 10/EastScarp_Cheesy_Jelly_Toast 3/f Eloise 7/",
+                "EastScarp_Rosas_Baklava": "340 1 246 1 408 1/1 10/EastScarp_Rosas_Baklava 3/f Rosa 7/",
+                "EastScarp_Rosas_Spanakopita": "250 1 426 1 246 1 399 2/1 10/EastScarp_Rosas_Spanakopita/none/",
+                //"EastScarp_Toast": "216 1/1 10/EastScarp_Toast 3/default/",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "EastScarp_Cheesy_Jelly_Recipe": {
+                    "ID": "EastScarp_Cheesy_Jelly_Recipe",
+                    "Trigger": "DayStarted",
+                    //"Location": "Farm",
+                    "Condition": "PLAYER_HAS_COOKING_RECIPE Current Cheesy Jelly Toast",
+                    "Action": "MarkCookingRecipeKnown Current EastScarp_Cheesy_Jelly_Toast"
+                },
+                "EastScarp_Rosas_Baklava_Recipe": {
+                    "ID": "EastScarp_Rosas_Baklava_Recipe",
+                    "Trigger": "DayStarted",
+                    //"Location": "Farm",
+                    "Condition": "PLAYER_HAS_COOKING_RECIPE Current Rosa's Baklava",
+                    "Action": "MarkCookingRecipeKnown Current EastScarp_Rosas_Baklava"
+                },
+                "EastScarp_Rosas_Spanakopita_Recipe": {
+                    "ID": "EastScarp_Rosas_Spanakopita_Recipe",
+                    "Trigger": "DayStarted",
+                    //"Location": "Farm",
+                    "Condition": "PLAYER_HAS_COOKING_RECIPE Current Rosa's Spanakopita",
+                    "Action": "MarkCookingRecipeKnown Current EastScarp_Rosas_Spanakopita"
+                },
             }
         },
         {
@@ -611,7 +646,7 @@
             "Target": "Data/Furniture",
             "Entries": {
                 "EastScarp_StoneGoat": "Stone Goat/decor/1 1/1 1/1/500/-1/{{i18n:object.furniture.stonegoat}}/0/Mods\\Lemurkat.EastScarp\\esfurniture",
-               // "EastScarp_LemurPainting": "Lemur Painting/painting/2 2/2 2/1/500/-1/{{i18n:object.furniture.lemurpainting}}/1/Mods\\Lemurkat.EastScarp\\esfurniture",//silly joke but was basically rubbish
+                // "EastScarp_LemurPainting": "Lemur Painting/painting/2 2/2 2/1/500/-1/{{i18n:object.furniture.lemurpainting}}/1/Mods\\Lemurkat.EastScarp\\esfurniture",//silly joke but was basically rubbish
             }
         }
     ]

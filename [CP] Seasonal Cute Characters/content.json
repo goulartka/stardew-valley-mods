@@ -9,201 +9,58 @@
         // Standard Dynamic Tokens
 
         {
-            "Name": "IndoorVariant", // Default
-            "Value": "",
-            "When":
-            {
-                "Season": "Spring, Summer, Fall",
-            }
-        },
-        {
-            "Name": "IndoorVariant", // Indoors Only
-            "Value": "_Indoor",
-            "When":
-            {
-                "Season": "Winter",
-                "WinterIndoorOutdoorOutfits": "IndoorOnly",
-            }
-        },
-        {
-            "Name": "IndoorVariant", // Outdoors Only
-            "Value": "_Outdoor",
-            "When":
-            {
-                "Season": "Winter",
-                "WinterIndoorOutdoorOutfits": "OutdoorOnly",
-            }
-        },
-        {
-            "Name": "IndoorVariant", // Indoors Switch
-            "Value": "_Indoor",
-            "When":
-            {
-                "IsOutdoors": "false",
-                "Season": "Winter",
-                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
-            }
-        },
-        {
-            "Name": "IndoorVariant", // Outdoors Switch
-            "Value": "_Outdoor",
-            "When":
-            {
-                "IsOutdoors": "true",
-                "Season": "Winter",
-                "WinterIndoorOutdoorOutfits": "IndoorOutdoor",
-            }
-        },
-        {
-            "Name": "Festival",
-            "Value": "",
-        },
-        {
-            "Name": "Festival",
-            "Value": "FlowerDance",
-            "When":
-            {
-                "DayEvent": "flower dance",
-                "LocationName": "Forest, temp"
-            }
-        },
-        {
-            "Name": "Festival",
-            "Value": "SpiritsEve",
-            "When":
-            {
-                "DayEvent": "spirit's eve",
-                "LocationName": "town,Custom_EastScarpeInn, Custom_EastScarpe, temp"
-            }
-        },
-        {
-            "Name": "Festival",
-            "Value": "EggF",
-            "When":
-            {
-                "DayEvent": "egg festival",
-                "LocationName": "town, temp"
-            }
-        },
-        {
-            "Name": "Festival",
-            "Value": "IceF",
-            "When":
-            {
-                "DayEvent": "festival of ice",
-                "LocationName": "Forest, temp"
-            }
-        },
-        {
-            "Name": "Festival",
-            "Value": "Luau",
-            "When":
-            {
-                "DayEvent": "luau",
-                "LocationName": "Beach, temp"
-            }
-        },
-        {
-            "Name": "Festival",
-            "Value": "Jellies",
-            "When":
-            {
-                "DayEvent": "dance of the moonlight jellies",
-                "LocationName": "Beach, temp"
-            }
-        },
-        {
-            "Name": "Festival",
-            "Value": "Fair",
-            "When":
-            {
-                "DayEvent": "stardew valley fair",
-                "LocationName": "town, temp"
-            }
-        },
-        {
-            "Name": "Festival",
-            "Value": "WinterStar",
-            "When":
-            {
-                "DayEvent": "feast of the winter star",
-                "LocationName": "town, temp"
-            }
-        },
-        {
             "Name": "Wedding",
             "Value": "WeddingOutfits",
             "When":
             {
                 "DayEvent": "wedding",
             }
-        },		
-        {
-			"Name": "AerobicsDay",
-			"Value": "",
-		},
-        {
-			"Name": "AerobicsDay",
-			"Value": "Regular",
-			"When":
-			{
-				"DayOfWeek": "Tuesday",
-                "LocationName": "SeedShop",
-                "ExtraOutfits": "True",
-                "Weather": "sun, wind, snow",
-			},
-		},
-        {
-			"Name": "AerobicsDay",
-			"Value": "Harvey",
-			"When":
-			{
-				"Time": "{{Range: 1100, 1500}}",
-				"Hearts:Harvey": "{{range: 6, 14}}",
-                "LocationName": "SeedShop",
-                "ExtraOutfits": "True",
-                "HasSeenEvent: currentPlayer |contains=58": false,
-			},
-		},
-        {
-            "Name": "ClintWork",
-            "Value": "_Work",
         },
-        {
-            "Name": "ClintWork",
-            "Value": "",
+		
+		// Backup Aerobics Token
+		
+		{
+            "Name": "Aerobics",
+            "Value": "Spring",
+        },
+		
+		{
+            "Name": "Aerobics",
+            "Value": "Summer",
             "When":
             {
-                "ExtraOutfits": "True",
-                "LocationName |contains= Blacksmith": false,
+                "Season": "Summer",
             }
         },
-        {
-			"Name": "SamWork",
-			"Value": "",
-		},
-        {
-			"Name": "SamWork",
-			"Value": "True",
-			"When":
-			{
-				"HasSeenEvent: currentPlayer |contains=191393": false,
-                "LocationName": "JojaMart",
-				"DayOfWeek": "Monday, Wednesday,"
-			},
-		},
-        {
-			"Name": "SamWork",
-			"Value": "True",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-                "HasSeenEvent: currentPlayer |contains=191393": true,
-                "LocationName": "ArchaeologyHouse",
-				"DayOfWeek": "Monday, Wednesday,"
-			},
-		},
-
+		
+		{
+            "Name": "Aerobics",
+            "Value": "Fall",
+            "When":
+            {
+                "Season": "Fall",
+            }
+        },
+		
+		{
+            "Name": "Aerobics",
+            "Value": "Winter_Indoor",
+            "When":
+            {
+                "Season": "Winter",
+				"WinterIndoorOutdoorOutfits": "IndoorOutdoor, IndoorOnly",
+            },
+        },
+		
+		{
+            "Name": "Aerobics",
+            "Value": "Winter_Outdoor",
+            "When":
+            {
+                "Season": "Winter",
+				"WinterIndoorOutdoorOutfits": "OutdoorOnly",
+            },
+        },
     ],
 
     "ConfigSchema":

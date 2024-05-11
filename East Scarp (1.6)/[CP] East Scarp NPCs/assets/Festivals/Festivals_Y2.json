@@ -1,10 +1,34 @@
 {
     "Changes": [
         // F E S T I V A L S
-        //Odd Year Festivals
-        /*   "When": {
-                "IsEvenYear": true
-            },*/
+        { //Adds in Mateo's position temporarily, until the next big update.
+            "Action": "Include",
+            "FromFile": "assets/Festivals/Mateo_y2.json",
+            "When": {
+                "HasSeenEvent |contains=SnS.Ch1.Mateo.3": true,
+                "HasConversationTopic |contains=MateoPain": false,
+                "HasMod": "DN.SnS"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "When": {
+                "HasConversationTopic |contains=MateoPain": false,
+                "HasMod": "DN.SnS"
+            },
+            "TextOperations": [
+                { // LOCATION: SET UP (VANILLA)
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Mateo 23 58 1",
+                    "Delimiter": "/"
+                },
+            ]
+        },
         //******* S P R I N G   F E S T I V A L S ***********
         //***************************************************
         // ***********  Egg Festival ********
@@ -16,7 +40,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Beatrice 36 72 3/Eloise 8 64 1/Jacob 10 64 3/Rosa 33 61 3/ToriLK 19 54 0/Aideen 32 79 1",
                     "Delimiter": "/"
@@ -25,7 +49,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "MainEvent_additionalCharacters"
+                        "MainEvent_additionalCharacters_y2"
                     ],
                     "Value": "Beatrice 36 72 3/Eloise 35 62 2/Jacob 36 62 2/Rosa 35 70 3",
                     "Delimiter": "/"
@@ -44,7 +68,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "JosephineK 32 65 3",
                     "Delimiter": "/"
@@ -62,7 +86,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "OliverK 32 89 3",
                     "Delimiter": "/"
@@ -80,7 +104,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "VivienneLK 8 63 2",
                     "Delimiter": "/"
@@ -89,7 +113,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "MainEvent_additionalCharacters"
+                        "MainEvent_additionalCharacters_y2"
                     ],
                     "Value": "VivienneLK 36 61 2",
                     "Delimiter": "/"
@@ -111,7 +135,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Beatrice 36 72 3/Eloise 8 64 1/Jacob 10 64 3",
                     "Delimiter": "/"
@@ -120,7 +144,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "MainEvent_additionalCharacters"
+                        "MainEvent_additionalCharacters_y2_y2"
                     ],
                     "Value": "Beatrice 36 72 3/Eloise 35 61 2/Jacob 33 60 2",
                     "Delimiter": "/"
@@ -135,16 +159,16 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
-                    "Value": "Aideen 5 31 3/Beatrice 4 22 1/Eloise 23 24 3/Jacob 3 30 1/Rosa 30 41 2/ToriLK 28 42 3",
+                    "Value": "Aideen 5 31 3/Beatrice 4 22 1/Eloise 23 24 3/Jacob 3 30 1/Rosa 30 41 2/ToriLK 53 46 2",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "MainEvent_additionalCharacters"
+                        "MainEvent_additionalCharacters_y2"
                     ],
                     "Value": "Aideen 19 32 0/Eloise 17 32 0/Jacob 18 32 0/Rosa 23 32 3/ToriLK 21 21 2",
                     "Delimiter": "/"
@@ -163,9 +187,9 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
-                    "Value": "JosephineK 7 21 2",
+                    "Value": "JosephineK 16 21 2",
                     "Delimiter": "/"
                 }
             ]
@@ -181,7 +205,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "OliverK 49 19 1",
                     "Delimiter": "/"
@@ -196,7 +220,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "VivienneLK 4 25 2",
                     "Delimiter": "/"
@@ -205,7 +229,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "MainEvent_additionalCharacters"
+                        "MainEvent_additionalCharacters_y2"
                     ],
                     "Value": "VivienneLK 4 25 1",
                     "Delimiter": "/"
@@ -215,6 +239,25 @@
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
                 "HasSeenEvent": "57875000"
             }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "When": {
+                "HasFlag |contains=RivalHearts_AideenMateo": true,
+                "HasMod": "DN.SnS"
+            },
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Aideen 53 37 1/Mateo 54 37 3",
+                    "Delimiter": "/"
+                }
+            ]
         },
         //******* S U M M E R   F E S T I V A L S ***********
         //***************************************************
@@ -227,7 +270,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Aideen 18 4 2/Beatrice 49 18 2/Eloise 19 10 3/Jacob 16 11 1/JosephineK 26 4 2/OliverK 44 45 2/Rosa 25 18 1/ToriLK 31 34 1",
                     "Delimiter": "/"
@@ -236,7 +279,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "MainEvent_additionalCharacters"
+                        "MainEvent_additionalCharacters_y2"
                     ],
                     "Value": "Aideen 18 4 2/Beatrice 49 18 2/Eloise 18 8 1/Jacob 17 8 1/JosephineK 23 9 2/OliverK 22 9 2/Rosa 24 20 0",
                     "Delimiter": "/"
@@ -254,7 +297,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "VivienneLK 13 11 3",
                     "Delimiter": "/"
@@ -263,7 +306,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "MainEvent_additionalCharacters"
+                        "MainEvent_additionalCharacters_y2"
                     ],
                     "Value": "VivienneLK 24 23 0",
                     "Delimiter": "/"
@@ -278,7 +321,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "KatarynaLK 32 19 0",
                     "Delimiter": "/"
@@ -287,7 +330,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "MainEvent_additionalCharacters"
+                        "MainEvent_additionalCharacters_y2"
                     ],
                     "Value": "KatarynaLK 32 19 0",
                     "Delimiter": "/"
@@ -307,11 +350,21 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Aideen 22 4 2/Eloise 82 25 down/Jacob 83 25 2/Rosa 11 10 3/ToriLK 84 24 2",
                     "Delimiter": "/"
-                }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "set-up_y2",
+                        7
+                    ],
+                    "Value": "addLantern 735 98 43 3",
+                    "Delimiter": "/"
+                },
             ]
         },
         {
@@ -326,7 +379,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "JosephineK 25 67 2",
                     "Delimiter": "/"
@@ -344,7 +397,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "OliverK 95 39 1",
                     "Delimiter": "/"
@@ -359,7 +412,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Leximonster 102 39 2",
                     "Delimiter": "/"
@@ -386,7 +439,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Beatrice 27 61 1/Eloise 19 35 1/Jacob 27 33 3/KatarynaLK 39 78 3/Rosa 28 97 3/ToriLK 44 90 2",
                     "Delimiter": "/"
@@ -404,7 +457,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Aideen 45 88 1",
                     "Delimiter": "/"
@@ -425,7 +478,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Aideen 36 81 1",
                     "Delimiter": "/"
@@ -445,7 +498,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "JosephineK 26 53 2",
                     "Delimiter": "/"
@@ -463,7 +516,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "OliverK 58 70 1",
                     "Delimiter": "/"
@@ -481,7 +534,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "VivienneLK 19 34 1",
                     "Delimiter": "/"
@@ -497,7 +550,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Eloise 27 51 3/Jacob 26 51 1/Rosa 27 23 2",
                     "Delimiter": "/"
@@ -515,7 +568,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "KatarynaLK 34 60 0",
                     "Delimiter": "/"
@@ -534,7 +587,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "JosephineK 28 71 3",
                     "Delimiter": "/"
@@ -552,7 +605,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "OliverK 35 35 3",
                     "Delimiter": "/"
@@ -570,7 +623,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "VivienneLK 44 58 2",
                     "Delimiter": "/"
@@ -590,7 +643,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Beatrice 63 31 1/Eloise 65 44 2/Jacob 66 45 3/Rosa 51 54 1",
                     "Delimiter": "/"
@@ -614,7 +667,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "VivienneLK 91 28 2",
                     "Delimiter": "/"
@@ -637,7 +690,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "JosephineK 97 39 2/OliverK 67 50 2",
                     "Delimiter": "/"
@@ -692,7 +745,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Aideen 48 30 3",
                     "Delimiter": "/"
@@ -708,7 +761,6 @@
                 }
             ],
             "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
                 "Spouse |contains=Aideen": false,
                 "HasFlag |contains=RivalHearts_AideenMateo": true
             }
@@ -721,14 +773,13 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Eloise 66 50 2/OliverK 67 50 2",
                     "Delimiter": "/"
                 }
             ],
             "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
                 "HasSeenEvent |contains=57873005": true
             }
         },
@@ -741,7 +792,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Aideen 38 60 1/Beatrice 37 76 0/Eloise 36 79 3/Jacob 37 72 3/Rosa 22 63 1/ToriLK 24 68 2",
                     "Delimiter": "/"
@@ -756,7 +807,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "Aideen 24 58 3",
                     "Delimiter": "/"
@@ -777,7 +828,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "JosephineK 34 62 2/OliverK 36 73 0",
                     "Delimiter": "/"
@@ -788,7 +839,6 @@
             "Action": "EditData",
             "Target": "Data/Festivals/winter25",
             "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
                 "HasFlag": "KatarynaBecomesSocial",
                 //"HasSeenEvent |contains=57876033": false
             },
@@ -797,7 +847,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "KatarynaLK 37 59 0",
                     "Delimiter": "/"
@@ -812,14 +862,13 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "VivienneLK 22 71 1",
                     "Delimiter": "/"
                 }
             ],
             "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
                 "HasSeenEvent |contains=57875000": true
             }
         },
@@ -834,7 +883,7 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Set-Up_additionalCharacters"
+                        "Set-Up_additionalCharacters_y2"
                     ],
                     "Value": "LadySheba 57 53 2",
                     "Delimiter": "/"

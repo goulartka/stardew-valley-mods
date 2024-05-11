@@ -127,8 +127,12 @@ Provided functionality for content pack authors:
 The rest of the features assume you understand C# and the game code a little bit (and are only accessible via C#):
 * In the API provided through SMAPI's mod registry (see mod source for interface you can copy):
     * `string[] GetCustomSkills()` - Returns an array of skill IDs, one for each registered skill.
-    * `int GetLevelForCustomSkill(Farmer farmer, string skill)` - Gets the level of the given `skill` for the given `farmer`.
+    * `int GetLevelForCustomSkill(Farmer farmer, string skill)` - Gets the base level of the given `skill` for the given `farmer`.
+    * `int GetBuffLevelForCustomSkill(Farmer farmer, string skill)` - Gets the buff level of the given `skill` for the given `farmer`.
+    * `int GetTotalLevelForCustomSkill(Farmer farmer, string skill)` - Gets the base + buff level of the given `skill` for the given `farmer`.
     * `void AddExperienceForCustomSkill(Farmer farmer, string skill, int amt)` - Adds `amt` experience to the given `skill` for the given `farmer`.
+    * `Texture2D GetSkillPageIconForCustomSkill(string skill)` - Gets the skill page icon for the given `skill`.
+    * `Texture2D GetSkillIconForCustomSkill(string skill)` - Gets the skill icon for the given `skill`.
     * `int GetProfessionId(string skill, string profession)` - Gets the integer ID of the given `profession` (for `Farmer.professions`) for the given skill.
     * `void RegisterSerializerType(Type type)` - Register a `type` as being valid for the vanilla serializer. Must have the attribute `XmlType` applied, with the parameter starting with `"Mods_"`, ie. `[XmlType("Mods_AuthorName_MyCustomObject")]`.
     * `void RegisterCustomProperty(Type declaringType, string name, Type propType, MethodInfo getter, MethodInfo setter)` - Register a virtual property, attaching itself to a vanilla object for serialization.
@@ -196,6 +200,9 @@ The rest of the features assume you understand C# and the game code a little bit
     * `string GetSkillPageHoverText(int level)` - optional, extra text to show when hovering on the skills page
     * `void DoLevelPerk(int level)` - optional, apply a some code immediately upon leveling
     * `bool ShouldShowOnSkillsPage`
+    * Custom buffs for your skill you can have by adding ` "spacechase.SpaceCore.SkillBuff.<skill_ID_here>": "<value>"` as a custom field to the buff for food or drink.
+    * Your custom skill can have level up crafting and cooking recipes by just adding your skill ID to where the vanilla skill ID would be.
+    * By adding the skill id to the context tags of a book object, players can read the book to gain exp in the custom skill.
 * Custom crafting recipes, for when you want more flexibility (like using non-Object item types).
     * You subclass `CustomCraftingRecipe` and register it by doing `CustomCraftingRecipe.CraftingRecipes.Add( key, new MyCustomCraftingRecipeSubclass() )`.
         * If it is a cooking recipe, you use `CustomCraftingRecipe.CookingRecipes` instead.

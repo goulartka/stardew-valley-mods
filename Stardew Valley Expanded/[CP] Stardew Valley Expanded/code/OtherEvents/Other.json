@@ -238,7 +238,7 @@
             "HasMod": "Nom0ri.RomRas, Parrot.RomRas"
         },
         "Entries": {
-            "1091881/e arrot.RomRas_MagicInkStandardPart2": "none/-500 -500/farmer -100 -100 2/viewport 119 103 true/viewport move -1 -1 8000 true/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:SpriteSprings.02}}\"/pause 1300/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 800/message \"{{i18n:SpriteSprings.03}}\"/pause 1000/end position 116 121",
+            "1091881/e Parrot.RomRas_MagicInkStandardPart2": "none/-500 -500/farmer -100 -100 2/viewport 119 103 true/viewport move -1 -1 8000 true/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 1000/message \"{{i18n:SpriteSprings.02}}\"/pause 1300/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 500/playSound grassyStep/playSound grassyStep/pause 800/message \"{{i18n:SpriteSprings.03}}\"/pause 1000/end position 116 121",
         },
     },
     { //SPRITE SPRING PATH OPEN - compatibility patch
@@ -348,7 +348,7 @@
             "Action": "EditData",
             "Target": "data/events/forest",
             "When": {
-                "IsCommunityCenterComplete": true
+                "HasSeenEvent:anyPlayer |contains=191393": true
             },
             "Entries": {
                 "1091881/": "none/-500 -500/farmer -100 -100 2/viewport 19 109 clamp true/skippable/pause 2500/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 800/playSound junimoMeep1/pause 1000/playSound junimoMeep1/pause 700/playSound junimoMeep1/globalFade/viewport -1000 -1000/playSound junimoMeep1/end position 19 107",

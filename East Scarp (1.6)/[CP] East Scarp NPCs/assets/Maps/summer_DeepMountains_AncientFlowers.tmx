@@ -2,7 +2,7 @@
 <map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="122" height="62" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="1">
  <properties>
   <property name="Outdoors" value="T"/>
-  <property name="Warp" value="59 62 EastScarpe 73 1 60 62 EastScarpe 74 1 61 62 EastScarpe 75 1"/>
+  <property name="Warp" value="59 62 EastScarp_Village 73 1 60 62 EastScarp_Village 74 1 61 62 EastScarp_Village 75 1"/>
  </properties>
  <tileset firstgid="1" name="outdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="summer_outdoorsTileSheet.png" width="400" height="1264"/>

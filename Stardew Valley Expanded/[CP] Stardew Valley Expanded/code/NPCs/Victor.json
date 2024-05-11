@@ -22,9 +22,9 @@
           "Calendar": "AlwaysShown",
           "SocialTab": "UnknownUntilMet",
           "CanSocialize": true,
-          "CanVisitIslandCondition": true,
+          "CanVisitIsland": true,
           "ExcludeFromIntroductionsQuest": false,
-          "ExcludeFromPerfectionScore": false,
+          "PerfectionScore": false,
           "EndSlideShow": "MainGroup",
           "SpouseRoom": {
             "MapAsset": "Custom_VictorsRoom",

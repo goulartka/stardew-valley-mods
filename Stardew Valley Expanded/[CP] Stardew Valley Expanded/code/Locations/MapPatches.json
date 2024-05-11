@@ -84,7 +84,7 @@
                     "Height": 39
                },
                "When": {
-                    "HasSeenEvent: anyPlayer |contains=418172": true
+                    "HasSeenEvent: anyPlayer |contains=418172, 3073012, 3073013, Parrot.RomRas_MagicInkStandardPart2, Parrot.RomRas_MagicInkMarriedPart2": true 
                },
                "Update": "OnLocationChange"
           },
@@ -392,7 +392,7 @@
           },
           //EXTERIOR MAP LOADS
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Town",
                "FromFile": "Assets/Maps/Locations/Town.tmx",
                "When": {
@@ -400,11 +400,11 @@
                }
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Town",
                "FromFile": "Assets/Maps/MapPatches/Town_Joja.tmx",
                "When": {
-                    "HasSeenEvent |contains=5553210": true
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                }
           },
           { //Town Winter Night Lights
@@ -447,11 +447,12 @@
                "Action": "EditMap",
                "Target": "Maps/Railroad",
                "When": {
-                    "HasFlag |contains=Farm_Eternal": false
+                    "HasFlag |contains=Farm_Eternal": false,
                },
                "AddWarps": [
                     "48 0 Custom_SVESummit 11 28" 
-               ]
+               ],
+			   "Update": "OnLocationChange"
           },
           { //Mountain Winter Night Lights
                "Action": "EditMap",
@@ -475,7 +476,7 @@
                "Action": "EditMap",
                "Target": "Maps/Town",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
                "MapProperties": {
                     "DayTiles": "AlwaysFront 33 53 907 AlwaysFront 11 7 907 AlwaysFront 27 7 907 AlwaysFront 21 20 907 AlwaysFront 31 20 907 AlwaysFront 21 27 907 AlwaysFront 31 27 907 AlwaysFront 24 50 907 AlwaysFront 17 50 907 AlwaysFront 4 50 907 AlwaysFront 24 58 907 AlwaysFront 20 64 907 AlwaysFront 27 72 907 AlwaysFront 30 72 907 AlwaysFront 38 64 907 AlwaysFront 27 86 907 AlwaysFront 14 86 907 AlwaysFront 1 86 907 AlwaysFront 25 111 369 AlwaysFront 52 98 907 AlwaysFront 56 98 907 AlwaysFront 50 77 907 AlwaysFront 37 77 907 AlwaysFront 52 49 907 AlwaysFront 86 56 907 Buildings 41 69 560 Buildings 92 79 186 AlwaysFront 79 8 907 AlwaysFront 69 22 907 AlwaysFront 56 22 907 AlwaysFront 49 22 907 AlwaysFront 41 33 907 AlwaysFront 54 33 907 AlwaysFront 119 46 907 AlwaysFront 123 68 907 AlwaysFront 95 68 907 AlwaysFront 104 68 907 AlwaysFront 72 90 907 AlwaysFront 96 90 907",
@@ -487,7 +488,7 @@
                "Action": "EditMap",
                "Target": "Maps/Town",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
                "Update": "OnLocationChange",
                "TextOperations": [
@@ -506,7 +507,7 @@
                "Action": "EditMap",
                "Target": "Maps/Town",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
                "Update": "OnLocationChange",
                "TextOperations": [
@@ -522,27 +523,27 @@
                ]
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Beach",
                "FromFile": "Assets/maps/locations/Beach.tmx"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Forest",
                "FromFile": "Assets/maps/locations/Forest.tmx",
           },
 		  {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Forest-SewerClean",
                "FromFile": "Assets/maps/MapPatches/Forest-SewerClean.tbin",
           },
 		  {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/MasteryCave",
                "FromFile": "Assets/maps/locations/MasteryCave.tmx",
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/BusStop",
                "FromFile": "Assets/maps/locations/BusStop.tmx",
           },
@@ -551,7 +552,7 @@
                "Target": "Maps/Forest",
                "FromFile": "Assets/maps/MapPatches/Forest_Joja.tmx",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
                "ToArea": {
                     "X": 66,
@@ -589,7 +590,7 @@
                }
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Woods",
                "FromFile": "Assets/maps/locations/Woods2.tmx",
           },
@@ -622,13 +623,13 @@
                }
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Railroad",
                "FromFile": "Assets/maps/locations/Railroad.tmx",
           },
           /* Removed because of the new 1.6 "Cursed Event"
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Summit",
                "FromFile": "Assets/maps/locations/Summit.tmx",
           },*/
@@ -637,7 +638,7 @@
                "Target": "Maps/Railroad",
                "FromFile": "Assets/Maps/MapPatches/Railroad_Joja.tmx",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
                "ToArea": {
                     "X": 0,
@@ -650,7 +651,7 @@
                "Action": "EditMap",
                "Target": "Maps/Railroad",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
                "TextOperations": [
                     {
@@ -683,7 +684,7 @@
                ]
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Mountain",
                "FromFile": "Assets/Maps/Locations/Mountain.tmx",
           },
@@ -709,7 +710,7 @@
                "Target": "Maps/Mountain",
                "FromFile": "Assets/Maps/MapPatches/Mountain_Joja.tmx",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
                "ToArea": {
                     "X": 0,
@@ -740,7 +741,7 @@
                "Action": "EditMap",
                "Target": "Maps/Mountain",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
                "Update": "OnLocationChange",
                "TextOperations": [
@@ -759,7 +760,7 @@
                "Action": "EditMap",
                "Target": "Maps/Mountain",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
                "Update": "OnLocationChange",
                "TextOperations": [
@@ -778,7 +779,7 @@
                "Action": "EditMap",
                "Target": "Maps/Mountain",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
                "Update": "OnLocationChange",
                "TextOperations": [
@@ -794,7 +795,7 @@
                ]
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Backwoods",
                "FromFile": "Assets/Maps/Locations/Backwoods.tbin",
           },
@@ -803,7 +804,7 @@
                "Target": "Maps/Backwoods",
                "FromFile": "Assets/Maps/MapPatches/Backwoods_Joja.tbin",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
                "ToArea": {
                     "X": 40,
@@ -816,7 +817,7 @@
                "Action": "EditMap",
                "Target": "Maps/Backwoods",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
                "Update": "OnLocationChange",
                "TextOperations": [
@@ -835,7 +836,7 @@
                "Action": "EditMap",
                "Target": "Maps/Backwoods",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
                "Update": "OnLocationChange",
                "TextOperations": [
@@ -854,7 +855,7 @@
                "Action": "EditMap",
                "Target": "Maps/Backwoods",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
                "MapProperties": {
                     "Light": "46 12 4"
@@ -876,132 +877,132 @@
           },
           //INTERIOR MAP LOADS
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/AdventureGuild",
                "FromFile": "Assets/maps/locations/AdventureGuild.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/AnimalShop",
                "FromFile": "Assets/maps/locations/AnimalShop.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/ArchaeologyHouse",
                "FromFile": "Assets/maps/locations/ArchaeologyHouse.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Blacksmith",
                "FromFile": "Assets/maps/locations/Blacksmith.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Club",
                "FromFile": "Assets/maps/locations/Club.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/FishShop",
                "FromFile": "Assets/maps/locations/FishShop.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/HaleyHouse",
                "FromFile": "Assets/maps/locations/HaleyHouse.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/HarveyRoom",
                "FromFile": "Assets/maps/locations/HarveyRoom.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Hospital",
                "FromFile": "Assets/maps/locations/Hospital.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/JojaMart",
                "FromFile": "Assets/maps/locations/JojaMart.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/JoshHouse",
                "FromFile": "Assets/maps/locations/JoshHouse.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/LeahHouse",
                "FromFile": "Assets/maps/locations/LeahHouse.tmx"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/ManorHouse",
                "FromFile": "Assets/maps/locations/ManorHouse.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Mine",
                "FromFile": "Assets/maps/locations/Mine.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Saloon",
                "FromFile": "Assets/maps/locations/Saloon.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/SamHouse",
                "FromFile": "Assets/maps/locations/SamHouse.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/SandyHouse",
                "FromFile": "assets/maps/locations/SandyHouse.tbin",
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Desert",
                "FromFile": "Assets/maps/locations/Desert.tbin",
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/ScienceHouse",
                "FromFile": "Assets/maps/locations/ScienceHouse.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/SebastianRoom",
                "FromFile": "Assets/maps/locations/SebastianRoom.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/SeedShop",
                "FromFile": "Assets/maps/locations/SeedShop.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Trailer",
                "FromFile": "Assets/maps/locations/Trailer.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Trailer_big",
                "FromFile": "Assets/maps/locations/Trailer_big.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/WitchHut",
                "FromFile": "Assets/maps/locations/WitchHut.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/WizardHouse",
                "FromFile": "Assets/maps/locations/WizardHouse.tbin"
           },
 		  {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/WizardHouseBasement",
                "FromFile": "Assets/maps/locations/WizardHouseBasement.tmx"
           },
@@ -1032,12 +1033,12 @@
           },
           //PATCHING LOADS
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Town-Theater",
                "FromFile": "Assets/Maps/MapPatches/Town-Theater.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/MovieTheater",
                "FromFile": "Assets/maps/locations/MovieTheater.tbin",
                "When": {
@@ -1045,7 +1046,7 @@
                }
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Town-TheaterCC",
                "FromFile": "Assets/Maps/MapPatches/Town-TheaterCC.tmx",
                "When": {
@@ -1053,7 +1054,7 @@
                }
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Town-TheaterCC",
                "FromFile": "Assets/Maps/MapPatches/Town-TheaterCC_Pavement.tbin",
                "When": {
@@ -1124,7 +1125,7 @@
                }
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Town-TrashGone",
                "FromFile": "Assets/Maps/MapPatches/Town-TrashGone.tbin",
                "When": {
@@ -1132,15 +1133,15 @@
                }
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Town-TrashGone",
                "FromFile": "Assets/Maps/MapPatches/Town-TrashGone_Joja.tbin",
                "When": {
-                    "HasSeenEvent |contains=5553210": true
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                }
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Town-DogHouse",
                "FromFile": "Assets/Maps/MapPatches/Town-DogHouse.tbin",
                "When": {
@@ -1148,20 +1149,20 @@
                }
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Town-DogHouse",
                "FromFile": "Assets/Maps/MapPatches/Town-DogHouse_Joja.tbin",
                "When": {
-                    "HasSeenEvent |contains=5553210": true
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                }
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Mountain-BridgeFixed",
                "FromFile": "Assets/maps/locations/Mountain-BridgeFixed.tbin"
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Mountain_Shortcuts",
                "FromFile": "Assets/Maps/MapPatches/Mountain_Shortcuts.tbin",
                "When": {
@@ -1169,7 +1170,7 @@
                },
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Mountain_Shortcuts",
                "FromFile": "Assets/Maps/MapPatches/Mountain_Shortcuts_Ridgeside.tbin",
                "When": {
@@ -1177,7 +1178,7 @@
                },
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Backwoods_Staircase",
                "FromFile": "Assets/Maps/MapPatches/Backwoods_Staircase.tbin",
                "When": {
@@ -1185,11 +1186,11 @@
                },
           },
           {
-               "Action": "Load", "Priority": "Low",
+               "Action": "Load",  
                "Target": "Maps/Backwoods_Staircase",
                "FromFile": "Assets/maps/MapPatches/Backwoods_Staircase_Joja.tbin",
                "When": {
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                },
           },
           { //Leaf patches
@@ -1892,7 +1893,7 @@
                },
                "When": {
                     "HasFlag": "ccMovieTheaterJoja",
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                }
           },
           {
@@ -1907,7 +1908,7 @@
                },
                "When": {
                     "HasFlag": "ccMovieTheaterJoja",
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                }
           },
           {
@@ -1922,7 +1923,7 @@
                },
                "When": {
                     "HasFlag": "ccMovieTheaterJoja",
-                    "HasSeenEvent": "5553210"
+                    "HasSeenEvent: hostPlayer|contains=5553210": true
                }
           },
           { //Calico Desert configuration - makes it easier for players to place objects such as kegs and barrels

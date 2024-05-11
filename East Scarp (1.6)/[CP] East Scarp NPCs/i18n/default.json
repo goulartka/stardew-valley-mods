@@ -5596,17 +5596,17 @@
     "EastScarp.SpecialOrders.LadySheba3_Objective_2_Text": "Place 3 pieces of cheese in the crate by Scarp Beach",
     //Daffodils Order
     "EastScarp.SpecialOrders.AideenFlowers_Name": "Spring Flowers",
-    "EastScarp.SpecialOrders.AideenFlowers_Text": "Spring is here, and I am in dire need of daffodils! If someone could deliver thirty fresh-picked flowers, they would have my eternal gratitude.     - Aideen  ",
+    "EastScarp.SpecialOrders.AideenFlowers_Text": "Spring is here, and I am in dire need of daffodils! If someone could deliver fifteen fresh-picked flowers, they would have my eternal gratitude.     - Aideen  ",
     "EastScarp.SpecialOrders.AideenFlowers_Objective_0_Text": "Collect 15 Daffodils",
     "EastScarp.SpecialOrders.AideenFlowers_Objective_1_Text": "Deliver 15 Daffodils to the Vase in Aideen's Kitchen",
     // SweetPeas
     "EastScarp.SpecialOrders.AideenFlowers2_Name": "Summer Flowers",
-    "EastScarp.SpecialOrders.AideenFlowers2_Text": "Now it is summer, sweet hearts are seeking sweet peas. I would be most grateful if someone could deliver thirty freshly picked blooms.   - Aideen  ",
+    "EastScarp.SpecialOrders.AideenFlowers2_Text": "Now it is summer, sweet hearts are seeking sweet peas. I would be most grateful if someone could deliver fifteen freshly picked blooms.   - Aideen  ",
     "EastScarp.SpecialOrders.AideenFlowers2_Objective_0_Text": "Collect 15 Sweet Peas",
     "EastScarp.SpecialOrders.AideenFlowers2_Objective_1_Text": "Deliver 15 Sweet Peas to the Vase in Aideen's Kitchen",
     // Crocus
     "EastScarp.SpecialOrders.AideenFlowers3_Name": "Winter Flowers",
-    "EastScarp.SpecialOrders.AideenFlowers3_Text": "Winter is so dreary, but flowers brighten even the most maudlin day. Help me brighten the lives of my customers, by delivering thirty freshly picked crocuses.    - Aideen  ",
+    "EastScarp.SpecialOrders.AideenFlowers3_Text": "Winter is so dreary, but flowers brighten even the most maudlin day. Help me brighten the lives of my customers, by delivering fifteen freshly picked crocuses.    - Aideen  ",
     "EastScarp.SpecialOrders.AideenFlowers3_Objective_0_Text": "Collect 15 Crocuses",
     "EastScarp.SpecialOrders.AideenFlowers3_Objective_1_Text": "Deliver 15 Crocuses to the Vase in Aideen's Kitchen",
     //Slay Crabs

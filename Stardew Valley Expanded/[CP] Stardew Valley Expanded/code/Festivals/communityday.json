@@ -3179,7 +3179,7 @@
 				"Day": "22"
 			},
 			"Entries": {
-				"marriage_Mon": "1130 CommunityCenter 25 11 0 \"Strings\\schedules\\Claire:CommunityDay_Claire\"/1710 BusStop -2 23 3"
+				"marriage_FlashShifter.StardewValleyExpandedCP_CommunityDay": "1130 CommunityCenter 25 11 0 \"Strings\\schedules\\Claire:CommunityDay_Claire_Married\"/1710 BusStop -2 23 3"
 			}
 		},
 		{ //Spring Dialogue - MARRIED
@@ -3235,7 +3235,7 @@
 				"HasFlag": "ccMovieTheater"
 			},
 			"Entries": {
-				"22": "0 Custom_Martin_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Martin_Blink/2130 BusStop 22 8 0/2330 BusStop 22 9 0/2340 Custom_DayEnd_WarpRoom 3 3 0"
+				"22": "0 Custom_Martin_WarpRoom 1 3 3/650 Town 92 44 2/850 MovieTheater 7 5 2 Martin_Blink/2130 BusStop 22 9 0/2330 BusStop 22 8 0/2340 Custom_DayEnd_WarpRoom 3 3 0"
 			}
 		},
 	]

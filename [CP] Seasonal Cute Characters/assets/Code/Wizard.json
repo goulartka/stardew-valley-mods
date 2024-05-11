@@ -1,27 +1,68 @@
 {
 	"Changes": [
+		// OUTFIT LOADS
+	
 		{
-			"LogName": "Wizard - Seasonal",
-			"Action": "EditImage",
-			"Target": "Portraits/Wizard, Characters/Wizard",
-			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}.png",
-			"When":
-			{
-				"HasFile:{{FromFile}}": true,
-			},
+			"LogName": "Load Wizard's Outfits",
+			"Action": "Load",
+			"Priority": "High",
+			"Target": "Portraits/Wizard_Spring, Portraits/Wizard_Summer, Portraits/Wizard_Fall, Portraits/Wizard_Winter, Characters/Wizard_Spring, Characters/Wizard_Summer, Characters/Wizard_Fall, Characters/Wizard_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Wizard/{{TargetWithoutPath}}.png"
 		},
 		
-// NOSE OVERLAY
+		// NOSE OVERLAY
 		{
 			"LogName": "Wizard - Seasonal Nose",
 			"Action": "EditImage",
-			"Target": "Characters/Wizard, Characters/KrobusRaven",
-            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_nose.png",
+			"Target": "Characters/Wizard_Spring, Characters/Wizard_Summer, Characters/Wizard_Fall, Characters/Wizard_Winter",
+			"FromFile": "assets/{{TargetPathOnly}}/Wizard/Wizard_nose.png",
             "PatchMode": "Overlay",
 			"When":
 			{
-				"HasFile:{{FromFile}}": true,
 				"NoNose": "false",
+			},
+		},
+		
+		//APPEARANCE DATA 
+		{
+			"LogName": "Wizard Appearance Data",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Wizard", "Appearance"],
+			"Entries": {
+				
+				//Regular Outfits
+				"{{ModId}}.WizardSpring": {
+					"Id": "{{ModId}}.WizardSpring",
+					"Condition": "SEASON spring",
+					"Sprite": "Characters/Wizard_Spring",
+					"Portrait": "Portraits/Wizard_Spring",
+					"Precedence": -120,
+				},
+
+				"{{ModId}}.WizardSummer": {
+					"Id": "{{ModId}}.WizardSummer",
+					"Condition": "SEASON Summer",
+					"Sprite": "Characters/Wizard_Summer",
+					"Portrait": "Portraits/Wizard_Summer",
+					"Precedence": -120,
+				},
+				
+				"{{ModId}}.WizardFall": {
+					"Id": "{{ModId}}.WizardFall",
+					"Condition": "SEASON Fall",
+					"Sprite": "Characters/Wizard_Fall",
+					"Portrait": "Portraits/Wizard_Fall",
+					"Precedence": -120,
+				},
+				
+				"{{ModId}}.WizardWinter": {
+					"Id": "{{ModId}}.WizardWinter",
+					"Condition": "SEASON Winter",
+					"Sprite": "Characters/Wizard_Winter",
+					"Portrait": "Portraits/Wizard_Winter",
+					"Precedence": -120,
+				},
 			},
 		},
 		

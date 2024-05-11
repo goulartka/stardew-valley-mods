@@ -23,6 +23,33 @@
                     }
                 }
             },
+			{   //Edits Vanilla warps
+                "Action": "EditData",
+                "Target": "Mods/CJBok.CheatsMenu/Warps",
+                "Fields": {
+                   "sandy-shop": {
+                      "Tile": "20, 15",
+                      "SectionId": "desert"
+                    },
+					"wizard-tower": {
+                      "Tile": "9, 21",
+                      "SectionId": "forest"
+                    },
+					"secret-woods": {
+                      "Tile": "80, 29",
+                      "SectionId": "forest",
+                    },
+					"adventurers-guild": {
+                      "Tile": "32, 22",
+                      "SectionId": "mountain",
+					  "Location": "Custom_AdventurerSummit"
+                    },
+					"mines": {
+                      "Tile": "17, 4",
+                      "SectionId": "main",
+                    }
+				}
+            },
             {
                 "Action": "EditData",
                 "Target": "Mods/CJBok.CheatsMenu/Warps",
@@ -32,12 +59,14 @@
                 "Entries": {
                     "FlashShifter.StardewValleyExpandedCP_FarmEntrance": {
                         "Id": "FlashShifter.StardewValleyExpandedCP_Farm Entrance",
+						"DisplayName": "Farm Entrance",
                         "Location": "Farm",
                         "Tile": "109, 52",
                         "SectionId": "Main"
                     },
                     "FlashShifter.StardewValleyExpandedCP_GFShed": {
                         "Id": "FlashShifter.StardewValleyExpandedCP_Grandpa's Shed",
+						"DisplayName": "Grandpa's Shed",
                         "Location": "Farm",
                         "Tile": "20, 22",
                         "SectionId": "Town"
@@ -127,20 +156,6 @@
                         "Tile": "31, 18",
                         "SectionId": "FlashShifter.StardewValleyExpandedCP_Shops"
                     },
-                    "FlashShifter.StardewValleyExpandedCP_Desert": { //vanilla over write
-                        "Id": "FlashShifter.StardewValleyExpandedCP_Sandy's Shop - SVE",
-                        "DisplayName": "Sandy's Shop - SVE",
-                        "Location": "Desert",
-                        "Tile": "20, 15",
-                        "SectionId": "FlashShifter.StardewValleyExpandedCP_Shops"
-                    },
-                    "FlashShifter.StardewValleyExpandedCP_Guild": { //vanilla overwrite
-                        "Id": "FlashShifter.StardewValleyExpandedCP_Adventurer's Guild - SVE",
-                        "DisplayName": "ADventurer's Guild - SVE",
-                        "Location": "Custom_AdventurerSummit",
-                        "Tile": "32, 22",
-                        "SectionId": "FlashShifter.StardewValleyExpandedCP_Shops"
-                    },
                     "FlashShifter.StardewValleyExpandedCP_Clinic": {
                         "Id": "FlashShifter.StardewValleyExpandedCP_Clinic",
                         "DisplayName": "Clinic",
@@ -204,7 +219,7 @@
                         "Tile": "30, 20",
                         "SectionId": "Town"
                     },
-                    "FlashShifter.StardewValleyExpandedCP_Lea": {
+                    "FlashShifter.StardewValleyExpandedCP_Leah": {
                         "Id": "FlashShifter.StardewValleyExpandedCP_Leah's Cabin",
                         "DisplayName": "Leah's Cabin",
                         "Location": "forest",
@@ -217,13 +232,6 @@
                         "Location": "forest",
                         "Tile": "62, 67",
                         "SectionId": "Forest"
-                    },
-                    "FlashShifter.StardewValleyExpandedCP_Wizard": { //vanilla overwrite
-                        "Id": "FlashShifter.StardewValleyExpandedCP_Wizard's Tower - SVE",
-                        "DisplayName": "Wizard's Tower - SVE",
-                        "Location": "forest",
-                        "Tile": "5, 18",
-                        "SectionId": "forest"
                     },
                     "FlashShifter.StardewValleyExpandedCP_Aurora": {
                         "Id": "FlashShifter.StardewValleyExpandedCP_Aurora Vineyard",
@@ -244,7 +252,7 @@
                         "DisplayName": "Bear's Cave",
                         "Location": "Custom_forestwest",
                         "Tile": "10, 6",
-                        "SectionId": "forest"
+                        "SectionId": "FlashShifter.StardewValleyExpandedCP_Shops"
                     },
                     "FlashShifter.StardewValleyExpandedCP_JunimoWoods": {
                         "Id": "FlashShifter.StardewValleyExpandedCP_Junimo Woods",
@@ -258,7 +266,7 @@
                         "DisplayName": "Junimo Village",
                         "Location": "Custom_JunimoWoods",
                         "Tile": "34, 96",
-                        "SectionId": "forest"
+                        "SectionId": "FlashShifter.StardewValleyExpandedCP_Shops"
                     },
                     "FlashShifter.StardewValleyExpandedCP_Springs": {
                         "Id": "FlashShifter.StardewValleyExpandedCP_Sprite Spring",
@@ -281,18 +289,18 @@
                         "Tile": "28, 32",
                         "SectionId": "forest"
                     },
+					"FlashShifter.StardewValleyExpandedCP_Bluemoon": {
+                        "Id": "FlashShifter.StardewValleyExpandedCP_Sophia's Vineyard",
+                        "DisplayName": "Sophia's Ledger",
+                        "Location": "Custom_SophiaHouse",
+                        "Tile": "6, 22",
+                        "SectionId": "FlashShifter.StardewValleyExpandedCP_Shops"
+                    },
                     "FlashShifter.StardewValleyExpandedCP_Linus": {
                         "Id": "FlashShifter.StardewValleyExpandedCP_Linus' Tent",
                         "DisplayName": "Linus' Tent",
                         "Location": "mountain",
                         "Tile": "29, 8",
-                        "SectionId": "Mountain"
-                    },
-                    "FlashShifter.StardewValleyExpandedCP_Mine": { // this will need to possibly replace CJB
-                        "Id": "FlashShifter.StardewValleyExpandedCP_Mine SVE",
-                        "DisplayName": "SVE Mine",
-                        "Location": "mine",
-                        "Tile": "17, 4",
                         "SectionId": "Mountain"
                     },
                     "FlashShifter.StardewValleyExpandedCP_tunnel": {

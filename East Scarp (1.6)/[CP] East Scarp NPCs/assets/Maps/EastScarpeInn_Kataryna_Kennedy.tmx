@@ -145,7 +145,7 @@
   </object>
   <object id="80" name="TileData" x="1040" y="400" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="Warp Custom_EastScarpe 49 65"/>
+    <property name="TouchAction" value="Warp EastScarp_Village 49 65"/>
    </properties>
   </object>
   <object id="103" name="TileData" x="112" y="400" width="16" height="16">

@@ -1,17 +1,18 @@
 {
 	"Changes": [
+	
 		{
 			"LogName": "Morris - Seasonal",
 			"Action": "EditImage",
 			"Target": "Portraits/Morris, Characters/Morris",
-			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}{{IndoorVariant}}.png",
+			"FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}.png",
 			"When":
 			{
 				"HasFile:{{FromFile}}": true,
 			},
 		},
 		
-// NOSE OVERLAY
+		// NOSE OVERLAY
 		{
 			"LogName": "Morris - Seasonal Nose",
 			"Action": "EditImage",
@@ -24,8 +25,85 @@
 				"NoNose": "false",
 			},
 		},
+/*
+
+//The below works as Seasonals for Morris if he leaves JojaMart, but as Appearance Data only refreshes if the character changes locations, it is unused normally.
+
+		// OUTFIT LOADS
+	
+		{
+			"LogName": "Load Morris's Outfits",
+			"Action": "Load",
+			"Priority": "High",
+			"Target": "Portraits/Morris_Spring, Portraits/Morris_Summer, Portraits/Morris_Fall, Portraits/Morris_Winter, Portraits/Morris_Winter2, Characters/Morris_Spring, Characters/Morris_Summer, Characters/Morris_Fall, Characters/Morris_Winter, Characters/Morris_Winter2",
+			"FromFile": "assets/{{TargetPathOnly}}/Morris/{{TargetWithoutPath}}.png"
+		},
 		
-// MISCELLANEOUS		
+		// NOSE OVERLAY
+		{
+			"LogName": "Morris - Seasonal Nose",
+			"Action": "EditImage",
+			"Target": "Characters/Morris_Spring, Characters/Morris_Summer, Characters/Morris_Fall, Characters/Morris_Winter, Characters/Morris_Winter2",
+			"FromFile": "assets/{{TargetPathOnly}}/Morris/Morris_nose.png",
+            "PatchMode": "Overlay",
+			"When":
+			{
+				"NoNose": "false",
+			},
+		},
+		
+		//APPEARANCE DATA 
+		{
+			"LogName": "Morris Appearance Data",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"TargetField": ["Morris", "Appearance"],
+			"Entries": {
+				
+				//Regular Outfits
+				"{{ModId}}.MorrisSpring": {
+					"Id": "{{ModId}}.MorrisSpring",
+					"Condition": "SEASON spring",
+					"Sprite": "Characters/Morris_Spring",
+					"Portrait": "Portraits/Morris_Spring",
+					"Precedence": -120,
+				},
+
+				"{{ModId}}.MorrisSummer": {
+					"Id": "{{ModId}}.MorrisSummer",
+					"Condition": "SEASON Summer",
+					"Sprite": "Characters/Morris_Summer",
+					"Portrait": "Portraits/Morris_Summer",
+					"Precedence": -120,
+				},
+				
+				"{{ModId}}.MorrisFall": {
+					"Id": "{{ModId}}.MorrisFall",
+					"Condition": "SEASON Fall",
+					"Sprite": "Characters/Morris_Fall",
+					"Portrait": "Portraits/Morris_Fall",
+					"Precedence": -120,
+				},
+				
+				"{{ModId}}.MorrisWinter": {
+					"Id": "{{ModId}}.MorrisWinter",
+					"Condition": "SEASON Winter",
+					"Sprite": "Characters/Morris_Winter",
+					"Portrait": "Portraits/Morris_Winter",
+					"Precedence": -120,
+				},
+				"{{ModId}}.MorrisWinter2": {
+					"Id": "{{ModId}}.MorrisWinter2",
+					"Condition": "SEASON Winter, RANDOM 0.2",
+					"Sprite": "Characters/Morris_Winter2",
+					"Portrait": "Portraits/Morris_Winter2",
+					"Precedence": -120,
+				},
+			},
+		},
+*/
+		
+// MISCELLANEOUS
 		{
 			"LogName": "Morris - Emoji",
 			"Action": "EditImage",

@@ -571,9 +571,6 @@
         {
             "Action": "Load", "Priority": "Low",
             "Target": "Data/Events/Blacksmith",
-            "When": {
-                "HasMod |contains=Arknir.Lucikiel": false
-            },
             "FromFile": "assets/XNBs/Blacksmith.xnb"
         },
     ]
